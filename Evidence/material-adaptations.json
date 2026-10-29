@@ -1,0 +1,346 @@
+{
+    "materials": [
+        {
+            "asset": "Assets/Material/Anniversary_Banners_Localized.mat",
+            "originalShader": "Unlit/Transparent Colored",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Texture2D/Anniversary_Banners_Localized.png"
+        },
+        {
+            "asset": "Assets/Material/Box01Mat.mat",
+            "originalShader": "Temple Run/WP8 (Custom Fog)",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Texture2D/wallTexture.png"
+        },
+        {
+            "asset": "Assets/Material/Box06Mat.mat",
+            "originalShader": "Temple Run/WP8 (Custom Fog)",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Texture2D/wallTexture.png"
+        },
+        {
+            "asset": "Assets/Material/Box07Mat.mat",
+            "originalShader": "Temple Run/WP8 (Custom Fog)",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Texture2D/wallTexture.png"
+        },
+        {
+            "asset": "Assets/Material/Character_Portrait_SpriteSheet.mat",
+            "originalShader": "Unlit/Transparent Colored",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Texture2D/Character_Portrait_SpriteSheet.png"
+        },
+        {
+            "asset": "Assets/Material/CharacterPortraits_spritesheet.mat",
+            "originalShader": "Unlit/Transparent Colored",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Texture2D/CharacterPortraits_spritesheet.png"
+        },
+        {
+            "asset": "Assets/Material/Cheboygan_Localized.mat",
+            "originalShader": "Unlit/Transparent Colored",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Texture2D/Cheboygan.png"
+        },
+        {
+            "asset": "Assets/Material/Cheboygan_Localized_V2.mat",
+            "originalShader": "Unlit/Transparent Colored",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Texture2D/Cheboygan.png"
+        },
+        {
+            "asset": "Assets/Material/EndGameButtons_new.mat",
+            "originalShader": "Unlit/Transparent Colored",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Texture2D/EndGameButtons_new.png"
+        },
+        {
+            "asset": "Assets/Material/GC Atlas.mat",
+            "originalShader": "Unlit/Transparent Colored",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Texture2D/GC Atlas.png"
+        },
+        {
+            "asset": "Assets/Material/GC Promo Atlas.mat",
+            "originalShader": "Unlit/Transparent Colored",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Texture2D/GC Promo Atlas.png"
+        },
+        {
+            "asset": "Assets/Material/Idol_Localized.mat",
+            "originalShader": "Unlit/Transparent Colored",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Texture2D/Idol_Localized.png"
+        },
+        {
+            "asset": "Assets/Material/New Character Screen.mat",
+            "originalShader": "Unlit/Transparent Colored",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Texture2D/New Character Screen.png"
+        },
+        {
+            "asset": "Assets/Material/New UI.mat",
+            "originalShader": "Unlit/Transparent Colored",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Texture2D/New UI.png"
+        },
+        {
+            "asset": "Assets/Material/orig_02___Default.mat",
+            "originalShader": "Imangi/Unlit/Opaque",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Texture2D/playerTexture.png"
+        },
+        {
+            "asset": "Assets/Material/orig_default.mat",
+            "originalShader": "Imangi/Unlit/Opaque",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Texture2D/enemyTexture.png"
+        },
+        {
+            "asset": "Assets/Material/Promo_Alerts.mat",
+            "originalShader": "Unlit/Transparent Colored",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Texture2D/Promo_Alerts.png"
+        },
+        {
+            "asset": "Assets/Material/Temple Run Material.mat",
+            "originalShader": "Imangi/MachuLightmap/Opaque VertexFog",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Texture2D/wallTexture.png"
+        },
+        {
+            "asset": "Assets/Material/Temple Run Trees Material.mat",
+            "originalShader": "Imangi/MachuLightmap/Opaque VertexFog",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Texture2D/treeTexture.png"
+        },
+        {
+            "asset": "Assets/Material/Temple_Anniversary_Confetti.mat",
+            "originalShader": "Particles/Standard Unlit",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Texture2D/Temple_Anniversary_Confetti.png"
+        },
+        {
+            "asset": "Assets/Material/Temple_Anniversary_Fireworks.mat",
+            "originalShader": "Particles/Standard Unlit",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Texture2D/Temple_Anniversary_Firework.png"
+        },
+        {
+            "asset": "Assets/Material/Temple_Anniversary_Opaque Material.mat",
+            "originalShader": "Imangi/Unlit/Opaque ConstColor",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Texture2D/Temple_Anniversary_Atlas.png"
+        },
+        {
+            "asset": "Assets/Material/Temple_Anniversary_Opaque Material_Low.mat",
+            "originalShader": "Imangi/Unlit/Opaque ConstColor",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Texture2D/Temple_Anniversary_Atlas_low.png"
+        },
+        {
+            "asset": "Assets/Material/Temple_Anniversary_VertexDisplacement.mat",
+            "originalShader": "AnniversaryTemple_VertexDisplacement",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Texture2D/Temple_Anniversary_Atlas.png"
+        },
+        {
+            "asset": "Assets/Material/Temple_Run_Brushed_localized_New.mat",
+            "originalShader": "Unlit/Transparent Colored",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Texture2D/Temple_Run_Brushed_Localized.png"
+        },
+        {
+            "asset": "Assets/Material/Temple_Run_Brushed_localized_V2.mat",
+            "originalShader": "Unlit/Transparent Colored",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Texture2D/Temple_Run_Brushed_Localized.png"
+        },
+        {
+            "asset": "Assets/Material/TemplrRunBrushed_Bold.mat",
+            "originalShader": "Unlit/Transparent Colored",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Texture2D/TempleRunBrushedBold.png"
+        },
+        {
+            "asset": "Assets/Material/Water.mat",
+            "originalShader": "Imangi/Unlit/Opaque",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Texture2D/terrainTexture.png"
+        },
+        {
+            "asset": "Assets/Material/Werbedeusch_Localized_New.mat",
+            "originalShader": "Unlit/Transparent Colored",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Texture2D/Werbrdeutsch_Localized.png"
+        },
+        {
+            "asset": "Assets/Material/Werbrdeutsch_Localized_V2.mat",
+            "originalShader": "Unlit/Transparent Colored",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Texture2D/Werbrdeutsch_Localized.png"
+        },
+        {
+            "asset": "Assets/Resources/deaths/Death Illustration.mat",
+            "originalShader": "Unlit/Transparent Colored (No Fog)",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Resources/deaths/deathIllustrationWater@2x.png"
+        },
+        {
+            "asset": "Assets/Resources/materials/bb_Export1-01 - Default.mat",
+            "originalShader": "Imangi/Unlit/Opaque",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Resources/textures/playerTexture_bb.png"
+        },
+        {
+            "asset": "Assets/Resources/materials/china_Export1-01 - Default.mat",
+            "originalShader": "Imangi/Unlit/Opaque",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Resources/textures/playerTexture_china.png"
+        },
+        {
+            "asset": "Assets/Resources/materials/conquis_Export1-09 - Default.mat",
+            "originalShader": "Imangi/Unlit/Opaque",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Resources/textures/playerTextureConq.png"
+        },
+        {
+            "asset": "Assets/Resources/materials/football_Export1-02 - Default.mat",
+            "originalShader": "Imangi/Unlit/Opaque",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Resources/textures/playerTexture_foot.png"
+        },
+        {
+            "asset": "Assets/Resources/materials/Frost_Pirate.mat",
+            "originalShader": "Imangi/Unlit/Opaque",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Resources/textures/Jean_Benitez_Frost_Pirate.png"
+        },
+        {
+            "asset": "Assets/Resources/materials/girl_Export1-01 - Default.mat",
+            "originalShader": "Imangi/Unlit/Opaque",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Resources/textures/playerTexture_grl.png"
+        },
+        {
+            "asset": "Assets/Resources/materials/HalloweenWerewolf_Export01.mat",
+            "originalShader": "Imangi/Unlit/Opaque",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Resources/textures/playerTextureHalloweenWerewolf.png"
+        },
+        {
+            "asset": "Assets/Resources/materials/indi_Export1-01 - Default.mat",
+            "originalShader": "Imangi/Unlit/Opaque",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Resources/textures/playerTexture_indi.png"
+        },
+        {
+            "asset": "Assets/Resources/materials/Joker_Clown_Girl_Export01.mat",
+            "originalShader": "Imangi/Unlit/Opaque",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Resources/textures/Joker_Clown_Girl.png"
+        },
+        {
+            "asset": "Assets/Resources/materials/MysticMonk_Export01.mat",
+            "originalShader": "Imangi/Unlit/Opaque",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Resources/textures/Mystic_Monk_Skin_Dragon_Flame.png"
+        },
+        {
+            "asset": "Assets/Resources/materials/Nidhi_Nirmal.mat",
+            "originalShader": "Imangi/Unlit/Opaque",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Resources/textures/Nidhi_Nirmal.png"
+        },
+        {
+            "asset": "Assets/Resources/materials/Queen_astrid.mat",
+            "originalShader": "Imangi/Unlit/Opaque",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Resources/textures/Dragon_Queen.png"
+        },
+        {
+            "asset": "Assets/Resources/materials/Scarecrow_Export01 - Default.mat",
+            "originalShader": "Imangi/Unlit/Opaque",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Resources/textures/playerTextureSkeleton.png"
+        },
+        {
+            "asset": "Assets/Resources/materials/SeleneAstronaut_Export01.mat",
+            "originalShader": "Imangi/Unlit/Opaque",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Resources/textures/playerTextureSeleneAstronaut.png"
+        },
+        {
+            "asset": "Assets/Resources/materials/Sigur_Chronous_Timebeard.mat",
+            "originalShader": "Imangi/Unlit/Opaque",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Resources/textures/Viking_Baldur_Skin_Chronos.png"
+        },
+        {
+            "asset": "Assets/Resources/materials/Simone_Davies_Commodore_Export01.mat",
+            "originalShader": "Imangi/Unlit/Opaque",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Resources/textures/Simone_Davies_Commodore.png"
+        },
+        {
+            "asset": "Assets/Resources/materials/Wally_Nut.mat",
+            "originalShader": "Imangi/Unlit/Opaque",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Resources/textures/Nutcracker.png"
+        },
+        {
+            "asset": "Assets/Resources/materials/XiXueGui_Export01.mat",
+            "originalShader": "Imangi/Unlit/Opaque",
+            "replacementShader": "Unlit/Texture",
+            "texture": "Assets/Resources/textures/playerTextureXiXueGui.png"
+        },
+        {
+            "asset": "Assets/Resources/ngui materials/Countdown Material.mat",
+            "originalShader": "Unlit/Transparent Colored",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Resources/fontCountdown.png"
+        },
+        {
+            "asset": "Assets/Resources/ngui materials/Effects Material.mat",
+            "originalShader": "Unlit/Premultiplied Alpha/Transparent Colored (+1)",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Resources/EffectsTexture2x.png"
+        },
+        {
+            "asset": "Assets/Resources/ngui materials/EndGame Material.mat",
+            "originalShader": "Unlit/Transparent Colored",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Resources/egUI_Buttons2x_previous.png"
+        },
+        {
+            "asset": "Assets/Resources/ngui materials/EndGame Overlay Material.mat",
+            "originalShader": "Unlit/Transparent Colored Overlay",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Resources/egUI_Buttons2x.png"
+        },
+        {
+            "asset": "Assets/Resources/ngui materials/Font Material.mat",
+            "originalShader": "Unlit/Transparent Colored",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Resources/FontAtlas2x.png"
+        },
+        {
+            "asset": "Assets/Resources/ngui materials/Game Interface Material.mat",
+            "originalShader": "Unlit/Transparent Colored",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Resources/InterfaceTexture2x.png"
+        },
+        {
+            "asset": "Assets/Resources/ngui materials/NoAds Material.mat",
+            "originalShader": "Unlit/Transparent Colored",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Resources/UI_NoAds2x.png"
+        },
+        {
+            "asset": "Assets/Resources/ngui materials/Tutorial Material.mat",
+            "originalShader": "Unlit/Transparent Colored",
+            "replacementShader": "Unlit/Transparent Cutout",
+            "texture": "Assets/Resources/Tutorial.png"
+        }
+    ]
+}

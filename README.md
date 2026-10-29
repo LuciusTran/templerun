@@ -1,29 +1,63 @@
 # Temple Run
 
-A Unity development project reconstructed from the supplied Temple Run 1.43.0 APK package. Extracted assets and native evidence are kept alongside the C# restoration so implementation decisions can be reviewed.
+A playable Unity development project reconstructed from the supplied **Temple Run 1.43.0** APK package, using extracted game assets and native-derived C# gameplay.
 
-## Source and tools
+## Open and play
 
-- Original engine: **Unity 2022.3.62f2**, Android ARM64, IL2CPP.
-- Development editor: **Unity 6000.4.12f1**. The exported project has completed an initial import; playable integration is in progress.
-- Analysis toolkit: [Reverse-Engineer-Game](https://github.com/LuciusTran/Reverse-Engineer-Game), with the existing local Cpp2IL, AssetRipper and Ghidra installations.
-- `Evidence/input-provenance.json`: input identities and SHA-256 digests.
-- `Evidence/apk-inventory.json`: package paths, sizes and file digests.
-- [Native method index](DecompiledNative/INDEX.md): 481 decompiled native bodies, with their original method bytes checked against the ARM64 library.
+1. Clone this repository and add its root folder to Unity Hub.
+2. Open it with **Unity 6000.4.12f1** and allow the first asset import to finish.
+3. Open **`Assets/Restoration/Scenes/TempleRun.unity`**.
+4. Press **Play**, then **RUN**.
 
-## Progress
+REA, Ghidra, the original APKs and other analysis tools are not required to play or develop this checkout.
 
-- [x] Inventory the XAPK, base APK and ARM64 split; identify Unity and IL2CPP.
-- [x] Export assets and the Unity project structure.
-- [x] Map 6,930 game/Unity method bodies and decompile 481 selected native bodies, including ground geometry.
-- [ ] Translate gameplay into C# and verify a complete player flow.
+| Action | Controls |
+|---|---|
+| Turn at a corner | Left/right arrows, Q/E, horizontal swipe, or on-screen buttons |
+| Tilt sideways | A/D; accelerometer on mobile platforms |
+| Jump | Space, W, up arrow, upward swipe, or JUMP |
+| Slide | S, down arrow, downward swipe, or SLIDE |
+| Pause/resume | P, Escape, or PAUSE |
+| Activate wings | F or the wings button |
 
-The original exported scene is `Assets/Scenes/GamePlay.unity`. Its scripts still contain metadata stubs; this scene is a reference rather than a verified playable build. Raw metadata declarations are stored outside `Assets` in `NativeMapWithAddresses/`.
+A wrong turn can cause a stumble. A second stumble inside the native recovery window ends the run. Wings, invincibility and boost provide their respective local recovery/assistance behavior.
 
-Native decompiler output is C/C++ pseudocode, not original C# source or a compilable C++ project. Unresolved runtime helpers and integration differences are recorded in `Evidence/`. Original APKs, native libraries, editor caches, credentials and tool binaries are excluded from Git.
+## Included flow
 
-All project documentation and newly authored code comments and UI use English. Original asset identifiers and serialized references are preserved.
+- Home → run → pause/resume → game over → wings revive/retry → home.
+- Original character meshes, legacy animation clips, terrain, corners, trees, pickups, guardians and audio.
+- Native-derived jump/slide/stumble state, scoring, coin bonus thresholds, boost and power-up timers.
+- An endless connected course with extracted obstacles, holes, narrow sections and coin pickups.
+- Local profile and run snapshots, including position, path, score, coins and airborne state.
+- Offline upgrades and utilities, with prices from the shipped game configuration.
+- Character selection; choose the next run's temple, plank or cliff environment in Settings.
 
-## Native-derived C# milestone
+Select **Temple Run Host** and enable `DeveloperUnlocks` in the Inspector to preview extracted characters and test purchases without earning currency.
 
-71 method bodies have been translated or explicitly adapted while preserving their existing MonoScript GUIDs. [The restoration map](Evidence/csharp-restoration-map.json) links each method to native evidence and identifies integration replacements. The C# implementation matches all **876 golden cases** captured from original ARM64 execution. The original road polygon also passes translated/rotated containment checks in Unity 6000.4.12f1. See [the editor verification report](Evidence/unity-native-core-verification.json). This verifies core behavior; complete player-flow integration is still in progress.
+## Development and verification
+
+- Runner rules: `Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs` and its `*.Recovered.cs` partial.
+- Path/region rules: `PathElement.cs`, `Region2D.cs`, `Obstacle.cs` and `MovingObject*.cs`.
+- Local integration: `Assets/Restoration/TempleRunFlow*.cs`.
+- Shipped runner, controls, coin and store data: `Assets/Resources/TempleRunNativeConfig.json`.
+- **Temple Run → Prepare Project** recreates the catalog and playable scene. Save customized scenes under another name first.
+
+Build with Unity Build Profiles, or call `TempleRunProjectBuilder.BuildLinux` in batch mode. The Linux player is written to `Builds/Linux/TempleRun`; build output is excluded from Git.
+
+```sh
+./Builds/Linux/TempleRun -batchmode -nographics --temple-test --report /absolute/path/report.json
+```
+
+The current Linux player passes **51 integration checks**, including **876 golden cases compared with original ARM64 execution**, real extracted ground geometry, save/continue, purchases, 17 corners, bounded endless-course retention and all three biome heights. The number of corner checks can vary with the generated course. Reports: [player flow](Evidence/player-smoke.json), [ARM64 verification](Evidence/native-logic-verification.json), [editor core verification](Evidence/unity-native-core-verification.json).
+
+## Source and recovery boundaries
+
+The original game uses **Unity 2022.3.62f2 / ARM64 IL2CPP**. Analysis used [Reverse-Engineer-Game](https://github.com/LuciusTran/Reverse-Engineer-Game), the existing local AssetRipper/Cpp2IL installations and targeted Ghidra decompilation.
+
+**71 exported C# method bodies** have native references in [the restoration map](Evidence/csharp-restoration-map.json). [481 native bodies](DecompiledNative/INDEX.md) are included as pseudocode references; their original method bytes were checked against the library. Raw metadata declarations outside `Assets` remain stubs.
+
+The playable scene uses an authored host/UI, track scheduler, input adapter and local JSON save system. Course distribution, camera presentation, guardian movement, material rendering and invincibility guidance approximate the original integrations. Original NGUI screens, intro choreography, automatic biome transitions, achievements and online/platform systems are not fully restored. The three environments are selected manually for each run. Character catalog ordering and its association with the shipped price list are local integration choices. Ads, IAP and analytics are not connected.
+
+`Assets/Scenes/GamePlay.unity` is the original exported reference scene and still depends on unimplemented script bodies. Use the playable scene above. This is a C# reconstruction based on native evidence, not original C# source or a claim of complete game equivalence. Android builds and physical mouse/touch/accelerometer input have not been verified.
+
+Input identities, asset inventory and tooling scope are retained under `Evidence/`. All authored documentation, comments and UI use English; original serialized asset identifiers and GUIDs are preserved. Original APKs, native libraries, editor caches, credentials and tool binaries are excluded from Git.

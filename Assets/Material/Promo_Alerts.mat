@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Promo_Alerts
-  m_Shader: {fileID: 4800000, guid: 53fa1212a69e6394e8009d09c5d47f2e, type: 3}
+  m_Shader: {fileID: 10751, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -19,15 +19,17 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties:
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _MainTex:
+    - _MainTex:
         m_Texture: {fileID: 2800000, guid: 936d6fddd98c8874c8d3213335aa0457, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Ints: {}
-    m_Floats: {}
-    m_Colors: {}
+    m_Ints: []
+    m_Floats:
+    - _Cutoff: 0.3
+    m_Colors: []
   m_BuildTextureStacks: []
+  m_AllowLocking: 1

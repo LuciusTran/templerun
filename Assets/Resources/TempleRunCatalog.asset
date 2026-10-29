@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db95cc98f8d0d1ceb2b6fc24078a3bc, type: 3}
+  m_Name: TempleRunCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::TempleRunCatalog
+  characters:
+  - {fileID: 1709254077376921, guid: 73c879a1686f8f04f81ad97ac97972e9, type: 3}
+  - {fileID: 1709254077376921, guid: 656f9ffa1d235a44480a2598698a5707, type: 3}
+  - {fileID: 1709254077376921, guid: 302aa4c3ea63f614c81de25e5a7118e1, type: 3}
+  - {fileID: 1709254077376921, guid: 2edff2331df14904eb47439f97bebf53, type: 3}
+  - {fileID: 1709254077376921, guid: a67c0eeaf9e27e943b81eed433022f07, type: 3}
+  - {fileID: 1709254077376921, guid: 680c9813ff395754e8dfb1214bb2cccf, type: 3}
+  - {fileID: 1709254077376921, guid: f7bfe38d495d75c4ab086ea6638b7b45, type: 3}
+  - {fileID: 1709254077376921, guid: 353e115c967803944975822898770390, type: 3}
+  - {fileID: 1709254077376921, guid: 5ddc0d52b3fa0b546b411e93ac54aba7, type: 3}
+  - {fileID: 1709254077376921, guid: b8b21dde31b5e9e40b37d7ea6a123a2b, type: 3}
+  - {fileID: 1709254077376921, guid: 8b240866cdaff804f81aa84c82ba3b09, type: 3}
+  - {fileID: 1709254077376921, guid: 0ac98e6928e70f9409d0035d7c706573, type: 3}
+  - {fileID: 1709254077376921, guid: 1544238ad9893e74dbf5fc755b4ea39a, type: 3}
+  - {fileID: 1709254077376921, guid: 4d37604f223d0a849b3b44ed01d755e4, type: 3}
+  - {fileID: 1709254077376921, guid: 90017f62c63dd624090cfa3ed32a7b01, type: 3}
+  - {fileID: 1709254077376921, guid: c9711d4d952652945a2ee4b1e5b35ed8, type: 3}
+  - {fileID: 1709254077376921, guid: f5ac0d28fc710d84eb93ccb057b38a9e, type: 3}
+  - {fileID: 1709254077376921, guid: 74bc9daabe75abc409edecb09052294a, type: 3}
+  - {fileID: 1709254077376921, guid: 1a8277b52d458ee4abf4c9d9efcfbe20, type: 3}
+  - {fileID: 1709254077376921, guid: 5185b6d6a557c0548b68218a8a989968, type: 3}
+  - {fileID: 1709254077376921, guid: 65c6036b92d791841aa79d1b981a2b1d, type: 3}
+  - {fileID: 1709254077376921, guid: 6930d3e36081ee349815900d792f06e4, type: 3}
+  - {fileID: 1709254077376921, guid: 8bac14b7122aa114d90b8bb5753193b3, type: 3}
+  - {fileID: 1709254077376921, guid: df74c9fbfd3d2da4396ce01dcb106f1a, type: 3}
+  - {fileID: 1709254077376921, guid: 561e3c479900419499657dab4018f334, type: 3}
+  characterNames:
+  - Guy Dangerous
+  - Frost Pirate
+  - Halloween Werewolf
+  - Joker Clown Girl
+  - Mystic Monk Kai
+  - Nidhi Nirmal
+  - Queen Astrid
+  - SeleneAstronaut
+  - Sigur Chronos Timebeard
+  - Simone Davies Commodore
+  - Skeleton
+  - Wally Nut
+  - XiXueGui
+  - bb Export1
+  - bb Export1
+  - china Export1
+  - china Export1
+  - conquis Export1
+  - conquis Export1
+  - football Export1
+  - football Export1
+  - girl Export1
+  - girl Export1
+  - indi Export1
+  - indi Export1

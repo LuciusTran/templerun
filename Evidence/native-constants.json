@@ -127,6 +127,26 @@
         1141145600,
         -1031497318
       ]
+    },
+    {
+      "ghidraAddress": "0x7a4120",
+      "elfVirtualAddress": "0x6a4120",
+      "fileOffset": 6963488,
+      "bytesHex": "0000c8410000c842",
+      "float32": [
+        25.0,
+        100.0
+      ]
+    },
+    {
+      "ghidraAddress": "0x7a4128",
+      "elfVirtualAddress": "0x6a4128",
+      "fileOffset": 6963496,
+      "bytesHex": "00806d4400e01245",
+      "float32": [
+        950.0,
+        2350.0
+      ]
     }
   ]
 }

@@ -1,0 +1,43 @@
+{
+  "sourceUnityVersion": "2022.3.62f2",
+  "developmentUnityVersion": "6000.4.12f1",
+  "scene": "Assets/Restoration/Scenes/TempleRun.unity",
+  "restoredExportedMethodBodies": 71,
+  "nativeReferenceBodies": 481,
+  "verifiedNativeGoldenCases": 876,
+  "integrationChecks": 51,
+  "nativeDerivedHelpers": [
+    {
+      "source": "CharacterPlayer.Recovered.cs",
+      "native": "DecompiledNative/CharacterPlayer/CharacterPlayer_Update_12bcdc4.cpp",
+      "coverage": "Frame state, timers, jump/slide/fall and gravity; original UI/material/platform branches replaced."
+    },
+    {
+      "source": "MovingObject.Recovered.cs",
+      "native": "DecompiledNative/MovingObject/MovingObject_Simulate_1308918.cpp",
+      "coverage": "Free-motion integration; following-path intro branch not restored."
+    },
+    {
+      "source": "TempleRunRules.cs",
+      "native": "DecompiledNative/GameController/GameController_HandleControls_1293988.cpp",
+      "coverage": "Acceleration curve and boost pacing; legacy input adapter replaced."
+    },
+    {
+      "source": "TempleRunRules.cs",
+      "native": "DecompiledNative/GameController/GameController_ComputeDistanceTraveled_129288c.cpp",
+      "coverage": "Squared-speed distance equation and fractional-score remainder; tutorial/UI branches omitted."
+    }
+  ],
+  "authoredIntegration": [
+    "Host/UI and local profile/run snapshots",
+    "Course scheduling, object retention and resource binding",
+    "Desktop/mobile input adapter",
+    "Local character catalog/shop association",
+    "Camera/guardians and guided invincibility bridge",
+    "Built-in shader replacements retaining extracted textures"
+  ],
+  "limitations": [
+    "Original NGUI/intro/online/platform systems and exact course distribution are not fully restored.",
+    "Scripted integration checks do not verify physical pointer/touch/accelerometer input or Android builds."
+  ]
+}
