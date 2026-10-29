@@ -1,0 +1,68 @@
+{
+  "scope": "Real Linux APK acquisition, AssetRipper Unity export, Cpp2IL annotated metadata export, and hash-verified checkpoint reuse through the installed skill/project wrapper.",
+  "toolingRepository": "https://github.com/LuciusTran/Reverse-Engineer-Game",
+  "toolingCommit": "e2f1580fa7f6529ab298b93889db367a5f8f538f",
+  "helperSha256": "ec4b960253300ff3817d18f6693079121b1fb3b486055b635dd104967f786437",
+  "installedHelperMatchesAuthored": true,
+  "inputs": [
+    {
+      "source": "/home/dong/Bản tải về/Temple+Run_1.43.0_APKPure.xapk",
+      "bytes": 181151052,
+      "sha256": "151eabad999a51ce24593d5a9e7d99421bdf46a5a89f61cab63a226fa67c9760"
+    }
+  ],
+  "archiveMembers": 2767,
+  "splitConflicts": [],
+  "backendInference": "il2cpp",
+  "unityVersionCandidates": ["2022.3.62f2"],
+  "metadataHeaderVersion": 31,
+  "cpp2ilVersion": "2022.1.0-pre-release.21+58fc404ac503f4e512055cafc48c03088fc6e224",
+  "stages": {
+    "AssetExport": {
+      "fileCount": 5471,
+      "bytes": 132943338,
+      "identity": {
+        "tool": "/mnt/Dreamy/FruitMerge-Reconstruction/Tools/AssetRipper/AssetRipper.GUI.Free",
+        "tool_sha256": "21ce7e76ffc64b56bedc113fe12876c10fdfa6851872a33c70a2c659b33f25b0",
+        "parameters": {}
+      },
+      "scope": "asset export"
+    },
+    "MetadataExport": {
+      "fileCount": 6541,
+      "bytes": 18721448,
+      "identity": {
+        "tool": "/mnt/Dreamy/FruitMerge-Reconstruction/Tools/Cpp2IL",
+        "tool_sha256": "526998e593c52c029c5a6215c5c6c9f9d963706bfc409fc9ff80a95c4c500349",
+        "parameters": {
+          "binary": "Merged/lib/arm64-v8a/libil2cpp.so",
+          "metadata": "Merged/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+          "unity_version": "2022.3.62f2",
+          "output_format": "diffable-cs",
+          "processor": "attributeanalyzer,attributeinjector"
+        }
+      },
+      "scope": "metadata declarations; executable bodies unverified"
+    }
+  },
+  "nativeAddressAttributeCount": 76939,
+  "completedCheckpointsReused": ["intake", "AssetExport", "MetadataExport"],
+  "wrapper": "Scripts/import_apk.py",
+  "localToolProfile": "~/.config/rea/game-recovery-tools.json",
+  "automatedChecks": {
+    "pythonArchiveCheckpointTests": 10,
+    "generatedSkillBoundaryTests": 4,
+    "reaBuildPassed": true,
+    "reaTypecheckLintPassed": true,
+    "npmDryRunIncludesHelperRoleAndReference": true,
+    "insideProjectDestinationRejected": true
+  },
+  "limitations": [
+    "No new gameplay/UI implementation was recovered in this automation verification.",
+    "Native Address attributes are producer coordinates, not byte-verified decompilation or original C# bodies.",
+    "Export counts do not establish complete asset coverage or playable equivalence.",
+    "Unity/player/Android verification was not rerun for documentation and intake-helper changes; existing gameplay/UI reports retain their original scope.",
+    "Ghidra/Hopper/IDA were not invoked by this acquisition/export helper.",
+    "Raw inputs, exports, full checkpoint manifests and logs are retained outside this Git repository."
+  ]
+}

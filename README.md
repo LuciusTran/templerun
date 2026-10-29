@@ -11,14 +11,14 @@ A playable Unity development project reconstructed from the supplied **Temple Ru
 
 REA, Ghidra, the original APKs and other analysis tools are not required to play or develop this checkout.
 
-| Action | Controls |
-|---|---|
-| Turn at a corner | Left/right arrows, Q/E, or horizontal swipe |
-| Tilt sideways | A/D; accelerometer on mobile platforms |
-| Jump | Space, W, up arrow, or upward swipe |
-| Slide | S, down arrow, or downward swipe |
-| Pause/resume | P, Escape, or the lower-right idol button |
-| Activate wings | F or double-tap the play area |
+| Action                    | Controls                                                                                             |
+| ------------------------- | ---------------------------------------------------------------------------------------------------- |
+| Turn at a corner          | Left/right arrows, Q/E, or horizontal swipe                                                          |
+| Tilt sideways             | A/D; accelerometer on mobile platforms                                                               |
+| Jump                      | Space, W, up arrow, or upward swipe                                                                  |
+| Slide                     | S, down arrow, or downward swipe                                                                     |
+| Pause/resume              | P, Escape, or the lower-right idol button                                                            |
+| Activate wings            | F or double-tap the play area                                                                        |
 | Local development helpers | C on home: continue snapshot; R after death: wings revive; 1/2/3 on home/options: plank/temple/cliff |
 
 A wrong turn can cause a stumble. A second stumble inside the native recovery window ends the run. Wings, invincibility and boost provide their respective local recovery/assistance behavior.
@@ -60,6 +60,20 @@ See [UI recovery and verification](Docs/UI-RECOVERY.md) for panel screenshots, p
 See [the latest APK logic audit](Docs/LOGIC-AUDIT.md) for corrected discrepancies and verification limits.
 
 See [recovery notes](Docs/RECOVERY.md) for evidence, tool responsibilities and repeatable verification.
+
+## Continue recovery or import another APK
+
+[APK workflow](Docs/APK-WORKFLOW.md) documents the reusable importer and local tool
+profile. Run `python3 Scripts/import_apk.py --input /path/Game.xapk --workspace
+/path/Game-Recovery` with the fork skill installed, or add `--rea-root` for its
+checkout. Input evidence stays outside this playable project.
+
+The repository includes `AGENTS.md` and the `$templerun-recovery` project skill.
+Read [recovery status](Docs/RECOVERY-STATUS.md) and [the flow map](Docs/FLOW-MAP.md)
+to continue native-backed gameplay and original UI work. The shared
+`$reverse-engineer-anything` skill drives new-game recovery from an APK, including
+actual intake/export automation and subsequent agent analysis. Asset/metadata
+exports do not automatically restore all IL2CPP implementations.
 
 ## Source and recovery boundaries
 
