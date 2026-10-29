@@ -1,0 +1,4620 @@
+{
+  "entries": [
+    {
+      "key": "",
+      "value": "[]m to next reward"
+    },
+    {
+      "key": "ACH_NAME_10K_RUNNER",
+      "value": "10K Runner"
+    },
+    {
+      "key": "ACH_NAME_10_MILLION_CLUB",
+      "value": "10 Million Club"
+    },
+    {
+      "key": "ACH_NAME_2.5_MILLION_CLUB",
+      "value": "2.5 Million Club"
+    },
+    {
+      "key": "ACH_NAME_5K_RUNNER",
+      "value": "5K Runner"
+    },
+    {
+      "key": "ACH_NAME_5_MILLION_CLUB",
+      "value": "5 Million Club"
+    },
+    {
+      "key": "ACH_NAME_ADVENTURER",
+      "value": "Adventurer"
+    },
+    {
+      "key": "ACH_NAME_ALLERGIC_TO_GOLD",
+      "value": "Allergic to Gold"
+    },
+    {
+      "key": "ACH_NAME_ALL_STAR",
+      "value": "All Star"
+    },
+    {
+      "key": "ACH_NAME_ATHLETE",
+      "value": "Athlete"
+    },
+    {
+      "key": "ACH_NAME_A_LITTLE_FURTHER",
+      "value": "A little further!"
+    },
+    {
+      "key": "ACH_NAME_BASIC_POWERS",
+      "value": "Basic Powers"
+    },
+    {
+      "key": "ACH_NAME_BOOSTER_SHOT",
+      "value": "Booster Shot"
+    },
+    {
+      "key": "ACH_NAME_CIRCUMNAVIGATOR",
+      "value": "Circumnavigator"
+    },
+    {
+      "key": "ACH_NAME_COIN_JUMPER",
+      "value": "Coin Jumper"
+    },
+    {
+      "key": "ACH_NAME_DOUBLE_RESURRECTION",
+      "value": "Double Resurrection"
+    },
+    {
+      "key": "ACH_NAME_DYNAMIC_DUO",
+      "value": "Dynamic Duo"
+    },
+    {
+      "key": "ACH_NAME_FAMOUS",
+      "value": "Famous"
+    },
+    {
+      "key": "ACH_NAME_FANTASTIC_FOUR",
+      "value": "Fantastic Four"
+    },
+    {
+      "key": "ACH_NAME_FOOT_IN_THE_WATER",
+      "value": "Foot in the Water"
+    },
+    {
+      "key": "ACH_NAME_FORT_KNOX",
+      "value": "Fort Knox"
+    },
+    {
+      "key": "ACH_NAME_GOLDEN_GOD",
+      "value": "Golden God"
+    },
+    {
+      "key": "ACH_NAME_GOLD_EXPLOSION",
+      "value": "Gold Explosion"
+    },
+    {
+      "key": "ACH_NAME_GOLD_MINER",
+      "value": "Gold Miner"
+    },
+    {
+      "key": "ACH_NAME_HALF_MILLION_CLUB",
+      "value": "1/2 Million Club"
+    },
+    {
+      "key": "ACH_NAME_HARD_WORKER",
+      "value": "Hard Worker"
+    },
+    {
+      "key": "ACH_NAME_HEAD_START",
+      "value": "Head Start"
+    },
+    {
+      "key": "ACH_NAME_HIGH_ROLLER",
+      "value": "High Roller"
+    },
+    {
+      "key": "ACH_NAME_INFINIRUNNER",
+      "value": "Infinirunner"
+    },
+    {
+      "key": "ACH_NAME_INVINCIBLE",
+      "value": "Invincible"
+    },
+    {
+      "key": "ACH_NAME_INVISIBLE",
+      "value": "Invisible"
+    },
+    {
+      "key": "ACH_NAME_JUST_ABOUT_THERE",
+      "value": "Just about there!"
+    },
+    {
+      "key": "ACH_NAME_KEEP_ON_GOING",
+      "value": "Keep on going!"
+    },
+    {
+      "key": "ACH_NAME_LUMP_SUM",
+      "value": "Lump Sum"
+    },
+    {
+      "key": "ACH_NAME_MAGNETIC_PERSONALITY",
+      "value": "Magnetic Personality"
+    },
+    {
+      "key": "ACH_NAME_MAGNET_MINER",
+      "value": "Magnet Miner"
+    },
+    {
+      "key": "ACH_NAME_MAKING_WAVES",
+      "value": "Making Waves"
+    },
+    {
+      "key": "ACH_NAME_MARATHONER",
+      "value": "Marathoner"
+    },
+    {
+      "key": "ACH_NAME_MEGA_BONUS",
+      "value": "Mega Bonus"
+    },
+    {
+      "key": "ACH_NAME_MEGA_RUNNER",
+      "value": "Mega Runner"
+    },
+    {
+      "key": "ACH_NAME_MIDAS_TOUCH",
+      "value": "Midas Touch"
+    },
+    {
+      "key": "ACH_NAME_MILLION_CLUB",
+      "value": "Million Club"
+    },
+    {
+      "key": "ACH_NAME_MINOR_MINER",
+      "value": "Minor Miner"
+    },
+    {
+      "key": "ACH_NAME_MISER_RUN",
+      "value": "Miser Run"
+    },
+    {
+      "key": "ACH_NAME_MONEY_BAGS",
+      "value": "Money Bags"
+    },
+    {
+      "key": "ACH_NAME_MONEY_BIN",
+      "value": "Money Bin"
+    },
+    {
+      "key": "ACH_NAME_NO.TRIP.RUNNER",
+      "value": "No.Trip.Runner"
+    },
+    {
+      "key": "ACH_NAME_NOVICE_RUNNER",
+      "value": "Novice Runner"
+    },
+    {
+      "key": "ACH_NAME_ON_A_RUN",
+      "value": "On a Run "
+    },
+    {
+      "key": "ACH_NAME_PARTICIPATION_TROPHY",
+      "value": "Participation Trophy"
+    },
+    {
+      "key": "ACH_NAME_PAYDAY",
+      "value": "Payday"
+    },
+    {
+      "key": "ACH_NAME_PIGGY_BANK",
+      "value": "Piggy Bank"
+    },
+    {
+      "key": "ACH_NAME_POCKET_CHANGE",
+      "value": "Pocket Change"
+    },
+    {
+      "key": "ACH_NAME_PRO_TEMPLE_RUNNER",
+      "value": "Pro Temple Runner"
+    },
+    {
+      "key": "ACH_NAME_QUARTER_MILLION_CLUB",
+      "value": "1/4 Million Club"
+    },
+    {
+      "key": "ACH_NAME_RESURRECTION",
+      "value": "Resurrection"
+    },
+    {
+      "key": "ACH_NAME_SEXY_SIX",
+      "value": "Sexy Six"
+    },
+    {
+      "key": "ACH_NAME_SPEED_DEMON",
+      "value": "Speed Demon"
+    },
+    {
+      "key": "ACH_NAME_SPRINTER",
+      "value": "Sprinter"
+    },
+    {
+      "key": "ACH_NAME_STEADY_FEET",
+      "value": "Steady Feet"
+    },
+    {
+      "key": "ACH_NAME_SUPER_POWERS",
+      "value": "Super Powers"
+    },
+    {
+      "key": "ACH_NAME_TEMPLE_RUNNER",
+      "value": "Temple Runner"
+    },
+    {
+      "key": "ACH_NAME_THE_ATTRACTOR",
+      "value": "The Attractor"
+    },
+    {
+      "key": "ACH_NAME_THE_COMPLETIONIST",
+      "value": "The Completionist   "
+    },
+    {
+      "key": "ACH_NAME_THE_ROCKET",
+      "value": "The Rocket"
+    },
+    {
+      "key": "ACH_NAME_THE_SPARTAN",
+      "value": "The Spartan"
+    },
+    {
+      "key": "ACH_NAME_TOE_IN_THE_WATER",
+      "value": "Toe in the Water"
+    },
+    {
+      "key": "ACH_NAME_TOP_OF_THE_WORLD",
+      "value": "Top of the world"
+    },
+    {
+      "key": "ACH_NAME_TREASURE_HUNTER",
+      "value": "Treasure Hunter"
+    },
+    {
+      "key": "ACH_NAME_UNBREAKABLE",
+      "value": "Unbreakable"
+    },
+    {
+      "key": "ACH_NAME_UP_AND_COMER",
+      "value": "Up and comer"
+    },
+    {
+      "key": "ACH_NAME_UP_TO_SPEED",
+      "value": "Up to Speed"
+    },
+    {
+      "key": "ACH_NAME_WALLPAPER",
+      "value": "Interior Decorator"
+    },
+    {
+      "key": "ACH_NAME_WORLD_WIDE_CHALLENGER",
+      "value": "World Wide Challenger"
+    },
+    {
+      "key": "ACH_POST_10K_RUNNER",
+      "value": "Ran 10,000 meters"
+    },
+    {
+      "key": "ACH_POST_10_MILLION_CLUB",
+      "value": "Scored 10,000,000 points"
+    },
+    {
+      "key": "ACH_POST_2.5_MILLION_CLUB",
+      "value": "Scored 2,500,000 points"
+    },
+    {
+      "key": "ACH_POST_5K_RUNNER",
+      "value": "Ran 5,000 meters"
+    },
+    {
+      "key": "ACH_POST_5_MILLION_CLUB",
+      "value": "Scored 5,000,000 points"
+    },
+    {
+      "key": "ACH_POST_ADVENTURER",
+      "value": "Scored 25,000 points"
+    },
+    {
+      "key": "ACH_POST_ALLERGIC_TO_GOLD",
+      "value": "1,000m collecting no coins"
+    },
+    {
+      "key": "ACH_POST_ALL_STAR",
+      "value": "Played in 10 Weekly Challenges"
+    },
+    {
+      "key": "ACH_POST_ATHLETE",
+      "value": "Ran 2,500 meters"
+    },
+    {
+      "key": "ACH_POST_A_LITTLE_FURTHER",
+      "value": "Used 2 \"Revives\" in a single run"
+    },
+    {
+      "key": "ACH_POST_BASIC_POWERS",
+      "value": "All Level 1 Powerups"
+    },
+    {
+      "key": "ACH_POST_BOOSTER_SHOT",
+      "value": "5 Boosts in a game"
+    },
+    {
+      "key": "ACH_POST_CIRCUMNAVIGATOR",
+      "value": "1,000,000 Lifetime Meters"
+    },
+    {
+      "key": "ACH_POST_COIN_JUMPER",
+      "value": "5 Coin Powerups in a game"
+    },
+    {
+      "key": "ACH_POST_DOUBLE_RESURRECTION",
+      "value": "Used Resurrection Wings twice in one run."
+    },
+    {
+      "key": "ACH_POST_DYNAMIC_DUO",
+      "value": "Unlocked Two Characters"
+    },
+    {
+      "key": "ACH_POST_FAMOUS",
+      "value": "Reached Legend tier in 4 Weekly Challenges"
+    },
+    {
+      "key": "ACH_POST_FANTASTIC_FOUR",
+      "value": "Unlocked Four Characters"
+    },
+    {
+      "key": "ACH_POST_FOOT_IN_THE_WATER",
+      "value": "Participated in one \"Cumulative\" Weekly Challenge"
+    },
+    {
+      "key": "ACH_POST_FORT_KNOX",
+      "value": "Collected 5,000 coins"
+    },
+    {
+      "key": "ACH_POST_GOLDEN_GOD",
+      "value": "20 Coin Powerups in a game"
+    },
+    {
+      "key": "ACH_POST_GOLD_EXPLOSION",
+      "value": "10 Coin Powerups in a game"
+    },
+    {
+      "key": "ACH_POST_GOLD_MINER",
+      "value": "500,000 Lifetime Coins"
+    },
+    {
+      "key": "ACH_POST_HALF_MILLION_CLUB",
+      "value": "Scored 500,000 points"
+    },
+    {
+      "key": "ACH_POST_HARD_WORKER",
+      "value": "Reached Legend tier in 1 Weekly Challenge"
+    },
+    {
+      "key": "ACH_POST_HEAD_START",
+      "value": "Used a Head Start"
+    },
+    {
+      "key": "ACH_POST_HIGH_ROLLER",
+      "value": "Scored 100,000 points"
+    },
+    {
+      "key": "ACH_POST_INFINIRUNNER",
+      "value": "10,000,000 Lifetime Meters"
+    },
+    {
+      "key": "ACH_POST_INVINCIBLE",
+      "value": "20 Invisibilities in a game"
+    },
+    {
+      "key": "ACH_POST_INVISIBLE",
+      "value": "5 Invisibilities in a game"
+    },
+    {
+      "key": "ACH_POST_JUST_ABOUT_THERE",
+      "value": "Used 3 \"Revives\" in a single run"
+    },
+    {
+      "key": "ACH_POST_KEEP_ON_GOING",
+      "value": "Used 1 \"Revive\" in a single run"
+    },
+    {
+      "key": "ACH_POST_LUMP_SUM",
+      "value": "Collected 500 coins"
+    },
+    {
+      "key": "ACH_POST_MAGNETIC_PERSONALITY",
+      "value": "10 Magnets in a game"
+    },
+    {
+      "key": "ACH_POST_MAGNET_MINER",
+      "value": "5 Magnets in a game"
+    },
+    {
+      "key": "ACH_POST_MAKING_WAVES",
+      "value": "Placed in the Top 10 on a leaderboard"
+    },
+    {
+      "key": "ACH_POST_MARATHONER",
+      "value": "100,000 Lifetime Meters"
+    },
+    {
+      "key": "ACH_POST_MEGA_BONUS",
+      "value": "Filled the bonus meter 4x"
+    },
+    {
+      "key": "ACH_POST_MEGA_RUNNER",
+      "value": "Played over 10,000 games"
+    },
+    {
+      "key": "ACH_POST_MIDAS_TOUCH",
+      "value": "1,000,000 Lifetime Coins"
+    },
+    {
+      "key": "ACH_POST_MILLION_CLUB",
+      "value": "Scored 1,000,000 points"
+    },
+    {
+      "key": "ACH_POST_MINOR_MINER",
+      "value": "100,000 Lifetime Coins"
+    },
+    {
+      "key": "ACH_POST_MISER_RUN",
+      "value": "500m collecting no coins"
+    },
+    {
+      "key": "ACH_POST_MONEY_BAGS",
+      "value": "Collected 1,000 coins"
+    },
+    {
+      "key": "ACH_POST_MONEY_BIN",
+      "value": "Collected 2,500 coins"
+    },
+    {
+      "key": "ACH_POST_NO.TRIP.RUNNER",
+      "value": "Ran 5,000 meters without tripping"
+    },
+    {
+      "key": "ACH_POST_NOVICE_RUNNER",
+      "value": "Ran 500 meters"
+    },
+    {
+      "key": "ACH_POST_ON_A_RUN",
+      "value": "Reached Legend tier in 2 Weekly Challenges"
+    },
+    {
+      "key": "ACH_POST_PARTICIPATION_TROPHY",
+      "value": "Played in 1 Weekly Challenge"
+    },
+    {
+      "key": "ACH_POST_PAYDAY",
+      "value": "Collected 750 coins"
+    },
+    {
+      "key": "ACH_POST_PIGGY_BANK",
+      "value": "Collected 250 coins"
+    },
+    {
+      "key": "ACH_POST_POCKET_CHANGE",
+      "value": "Collected 100 coins"
+    },
+    {
+      "key": "ACH_POST_PRO_TEMPLE_RUNNER",
+      "value": "Played over 5,000 games"
+    },
+    {
+      "key": "ACH_POST_QUARTER_MILLION_CLUB",
+      "value": "Scored 250,000 points"
+    },
+    {
+      "key": "ACH_POST_RESURRECTION",
+      "value": "Used Resurrection Wings utility in a game."
+    },
+    {
+      "key": "ACH_POST_SEXY_SIX",
+      "value": "Unlocked 6 characters"
+    },
+    {
+      "key": "ACH_POST_SPEED_DEMON",
+      "value": "10 Boosts in a game"
+    },
+    {
+      "key": "ACH_POST_SPRINTER",
+      "value": "Ran 1,000 meters"
+    },
+    {
+      "key": "ACH_POST_STEADY_FEET",
+      "value": "Ran 2,500m without tripping"
+    },
+    {
+      "key": "ACH_POST_SUPER_POWERS",
+      "value": "All Level 5 Powerups"
+    },
+    {
+      "key": "ACH_POST_TEMPLE_RUNNER",
+      "value": "Played over 1,000 games"
+    },
+    {
+      "key": "ACH_POST_THE_ATTRACTOR",
+      "value": "20 Magnets in a game"
+    },
+    {
+      "key": "ACH_POST_THE_COMPLETIONIST",
+      "value": "Reached Legend tier in 5 Weekly Challenges"
+    },
+    {
+      "key": "ACH_POST_THE_ROCKET",
+      "value": "20 Boosts in a game"
+    },
+    {
+      "key": "ACH_POST_THE_SPARTAN",
+      "value": "1 million without powerups"
+    },
+    {
+      "key": "ACH_POST_TOE_IN_THE_WATER",
+      "value": "Participated in one \"Single Run\" Weekly Challenge"
+    },
+    {
+      "key": "ACH_POST_TOP_OF_THE_WORLD",
+      "value": "Placed in the top 5 on a leaderboard"
+    },
+    {
+      "key": "ACH_POST_TREASURE_HUNTER",
+      "value": "Scored 50,000 points"
+    },
+    {
+      "key": "ACH_POST_UNBREAKABLE",
+      "value": "10 Invisibilities in a game"
+    },
+    {
+      "key": "ACH_POST_UP_AND_COMER",
+      "value": "Played in 5 Weekly Challenges"
+    },
+    {
+      "key": "ACH_POST_UP_TO_SPEED",
+      "value": "Completed the tutorial"
+    },
+    {
+      "key": "ACH_POST_WALLPAPER",
+      "value": "Unlocked 3 wallpapers"
+    },
+    {
+      "key": "ACH_POST_WORLD_WIDE_CHALLENGER",
+      "value": "Reached Legend tier in 3 Weekly Challenges"
+    },
+    {
+      "key": "ACH_PRE_10K_RUNNER",
+      "value": "Run 10,000 meters"
+    },
+    {
+      "key": "ACH_PRE_10_MILLION_CLUB",
+      "value": "Score 10,000,000 points"
+    },
+    {
+      "key": "ACH_PRE_2.5_MILLION_CLUB",
+      "value": "Score 2,500,000 points"
+    },
+    {
+      "key": "ACH_PRE_5K_RUNNER",
+      "value": "Run 5,000 meters"
+    },
+    {
+      "key": "ACH_PRE_5_MILLION_CLUB",
+      "value": "Score 5,000,000 points"
+    },
+    {
+      "key": "ACH_PRE_ADVENTURER",
+      "value": "Score 25,000 points"
+    },
+    {
+      "key": "ACH_PRE_ALLERGIC_TO_GOLD",
+      "value": "1,000m collecting no coins"
+    },
+    {
+      "key": "ACH_PRE_ALL_STAR",
+      "value": "Play in 10 Weekly Challenges"
+    },
+    {
+      "key": "ACH_PRE_ATHLETE",
+      "value": "Run 2,500 meters"
+    },
+    {
+      "key": "ACH_PRE_A_LITTLE_FURTHER",
+      "value": "Use 2 \"Revives\" in a single run"
+    },
+    {
+      "key": "ACH_PRE_BASIC_POWERS",
+      "value": "All Level 1 Powerups"
+    },
+    {
+      "key": "ACH_PRE_BOOSTER_SHOT",
+      "value": "5 Boosts in a game"
+    },
+    {
+      "key": "ACH_PRE_CIRCUMNAVIGATOR",
+      "value": "1,000,000 Lifetime Meters"
+    },
+    {
+      "key": "ACH_PRE_COIN_JUMPER",
+      "value": "5 Coin Powerups in a game"
+    },
+    {
+      "key": "ACH_PRE_DOUBLE_RESURRECTION",
+      "value": "Use Resurrection Wings twice in one run."
+    },
+    {
+      "key": "ACH_PRE_DYNAMIC_DUO",
+      "value": "Unlock Two Characters"
+    },
+    {
+      "key": "ACH_PRE_FAMOUS",
+      "value": "Reach Legend tier in 4 Weekly Challenges"
+    },
+    {
+      "key": "ACH_PRE_FANTASTIC_FOUR",
+      "value": "Unlock Four Characters"
+    },
+    {
+      "key": "ACH_PRE_FOOT_IN_THE_WATER",
+      "value": "Participate in one \"Cumulative\" Weekly Challenge"
+    },
+    {
+      "key": "ACH_PRE_FORT_KNOX",
+      "value": "Collect 5,000 coins"
+    },
+    {
+      "key": "ACH_PRE_GOLDEN_GOD",
+      "value": "20 Coin Powerups in a game"
+    },
+    {
+      "key": "ACH_PRE_GOLD_EXPLOSION",
+      "value": "10 Coin Powerups in a game"
+    },
+    {
+      "key": "ACH_PRE_GOLD_MINER",
+      "value": "500,000 Lifetime Coins"
+    },
+    {
+      "key": "ACH_PRE_HALF_MILLION_CLUB",
+      "value": "Score 500,000 points"
+    },
+    {
+      "key": "ACH_PRE_HARD_WORKER",
+      "value": "Reach Legend tier in 1 Weekly Challenge"
+    },
+    {
+      "key": "ACH_PRE_HEAD_START",
+      "value": "Use a Head Start"
+    },
+    {
+      "key": "ACH_PRE_HIGH_ROLLER",
+      "value": "Score 100,000 points"
+    },
+    {
+      "key": "ACH_PRE_INFINIRUNNER",
+      "value": "10,000,000 Lifetime Meters"
+    },
+    {
+      "key": "ACH_PRE_INVINCIBLE",
+      "value": "20 Invisibilities in a game"
+    },
+    {
+      "key": "ACH_PRE_INVISIBLE",
+      "value": "5 Invisibilities in a game"
+    },
+    {
+      "key": "ACH_PRE_JUST_ABOUT_THERE",
+      "value": "Use 3 \"Revives\" in a single run"
+    },
+    {
+      "key": "ACH_PRE_KEEP_ON_GOING",
+      "value": "Use 1 \"Revive\" in a single run"
+    },
+    {
+      "key": "ACH_PRE_LUMP_SUM",
+      "value": "Collect 500 coins"
+    },
+    {
+      "key": "ACH_PRE_MAGNETIC_PERSONALITY",
+      "value": "10 Magnets in a game"
+    },
+    {
+      "key": "ACH_PRE_MAGNET_MINER",
+      "value": "5 Magnets in a game"
+    },
+    {
+      "key": "ACH_PRE_MAKING_WAVES",
+      "value": "Place in the Top 10 on a leaderboard"
+    },
+    {
+      "key": "ACH_PRE_MARATHONER",
+      "value": "100,000 Lifetime Meters"
+    },
+    {
+      "key": "ACH_PRE_MEGA_BONUS",
+      "value": "Fill  the bonus meter 4x"
+    },
+    {
+      "key": "ACH_PRE_MEGA_RUNNER",
+      "value": "Play over 10,000 games"
+    },
+    {
+      "key": "ACH_PRE_MIDAS_TOUCH",
+      "value": "1,000,000 Lifetime Coins"
+    },
+    {
+      "key": "ACH_PRE_MILLION_CLUB",
+      "value": "Score 1,000,000 points"
+    },
+    {
+      "key": "ACH_PRE_MINOR_MINER",
+      "value": "100,000 Lifetime Coins"
+    },
+    {
+      "key": "ACH_PRE_MISER_RUN",
+      "value": "500m collecting no coins"
+    },
+    {
+      "key": "ACH_PRE_MONEY_BAGS",
+      "value": "Collect 1,000 coins"
+    },
+    {
+      "key": "ACH_PRE_MONEY_BIN",
+      "value": "Collect 2,500 coins"
+    },
+    {
+      "key": "ACH_PRE_NO.TRIP.RUNNER",
+      "value": "Run 5,000 meters without tripping"
+    },
+    {
+      "key": "ACH_PRE_NOVICE_RUNNER",
+      "value": "Run 500 meters"
+    },
+    {
+      "key": "ACH_PRE_ON_A_RUN",
+      "value": "Reach Legend tier in 2 Weekly Challenges"
+    },
+    {
+      "key": "ACH_PRE_PARTICIPATION_TROPHY",
+      "value": "Play in 1 Weekly Challenge"
+    },
+    {
+      "key": "ACH_PRE_PAYDAY",
+      "value": "Collect 750 coins"
+    },
+    {
+      "key": "ACH_PRE_PIGGY_BANK",
+      "value": "Collect 250 coins"
+    },
+    {
+      "key": "ACH_PRE_POCKET_CHANGE",
+      "value": "Collect 100 coins"
+    },
+    {
+      "key": "ACH_PRE_PRO_TEMPLE_RUNNER",
+      "value": "Play over 5,000 games"
+    },
+    {
+      "key": "ACH_PRE_QUARTER_MILLION_CLUB",
+      "value": "Score 250,000 points"
+    },
+    {
+      "key": "ACH_PRE_RESURRECTION",
+      "value": "Use Resurrection Wings utility in a game."
+    },
+    {
+      "key": "ACH_PRE_SEXY_SIX",
+      "value": "Unlock 6 characters"
+    },
+    {
+      "key": "ACH_PRE_SPEED_DEMON",
+      "value": "10 Boosts in a game"
+    },
+    {
+      "key": "ACH_PRE_SPRINTER",
+      "value": "Run 1,000 meters"
+    },
+    {
+      "key": "ACH_PRE_STEADY_FEET",
+      "value": "Run 2,500m without tripping"
+    },
+    {
+      "key": "ACH_PRE_SUPER_POWERS",
+      "value": "All Level 5 Powerups"
+    },
+    {
+      "key": "ACH_PRE_TEMPLE_RUNNER",
+      "value": "Play over 1,000 games"
+    },
+    {
+      "key": "ACH_PRE_THE_ATTRACTOR",
+      "value": "20 Magnets in a game"
+    },
+    {
+      "key": "ACH_PRE_THE_COMPLETIONIST",
+      "value": "Reach Legend tier in 5 Weekly Challenges"
+    },
+    {
+      "key": "ACH_PRE_THE_ROCKET",
+      "value": "20 Boosts in a game"
+    },
+    {
+      "key": "ACH_PRE_THE_SPARTAN",
+      "value": "1 million without powerups"
+    },
+    {
+      "key": "ACH_PRE_TOE_IN_THE_WATER",
+      "value": "Participate in one \"Single Run\" Weekly Challenge"
+    },
+    {
+      "key": "ACH_PRE_TOP_OF_THE_WORLD",
+      "value": "Place in the top 5 on a leaderboard"
+    },
+    {
+      "key": "ACH_PRE_TREASURE_HUNTER",
+      "value": "Score 50,000 points"
+    },
+    {
+      "key": "ACH_PRE_UNBREAKABLE",
+      "value": "10 Invisibilities in a game"
+    },
+    {
+      "key": "ACH_PRE_UP_AND_COMER",
+      "value": "Play in 5 Weekly Challenges"
+    },
+    {
+      "key": "ACH_PRE_UP_TO_SPEED",
+      "value": "Complete the tutorial"
+    },
+    {
+      "key": "ACH_PRE_WALLPAPER",
+      "value": "Unlock 3 wallpapers"
+    },
+    {
+      "key": "ACH_PRE_WORLD_WIDE_CHALLENGER",
+      "value": "Reach Legend tier in 3 Weekly Challenges"
+    },
+    {
+      "key": "CoinStoreNagActionButton",
+      "value": "FREE Coins!"
+    },
+    {
+      "key": "CoinStoreNagCancelButton",
+      "value": "No Thanks"
+    },
+    {
+      "key": "CoinStoreNagDescription",
+      "value": "Watch videos or complete other offers for coins in the FREE Offers section of the Coin Store!"
+    },
+    {
+      "key": "CoinStoreNagTitle",
+      "value": "Want FREE Coins?"
+    },
+    {
+      "key": "DeathCaptionBurnt1",
+      "value": "Mmmm, crispy explorer."
+    },
+    {
+      "key": "DeathCaptionBurnt2",
+      "value": "Smells like toast."
+    },
+    {
+      "key": "DeathCaptionBurnt3",
+      "value": "Having a bad hair day?"
+    },
+    {
+      "key": "DeathCaptionBurnt4",
+      "value": "I just had that dry cleaned!"
+    },
+    {
+      "key": "DeathCaptionBurntConq",
+      "value": "Warning: Armor Not Fireproof."
+    },
+    {
+      "key": "DeathCaptionEaten1",
+      "value": "You made a tasty snack."
+    },
+    {
+      "key": "DeathCaptionEaten2",
+      "value": "I eat explorers like you for breakfast."
+    },
+    {
+      "key": "DeathCaptionEaten3",
+      "value": "Nom nom... leathery!"
+    },
+    {
+      "key": "DeathCaptionEaten4",
+      "value": "Tackled just before the endzone!"
+    },
+    {
+      "key": "DeathCaptionEatenConq",
+      "value": "This one has a shell!"
+    },
+    {
+      "key": "DeathCaptionEatenFootball",
+      "value": "Tackled!"
+    },
+    {
+      "key": "DeathCaptionFall1",
+      "value": "You fell to your death."
+    },
+    {
+      "key": "DeathCaptionFall2",
+      "value": "Aaaaaaaah!"
+    },
+    {
+      "key": "DeathCaptionFall3",
+      "value": "You fell to your death."
+    },
+    {
+      "key": "DeathCaptionFall4",
+      "value": "But I'm scared of heights!"
+    },
+    {
+      "key": "DeathCaptionFall5",
+      "value": "End of the road..."
+    },
+    {
+      "key": "DeathCaptionFall6",
+      "value": "Mind the gap."
+    },
+    {
+      "key": "DeathCaptionFall7",
+      "value": "Missed it by *that* much."
+    },
+    {
+      "key": "DeathCaptionFallBigB1",
+      "value": "Not again!"
+    },
+    {
+      "key": "DeathCaptionFallBigB2",
+      "value": "I'm reporting this safety violation!"
+    },
+    {
+      "key": "DeathCaptionFallChina1",
+      "value": "I knew I should have learned how to fly!"
+    },
+    {
+      "key": "DeathCaptionFallConq",
+      "value": "Adios!"
+    },
+    {
+      "key": "DeathCaptionFallFootball",
+      "value": "Good thing I wore my helmet!"
+    },
+    {
+      "key": "DeathCaptionFossil1",
+      "value": "Simply mystifying!"
+    },
+    {
+      "key": "DeathCaptionFossil2",
+      "value": "An ancient dance of hokey pokey."
+    },
+    {
+      "key": "DeathCaptionLedge1",
+      "value": "Watch your step..."
+    },
+    {
+      "key": "DeathCaptionLedge2",
+      "value": "Temple slippery when wet."
+    },
+    {
+      "key": "DeathCaptionSceneryRock1",
+      "value": "Harder than it looks..."
+    },
+    {
+      "key": "DeathCaptionSceneryRock2",
+      "value": "Good thing I have a hard head!"
+    },
+    {
+      "key": "DeathCaptionSceneryRock3",
+      "value": "My helmet didn't even help..."
+    },
+    {
+      "key": "DeathCaptionSlide1",
+      "value": "Hard to run without a head."
+    },
+    {
+      "key": "DeathCaptionSlide2",
+      "value": "Don't forget to duck!"
+    },
+    {
+      "key": "DeathCaptionSlide3",
+      "value": "Knocked your socks off!"
+    },
+    {
+      "key": "DeathCaptionSlide4",
+      "value": "Looks like I'm stuck here a while."
+    },
+    {
+      "key": "DeathCaptionSlide5",
+      "value": "Don't look at my hairy legs!"
+    },
+    {
+      "key": "DeathCaptionSlideBigB1",
+      "value": "Should have worn my nice socks."
+    },
+    {
+      "key": "DeathCaptionSlideChina1",
+      "value": "Time to go back to Limbo 101."
+    },
+    {
+      "key": "DeathCaptionTangle1",
+      "value": "All tangled up..."
+    },
+    {
+      "key": "DeathCaptionTangle2",
+      "value": "Caught you!"
+    },
+    {
+      "key": "DeathCaptionTangle3",
+      "value": "Untied laces cause accidents."
+    },
+    {
+      "key": "DeathCaptionTangle4",
+      "value": "I've gotta bad feeling about this..."
+    },
+    {
+      "key": "DeathCaptionTangle5",
+      "value": "If only I had my lighter..."
+    },
+    {
+      "key": "DeathCaptionTangleBigB1",
+      "value": "This is not how I imagined my retirement."
+    },
+    {
+      "key": "DeathCaptionTangleBigB2",
+      "value": "Wonder where these skulls came from?"
+    },
+    {
+      "key": "DeathCaptionTangleChina1",
+      "value": "That's just unsanitary!"
+    },
+    {
+      "key": "DeathCaptionTangleConq",
+      "value": "That looks like Uncle Hernan!"
+    },
+    {
+      "key": "DeathCaptionTree1",
+      "value": "Tree Hugger!"
+    },
+    {
+      "key": "DeathCaptionTree2",
+      "value": "Trees hurt."
+    },
+    {
+      "key": "DeathCaptionTree3",
+      "value": "Are we bugging you?"
+    },
+    {
+      "key": "DeathCaptionTree4",
+      "value": "Ants. Why did it have to be ants?"
+    },
+    {
+      "key": "DeathCaptionTree5",
+      "value": "I always make a good impression."
+    },
+    {
+      "key": "DeathCaptionTree6",
+      "value": "I'll just leave that here."
+    },
+    {
+      "key": "DeathCaptionTreeBigB1",
+      "value": "Who left this tree here?"
+    },
+    {
+      "key": "DeathCaptionTreeChina1",
+      "value": "I left my mark on the world."
+    },
+    {
+      "key": "DeathCaptionTreeConq",
+      "value": "At least my hat is safe."
+    },
+    {
+      "key": "DeathCaptionTreeFootball",
+      "value": "I need a time out"
+    },
+    {
+      "key": "DeathCaptionTreeScenery1",
+      "value": "Two lovebirds..."
+    },
+    {
+      "key": "DeathCaptionTreeScenery2",
+      "value": "Mind if I hang out?"
+    },
+    {
+      "key": "DeathCaptionTreeScenery3",
+      "value": "I didn't see that there."
+    },
+    {
+      "key": "DeathCaptionTreeScenery4",
+      "value": "It hurts the tree more than me."
+    },
+    {
+      "key": "DeathCaptionTreeScenery5",
+      "value": "Not my hat!!!"
+    },
+    {
+      "key": "DeathCaptionTreeScenery6",
+      "value": "I'm not the same without my hat!"
+    },
+    {
+      "key": "DeathCaptionWater1",
+      "value": "You made a tasty snack."
+    },
+    {
+      "key": "DeathCaptionWater2",
+      "value": "Feeding time!"
+    },
+    {
+      "key": "DeathCaptionWater3",
+      "value": "Swimming with the fishes."
+    },
+    {
+      "key": "DeathCaptionWater4",
+      "value": "Snakes!? I hate snakes!"
+    },
+    {
+      "key": "DeathCaptionWater5",
+      "value": "Bubble, bubble, bubble..."
+    },
+    {
+      "key": "DeathCaptionWater6",
+      "value": "Where did you go?"
+    },
+    {
+      "key": "DeathCaptionWaterBigB1",
+      "value": "Who let Barney out of his cage?"
+    },
+    {
+      "key": "DeathCaptionWaterBigB2",
+      "value": "So close."
+    },
+    {
+      "key": "DeathCaptionWaterChina1",
+      "value": "Is someone watching me?"
+    },
+    {
+      "key": "DeathCaptionWaterFootball",
+      "value": "Man down!"
+    },
+    {
+      "key": "EndGameAchievementsMultiplier",
+      "value": "Multiplier:"
+    },
+    {
+      "key": "EndGameAchievementsNextObjective",
+      "value": "Next Objective:"
+    },
+    {
+      "key": "EndGameMessageCoins",
+      "value": "Coins:"
+    },
+    {
+      "key": "EndGameMessageDistance",
+      "value": "Distance:"
+    },
+    {
+      "key": "EndGameMessageMultiplier",
+      "value": "Multiplier:"
+    },
+    {
+      "key": "EndGameMessageYourBestScore",
+      "value": "Your Best Score!!!"
+    },
+    {
+      "key": "ExitGameActionButton",
+      "value": "Yes"
+    },
+    {
+      "key": "ExitGameCancelButton",
+      "value": "No"
+    },
+    {
+      "key": "ExitGameDescription",
+      "value": "Your progress will be lost! Are you sure you want to exit?"
+    },
+    {
+      "key": "ExitGameTitle",
+      "value": "Exit Game"
+    },
+    {
+      "key": "FacebookLikeURL",
+      "value": "https://www.facebook.com/TempleRun"
+    },
+    {
+      "key": "FollowUsURL",
+      "value": "https://mobile.twitter.com/templerun"
+    },
+    {
+      "key": "FollowUsURL2",
+      "value": "https://www.twitter.com/templerun"
+    },
+    {
+      "key": "GC_CoinsOverTime",
+      "value": "Coins Over Time"
+    },
+    {
+      "key": "GC_CoinsPerRun",
+      "value": "Coins Per Run"
+    },
+    {
+      "key": "GC_CumulativeDistance",
+      "value": "Cumulative Distance"
+    },
+    {
+      "key": "GC_CumulativeScore",
+      "value": "Cumulative Score"
+    },
+    {
+      "key": "GC_DistancePerRun",
+      "value": "Distance Per Run"
+    },
+    {
+      "key": "GC_FTUE_PromoText",
+      "value": "Complete challenge milestones to get rewards!"
+    },
+    {
+      "key": "GC_NOTIFICATION_END_1",
+      "value": "Let's hustle! Only {0} left before {1} disappears!"
+    },
+    {
+      "key": "GC_NOTIFICATION_END_2",
+      "value": "Keep running! You have {0} to seize {1}'s glorious rewards!"
+    },
+    {
+      "key": "GC_NOTIFICATION_MID_1",
+      "value": "Don't give up! {0} still has prizes waiting to be claimed!"
+    },
+    {
+      "key": "GC_NOTIFICATION_MID_2",
+      "value": "Don't forget {0}! IT HASN'T FORGOTTEN YOU."
+    },
+    {
+      "key": "GC_NOTIFICATION_START_1",
+      "value": "What's this? A GLOBAL CHALLENGE?! Brace yourself for {0}!!!,"
+    },
+    {
+      "key": "GC_NOTIFICATION_START_2",
+      "value": "Cower, mortals! {0} IS HERE! Prepare for a new GLOBAL CHALLENGE!!!"
+    },
+    {
+      "key": "GC_ScorePerRun",
+      "value": "Score Per Run"
+    },
+    {
+      "key": "GetHigherScoreToProgress",
+      "value": "Get higher scores to progress"
+    },
+    {
+      "key": "LevelLoadingTitle",
+      "value": "Loading..."
+    },
+    {
+      "key": "MoreGamesLitePad",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/templerun-ipad.html"
+    },
+    {
+      "key": "MoreGamesLitePhone",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/templerun.html"
+    },
+    {
+      "key": "MoreGamesPad",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/templerun-ipad.html"
+    },
+    {
+      "key": "MoreGamesPhone",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/templerun.html"
+    },
+    {
+      "key": "NOTIFICATION_DAILY_LOGIN_HEADER",
+      "value": "Time For A Run!"
+    },
+    {
+      "key": "NOTIFICATION_REACTIVATION_HEADER",
+      "value": "We Miss You!"
+    },
+    {
+      "key": "NewGameActionButton",
+      "value": "Yes"
+    },
+    {
+      "key": "NewGameCancelButton",
+      "value": "No"
+    },
+    {
+      "key": "NewGameDescription",
+      "value": "Your progress will be lost! Are you sure you want to start a new game?"
+    },
+    {
+      "key": "NewGameTitle",
+      "value": "New Game"
+    },
+    {
+      "key": "No",
+      "value": "No"
+    },
+    {
+      "key": "Ok",
+      "value": "Ok"
+    },
+    {
+      "key": "OptionsFriendMarkersLabel",
+      "value": "Friend Markers"
+    },
+    {
+      "key": "OptionsMusicLabel",
+      "value": "Music"
+    },
+    {
+      "key": "OptionsSoundLabel",
+      "value": "Sound"
+    },
+    {
+      "key": "OptionsTutorialLabel",
+      "value": "Tutorial"
+    },
+    {
+      "key": "PRIVACY_POLICY_PROMPT",
+      "value": "Privacy Policy"
+    },
+    {
+      "key": "PRIVACY_POLICY_URL",
+      "value": "https://www.imangistudios.com/privacy/eng/USA/privacy-policy-plus.html"
+    },
+    {
+      "key": "PauseMenuCoins",
+      "value": "Coins:"
+    },
+    {
+      "key": "PauseMenuDistance",
+      "value": "Distance:"
+    },
+    {
+      "key": "PauseMenuMultiplier",
+      "value": "Multiplier:"
+    },
+    {
+      "key": "PauseMenuNextObjective",
+      "value": "Next Objective:"
+    },
+    {
+      "key": "PauseMenuScore",
+      "value": "Score:"
+    },
+    {
+      "key": "PrivacyErrorButton",
+      "value": "Okay"
+    },
+    {
+      "key": "PrivacyErrorMessage",
+      "value": "Unable to perform request at this time please try again later."
+    },
+    {
+      "key": "PrivacyErrorTitle",
+      "value": "Request Failed"
+    },
+    {
+      "key": "PromoFilePad",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/promo/TempleRunPad.plist"
+    },
+    {
+      "key": "PromoFilePhone",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/promo/TempleRunPhone.plist"
+    },
+    {
+      "key": "RAD_EndGameDoubleButton",
+      "value": "Thanks!"
+    },
+    {
+      "key": "RAD_EndGameDoubleMessage",
+      "value": "You've doubled your earnings!"
+    },
+    {
+      "key": "RAD_EndGameDoubleTitle",
+      "value": "Reward!"
+    },
+    {
+      "key": "RAD_EndGameDoubleWatchMessage",
+      "value": "Watch a short ad to double your coins?"
+    },
+    {
+      "key": "RAD_EndGameDoubleWatchNegative",
+      "value": "No"
+    },
+    {
+      "key": "RAD_EndGameDoubleWatchPositive",
+      "value": "Yes"
+    },
+    {
+      "key": "RAD_EndGameDoubleWatchTitle",
+      "value": "Double Up!"
+    },
+    {
+      "key": "RAD_StoreItemCoinsButton",
+      "value": "Thanks!"
+    },
+    {
+      "key": "RAD_StoreItemCoinsMessage",
+      "value": "{0} coins have been granted! Come back in 12 hours for another reward!"
+    },
+    {
+      "key": "RAD_StoreItemCoinsTitle",
+      "value": "Thank you for watching!"
+    },
+    {
+      "key": "RAD_StoreItemCoinsWatchMessage",
+      "value": "Watch a short ad for {0} coins?"
+    },
+    {
+      "key": "RAD_StoreItemCoinsWatchNegative",
+      "value": "No"
+    },
+    {
+      "key": "RAD_StoreItemCoinsWatchPositive",
+      "value": "Yes"
+    },
+    {
+      "key": "RAD_StoreItemCoinsWatchTitle",
+      "value": "Free Coins"
+    },
+    {
+      "key": "RAD_StoreItemWingsButton",
+      "value": "Thanks!"
+    },
+    {
+      "key": "RAD_StoreItemWingsMessage",
+      "value": "Use your resurrection wings while running! Come back in 12 hours for another reward!"
+    },
+    {
+      "key": "RAD_StoreItemWingsTitle",
+      "value": "Thank you for watching!"
+    },
+    {
+      "key": "RAD_StoreItemWingsWatchMessage",
+      "value": "Watch a short ad for a pair of perma wings?"
+    },
+    {
+      "key": "RAD_StoreItemWingsWatchNegative",
+      "value": "No"
+    },
+    {
+      "key": "RAD_StoreItemWingsWatchPositive",
+      "value": "Yes"
+    },
+    {
+      "key": "RAD_StoreItemWingsWatchTitle",
+      "value": "Free Resurrection Wings"
+    },
+    {
+      "key": "RemainingScoreForNextReward",
+      "value": "{0} {1} to next reward"
+    },
+    {
+      "key": "RemainingScoreForNextRewardV1",
+      "value": "{0} to next reward"
+    },
+    {
+      "key": "ReviewRequestBody",
+      "value": "Please leave us a review!"
+    },
+    {
+      "key": "ReviewRequestDontAskButton",
+      "value": "Don't ask again"
+    },
+    {
+      "key": "ReviewRequestRemindButton",
+      "value": "Remind me later"
+    },
+    {
+      "key": "ReviewRequestReviewButton",
+      "value": "Rate it on the App Store!"
+    },
+    {
+      "key": "ReviewRequestTitle",
+      "value": "Enjoying Temple Run?"
+    },
+    {
+      "key": "ReviewRequestURL",
+      "value": "itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=420009108"
+    },
+    {
+      "key": "ReviewRequestURLiPad",
+      "value": "https://itunes.apple.com/us/app/temple-run/id420009108?mt=8&uo=6&partnerId=30&siteID=x57HaVmLCLA"
+    },
+    {
+      "key": "ReviewRequestURLiPhone",
+      "value": "https://itunes.apple.com/us/app/temple-run/id420009108?mt=8&uo=6&partnerId=30&siteID=x57HaVmLCLA"
+    },
+    {
+      "key": "RewardAlertMessage",
+      "value": "You earned {0} coins for installing free apps!"
+    },
+    {
+      "key": "RewardAlertTitle",
+      "value": "You earned coins!"
+    },
+    {
+      "key": "StatsMenuHighestScore",
+      "value": "Highest Score:"
+    },
+    {
+      "key": "StatsMenuLifetime",
+      "value": "Lifetime"
+    },
+    {
+      "key": "StatsMenuLongestRun",
+      "value": "Longest Run:"
+    },
+    {
+      "key": "StatsMenuMostCoins",
+      "value": "Most Coins:"
+    },
+    {
+      "key": "StatsMenuMultiplier",
+      "value": "Multiplier: {0}x"
+    },
+    {
+      "key": "StatsMenuSingleRun",
+      "value": "Single Run"
+    },
+    {
+      "key": "StatsMenuTotalCoins",
+      "value": "Total Coins:"
+    },
+    {
+      "key": "StatsMenuTotalDistance",
+      "value": "Total Distance:"
+    },
+    {
+      "key": "StatsMenuTotalGames",
+      "value": "Total Games:"
+    },
+    {
+      "key": "StoreAlertConfirm",
+      "value": "Ok"
+    },
+    {
+      "key": "StoreAlertErrorNoVideoMessage",
+      "value": "This offer is not available at this time. Please try again later!"
+    },
+    {
+      "key": "StoreAlertErrorNoVideoTitle",
+      "value": "Offer Not Available"
+    },
+    {
+      "key": "StoreAlertErrorTitle",
+      "value": "Purchase Failed"
+    },
+    {
+      "key": "StoreAlertErrorUnknownText",
+      "value": "Cannot connect to iTunes Store"
+    },
+    {
+      "key": "StoreEnableAdsAlertNo",
+      "value": "No Thanks"
+    },
+    {
+      "key": "StoreEnableAdsAlertText",
+      "value": "Would you like to enable full-screen ads at the end of each game and receive {0} coins?"
+    },
+    {
+      "key": "StoreEnableAdsAlertTitle",
+      "value": "FREE Games Ads"
+    },
+    {
+      "key": "StoreEnableAdsAlertYes",
+      "value": "Enable Ads!"
+    },
+    {
+      "key": "StoreFacebookLikeAlertNo",
+      "value": "No Thanks"
+    },
+    {
+      "key": "StoreFacebookLikeAlertText",
+      "value": "Like Temple Run on Facebook for {0} FREE Coins!"
+    },
+    {
+      "key": "StoreFacebookLikeAlertTitle",
+      "value": "Like on Facebook"
+    },
+    {
+      "key": "StoreFacebookLikeAlertYes",
+      "value": "Like It!"
+    },
+    {
+      "key": "StoreFacebookLikeDesc",
+      "value": "Like Temple Run!"
+    },
+    {
+      "key": "StoreFullScreenAdsDesc",
+      "value": "Enable Ads"
+    },
+    {
+      "key": "StoreIapViewCoins",
+      "value": "Coins"
+    },
+    {
+      "key": "StoreIapViewContactingStore",
+      "value": "Contacting Store..."
+    },
+    {
+      "key": "StoreIapViewFreeCoins",
+      "value": "{0} Free Coins"
+    },
+    {
+      "key": "StoreIapViewFreeOffers",
+      "value": "FREE OFFERS"
+    },
+    {
+      "key": "StoreIapViewLoadingProducts",
+      "value": "LoadingProducts..."
+    },
+    {
+      "key": "StoreIapViewNoInternetErrorMessage",
+      "value": "Cannot connect to store. Make sure your internet connection is available."
+    },
+    {
+      "key": "StoreIapViewNoInternetErrorTitle",
+      "value": "No Internet Connection"
+    },
+    {
+      "key": "StoreItemActivate",
+      "value": "ACTIVATE"
+    },
+    {
+      "key": "StoreItemAdsDisabled",
+      "value": "ADS DISABLED"
+    },
+    {
+      "key": "StoreItemAngelWingsDescription",
+      "value": "When active you resurrect immediately after death."
+    },
+    {
+      "key": "StoreItemBoostLevel0",
+      "value": "Enable the 250m Boost powerup."
+    },
+    {
+      "key": "StoreItemBoostLevel1",
+      "value": "Increase Boost to 375m."
+    },
+    {
+      "key": "StoreItemBoostLevel2",
+      "value": "Increase Boost to 500m."
+    },
+    {
+      "key": "StoreItemBoostLevel3",
+      "value": "Increase Boost to 625m."
+    },
+    {
+      "key": "StoreItemBoostLevel4",
+      "value": "Increase Boost to 750m."
+    },
+    {
+      "key": "StoreItemBoostLevel5",
+      "value": "Allow disabling Boost."
+    },
+    {
+      "key": "StoreItemBoostLevel6",
+      "value": "Boost fully upgraded!"
+    },
+    {
+      "key": "StoreItemBoostLevel7",
+      "value": "Boost is disabled."
+    },
+    {
+      "key": "StoreItemCoinBonusLevel0",
+      "value": "Enable the 50 Coin powerup."
+    },
+    {
+      "key": "StoreItemCoinBonusLevel1",
+      "value": "Increase Mega Coin to 75 coins."
+    },
+    {
+      "key": "StoreItemCoinBonusLevel2",
+      "value": "Increase Mega Coin to 100 coins."
+    },
+    {
+      "key": "StoreItemCoinBonusLevel3",
+      "value": "Increase Mega Coin to 125 coins."
+    },
+    {
+      "key": "StoreItemCoinBonusLevel4",
+      "value": "Increase Mega Coin to 150 coins."
+    },
+    {
+      "key": "StoreItemCoinBonusLevel5",
+      "value": "Allow disabling Mega Coin."
+    },
+    {
+      "key": "StoreItemCoinBonusLevel6",
+      "value": "Mega Coin fully upgraded!"
+    },
+    {
+      "key": "StoreItemCoinBonusLevel7",
+      "value": "Mega Coin is disabled."
+    },
+    {
+      "key": "StoreItemCoinValueLevel0",
+      "value": "Double Value coins after {0}m."
+    },
+    {
+      "key": "StoreItemCoinValueLevel1",
+      "value": "Double Value coins after {0}m."
+    },
+    {
+      "key": "StoreItemCoinValueLevel2",
+      "value": "Triple Value coins after {0}m."
+    },
+    {
+      "key": "StoreItemCoinValueLevel3",
+      "value": "Triple Value coins after {0}m."
+    },
+    {
+      "key": "StoreItemCoinValueLevel4",
+      "value": "Triple Value coins after {0}m."
+    },
+    {
+      "key": "StoreItemCoinValueLevel5",
+      "value": "Coin Values fully upgraded!"
+    },
+    {
+      "key": "StoreItemCurrentlyActive",
+      "value": "CURRENTLY ACTIVE"
+    },
+    {
+      "key": "StoreItemDescriptionUnknown",
+      "value": "Unknown"
+    },
+    {
+      "key": "StoreItemDisable",
+      "value": "DISABLE"
+    },
+    {
+      "key": "StoreItemDisableAds",
+      "value": "DISABLE ADS"
+    },
+    {
+      "key": "StoreItemDisableAdsLevel0",
+      "value": "Remove end-game ads."
+    },
+    {
+      "key": "StoreItemDisableAdsLevel1",
+      "value": "End-game ads removed."
+    },
+    {
+      "key": "StoreItemDownload",
+      "value": "DOWNLOAD"
+    },
+    {
+      "key": "StoreItemDownloadContentDownloading",
+      "value": "Downloading..."
+    },
+    {
+      "key": "StoreItemDownloadContentFailedDescription",
+      "value": "Unable to download this item. Make sure your internet connection is available, and try again."
+    },
+    {
+      "key": "StoreItemDownloadContentFailedTitle",
+      "value": "Download Failed"
+    },
+    {
+      "key": "StoreItemDownloadContentSaving",
+      "value": "Saving..."
+    },
+    {
+      "key": "StoreItemEnable",
+      "value": "ENABLE"
+    },
+    {
+      "key": "StoreItemFree",
+      "value": "FREE"
+    },
+    {
+      "key": "StoreItemFullyUpgraded",
+      "value": "FULLY UPGRADED"
+    },
+    {
+      "key": "StoreItemHeadStartDescription",
+      "value": "Boost ahead 1000m at the start of the game."
+    },
+    {
+      "key": "StoreItemHeadStartMegaDescription",
+      "value": "Mega Boost ahead 2500m at the start of the game."
+    },
+    {
+      "key": "StoreItemHeadStartMegaPopupText",
+      "value": "Press the Mega Head Start button at the beginning of a game to boost forward 2,500m."
+    },
+    {
+      "key": "StoreItemHeadStartMegaPopupTitle",
+      "value": "Mega Head Start"
+    },
+    {
+      "key": "StoreItemHeadStartPopupText",
+      "value": "Press the Head Start button at the beginning of a game to boost forward 1,000m."
+    },
+    {
+      "key": "StoreItemHeadStartPopupTitle",
+      "value": "Head Start"
+    },
+    {
+      "key": "StoreItemInvincibilityLevel0",
+      "value": "Enable the Invisibility powerup."
+    },
+    {
+      "key": "StoreItemInvincibilityLevel1",
+      "value": "Make Invisibility last longer."
+    },
+    {
+      "key": "StoreItemInvincibilityLevel2",
+      "value": "Make Invisibility last longer."
+    },
+    {
+      "key": "StoreItemInvincibilityLevel3",
+      "value": "Make Invisibility last longer."
+    },
+    {
+      "key": "StoreItemInvincibilityLevel4",
+      "value": "Make Invisibility last longer."
+    },
+    {
+      "key": "StoreItemInvincibilityLevel5",
+      "value": "Allow disabling Invisibility."
+    },
+    {
+      "key": "StoreItemInvincibilityLevel6",
+      "value": "Invisibility fully upgraded!"
+    },
+    {
+      "key": "StoreItemInvincibilityLevel7",
+      "value": "Invisibility is disabled."
+    },
+    {
+      "key": "StoreItemMagnetLevel0",
+      "value": "Enable the Coin Magnet powerup."
+    },
+    {
+      "key": "StoreItemMagnetLevel1",
+      "value": "Make Coin Magnet last longer."
+    },
+    {
+      "key": "StoreItemMagnetLevel2",
+      "value": "Coin Magnet doubles coin value."
+    },
+    {
+      "key": "StoreItemMagnetLevel3",
+      "value": "Make Coin Magnet last longer."
+    },
+    {
+      "key": "StoreItemMagnetLevel4",
+      "value": "Coin Magnet triples coin value."
+    },
+    {
+      "key": "StoreItemMagnetLevel5",
+      "value": "Allow disabling Coin Magnet."
+    },
+    {
+      "key": "StoreItemMagnetLevel6",
+      "value": "Coin Magnet fully upgraded!"
+    },
+    {
+      "key": "StoreItemMagnetLevel7",
+      "value": "Coin Magnet is disabled."
+    },
+    {
+      "key": "StoreItemNotEnoughCoinsText",
+      "value": "Would you like to get more coins?"
+    },
+    {
+      "key": "StoreItemNotEnoughCoinsTitle",
+      "value": "Not Enough Coins!"
+    },
+    {
+      "key": "StoreItemPermaWingsDescription",
+      "value": "Resurrection wings that are active permanently."
+    },
+    {
+      "key": "StoreItemPermaWingsPopupText",
+      "value": "Put these wings on at the beginning of the game, and you will resurrect when you die. The wings last until you die."
+    },
+    {
+      "key": "StoreItemPermaWingsPopupTitle",
+      "value": "Perma-Wings"
+    },
+    {
+      "key": "StoreItemPlayerBigBLevel0",
+      "value": "Unlock Barry Bones, a city cop with an attitude."
+    },
+    {
+      "key": "StoreItemPlayerBigBLevel1",
+      "value": "Barry Bones, a city cop with an attitude."
+    },
+    {
+      "key": "StoreItemPlayerCarnifexLevel0",
+      "value": "Unlock Carnifex, the Joker."
+    },
+    {
+      "key": "StoreItemPlayerCarnifexLevel1",
+      "value": "Carnifex, the Joker."
+    },
+    {
+      "key": "StoreItemPlayerChinaLevel0",
+      "value": "Unlock Karma Lee, the fastest legs in the Far East."
+    },
+    {
+      "key": "StoreItemPlayerChinaLevel1",
+      "value": "Karma Lee, the fastest legs in the Far East."
+    },
+    {
+      "key": "StoreItemPlayerChronosTimebeardLevel0",
+      "value": "Unlock Chronos Timebeard, timeless demigod wreaking endless havoc"
+    },
+    {
+      "key": "StoreItemPlayerChronosTimebeardLevel1",
+      "value": "Chronos Timebeard, timeless demigod wreaking endless havoc"
+    },
+    {
+      "key": "StoreItemPlayerConquistadorLevel0",
+      "value": "Unlock Francisco Montoya, the conquistador."
+    },
+    {
+      "key": "StoreItemPlayerConquistadorLevel1",
+      "value": "Francisco Montoya, the conquistador."
+    },
+    {
+      "key": "StoreItemPlayerFootballLevel0",
+      "value": "Unlock Zack Wonder, football star."
+    },
+    {
+      "key": "StoreItemPlayerFootballLevel1",
+      "value": "Zack Wonder, football star."
+    },
+    {
+      "key": "StoreItemPlayerFrostPirateLevel0",
+      "value": "Unlock Frost Pirate, the captain that terrorized the seas of 1690"
+    },
+    {
+      "key": "StoreItemPlayerFrostPirateLevel1",
+      "value": "Frost Pirate, the captain that terrorized the seas of 1690"
+    },
+    {
+      "key": "StoreItemPlayerGirlLevel0",
+      "value": "Unlock Scarlett Fox, the cunning escape artist."
+    },
+    {
+      "key": "StoreItemPlayerGirlLevel1",
+      "value": "Scarlett Fox, the cunning escape artist."
+    },
+    {
+      "key": "StoreItemPlayerGuyLevel0",
+      "value": "Unlock Guy Dangerous, just your average explorer."
+    },
+    {
+      "key": "StoreItemPlayerGuyLevel1",
+      "value": "Guy Dangerous, just your average explorer."
+    },
+    {
+      "key": "StoreItemPlayerIndiLevel0",
+      "value": "Unlock Montana Smith, the second greatest explorer ever."
+    },
+    {
+      "key": "StoreItemPlayerIndiLevel1",
+      "value": "Montana Smith, the second greatest explorer ever."
+    },
+    {
+      "key": "StoreItemPlayerKaiXiangDragonLevel0",
+      "value": "Unlock Kai Xiang, the Shadow Dragon Ninja."
+    },
+    {
+      "key": "StoreItemPlayerKaiXiangDragonLevel1",
+      "value": "Kai Xiang, the Shadow Dragon Ninja."
+    },
+    {
+      "key": "StoreItemPlayerNidhiNirmalLevel0",
+      "value": "Unlock Nidhi Nirmal, Bollywood superstar!"
+    },
+    {
+      "key": "StoreItemPlayerNidhiNirmalLevel1",
+      "value": "Nidhi Nirmal, Bollywood superstar!"
+    },
+    {
+      "key": "StoreItemPlayerQueenAstridLevel0",
+      "value": "Unlock Queen Astrid, plundering viking royalty since 930 AD"
+    },
+    {
+      "key": "StoreItemPlayerQueenAstridLevel1",
+      "value": "Queen Astrid, plundering viking royalty since 930 AD"
+    },
+    {
+      "key": "StoreItemPlayerSimoneDaviesLevel0",
+      "value": "Unlock Simone Davies, the Commodore."
+    },
+    {
+      "key": "StoreItemPlayerSimoneDaviesLevel1",
+      "value": "Simone Davies, the Commodore."
+    },
+    {
+      "key": "StoreItemPlayerSkeletonLevel0",
+      "value": "Unlock Edgar Twiggenbottom, the guardian of the fields."
+    },
+    {
+      "key": "StoreItemPlayerSkeletonLevel1",
+      "value": "Edgar Twiggenbottom, the guardian of the fields."
+    },
+    {
+      "key": "StoreItemPlayerWallyNutLevel0",
+      "value": "Unlock Wally Nut, the christmas nutcracker who spreads joy"
+    },
+    {
+      "key": "StoreItemPlayerWallyNutLevel1",
+      "value": "Wally Nut, the christmas nutcracker who spreads joy"
+    },
+    {
+      "key": "StoreItemResurrectionWingsPopupText",
+      "value": "When wearing the Resurrection Wings, you will resurrect immediately after death. Double tap anywhere while playing to put them on.  The wings will last 30 seconds."
+    },
+    {
+      "key": "StoreItemResurrectionWingsPopupTitle",
+      "value": "Resurrection Wings"
+    },
+    {
+      "key": "StoreItemSingleUse",
+      "value": "SINGLE USE"
+    },
+    {
+      "key": "StoreItemUnlock",
+      "value": "UNLOCK"
+    },
+    {
+      "key": "StoreItemUpgrade",
+      "value": "UPGRADE"
+    },
+    {
+      "key": "StoreItemWallpaperALevel0",
+      "value": "Unlock the Temple Wall wallpaper."
+    },
+    {
+      "key": "StoreItemWallpaperALevel1",
+      "value": "Download the Temple Wall wallpaper."
+    },
+    {
+      "key": "StoreItemWallpaperAURLAndroid",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/images/wallpapers/TempleRunWall-Android.jpg"
+    },
+    {
+      "key": "StoreItemWallpaperAURLPad",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/images/wallpapers/TempleRunWall-iPad.png"
+    },
+    {
+      "key": "StoreItemWallpaperAURLPadRetina",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/images/wallpapers/TempleRunWall-iPadRetina.png"
+    },
+    {
+      "key": "StoreItemWallpaperAURLPhone",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/images/wallpapers/TempleRunWall-iPhoneSmall.png"
+    },
+    {
+      "key": "StoreItemWallpaperAURLPhone5Retina",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/images/wallpapers/TempleRunWall-iPhone5.png"
+    },
+    {
+      "key": "StoreItemWallpaperAURLPhoneRetina",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/images/wallpapers/TempleRunWall-iPhone.png"
+    },
+    {
+      "key": "StoreItemWallpaperBLevel0",
+      "value": "Unlock the Guy Dangerous wallpaper."
+    },
+    {
+      "key": "StoreItemWallpaperBLevel1",
+      "value": "Download the Guy Dangerous wallpaper."
+    },
+    {
+      "key": "StoreItemWallpaperBURLAndroid",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/images/wallpapers/TempleRunGuyDangerous-Android.jpg"
+    },
+    {
+      "key": "StoreItemWallpaperBURLPad",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/images/wallpapers/TempleRunGuyDangerous-iPad.png"
+    },
+    {
+      "key": "StoreItemWallpaperBURLPadRetina",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/images/wallpapers/TempleRunGuyDangerous-iPadRetina.png"
+    },
+    {
+      "key": "StoreItemWallpaperBURLPhone",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/images/wallpapers/TempleRunGuyDangerous-iPhoneSmall.png"
+    },
+    {
+      "key": "StoreItemWallpaperBURLPhone5Retina",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/images/wallpapers/TempleRunGuyDangerous-iPhone5.png"
+    },
+    {
+      "key": "StoreItemWallpaperBURLPhoneRetina",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/images/wallpapers/TempleRunGuyDangerous-iPhone.png"
+    },
+    {
+      "key": "StoreItemWallpaperCLevel0",
+      "value": "Unlock the Evil Demon Monkeys wallpaper."
+    },
+    {
+      "key": "StoreItemWallpaperCLevel1",
+      "value": "Download the Evil Demon Monkeys wallpaper."
+    },
+    {
+      "key": "StoreItemWallpaperCURLAndroid",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/images/wallpapers/TempleRunMonkeys-Android.jpg"
+    },
+    {
+      "key": "StoreItemWallpaperCURLPad",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/images/wallpapers/TempleRunMonkeys-iPad.png"
+    },
+    {
+      "key": "StoreItemWallpaperCURLPadRetina",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/images/wallpapers/TempleRunMonkeys-iPadRetina.png"
+    },
+    {
+      "key": "StoreItemWallpaperCURLPhone",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/images/wallpapers/TempleRunMonkeys-iPhoneSmall.png"
+    },
+    {
+      "key": "StoreItemWallpaperCURLPhone5Retina",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/images/wallpapers/TempleRunMonkeys-iPhone5.png"
+    },
+    {
+      "key": "StoreItemWallpaperCURLPhoneRetina",
+      "value": "https://s3.amazonaws.com/com.imangi/iphone/images/wallpapers/TempleRunMonkeys-iPhone.png"
+    },
+    {
+      "key": "StoreItemWallpaperDLevel0",
+      "value": "Unlock the Temple Wall wallpaper."
+    },
+    {
+      "key": "StoreItemWallpaperDLevel1",
+      "value": "Download the Temple Wall wallpaper."
+    },
+    {
+      "key": "StoreItemWallpaperELevel0",
+      "value": "Unlock the Temple Wall wallpaper."
+    },
+    {
+      "key": "StoreItemWallpaperELevel1",
+      "value": "Download the Temple Wall wallpaper."
+    },
+    {
+      "key": "StoreItemWallpaperSavedDescription",
+      "value": "Your wallpaper has been saved to your Image Gallery."
+    },
+    {
+      "key": "StoreItemWallpaperSavedTitle",
+      "value": "Wallpaper Saved"
+    },
+    {
+      "key": "StoreNagActionButton",
+      "value": "View Store!"
+    },
+    {
+      "key": "StoreNagCancelButton",
+      "value": "Not Now"
+    },
+    {
+      "key": "StoreNagDescription",
+      "value": "You've collected some coins - you can now upgrade your character at the store to help you score even higher!"
+    },
+    {
+      "key": "StoreNagTitle",
+      "value": "Upgrade Store"
+    },
+    {
+      "key": "StoreTwitterFollowAlertNo",
+      "value": "No Thanks"
+    },
+    {
+      "key": "StoreTwitterFollowAlertText",
+      "value": "Folow Temple Run on Twitter for {0} FREE Coins!"
+    },
+    {
+      "key": "StoreTwitterFollowAlertTitle",
+      "value": "Follow on Twitter"
+    },
+    {
+      "key": "StoreTwitterFollowAlertYes",
+      "value": "Follow us!"
+    },
+    {
+      "key": "StoreVideoAdsDesc",
+      "value": "Watch a Video"
+    },
+    {
+      "key": "StoreViewHeaderCharacters",
+      "value": "CHARACTERS"
+    },
+    {
+      "key": "StoreViewHeaderDisableAds",
+      "value": "DISABLE ADS"
+    },
+    {
+      "key": "StoreViewHeaderPowerups",
+      "value": "POWERUPS"
+    },
+    {
+      "key": "StoreViewHeaderUtilities",
+      "value": "UTILITIES"
+    },
+    {
+      "key": "StoreViewHeaderWallpapers",
+      "value": "WALLPAPERS"
+    },
+    {
+      "key": "TOAST_X_COINS_ADDED",
+      "value": "{0} coins added"
+    },
+    {
+      "key": "TwitterMessage",
+      "value": "I got %@ points while escaping from demon monkeys in Temple Run. Beat that! http://bit.ly/TempleRunGame"
+    },
+    {
+      "key": "TwitterPasswordPlaceholder",
+      "value": "Password"
+    },
+    {
+      "key": "TwitterStatusUpdateFail",
+      "value": "Tweet Failed: Check your login or try again later"
+    },
+    {
+      "key": "TwitterUsernamePlaceholder",
+      "value": "Username"
+    },
+    {
+      "key": "UI_ACTIVATE",
+      "value": "ACTIVATE"
+    },
+    {
+      "key": "UI_APPRENTICE",
+      "value": "Apprentice"
+    },
+    {
+      "key": "UI_Angel_Wings",
+      "value": "Angel Wings"
+    },
+    {
+      "key": "UI_BACK",
+      "value": "BACK"
+    },
+    {
+      "key": "UI_BASE_MULTIPLER",
+      "value": "Base Multiplier:"
+    },
+    {
+      "key": "UI_BOOSTED",
+      "value": "BOOSTED"
+    },
+    {
+      "key": "UI_BOOST_AT_START",
+      "value": "Head Start:"
+    },
+    {
+      "key": "UI_BOOST_AT_START_ALT_CONTROLLER",
+      "value": "then choose \"Head Start\" from menu."
+    },
+    {
+      "key": "UI_BOOST_AT_START_ALT_IOS",
+      "value": "then choose \"Head Start\" from menu."
+    },
+    {
+      "key": "UI_BOOST_AT_START_ALT_KEYBOARD",
+      "value": "then choose \"Head Start\" from menu."
+    },
+    {
+      "key": "UI_BOOST_AT_START_ALT_REMOTE_GEN1",
+      "value": "then choose \"Head Start\" from menu."
+    },
+    {
+      "key": "UI_BOOST_AT_START_CONTROLLER",
+      "value": "Pause after starting countdown,"
+    },
+    {
+      "key": "UI_BOOST_AT_START_IOS",
+      "value": "Pause after starting countdown,"
+    },
+    {
+      "key": "UI_BOOST_AT_START_KEYBOARD",
+      "value": "Pause after starting countdown,"
+    },
+    {
+      "key": "UI_BOOST_AT_START_REMOTE_GEN1",
+      "value": "Pause after starting countdown,"
+    },
+    {
+      "key": "UI_BOOST_DESC_0",
+      "value": "Enable the 250m Boost Powerup."
+    },
+    {
+      "key": "UI_BOOST_DESC_1",
+      "value": "Increase Boost to 375m."
+    },
+    {
+      "key": "UI_BOOST_DESC_2",
+      "value": "Increase Boost to 500m."
+    },
+    {
+      "key": "UI_BOOST_DESC_3",
+      "value": "Increase Boost to 625m."
+    },
+    {
+      "key": "UI_BOOST_DESC_4",
+      "value": "Increase Boost to 750m."
+    },
+    {
+      "key": "UI_BOOST_DESC_5",
+      "value": "Allow disabling Boost."
+    },
+    {
+      "key": "UI_BOOST_DESC_6",
+      "value": "Boost fully upgraded!"
+    },
+    {
+      "key": "UI_BOOST_DESC_7",
+      "value": "Boost is disabled."
+    },
+    {
+      "key": "UI_BUTTON_MAINMENU",
+      "value": "Main Menu"
+    },
+    {
+      "key": "UI_BUTTON_NEWGAME",
+      "value": "New Game"
+    },
+    {
+      "key": "UI_BUTTON_RESUME",
+      "value": "Resume"
+    },
+    {
+      "key": "UI_CANCEL",
+      "value": "Cancel"
+    },
+    {
+      "key": "UI_CHARACTERS",
+      "value": "Characters"
+    },
+    {
+      "key": "UI_CHARACTERS_HEADING",
+      "value": "CHARACTERS"
+    },
+    {
+      "key": "UI_CHARACTER_PURCHASE_LABEL",
+      "value": "UNLOCK"
+    },
+    {
+      "key": "UI_CHAR_BARRY_BONES_DESC",
+      "value": "Unlock Barry Bones, a city cop with an attitude."
+    },
+    {
+      "key": "UI_CHAR_DR_ZENOBIOS_DESC",
+      "value": "Unlock Dr. Zenobios, the brilliant mad scientist!"
+    },
+    {
+      "key": "UI_CHAR_FRANCISCO_MONTOYA_DESC",
+      "value": "Unlock Francisco Montoya, the conquistador."
+    },
+    {
+      "key": "UI_CHAR_GOLDEN_GUY_DESC",
+      "value": "Unlock \"Golden\" Guy Dangerous, the gilded man!"
+    },
+    {
+      "key": "UI_CHAR_GUY_DANGEROUS_DESC",
+      "value": "Unlock Guy Dangerous, just your average explorer."
+    },
+    {
+      "key": "UI_CHAR_KARMA_LEE_DESC",
+      "value": "Unlock Karma Lee, the fastest legs in the Far East."
+    },
+    {
+      "key": "UI_CHAR_MONTANA_SMITH_DESC",
+      "value": "Unlock Montana Smith, the second greatest explorer ever."
+    },
+    {
+      "key": "UI_CHAR_NIDHI_NIRMAL_DESC",
+      "value": "Unlock Nidhi Nirmal, Bollywood superstar!"
+    },
+    {
+      "key": "UI_CHAR_QUEEN_ASTRID_DESC",
+      "value": "Unlock Queen Astrid, the ruler of the frozen wastes!"
+    },
+    {
+      "key": "UI_CHAR_RAHL_RAJA_DESC",
+      "value": "Unlock Rahi Raja, India's best stuntman!"
+    },
+    {
+      "key": "UI_CHAR_SANTA_DESC",
+      "value": "Unlock Santa, the master of the North Pole!"
+    },
+    {
+      "key": "UI_CHAR_SARA_BANYAN_DESC",
+      "value": "Unlock Sara Banyan, the mischievous Persian herbalist!"
+    },
+    {
+      "key": "UI_CHAR_SCARLETT_FOX_DESC",
+      "value": "Unlock Scarlett Fox, the cunning escape artist."
+    },
+    {
+      "key": "UI_CHAR_SELENE_ASTRONAUT_DESC",
+      "value": "Unlock Selene Celeste, the curious crashed astronaut!"
+    },
+    {
+      "key": "UI_CHAR_SIGUR_FROSTBEARD_DESC",
+      "value": "Unlock Sigur Frostbeard, the champion woodsman!"
+    },
+    {
+      "key": "UI_CHAR_SIMONE_DAVIES_DESC",
+      "value": "Unlock Simone Davies, the relentless pirate hunter!"
+    },
+    {
+      "key": "UI_CHAR_SKELETON_DESC",
+      "value": "Unlock Edgar Twiggenbottom, the pumpkin-headed scarecrow!"
+    },
+    {
+      "key": "UI_CHAR_TAMATOA_DESC",
+      "value": "Unlock Tamatoa, the mightiest warrior in all Samoa!"
+    },
+    {
+      "key": "UI_CHAR_UNLOCKED_BARRY_BONES_DESC",
+      "value": "Barry Bones, a city cop with an attitude."
+    },
+    {
+      "key": "UI_CHAR_UNLOCKED_DR_ZENOBIOS_DESC",
+      "value": "Dr. Zenobios, the brilliant mad scientist!"
+    },
+    {
+      "key": "UI_CHAR_UNLOCKED_FRANCISCO_MONTOYA_DESC",
+      "value": "Francisco Montoya, the conquistador."
+    },
+    {
+      "key": "UI_CHAR_UNLOCKED_GOLDEN_GUY_DESC",
+      "value": " \"Golden\" Guy Dangerous, the gilded man!"
+    },
+    {
+      "key": "UI_CHAR_UNLOCKED_GUY_DANGEROUS_DESC",
+      "value": "Guy Dangerous, just your average explorer,"
+    },
+    {
+      "key": "UI_CHAR_UNLOCKED_KARMA_LEE_DESC",
+      "value": "Karma Lee, the fastest legs in the Far East."
+    },
+    {
+      "key": "UI_CHAR_UNLOCKED_MONTANA_SMITH_DESC",
+      "value": "Montana Smith, the second greatest explorer ever."
+    },
+    {
+      "key": "UI_CHAR_UNLOCKED_NIDHI_NIRMAL_DESC",
+      "value": "Nidhi Nirmal, Bollywood superstar!"
+    },
+    {
+      "key": "UI_CHAR_UNLOCKED_QUEEN_ASTRID_DESC",
+      "value": "Queen Astrid, the ruler of the frozen wastes!"
+    },
+    {
+      "key": "UI_CHAR_UNLOCKED_RAHL_RAJA_DESC",
+      "value": "Rahi Raja, India's best stuntman!"
+    },
+    {
+      "key": "UI_CHAR_UNLOCKED_SANTA_DESC",
+      "value": "Santa, the master of the North Pole!"
+    },
+    {
+      "key": "UI_CHAR_UNLOCKED_SARA_BANYAN_DESC",
+      "value": "Sara Banyan, the mischievous Persian herbalist!"
+    },
+    {
+      "key": "UI_CHAR_UNLOCKED_SCARLETT_FOX_DESC",
+      "value": "Scarlett Fox, the cunning escape artist."
+    },
+    {
+      "key": "UI_CHAR_UNLOCKED_SELENE_ASTRONAUT_DESC",
+      "value": "Selene Celeste, the curious crashed astronaut!"
+    },
+    {
+      "key": "UI_CHAR_UNLOCKED_SIGUR_FROSTBEARD_DESC",
+      "value": "Sigur Frostbeard, the champion woodsman!"
+    },
+    {
+      "key": "UI_CHAR_UNLOCKED_SIMONE_DAVIES_DESC",
+      "value": "Simone Davies, the relentless pirate hunter!"
+    },
+    {
+      "key": "UI_CHAR_UNLOCKED_SKELETON_DESC",
+      "value": "Edgar Twiggenbottom, the pumpkin-headed scarecrow!"
+    },
+    {
+      "key": "UI_CHAR_UNLOCKED_TAMATOA_DESC",
+      "value": "Tamatoa, the mightiest warrior in all Samoa!"
+    },
+    {
+      "key": "UI_CHAR_UNLOCKED_ZACK_WONDER_DESC",
+      "value": "Zack Wonder, football star."
+    },
+    {
+      "key": "UI_CHAR_ZACK_WONDER_DESC",
+      "value": "Unlock Zack Wonder, football star."
+    },
+    {
+      "key": "UI_CLAIM",
+      "value": "Claim"
+    },
+    {
+      "key": "UI_CLAIMED",
+      "value": "Claimed"
+    },
+    {
+      "key": "UI_CLOSE",
+      "value": "Close"
+    },
+    {
+      "key": "UI_CLOUD_SAVE_UNAVAILABLE",
+      "value": "Cloud Save Unavailable"
+    },
+    {
+      "key": "UI_CLOUD_STORAGE_FULL",
+      "value": "Cloud Storage Full"
+    },
+    {
+      "key": "UI_COINS",
+      "value": "Coins"
+    },
+    {
+      "key": "UI_COINS_TITLE",
+      "value": "Coins:"
+    },
+    {
+      "key": "UI_COIN_MAGNET_DESC_0",
+      "value": "Enable the Coin Magnet powerup."
+    },
+    {
+      "key": "UI_COIN_MAGNET_DESC_1",
+      "value": "Make Coin Magnet last longer."
+    },
+    {
+      "key": "UI_COIN_MAGNET_DESC_2",
+      "value": "Coin Magnet doubles coin value."
+    },
+    {
+      "key": "UI_COIN_MAGNET_DESC_3",
+      "value": "Make Coin Magnet last longer."
+    },
+    {
+      "key": "UI_COIN_MAGNET_DESC_4",
+      "value": "Coin Magnet triples coin value."
+    },
+    {
+      "key": "UI_COIN_MAGNET_DESC_5",
+      "value": "Allow disabling Coin Magnet."
+    },
+    {
+      "key": "UI_COIN_MAGNET_DESC_6",
+      "value": "Coin Magnet fully upgraded!"
+    },
+    {
+      "key": "UI_COIN_MAGNET_DESC_7",
+      "value": "Coin Magnet is disabled."
+    },
+    {
+      "key": "UI_COIN_VALUE_0",
+      "value": "Double Value coins after {0}m."
+    },
+    {
+      "key": "UI_COIN_VALUE_1",
+      "value": "Double Value coins after {0}m."
+    },
+    {
+      "key": "UI_COIN_VALUE_2",
+      "value": "Double Value coins after {0}m."
+    },
+    {
+      "key": "UI_COIN_VALUE_3",
+      "value": "Triple Value coins after {0}m."
+    },
+    {
+      "key": "UI_COIN_VALUE_4",
+      "value": "Triple Value coins after {0}m."
+    },
+    {
+      "key": "UI_COIN_VALUE_5",
+      "value": "Triple Value coins after {0}m."
+    },
+    {
+      "key": "UI_COIN_VALUE_6",
+      "value": "Coin Values fully upgraded!"
+    },
+    {
+      "key": "UI_COLLECTIVE_COIN",
+      "value": "Collective Coins Challenge"
+    },
+    {
+      "key": "UI_COLLECTIVE_COIN_DESC",
+      "value": "Gather required amount of coins over multiple runs to complete this challenge! "
+    },
+    {
+      "key": "UI_COLLECTIVE_DISTANCE",
+      "value": "Collective Distance Challenge"
+    },
+    {
+      "key": "UI_COLLECTIVE_DISTANCE_DESC",
+      "value": "Reach the required distance over multiple runs to complete this challenge!"
+    },
+    {
+      "key": "UI_COLLECTIVE_POWERUP",
+      "value": "Collective Power-Up Challenge"
+    },
+    {
+      "key": "UI_COLLECTIVE_POWERUP_DESC",
+      "value": "Gather required amount of power-ups over multiple runs to complete this challenge! "
+    },
+    {
+      "key": "UI_COLLECTIVE_SCORE",
+      "value": "Collective Score Challenge"
+    },
+    {
+      "key": "UI_COLLECTIVE_SCORE_DESC",
+      "value": "Achieve the required score over multiple runs to complete this challenge!"
+    },
+    {
+      "key": "UI_COMPLETED",
+      "value": "COMPLETED"
+    },
+    {
+      "key": "UI_CONTINUE_RUN",
+      "value": "Continue Run?"
+    },
+    {
+      "key": "UI_CONTROLLER",
+      "value": "Gamepad / Controller"
+    },
+    {
+      "key": "UI_CONTROLLER_CONNECTED",
+      "value": "A controller has been connected"
+    },
+    {
+      "key": "UI_CONTROLLER_DISCONNECTED",
+      "value": "Controller has been Disconnected"
+    },
+    {
+      "key": "UI_CONTROLS_HELP",
+      "value": "Controls Help"
+    },
+    {
+      "key": "UI_CONTROLS_SUMMARY",
+      "value": "Controls"
+    },
+    {
+      "key": "UI_CURRENTLY_ACTIVE",
+      "value": "CURRENTLY ACTIVE"
+    },
+    {
+      "key": "UI_CURRENT_SLOT_FMT",
+      "value": "[{0}] (Current Slot)"
+    },
+    {
+      "key": "UI_DAILY_LOGIN_MESSAGE_1",
+      "value": "Nothing says \"determination\" like running face first into a tree 20 times in a row. Be a 🏆 champion 🏆 – Guy Dangerous, professional life coach."
+    },
+    {
+      "key": "UI_DAILY_LOGIN_MESSAGE_2",
+      "value": "Fancy a quick run? It's been ⌛ hours ⌛ since I sprinted headfirst into a tree. – Guy Dangerous"
+    },
+    {
+      "key": "UI_DAILY_LOGIN_MESSAGE_3",
+      "value": "Grab some cursed gold! (✨ It's very in this season. ✨)"
+    },
+    {
+      "key": "UI_DAILY_LOGIN_MESSAGE_4",
+      "value": "Gandhi said \"Be the change you want to see.\" I say grab the 💰 change 💰. It's just laying there. – Guy Dangerous, globally respected philosopher."
+    },
+    {
+      "key": "UI_DAILY_LOGIN_MESSAGE_5",
+      "value": "Ask not for whom the 🔔 bell 🔔 tolls, ask how much the bell is worth and what will chase you if you grab it! 🏃 💰 – Guy Dangerous, professional economist."
+    },
+    {
+      "key": "UI_DAILY_LOGIN_MESSAGE_6",
+      "value": "⌛ Life is short ⌛ ...Let's stuff our pockets full of cursed gold and accidentally sprint off a cliff. – Guy Dangerous, Nobel laureate."
+    },
+    {
+      "key": "UI_DAILY_LOGIN_MESSAGE_7",
+      "value": "💪 Let's show that Golden Idol who's boss! (Or at least sprint into a tree a few times.) – Guy Dangerous"
+    },
+    {
+      "key": "UI_DELETE",
+      "value": "Delete"
+    },
+    {
+      "key": "UI_DELETE_SAVE_DATA",
+      "value": "Delete Save Data"
+    },
+    {
+      "key": "UI_DELETE_SLOT_HEADING",
+      "value": "DELETE Slot?"
+    },
+    {
+      "key": "UI_DELETE_SLOT_WARNING",
+      "value": "Permanantly DELETE Slot [{0}]'s Weekly Challenge Progress, Upgrades and Stats?"
+    },
+    {
+      "key": "UI_DISABLE",
+      "value": "DISABLE"
+    },
+    {
+      "key": "UI_DISTANCE",
+      "value": "Distance"
+    },
+    {
+      "key": "UI_DISTANCE_FMT",
+      "value": "{0}m"
+    },
+    {
+      "key": "UI_DISTANCE_TITLE",
+      "value": "Distance:"
+    },
+    {
+      "key": "UI_ENABLE",
+      "value": "ENABLE"
+    },
+    {
+      "key": "UI_ENABLE_BT_CONTROLLER_OR_KEYBOARD",
+      "value": "iPhone/iPad:\\nSupport Bluetooth Controller/Keyboard"
+    },
+    {
+      "key": "UI_END_GAME_YOUR_BEST_SCORE",
+      "value": "Your Best Score!!!"
+    },
+    {
+      "key": "UI_EVENT_ENDED",
+      "value": "Challenge has ended."
+    },
+    {
+      "key": "UI_EVENT_PROGRESS",
+      "value": "Weekly Challenge Progress"
+    },
+    {
+      "key": "UI_FAILED",
+      "value": "Failed"
+    },
+    {
+      "key": "UI_FILL_UP_METER_FOR_BONUS",
+      "value": "Fill up the meter for bonus points!"
+    },
+    {
+      "key": "UI_FINAL_PROGRESS",
+      "value": "Final Progress:"
+    },
+    {
+      "key": "UI_FREE",
+      "value": "FREE"
+    },
+    {
+      "key": "UI_FULL",
+      "value": "FULL"
+    },
+    {
+      "key": "UI_FULLY_UPGRADED",
+      "value": "FULLY UPGRADED"
+    },
+    {
+      "key": "UI_GC_HEADER",
+      "value": "Weekly\\nChallenge"
+    },
+    {
+      "key": "UI_GET_MORE_COINS",
+      "value": "GET MORE COINS"
+    },
+    {
+      "key": "UI_GLOBAL_CHALLENGE",
+      "value": "GLOBAL CHALLENGE"
+    },
+    {
+      "key": "UI_GLOBAL_CHALLENGES",
+      "value": "Global Challenges"
+    },
+    {
+      "key": "UI_HEAD_START",
+      "value": "Head Start"
+    },
+    {
+      "key": "UI_HEAD_START_DESC",
+      "value": "Boost ahead 1000m at the start of the game."
+    },
+    {
+      "key": "UI_HEAD_START_LONG_DESC",
+      "value": "Pause the game and select the Head Start utility at the beginning of the game to boost forward 1000m."
+    },
+    {
+      "key": "UI_HEAD_START_SHORT",
+      "value": "Head Start"
+    },
+    {
+      "key": "UI_HIGHEST_SCORE",
+      "value": "Highest Score:"
+    },
+    {
+      "key": "UI_HIGH_SCORE",
+      "value": "High Score!"
+    },
+    {
+      "key": "UI_INSTANT_QUICK_FILL_UNAVAILABLE",
+      "value": "\"Instant Quick Fill\" is unavailable when you have {0} or more Revives."
+    },
+    {
+      "key": "UI_INVISIBILITY_DESC_0",
+      "value": "Enable the Invisibility powerup."
+    },
+    {
+      "key": "UI_INVISIBILITY_DESC_1_TO_4",
+      "value": "Make Invisibility last longer."
+    },
+    {
+      "key": "UI_INVISIBILITY_DESC_5",
+      "value": "Allow disabling Invisibility."
+    },
+    {
+      "key": "UI_INVISIBILITY_DESC_6",
+      "value": "Invisibility fully upgraded!"
+    },
+    {
+      "key": "UI_INVISIBILITY_DESC_7",
+      "value": "Allow disabling Invisibility."
+    },
+    {
+      "key": "UI_IN_GAME_UTILITES",
+      "value": "In-game Utilities"
+    },
+    {
+      "key": "UI_JOIN_US",
+      "value": "Join Us"
+    },
+    {
+      "key": "UI_JUMP",
+      "value": "Jump:"
+    },
+    {
+      "key": "UI_JUMP_CONTROLLER",
+      "value": "D-pad/Stick ↑ or A/×"
+    },
+    {
+      "key": "UI_JUMP_IOS",
+      "value": "Swipe Up"
+    },
+    {
+      "key": "UI_JUMP_KEYBOARD",
+      "value": "[↑] or [W] key"
+    },
+    {
+      "key": "UI_JUMP_REMOTE_GEN1",
+      "value": "Swipe Up"
+    },
+    {
+      "key": "UI_KEYBOARD",
+      "value": "Keyboard"
+    },
+    {
+      "key": "UI_LANGUAGE",
+      "value": "Language"
+    },
+    {
+      "key": "UI_LANGUAGE_THIS",
+      "value": "Language: English"
+    },
+    {
+      "key": "UI_LAST_SAVE_FMT",
+      "value": "Last Save: {0}"
+    },
+    {
+      "key": "UI_LEADERBOARD_HEADER",
+      "value": "Leaderboard"
+    },
+    {
+      "key": "UI_LEADERBOARD_NAME_WITH_RESET",
+      "value": "Weekly High Score (resets Mondays at noon UTC)"
+    },
+    {
+      "key": "UI_LEGEND",
+      "value": "Legend"
+    },
+    {
+      "key": "UI_LIFETIME",
+      "value": "Lifetime"
+    },
+    {
+      "key": "UI_LIKE_TEMPLERUN",
+      "value": "Like Temple Run!"
+    },
+    {
+      "key": "UI_LOAD_SLOT_FMT",
+      "value": "[{0}] (Select to Load)"
+    },
+    {
+      "key": "UI_LONGEST_RUN_LABEL",
+      "value": "Longest Run:"
+    },
+    {
+      "key": "UI_MAC_IOS_CLOUDSTORAGEFULL_WARNING",
+      "value": "Your iCloud Storage is Full. Any game progress made will be saved locally. For iCloud save, go to iCloud Settings to upgrade or clean out some more space."
+    },
+    {
+      "key": "UI_MAC_IOS_OFFLINE_WARNING",
+      "value": "Any existing cloud saves will not be available. Any game progress made will be saved locally. For iCloud save, ensure iCloud is enabled and signed-into."
+    },
+    {
+      "key": "UI_MAINMENU_OBJECTIVES",
+      "value": "Objectives"
+    },
+    {
+      "key": "UI_MAINMENU_OPTIONS",
+      "value": "Options"
+    },
+    {
+      "key": "UI_MAINMENU_PROGRESS",
+      "value": "Weekly Challenge"
+    },
+    {
+      "key": "UI_MAINMENU_REVIVES",
+      "value": "Revives"
+    },
+    {
+      "key": "UI_MAINMENU_SAVELOAD",
+      "value": "Save Slot Select"
+    },
+    {
+      "key": "UI_MAINMENU_STATS",
+      "value": "Stats"
+    },
+    {
+      "key": "UI_MAINMENU_UPGRADES",
+      "value": "Upgrades"
+    },
+    {
+      "key": "UI_MEGA_BOOST_AT_START",
+      "value": "Mega Start:"
+    },
+    {
+      "key": "UI_MEGA_BOOST_AT_START_ALT_CONTROLLER",
+      "value": "then choose \"Mega Start\" from menu."
+    },
+    {
+      "key": "UI_MEGA_BOOST_AT_START_ALT_IOS",
+      "value": "then choose \"Mega Start\" from menu."
+    },
+    {
+      "key": "UI_MEGA_BOOST_AT_START_ALT_KEYBOARD",
+      "value": "then choose \"Mega Start\" from menu."
+    },
+    {
+      "key": "UI_MEGA_BOOST_AT_START_ALT_REMOTE_GEN1",
+      "value": "then choose \"Mega Start\" from menu."
+    },
+    {
+      "key": "UI_MEGA_BOOST_AT_START_CONTROLLER",
+      "value": "Pause after starting countdown,"
+    },
+    {
+      "key": "UI_MEGA_BOOST_AT_START_IOS",
+      "value": "Pause after starting countdown,"
+    },
+    {
+      "key": "UI_MEGA_BOOST_AT_START_KEYBOARD",
+      "value": "Pause after starting countdown,"
+    },
+    {
+      "key": "UI_MEGA_BOOST_AT_START_REMOTE_GEN1",
+      "value": "Pause after starting countdown,"
+    },
+    {
+      "key": "UI_MEGA_COIN_DESC_0",
+      "value": "Enable the 50 Coin powerup."
+    },
+    {
+      "key": "UI_MEGA_COIN_DESC_1",
+      "value": "Increase Mega Coin to 75 coins."
+    },
+    {
+      "key": "UI_MEGA_COIN_DESC_2",
+      "value": "Increase Mega Coin to 100 coins."
+    },
+    {
+      "key": "UI_MEGA_COIN_DESC_3",
+      "value": "Increase Mega Coin to 125 coins."
+    },
+    {
+      "key": "UI_MEGA_COIN_DESC_4",
+      "value": "Increase Mega Coin to 150 coins."
+    },
+    {
+      "key": "UI_MEGA_COIN_DESC_5",
+      "value": "Allow disabling Mega Coin."
+    },
+    {
+      "key": "UI_MEGA_COIN_DESC_6",
+      "value": "Mega Coin fully upgraded!"
+    },
+    {
+      "key": "UI_MEGA_COIN_DESC_7",
+      "value": "Mega Coin is disabled."
+    },
+    {
+      "key": "UI_MEGA_HEAD",
+      "value": "Mega Head Start"
+    },
+    {
+      "key": "UI_MEGA_HEAD_DESC",
+      "value": "Mega Boost ahead 2500m at the start of the game."
+    },
+    {
+      "key": "UI_MEGA_HEAD_LONG_DESC",
+      "value": "Pause the game and select the Mega Head Start utility at the beginning of the game to boost forward 2,500m."
+    },
+    {
+      "key": "UI_MEGA_HEAD_SHORT",
+      "value": "Mega Start"
+    },
+    {
+      "key": "UI_MILESTONE_COMPLETED",
+      "value": "Milestone {0} Completed"
+    },
+    {
+      "key": "UI_MORE_COMING_SOON",
+      "value": "More Coming Soon..."
+    },
+    {
+      "key": "UI_MOST_COINS_LABEL",
+      "value": "Most Coins:"
+    },
+    {
+      "key": "UI_MULTIPLER_LABEL",
+      "value": "Multiplier:"
+    },
+    {
+      "key": "UI_MULTIPLE_TIERS_COMPLETE",
+      "value": "Tiers Complete!"
+    },
+    {
+      "key": "UI_MULTIPLIER_FMT",
+      "value": "{0}x"
+    },
+    {
+      "key": "UI_MULTIPLIER_TITLE",
+      "value": "Multiplier:"
+    },
+    {
+      "key": "UI_MUSIC",
+      "value": "Music"
+    },
+    {
+      "key": "UI_NETWORK_REQUEST_FAILED_BODY",
+      "value": "Unable to perform request at this time please try again later."
+    },
+    {
+      "key": "UI_NETWORK_REQUEST_FAILED_HEADING",
+      "value": "Request Failed"
+    },
+    {
+      "key": "UI_NEW_CHALLENGE",
+      "value": "New Weekly Challenge!"
+    },
+    {
+      "key": "UI_NEW_GAME_HEADER",
+      "value": "New Game"
+    },
+    {
+      "key": "UI_NEW_GAME_WARNING",
+      "value": "Your progress will be lost! Are you sure you want to start a new game?"
+    },
+    {
+      "key": "UI_NEW_OBJECTIVES_TITLE",
+      "value": "Next Objective:"
+    },
+    {
+      "key": "UI_NEW_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_1_QUEEN_ASTRID",
+      "value": "CONQUER THE \\nWINTER WITH"
+    },
+    {
+      "key": "UI_NEW_SLOT_FMT",
+      "value": "[{0}] (New)"
+    },
+    {
+      "key": "UI_NEW_TIER_COMPLETED",
+      "value": "\"{0}\" Tier Complete!"
+    },
+    {
+      "key": "UI_NEXT_BUTTON_TEXT",
+      "value": "NEXT"
+    },
+    {
+      "key": "UI_NEXT_CHALLENGE_HEADER",
+      "value": "Next Challenge"
+    },
+    {
+      "key": "UI_NEXT_TIER_THRESHOLD",
+      "value": "Next Tier Threshold:"
+    },
+    {
+      "key": "UI_NEXT_TIER_TITLE",
+      "value": "Next Tier:"
+    },
+    {
+      "key": "UI_NO",
+      "value": "No"
+    },
+    {
+      "key": "UI_NOT_APPLICABLE_SHORT",
+      "value": "n/a"
+    },
+    {
+      "key": "UI_NOVICE",
+      "value": "Novice"
+    },
+    {
+      "key": "UI_NO_ADS_BUTTON",
+      "value": "NO ADS"
+    },
+    {
+      "key": "UI_NO_CONTROLLER_WARNING",
+      "value": "A controller or remote is needed to continue."
+    },
+    {
+      "key": "UI_NO_NETWORK_CONNECTION",
+      "value": "No Network Connection"
+    },
+    {
+      "key": "UI_NO_THANKS",
+      "value": "No Thanks"
+    },
+    {
+      "key": "UI_NUM_OBJECTIVES_ACHIEVED",
+      "value": "Objectives Achieved:"
+    },
+    {
+      "key": "UI_OBJECTIVES_HEADER",
+      "value": "Objectives"
+    },
+    {
+      "key": "UI_OFF",
+      "value": "OFF"
+    },
+    {
+      "key": "UI_OK",
+      "value": "OK"
+    },
+    {
+      "key": "UI_OKAY",
+      "value": "Okay"
+    },
+    {
+      "key": "UI_ON",
+      "value": "ON"
+    },
+    {
+      "key": "UI_OPTIONS",
+      "value": "Options"
+    },
+    {
+      "key": "UI_PATHFINDER",
+      "value": "Pathfinder"
+    },
+    {
+      "key": "UI_PAUSED",
+      "value": "Paused"
+    },
+    {
+      "key": "UI_PAUSE_TO_USE_UTILITY_TIMER_FMT",
+      "value": "Activate Utilities from Pause Menu"
+    },
+    {
+      "key": "UI_PERMANENT_RESURRECTION",
+      "value": "Perma-Wings:"
+    },
+    {
+      "key": "UI_PERMANENT_RESURRECTION_ALT_CONTROLLER",
+      "value": "then choose \"Perma-Wings\" from menu."
+    },
+    {
+      "key": "UI_PERMANENT_RESURRECTION_ALT_IOS",
+      "value": "then choose \"Perma-Wings\" from menu."
+    },
+    {
+      "key": "UI_PERMANENT_RESURRECTION_ALT_KEYBOARD",
+      "value": "then choose \"Perma-Wings\" from menu."
+    },
+    {
+      "key": "UI_PERMANENT_RESURRECTION_ALT_REMOTE_GEN1",
+      "value": "then choose \"Perma Wings\" from menu."
+    },
+    {
+      "key": "UI_PERMANENT_RESURRECTION_CONTROLLER",
+      "value": "Pause after starting countdown,"
+    },
+    {
+      "key": "UI_PERMANENT_RESURRECTION_IOS",
+      "value": "Pause after starting countdown,"
+    },
+    {
+      "key": "UI_PERMANENT_RESURRECTION_KEYBOARD",
+      "value": "Pause after starting countdown,"
+    },
+    {
+      "key": "UI_PERMANENT_RESURRECTION_REMOTE_GEN1",
+      "value": "Pause after starting countdown,"
+    },
+    {
+      "key": "UI_PERMA_WINGS",
+      "value": "Perma-Wings"
+    },
+    {
+      "key": "UI_PERMA_WINGS_DESC",
+      "value": "Resurrection wings that are active permanently."
+    },
+    {
+      "key": "UI_PERMA_WINGS_LONG_DESC",
+      "value": "Pause the game and select the Perma-wings utility at the beginning of the game to activate. You will auto-resurrect as soon as you die."
+    },
+    {
+      "key": "UI_PERMA_WINGS_SHORT",
+      "value": "Perma-Wings"
+    },
+    {
+      "key": "UI_PLAY",
+      "value": "Play!"
+    },
+    {
+      "key": "UI_PLAY_BUTTON_LINE1",
+      "value": "Take the Idol"
+    },
+    {
+      "key": "UI_PLAY_BUTTON_LINE2",
+      "value": "If you Dare!"
+    },
+    {
+      "key": "UI_POINTS",
+      "value": "points"
+    },
+    {
+      "key": "UI_POPUP_CANNOT_SHARE",
+      "value": "Cannot Share"
+    },
+    {
+      "key": "UI_POPUP_CANNOT_SHARE_DESCRIPTION",
+      "value": "The message \\\"{0}\\\" cannot be sent because the connection failed."
+    },
+    {
+      "key": "UI_POPUP_COINS_PURCHASE",
+      "value": "Coin Purchase"
+    },
+    {
+      "key": "UI_POPUP_COINS_PURCHASE_FAILED",
+      "value": "Coin Purchase failed.  Check internet connection and try again."
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER",
+      "value": "Free Character"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_BARRY_BONES_TEXT1",
+      "value": "MASTER YOUR \\n SPEED WITH..."
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_BARRY_BONES_TEXT2",
+      "value": "BARRY BONES"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_BARRY_BONES_TEXT3",
+      "value": "Available for FREE in Runner Select"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_EDGAR_TWIGGENBOTTOM2026_TEXT1",
+      "value": "GET SPOOKY \\n WITH..."
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_EDGAR_TWIGGENBOTTOM2026_TEXT2",
+      "value": "EDGAR TWIGGENBOTTOM"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_FRANCISO_MONTOYA_TEXT1",
+      "value": "TREASURE AWAITS \\n WITH..."
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_FRANCISO_MONTOYA_TEXT2",
+      "value": "FRANCISCO MONTOYA"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_FRANCISO_MONTOYA_TEXT3",
+      "value": "Available for FREE in Runner Select"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_1_CARNIFEX",
+      "value": "THE DARK PATH \\n AWAITS WITH"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_1_FRANCISCO_MONTOYA",
+      "value": "EXPLORE THE \\n UNKNOWN WITH"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_1_KARMA_LEE",
+      "value": "STEP INTO \\n LEGEND WITH"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_1_KARMA_LEE2",
+      "value": "STEP INTO \\n LEGEND WITH"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_1_QUEEN_ASTRID",
+      "value": "THE QUEEN \\n RUNS FIRST"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_1_WALLY_NUTT",
+      "value": "CRACK OPEN \\n ADVENTURE WITH"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_1_ZACK_WONDER",
+      "value": "GEAR UP \\n WITH"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_1_ZACK_WONDER2",
+      "value": "GEAR UP \\n WITH"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_1_ZACK_WONDER_NEW",
+      "value": "GEAR UP \\n WITH"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_2_CARNIFEX",
+      "value": "CARNIFEX"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_2_FRANCISCO_MONTOYA",
+      "value": "FRANCISCO \\n MONTOYA"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_2_KARMA_LEE",
+      "value": "KARMA LEE"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_2_KARMA_LEE2",
+      "value": "KARMA LEE"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_2_QUEEN_ASTRID",
+      "value": "QUEEN ASTRID"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_2_WALLY_NUTT",
+      "value": "WALLY NUTT"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_2_ZACK_WONDER",
+      "value": "ZACK WONDER"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_2_ZACK_WONDER2_NEW",
+      "value": "ZACK WONDER"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_3_FOR_FREE",
+      "value": "Available For FREE in Runner Select"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_3_FRANCISCO_MONTOYA",
+      "value": "\nAvailable For FREE in Runner Select"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_3_KARMA_LEE2",
+      "value": "Available for FREE in Runner Select"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_3_ZACK_WONDER2_NEW",
+      "value": "Available for FREE in Runner Select"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_KAIXIANG_FOX_TEXT1",
+      "value": "Available for FREE in Runner Select"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_KAI_XIANG_TEXT1",
+      "value": "MASTER YOUR \\n SPEED WITH..."
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_KAI_XIANG_TEXT2",
+      "value": "KAI XIANG"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_KAI_XIANG_TEXT3",
+      "value": "Available for FREE in Runner Select"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_NIDHI_NIRMAL_TEXT1",
+      "value": "CELEBRATE 15 \\n YEARS WITH..."
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_NIDHI_NIRMAL_TEXT2",
+      "value": "NIDHI NIRMAL"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_NIDHI_NIRMAL_TEXT3",
+      "value": "Available for FREE in Runner Select"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_SCARLETT_FOX_TEXT1",
+      "value": "OUTRUN DANGER \\n WITH..."
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_SCARLETT_FOX_TEXT2",
+      "value": "SCARLETT FOX"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_SCARLETT_FOX_TEXT3",
+      "value": "Available for FREE in Runner Select"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_ZACK_WONDER2026_TEXT1",
+      "value": "RUSH AHEAD WITH…"
+    },
+    {
+      "key": "UI_POPUP_FREE_CHARACTER_ZACK_WONDER2026_TEXT2",
+      "value": "ZACK WONDER"
+    },
+    {
+      "key": "UI_POPUP_GC_TEXT_BIRTHDAY_LOOT",
+      "value": "CELEBRATE WITH EVERY COIN!"
+    },
+    {
+      "key": "UI_POPUP_GC_TEXT_COLD_AS_IT_GETS",
+      "value": "OUTLAST THE \\nFREEZE"
+    },
+    {
+      "key": "UI_POPUP_GC_TEXT_FIFTEEN_YEARS",
+      "value": "15 YEARS LATER..."
+    },
+    {
+      "key": "UI_POPUP_GC_TEXT_FREEDOM_RUN",
+      "value": "OH SAY CAN \\nYOU SEE?"
+    },
+    {
+      "key": "UI_POPUP_GC_TEXT_FRIDAY_NIGHT_RUN",
+      "value": "RUN THE FIELD IN..."
+    },
+    {
+      "key": "UI_POPUP_GC_TEXT_GOLD_RUSH",
+      "value": "ACQUIRE THE \\nTREASURE"
+    },
+    {
+      "key": "UI_POPUP_GC_TEXT_GRAB_THE_KEY",
+      "value": "JOIN THE HOLIDAY FUN!"
+    },
+    {
+      "key": "UI_POPUP_GC_TEXT_HOLIDAY_DREAMS",
+      "value": "TIS THE \\nSEASON"
+    },
+    {
+      "key": "UI_POPUP_GC_TEXT_INTO_THE_RUINS",
+      "value": "EXPLORE THE UNKNOWN"
+    },
+    {
+      "key": "UI_POPUP_GC_TEXT_NEW_BEGINNINGS",
+      "value": "EXPERIENCE THE SEASON"
+    },
+    {
+      "key": "UI_POPUP_GC_TEXT_ONE_MORE_RUN",
+      "value": "HOW FAR CAN YOU GO?"
+    },
+    {
+      "key": "UI_POPUP_GC_TEXT_RUNNING_WILD",
+      "value": "CAN YOU SURVIVE?"
+    },
+    {
+      "key": "UI_POPUP_GC_TEXT_SUMMER_MARATHON",
+      "value": "BEAT THE \\nHEAT"
+    },
+    {
+      "key": "UI_POPUP_GC_TEXT_TEMPLE_RAID",
+      "value": "FIND THE LOST IDOL"
+    },
+    {
+      "key": "UI_POPUP_GC_TEXT_THE_LONGEST_MILE",
+      "value": "CAN YOU LAST?"
+    },
+    {
+      "key": "UI_POPUP_GC_TEXT_TRICK_OR_TREAT",
+      "value": "GRAB SOME \\nCANDY"
+    },
+    {
+      "key": "UI_POPUP_GC_TITLE_BIRTHDAY_LOOT",
+      "value": "BIRTHDAY LOOT"
+    },
+    {
+      "key": "UI_POPUP_GC_TITLE_COLD_AS_IT_GETS",
+      "value": "COLD AS IT \\nGETS!"
+    },
+    {
+      "key": "UI_POPUP_GC_TITLE_FIFTEEN_YEARS",
+      "value": "STILL RUNNING"
+    },
+    {
+      "key": "UI_POPUP_GC_TITLE_FREEDOM_RUN",
+      "value": "FREEDOM \\nRUN"
+    },
+    {
+      "key": "UI_POPUP_GC_TITLE_FRIDAY_NIGHT_RUN",
+      "value": "FRIDAY NIGHT RUN"
+    },
+    {
+      "key": "UI_POPUP_GC_TITLE_GOLD_RUSH",
+      "value": "GOLD \\nRUSH"
+    },
+    {
+      "key": "UI_POPUP_GC_TITLE_GRAB_THE_KEY",
+      "value": "GRAB THE \\nTURKEY"
+    },
+    {
+      "key": "UI_POPUP_GC_TITLE_HOLIDAY_DREAMS",
+      "value": "HOLIDAY \\nDREAMS"
+    },
+    {
+      "key": "UI_POPUP_GC_TITLE_INTO_THE_RUINS",
+      "value": "INTO THE \\nRUINS"
+    },
+    {
+      "key": "UI_POPUP_GC_TITLE_NEW_BEGINNINGS",
+      "value": "NEW \\nBEGINNINGS"
+    },
+    {
+      "key": "UI_POPUP_GC_TITLE_ONE_MORE_RUN",
+      "value": "ONE MORE RUN"
+    },
+    {
+      "key": "UI_POPUP_GC_TITLE_RUNNING_WILD",
+      "value": "RUNNIN' \\nWILD"
+    },
+    {
+      "key": "UI_POPUP_GC_TITLE_SUMMER_MARATHON",
+      "value": "SUMMER \\nMARATHON"
+    },
+    {
+      "key": "UI_POPUP_GC_TITLE_TEMPLE_RAID",
+      "value": "TEMPLE \\nRAID"
+    },
+    {
+      "key": "UI_POPUP_GC_TITLE_THE_LONGEST_MILE",
+      "value": "THE LONGEST \\nMILE!"
+    },
+    {
+      "key": "UI_POPUP_GC_TITLE_TRICK_OR_TREAT",
+      "value": "TRICK OR \\nTREAT"
+    },
+    {
+      "key": "UI_POPUP_NEW_ADVENTURE",
+      "value": "New Adventure"
+    },
+    {
+      "key": "UI_POPUP_NEW_CHARACTERS",
+      "value": "New Characters"
+    },
+    {
+      "key": "UI_POPUP_NOADS_PURCHASE",
+      "value": "No Ads Purchase"
+    },
+    {
+      "key": "UI_POPUP_NOADS_PURCHASE_FAILED",
+      "value": "No Ads Purchase failed.  Check internet connection and try again."
+    },
+    {
+      "key": "UI_POPUP_PURCHASE_CANCELED",
+      "value": "Purchase Canceled"
+    },
+    {
+      "key": "UI_POPUP_RESTORE_COMPLETED",
+      "value": "Restore Completed!"
+    },
+    {
+      "key": "UI_POPUP_SHARE_CANCELLED",
+      "value": "Share cancelled!"
+    },
+    {
+      "key": "UI_POPUP_SHARE_FAILED",
+      "value": "Share failed!"
+    },
+    {
+      "key": "UI_POPUP_SHARE_SUCCESSFUL",
+      "value": "Share successful!"
+    },
+    {
+      "key": "UI_POPUP_SHARE__DESCRIPTION",
+      "value": "I got {0} points while escaping from demon monkeys. Beat that! {1}"
+    },
+    {
+      "key": "UI_POPUP_STORE_UNAVAILABLE",
+      "value": "Re-apply consent for IAP to enable the coin store"
+    },
+    {
+      "key": "UI_POPUP_STORE_UNAVAILABLE_DESCRIPTION",
+      "value": "The coin store is currently unavailable. Please contact support@imangistudios.com for more information."
+    },
+    {
+      "key": "UI_POPUP_SUCCESS",
+      "value": "Success!"
+    },
+    {
+      "key": "UI_POPUP_TEXT_IMPROVE_AD_EXPERIENCE",
+      "value": "Temple Run is supported by ads. To make these as relevant to you as possible, we would like to collect and share data with our ad partners. Please note that choosing No Thanks will not remove ads - instead, you may see ads that may be unrelated to your interests and therefore may not appeal to you. You can update your choice in Settings at any time.\n\n(Tapping YES will close the game; launch again for changes to take effect)"
+    },
+    {
+      "key": "UI_POPUP_TEXT_WITHDRAW_CONSENT",
+      "value": "You have currently given your consent to Imangi's disclosure of the advertising ID of your device to advertising network companies for marketing purposes in the game.\n\nAre you sure you want to withdraw consent?\n\n(Tapping YES will close the game; launch again for changes to take effect)"
+    },
+    {
+      "key": "UI_POPUP_THANKS_FOR_UPDATING_ACTION_BUTTON",
+      "value": "500 Coins"
+    },
+    {
+      "key": "UI_POPUP_THANKS_FOR_UPDATING_DESCRIPTION",
+      "value": "Thank you for keeping Temple Run Up-to-date! Please accept this gift of 500 coins!"
+    },
+    {
+      "key": "UI_POPUP_THANKS_FOR_UPDATING_DESCRIPTION_NEW",
+      "value": "Thank you for downloading Temple Run!"
+    },
+    {
+      "key": "UI_POPUP_THANKS_FOR_UPDATING_TITLE",
+      "value": "Thanks for Updating"
+    },
+    {
+      "key": "UI_POPUP_UPDATE_REQUIRED",
+      "value": "Update Required"
+    },
+    {
+      "key": "UI_POPUP_UPDATE_REQUIRED_DESCRIPTION",
+      "value": "An update is required to continue to play Temple Run."
+    },
+    {
+      "key": "UI_POWERUP",
+      "value": "Powerups"
+    },
+    {
+      "key": "UI_POWERUPS_HEADING",
+      "value": "POWERUPS"
+    },
+    {
+      "key": "UI_POWERUP_PURCHASE_LABEL",
+      "value": "UPGRADE"
+    },
+    {
+      "key": "UI_PRE_GAME_UTILITIES",
+      "value": "Game start Utilities"
+    },
+    {
+      "key": "UI_PRIVACY_POLICY",
+      "value": "Privacy Policy"
+    },
+    {
+      "key": "UI_PRIVACY_SETTINGS",
+      "value": "PRIVACY SETTINGS"
+    },
+    {
+      "key": "UI_PROFESSOR",
+      "value": "Professor"
+    },
+    {
+      "key": "UI_QUICK_FILL",
+      "value": "Instant Quick Fill"
+    },
+    {
+      "key": "UI_QUICK_FILL_DESC",
+      "value": "Instantly reduces your \"Time to Next Revive\" by 5 minutes."
+    },
+    {
+      "key": "UI_QUICK_FILL_LONG_DESC",
+      "value": "5 minutes has been deducted from your \"Time to Next Revive\"."
+    },
+    {
+      "key": "UI_QUICK_FILL_RESET_TIME",
+      "value": "resets to {1} in {0}"
+    },
+    {
+      "key": "UI_QUICK_FILL_TIME",
+      "value": "QUICK FILL: {0} per"
+    },
+    {
+      "key": "UI_REACTIVATION_REWARD_MESSAGE_1",
+      "value": "When's the last time you sprinted into a tree at 45 miles an hour? Let's change that. 🌳 💥"
+    },
+    {
+      "key": "UI_REACTIVATION_REWARD_MESSAGE_2",
+      "value": "😈 🐒 wE MIsS YU 🐒 😈 cOmE GEt EaTEd aGIn sOoN – SINsEREly, TEh dEMoN mONkEYS"
+    },
+    {
+      "key": "UI_RESTORE_PURCHASES",
+      "value": "RESTORE PURCHASES"
+    },
+    {
+      "key": "UI_RESURRECTION_WINGS",
+      "value": "Resurrection Wings"
+    },
+    {
+      "key": "UI_RESURRECTION_WINGS_DESC",
+      "value": "When active you resurrect immediately after death."
+    },
+    {
+      "key": "UI_RESURRECTION_WINGS_LONG_DESC_CONTROLLER",
+      "value": "Activate during your run by pressing the north (Y/△) gamepad button, or pause the game and select the Res-Wings utility. Lasts 30 seconds after activation. "
+    },
+    {
+      "key": "UI_RESURRECTION_WINGS_LONG_DESC_IOS",
+      "value": "Activate during your run by double tapping the screen, or pause the game and select the Res-Wings utility. Lasts 30 seconds after activation. "
+    },
+    {
+      "key": "UI_RESURRECTION_WINGS_LONG_DESC_KEYBOARD",
+      "value": "Activate during your run by pressing the [R] key, or pause the game and select the Res-Wings utility. Lasts 30 seconds after activation. "
+    },
+    {
+      "key": "UI_RESURRECTION_WINGS_LONG_DESC_REMOTE_GEN1",
+      "value": "Activate during your run by holding the center button for 1 second, or pause the game and select the Res-Wings utility. Lasts 30 seconds after activation. "
+    },
+    {
+      "key": "UI_RES_WINGS_SHORT",
+      "value": "Res-Wings"
+    },
+    {
+      "key": "UI_RETURN_MAIN_MENU_HEADER",
+      "value": "Exit Game"
+    },
+    {
+      "key": "UI_RETURN_MAIN_MENU_WARNING",
+      "value": "Your progress will be lost! Are you sure you want to exit?"
+    },
+    {
+      "key": "UI_REVIVE",
+      "value": "Revive"
+    },
+    {
+      "key": "UI_REVIVES_HEADING",
+      "value": "REVIVES"
+    },
+    {
+      "key": "UI_REVIVES_REMAINING",
+      "value": "Revives remaining this run"
+    },
+    {
+      "key": "UI_REVIVE_DESC",
+      "value": "Add 1 Revive, used to resurrect and continue running after death."
+    },
+    {
+      "key": "UI_REVIVE_LONG_DESC",
+      "value": "1 Revive has been added to your inventory."
+    },
+    {
+      "key": "UI_REWARD",
+      "value": "Reward"
+    },
+    {
+      "key": "UI_REWARDS",
+      "value": "REWARDS"
+    },
+    {
+      "key": "UI_REWARDS_HELP",
+      "value": "Rewards Help"
+    },
+    {
+      "key": "UI_REWARD_COINS",
+      "value": "COINS"
+    },
+    {
+      "key": "UI_REWARD_DESC_COINS",
+      "value": "Adds extra coins to your inventory. Spend at the UPGRADES screen."
+    },
+    {
+      "key": "UI_REWARD_DESC_HEADSTART",
+      "value": "Invincibly proceed 1000 meters at the start of your run. Activate from the pause menu during the first 100 meters of your run."
+    },
+    {
+      "key": "UI_REWARD_DESC_MEGASTART",
+      "value": "Invincibly proceed 2500 meters at the start of your run. Activate from the pause menu during the first 100 meters of your run."
+    },
+    {
+      "key": "UI_REWARD_DESC_PERMAWINGS",
+      "value": "Don these special wings to instantly revive after the first death during your run. Activate from the pause menu during the first 100 meters of your run."
+    },
+    {
+      "key": "UI_REWARD_DESC_QUICKFILL",
+      "value": "Semi-permanantly reduces your Revive refill time by the amount shown under the reward. Collect these to more quickly refill up to 3 revives, enabling more frequent long-plays. Quickfill rewards expire once every 4 weeks."
+    },
+    {
+      "key": "UI_REWARD_DESC_RESWINGS",
+      "value": "Activate anytime during your run to provide 30 seconds of protection against death. You'll revive automatically if you die while wearing these wings. See OPTIONS → \"Controls Help\" to learn how to activate."
+    },
+    {
+      "key": "UI_REWARD_DESC_REVIVE",
+      "value": "Adds 1 revive to your inventory. Revives can be stockpiled then spent in succession for one super-long leaderboard attack!"
+    },
+    {
+      "key": "UI_REWARD_HEADING_COINS",
+      "value": "COINS"
+    },
+    {
+      "key": "UI_REWARD_HEADING_HEADSTART",
+      "value": "HEAD START"
+    },
+    {
+      "key": "UI_REWARD_HEADING_MEGASTART",
+      "value": "MEGA START"
+    },
+    {
+      "key": "UI_REWARD_HEADING_PERMAWINGS",
+      "value": "PERMA-WINGS"
+    },
+    {
+      "key": "UI_REWARD_HEADING_QUICKFILL",
+      "value": "QUICK FILL"
+    },
+    {
+      "key": "UI_REWARD_HEADING_RESWINGS",
+      "value": "RESURRECTION WINGS"
+    },
+    {
+      "key": "UI_REWARD_HEADING_REVIVE",
+      "value": "REVIVE"
+    },
+    {
+      "key": "UI_REWARD_HEADSTART",
+      "value": "HEAD\\nSTART"
+    },
+    {
+      "key": "UI_REWARD_INFO",
+      "value": "Reward Info"
+    },
+    {
+      "key": "UI_REWARD_MEGASTART",
+      "value": "MEGA\\nSTART"
+    },
+    {
+      "key": "UI_REWARD_PERMAWINGS",
+      "value": "PERMA\\nWINGS"
+    },
+    {
+      "key": "UI_REWARD_POPUP_DESC",
+      "value": "The rewards earned above will be added to your inventory."
+    },
+    {
+      "key": "UI_REWARD_RESWINGS",
+      "value": "RES\\nWINGS"
+    },
+    {
+      "key": "UI_REWARD_REVIVE",
+      "value": "REVIVE"
+    },
+    {
+      "key": "UI_REWARD_REVIVE_QUICKFILL",
+      "value": "QUICK\\nFILL"
+    },
+    {
+      "key": "UI_RUN_AGAIN",
+      "value": "Run Again"
+    },
+    {
+      "key": "UI_SAVEME_END_RUN",
+      "value": "End Run"
+    },
+    {
+      "key": "UI_SAVEME_USE_TOKEN",
+      "value": "Use a Revive"
+    },
+    {
+      "key": "UI_SAVESLOTS_DESCRIPTION",
+      "value": "Select a slot for saving Weekly Challenge Progress, Upgrades, and Stats."
+    },
+    {
+      "key": "UI_SAVESLOTS_HEADING",
+      "value": "Save Slots"
+    },
+    {
+      "key": "UI_SCORE",
+      "value": "Score"
+    },
+    {
+      "key": "UI_SCORE_FOR_RESULT_SCREEN",
+      "value": "SCORE"
+    },
+    {
+      "key": "UI_SCORE_TITLE",
+      "value": "Score:"
+    },
+    {
+      "key": "UI_SCRAPPER",
+      "value": "Scrapper"
+    },
+    {
+      "key": "UI_SEASONAL_HEADER",
+      "value": "Seasonals"
+    },
+    {
+      "key": "UI_SENSITIVITY",
+      "value": "Sensitivity"
+    },
+    {
+      "key": "UI_SHARE_TEXT",
+      "value": "Share!"
+    },
+    {
+      "key": "UI_SHOP_HEADER",
+      "value": "Shop"
+    },
+    {
+      "key": "UI_SINGLE_COIN",
+      "value": "Single Coins Challenge"
+    },
+    {
+      "key": "UI_SINGLE_COIN_DESC",
+      "value": "Gather required amount of coins in a single run to complete this challenge! "
+    },
+    {
+      "key": "UI_SINGLE_DISTANCE",
+      "value": "Single Distance Challenge"
+    },
+    {
+      "key": "UI_SINGLE_DISTANCE_DESC",
+      "value": "Reach the required distance in a single run to complete this challenge!"
+    },
+    {
+      "key": "UI_SINGLE_POWERUP",
+      "value": "Single Power-Up Challenge"
+    },
+    {
+      "key": "UI_SINGLE_POWERUP_DESC",
+      "value": "Gather required amount of power-ups in a single run to complete this challenge! "
+    },
+    {
+      "key": "UI_SINGLE_RUN",
+      "value": "Single Run"
+    },
+    {
+      "key": "UI_SINGLE_SCORE",
+      "value": "Single Score Challenge"
+    },
+    {
+      "key": "UI_SINGLE_SCORE_DESC",
+      "value": "Achieve the required score in a single run to complete this challenge!"
+    },
+    {
+      "key": "UI_SIRI_REMOTE_1",
+      "value": "Siri Remote"
+    },
+    {
+      "key": "UI_SIRI_REMOTE_2",
+      "value": "Remote Gen 2"
+    },
+    {
+      "key": "UI_SLIDE",
+      "value": "Slide:"
+    },
+    {
+      "key": "UI_SLIDE_CONTROLLER",
+      "value": "D-pad/Stick ↓ or X/□"
+    },
+    {
+      "key": "UI_SLIDE_IOS",
+      "value": "Swipe Down"
+    },
+    {
+      "key": "UI_SLIDE_KEYBOARD",
+      "value": "[↓] or [S] key"
+    },
+    {
+      "key": "UI_SLIDE_REMOTE_GEN1",
+      "value": "Swipe Down"
+    },
+    {
+      "key": "UI_SLOT_COINS_FMT",
+      "value": "Lifetime Coins: {0}"
+    },
+    {
+      "key": "UI_SLOT_DISTANCE_FMT",
+      "value": "Lifetime Distance: {0}m"
+    },
+    {
+      "key": "UI_SOUND",
+      "value": "Sound"
+    },
+    {
+      "key": "UI_START",
+      "value": "Start"
+    },
+    {
+      "key": "UI_STATS_HEADER",
+      "value": "Stats"
+    },
+    {
+      "key": "UI_STRAFE_LEFT",
+      "value": "Move left to pickup coins:"
+    },
+    {
+      "key": "UI_STRAFE_LEFT_CONTROLLER",
+      "value": "D-pad/Stick ←"
+    },
+    {
+      "key": "UI_STRAFE_LEFT_IOS",
+      "value": "Tilt Left"
+    },
+    {
+      "key": "UI_STRAFE_LEFT_KEYBOARD",
+      "value": "[←] or [A] key"
+    },
+    {
+      "key": "UI_STRAFE_LEFT_REMOTE_GEN1",
+      "value": "Swipe Left"
+    },
+    {
+      "key": "UI_STRAFE_RIGHT",
+      "value": "Move right to pickup coins:"
+    },
+    {
+      "key": "UI_STRAFE_RIGHT_CONTROLLER",
+      "value": "D-pad/Stick →"
+    },
+    {
+      "key": "UI_STRAFE_RIGHT_IOS",
+      "value": "Tilt Right"
+    },
+    {
+      "key": "UI_STRAFE_RIGHT_KEYBOARD",
+      "value": "[→] or [D] key"
+    },
+    {
+      "key": "UI_STRAFE_RIGHT_REMOTE_GEN1",
+      "value": "Swipe Right"
+    },
+    {
+      "key": "UI_SUMMON_PAUSE_MENU",
+      "value": "Pause Menu:"
+    },
+    {
+      "key": "UI_SUMMON_PAUSE_MENU_ALT_CONTROLLER",
+      "value": "\"\""
+    },
+    {
+      "key": "UI_SUMMON_PAUSE_MENU_ALT_IOS",
+      "value": "\"\""
+    },
+    {
+      "key": "UI_SUMMON_PAUSE_MENU_ALT_KEYBOARD",
+      "value": "\"\""
+    },
+    {
+      "key": "UI_SUMMON_PAUSE_MENU_ALT_REMOTE_GEN1",
+      "value": "\"\""
+    },
+    {
+      "key": "UI_SUMMON_PAUSE_MENU_CONTROLLER",
+      "value": "Start/Menu/Options button"
+    },
+    {
+      "key": "UI_SUMMON_PAUSE_MENU_IOS",
+      "value": "Touch pause icon"
+    },
+    {
+      "key": "UI_SUMMON_PAUSE_MENU_KEYBOARD",
+      "value": "[ESC] key"
+    },
+    {
+      "key": "UI_SUMMON_PAUSE_MENU_REMOTE_GEN1",
+      "value": "Pause button"
+    },
+    {
+      "key": "UI_TEXT_DEEP_LINKING_CTA",
+      "value": "Claim Now"
+    },
+    {
+      "key": "UI_TEXT_DEEP_LINKING_TEXT_1",
+      "value": "CELEBRATE"
+    },
+    {
+      "key": "UI_TEXT_DEEP_LINKING_TEXT_2",
+      "value": "15 YEARS"
+    },
+    {
+      "key": "UI_TEXT_DEEP_LINKING_TEXT_3",
+      "value": "WITH 15,000 FREE COINS!"
+    },
+    {
+      "key": "UI_TEXT_DEEP_LINKING_TITLE",
+      "value": "WELCOME BACK!"
+    },
+    {
+      "key": "UI_TEXT_IMPROVED_AD_EXPERIENCE",
+      "value": "Improved Ad Experience"
+    },
+    {
+      "key": "UI_TEXT_IMPROVE_AD_EXPERIENCE",
+      "value": "IMPROVE AD EXPERIENCE?"
+    },
+    {
+      "key": "UI_TEXT_OPT_IN",
+      "value": "Opt In"
+    },
+    {
+      "key": "UI_TEXT_OPT_OUT",
+      "value": "Opt Out"
+    },
+    {
+      "key": "UI_TEXT_RESET_PROGRESS",
+      "value": "Reset Progress"
+    },
+    {
+      "key": "UI_TEXT_WITHDRAW_CONSENT",
+      "value": "WITHDRAW CONSENT?"
+    },
+    {
+      "key": "UI_TIER",
+      "value": "TIER"
+    },
+    {
+      "key": "UI_TIER_ACHIEVED",
+      "value": "Tier Achieved"
+    },
+    {
+      "key": "UI_TIME_DAYS_HOURS_MINS_FMT",
+      "value": "{2}d {1}h {0}m"
+    },
+    {
+      "key": "UI_TIME_DAYS_HOURS_MINS_SECS_FMT",
+      "value": "{3}d {2}h {1}m {0}s"
+    },
+    {
+      "key": "UI_TIME_HOURS_FMT",
+      "value": "{0}h"
+    },
+    {
+      "key": "UI_TIME_HOURS_MINS_FMT",
+      "value": "{1}h {0}m"
+    },
+    {
+      "key": "UI_TIME_LEFT",
+      "value": "Time Left:"
+    },
+    {
+      "key": "UI_TIME_MINS_FMT",
+      "value": "{0} min"
+    },
+    {
+      "key": "UI_TIME_MINS_SECS_FMT",
+      "value": "{1}m {0}s"
+    },
+    {
+      "key": "UI_TIME_SECS_FMT",
+      "value": "{0}s"
+    },
+    {
+      "key": "UI_TIME_TILL_NEXT",
+      "value": "Next Challenge in:"
+    },
+    {
+      "key": "UI_TOKEN_REFILL_FMT",
+      "value": "Next Revive in <color=#F6D600>{0}m {1}s</color>"
+    },
+    {
+      "key": "UI_TOKEN_REFILL_SEC_FMT",
+      "value": "Next Revive in <color=#F6D600>{0}s</color>"
+    },
+    {
+      "key": "UI_TOTAL_COINS_LABEL",
+      "value": "Lifetime Coins:"
+    },
+    {
+      "key": "UI_TOTAL_DISTANCE_LABEL",
+      "value": "Lifetime Distance:"
+    },
+    {
+      "key": "UI_TOTAL_GAMES_LABEL",
+      "value": "Lifetime Games:"
+    },
+    {
+      "key": "UI_TOUCH_CONTROLS",
+      "value": "Touch"
+    },
+    {
+      "key": "UI_TRY_AGAIN",
+      "value": "Try Again"
+    },
+    {
+      "key": "UI_TURN_LEFT",
+      "value": "Turn Left:"
+    },
+    {
+      "key": "UI_TURN_LEFT_CONTROLLER",
+      "value": "D-pad/Stick ←/L1(LB)"
+    },
+    {
+      "key": "UI_TURN_LEFT_IOS",
+      "value": "Swipe Left"
+    },
+    {
+      "key": "UI_TURN_LEFT_KEYBOARD",
+      "value": "[←] or [A] key"
+    },
+    {
+      "key": "UI_TURN_LEFT_REMOTE_GEN1",
+      "value": "Swipe Left"
+    },
+    {
+      "key": "UI_TURN_RIGHT",
+      "value": "Turn Right:"
+    },
+    {
+      "key": "UI_TURN_RIGHT_CONTROLLER",
+      "value": "D-pad/Stick →/R1(RB)"
+    },
+    {
+      "key": "UI_TURN_RIGHT_IOS",
+      "value": "Swipe Right"
+    },
+    {
+      "key": "UI_TURN_RIGHT_KEYBOARD",
+      "value": "[→] or [D] key"
+    },
+    {
+      "key": "UI_TURN_RIGHT_REMOTE_GEN1",
+      "value": "Swipe Right"
+    },
+    {
+      "key": "UI_TUTORIAL",
+      "value": "Tutorial"
+    },
+    {
+      "key": "UI_TUT_DONE_GOOD_LUCK",
+      "value": "You're Ready! Good Luck!"
+    },
+    {
+      "key": "UI_TUT_JUMP_CONTROLLER",
+      "value": "Up to Jump"
+    },
+    {
+      "key": "UI_TUT_JUMP_IOS",
+      "value": "Swipe to Jump"
+    },
+    {
+      "key": "UI_TUT_JUMP_KEYBOARD",
+      "value": "Up to Jump"
+    },
+    {
+      "key": "UI_TUT_JUMP_REMOTE_GEN1",
+      "value": "Swipe Up to Jump"
+    },
+    {
+      "key": "UI_TUT_PROGRESS_FEEDBACK",
+      "value": "Nice Job!"
+    },
+    {
+      "key": "UI_TUT_SLIDE_CONTROLLER",
+      "value": "Down to Slide"
+    },
+    {
+      "key": "UI_TUT_SLIDE_IOS",
+      "value": "Swipe to Slide"
+    },
+    {
+      "key": "UI_TUT_SLIDE_KEYBOARD",
+      "value": "Down to Slide"
+    },
+    {
+      "key": "UI_TUT_SLIDE_REMOTE_GEN1",
+      "value": "Swipe Down to Slide"
+    },
+    {
+      "key": "UI_TUT_STRAFE_LEFTRIGHT_CONTROLLER",
+      "value": "Left/Right to collect coins"
+    },
+    {
+      "key": "UI_TUT_STRAFE_LEFTRIGHT_IOS",
+      "value": "Tilt to Collect Coins"
+    },
+    {
+      "key": "UI_TUT_STRAFE_LEFTRIGHT_KEYBOARD",
+      "value": "Left/Right to collect coins"
+    },
+    {
+      "key": "UI_TUT_STRAFE_LEFTRIGHT_REMOTE_GEN1",
+      "value": "Swipe to collect coins"
+    },
+    {
+      "key": "UI_TUT_STRAFE_LEFT_CONTROLLER",
+      "value": "Left to collect coins"
+    },
+    {
+      "key": "UI_TUT_STRAFE_LEFT_IOS",
+      "value": "Tilt to Collect Coins"
+    },
+    {
+      "key": "UI_TUT_STRAFE_LEFT_KEYBOARD",
+      "value": "Left to collect coins"
+    },
+    {
+      "key": "UI_TUT_STRAFE_LEFT_REMOTE_GEN1",
+      "value": "Swipe to collect coins"
+    },
+    {
+      "key": "UI_TUT_STRAFE_RIGHT_CONTROLLER",
+      "value": "Right to collect coins"
+    },
+    {
+      "key": "UI_TUT_STRAFE_RIGHT_IOS",
+      "value": "Tilt to Collect Coins"
+    },
+    {
+      "key": "UI_TUT_STRAFE_RIGHT_KEYBOARD",
+      "value": "Right to collect coins"
+    },
+    {
+      "key": "UI_TUT_STRAFE_RIGHT_REMOTE_GEN1",
+      "value": "Swipe to collect coins"
+    },
+    {
+      "key": "UI_TUT_TURN_LEFTRIGHT_CONTROLLER",
+      "value": "Left/Right D-Pad to turn"
+    },
+    {
+      "key": "UI_TUT_TURN_LEFTRIGHT_IOS",
+      "value": "Swipe to Turn"
+    },
+    {
+      "key": "UI_TUT_TURN_LEFTRIGHT_KEYBOARD",
+      "value": "Left/Right to Turn"
+    },
+    {
+      "key": "UI_TUT_TURN_LEFTRIGHT_REMOTE_GEN1",
+      "value": "Swipe to Turn"
+    },
+    {
+      "key": "UI_TUT_TURN_LEFT_CONTROLLER",
+      "value": "Left D-pad"
+    },
+    {
+      "key": "UI_TUT_TURN_LEFT_IOS",
+      "value": "Swipe to Turn"
+    },
+    {
+      "key": "UI_TUT_TURN_LEFT_KEYBOARD",
+      "value": "Left Arrow to Turn"
+    },
+    {
+      "key": "UI_TUT_TURN_LEFT_REMOTE_GEN1",
+      "value": "Swipe to Turn"
+    },
+    {
+      "key": "UI_TUT_TURN_RIGHT_CONTROLLER",
+      "value": "Right D-pad"
+    },
+    {
+      "key": "UI_TUT_TURN_RIGHT_IOS",
+      "value": "Swipe to Turn"
+    },
+    {
+      "key": "UI_TUT_TURN_RIGHT_KEYBOARD",
+      "value": "Right Arrow to Turn"
+    },
+    {
+      "key": "UI_TUT_TURN_RIGHT_REMOTE_GEN1",
+      "value": "Swipe to Turn"
+    },
+    {
+      "key": "UI_TVOS_CLOUDSTORAGEFULL_WARNING",
+      "value": "Your iCloud Storage is Full. Any existing cloud saves will not be available. Any game progress made may not be saved. For iCloud save, go to iCloud Settings to upgrade or clean out some more space."
+    },
+    {
+      "key": "UI_TVOS_OFFLINE_WARNING",
+      "value": "This device is currently offline. Any existing cloud saves will not be available. Any game progress made may not be saved. For iCloud save, ensure iCloud is enabled and signed-into."
+    },
+    {
+      "key": "UI_UNAVAILABLE",
+      "value": "Unavailable"
+    },
+    {
+      "key": "UI_UNKNOWN",
+      "value": "Unknown"
+    },
+    {
+      "key": "UI_UNLOCKED",
+      "value": "UNLOCKED"
+    },
+    {
+      "key": "UI_UPGRADES_HEADING",
+      "value": "Upgrades"
+    },
+    {
+      "key": "UI_UPGRADES_NOTENOUGHCOIN_DESC",
+      "value": "Collect coins while running to spend here!"
+    },
+    {
+      "key": "UI_UPGRADES_NOTENOUGHCOIN_TITLE",
+      "value": "NOT ENOUGH COINS"
+    },
+    {
+      "key": "UI_UPGRADES_ON_RESULT_SCREEN",
+      "value": "Upgrades"
+    },
+    {
+      "key": "UI_USE_RESURRECTION",
+      "value": "30s Resurrection Wings:"
+    },
+    {
+      "key": "UI_USE_RESURRECTION_ALT_CONTROLLER",
+      "value": "then choose \"Res-Wings\" from menu."
+    },
+    {
+      "key": "UI_USE_RESURRECTION_ALT_IOS",
+      "value": "or pause, then choose \"Res-Wings\" from menu."
+    },
+    {
+      "key": "UI_USE_RESURRECTION_ALT_KEYBOARD",
+      "value": "then choose \"Res-Wings\" from menu."
+    },
+    {
+      "key": "UI_USE_RESURRECTION_ALT_REMOTE_GEN1",
+      "value": "or pause, then choose \"Res-Wings\" from menu."
+    },
+    {
+      "key": "UI_USE_RESURRECTION_CONTROLLER",
+      "value": "Y/△, or pause,"
+    },
+    {
+      "key": "UI_USE_RESURRECTION_IOS",
+      "value": "Double Tap screen during game,"
+    },
+    {
+      "key": "UI_USE_RESURRECTION_KEYBOARD",
+      "value": "[R] key, or pause,"
+    },
+    {
+      "key": "UI_USE_RESURRECTION_REMOTE_GEN1",
+      "value": "Press and hold center button,"
+    },
+    {
+      "key": "UI_UTILITIES_HEADING",
+      "value": "UTILITIES"
+    },
+    {
+      "key": "UI_UTILITY_ALREADY_IN_EFFECT",
+      "value": "Resurrection or Perma-wings are already in effect: can only be re-activated after wings have worn off."
+    },
+    {
+      "key": "UI_UTILITY_NOT_DURING_INTRO",
+      "value": "Not available during your run's countdown/intro."
+    },
+    {
+      "key": "UI_UTILITY_NOT_DURING_TUTORIAL",
+      "value": "Not available during tutorial."
+    },
+    {
+      "key": "UI_UTILITY_NOT_IN_INVENTORY",
+      "value": "None in Inventory: pick up coins during your run, then buy from the Main Menu \"Upgrades\" screen."
+    },
+    {
+      "key": "UI_UTILITY_ONLY_AT_START",
+      "value": "This utility only works at the beginning of your run, between {0} and {1}m."
+    },
+    {
+      "key": "UI_UTILITY_PURCHASE_LABEL",
+      "value": "SINGLE USE"
+    },
+    {
+      "key": "UI_UTILITY_SOME_INTRO_UTILITY_ALREADY_USED",
+      "value": "Only one of Perma-Wings, Head Start, and Mega Head Start can be used in a run."
+    },
+    {
+      "key": "UI_UTILITY_UNAVAILABLE",
+      "value": "THIS UTILITY NOT AVAILABLE"
+    },
+    {
+      "key": "UI_UTILITY_WINGS_RECHARGING",
+      "value": "Resurrection wings are re-charging. {0}s left to charge."
+    },
+    {
+      "key": "UI_VIDEO_AD_FAILED",
+      "value": "Sorry, the video failed to play."
+    },
+    {
+      "key": "UI_WALLPAPERS",
+      "value": "WALLPAPERS"
+    },
+    {
+      "key": "UI_WATCH_AD_TO_CONTINUE",
+      "value": "Watch an Ad to Continue?"
+    },
+    {
+      "key": "UI_WATCH_AD_TO_REVIVE",
+      "value": "Watch an Ad to Revive?"
+    },
+    {
+      "key": "UI_WITH_REVIVE",
+      "value": "with Revive"
+    },
+    {
+      "key": "UI_YES",
+      "value": "Yes"
+    },
+    {
+      "key": "UI_YOUR_MULTIPLIER",
+      "value": "Your Multiplier:"
+    },
+    {
+      "key": "UI_YOUR_PROGRESS",
+      "value": "Your Progress:"
+    },
+    {
+      "key": "UI_kPlayer_DrZenobios",
+      "value": "DOCTOR\\nZENOBIOS"
+    },
+    {
+      "key": "UI_kPlayer_GoldenGuyDangerous",
+      "value": "GOLDEN\\nGUY\\n"
+    },
+    {
+      "key": "UI_kPlayer_NidhiNirmal",
+      "value": "NIDHI\\nNIRMAL"
+    },
+    {
+      "key": "UI_kPlayer_NidhiNirmalLostJungle",
+      "value": "NIDHI\\nNIRMAL"
+    },
+    {
+      "key": "UI_kPlayer_QueenAstrid",
+      "value": "QUEEN\\nASTRID"
+    },
+    {
+      "key": "UI_kPlayer_RahlRajaLostJungle",
+      "value": "RAHI\\nRAJA"
+    },
+    {
+      "key": "UI_kPlayer_Santa",
+      "value": "SANTA"
+    },
+    {
+      "key": "UI_kPlayer_SaraBanyanHerbalist",
+      "value": "SARA\\nBANYAN"
+    },
+    {
+      "key": "UI_kPlayer_SeleneAstronaut",
+      "value": "SELENE\\nCELESTE"
+    },
+    {
+      "key": "UI_kPlayer_SigurFrostbeardLumberjack",
+      "value": "SIGUR\\nFROSTBEARD"
+    },
+    {
+      "key": "UI_kPlayer_SimoneDaviesPirateCove",
+      "value": "SIMONE\\nDAVIES"
+    },
+    {
+      "key": "UI_kPlayer_Skeleton",
+      "value": "EDGAR\\nTWIGGENBOTTOM"
+    },
+    {
+      "key": "UI_kPlayer_Tamatoa",
+      "value": "TAMATOA"
+    },
+    {
+      "key": "VersionNumber",
+      "value": "1.43.0"
+    },
+    {
+      "key": "Yes",
+      "value": "Yes"
+    },
+    {
+      "key": "iPadAppId",
+      "value": "420009108"
+    },
+    {
+      "key": "iPhoneAppId",
+      "value": "420009108"
+    }
+  ]
+}

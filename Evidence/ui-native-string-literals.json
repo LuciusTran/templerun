@@ -1,0 +1,4781 @@
+{
+  "binarySha256": "40d634295843ceee9c019e6c862bed7fb2c3636d2b297f1d1eb6cc5818188d3d",
+  "metadataSha256": "a8c8b4423015a4168de02ef89b14bf62607b3b4d70c4cd0fb8543307e007ae6b",
+  "metadataVersion": 31,
+  "loaderAddressDelta": "0x100000",
+  "entries": [
+    {
+      "ghidraSymbol": "PTR_DAT_029b8618",
+      "elfGotAddress": "0x28b8618",
+      "elfUsageSlot": "0x2985440",
+      "encodedToken": "0xa0000001",
+      "literalIndex": 0,
+      "value": "",
+      "referencedBy": [
+        "DecompiledNative/MainMenu/MainMenu_ShowAll_12f2248.cpp",
+        "DecompiledNative/StoreItem/StoreItem_UpdateBar_12fcde8.cpp",
+        "DecompiledNative/UIFilledSprite/UIFilledSprite_UIFilledSprite_12122c4.cpp",
+        "DecompiledNative/UILabel/UILabel_ProcessText_12a1038.cpp",
+        "DecompiledNative/UISprite/UISprite_set_spriteName_12a2d48.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029b8730",
+      "elfGotAddress": "0x28b8730",
+      "elfUsageSlot": "0x2986be0",
+      "encodedToken": "0xa00005e9",
+      "literalIndex": 756,
+      "value": ",",
+      "referencedBy": [
+        "DecompiledNative/BonusStartButtons/BonusStartButtons_OnEnable_12e0658.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029b88f0",
+      "elfGotAddress": "0x28b88f0",
+      "elfUsageSlot": "0x2999178",
+      "encodedToken": "0xa0004f5b",
+      "literalIndex": 10157,
+      "value": "\\n",
+      "referencedBy": [
+        "DecompiledNative/UILabel/UILabel_ProcessText_12a1038.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029b8950",
+      "elfGotAddress": "0x28b8950",
+      "elfUsageSlot": "0x2985618",
+      "encodedToken": "0xa0000077",
+      "literalIndex": 59,
+      "value": "\n",
+      "referencedBy": [
+        "DecompiledNative/UILabel/UILabel_ProcessText_12a1038.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029b8de0",
+      "elfGotAddress": "0x28b8de0",
+      "elfUsageSlot": "0x29874a8",
+      "encodedToken": "0xa000081b",
+      "literalIndex": 1037,
+      "value": "1",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateBar_12fcde8.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029b9680",
+      "elfGotAddress": "0x28b9680",
+      "elfUsageSlot": "0x29938d0",
+      "encodedToken": "0xa000392b",
+      "literalIndex": 7317,
+      "value": "SaveMe",
+      "referencedBy": [
+        "DecompiledNative/StoreGUI/StoreGUI_ShowAll_12f9944.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bbeb0",
+      "elfGotAddress": "0x28bbeb0",
+      "elfUsageSlot": "0x2997ba0",
+      "encodedToken": "0xa00049e3",
+      "literalIndex": 9457,
+      "value": "Unknown",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bd9d8",
+      "elfGotAddress": "0x28bd9d8",
+      "elfUsageSlot": "0x2994408",
+      "encodedToken": "0xa0003bfb",
+      "literalIndex": 7677,
+      "value": "StartOfRun",
+      "referencedBy": [
+        "DecompiledNative/MainMenu/MainMenu_OnPlayClicked_12f244c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bd9e0",
+      "elfGotAddress": "0x28bd9e0",
+      "elfUsageSlot": "0x2991110",
+      "encodedToken": "0xa0002f3b",
+      "literalIndex": 6045,
+      "value": "NetworkStatus",
+      "referencedBy": [
+        "DecompiledNative/MainMenu/MainMenu_OnPlayClicked_12f244c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be1a0",
+      "elfGotAddress": "0x28be1a0",
+      "elfUsageSlot": "0x299e530",
+      "encodedToken": "0xa0006449",
+      "literalIndex": 12836,
+      "value": "magnets5",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be1a8",
+      "elfGotAddress": "0x28be1a8",
+      "elfUsageSlot": "0x299cfd8",
+      "encodedToken": "0xa0005ef3",
+      "literalIndex": 12153,
+      "value": "headstart",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be1b0",
+      "elfGotAddress": "0x28be1b0",
+      "elfUsageSlot": "0x299ab50",
+      "encodedToken": "0xa00055d1",
+      "literalIndex": 10984,
+      "value": "coins100",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be1b8",
+      "elfGotAddress": "0x28be1b8",
+      "elfUsageSlot": "0x299ab58",
+      "encodedToken": "0xa00055d3",
+      "literalIndex": 10985,
+      "value": "coins1000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be1c0",
+      "elfGotAddress": "0x28be1c0",
+      "elfUsageSlot": "0x299a4f8",
+      "encodedToken": "0xa000543b",
+      "literalIndex": 10781,
+      "value": "boosts5",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be1c8",
+      "elfGotAddress": "0x28be1c8",
+      "elfUsageSlot": "0x299d828",
+      "encodedToken": "0xa0006107",
+      "literalIndex": 12419,
+      "value": "invisibilityBonuses10",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be1d0",
+      "elfGotAddress": "0x28be1d0",
+      "elfUsageSlot": "0x299d838",
+      "encodedToken": "0xa000610b",
+      "literalIndex": 12421,
+      "value": "invisibilityBonuses5",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be1d8",
+      "elfGotAddress": "0x28be1d8",
+      "elfUsageSlot": "0x299fe48",
+      "encodedToken": "0xa0006a8f",
+      "literalIndex": 13639,
+      "value": "score1000000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be1e0",
+      "elfGotAddress": "0x28be1e0",
+      "elfUsageSlot": "0x299d830",
+      "encodedToken": "0xa0006109",
+      "literalIndex": 12420,
+      "value": "invisibilityBonuses20",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be1e8",
+      "elfGotAddress": "0x28be1e8",
+      "elfUsageSlot": "0x299ab68",
+      "encodedToken": "0xa00055d7",
+      "literalIndex": 10987,
+      "value": "coins2500",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be1f0",
+      "elfGotAddress": "0x28be1f0",
+      "elfUsageSlot": "0x299fe70",
+      "encodedToken": "0xa0006a99",
+      "literalIndex": 13644,
+      "value": "score2500000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be1f8",
+      "elfGotAddress": "0x28be1f8",
+      "elfUsageSlot": "0x299fe50",
+      "encodedToken": "0xa0006a91",
+      "literalIndex": 13640,
+      "value": "score10000000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be200",
+      "elfGotAddress": "0x28be200",
+      "elfUsageSlot": "0x299e108",
+      "encodedToken": "0xa000633f",
+      "literalIndex": 12703,
+      "value": "lifetimeGames1000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be208",
+      "elfGotAddress": "0x28be208",
+      "elfUsageSlot": "0x299ab70",
+      "encodedToken": "0xa00055d9",
+      "literalIndex": 10988,
+      "value": "coins500",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be210",
+      "elfGotAddress": "0x28be210",
+      "elfUsageSlot": "0x299a930",
+      "encodedToken": "0xa0005549",
+      "literalIndex": 10916,
+      "value": "character2",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be218",
+      "elfGotAddress": "0x28be218",
+      "elfUsageSlot": "0x299bd10",
+      "encodedToken": "0xa0005a41",
+      "literalIndex": 11552,
+      "value": "distance500",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be220",
+      "elfGotAddress": "0x28be220",
+      "elfUsageSlot": "0x299ab78",
+      "encodedToken": "0xa00055db",
+      "literalIndex": 10989,
+      "value": "coins5000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be228",
+      "elfGotAddress": "0x28be228",
+      "elfUsageSlot": "0x299bcf0",
+      "encodedToken": "0xa0005a39",
+      "literalIndex": 11548,
+      "value": "distance1000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be230",
+      "elfGotAddress": "0x28be230",
+      "elfUsageSlot": "0x299a4f0",
+      "encodedToken": "0xa0005439",
+      "literalIndex": 10780,
+      "value": "boosts20",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be238",
+      "elfGotAddress": "0x28be238",
+      "elfUsageSlot": "0x299aae8",
+      "encodedToken": "0xa00055b7",
+      "literalIndex": 10971,
+      "value": "coinBonuses10",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be240",
+      "elfGotAddress": "0x28be240",
+      "elfUsageSlot": "0x299fe68",
+      "encodedToken": "0xa0006a97",
+      "literalIndex": 13643,
+      "value": "score250000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be248",
+      "elfGotAddress": "0x28be248",
+      "elfUsageSlot": "0x299e120",
+      "encodedToken": "0xa0006345",
+      "literalIndex": 12706,
+      "value": "lifetimeMeters100000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be250",
+      "elfGotAddress": "0x28be250",
+      "elfUsageSlot": "0x299e110",
+      "encodedToken": "0xa0006341",
+      "literalIndex": 12704,
+      "value": "lifetimeGames10000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be258",
+      "elfGotAddress": "0x28be258",
+      "elfUsageSlot": "0x299fe58",
+      "encodedToken": "0xa0006a93",
+      "literalIndex": 13641,
+      "value": "score1000000nopowers",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be260",
+      "elfGotAddress": "0x28be260",
+      "elfUsageSlot": "0x299ab60",
+      "encodedToken": "0xa00055d5",
+      "literalIndex": 10986,
+      "value": "coins250",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be268",
+      "elfGotAddress": "0x28be268",
+      "elfUsageSlot": "0x299fe80",
+      "encodedToken": "0xa0006a9d",
+      "literalIndex": 13646,
+      "value": "score500000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be270",
+      "elfGotAddress": "0x28be270",
+      "elfUsageSlot": "0x29a1aa0",
+      "encodedToken": "0xa00071a5",
+      "literalIndex": 14546,
+      "value": "upgrade5",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be278",
+      "elfGotAddress": "0x28be278",
+      "elfUsageSlot": "0x299e128",
+      "encodedToken": "0xa0006347",
+      "literalIndex": 12707,
+      "value": "lifetimeMeters1000000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be280",
+      "elfGotAddress": "0x28be280",
+      "elfUsageSlot": "0x299e100",
+      "encodedToken": "0xa000633d",
+      "literalIndex": 12702,
+      "value": "lifetimeCoins500000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be288",
+      "elfGotAddress": "0x28be288",
+      "elfUsageSlot": "0x299ab80",
+      "encodedToken": "0xa00055dd",
+      "literalIndex": 10990,
+      "value": "coins750",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be290",
+      "elfGotAddress": "0x28be290",
+      "elfUsageSlot": "0x299ee00",
+      "encodedToken": "0xa000667d",
+      "literalIndex": 13118,
+      "value": "notrip5000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be298",
+      "elfGotAddress": "0x28be298",
+      "elfUsageSlot": "0x299e130",
+      "encodedToken": "0xa0006349",
+      "literalIndex": 12708,
+      "value": "lifetimeMeters10000000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be2a0",
+      "elfGotAddress": "0x28be2a0",
+      "elfUsageSlot": "0x299e0f8",
+      "encodedToken": "0xa000633b",
+      "literalIndex": 12701,
+      "value": "lifetimeCoins1000000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be2a8",
+      "elfGotAddress": "0x28be2a8",
+      "elfUsageSlot": "0x299e0f0",
+      "encodedToken": "0xa0006339",
+      "literalIndex": 12700,
+      "value": "lifetimeCoins100000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be2b0",
+      "elfGotAddress": "0x28be2b0",
+      "elfUsageSlot": "0x299a4e8",
+      "encodedToken": "0xa0005437",
+      "literalIndex": 10779,
+      "value": "boosts10",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be2b8",
+      "elfGotAddress": "0x28be2b8",
+      "elfUsageSlot": "0x299bd18",
+      "encodedToken": "0xa0005a43",
+      "literalIndex": 11553,
+      "value": "distance5000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be2c0",
+      "elfGotAddress": "0x28be2c0",
+      "elfUsageSlot": "0x299edf8",
+      "encodedToken": "0xa000667b",
+      "literalIndex": 13117,
+      "value": "notrip2500",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be2c8",
+      "elfGotAddress": "0x28be2c8",
+      "elfUsageSlot": "0x299fe60",
+      "encodedToken": "0xa0006a95",
+      "literalIndex": 13642,
+      "value": "score25000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be2d0",
+      "elfGotAddress": "0x28be2d0",
+      "elfUsageSlot": "0x299bcf8",
+      "encodedToken": "0xa0005a3b",
+      "literalIndex": 11549,
+      "value": "distance10000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be2d8",
+      "elfGotAddress": "0x28be2d8",
+      "elfUsageSlot": "0x299bd00",
+      "encodedToken": "0xa0005a3d",
+      "literalIndex": 11550,
+      "value": "distance1000NoCoins",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be2e0",
+      "elfGotAddress": "0x28be2e0",
+      "elfUsageSlot": "0x299fbd8",
+      "encodedToken": "0xa00069f3",
+      "literalIndex": 13561,
+      "value": "resurrection2",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be2e8",
+      "elfGotAddress": "0x28be2e8",
+      "elfUsageSlot": "0x299e118",
+      "encodedToken": "0xa0006343",
+      "literalIndex": 12705,
+      "value": "lifetimeGames5000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be2f0",
+      "elfGotAddress": "0x28be2f0",
+      "elfUsageSlot": "0x299bd20",
+      "encodedToken": "0xa0005a45",
+      "literalIndex": 11554,
+      "value": "distance500NoCoins",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be2f8",
+      "elfGotAddress": "0x28be2f8",
+      "elfUsageSlot": "0x299fbd0",
+      "encodedToken": "0xa00069f1",
+      "literalIndex": 13560,
+      "value": "resurrection",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be300",
+      "elfGotAddress": "0x28be300",
+      "elfUsageSlot": "0x299bd08",
+      "encodedToken": "0xa0005a3f",
+      "literalIndex": 11551,
+      "value": "distance2500",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be308",
+      "elfGotAddress": "0x28be308",
+      "elfUsageSlot": "0x299a940",
+      "encodedToken": "0xa000554d",
+      "literalIndex": 10918,
+      "value": "character6",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be310",
+      "elfGotAddress": "0x28be310",
+      "elfUsageSlot": "0x299aaf0",
+      "encodedToken": "0xa00055b9",
+      "literalIndex": 10972,
+      "value": "coinBonuses20",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be318",
+      "elfGotAddress": "0x28be318",
+      "elfUsageSlot": "0x29a1368",
+      "encodedToken": "0xa0006fd7",
+      "literalIndex": 14315,
+      "value": "totemFull",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be320",
+      "elfGotAddress": "0x28be320",
+      "elfUsageSlot": "0x299e528",
+      "encodedToken": "0xa0006447",
+      "literalIndex": 12835,
+      "value": "magnets20",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be328",
+      "elfGotAddress": "0x28be328",
+      "elfUsageSlot": "0x299fe40",
+      "encodedToken": "0xa0006a8d",
+      "literalIndex": 13638,
+      "value": "score100000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be338",
+      "elfGotAddress": "0x28be338",
+      "elfUsageSlot": "0x299fe88",
+      "encodedToken": "0xa0006a9f",
+      "literalIndex": 13647,
+      "value": "score5000000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be340",
+      "elfGotAddress": "0x28be340",
+      "elfUsageSlot": "0x299fe78",
+      "encodedToken": "0xa0006a9b",
+      "literalIndex": 13645,
+      "value": "score50000",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be348",
+      "elfGotAddress": "0x28be348",
+      "elfUsageSlot": "0x299e520",
+      "encodedToken": "0xa0006445",
+      "literalIndex": 12834,
+      "value": "magnets10",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be350",
+      "elfGotAddress": "0x28be350",
+      "elfUsageSlot": "0x299a938",
+      "encodedToken": "0xa000554b",
+      "literalIndex": 10917,
+      "value": "character4",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be358",
+      "elfGotAddress": "0x28be358",
+      "elfUsageSlot": "0x299aaf8",
+      "encodedToken": "0xa00055bb",
+      "literalIndex": 10973,
+      "value": "coinBonuses5",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be360",
+      "elfGotAddress": "0x28be360",
+      "elfUsageSlot": "0x29a1a98",
+      "encodedToken": "0xa00071a3",
+      "literalIndex": 14545,
+      "value": "upgrade1",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be370",
+      "elfGotAddress": "0x28be370",
+      "elfUsageSlot": "0x29893f0",
+      "encodedToken": "0xa0000fed",
+      "literalIndex": 2038,
+      "value": "AngelWing",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be378",
+      "elfGotAddress": "0x28be378",
+      "elfUsageSlot": "0x29893f8",
+      "encodedToken": "0xa0000fef",
+      "literalIndex": 2039,
+      "value": "AngelWingPerma",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be388",
+      "elfGotAddress": "0x28be388",
+      "elfUsageSlot": "0x298e038",
+      "encodedToken": "0xa0002303",
+      "literalIndex": 4481,
+      "value": "HeadStart",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be3a0",
+      "elfGotAddress": "0x28be3a0",
+      "elfUsageSlot": "0x298e040",
+      "encodedToken": "0xa0002305",
+      "literalIndex": 4482,
+      "value": "HeadStartMega",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be4a8",
+      "elfGotAddress": "0x28be4a8",
+      "elfUsageSlot": "0x2989928",
+      "encodedToken": "0xa000113b",
+      "literalIndex": 2205,
+      "value": "Attempting to print using an invalid font!",
+      "referencedBy": [
+        "DecompiledNative/UIFont/UIFont_Print_129f2a4.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be4e0",
+      "elfGotAddress": "0x28be4e0",
+      "elfUsageSlot": "0x2986b28",
+      "encodedToken": "0xa00005bb",
+      "literalIndex": 733,
+      "value": "*",
+      "referencedBy": [
+        "DecompiledNative/UILabel/UILabel_ProcessText_12a1038.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be8e8",
+      "elfGotAddress": "0x28be8e8",
+      "elfUsageSlot": "0x29888d0",
+      "encodedToken": "0xa0000d25",
+      "literalIndex": 1682,
+      "value": "ACH_NAME_NOVICE_RUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be8f0",
+      "elfGotAddress": "0x28be8f0",
+      "elfUsageSlot": "0x2988c50",
+      "encodedToken": "0xa0000e05",
+      "literalIndex": 1794,
+      "value": "ACH_PRE_NOVICE_RUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be8f8",
+      "elfGotAddress": "0x28be8f8",
+      "elfUsageSlot": "0x2988a90",
+      "encodedToken": "0xa0000d95",
+      "literalIndex": 1738,
+      "value": "ACH_POST_NOVICE_RUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be900",
+      "elfGotAddress": "0x28be900",
+      "elfUsageSlot": "0x29888e8",
+      "encodedToken": "0xa0000d2b",
+      "literalIndex": 1685,
+      "value": "ACH_NAME_POCKET_CHANGE",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be908",
+      "elfGotAddress": "0x28be908",
+      "elfUsageSlot": "0x2988c68",
+      "encodedToken": "0xa0000e0b",
+      "literalIndex": 1797,
+      "value": "ACH_PRE_POCKET_CHANGE",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be910",
+      "elfGotAddress": "0x28be910",
+      "elfUsageSlot": "0x2988aa8",
+      "encodedToken": "0xa0000d9b",
+      "literalIndex": 1741,
+      "value": "ACH_POST_POCKET_CHANGE",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be918",
+      "elfGotAddress": "0x28be918",
+      "elfUsageSlot": "0x29887c8",
+      "encodedToken": "0xa0000ce3",
+      "literalIndex": 1649,
+      "value": "ACH_NAME_ADVENTURER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be920",
+      "elfGotAddress": "0x28be920",
+      "elfUsageSlot": "0x2988960",
+      "encodedToken": "0xa0000d49",
+      "literalIndex": 1700,
+      "value": "ACH_POST_10K_RUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be928",
+      "elfGotAddress": "0x28be928",
+      "elfUsageSlot": "0x2988ba8",
+      "encodedToken": "0xa0000ddb",
+      "literalIndex": 1773,
+      "value": "ACH_PRE_GOLD_EXPLOSION",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be930",
+      "elfGotAddress": "0x28be930",
+      "elfUsageSlot": "0x2988ca8",
+      "encodedToken": "0xa0000e1b",
+      "literalIndex": 1805,
+      "value": "ACH_PRE_SUPER_POWERS",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be938",
+      "elfGotAddress": "0x28be938",
+      "elfUsageSlot": "0x2988bf8",
+      "encodedToken": "0xa0000def",
+      "literalIndex": 1783,
+      "value": "ACH_PRE_MAGNET_MINER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be940",
+      "elfGotAddress": "0x28be940",
+      "elfUsageSlot": "0x2988a88",
+      "encodedToken": "0xa0000d93",
+      "literalIndex": 1737,
+      "value": "ACH_POST_NO.TRIP.RUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be948",
+      "elfGotAddress": "0x28be948",
+      "elfUsageSlot": "0x2988b58",
+      "encodedToken": "0xa0000dc7",
+      "literalIndex": 1763,
+      "value": "ACH_PRE_ATHLETE",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be950",
+      "elfGotAddress": "0x28be950",
+      "elfUsageSlot": "0x2988a30",
+      "encodedToken": "0xa0000d7d",
+      "literalIndex": 1726,
+      "value": "ACH_POST_MAGNETIC_PERSONALITY",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be958",
+      "elfGotAddress": "0x28be958",
+      "elfUsageSlot": "0x2988a50",
+      "encodedToken": "0xa0000d85",
+      "literalIndex": 1730,
+      "value": "ACH_POST_MEGA_RUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be960",
+      "elfGotAddress": "0x28be960",
+      "elfUsageSlot": "0x2988ca0",
+      "encodedToken": "0xa0000e19",
+      "literalIndex": 1804,
+      "value": "ACH_PRE_STEADY_FEET",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be968",
+      "elfGotAddress": "0x28be968",
+      "elfUsageSlot": "0x2988908",
+      "encodedToken": "0xa0000d33",
+      "literalIndex": 1689,
+      "value": "ACH_NAME_SEXY_SIX",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be970",
+      "elfGotAddress": "0x28be970",
+      "elfUsageSlot": "0x2988cc0",
+      "encodedToken": "0xa0000e21",
+      "literalIndex": 1808,
+      "value": "ACH_PRE_THE_ROCKET",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be978",
+      "elfGotAddress": "0x28be978",
+      "elfUsageSlot": "0x2988c80",
+      "encodedToken": "0xa0000e11",
+      "literalIndex": 1800,
+      "value": "ACH_PRE_RESURRECTION",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be980",
+      "elfGotAddress": "0x28be980",
+      "elfUsageSlot": "0x2988a10",
+      "encodedToken": "0xa0000d75",
+      "literalIndex": 1722,
+      "value": "ACH_POST_INFINIRUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be988",
+      "elfGotAddress": "0x28be988",
+      "elfUsageSlot": "0x2988bc0",
+      "encodedToken": "0xa0000de1",
+      "literalIndex": 1776,
+      "value": "ACH_PRE_HEAD_START",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be990",
+      "elfGotAddress": "0x28be990",
+      "elfUsageSlot": "0x29887c0",
+      "encodedToken": "0xa0000ce1",
+      "literalIndex": 1648,
+      "value": "ACH_NAME_5_MILLION_CLUB",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be998",
+      "elfGotAddress": "0x28be998",
+      "elfUsageSlot": "0x29887d0",
+      "encodedToken": "0xa0000ce5",
+      "literalIndex": 1650,
+      "value": "ACH_NAME_ALLERGIC_TO_GOLD",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be9a0",
+      "elfGotAddress": "0x28be9a0",
+      "elfUsageSlot": "0x2988878",
+      "encodedToken": "0xa0000d0f",
+      "literalIndex": 1671,
+      "value": "ACH_NAME_MAGNET_MINER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be9a8",
+      "elfGotAddress": "0x28be9a8",
+      "elfUsageSlot": "0x2988b70",
+      "encodedToken": "0xa0000dcd",
+      "literalIndex": 1766,
+      "value": "ACH_PRE_CIRCUMNAVIGATOR",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be9b0",
+      "elfGotAddress": "0x28be9b0",
+      "elfUsageSlot": "0x2988850",
+      "encodedToken": "0xa0000d05",
+      "literalIndex": 1666,
+      "value": "ACH_NAME_INFINIRUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be9b8",
+      "elfGotAddress": "0x28be9b8",
+      "elfUsageSlot": "0x2988ab0",
+      "encodedToken": "0xa0000d9d",
+      "literalIndex": 1742,
+      "value": "ACH_POST_PRO_TEMPLE_RUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be9c0",
+      "elfGotAddress": "0x28be9c0",
+      "elfUsageSlot": "0x2988890",
+      "encodedToken": "0xa0000d15",
+      "literalIndex": 1674,
+      "value": "ACH_NAME_MEGA_RUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be9c8",
+      "elfGotAddress": "0x28be9c8",
+      "elfUsageSlot": "0x2988858",
+      "encodedToken": "0xa0000d07",
+      "literalIndex": 1667,
+      "value": "ACH_NAME_INVINCIBLE",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be9d0",
+      "elfGotAddress": "0x28be9d0",
+      "elfUsageSlot": "0x2988c88",
+      "encodedToken": "0xa0000e13",
+      "literalIndex": 1801,
+      "value": "ACH_PRE_SEXY_SIX",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be9d8",
+      "elfGotAddress": "0x28be9d8",
+      "elfUsageSlot": "0x29889a0",
+      "encodedToken": "0xa0000d59",
+      "literalIndex": 1708,
+      "value": "ACH_POST_BASIC_POWERS",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be9e0",
+      "elfGotAddress": "0x28be9e0",
+      "elfUsageSlot": "0x2988cb8",
+      "encodedToken": "0xa0000e1f",
+      "literalIndex": 1807,
+      "value": "ACH_PRE_THE_ATTRACTOR",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be9e8",
+      "elfGotAddress": "0x28be9e8",
+      "elfUsageSlot": "0x29889b0",
+      "encodedToken": "0xa0000d5d",
+      "literalIndex": 1710,
+      "value": "ACH_POST_CIRCUMNAVIGATOR",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be9f0",
+      "elfGotAddress": "0x28be9f0",
+      "elfUsageSlot": "0x29888c8",
+      "encodedToken": "0xa0000d23",
+      "literalIndex": 1681,
+      "value": "ACH_NAME_NO.TRIP.RUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029be9f8",
+      "elfGotAddress": "0x28be9f8",
+      "elfUsageSlot": "0x2988888",
+      "encodedToken": "0xa0000d13",
+      "literalIndex": 1673,
+      "value": "ACH_NAME_MEGA_BONUS",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bea00",
+      "elfGotAddress": "0x28bea00",
+      "elfUsageSlot": "0x29889d8",
+      "encodedToken": "0xa0000d67",
+      "literalIndex": 1715,
+      "value": "ACH_POST_FORT_KNOX",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bea08",
+      "elfGotAddress": "0x28bea08",
+      "elfUsageSlot": "0x2988818",
+      "encodedToken": "0xa0000cf7",
+      "literalIndex": 1659,
+      "value": "ACH_NAME_FORT_KNOX",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bea10",
+      "elfGotAddress": "0x28bea10",
+      "elfUsageSlot": "0x2988988",
+      "encodedToken": "0xa0000d53",
+      "literalIndex": 1705,
+      "value": "ACH_POST_ADVENTURER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bea18",
+      "elfGotAddress": "0x28bea18",
+      "elfUsageSlot": "0x2988998",
+      "encodedToken": "0xa0000d57",
+      "literalIndex": 1707,
+      "value": "ACH_POST_ATHLETE",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bea20",
+      "elfGotAddress": "0x28bea20",
+      "elfUsageSlot": "0x29887f0",
+      "encodedToken": "0xa0000ced",
+      "literalIndex": 1654,
+      "value": "ACH_NAME_CIRCUMNAVIGATOR",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bea28",
+      "elfGotAddress": "0x28bea28",
+      "elfUsageSlot": "0x29887b0",
+      "encodedToken": "0xa0000cdd",
+      "literalIndex": 1646,
+      "value": "ACH_NAME_2.5_MILLION_CLUB",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bea30",
+      "elfGotAddress": "0x28bea30",
+      "elfUsageSlot": "0x2988918",
+      "encodedToken": "0xa0000d37",
+      "literalIndex": 1691,
+      "value": "ACH_NAME_SPRINTER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bea38",
+      "elfGotAddress": "0x28bea38",
+      "elfUsageSlot": "0x2988a38",
+      "encodedToken": "0xa0000d7f",
+      "literalIndex": 1727,
+      "value": "ACH_POST_MAGNET_MINER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bea40",
+      "elfGotAddress": "0x28bea40",
+      "elfUsageSlot": "0x29887f8",
+      "encodedToken": "0xa0000cef",
+      "literalIndex": 1655,
+      "value": "ACH_NAME_COIN_JUMPER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bea48",
+      "elfGotAddress": "0x28bea48",
+      "elfUsageSlot": "0x2988b80",
+      "encodedToken": "0xa0000dd1",
+      "literalIndex": 1768,
+      "value": "ACH_PRE_DOUBLE_RESURRECTION",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bea50",
+      "elfGotAddress": "0x28bea50",
+      "elfUsageSlot": "0x2988b38",
+      "encodedToken": "0xa0000dbf",
+      "literalIndex": 1759,
+      "value": "ACH_PRE_5K_RUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bea58",
+      "elfGotAddress": "0x28bea58",
+      "elfUsageSlot": "0x2988810",
+      "encodedToken": "0xa0000cf5",
+      "literalIndex": 1658,
+      "value": "ACH_NAME_FANTASTIC_FOUR",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bea60",
+      "elfGotAddress": "0x28bea60",
+      "elfUsageSlot": "0x29887d8",
+      "encodedToken": "0xa0000ce7",
+      "literalIndex": 1651,
+      "value": "ACH_NAME_ATHLETE",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bea68",
+      "elfGotAddress": "0x28bea68",
+      "elfUsageSlot": "0x2988978",
+      "encodedToken": "0xa0000d4f",
+      "literalIndex": 1703,
+      "value": "ACH_POST_5K_RUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bea70",
+      "elfGotAddress": "0x28bea70",
+      "elfUsageSlot": "0x29889a8",
+      "encodedToken": "0xa0000d5b",
+      "literalIndex": 1709,
+      "value": "ACH_POST_BOOSTER_SHOT",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bea78",
+      "elfGotAddress": "0x28bea78",
+      "elfUsageSlot": "0x2988a98",
+      "encodedToken": "0xa0000d97",
+      "literalIndex": 1739,
+      "value": "ACH_POST_PAYDAY",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bea80",
+      "elfGotAddress": "0x28bea80",
+      "elfUsageSlot": "0x2988b20",
+      "encodedToken": "0xa0000db9",
+      "literalIndex": 1756,
+      "value": "ACH_PRE_10K_RUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bea88",
+      "elfGotAddress": "0x28bea88",
+      "elfUsageSlot": "0x29889b8",
+      "encodedToken": "0xa0000d5f",
+      "literalIndex": 1711,
+      "value": "ACH_POST_COIN_JUMPER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bea90",
+      "elfGotAddress": "0x28bea90",
+      "elfUsageSlot": "0x2988848",
+      "encodedToken": "0xa0000d03",
+      "literalIndex": 1665,
+      "value": "ACH_NAME_HIGH_ROLLER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bea98",
+      "elfGotAddress": "0x28bea98",
+      "elfUsageSlot": "0x2988ad0",
+      "encodedToken": "0xa0000da5",
+      "literalIndex": 1746,
+      "value": "ACH_POST_SPEED_DEMON",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beaa0",
+      "elfGotAddress": "0x28beaa0",
+      "elfUsageSlot": "0x29888e0",
+      "encodedToken": "0xa0000d29",
+      "literalIndex": 1684,
+      "value": "ACH_NAME_PIGGY_BANK",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beaa8",
+      "elfGotAddress": "0x28beaa8",
+      "elfUsageSlot": "0x2988920",
+      "encodedToken": "0xa0000d39",
+      "literalIndex": 1692,
+      "value": "ACH_NAME_STEADY_FEET",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beab0",
+      "elfGotAddress": "0x28beab0",
+      "elfUsageSlot": "0x2988b78",
+      "encodedToken": "0xa0000dcf",
+      "literalIndex": 1767,
+      "value": "ACH_PRE_COIN_JUMPER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beab8",
+      "elfGotAddress": "0x28beab8",
+      "elfUsageSlot": "0x2988bd8",
+      "encodedToken": "0xa0000de7",
+      "literalIndex": 1779,
+      "value": "ACH_PRE_INVINCIBLE",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beac0",
+      "elfGotAddress": "0x28beac0",
+      "elfUsageSlot": "0x2988b10",
+      "encodedToken": "0xa0000db5",
+      "literalIndex": 1754,
+      "value": "ACH_POST_TREASURE_HUNTER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beac8",
+      "elfGotAddress": "0x28beac8",
+      "elfUsageSlot": "0x2988828",
+      "encodedToken": "0xa0000cfb",
+      "literalIndex": 1661,
+      "value": "ACH_NAME_GOLD_EXPLOSION",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bead0",
+      "elfGotAddress": "0x28bead0",
+      "elfUsageSlot": "0x2988990",
+      "encodedToken": "0xa0000d55",
+      "literalIndex": 1706,
+      "value": "ACH_POST_ALLERGIC_TO_GOLD",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bead8",
+      "elfGotAddress": "0x28bead8",
+      "elfUsageSlot": "0x2988c28",
+      "encodedToken": "0xa0000dfb",
+      "literalIndex": 1789,
+      "value": "ACH_PRE_MINOR_MINER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beae0",
+      "elfGotAddress": "0x28beae0",
+      "elfUsageSlot": "0x2988b30",
+      "encodedToken": "0xa0000dbd",
+      "literalIndex": 1758,
+      "value": "ACH_PRE_2.5_MILLION_CLUB",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beae8",
+      "elfGotAddress": "0x28beae8",
+      "elfUsageSlot": "0x2988c98",
+      "encodedToken": "0xa0000e17",
+      "literalIndex": 1803,
+      "value": "ACH_PRE_SPRINTER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beaf0",
+      "elfGotAddress": "0x28beaf0",
+      "elfUsageSlot": "0x29889e0",
+      "encodedToken": "0xa0000d69",
+      "literalIndex": 1716,
+      "value": "ACH_POST_GOLDEN_GOD",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beaf8",
+      "elfGotAddress": "0x28beaf8",
+      "elfUsageSlot": "0x2988808",
+      "encodedToken": "0xa0000cf3",
+      "literalIndex": 1657,
+      "value": "ACH_NAME_DYNAMIC_DUO",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beb00",
+      "elfGotAddress": "0x28beb00",
+      "elfUsageSlot": "0x2988af0",
+      "encodedToken": "0xa0000dad",
+      "literalIndex": 1750,
+      "value": "ACH_POST_TEMPLE_RUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beb08",
+      "elfGotAddress": "0x28beb08",
+      "elfUsageSlot": "0x2988a40",
+      "encodedToken": "0xa0000d81",
+      "literalIndex": 1728,
+      "value": "ACH_POST_MARATHONER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beb10",
+      "elfGotAddress": "0x28beb10",
+      "elfUsageSlot": "0x2988ba0",
+      "encodedToken": "0xa0000dd9",
+      "literalIndex": 1772,
+      "value": "ACH_PRE_GOLDEN_GOD",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beb18",
+      "elfGotAddress": "0x28beb18",
+      "elfUsageSlot": "0x2988820",
+      "encodedToken": "0xa0000cf9",
+      "literalIndex": 1660,
+      "value": "ACH_NAME_GOLDEN_GOD",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beb20",
+      "elfGotAddress": "0x28beb20",
+      "elfUsageSlot": "0x2988c10",
+      "encodedToken": "0xa0000df5",
+      "literalIndex": 1786,
+      "value": "ACH_PRE_MEGA_RUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beb28",
+      "elfGotAddress": "0x28beb28",
+      "elfUsageSlot": "0x2988c78",
+      "encodedToken": "0xa0000e0f",
+      "literalIndex": 1799,
+      "value": "ACH_PRE_QUARTER_MILLION_CLUB",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beb30",
+      "elfGotAddress": "0x28beb30",
+      "elfUsageSlot": "0x2988928",
+      "encodedToken": "0xa0000d3b",
+      "literalIndex": 1693,
+      "value": "ACH_NAME_SUPER_POWERS",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beb38",
+      "elfGotAddress": "0x28beb38",
+      "elfUsageSlot": "0x29887b8",
+      "encodedToken": "0xa0000cdf",
+      "literalIndex": 1647,
+      "value": "ACH_NAME_5K_RUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beb40",
+      "elfGotAddress": "0x28beb40",
+      "elfUsageSlot": "0x29887a8",
+      "encodedToken": "0xa0000cdb",
+      "literalIndex": 1645,
+      "value": "ACH_NAME_10_MILLION_CLUB",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beb48",
+      "elfGotAddress": "0x28beb48",
+      "elfUsageSlot": "0x29887e0",
+      "encodedToken": "0xa0000ce9",
+      "literalIndex": 1652,
+      "value": "ACH_NAME_BASIC_POWERS",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beb50",
+      "elfGotAddress": "0x28beb50",
+      "elfUsageSlot": "0x2988c00",
+      "encodedToken": "0xa0000df1",
+      "literalIndex": 1784,
+      "value": "ACH_PRE_MARATHONER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beb58",
+      "elfGotAddress": "0x28beb58",
+      "elfUsageSlot": "0x2988bb8",
+      "encodedToken": "0xa0000ddf",
+      "literalIndex": 1775,
+      "value": "ACH_PRE_HALF_MILLION_CLUB",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beb60",
+      "elfGotAddress": "0x28beb60",
+      "elfUsageSlot": "0x2988a80",
+      "encodedToken": "0xa0000d91",
+      "literalIndex": 1736,
+      "value": "ACH_POST_MONEY_BIN",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beb68",
+      "elfGotAddress": "0x28beb68",
+      "elfUsageSlot": "0x2988aa0",
+      "encodedToken": "0xa0000d99",
+      "literalIndex": 1740,
+      "value": "ACH_POST_PIGGY_BANK",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beb70",
+      "elfGotAddress": "0x28beb70",
+      "elfUsageSlot": "0x2988cc8",
+      "encodedToken": "0xa0000e23",
+      "literalIndex": 1809,
+      "value": "ACH_PRE_THE_SPARTAN",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beb78",
+      "elfGotAddress": "0x28beb78",
+      "elfUsageSlot": "0x2988930",
+      "encodedToken": "0xa0000d3d",
+      "literalIndex": 1694,
+      "value": "ACH_NAME_TEMPLE_RUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beb80",
+      "elfGotAddress": "0x28beb80",
+      "elfUsageSlot": "0x29889c0",
+      "encodedToken": "0xa0000d61",
+      "literalIndex": 1712,
+      "value": "ACH_POST_DOUBLE_RESURRECTION",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beb88",
+      "elfGotAddress": "0x28beb88",
+      "elfUsageSlot": "0x2988be0",
+      "encodedToken": "0xa0000de9",
+      "literalIndex": 1780,
+      "value": "ACH_PRE_INVISIBLE",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beb90",
+      "elfGotAddress": "0x28beb90",
+      "elfUsageSlot": "0x2988b28",
+      "encodedToken": "0xa0000dbb",
+      "literalIndex": 1757,
+      "value": "ACH_PRE_10_MILLION_CLUB",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beb98",
+      "elfGotAddress": "0x28beb98",
+      "elfUsageSlot": "0x2988868",
+      "encodedToken": "0xa0000d0b",
+      "literalIndex": 1669,
+      "value": "ACH_NAME_LUMP_SUM",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beba0",
+      "elfGotAddress": "0x28beba0",
+      "elfUsageSlot": "0x2988cd8",
+      "encodedToken": "0xa0000e27",
+      "literalIndex": 1811,
+      "value": "ACH_PRE_UNBREAKABLE",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beba8",
+      "elfGotAddress": "0x28beba8",
+      "elfUsageSlot": "0x29889f0",
+      "encodedToken": "0xa0000d6d",
+      "literalIndex": 1718,
+      "value": "ACH_POST_GOLD_MINER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bebb0",
+      "elfGotAddress": "0x28bebb0",
+      "elfUsageSlot": "0x29889c8",
+      "encodedToken": "0xa0000d63",
+      "literalIndex": 1713,
+      "value": "ACH_POST_DYNAMIC_DUO",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bebb8",
+      "elfGotAddress": "0x28bebb8",
+      "elfUsageSlot": "0x2988c70",
+      "encodedToken": "0xa0000e0d",
+      "literalIndex": 1798,
+      "value": "ACH_PRE_PRO_TEMPLE_RUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bebc0",
+      "elfGotAddress": "0x28bebc0",
+      "elfUsageSlot": "0x2988958",
+      "encodedToken": "0xa0000d47",
+      "literalIndex": 1699,
+      "value": "ACH_NAME_UNBREAKABLE",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bebc8",
+      "elfGotAddress": "0x28bebc8",
+      "elfUsageSlot": "0x2988c48",
+      "encodedToken": "0xa0000e03",
+      "literalIndex": 1793,
+      "value": "ACH_PRE_NO.TRIP.RUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bebd0",
+      "elfGotAddress": "0x28bebd0",
+      "elfUsageSlot": "0x2988a78",
+      "encodedToken": "0xa0000d8f",
+      "literalIndex": 1735,
+      "value": "ACH_POST_MONEY_BAGS",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bebd8",
+      "elfGotAddress": "0x28bebd8",
+      "elfUsageSlot": "0x2988c30",
+      "encodedToken": "0xa0000dfd",
+      "literalIndex": 1790,
+      "value": "ACH_PRE_MISER_RUN",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bebe0",
+      "elfGotAddress": "0x28bebe0",
+      "elfUsageSlot": "0x2988ac0",
+      "encodedToken": "0xa0000da1",
+      "literalIndex": 1744,
+      "value": "ACH_POST_RESURRECTION",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bebe8",
+      "elfGotAddress": "0x28bebe8",
+      "elfUsageSlot": "0x2988c40",
+      "encodedToken": "0xa0000e01",
+      "literalIndex": 1792,
+      "value": "ACH_PRE_MONEY_BIN",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bebf0",
+      "elfGotAddress": "0x28bebf0",
+      "elfUsageSlot": "0x2988c38",
+      "encodedToken": "0xa0000dff",
+      "literalIndex": 1791,
+      "value": "ACH_PRE_MONEY_BAGS",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bebf8",
+      "elfGotAddress": "0x28bebf8",
+      "elfUsageSlot": "0x29888a8",
+      "encodedToken": "0xa0000d1b",
+      "literalIndex": 1677,
+      "value": "ACH_NAME_MINOR_MINER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bec00",
+      "elfGotAddress": "0x28bec00",
+      "elfUsageSlot": "0x2988ad8",
+      "encodedToken": "0xa0000da7",
+      "literalIndex": 1747,
+      "value": "ACH_POST_SPRINTER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bec08",
+      "elfGotAddress": "0x28bec08",
+      "elfUsageSlot": "0x2988840",
+      "encodedToken": "0xa0000d01",
+      "literalIndex": 1664,
+      "value": "ACH_NAME_HEAD_START",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bec10",
+      "elfGotAddress": "0x28bec10",
+      "elfUsageSlot": "0x2988838",
+      "encodedToken": "0xa0000cff",
+      "literalIndex": 1663,
+      "value": "ACH_NAME_HALF_MILLION_CLUB",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bec18",
+      "elfGotAddress": "0x28bec18",
+      "elfUsageSlot": "0x2988a68",
+      "encodedToken": "0xa0000d8b",
+      "literalIndex": 1733,
+      "value": "ACH_POST_MINOR_MINER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bec20",
+      "elfGotAddress": "0x28bec20",
+      "elfUsageSlot": "0x2988950",
+      "encodedToken": "0xa0000d45",
+      "literalIndex": 1698,
+      "value": "ACH_NAME_TREASURE_HUNTER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bec28",
+      "elfGotAddress": "0x28bec28",
+      "elfUsageSlot": "0x2988bb0",
+      "encodedToken": "0xa0000ddd",
+      "literalIndex": 1774,
+      "value": "ACH_PRE_GOLD_MINER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bec30",
+      "elfGotAddress": "0x28bec30",
+      "elfUsageSlot": "0x2988be8",
+      "encodedToken": "0xa0000deb",
+      "literalIndex": 1781,
+      "value": "ACH_PRE_LUMP_SUM",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bec38",
+      "elfGotAddress": "0x28bec38",
+      "elfUsageSlot": "0x2988968",
+      "encodedToken": "0xa0000d4b",
+      "literalIndex": 1701,
+      "value": "ACH_POST_10_MILLION_CLUB",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bec40",
+      "elfGotAddress": "0x28bec40",
+      "elfUsageSlot": "0x2988880",
+      "encodedToken": "0xa0000d11",
+      "literalIndex": 1672,
+      "value": "ACH_NAME_MARATHONER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bec48",
+      "elfGotAddress": "0x28bec48",
+      "elfUsageSlot": "0x2988800",
+      "encodedToken": "0xa0000cf1",
+      "literalIndex": 1656,
+      "value": "ACH_NAME_DOUBLE_RESURRECTION",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bec50",
+      "elfGotAddress": "0x28bec50",
+      "elfUsageSlot": "0x29888b0",
+      "encodedToken": "0xa0000d1d",
+      "literalIndex": 1678,
+      "value": "ACH_NAME_MISER_RUN",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bec58",
+      "elfGotAddress": "0x28bec58",
+      "elfUsageSlot": "0x2988a58",
+      "encodedToken": "0xa0000d87",
+      "literalIndex": 1731,
+      "value": "ACH_POST_MIDAS_TOUCH",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bec60",
+      "elfGotAddress": "0x28bec60",
+      "elfUsageSlot": "0x2988c20",
+      "encodedToken": "0xa0000df9",
+      "literalIndex": 1788,
+      "value": "ACH_PRE_MILLION_CLUB",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bec68",
+      "elfGotAddress": "0x28bec68",
+      "elfUsageSlot": "0x2988b18",
+      "encodedToken": "0xa0000db7",
+      "literalIndex": 1755,
+      "value": "ACH_POST_UNBREAKABLE",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bec70",
+      "elfGotAddress": "0x28bec70",
+      "elfUsageSlot": "0x2988898",
+      "encodedToken": "0xa0000d17",
+      "literalIndex": 1675,
+      "value": "ACH_NAME_MIDAS_TOUCH",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bec78",
+      "elfGotAddress": "0x28bec78",
+      "elfUsageSlot": "0x2988cb0",
+      "encodedToken": "0xa0000e1d",
+      "literalIndex": 1806,
+      "value": "ACH_PRE_TEMPLE_RUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bec80",
+      "elfGotAddress": "0x28bec80",
+      "elfUsageSlot": "0x2988a00",
+      "encodedToken": "0xa0000d71",
+      "literalIndex": 1720,
+      "value": "ACH_POST_HEAD_START",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bec88",
+      "elfGotAddress": "0x28bec88",
+      "elfUsageSlot": "0x2988938",
+      "encodedToken": "0xa0000d3f",
+      "literalIndex": 1695,
+      "value": "ACH_NAME_THE_ATTRACTOR",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bec90",
+      "elfGotAddress": "0x28bec90",
+      "elfUsageSlot": "0x2988980",
+      "encodedToken": "0xa0000d51",
+      "literalIndex": 1704,
+      "value": "ACH_POST_5_MILLION_CLUB",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bec98",
+      "elfGotAddress": "0x28bec98",
+      "elfUsageSlot": "0x2988b98",
+      "encodedToken": "0xa0000dd7",
+      "literalIndex": 1771,
+      "value": "ACH_PRE_FORT_KNOX",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beca0",
+      "elfGotAddress": "0x28beca0",
+      "elfUsageSlot": "0x2988bc8",
+      "encodedToken": "0xa0000de3",
+      "literalIndex": 1777,
+      "value": "ACH_PRE_HIGH_ROLLER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beca8",
+      "elfGotAddress": "0x28beca8",
+      "elfUsageSlot": "0x2988cd0",
+      "encodedToken": "0xa0000e25",
+      "literalIndex": 1810,
+      "value": "ACH_PRE_TREASURE_HUNTER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029becb0",
+      "elfGotAddress": "0x28becb0",
+      "elfUsageSlot": "0x2988ab8",
+      "encodedToken": "0xa0000d9f",
+      "literalIndex": 1743,
+      "value": "ACH_POST_QUARTER_MILLION_CLUB",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029becb8",
+      "elfGotAddress": "0x28becb8",
+      "elfUsageSlot": "0x2988900",
+      "encodedToken": "0xa0000d31",
+      "literalIndex": 1688,
+      "value": "ACH_NAME_RESURRECTION",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029becc0",
+      "elfGotAddress": "0x28becc0",
+      "elfUsageSlot": "0x2988a18",
+      "encodedToken": "0xa0000d77",
+      "literalIndex": 1723,
+      "value": "ACH_POST_INVINCIBLE",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029becc8",
+      "elfGotAddress": "0x28becc8",
+      "elfUsageSlot": "0x29888f8",
+      "encodedToken": "0xa0000d2f",
+      "literalIndex": 1687,
+      "value": "ACH_NAME_QUARTER_MILLION_CLUB",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029becd0",
+      "elfGotAddress": "0x28becd0",
+      "elfUsageSlot": "0x29888b8",
+      "encodedToken": "0xa0000d1f",
+      "literalIndex": 1679,
+      "value": "ACH_NAME_MONEY_BAGS",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029becd8",
+      "elfGotAddress": "0x28becd8",
+      "elfUsageSlot": "0x2988c60",
+      "encodedToken": "0xa0000e09",
+      "literalIndex": 1796,
+      "value": "ACH_PRE_PIGGY_BANK",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bece0",
+      "elfGotAddress": "0x28bece0",
+      "elfUsageSlot": "0x2988948",
+      "encodedToken": "0xa0000d43",
+      "literalIndex": 1697,
+      "value": "ACH_NAME_THE_SPARTAN",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bece8",
+      "elfGotAddress": "0x28bece8",
+      "elfUsageSlot": "0x29888f0",
+      "encodedToken": "0xa0000d2d",
+      "literalIndex": 1686,
+      "value": "ACH_NAME_PRO_TEMPLE_RUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029becf0",
+      "elfGotAddress": "0x28becf0",
+      "elfUsageSlot": "0x2988c18",
+      "encodedToken": "0xa0000df7",
+      "literalIndex": 1787,
+      "value": "ACH_PRE_MIDAS_TOUCH",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029becf8",
+      "elfGotAddress": "0x28becf8",
+      "elfUsageSlot": "0x2988870",
+      "encodedToken": "0xa0000d0d",
+      "literalIndex": 1670,
+      "value": "ACH_NAME_MAGNETIC_PERSONALITY",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bed00",
+      "elfGotAddress": "0x28bed00",
+      "elfUsageSlot": "0x2988b68",
+      "encodedToken": "0xa0000dcb",
+      "literalIndex": 1765,
+      "value": "ACH_PRE_BOOSTER_SHOT",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bed08",
+      "elfGotAddress": "0x28bed08",
+      "elfUsageSlot": "0x2988a60",
+      "encodedToken": "0xa0000d89",
+      "literalIndex": 1732,
+      "value": "ACH_POST_MILLION_CLUB",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bed10",
+      "elfGotAddress": "0x28bed10",
+      "elfUsageSlot": "0x2988b08",
+      "encodedToken": "0xa0000db3",
+      "literalIndex": 1753,
+      "value": "ACH_POST_THE_SPARTAN",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bed18",
+      "elfGotAddress": "0x28bed18",
+      "elfUsageSlot": "0x2988b00",
+      "encodedToken": "0xa0000db1",
+      "literalIndex": 1752,
+      "value": "ACH_POST_THE_ROCKET",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bed20",
+      "elfGotAddress": "0x28bed20",
+      "elfUsageSlot": "0x29889d0",
+      "encodedToken": "0xa0000d65",
+      "literalIndex": 1714,
+      "value": "ACH_POST_FANTASTIC_FOUR",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bed28",
+      "elfGotAddress": "0x28bed28",
+      "elfUsageSlot": "0x2988860",
+      "encodedToken": "0xa0000d09",
+      "literalIndex": 1668,
+      "value": "ACH_NAME_INVISIBLE",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bed30",
+      "elfGotAddress": "0x28bed30",
+      "elfUsageSlot": "0x2988c58",
+      "encodedToken": "0xa0000e07",
+      "literalIndex": 1795,
+      "value": "ACH_PRE_PAYDAY",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bed38",
+      "elfGotAddress": "0x28bed38",
+      "elfUsageSlot": "0x2988a70",
+      "encodedToken": "0xa0000d8d",
+      "literalIndex": 1734,
+      "value": "ACH_POST_MISER_RUN",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bed40",
+      "elfGotAddress": "0x28bed40",
+      "elfUsageSlot": "0x29888a0",
+      "encodedToken": "0xa0000d19",
+      "literalIndex": 1676,
+      "value": "ACH_NAME_MILLION_CLUB",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bed48",
+      "elfGotAddress": "0x28bed48",
+      "elfUsageSlot": "0x2988b40",
+      "encodedToken": "0xa0000dc1",
+      "literalIndex": 1760,
+      "value": "ACH_PRE_5_MILLION_CLUB",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bed50",
+      "elfGotAddress": "0x28bed50",
+      "elfUsageSlot": "0x2988bd0",
+      "encodedToken": "0xa0000de5",
+      "literalIndex": 1778,
+      "value": "ACH_PRE_INFINIRUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bed58",
+      "elfGotAddress": "0x28bed58",
+      "elfUsageSlot": "0x2988940",
+      "encodedToken": "0xa0000d41",
+      "literalIndex": 1696,
+      "value": "ACH_NAME_THE_ROCKET",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bed60",
+      "elfGotAddress": "0x28bed60",
+      "elfUsageSlot": "0x29888c0",
+      "encodedToken": "0xa0000d21",
+      "literalIndex": 1680,
+      "value": "ACH_NAME_MONEY_BIN",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bed68",
+      "elfGotAddress": "0x28bed68",
+      "elfUsageSlot": "0x29889f8",
+      "encodedToken": "0xa0000d6f",
+      "literalIndex": 1719,
+      "value": "ACH_POST_HALF_MILLION_CLUB",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bed70",
+      "elfGotAddress": "0x28bed70",
+      "elfUsageSlot": "0x2988af8",
+      "encodedToken": "0xa0000daf",
+      "literalIndex": 1751,
+      "value": "ACH_POST_THE_ATTRACTOR",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bed78",
+      "elfGotAddress": "0x28bed78",
+      "elfUsageSlot": "0x2988a28",
+      "encodedToken": "0xa0000d7b",
+      "literalIndex": 1725,
+      "value": "ACH_POST_LUMP_SUM",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bed80",
+      "elfGotAddress": "0x28bed80",
+      "elfUsageSlot": "0x2988b60",
+      "encodedToken": "0xa0000dc9",
+      "literalIndex": 1764,
+      "value": "ACH_PRE_BASIC_POWERS",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bed88",
+      "elfGotAddress": "0x28bed88",
+      "elfUsageSlot": "0x2988ae0",
+      "encodedToken": "0xa0000da9",
+      "literalIndex": 1748,
+      "value": "ACH_POST_STEADY_FEET",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bed90",
+      "elfGotAddress": "0x28bed90",
+      "elfUsageSlot": "0x2988970",
+      "encodedToken": "0xa0000d4d",
+      "literalIndex": 1702,
+      "value": "ACH_POST_2.5_MILLION_CLUB",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bed98",
+      "elfGotAddress": "0x28bed98",
+      "elfUsageSlot": "0x2988c90",
+      "encodedToken": "0xa0000e15",
+      "literalIndex": 1802,
+      "value": "ACH_PRE_SPEED_DEMON",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beda0",
+      "elfGotAddress": "0x28beda0",
+      "elfUsageSlot": "0x2988ac8",
+      "encodedToken": "0xa0000da3",
+      "literalIndex": 1745,
+      "value": "ACH_POST_SEXY_SIX",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029beda8",
+      "elfGotAddress": "0x28beda8",
+      "elfUsageSlot": "0x2988b88",
+      "encodedToken": "0xa0000dd3",
+      "literalIndex": 1769,
+      "value": "ACH_PRE_DYNAMIC_DUO",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bedb0",
+      "elfGotAddress": "0x28bedb0",
+      "elfUsageSlot": "0x2988a08",
+      "encodedToken": "0xa0000d73",
+      "literalIndex": 1721,
+      "value": "ACH_POST_HIGH_ROLLER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bedb8",
+      "elfGotAddress": "0x28bedb8",
+      "elfUsageSlot": "0x2988ae8",
+      "encodedToken": "0xa0000dab",
+      "literalIndex": 1749,
+      "value": "ACH_POST_SUPER_POWERS",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bedc0",
+      "elfGotAddress": "0x28bedc0",
+      "elfUsageSlot": "0x29889e8",
+      "encodedToken": "0xa0000d6b",
+      "literalIndex": 1717,
+      "value": "ACH_POST_GOLD_EXPLOSION",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bedc8",
+      "elfGotAddress": "0x28bedc8",
+      "elfUsageSlot": "0x2988bf0",
+      "encodedToken": "0xa0000ded",
+      "literalIndex": 1782,
+      "value": "ACH_PRE_MAGNETIC_PERSONALITY",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bedd0",
+      "elfGotAddress": "0x28bedd0",
+      "elfUsageSlot": "0x2988a48",
+      "encodedToken": "0xa0000d83",
+      "literalIndex": 1729,
+      "value": "ACH_POST_MEGA_BONUS",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bedd8",
+      "elfGotAddress": "0x28bedd8",
+      "elfUsageSlot": "0x2988a20",
+      "encodedToken": "0xa0000d79",
+      "literalIndex": 1724,
+      "value": "ACH_POST_INVISIBLE",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bede0",
+      "elfGotAddress": "0x28bede0",
+      "elfUsageSlot": "0x2988910",
+      "encodedToken": "0xa0000d35",
+      "literalIndex": 1690,
+      "value": "ACH_NAME_SPEED_DEMON",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bede8",
+      "elfGotAddress": "0x28bede8",
+      "elfUsageSlot": "0x29888d8",
+      "encodedToken": "0xa0000d27",
+      "literalIndex": 1683,
+      "value": "ACH_NAME_PAYDAY",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bedf0",
+      "elfGotAddress": "0x28bedf0",
+      "elfUsageSlot": "0x2988c08",
+      "encodedToken": "0xa0000df3",
+      "literalIndex": 1785,
+      "value": "ACH_PRE_MEGA_BONUS",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bedf8",
+      "elfGotAddress": "0x28bedf8",
+      "elfUsageSlot": "0x29887a0",
+      "encodedToken": "0xa0000cd9",
+      "literalIndex": 1644,
+      "value": "ACH_NAME_10K_RUNNER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bee00",
+      "elfGotAddress": "0x28bee00",
+      "elfUsageSlot": "0x2988b48",
+      "encodedToken": "0xa0000dc3",
+      "literalIndex": 1761,
+      "value": "ACH_PRE_ADVENTURER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bee08",
+      "elfGotAddress": "0x28bee08",
+      "elfUsageSlot": "0x2988830",
+      "encodedToken": "0xa0000cfd",
+      "literalIndex": 1662,
+      "value": "ACH_NAME_GOLD_MINER",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bee10",
+      "elfGotAddress": "0x28bee10",
+      "elfUsageSlot": "0x2988b50",
+      "encodedToken": "0xa0000dc5",
+      "literalIndex": 1762,
+      "value": "ACH_PRE_ALLERGIC_TO_GOLD",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bee18",
+      "elfGotAddress": "0x28bee18",
+      "elfUsageSlot": "0x29887e8",
+      "encodedToken": "0xa0000ceb",
+      "literalIndex": 1653,
+      "value": "ACH_NAME_BOOSTER_SHOT",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bee20",
+      "elfGotAddress": "0x28bee20",
+      "elfUsageSlot": "0x2988b90",
+      "encodedToken": "0xa0000dd5",
+      "literalIndex": 1770,
+      "value": "ACH_PRE_FANTASTIC_FOUR",
+      "referencedBy": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bf0b8",
+      "elfGotAddress": "0x28bf0b8",
+      "elfUsageSlot": "0x298b098",
+      "encodedToken": "0xa0001719",
+      "literalIndex": 2956,
+      "value": "Coin",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bf0e0",
+      "elfGotAddress": "0x28bf0e0",
+      "elfUsageSlot": "0x2994490",
+      "encodedToken": "0xa0003c1d",
+      "literalIndex": 7694,
+      "value": "Store",
+      "referencedBy": [
+        "DecompiledNative/CharacterSelectGUI/CharacterSelectGUI_Setup_12e0ab8.cpp",
+        "DecompiledNative/StoreGUI/StoreGUI_Setup_12f93bc.cpp",
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029bf150",
+      "elfGotAddress": "0x28bf150",
+      "elfUsageSlot": "0x2989998",
+      "encodedToken": "0xa0001157",
+      "literalIndex": 2219,
+      "value": "Attributes",
+      "referencedBy": [
+        "DecompiledNative/MainMenu/MainMenu_OnPlayClicked_12f244c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c00a0",
+      "elfGotAddress": "0x28c00a0",
+      "elfUsageSlot": "0x2997208",
+      "encodedToken": "0xa000477d",
+      "literalIndex": 9150,
+      "value": "UI_OK",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c01a8",
+      "elfGotAddress": "0x28c01a8",
+      "elfUsageSlot": "0x29933c0",
+      "encodedToken": "0xa00037e7",
+      "literalIndex": 7155,
+      "value": "RewardedAd",
+      "referencedBy": [
+        "DecompiledNative/StoreGUI/StoreGUI_ShowAll_12f9944.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0610",
+      "elfGotAddress": "0x28c0610",
+      "elfUsageSlot": "0x29971d0",
+      "encodedToken": "0xa000476f",
+      "literalIndex": 9143,
+      "value": "UI_MULTIPLIER_FMT",
+      "referencedBy": [
+        "DecompiledNative/PauseMenu/PauseMenu_UpdateStats_12f63e0.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0640",
+      "elfGotAddress": "0x28c0640",
+      "elfUsageSlot": "0x2985940",
+      "encodedToken": "0xa0000141",
+      "literalIndex": 160,
+      "value": " ,",
+      "referencedBy": [
+        "DecompiledNative/BonusStartButtons/BonusStartButtons_OnEnable_12e0658.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0648",
+      "elfGotAddress": "0x28c0648",
+      "elfUsageSlot": "0x2997bc0",
+      "encodedToken": "0xa00049eb",
+      "literalIndex": 9461,
+      "value": "Unknown Button Combo: ",
+      "referencedBy": [
+        "DecompiledNative/BonusStartButtons/BonusStartButtons_OnEnable_12e0658.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0658",
+      "elfGotAddress": "0x28c0658",
+      "elfUsageSlot": "0x29898d0",
+      "encodedToken": "0xa0001125",
+      "literalIndex": 2194,
+      "value": "Attempting Reconfigure",
+      "referencedBy": [
+        "DecompiledNative/CharacterSelectGUI/CharacterSelectGUI_ReconfigureStoreItems_12e0bc8.cpp",
+        "DecompiledNative/StoreGUI/StoreGUI_ReconfigureStoreItems_12f9b84.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0660",
+      "elfGotAddress": "0x28c0660",
+      "elfUsageSlot": "0x2992e30",
+      "encodedToken": "0xa0003683",
+      "literalIndex": 6977,
+      "value": "Reconfigure",
+      "referencedBy": [
+        "DecompiledNative/CharacterSelectGUI/CharacterSelectGUI_ReconfigureStoreItems_12e0bc8.cpp",
+        "DecompiledNative/StoreGUI/StoreGUI_ReconfigureStoreItems_12f9b84.cpp",
+        "DecompiledNative/StoreItem/StoreItem_ActivateCharacter_12fd2b4.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0668",
+      "elfGotAddress": "0x28c0668",
+      "elfUsageSlot": "0x2990dc8",
+      "encodedToken": "0xa0002e69",
+      "literalIndex": 5940,
+      "value": "N0",
+      "referencedBy": [
+        "DecompiledNative/CharacterSelectGUI/CharacterSelectGUI_AdjustCoins_12e0c40.cpp",
+        "DecompiledNative/CharacterSelectGUI/CharacterSelectGUI_ShowAll_12e0b38.cpp",
+        "DecompiledNative/PauseMenu/PauseMenu_UpdateStats_12f63e0.cpp",
+        "DecompiledNative/StoreGUI/StoreGUI_AdjustCoins_12f9bfc.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0680",
+      "elfGotAddress": "0x28c0680",
+      "elfUsageSlot": "0x29a27d0",
+      "encodedToken": "0xa00074f1",
+      "literalIndex": 14968,
+      "value": "{0} {1}/{2}",
+      "referencedBy": [
+        "DecompiledNative/CharacterSelectGUI/CharacterSelectGUI_SlideIn_12e0d18.cpp",
+        "DecompiledNative/CharacterSelectGUI/CharacterSelectGUI_UpdateHeaderLabel_12e1028.cpp",
+        "DecompiledNative/StoreItem/StoreItem_ActivateCharacter_12fd2b4.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0688",
+      "elfGotAddress": "0x28c0688",
+      "elfUsageSlot": "0x2997388",
+      "encodedToken": "0xa00047dd",
+      "literalIndex": 9198,
+      "value": "UI_UNLOCKED",
+      "referencedBy": [
+        "DecompiledNative/CharacterSelectGUI/CharacterSelectGUI_SlideIn_12e0d18.cpp",
+        "DecompiledNative/CharacterSelectGUI/CharacterSelectGUI_UpdateHeaderLabel_12e1028.cpp",
+        "DecompiledNative/StoreItem/StoreItem_ActivateCharacter_12fd2b4.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0750",
+      "elfGotAddress": "0x28c0750",
+      "elfUsageSlot": "0x2992698",
+      "encodedToken": "0xa000349d",
+      "literalIndex": 6734,
+      "value": "PostGame",
+      "referencedBy": [
+        "DecompiledNative/EndGameUI/EndGameUI_Setup_12e2ed8.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0830",
+      "elfGotAddress": "0x28c0830",
+      "elfUsageSlot": "0x2997100",
+      "encodedToken": "0xa000473b",
+      "literalIndex": 9117,
+      "value": "UI_DISTANCE_FMT",
+      "referencedBy": [
+        "DecompiledNative/PauseMenu/PauseMenu_Start_12f5f80.cpp",
+        "DecompiledNative/PauseMenu/PauseMenu_UpdateStats_12f63e0.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0878",
+      "elfGotAddress": "0x28c0878",
+      "elfUsageSlot": "0x2990438",
+      "encodedToken": "0xa0002c05",
+      "literalIndex": 5634,
+      "value": "LoopDoubleCoinsButtonVibrate",
+      "referencedBy": [
+        "DecompiledNative/EndGameUI/EndGameUI_HideAll_12e4f80.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0880",
+      "elfGotAddress": "0x28c0880",
+      "elfUsageSlot": "0x29a27e8",
+      "encodedToken": "0xa00074f7",
+      "literalIndex": 14971,
+      "value": "{0}(Clone)",
+      "referencedBy": [
+        "DecompiledNative/EndGameUI/EndGameUI_HideAll_12e4f80.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c08f8",
+      "elfGotAddress": "0x28c08f8",
+      "elfUsageSlot": "0x29973b8",
+      "encodedToken": "0xa00047e9",
+      "literalIndex": 9204,
+      "value": "UI_YES",
+      "referencedBy": [
+        "DecompiledNative/MainMenu/MainMenu_ShowAll_12f2248.cpp",
+        "DecompiledNative/PauseMenu/PauseMenu_MainMenuClicked_12f6bf0.cpp",
+        "DecompiledNative/PauseMenu/PauseMenu_NewGameClicked_12f6e44.cpp",
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0900",
+      "elfGotAddress": "0x28c0900",
+      "elfUsageSlot": "0x29971f0",
+      "encodedToken": "0xa0004777",
+      "literalIndex": 9147,
+      "value": "UI_NO",
+      "referencedBy": [
+        "DecompiledNative/PauseMenu/PauseMenu_MainMenuClicked_12f6bf0.cpp",
+        "DecompiledNative/PauseMenu/PauseMenu_NewGameClicked_12f6e44.cpp",
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c09d0",
+      "elfGotAddress": "0x28c09d0",
+      "elfUsageSlot": "0x299a4b0",
+      "encodedToken": "0xa0005429",
+      "literalIndex": 10772,
+      "value": "bonus100.png",
+      "referencedBy": [
+        "DecompiledNative/GameGUITotem/GameGUITotem_SetBonusLevel_12e89f8.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c09d8",
+      "elfGotAddress": "0x28c09d8",
+      "elfUsageSlot": "0x299a4c0",
+      "encodedToken": "0xa000542d",
+      "literalIndex": 10774,
+      "value": "bonus250.png",
+      "referencedBy": [
+        "DecompiledNative/GameGUITotem/GameGUITotem_SetBonusLevel_12e89f8.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c09e0",
+      "elfGotAddress": "0x28c09e0",
+      "elfUsageSlot": "0x299a4c8",
+      "encodedToken": "0xa000542f",
+      "literalIndex": 10775,
+      "value": "bonus500.png",
+      "referencedBy": [
+        "DecompiledNative/GameGUITotem/GameGUITotem_SetBonusLevel_12e89f8.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c09e8",
+      "elfGotAddress": "0x28c09e8",
+      "elfUsageSlot": "0x299a4b8",
+      "encodedToken": "0xa000542b",
+      "literalIndex": 10773,
+      "value": "bonus1000.png",
+      "referencedBy": [
+        "DecompiledNative/GameGUITotem/GameGUITotem_SetBonusLevel_12e89f8.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0a90",
+      "elfGotAddress": "0x28c0a90",
+      "elfUsageSlot": "0x2997218",
+      "encodedToken": "0xa0004781",
+      "literalIndex": 9152,
+      "value": "UI_PERMA_WINGS",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0aa0",
+      "elfGotAddress": "0x28c0aa0",
+      "elfUsageSlot": "0x29972f0",
+      "encodedToken": "0xa00047b7",
+      "literalIndex": 9179,
+      "value": "UI_RESURRECTION_WINGS",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0ad0",
+      "elfGotAddress": "0x28c0ad0",
+      "elfUsageSlot": "0x298ae00",
+      "encodedToken": "0xa0001673",
+      "literalIndex": 2873,
+      "value": "ChangeGCTimeIndicator",
+      "referencedBy": [
+        "DecompiledNative/MainMenu/MainMenu_SlideIn_12f1690.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0af8",
+      "elfGotAddress": "0x28c0af8",
+      "elfUsageSlot": "0x2997130",
+      "encodedToken": "0xa0004747",
+      "literalIndex": 9123,
+      "value": "UI_HEAD_START",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0db8",
+      "elfGotAddress": "0x28c0db8",
+      "elfUsageSlot": "0x2990618",
+      "encodedToken": "0xa0002c7d",
+      "literalIndex": 5694,
+      "value": "MainMenu",
+      "referencedBy": [
+        "DecompiledNative/MainMenu/MainMenu_Start_12f1444.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0dc0",
+      "elfGotAddress": "0x28c0dc0",
+      "elfUsageSlot": "0x299b0f8",
+      "encodedToken": "0xa000573b",
+      "literalIndex": 11165,
+      "value": "com.imangi.tr1fileprovider",
+      "referencedBy": [
+        "DecompiledNative/MainMenu/MainMenu_Start_12f1444.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0dd8",
+      "elfGotAddress": "0x28c0dd8",
+      "elfUsageSlot": "0x2993360",
+      "encodedToken": "0xa00037cf",
+      "literalIndex": 7143,
+      "value": "ReviewRequestTitle",
+      "referencedBy": [
+        "DecompiledNative/MainMenu/MainMenu_ShowAll_12f2248.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0de0",
+      "elfGotAddress": "0x28c0de0",
+      "elfUsageSlot": "0x2993348",
+      "encodedToken": "0xa00037c9",
+      "literalIndex": 7140,
+      "value": "ReviewRequestBody",
+      "referencedBy": [
+        "DecompiledNative/MainMenu/MainMenu_ShowAll_12f2248.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0de8",
+      "elfGotAddress": "0x28c0de8",
+      "elfUsageSlot": "0x2993350",
+      "encodedToken": "0xa00037cb",
+      "literalIndex": 7141,
+      "value": "ReviewRequestDontAskButton",
+      "referencedBy": [
+        "DecompiledNative/MainMenu/MainMenu_ShowAll_12f2248.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0df0",
+      "elfGotAddress": "0x28c0df0",
+      "elfUsageSlot": "0x2993358",
+      "encodedToken": "0xa00037cd",
+      "literalIndex": 7142,
+      "value": "ReviewRequestRemindButton",
+      "referencedBy": [
+        "DecompiledNative/MainMenu/MainMenu_ShowAll_12f2248.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0e00",
+      "elfGotAddress": "0x28c0e00",
+      "elfUsageSlot": "0x299dbc0",
+      "encodedToken": "0xa00061ed",
+      "literalIndex": 12534,
+      "value": "ja",
+      "referencedBy": [
+        "DecompiledNative/TR1LocalizeString/TR1LocalizeString_UpdateString_130666c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0e38",
+      "elfGotAddress": "0x28c0e38",
+      "elfUsageSlot": "0x299fd08",
+      "encodedToken": "0xa0006a3f",
+      "literalIndex": 13599,
+      "value": "ru",
+      "referencedBy": [
+        "DecompiledNative/TR1LocalizeStringMainMenuButtons/TR1LocalizeStringMainMenuButtons_AdjustVariablesForRussian_1306ad8.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0eb0",
+      "elfGotAddress": "0x28c0eb0",
+      "elfUsageSlot": "0x2992008",
+      "encodedToken": "0xa00032f9",
+      "literalIndex": 6524,
+      "value": "Options",
+      "referencedBy": [
+        "DecompiledNative/OptionsGUI/OptionsGUI_Start_12f540c.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0ee0",
+      "elfGotAddress": "0x28c0ee0",
+      "elfUsageSlot": "0x2992470",
+      "encodedToken": "0xa0003413",
+      "literalIndex": 6665,
+      "value": "Pause",
+      "referencedBy": [
+        "DecompiledNative/PauseMenu/PauseMenu_Setup_12f6294.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0f10",
+      "elfGotAddress": "0x28c0f10",
+      "elfUsageSlot": "0x2997300",
+      "encodedToken": "0xa00047bb",
+      "literalIndex": 9181,
+      "value": "UI_RETURN_MAIN_MENU_HEADER",
+      "referencedBy": [
+        "DecompiledNative/PauseMenu/PauseMenu_MainMenuClicked_12f6bf0.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0f18",
+      "elfGotAddress": "0x28c0f18",
+      "elfUsageSlot": "0x2997308",
+      "encodedToken": "0xa00047bd",
+      "literalIndex": 9182,
+      "value": "UI_RETURN_MAIN_MENU_WARNING",
+      "referencedBy": [
+        "DecompiledNative/PauseMenu/PauseMenu_MainMenuClicked_12f6bf0.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0f30",
+      "elfGotAddress": "0x28c0f30",
+      "elfUsageSlot": "0x29971d8",
+      "encodedToken": "0xa0004771",
+      "literalIndex": 9144,
+      "value": "UI_NEW_GAME_HEADER",
+      "referencedBy": [
+        "DecompiledNative/PauseMenu/PauseMenu_NewGameClicked_12f6e44.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c0f38",
+      "elfGotAddress": "0x28c0f38",
+      "elfUsageSlot": "0x29971e0",
+      "encodedToken": "0xa0004773",
+      "literalIndex": 9145,
+      "value": "UI_NEW_GAME_WARNING",
+      "referencedBy": [
+        "DecompiledNative/PauseMenu/PauseMenu_NewGameClicked_12f6e44.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c10b0",
+      "elfGotAddress": "0x28c10b0",
+      "elfUsageSlot": "0x2997118",
+      "encodedToken": "0xa0004741",
+      "literalIndex": 9120,
+      "value": "UI_FREE",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_Configure_12fb958.cpp",
+        "DecompiledNative/StoreItem/StoreItem_Reconfigure_12fbb8c.cpp",
+        "DecompiledNative/StoreItem/StoreItem_Start_12fb954.cpp",
+        "DecompiledNative/StoreItem/StoreItem_Update_12fbb34.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c10c0",
+      "elfGotAddress": "0x28c10c0",
+      "elfUsageSlot": "0x2998f90",
+      "encodedToken": "0xa0004ee1",
+      "literalIndex": 10096,
+      "value": "[CRASH UpdatePrice 5: ",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdatePrice_12fbcdc.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c10c8",
+      "elfGotAddress": "0x28c10c8",
+      "elfUsageSlot": "0x2997020",
+      "encodedToken": "0xa0004703",
+      "literalIndex": 9089,
+      "value": "UI_CHARACTER_PURCHASE_LABEL",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdatePrice_12fbcdc.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c10d0",
+      "elfGotAddress": "0x28c10d0",
+      "elfUsageSlot": "0x2998f88",
+      "encodedToken": "0xa0004edf",
+      "literalIndex": 10095,
+      "value": "[CRASH UpdatePrice 4: ",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdatePrice_12fbcdc.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c10d8",
+      "elfGotAddress": "0x28c10d8",
+      "elfUsageSlot": "0x29970b8",
+      "encodedToken": "0xa0004729",
+      "literalIndex": 9108,
+      "value": "UI_CURRENTLY_ACTIVE",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdatePrice_12fbcdc.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c10e0",
+      "elfGotAddress": "0x28c10e0",
+      "elfUsageSlot": "0x2998f70",
+      "encodedToken": "0xa0004ed9",
+      "literalIndex": 10092,
+      "value": "[CRASH UpdatePrice 1: ",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdatePrice_12fbcdc.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c10e8",
+      "elfGotAddress": "0x28c10e8",
+      "elfUsageSlot": "0x2996fc8",
+      "encodedToken": "0xa00046ed",
+      "literalIndex": 9078,
+      "value": "UI_ACTIVATE",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdatePrice_12fbcdc.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c10f0",
+      "elfGotAddress": "0x28c10f0",
+      "elfUsageSlot": "0x2998f78",
+      "encodedToken": "0xa0004edb",
+      "literalIndex": 10093,
+      "value": "[CRASH UpdatePrice 2: ",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdatePrice_12fbcdc.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c10f8",
+      "elfGotAddress": "0x28c10f8",
+      "elfUsageSlot": "0x2994498",
+      "encodedToken": "0xa0003c1f",
+      "literalIndex": 7695,
+      "value": "Store item price:",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdatePrice_12fbcdc.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1100",
+      "elfGotAddress": "0x28c1100",
+      "elfUsageSlot": "0x29973a0",
+      "encodedToken": "0xa00047e3",
+      "literalIndex": 9201,
+      "value": "UI_UTILITY_PURCHASE_LABEL",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdatePrice_12fbcdc.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1108",
+      "elfGotAddress": "0x28c1108",
+      "elfUsageSlot": "0x2997120",
+      "encodedToken": "0xa0004743",
+      "literalIndex": 9121,
+      "value": "UI_FULLY_UPGRADED",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdatePrice_12fbcdc.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1110",
+      "elfGotAddress": "0x28c1110",
+      "elfUsageSlot": "0x2994508",
+      "encodedToken": "0xa0003c3b",
+      "literalIndex": 7709,
+      "value": "StoreItemAdsDisabled",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdatePrice_12fbcdc.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1118",
+      "elfGotAddress": "0x28c1118",
+      "elfUsageSlot": "0x2994510",
+      "encodedToken": "0xa0003c3d",
+      "literalIndex": 7710,
+      "value": "StoreItemDisableAds",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdatePrice_12fbcdc.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1120",
+      "elfGotAddress": "0x28c1120",
+      "elfUsageSlot": "0x2994528",
+      "encodedToken": "0xa0003c43",
+      "literalIndex": 7713,
+      "value": "StoreItemDownload",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdatePrice_12fbcdc.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1128",
+      "elfGotAddress": "0x28c1128",
+      "elfUsageSlot": "0x29970f8",
+      "encodedToken": "0xa0004739",
+      "literalIndex": 9116,
+      "value": "UI_DISABLE",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdatePrice_12fbcdc.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1130",
+      "elfGotAddress": "0x28c1130",
+      "elfUsageSlot": "0x2997108",
+      "encodedToken": "0xa000473d",
+      "literalIndex": 9118,
+      "value": "UI_ENABLE",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdatePrice_12fbcdc.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1138",
+      "elfGotAddress": "0x28c1138",
+      "elfUsageSlot": "0x2998f80",
+      "encodedToken": "0xa0004edd",
+      "literalIndex": 10094,
+      "value": "[CRASH UpdatePrice 3: ",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdatePrice_12fbcdc.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1140",
+      "elfGotAddress": "0x28c1140",
+      "elfUsageSlot": "0x29972d0",
+      "encodedToken": "0xa00047af",
+      "literalIndex": 9175,
+      "value": "UI_POWERUP_PURCHASE_LABEL",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdatePrice_12fbcdc.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1148",
+      "elfGotAddress": "0x28c1148",
+      "elfUsageSlot": "0x2998f98",
+      "encodedToken": "0xa0004ee3",
+      "literalIndex": 10097,
+      "value": "[CRASH UpdatePrice 6: ",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdatePrice_12fbcdc.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1150",
+      "elfGotAddress": "0x28c1150",
+      "elfUsageSlot": "0x2994520",
+      "encodedToken": "0xa0003c41",
+      "literalIndex": 7712,
+      "value": "StoreItemDisableAdsLevel1",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1158",
+      "elfGotAddress": "0x28c1158",
+      "elfUsageSlot": "0x2994600",
+      "encodedToken": "0xa0003c79",
+      "literalIndex": 7740,
+      "value": "StoreItemPlayerQueenAstridLevel0",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1160",
+      "elfGotAddress": "0x28c1160",
+      "elfUsageSlot": "0x2997220",
+      "encodedToken": "0xa0004783",
+      "literalIndex": 9153,
+      "value": "UI_PERMA_WINGS_DESC",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp",
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1168",
+      "elfGotAddress": "0x28c1168",
+      "elfUsageSlot": "0x2997150",
+      "encodedToken": "0xa000474f",
+      "literalIndex": 9127,
+      "value": "UI_INVISIBILITY_DESC_1_TO_4",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1170",
+      "elfGotAddress": "0x28c1170",
+      "elfUsageSlot": "0x2997138",
+      "encodedToken": "0xa0004749",
+      "literalIndex": 9124,
+      "value": "UI_HEAD_START_DESC",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp",
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1178",
+      "elfGotAddress": "0x28c1178",
+      "elfUsageSlot": "0x2997068",
+      "encodedToken": "0xa0004715",
+      "literalIndex": 9098,
+      "value": "UI_COIN_MAGNET_DESC_4",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1180",
+      "elfGotAddress": "0x28c1180",
+      "elfUsageSlot": "0x2994598",
+      "encodedToken": "0xa0003c5f",
+      "literalIndex": 7727,
+      "value": "StoreItemPlayerFootballLevel1",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1188",
+      "elfGotAddress": "0x28c1188",
+      "elfUsageSlot": "0x2994620",
+      "encodedToken": "0xa0003c81",
+      "literalIndex": 7744,
+      "value": "StoreItemPlayerSkeletonLevel0",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1190",
+      "elfGotAddress": "0x28c1190",
+      "elfUsageSlot": "0x2994618",
+      "encodedToken": "0xa0003c7f",
+      "literalIndex": 7743,
+      "value": "StoreItemPlayerSimoneDaviesLevel1",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1198",
+      "elfGotAddress": "0x28c1198",
+      "elfUsageSlot": "0x29972f8",
+      "encodedToken": "0xa00047b9",
+      "literalIndex": 9180,
+      "value": "UI_RESURRECTION_WINGS_DESC",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c11a0",
+      "elfGotAddress": "0x28c11a0",
+      "elfUsageSlot": "0x2994590",
+      "encodedToken": "0xa0003c5d",
+      "literalIndex": 7726,
+      "value": "StoreItemPlayerFootballLevel0",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c11a8",
+      "elfGotAddress": "0x28c11a8",
+      "elfUsageSlot": "0x29945b8",
+      "encodedToken": "0xa0003c67",
+      "literalIndex": 7731,
+      "value": "StoreItemPlayerGirlLevel1",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c11b0",
+      "elfGotAddress": "0x28c11b0",
+      "elfUsageSlot": "0x2997158",
+      "encodedToken": "0xa0004751",
+      "literalIndex": 9128,
+      "value": "UI_INVISIBILITY_DESC_5",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c11b8",
+      "elfGotAddress": "0x28c11b8",
+      "elfUsageSlot": "0x2997048",
+      "encodedToken": "0xa000470d",
+      "literalIndex": 9094,
+      "value": "UI_COIN_MAGNET_DESC_0",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c11c0",
+      "elfGotAddress": "0x28c11c0",
+      "elfUsageSlot": "0x2997160",
+      "encodedToken": "0xa0004753",
+      "literalIndex": 9129,
+      "value": "UI_INVISIBILITY_DESC_6",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c11c8",
+      "elfGotAddress": "0x28c11c8",
+      "elfUsageSlot": "0x29971b0",
+      "encodedToken": "0xa0004767",
+      "literalIndex": 9139,
+      "value": "UI_MEGA_COIN_DESC_7",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c11d0",
+      "elfGotAddress": "0x28c11d0",
+      "elfUsageSlot": "0x29945e8",
+      "encodedToken": "0xa0003c73",
+      "literalIndex": 7737,
+      "value": "StoreItemPlayerKaiXiangDragonLevel1",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c11d8",
+      "elfGotAddress": "0x28c11d8",
+      "elfUsageSlot": "0x2997088",
+      "encodedToken": "0xa000471d",
+      "literalIndex": 9102,
+      "value": "UI_COIN_VALUE_0",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c11e0",
+      "elfGotAddress": "0x28c11e0",
+      "elfUsageSlot": "0x2994570",
+      "encodedToken": "0xa0003c55",
+      "literalIndex": 7722,
+      "value": "StoreItemPlayerChronosTimebeardLevel0",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c11e8",
+      "elfGotAddress": "0x28c11e8",
+      "elfUsageSlot": "0x2997090",
+      "encodedToken": "0xa000471f",
+      "literalIndex": 9103,
+      "value": "UI_COIN_VALUE_1",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c11f0",
+      "elfGotAddress": "0x28c11f0",
+      "elfUsageSlot": "0x2994568",
+      "encodedToken": "0xa0003c53",
+      "literalIndex": 7721,
+      "value": "StoreItemPlayerChinaLevel1",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c11f8",
+      "elfGotAddress": "0x28c11f8",
+      "elfUsageSlot": "0x2997080",
+      "encodedToken": "0xa000471b",
+      "literalIndex": 9101,
+      "value": "UI_COIN_MAGNET_DESC_7",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1200",
+      "elfGotAddress": "0x28c1200",
+      "elfUsageSlot": "0x29971c0",
+      "encodedToken": "0xa000476b",
+      "literalIndex": 9141,
+      "value": "UI_MEGA_HEAD_DESC",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp",
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1208",
+      "elfGotAddress": "0x28c1208",
+      "elfUsageSlot": "0x2997060",
+      "encodedToken": "0xa0004713",
+      "literalIndex": 9097,
+      "value": "UI_COIN_MAGNET_DESC_3",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1210",
+      "elfGotAddress": "0x28c1210",
+      "elfUsageSlot": "0x2994560",
+      "encodedToken": "0xa0003c51",
+      "literalIndex": 7720,
+      "value": "StoreItemPlayerChinaLevel0",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1218",
+      "elfGotAddress": "0x28c1218",
+      "elfUsageSlot": "0x2994588",
+      "encodedToken": "0xa0003c5b",
+      "literalIndex": 7725,
+      "value": "StoreItemPlayerConquistadorLevel1",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1220",
+      "elfGotAddress": "0x28c1220",
+      "elfUsageSlot": "0x29945a0",
+      "encodedToken": "0xa0003c61",
+      "literalIndex": 7728,
+      "value": "StoreItemPlayerFrostPirateLevel0",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1228",
+      "elfGotAddress": "0x28c1228",
+      "elfUsageSlot": "0x2997000",
+      "encodedToken": "0xa00046fb",
+      "literalIndex": 9085,
+      "value": "UI_BOOST_DESC_5",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1230",
+      "elfGotAddress": "0x28c1230",
+      "elfUsageSlot": "0x29945d8",
+      "encodedToken": "0xa0003c6f",
+      "literalIndex": 7735,
+      "value": "StoreItemPlayerIndiLevel1",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1238",
+      "elfGotAddress": "0x28c1238",
+      "elfUsageSlot": "0x2994540",
+      "encodedToken": "0xa0003c49",
+      "literalIndex": 7716,
+      "value": "StoreItemPlayerBigBLevel0",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1240",
+      "elfGotAddress": "0x28c1240",
+      "elfUsageSlot": "0x2997180",
+      "encodedToken": "0xa000475b",
+      "literalIndex": 9133,
+      "value": "UI_MEGA_COIN_DESC_1",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1248",
+      "elfGotAddress": "0x28c1248",
+      "elfUsageSlot": "0x2997380",
+      "encodedToken": "0xa00047db",
+      "literalIndex": 9197,
+      "value": "UI_UNKNOWN",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1250",
+      "elfGotAddress": "0x28c1250",
+      "elfUsageSlot": "0x2997098",
+      "encodedToken": "0xa0004721",
+      "literalIndex": 9104,
+      "value": "UI_COIN_VALUE_2",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1258",
+      "elfGotAddress": "0x28c1258",
+      "elfUsageSlot": "0x2994638",
+      "encodedToken": "0xa0003c87",
+      "literalIndex": 7747,
+      "value": "StoreItemPlayerWallyNutLevel1",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1260",
+      "elfGotAddress": "0x28c1260",
+      "elfUsageSlot": "0x2996ff8",
+      "encodedToken": "0xa00046f9",
+      "literalIndex": 9084,
+      "value": "UI_BOOST_DESC_4",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1268",
+      "elfGotAddress": "0x28c1268",
+      "elfUsageSlot": "0x2994580",
+      "encodedToken": "0xa0003c59",
+      "literalIndex": 7724,
+      "value": "StoreItemPlayerConquistadorLevel0",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1270",
+      "elfGotAddress": "0x28c1270",
+      "elfUsageSlot": "0x2994558",
+      "encodedToken": "0xa0003c4f",
+      "literalIndex": 7719,
+      "value": "StoreItemPlayerCarnifexLevel1",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1278",
+      "elfGotAddress": "0x28c1278",
+      "elfUsageSlot": "0x29970b0",
+      "encodedToken": "0xa0004727",
+      "literalIndex": 9107,
+      "value": "UI_COIN_VALUE_6",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1280",
+      "elfGotAddress": "0x28c1280",
+      "elfUsageSlot": "0x29970a0",
+      "encodedToken": "0xa0004723",
+      "literalIndex": 9105,
+      "value": "UI_COIN_VALUE_3",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1288",
+      "elfGotAddress": "0x28c1288",
+      "elfUsageSlot": "0x2997010",
+      "encodedToken": "0xa00046ff",
+      "literalIndex": 9087,
+      "value": "UI_BOOST_DESC_7",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1290",
+      "elfGotAddress": "0x28c1290",
+      "elfUsageSlot": "0x2997058",
+      "encodedToken": "0xa0004711",
+      "literalIndex": 9096,
+      "value": "UI_COIN_MAGNET_DESC_2",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1298",
+      "elfGotAddress": "0x28c1298",
+      "elfUsageSlot": "0x2994608",
+      "encodedToken": "0xa0003c7b",
+      "literalIndex": 7741,
+      "value": "StoreItemPlayerQueenAstridLevel1",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c12a0",
+      "elfGotAddress": "0x28c12a0",
+      "elfUsageSlot": "0x2997078",
+      "encodedToken": "0xa0004719",
+      "literalIndex": 9100,
+      "value": "UI_COIN_MAGNET_DESC_6",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c12a8",
+      "elfGotAddress": "0x28c12a8",
+      "elfUsageSlot": "0x29945c8",
+      "encodedToken": "0xa0003c6b",
+      "literalIndex": 7733,
+      "value": "StoreItemPlayerGuyLevel1",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c12b0",
+      "elfGotAddress": "0x28c12b0",
+      "elfUsageSlot": "0x2997008",
+      "encodedToken": "0xa00046fd",
+      "literalIndex": 9086,
+      "value": "UI_BOOST_DESC_6",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c12b8",
+      "elfGotAddress": "0x28c12b8",
+      "elfUsageSlot": "0x29945b0",
+      "encodedToken": "0xa0003c65",
+      "literalIndex": 7730,
+      "value": "StoreItemPlayerGirlLevel0",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c12c0",
+      "elfGotAddress": "0x28c12c0",
+      "elfUsageSlot": "0x29970a8",
+      "encodedToken": "0xa0004725",
+      "literalIndex": 9106,
+      "value": "UI_COIN_VALUE_4",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c12c8",
+      "elfGotAddress": "0x28c12c8",
+      "elfUsageSlot": "0x2996ff0",
+      "encodedToken": "0xa00046f7",
+      "literalIndex": 9083,
+      "value": "UI_BOOST_DESC_3",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c12d0",
+      "elfGotAddress": "0x28c12d0",
+      "elfUsageSlot": "0x2996fd8",
+      "encodedToken": "0xa00046f1",
+      "literalIndex": 9080,
+      "value": "UI_BOOST_DESC_0",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c12d8",
+      "elfGotAddress": "0x28c12d8",
+      "elfUsageSlot": "0x2996fe0",
+      "encodedToken": "0xa00046f3",
+      "literalIndex": 9081,
+      "value": "UI_BOOST_DESC_1",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c12e0",
+      "elfGotAddress": "0x28c12e0",
+      "elfUsageSlot": "0x2997168",
+      "encodedToken": "0xa0004755",
+      "literalIndex": 9130,
+      "value": "UI_INVISIBILITY_DESC_7",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c12e8",
+      "elfGotAddress": "0x28c12e8",
+      "elfUsageSlot": "0x2997190",
+      "encodedToken": "0xa000475f",
+      "literalIndex": 9135,
+      "value": "UI_MEGA_COIN_DESC_3",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c12f0",
+      "elfGotAddress": "0x28c12f0",
+      "elfUsageSlot": "0x2994550",
+      "encodedToken": "0xa0003c4d",
+      "literalIndex": 7718,
+      "value": "StoreItemPlayerCarnifexLevel0",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c12f8",
+      "elfGotAddress": "0x28c12f8",
+      "elfUsageSlot": "0x2997178",
+      "encodedToken": "0xa0004759",
+      "literalIndex": 9132,
+      "value": "UI_MEGA_COIN_DESC_0",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1300",
+      "elfGotAddress": "0x28c1300",
+      "elfUsageSlot": "0x29945d0",
+      "encodedToken": "0xa0003c6d",
+      "literalIndex": 7734,
+      "value": "StoreItemPlayerIndiLevel0",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1308",
+      "elfGotAddress": "0x28c1308",
+      "elfUsageSlot": "0x2997070",
+      "encodedToken": "0xa0004717",
+      "literalIndex": 9099,
+      "value": "UI_COIN_MAGNET_DESC_5",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1310",
+      "elfGotAddress": "0x28c1310",
+      "elfUsageSlot": "0x2994610",
+      "encodedToken": "0xa0003c7d",
+      "literalIndex": 7742,
+      "value": "StoreItemPlayerSimoneDaviesLevel0",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1318",
+      "elfGotAddress": "0x28c1318",
+      "elfUsageSlot": "0x2994578",
+      "encodedToken": "0xa0003c57",
+      "literalIndex": 7723,
+      "value": "StoreItemPlayerChronosTimebeardLevel1",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1320",
+      "elfGotAddress": "0x28c1320",
+      "elfUsageSlot": "0x29945a8",
+      "encodedToken": "0xa0003c63",
+      "literalIndex": 7729,
+      "value": "StoreItemPlayerFrostPirateLevel1",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1328",
+      "elfGotAddress": "0x28c1328",
+      "elfUsageSlot": "0x2997198",
+      "encodedToken": "0xa0004761",
+      "literalIndex": 9136,
+      "value": "UI_MEGA_COIN_DESC_4",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1330",
+      "elfGotAddress": "0x28c1330",
+      "elfUsageSlot": "0x29971a0",
+      "encodedToken": "0xa0004763",
+      "literalIndex": 9137,
+      "value": "UI_MEGA_COIN_DESC_5",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1338",
+      "elfGotAddress": "0x28c1338",
+      "elfUsageSlot": "0x2996fe8",
+      "encodedToken": "0xa00046f5",
+      "literalIndex": 9082,
+      "value": "UI_BOOST_DESC_2",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1340",
+      "elfGotAddress": "0x28c1340",
+      "elfUsageSlot": "0x2994628",
+      "encodedToken": "0xa0003c83",
+      "literalIndex": 7745,
+      "value": "StoreItemPlayerSkeletonLevel1",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1348",
+      "elfGotAddress": "0x28c1348",
+      "elfUsageSlot": "0x29971a8",
+      "encodedToken": "0xa0004765",
+      "literalIndex": 9138,
+      "value": "UI_MEGA_COIN_DESC_6",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1350",
+      "elfGotAddress": "0x28c1350",
+      "elfUsageSlot": "0x29945f8",
+      "encodedToken": "0xa0003c77",
+      "literalIndex": 7739,
+      "value": "StoreItemPlayerNidhiNirmalLevel1",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1358",
+      "elfGotAddress": "0x28c1358",
+      "elfUsageSlot": "0x2994518",
+      "encodedToken": "0xa0003c3f",
+      "literalIndex": 7711,
+      "value": "StoreItemDisableAdsLevel0",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1360",
+      "elfGotAddress": "0x28c1360",
+      "elfUsageSlot": "0x29945c0",
+      "encodedToken": "0xa0003c69",
+      "literalIndex": 7732,
+      "value": "StoreItemPlayerGuyLevel0",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1368",
+      "elfGotAddress": "0x28c1368",
+      "elfUsageSlot": "0x2997050",
+      "encodedToken": "0xa000470f",
+      "literalIndex": 9095,
+      "value": "UI_COIN_MAGNET_DESC_1",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1370",
+      "elfGotAddress": "0x28c1370",
+      "elfUsageSlot": "0x29945f0",
+      "encodedToken": "0xa0003c75",
+      "literalIndex": 7738,
+      "value": "StoreItemPlayerNidhiNirmalLevel0",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1378",
+      "elfGotAddress": "0x28c1378",
+      "elfUsageSlot": "0x2997148",
+      "encodedToken": "0xa000474d",
+      "literalIndex": 9126,
+      "value": "UI_INVISIBILITY_DESC_0",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1380",
+      "elfGotAddress": "0x28c1380",
+      "elfUsageSlot": "0x2994548",
+      "encodedToken": "0xa0003c4b",
+      "literalIndex": 7717,
+      "value": "StoreItemPlayerBigBLevel1",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1388",
+      "elfGotAddress": "0x28c1388",
+      "elfUsageSlot": "0x2997188",
+      "encodedToken": "0xa000475d",
+      "literalIndex": 9134,
+      "value": "UI_MEGA_COIN_DESC_2",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1390",
+      "elfGotAddress": "0x28c1390",
+      "elfUsageSlot": "0x2994630",
+      "encodedToken": "0xa0003c85",
+      "literalIndex": 7746,
+      "value": "StoreItemPlayerWallyNutLevel0",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1398",
+      "elfGotAddress": "0x28c1398",
+      "elfUsageSlot": "0x29945e0",
+      "encodedToken": "0xa0003c71",
+      "literalIndex": 7736,
+      "value": "StoreItemPlayerKaiXiangDragonLevel0",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c13a0",
+      "elfGotAddress": "0x28c13a0",
+      "elfUsageSlot": "0x2987aa0",
+      "encodedToken": "0xa0000999",
+      "literalIndex": 1228,
+      "value": "3",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateBar_12fcde8.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c13a8",
+      "elfGotAddress": "0x28c13a8",
+      "elfUsageSlot": "0x298d840",
+      "encodedToken": "0xa0002105",
+      "literalIndex": 4226,
+      "value": "Full",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateBar_12fcde8.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c13b0",
+      "elfGotAddress": "0x28c13b0",
+      "elfUsageSlot": "0x2987900",
+      "encodedToken": "0xa0000931",
+      "literalIndex": 1176,
+      "value": "2",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateBar_12fcde8.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c13b8",
+      "elfGotAddress": "0x28c13b8",
+      "elfUsageSlot": "0x2987ab8",
+      "encodedToken": "0xa000099f",
+      "literalIndex": 1231,
+      "value": "4",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateBar_12fcde8.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c13c0",
+      "elfGotAddress": "0x28c13c0",
+      "elfUsageSlot": "0x298c2d0",
+      "encodedToken": "0xa0001ba7",
+      "literalIndex": 3539,
+      "value": "Disabled",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateBar_12fcde8.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c13c8",
+      "elfGotAddress": "0x28c13c8",
+      "elfUsageSlot": "0x29a0c08",
+      "encodedToken": "0xa0006dff",
+      "literalIndex": 14079,
+      "value": "storeUpgradeBar",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateBar_12fcde8.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c13d0",
+      "elfGotAddress": "0x28c13d0",
+      "elfUsageSlot": "0x2988538",
+      "encodedToken": "0xa0000c3f",
+      "literalIndex": 1567,
+      "value": "@2x.png",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateBar_12fcde8.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c13d8",
+      "elfGotAddress": "0x28c13d8",
+      "elfUsageSlot": "0x2988530",
+      "encodedToken": "0xa0000c3d",
+      "literalIndex": 1566,
+      "value": "@2x",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateBar_12fcde8.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c13e0",
+      "elfGotAddress": "0x28c13e0",
+      "elfUsageSlot": "0x2987af0",
+      "encodedToken": "0xa00009ad",
+      "literalIndex": 1238,
+      "value": "5",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_UpdateBar_12fcde8.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c13f0",
+      "elfGotAddress": "0x28c13f0",
+      "elfUsageSlot": "0x2985858",
+      "encodedToken": "0xa0000107",
+      "literalIndex": 131,
+      "value": "  CurrentLevel: ",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_OnClick_12fd0b0.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c13f8",
+      "elfGotAddress": "0x28c13f8",
+      "elfUsageSlot": "0x298afe8",
+      "encodedToken": "0xa00016ed",
+      "literalIndex": 2934,
+      "value": "Class: ",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_OnClick_12fd0b0.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1400",
+      "elfGotAddress": "0x28c1400",
+      "elfUsageSlot": "0x298ae58",
+      "encodedToken": "0xa0001689",
+      "literalIndex": 2884,
+      "value": "Character",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_ActivateCharacter_12fd2b4.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1420",
+      "elfGotAddress": "0x28c1420",
+      "elfUsageSlot": "0x29926d0",
+      "encodedToken": "0xa00034ab",
+      "literalIndex": 6741,
+      "value": "Power",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1428",
+      "elfGotAddress": "0x28c1428",
+      "elfUsageSlot": "0x2997fe8",
+      "encodedToken": "0xa0004af5",
+      "literalIndex": 9594,
+      "value": "UtilityHeadStart",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1430",
+      "elfGotAddress": "0x28c1430",
+      "elfUsageSlot": "0x298aea0",
+      "encodedToken": "0xa000169b",
+      "literalIndex": 2893,
+      "value": "CharacterKarmaLee",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1438",
+      "elfGotAddress": "0x28c1438",
+      "elfUsageSlot": "0x2997fe0",
+      "encodedToken": "0xa0004af3",
+      "literalIndex": 9593,
+      "value": "UtilityAngelWingPerma",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1440",
+      "elfGotAddress": "0x28c1440",
+      "elfUsageSlot": "0x29890b8",
+      "encodedToken": "0xa0000f1f",
+      "literalIndex": 1935,
+      "value": "AdjustCoins",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1448",
+      "elfGotAddress": "0x28c1448",
+      "elfUsageSlot": "0x298aeb0",
+      "encodedToken": "0xa000169f",
+      "literalIndex": 2895,
+      "value": "CharacterNidhiNirmal",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1450",
+      "elfGotAddress": "0x28c1450",
+      "elfUsageSlot": "0x29971b8",
+      "encodedToken": "0xa0004769",
+      "literalIndex": 9140,
+      "value": "UI_MEGA_HEAD",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1458",
+      "elfGotAddress": "0x28c1458",
+      "elfUsageSlot": "0x298aed0",
+      "encodedToken": "0xa00016a7",
+      "literalIndex": 2899,
+      "value": "CharacterSimoneDavies",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1460",
+      "elfGotAddress": "0x28c1460",
+      "elfUsageSlot": "0x2997ea8",
+      "encodedToken": "0xa0004aa5",
+      "literalIndex": 9554,
+      "value": "UpgradeInvisibilityLvl",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1468",
+      "elfGotAddress": "0x28c1468",
+      "elfUsageSlot": "0x298f548",
+      "encodedToken": "0xa0002847",
+      "literalIndex": 5155,
+      "value": "InvisibilityDisable",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1470",
+      "elfGotAddress": "0x28c1470",
+      "elfUsageSlot": "0x2997398",
+      "encodedToken": "0xa00047e1",
+      "literalIndex": 9200,
+      "value": "UI_UPGRADES_NOTENOUGHCOIN_TITLE",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1478",
+      "elfGotAddress": "0x28c1478",
+      "elfUsageSlot": "0x2997fd8",
+      "encodedToken": "0xa0004af1",
+      "literalIndex": 9592,
+      "value": "UtilityAngelWing",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1480",
+      "elfGotAddress": "0x28c1480",
+      "elfUsageSlot": "0x298aea8",
+      "encodedToken": "0xa000169d",
+      "literalIndex": 2894,
+      "value": "CharacterMontanaSmith",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1488",
+      "elfGotAddress": "0x28c1488",
+      "elfUsageSlot": "0x298aee8",
+      "encodedToken": "0xa00016ad",
+      "literalIndex": 2902,
+      "value": "CharacterZackWonder",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1490",
+      "elfGotAddress": "0x28c1490",
+      "elfUsageSlot": "0x298ae60",
+      "encodedToken": "0xa000168b",
+      "literalIndex": 2885,
+      "value": "CharacterBarryBones",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1498",
+      "elfGotAddress": "0x28c1498",
+      "elfUsageSlot": "0x298f550",
+      "encodedToken": "0xa0002849",
+      "literalIndex": 5156,
+      "value": "InvisibilityEnable",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c14a0",
+      "elfGotAddress": "0x28c14a0",
+      "elfUsageSlot": "0x298ae90",
+      "encodedToken": "0xa0001697",
+      "literalIndex": 2891,
+      "value": "CharacterGuyDangerous",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c14a8",
+      "elfGotAddress": "0x28c14a8",
+      "elfUsageSlot": "0x298b0b0",
+      "encodedToken": "0xa000171f",
+      "literalIndex": 2959,
+      "value": "CoinBonusEnable",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c14b0",
+      "elfGotAddress": "0x28c14b0",
+      "elfUsageSlot": "0x298aed8",
+      "encodedToken": "0xa00016a9",
+      "literalIndex": 2900,
+      "value": "CharacterSkeleton",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c14b8",
+      "elfGotAddress": "0x28c14b8",
+      "elfUsageSlot": "0x2989d58",
+      "encodedToken": "0xa0001247",
+      "literalIndex": 2339,
+      "value": "BoostEnable",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c14c0",
+      "elfGotAddress": "0x28c14c0",
+      "elfUsageSlot": "0x2997ea0",
+      "encodedToken": "0xa0004aa3",
+      "literalIndex": 9553,
+      "value": "UpgradeCoinValueLvl",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c14c8",
+      "elfGotAddress": "0x28c14c8",
+      "elfUsageSlot": "0x298b0b8",
+      "encodedToken": "0xa0001721",
+      "literalIndex": 2960,
+      "value": "CoinMagnetDisable",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c14d0",
+      "elfGotAddress": "0x28c14d0",
+      "elfUsageSlot": "0x298ae70",
+      "encodedToken": "0xa000168f",
+      "literalIndex": 2887,
+      "value": "CharacterDragonqueen",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c14d8",
+      "elfGotAddress": "0x28c14d8",
+      "elfUsageSlot": "0x2998458",
+      "encodedToken": "0xa0004c13",
+      "literalIndex": 9737,
+      "value": "WallpaperC",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c14e0",
+      "elfGotAddress": "0x28c14e0",
+      "elfUsageSlot": "0x298ae80",
+      "encodedToken": "0xa0001693",
+      "literalIndex": 2889,
+      "value": "CharacterFrostPirate",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c14e8",
+      "elfGotAddress": "0x28c14e8",
+      "elfUsageSlot": "0x298ae98",
+      "encodedToken": "0xa0001699",
+      "literalIndex": 2892,
+      "value": "CharacterKaiXiangDragon",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c14f0",
+      "elfGotAddress": "0x28c14f0",
+      "elfUsageSlot": "0x2997e98",
+      "encodedToken": "0xa0004aa1",
+      "literalIndex": 9552,
+      "value": "UpgradeCoinMagnetLvl",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c14f8",
+      "elfGotAddress": "0x28c14f8",
+      "elfUsageSlot": "0x298aec8",
+      "encodedToken": "0xa00016a5",
+      "literalIndex": 2898,
+      "value": "CharacterSigurChronos",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1500",
+      "elfGotAddress": "0x28c1500",
+      "elfUsageSlot": "0x298ae78",
+      "encodedToken": "0xa0001691",
+      "literalIndex": 2888,
+      "value": "CharacterFranciscoMontoya",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1508",
+      "elfGotAddress": "0x28c1508",
+      "elfUsageSlot": "0x2998448",
+      "encodedToken": "0xa0004c0f",
+      "literalIndex": 9735,
+      "value": "WallpaperA",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1510",
+      "elfGotAddress": "0x28c1510",
+      "elfUsageSlot": "0x298ae68",
+      "encodedToken": "0xa000168d",
+      "literalIndex": 2886,
+      "value": "CharacterCarnifex",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1518",
+      "elfGotAddress": "0x28c1518",
+      "elfUsageSlot": "0x2997ff0",
+      "encodedToken": "0xa0004af7",
+      "literalIndex": 9595,
+      "value": "UtilityHeadStartMega",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1520",
+      "elfGotAddress": "0x28c1520",
+      "elfUsageSlot": "0x298aee0",
+      "encodedToken": "0xa00016ab",
+      "literalIndex": 2901,
+      "value": "CharacterWallyNut",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1528",
+      "elfGotAddress": "0x28c1528",
+      "elfUsageSlot": "0x298b0c0",
+      "encodedToken": "0xa0001723",
+      "literalIndex": 2961,
+      "value": "CoinMagnetEnable",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1530",
+      "elfGotAddress": "0x28c1530",
+      "elfUsageSlot": "0x2997390",
+      "encodedToken": "0xa00047df",
+      "literalIndex": 9199,
+      "value": "UI_UPGRADES_NOTENOUGHCOIN_DESC",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1538",
+      "elfGotAddress": "0x28c1538",
+      "elfUsageSlot": "0x2997e90",
+      "encodedToken": "0xa0004a9f",
+      "literalIndex": 9551,
+      "value": "UpgradeCoinBonusLvl",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1540",
+      "elfGotAddress": "0x28c1540",
+      "elfUsageSlot": "0x298b0a8",
+      "encodedToken": "0xa000171d",
+      "literalIndex": 2958,
+      "value": "CoinBonusDisable",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1548",
+      "elfGotAddress": "0x28c1548",
+      "elfUsageSlot": "0x2997228",
+      "encodedToken": "0xa0004785",
+      "literalIndex": 9154,
+      "value": "UI_PERMA_WINGS_LONG_DESC",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1550",
+      "elfGotAddress": "0x28c1550",
+      "elfUsageSlot": "0x2998450",
+      "encodedToken": "0xa0004c11",
+      "literalIndex": 9736,
+      "value": "WallpaperB",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1558",
+      "elfGotAddress": "0x28c1558",
+      "elfUsageSlot": "0x298aeb8",
+      "encodedToken": "0xa00016a1",
+      "literalIndex": 2896,
+      "value": "CharacterScarlettFox",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1560",
+      "elfGotAddress": "0x28c1560",
+      "elfUsageSlot": "0x2997e88",
+      "encodedToken": "0xa0004a9d",
+      "literalIndex": 9550,
+      "value": "UpgradeBoostLvl",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c1568",
+      "elfGotAddress": "0x28c1568",
+      "elfUsageSlot": "0x2989d50",
+      "encodedToken": "0xa0001245",
+      "literalIndex": 2338,
+      "value": "BoostDisable",
+      "referencedBy": [
+        "DecompiledNative/StoreItem/StoreItem_BuyItem_12fd520.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029c17a8",
+      "elfGotAddress": "0x28c17a8",
+      "elfUsageSlot": "0x298a238",
+      "encodedToken": "0xa000137f",
+      "literalIndex": 2495,
+      "value": "Camera is not orthographic!",
+      "referencedBy": [
+        "DecompiledNative/UIGrowByAspectRatio/UIGrowByAspectRatio_Awake_1300904.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029f4ee0",
+      "elfGotAddress": "0x28f4ee0",
+      "elfUsageSlot": "0x29925a8",
+      "encodedToken": "0xa0003461",
+      "literalIndex": 6704,
+      "value": "PlayOneShot was called with a null AudioClip.",
+      "referencedBy": [
+        "DecompiledNative/GameGUITotem/GameGUITotem_SetBonusLevel_12e89f8.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029f5920",
+      "elfGotAddress": "0x28f5920",
+      "elfUsageSlot": "0x298b578",
+      "encodedToken": "0xa0001851",
+      "literalIndex": 3112,
+      "value": "Coroutines can only be stopped on a MonoBehaviour",
+      "referencedBy": [
+        "DecompiledNative/EndGameUI/EndGameUI_SlideIn_12e3adc.cpp",
+        "DecompiledNative/OptionsGUI/OptionsGUI_SlideIn_12f5580.cpp",
+        "DecompiledNative/StoreGUI/StoreGUI_SlideIn_12fa548.cpp"
+      ]
+    },
+    {
+      "ghidraSymbol": "PTR_DAT_029f5930",
+      "elfGotAddress": "0x28f5930",
+      "elfUsageSlot": "0x299fcd8",
+      "encodedToken": "0xa0006a33",
+      "literalIndex": 13593,
+      "value": "routine is null",
+      "referencedBy": [
+        "DecompiledNative/EndGameUI/EndGameUI_SlideIn_12e3adc.cpp",
+        "DecompiledNative/OptionsGUI/OptionsGUI_SlideIn_12f5580.cpp",
+        "DecompiledNative/StoreGUI/StoreGUI_SlideIn_12fa548.cpp"
+      ]
+    }
+  ]
+}
