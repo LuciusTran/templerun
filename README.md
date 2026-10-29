@@ -25,7 +25,7 @@ A wrong turn can cause a stumble. A second stumble inside the native recovery wi
 ## Included flow
 
 - Home → run → pause/resume → game over → wings revive/retry → home.
-- Original character meshes, legacy animation clips, terrain, corners, trees, pickups, guardians and audio.
+- Original character meshes and textures, legacy animation clips, terrain, corners, trees, water, pickups, guardians and audio.
 - Native-derived jump/slide/stumble state, scoring, coin bonus thresholds, boost and power-up timers.
 - An endless connected course with extracted obstacles, holes, narrow sections and coin pickups.
 - Local profile and run snapshots, including position, path, score, coins and airborne state.
@@ -48,7 +48,11 @@ Build with Unity Build Profiles, or call `TempleRunProjectBuilder.BuildLinux` in
 ./Builds/Linux/TempleRun -batchmode -nographics --temple-test --report /absolute/path/report.json
 ```
 
-The current Linux player passes **51 integration checks**, including **876 golden cases compared with original ARM64 execution**, real extracted ground geometry, save/continue, purchases, 17 corners, bounded endless-course retention and all three biome heights. The number of corner checks can vary with the generated course. Reports: [player flow](Evidence/player-smoke.json), [ARM64 verification](Evidence/native-logic-verification.json), [editor core verification](Evidence/unity-native-core-verification.json).
+The current Linux player passes **57 integration checks in both headless and graphical players**, including **876 golden cases compared with original ARM64 execution**, real extracted ground geometry, save/continue, purchases, 18 corners, bounded endless-course retention and all three biome heights. The number of corner checks can vary with the generated course. Reports: [player flow](Evidence/player-smoke.json), [graphical flow](Evidence/player-graphical-smoke.json), [scene capture](Evidence/player-graphical-capture.json), [ARM64 verification](Evidence/native-logic-verification.json), [editor core verification](Evidence/unity-native-core-verification.json).
+
+![Playable scene with extracted game assets](Docs/screenshots/run.png)
+
+See [recovery notes](Docs/RECOVERY.md) for evidence, tool responsibilities and repeatable verification.
 
 ## Source and recovery boundaries
 
@@ -56,7 +60,7 @@ The original game uses **Unity 2022.3.62f2 / ARM64 IL2CPP**. Analysis used [Reve
 
 **71 exported C# method bodies** have native references in [the restoration map](Evidence/csharp-restoration-map.json). [481 native bodies](DecompiledNative/INDEX.md) are included as pseudocode references; their original method bytes were checked against the library. Raw metadata declarations outside `Assets` remain stubs.
 
-The playable scene uses an authored host/UI, track scheduler, input adapter and local JSON save system. Course distribution, camera presentation, guardian movement, material rendering and invincibility guidance approximate the original integrations. Original NGUI screens, intro choreography, automatic biome transitions, achievements and online/platform systems are not fully restored. The three environments are selected manually for each run. Character catalog ordering and its association with the shipped price list are local integration choices. Ads, IAP and analytics are not connected.
+The playable scene uses an authored host/UI, track scheduler, input adapter and local JSON save system. Course distribution, camera presentation, guardian movement, material rendering and invincibility guidance approximate the original integrations. Original NGUI screens, intro choreography, automatic biome transitions, achievements and online/platform systems are not fully restored. The three environments are selected manually for each run. The original scene supplies the 16 character model/texture pairs and indices used for the shipped character prices; extra extracted variants are available for developer previews. The catalog UI and purchase/profile integration are authored. Ads, IAP and analytics are not connected.
 
 `Assets/Scenes/GamePlay.unity` is the original exported reference scene and still depends on unimplemented script bodies. Use the playable scene above. This is a C# reconstruction based on native evidence, not original C# source or a claim of complete game equivalence. Android builds and physical mouse/touch/accelerometer input have not been verified.
 
