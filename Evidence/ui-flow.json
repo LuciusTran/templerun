@@ -1,0 +1,306 @@
+{
+    "passed": true,
+    "scope": "Original UI collider raycasts and callback dispatch, using scripted pointer events; no Android runtime comparison.",
+    "checks": [
+        {
+            "name": "recovered UI loaded",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "original widget inventory",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "objectives navigation collider",
+            "detail": "expected=Objectives Label; actual=Objectives Label; point=(270.42, 208.32)",
+            "passed": true
+        },
+        {
+            "name": "native objective definitions",
+            "detail": "56",
+            "passed": true
+        },
+        {
+            "name": "objectives home collider",
+            "detail": "expected=Back Button; actual=Back Button; point=(270.00, 189.88)",
+            "passed": true
+        },
+        {
+            "name": "stats navigation collider",
+            "detail": "expected=Stats Label; actual=Stats Label; point=(35.58, 149.65)",
+            "passed": true
+        },
+        {
+            "name": "stats panel",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "stats back collider",
+            "detail": "expected=Back Button; actual=Back Button; point=(270.00, 189.88)",
+            "passed": true
+        },
+        {
+            "name": "shop navigation collider",
+            "detail": "expected=Shop Label; actual=Shop Label; point=(556.40, 76.03)",
+            "passed": true
+        },
+        {
+            "name": "offline shop panel",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "shop back collider",
+            "detail": "expected=Back Button; actual=Back Button; point=(270.00, 189.88)",
+            "passed": true
+        },
+        {
+            "name": "options navigation collider",
+            "detail": "expected=Options Button; actual=Options Button; point=(81.00, 528.00)",
+            "passed": true
+        },
+        {
+            "name": "options panel",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "music slider binds local profile",
+            "detail": "0.5500001",
+            "passed": true
+        },
+        {
+            "name": "options back collider",
+            "detail": "expected=Back Button; actual=Back Button; point=(270.00, 189.88)",
+            "passed": true
+        },
+        {
+            "name": "options returns home",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "upgrades navigation collider",
+            "detail": "expected=Upgrades Label; actual=Upgrades Label; point=(414.10, 149.65)",
+            "passed": true
+        },
+        {
+            "name": "store panel",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "original upgrade row collider",
+            "detail": "expected=110. Item; actual=110. Item; point=(270.00, 485.14)",
+            "passed": true
+        },
+        {
+            "name": "upgrade purchase",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "store back collider",
+            "detail": "expected=Back Button; actual=Back Button; point=(270.00, 189.88)",
+            "passed": true
+        },
+        {
+            "name": "characters navigation collider",
+            "detail": "expected=Characters Label; actual=Characters Label; point=(127.89, 76.03)",
+            "passed": true
+        },
+        {
+            "name": "character panel",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "all native character descriptions bound",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "currency icon clears wider amount label",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "original character row collider",
+            "detail": "expected=320. Item; actual=320. Item; point=(270.00, 454.64)",
+            "passed": true
+        },
+        {
+            "name": "character selected",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "character list scrolls",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "characters back collider",
+            "detail": "expected=Back Button; actual=Back Button; point=(270.00, 189.88)",
+            "passed": true
+        },
+        {
+            "name": "play idol collider",
+            "detail": "expected=Idol Button; actual=Idol Button; point=(269.16, 385.14)",
+            "passed": true
+        },
+        {
+            "name": "play starts runner",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "pause button collider",
+            "detail": "expected=Pause Button; actual=Pause Button; point=(488.91, 23.65)",
+            "passed": true
+        },
+        {
+            "name": "pause freezes game",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "pause score is live",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "resume button collider",
+            "detail": "expected=Resume Button; actual=Resume Button; point=(270.00, 393.54)",
+            "passed": true
+        },
+        {
+            "name": "resume runs game",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "death opens end screen",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "native death catalog parsed",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "death illustration selected",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "death caption localized",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "end upgrades button collider",
+            "detail": "expected=Upgrades Button; actual=Upgrades Button; point=(62.87, 522.23)",
+            "passed": true
+        },
+        {
+            "name": "end to store",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "store returns to end collider",
+            "detail": "expected=Back Button; actual=Back Button; point=(270.00, 189.88)",
+            "passed": true
+        },
+        {
+            "name": "return panel retained",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "run again collider",
+            "detail": "expected=Run Again Button; actual=Run Again Button; point=(270.00, 270.66)",
+            "passed": true
+        },
+        {
+            "name": "retry starts fresh",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "pause for confirmation collider",
+            "detail": "expected=Pause Button; actual=Pause Button; point=(488.91, 23.65)",
+            "passed": true
+        },
+        {
+            "name": "main menu confirmation collider",
+            "detail": "expected=Main Menu Button; actual=Main Menu Button; point=(270.00, 189.88)",
+            "passed": true
+        },
+        {
+            "name": "original confirmation panel",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "confirmation text enabled",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "social prompt hidden",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "confirm return home collider",
+            "detail": "expected=Right Button; actual=Right Button; point=(382.85, 392.41)",
+            "passed": true
+        },
+        {
+            "name": "confirmed home",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "options for reset collider",
+            "detail": "expected=Options Button; actual=Options Button; point=(81.00, 528.00)",
+            "passed": true
+        },
+        {
+            "name": "reset confirmation collider",
+            "detail": "expected=ResetProgress; actual=ResetProgress; point=(270.41, 317.27)",
+            "passed": true
+        },
+        {
+            "name": "confirm local reset collider",
+            "detail": "expected=Right Button; actual=Right Button; point=(382.85, 392.41)",
+            "passed": true
+        },
+        {
+            "name": "confirmed reset clears local progression",
+            "detail": "",
+            "passed": true
+        }
+    ],
+    "images": [
+        "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/home.png",
+        "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/objectives.png",
+        "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/stats.png",
+        "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/shop.png",
+        "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/options.png",
+        "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/store.png",
+        "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/characters.png",
+        "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/characters-scrolled.png",
+        "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/hud.png",
+        "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/pause.png",
+        "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/end.png",
+        "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/confirmation.png"
+    ],
+    "pointerClicks": 26
+}

@@ -1,0 +1,69 @@
+{
+  "unityVersion": "6000.4.12f1",
+  "uiChecks": 57,
+  "scriptedPointerClicks": 26,
+  "passed": true,
+  "scope": "Original UI collider raycasts and callback dispatch, using scripted pointer events; no Android runtime comparison.",
+  "images": [
+    {
+      "capturedPath": "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/home.png",
+      "repositoryPath": "Docs/screenshots/ui-home.png",
+      "sha256": "35624b361a8174b12e885de0fea1c726ccd6a802d7c18cb304276098e082644e"
+    },
+    {
+      "capturedPath": "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/store.png",
+      "repositoryPath": "Docs/screenshots/ui-store.png",
+      "sha256": "a80e7fcffc447145f9b308ccaed9f22fb93710238e037a7336c92780ab6181c7"
+    },
+    {
+      "capturedPath": "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/characters.png",
+      "repositoryPath": "Docs/screenshots/ui-characters.png",
+      "sha256": "b0f265dc99119ac1037a6a8d92098309620a881511233552992d48ce62933b77"
+    },
+    {
+      "capturedPath": "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/characters-scrolled.png",
+      "repositoryPath": "Docs/screenshots/ui-characters-scrolled.png",
+      "sha256": "de5fc2dfb596648398067ef725fde46ee4304905f994b2c03bc88b95711ca35c"
+    },
+    {
+      "capturedPath": "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/hud.png",
+      "repositoryPath": "Docs/screenshots/ui-hud.png",
+      "sha256": "2a6bab89956e125f178986b063d86f46c5256082140cc722ee3d1dea47d97cb2"
+    },
+    {
+      "capturedPath": "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/pause.png",
+      "repositoryPath": "Docs/screenshots/ui-pause.png",
+      "sha256": "d2be25d1743341d72e63c7efef666218ab7d6b863d59bf9d0c14402e338b1fef"
+    },
+    {
+      "capturedPath": "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/end.png",
+      "repositoryPath": "Docs/screenshots/ui-end.png",
+      "sha256": "41a6834b8a22245aeec7ac69383c1cbb55c6deed1a079c5384576619aed4abb3"
+    },
+    {
+      "capturedPath": "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/options.png",
+      "repositoryPath": "Docs/screenshots/ui-options.png",
+      "sha256": "7809d69d7de0671444b7af3629bf6f228d8429dff46721eff2b9b8490296f1dc"
+    },
+    {
+      "capturedPath": "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/objectives.png",
+      "repositoryPath": "Docs/screenshots/ui-objectives.png",
+      "sha256": "bd045c77d30a1f85eb559ac3a08b62be85a533db55b0fc12e7585504d763c2a0"
+    },
+    {
+      "capturedPath": "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/stats.png",
+      "repositoryPath": "Docs/screenshots/ui-stats.png",
+      "sha256": "b8f46d962ce465b558198c04311404c0cd40146e88b6892172a30c9862ff057e"
+    },
+    {
+      "capturedPath": "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/shop.png",
+      "repositoryPath": "Docs/screenshots/ui-shop.png",
+      "sha256": "491cd7541c37647ea3ceb2c2e7731a4df71969dc4e78d942d96397c943680741"
+    },
+    {
+      "capturedPath": "/home/dong/Projects/TempleRun-Reconstruction/Evidence/UI/confirmation.png",
+      "repositoryPath": "Docs/screenshots/ui-confirmation.png",
+      "sha256": "00f6ba1ff05882475f0d343b8bf881f6ff9bcc8c8dfa6b3dc0d90714efba8cb9"
+    }
+  ]
+}

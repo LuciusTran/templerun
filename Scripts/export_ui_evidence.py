@@ -43,8 +43,12 @@ report = {'inputs': [], 'stringCount': len(strings), 'nativeUIBodies': [], 'limi
 for path in ['Assets/Scenes/GamePlay.unity', 'Assets/Localization/TempleRunLocTable Shared Data.asset',
              'Assets/Localization/TempleRunLocTable_en.asset', 'Assets/Resources/Strings.txt']:
     report['inputs'].append({'path': path, 'sha256': hashlib.sha256((ROOT / path).read_bytes()).hexdigest()})
+native_records = {}
 if args.analysis:
-    for folder in ['DecompiledUI', 'DecompiledUIExtra', 'DecompiledUIThird', 'DecompiledUIFourth']:
+    for folder in ['DecompiledUI', 'DecompiledUIExtra', 'DecompiledUIThird', 'DecompiledUIFourth', 'DecompiledUIFifth']:
+        for record in json.loads((args.analysis / folder / 'decompilation-results.json').read_text()):
+            if not record.get('decompiled') or not record.get('allMethodBytesVerified'): raise ValueError('Unverified UI native output: ' + record['label'])
+            native_records[record['output']] = record
         for path in sorted((args.analysis / folder).glob('*/*.cpp')):
             relative = path.relative_to(args.analysis / folder)
             target = ROOT / 'DecompiledNative' / relative
@@ -59,5 +63,18 @@ if args.analysis:
     if threshold != 1.9: raise ValueError('Unexpected native aspect threshold')
     report['aspectThreshold'] = {'ghidraAddress': '0x7a3b10', 'elfVirtualAddress': '0x6a3b10', 'value': threshold}
 report['nativeUIBodies'] = sorted(set(report['nativeUIBodies']))
+if native_records:
+    proof = {'tool': 'Ghidra 12.1.4 targeted read-only headless decompilation', 'nativeBinarySha256': json.loads((ROOT / 'Evidence/il2cpp-native-map.json').read_text())['binarySha256'],
+             'selectedBodies': len(native_records), 'allSelectedMethodBytesVerified': True, 'records': sorted(native_records.values(), key=lambda row: row['output'])}
+    (ROOT / 'Evidence/ui-native-decompilation.json').write_text(json.dumps(proof, indent=2)+'\n')
+# Index every retained body, including the earlier independent price-verification pass.
+native_map = json.loads((ROOT / 'Evidence/il2cpp-native-map.json').read_text())
+labels = {entry['label']: entry for entry in native_map['methods']}
+rows = ['# Temple Run native references', '', 'Ghidra pseudocode with method-byte verification. See `Evidence/native-decompilation.json` and `Evidence/ui-native-decompilation.json` for scope and limitations.', '', '| Class | Signature | File offset | Decompiled file |', '|---|---|---|---|']
+for path in sorted((ROOT / 'DecompiledNative').glob('*/*.cpp')):
+    method = labels[path.stem]
+    relative = path.relative_to(ROOT / 'DecompiledNative')
+    rows.append('| '+method['className']+' | `'+method['signature']+'` | `'+hex(method['fileOffset'])+'` | ['+path.stem+']('+str(relative)+') |')
+(ROOT / 'DecompiledNative/INDEX.md').write_text('\n'.join(rows)+'\n')
 (ROOT / 'Evidence/ui-source-evidence.json').write_text(json.dumps(report, indent=2)+'\n')
 print(f'Exported {len(strings)} original English strings; retained {len(report["nativeUIBodies"])} native UI bodies')

@@ -26,11 +26,12 @@ public partial class TempleRunFlow
     }
     [Serializable] public class ProfileData
     {
-        public int version = 1;
+        public int version = 2;
         public int coins, bestScore, character, wings, headStarts, megaHeadStarts;
         public int biome = 2;
         public float bestDistance;
         public bool sound = true, hasRun;
+        public float musicVolume = 1f, effectsVolume = 1f, sensitivity = .5f;
         public int[] upgrades = new int[5];
         public List<int> ownedCharacters = new List<int> { 0 };
         public RunData run;
@@ -45,6 +46,7 @@ public partial class TempleRunFlow
             { Debug.LogWarning("Cannot read local profile: " + exception.Message); }
         }
         data = data ?? new ProfileData();
+        if (data.version < 2) { data.musicVolume = data.effectsVolume = data.sound ? 1f : 0f; data.sound = true; data.sensitivity = .5f; data.version = 2; }
         if (data.upgrades == null || data.upgrades.Length != 5) data.upgrades = new int[5];
         data.ownedCharacters = data.ownedCharacters ?? new List<int> { 0 };
         if (!data.ownedCharacters.Contains(0)) data.ownedCharacters.Add(0);
@@ -202,7 +204,7 @@ public partial class TempleRunFlow
         RenderSettings.fogColor = GameCamera.backgroundColor;
         var waterPrefab = Resources.Load<GameObject>("TempleRunWater");
         if (waterPrefab) waterPlane = Instantiate(waterPrefab);
-        music = gameObject.AddComponent<AudioSource>(); music.loop = true; music.volume = .25f;
+        music = gameObject.AddComponent<AudioSource>(); music.loop = true; music.volume = .25f * Profile.musicVolume;
         music.clip = Resources.Load<AudioClip>("music/BackgroundMusic");
         effects = gameObject.AddComponent<AudioSource>();
         if (Profile.sound && music.clip) music.Play();

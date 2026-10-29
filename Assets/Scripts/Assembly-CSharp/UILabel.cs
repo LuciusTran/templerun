@@ -103,13 +103,9 @@ public class UILabel : UIWidget
 
 	public string text
 	{
-		get
-		{
-			return null;
-		}
-		set
-		{
-		}
+		// Serialized-field compatibility accessor; geometry invalidation adapted; see Evidence/ui-csharp-restoration.json.
+		get { return mText; }
+		set { if (mText != value) { mText = value ?? ""; mChanged = true; mShouldBeProcessed = true; } }
 	}
 
 	public bool supportEncoding

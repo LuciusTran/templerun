@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c644a821308ed65b7a98a2273d6afe29, type: 3}
+  m_Name: Atlas_416b6cbe84e240848943f9c5302f52ae_114724804207875695
+  m_EditorClassIdentifier: Assembly-CSharp::TempleRunUIAtlasData
+  source: Assets/GameObject/EndGameButtons_new.prefab
+  texture: {fileID: 2800000, guid: bea7d80984feb244b816040fc3014e65, type: 3}
+  sprites:
+  - name: Shop_Icon
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0.48632812
+      height: 0.5859375
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0.48632812
+      height: 0.5859375
+    paddingLeft: 0.060240965
+    paddingRight: 0.064257026
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: UpgradeButton
+    uv:
+      serializedVersion: 2
+      x: 0.48828125
+      y: 0
+      width: 0.48632812
+      height: 0.5859375
+    inner:
+      serializedVersion: 2
+      x: 0.48828125
+      y: 0
+      width: 0.48632812
+      height: 0.5859375
+    paddingLeft: 0.060240965
+    paddingRight: 0.064257026
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}

@@ -30,6 +30,8 @@ public class HeadStartButton : MonoBehaviour
 
 	private void OnClick()
 	{
+		// Native utility selection intent; local inventory binding; see Evidence/ui-csharp-restoration.json.
+		TempleRunFlow.Instance.UseHeadStart(MegaHeadStart);
 	}
 
 	private void OnEnable()

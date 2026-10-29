@@ -37,13 +37,9 @@ public class UISprite : UIWidget
 
 	public string spriteName
 	{
-		get
-		{
-			return null;
-		}
-		set
-		{
-		}
+		// Serialized-field compatibility accessor; geometry invalidation adapted; see Evidence/ui-csharp-restoration.json.
+		get { return mSpriteName; }
+		set { if (mSpriteName != value) { mSpriteName = value ?? ""; mSprite = null; mChanged = true; } }
 	}
 
 	public UIAtlas.Sprite sprite

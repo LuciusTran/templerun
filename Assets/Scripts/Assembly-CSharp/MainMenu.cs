@@ -113,6 +113,8 @@ public class MainMenu : BasePanel
 
 	public override void SlideIn(BasePanel returnTo)
 	{
+		// Authored bridge; original slide-animation coroutine remains unrecovered; see Evidence/ui-csharp-restoration.json.
+		base.SlideIn(returnTo);
 	}
 
 	private void ChangeGCTimeIndicator()
@@ -132,10 +134,14 @@ public class MainMenu : BasePanel
 
 	public override void ShowAll(bool inShowBannerAds = true)
 	{
+		// Authored bridge preserving original panel entry points; see Evidence/ui-csharp-restoration.json.
+		base.ShowAll(false);
 	}
 
 	public override void HideAll()
 	{
+		// Authored bridge preserving original panel entry points; see Evidence/ui-csharp-restoration.json.
+		base.HideAll();
 	}
 
 	public void ShowAskForReviewDialog(bool inAskNow = false)
@@ -144,6 +150,8 @@ public class MainMenu : BasePanel
 
 	public void OnPlayClicked()
 	{
+		// Native start-game intent; authored host binding, original intro/analytics omitted; see Evidence/ui-csharp-restoration.json.
+		TempleRunFlow.Instance.BeginRun();
 	}
 
 	private void HideMainMenuButtons()

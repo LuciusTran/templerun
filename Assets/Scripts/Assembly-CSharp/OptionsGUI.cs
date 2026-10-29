@@ -99,6 +99,8 @@ public class OptionsGUI : BasePanel
 
 	public override void SlideIn(BasePanel returnTo)
 	{
+		// Authored bridge; original slide-animation coroutine remains unrecovered; see Evidence/ui-csharp-restoration.json.
+		base.SlideIn(returnTo);
 	}
 
 	private void UpdateConsentButtonData()
@@ -117,6 +119,8 @@ public class OptionsGUI : BasePanel
 
 	private void BackButtonClicked()
 	{
+		// Native-derived control flow with local host binding; see Evidence/ui-csharp-restoration.json.
+		ReturnMenu();
 	}
 
 	protected void ReturnToOptions()
@@ -133,6 +137,8 @@ public class OptionsGUI : BasePanel
 
 	private void ResetProgressButtonClicked()
 	{
+		// Authored local-profile reset binding; see Evidence/ui-csharp-restoration.json.
+		TempleRunUIPresenter.Instance.ConfirmReset();
 	}
 
 	private void OnShowPrivacyPolicy(string inMoreInfoURL)

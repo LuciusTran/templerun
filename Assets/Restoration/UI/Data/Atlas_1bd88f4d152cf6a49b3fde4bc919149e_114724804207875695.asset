@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c644a821308ed65b7a98a2273d6afe29, type: 3}
+  m_Name: Atlas_1bd88f4d152cf6a49b3fde4bc919149e_114724804207875695
+  m_EditorClassIdentifier: Assembly-CSharp::TempleRunUIAtlasData
+  source: Assets/GameObject/Anniversary_Banners_Localized.prefab
+  texture: {fileID: 2800000, guid: 4ce44093f91abf04d8c491cd27243782, type: 3}
+  sprites:
+  - name: en
+    uv:
+      serializedVersion: 2
+      x: 0.25048828
+      y: 0.12524414
+      width: 0.25
+      height: 0.125
+    inner:
+      serializedVersion: 2
+      x: 0.25048828
+      y: 0.25024414
+      width: 0
+      height: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 512, z: 512, w: 0}
+  - name: fr
+    uv:
+      serializedVersion: 2
+      x: 0.50097656
+      y: 0.12524414
+      width: 0.25
+      height: 0.125
+    inner:
+      serializedVersion: 2
+      x: 0.50097656
+      y: 0.25024414
+      width: 0
+      height: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 512, z: 512, w: 0}
+  - name: it
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.25048828
+      width: 0.25
+      height: 0.125
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.37548828
+      width: 0
+      height: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 512, z: 512, w: 0}
+  - name: es
+    uv:
+      serializedVersion: 2
+      x: 0.25048828
+      y: 0.25048828
+      width: 0.25
+      height: 0.125
+    inner:
+      serializedVersion: 2
+      x: 0.25048828
+      y: 0.37548828
+      width: 0
+      height: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 512, z: 512, w: 0}
+  - name: ja
+    uv:
+      serializedVersion: 2
+      x: 0.50097656
+      y: 0.25048828
+      width: 0.25
+      height: 0.125
+    inner:
+      serializedVersion: 2
+      x: 0.50097656
+      y: 0.37548828
+      width: 0
+      height: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 512, z: 512, w: 0}
+  - name: ko
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.37573242
+      width: 0.25
+      height: 0.125
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.5007324
+      width: 0
+      height: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 512, z: 512, w: 0}
+  - name: ru
+    uv:
+      serializedVersion: 2
+      x: 0.25048828
+      y: 0.37573242
+      width: 0.25
+      height: 0.125
+    inner:
+      serializedVersion: 2
+      x: 0.25048828
+      y: 0.5007324
+      width: 0
+      height: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 512, z: 512, w: 0}
+  - name: nl
+    uv:
+      serializedVersion: 2
+      x: 0.50097656
+      y: 0.37573242
+      width: 0.25
+      height: 0.125
+    inner:
+      serializedVersion: 2
+      x: 0.50097656
+      y: 0.5007324
+      width: 0
+      height: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 512, z: 512, w: 0}
+  - name: pt
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.50097656
+      width: 0.25
+      height: 0.125
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.62597656
+      width: 0
+      height: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 512, z: 512, w: 0}
+  - name: tr
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0.25
+      height: 0.125
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0.25
+      height: 0.125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: zh-Hant
+    uv:
+      serializedVersion: 2
+      x: 0.25048828
+      y: 0
+      width: 0.25
+      height: 0.125
+    inner:
+      serializedVersion: 2
+      x: 0.25048828
+      y: 0
+      width: 0.25
+      height: 0.125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: de
+    uv:
+      serializedVersion: 2
+      x: 0.50097656
+      y: 0
+      width: 0.25
+      height: 0.125
+    inner:
+      serializedVersion: 2
+      x: 0.50097656
+      y: 0
+      width: 0.25
+      height: 0.125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: zh
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.12524414
+      width: 0.25
+      height: 0.125
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.12524414
+      width: 0.25
+      height: 0.125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}

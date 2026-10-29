@@ -12,10 +12,12 @@ public static class TempleRunCapture
         public bool passed;
         public string unityVersion, graphicsDevice;
         public int width, height, characterRenderers, characterRenderersInFrustum, characterRenderersWithTextures;
+        public string uiPanel, uiScore, uiDistance; public int uiWidgets;
         public string[] images;
     }
     private static IEnumerator Image(string path)
     {
+        yield return null; yield return null;
         yield return new WaitForEndOfFrame();
         ScreenCapture.CaptureScreenshot(path);
         for (int i = 0; i < 6; i++) yield return new WaitForEndOfFrame();
@@ -38,6 +40,12 @@ public static class TempleRunCapture
         var report = new Report { passed = true, unityVersion = Application.unityVersion,
             graphicsDevice = SystemInfo.graphicsDeviceName, width = Screen.width, height = Screen.height,
             characterRenderers = flow.Runner.RenderObject.Length, images = paths };
+        var ui = TempleRunUIPresenter.Instance;
+        report.uiPanel = ui && ui.VisiblePanel ? ui.VisiblePanel.GetType().Name : "missing";
+        report.uiWidgets = ui ? ui.GetComponentsInChildren<TempleRunUIWidget>().Length : 0;
+        var pause = ui ? ui.GetComponentInChildren<PauseMenu>(true) : null;
+        report.uiScore = pause && pause.ScoreLabel ? pause.ScoreLabel.text : "missing";
+        report.uiDistance = pause && pause.DistanceLabel ? pause.DistanceLabel.text : "missing";
         Plane[] frustum = GeometryUtility.CalculateFrustumPlanes(flow.GameCamera);
         foreach (var renderer in flow.Runner.RenderObject)
         {

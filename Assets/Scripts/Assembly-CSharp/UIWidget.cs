@@ -54,46 +54,30 @@ public abstract class UIWidget : MonoBehaviour
 
 	public Color color
 	{
-		get
-		{
-			return default;
-		}
-		set
-		{
-		}
+		// Serialized-field compatibility accessor; geometry invalidation adapted; see Evidence/ui-csharp-restoration.json.
+		get { return mColor; }
+		set { if (mColor != value) { mColor = value; mChanged = true; } }
 	}
 
 	public float alpha
 	{
-		get
-		{
-			return 0f;
-		}
-		set
-		{
-		}
+		// Serialized-field compatibility accessor; geometry invalidation adapted; see Evidence/ui-csharp-restoration.json.
+		get { return mColor.a; }
+		set { Color c = mColor; c.a = value; color = c; }
 	}
 
 	public Pivot pivot
 	{
-		get
-		{
-			return Pivot.TopLeft;
-		}
-		set
-		{
-		}
+		// Serialized-field compatibility accessor; geometry invalidation adapted; see Evidence/ui-csharp-restoration.json.
+		get { return mPivot; }
+		set { mPivot = value; mChanged = true; }
 	}
 
 	public int depth
 	{
-		get
-		{
-			return 0;
-		}
-		set
-		{
-		}
+		// Serialized-field compatibility accessor; geometry invalidation adapted; see Evidence/ui-csharp-restoration.json.
+		get { return mDepth; }
+		set { mDepth = value; mChanged = true; }
 	}
 
 	public Transform cachedTransform => null;

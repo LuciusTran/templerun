@@ -1,0 +1,359 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c644a821308ed65b7a98a2273d6afe29, type: 3}
+  m_Name: Atlas_60da9ca3b8b192e499a78c515b85023c_114724804207875695
+  m_EditorClassIdentifier: Assembly-CSharp::TempleRunUIAtlasData
+  source: Assets/GameObject/CharacterPortraits_spritesheet.prefab
+  texture: {fileID: 2800000, guid: 5dc213d1f736f7b45831e171f47a21d8, type: 3}
+  sprites:
+  - name: Carnifax_portrait
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.5410156
+      width: 0.1640625
+      height: 0.18359375
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.5410156
+      width: 0.1640625
+      height: 0.18359375
+    paddingLeft: 0.22619048
+    paddingRight: 0.29761904
+    paddingTop: 0.15957446
+    paddingBottom: 0.20212767
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: SigurChronosTimebeard_portrait
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.17578125
+      width: 0.17578125
+      height: 0.18164062
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.17578125
+      width: 0.17578125
+      height: 0.18164062
+    paddingLeft: 0.21111111
+    paddingRight: 0.21111111
+    paddingTop: 0.17204301
+    paddingBottom: 0.20430107
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: edgar_portrait
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.7265625
+      width: 0.16796875
+      height: 0.17773438
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.7265625
+      width: 0.16796875
+      height: 0.17773438
+    paddingLeft: 0.19767442
+    paddingRight: 0.29069766
+    paddingTop: 0.1978022
+    paddingBottom: 0.20879121
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: WallyNut_portrait
+    uv:
+      serializedVersion: 2
+      x: 0.33203125
+      y: 0.33789062
+      width: 0.12109375
+      height: 0.16796875
+    inner:
+      serializedVersion: 2
+      x: 0.33203125
+      y: 0.33789062
+      width: 0.12109375
+      height: 0.16796875
+    paddingLeft: 0.5967742
+    paddingRight: 0.46774194
+    paddingTop: 0.22093023
+    paddingBottom: 0.26744187
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemFootball@2x
+    uv:
+      serializedVersion: 2
+      x: 0.33203125
+      y: 0.17578125
+      width: 0.1328125
+      height: 0.16015625
+    inner:
+      serializedVersion: 2
+      x: 0.33203125
+      y: 0.17578125
+      width: 0.1328125
+      height: 0.16015625
+    paddingLeft: 0.38235295
+    paddingRight: 0.38235295
+    paddingTop: 0.24390244
+    paddingBottom: 0.2195122
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: Simone_portrait
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.359375
+      width: 0.16796875
+      height: 0.1796875
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.359375
+      width: 0.16796875
+      height: 0.1796875
+    paddingLeft: 0.22093023
+    paddingRight: 0.26744187
+    paddingTop: 0.17391305
+    paddingBottom: 0.2173913
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: FrostPirate_portrait
+    uv:
+      serializedVersion: 2
+      x: 0.18945312
+      y: 0
+      width: 0.18359375
+      height: 0.171875
+    inner:
+      serializedVersion: 2
+      x: 0.18945312
+      y: 0
+      width: 0.18359375
+      height: 0.171875
+    paddingLeft: 0.18085106
+    paddingRight: 0.18085106
+    paddingTop: 0.22727273
+    paddingBottom: 0.22727273
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: KaiXiangShadowDragon_Portrait
+    uv:
+      serializedVersion: 2
+      x: 0.17773438
+      y: 0.17578125
+      width: 0.15234375
+      height: 0.17773438
+    inner:
+      serializedVersion: 2
+      x: 0.17773438
+      y: 0.17578125
+      width: 0.15234375
+      height: 0.17773438
+    paddingLeft: 0.2948718
+    paddingRight: 0.34615386
+    paddingTop: 0.1978022
+    paddingBottom: 0.20879121
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemGirl@2x
+    uv:
+      serializedVersion: 2
+      x: 0.6855469
+      y: 0
+      width: 0.12890625
+      height: 0.17382812
+    inner:
+      serializedVersion: 2
+      x: 0.6855469
+      y: 0
+      width: 0.12890625
+      height: 0.17382812
+    paddingLeft: 0.4090909
+    paddingRight: 0.4090909
+    paddingTop: 0.123595506
+    paddingBottom: 0.2247191
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemChina@2x
+    uv:
+      serializedVersion: 2
+      x: 0.17773438
+      y: 0.35546875
+      width: 0.14648438
+      height: 0.18164062
+    inner:
+      serializedVersion: 2
+      x: 0.17773438
+      y: 0.35546875
+      width: 0.14648438
+      height: 0.18164062
+    paddingLeft: 0.24
+    paddingRight: 0.36
+    paddingTop: 0.11827957
+    paddingBottom: 0.17204301
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemGuy@2x
+    uv:
+      serializedVersion: 2
+      x: 0.33203125
+      y: 0.5078125
+      width: 0.107421875
+      height: 0.18359375
+    inner:
+      serializedVersion: 2
+      x: 0.33203125
+      y: 0.5078125
+      width: 0.107421875
+      height: 0.18359375
+    paddingLeft: 0.58181816
+    paddingRight: 0.6
+    paddingTop: 0.095744684
+    paddingBottom: 0.18085106
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemAstronaut@2x
+    uv:
+      serializedVersion: 2
+      x: 0.17773438
+      y: 0.7207031
+      width: 0.14453125
+      height: 0.15039062
+    inner:
+      serializedVersion: 2
+      x: 0.17773438
+      y: 0.7207031
+      width: 0.14453125
+      height: 0.15039062
+    paddingLeft: 0.3108108
+    paddingRight: 0.3108108
+    paddingTop: 0.27272728
+    paddingBottom: 0.2857143
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemBigB@2x
+    uv:
+      serializedVersion: 2
+      x: 0.53515625
+      y: 0
+      width: 0.1484375
+      height: 0.16210938
+    inner:
+      serializedVersion: 2
+      x: 0.53515625
+      y: 0
+      width: 0.1484375
+      height: 0.16210938
+    paddingLeft: 0.25
+    paddingRight: 0.32894737
+    paddingTop: 0.22891566
+    paddingBottom: 0.21686748
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemChar_QueenAstrid
+    uv:
+      serializedVersion: 2
+      x: 0.17773438
+      y: 0.5390625
+      width: 0.13671875
+      height: 0.1796875
+    inner:
+      serializedVersion: 2
+      x: 0.17773438
+      y: 0.5390625
+      width: 0.13671875
+      height: 0.1796875
+    paddingLeft: 0.45714286
+    paddingRight: 0.37142858
+    paddingTop: 0.18478261
+    paddingBottom: 0.20652173
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemIndi@2x
+    uv:
+      serializedVersion: 2
+      x: 0.375
+      y: 0
+      width: 0.15820312
+      height: 0.171875
+    inner:
+      serializedVersion: 2
+      x: 0.375
+      y: 0
+      width: 0.15820312
+      height: 0.171875
+    paddingLeft: 0.2345679
+    paddingRight: 0.24691358
+    paddingTop: 0.18181819
+    paddingBottom: 0.18181819
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemConq@2x
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0.1875
+      height: 0.17382812
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0.1875
+      height: 0.17382812
+    paddingLeft: 0.114583336
+    paddingRight: 0.13541667
+    paddingTop: 0.17977528
+    paddingBottom: 0.16853933
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemSkeleton@2x
+    uv:
+      serializedVersion: 2
+      x: 0.81640625
+      y: 0
+      width: 0.13476562
+      height: 0.1640625
+    inner:
+      serializedVersion: 2
+      x: 0.81640625
+      y: 0
+      width: 0.13476562
+      height: 0.1640625
+    paddingLeft: 0.36231884
+    paddingRight: 0.3768116
+    paddingTop: 0.21428572
+    paddingBottom: 0.21428572
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: NidhiNirmal_portrait
+    uv:
+      serializedVersion: 2
+      x: 0.32617188
+      y: 0.703125
+      width: 0.15625
+      height: 0.19140625
+    inner:
+      serializedVersion: 2
+      x: 0.32617188
+      y: 0.89453125
+      width: 0
+      height: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 98, z: 80, w: 0}
+  - name: Copy of WallyNut_portrait
+    uv:
+      serializedVersion: 2
+      x: 0.33203125
+      y: 0.33789062
+      width: 0.12109375
+      height: 0.16796875
+    inner:
+      serializedVersion: 2
+      x: 0.33203125
+      y: 0.33789062
+      width: 0.12109375
+      height: 0.16796875
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}

@@ -278,6 +278,8 @@ public class EndGameUI : BasePanel
 
 	public override void SlideIn(BasePanel returnTo)
 	{
+		// Authored bridge; original slide-animation coroutine remains unrecovered; see Evidence/ui-csharp-restoration.json.
+		base.SlideIn(returnTo);
 	}
 
 	[IteratorStateMachine(typeof(_003CSlideInAnimation_003Ed__61))]
@@ -314,14 +316,23 @@ public class EndGameUI : BasePanel
 
 	private void RunAgainClicked()
 	{
+		// Native-derived control flow with local host binding; see Evidence/ui-csharp-restoration.json.
+		if (_ShowingInterstitial) return;
+		HideAll(); TempleRunFlow.Instance.BeginRun();
 	}
 
 	private void MainMenuClicked()
 	{
+		// Native-derived control flow with local host binding; see Evidence/ui-csharp-restoration.json.
+		if (_ShowingInterstitial) return;
+		TempleRunUIPresenter.Instance.Home();
 	}
 
 	private void StoreClick()
 	{
+		// Native-derived control flow with local host binding; see Evidence/ui-csharp-restoration.json.
+		HideAll();
+		if (StoreInterface) StoreInterface.SlideIn(this);
 	}
 
 	private void FreeCoinsClicked()
@@ -334,14 +345,54 @@ public class EndGameUI : BasePanel
 
 	public override void HideAll()
 	{
+		// Authored bridge preserving original panel entry points; see Evidence/ui-csharp-restoration.json.
+		base.HideAll();
 	}
 
 	private void AssignDeathDetails()
 	{
+		// Native selection/fallback semantics translated in presenter; local runner binding; see Evidence/ui-csharp-restoration.json.
+		TempleRunUIPresenter.Instance.AssignDeathDetails(this);
 	}
 
 	private void ParseDeathDetails()
 	{
+		// Native-derived ImageData grammar; malformed-input handling simplified for the supplied asset; see Evidence/ui-csharp-restoration.json.
+		DeathDetails = new Dictionary<CharacterPlayer.DeathTypes, Dictionary<int, List<Illustration>>>();
+		if (!DeathImageFile) return;
+		CharacterPlayer.DeathTypes type = CharacterPlayer.DeathTypes.kDeathTypeUnknown;
+		int character = 0; Illustration illustration = null;
+		foreach (string raw in DeathImageFile.text.Split('\n'))
+		{
+		    string line = raw.Trim(); if (line.Length == 0 || line.StartsWith("//")) continue;
+		    string[] parts = line.Split(new[] { ' ', '\t', '\r' }, StringSplitOptions.RemoveEmptyEntries);
+		    if (parts.Length < 2) continue;
+		    if (parts[0] == "deathtype")
+		    {
+		        if (!Enum.TryParse(parts[1], out type)) type = CharacterPlayer.DeathTypes.kDeathTypeUnknown;
+		        DeathDetails[type] = new Dictionary<int, List<Illustration>>();
+		    }
+		    else if (parts[0] == "character")
+		    {
+		        character = int.Parse(parts[1], System.Globalization.CultureInfo.InvariantCulture);
+		        DeathDetails[type][character] = new List<Illustration>();
+		    }
+		    else if (parts[0] == "image")
+		    {
+		        illustration = new Illustration { Image = parts[1], Captions = new List<string>() };
+		        DeathDetails[type][character].Add(illustration);
+		    }
+		    else if (parts[0] == "caption" && illustration != null)
+		    {
+		        if (parts.Length > 2)
+		        {
+		            string[] range = parts[2].Split(new[] { ".." }, StringSplitOptions.None);
+		            int first = int.Parse(range[0]), last = int.Parse(range[range.Length - 1]);
+		            for (int i = first; i <= last; i++) illustration.Captions.Add(parts[1] + i);
+		        }
+		        else illustration.Captions.Add(parts[1]);
+		    }
+		}
 	}
 
 	private CharacterPlayer.DeathTypes TypeFromName(string name)
@@ -355,6 +406,8 @@ public class EndGameUI : BasePanel
 
 	private void OnStatsButton()
 	{
+		// Authored local navigation binding; see Evidence/ui-csharp-restoration.json.
+		TempleRunUIPresenter.Instance.OpenStats(this);
 	}
 
 	private void StartTweet()

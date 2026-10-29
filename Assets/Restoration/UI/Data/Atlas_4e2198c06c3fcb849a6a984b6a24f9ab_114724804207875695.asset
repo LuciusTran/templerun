@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c644a821308ed65b7a98a2273d6afe29, type: 3}
+  m_Name: Atlas_4e2198c06c3fcb849a6a984b6a24f9ab_114724804207875695
+  m_EditorClassIdentifier: Assembly-CSharp::TempleRunUIAtlasData
+  source: Assets/GameObject/New UI.prefab
+  texture: {fileID: 2800000, guid: d409c6556e2498843a8ccd7baffc6998, type: 3}
+  sprites:
+  - name: Title_Nav_Upgrade
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.44921875
+      width: 0.4609375
+      height: 0.24804688
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.44921875
+      width: 0.4609375
+      height: 0.24804688
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.070866145
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: Upgrades_button
+    uv:
+      serializedVersion: 2
+      x: 0.2783203
+      y: 0.69921875
+      width: 0.12695312
+      height: 0.30078125
+    inner:
+      serializedVersion: 2
+      x: 0.2783203
+      y: 0.69921875
+      width: 0.12695312
+      height: 0.30078125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: Shop_Header
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.20703125
+      width: 0.57421875
+      height: 0.24023438
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.20703125
+      width: 0.57421875
+      height: 0.24023438
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: Upgrades_Header
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0.6191406
+      height: 0.20507812
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0.6191406
+      height: 0.20507812
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: Title_Nav_Shop
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.69921875
+      width: 0.27734375
+      height: 0.27539062
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.69921875
+      width: 0.27734375
+      height: 0.27539062
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: Shop_button
+    uv:
+      serializedVersion: 2
+      x: 0.40625
+      y: 0.69921875
+      width: 0.12695312
+      height: 0.30078125
+    inner:
+      serializedVersion: 2
+      x: 0.40625
+      y: 0.69921875
+      width: 0.12695312
+      height: 0.30078125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}

@@ -1,0 +1,2213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c644a821308ed65b7a98a2273d6afe29, type: 3}
+  m_Name: Atlas_e63eb4c4047b10644b58cf419f41f40c_114724804207875695
+  m_EditorClassIdentifier: Assembly-CSharp::TempleRunUIAtlasData
+  source: Assets/GameObject/End Game Atlas.prefab
+  texture: {fileID: 2800000, guid: c4b45e727ad752547bcfbed7af7a56fa, type: 3}
+  sprites:
+  - name: achievementCheckboxEmpty@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.19335938
+      y: 0.625
+      width: 0.0390625
+      height: 0.0390625
+    inner:
+      serializedVersion: 2
+      x: 0.19335938
+      y: 0.625
+      width: 0.0390625
+      height: 0.0390625
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: achievementCheckboxFull@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.19335938
+      y: 0.6640625
+      width: 0.0390625
+      height: 0.0390625
+    inner:
+      serializedVersion: 2
+      x: 0.19335938
+      y: 0.6640625
+      width: 0.0390625
+      height: 0.0390625
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: achievementsHeader@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.49560547
+      y: 0.17089844
+      width: 0.21484375
+      height: 0.0390625
+    inner:
+      serializedVersion: 2
+      x: 0.49560547
+      y: 0.17089844
+      width: 0.21484375
+      height: 0.0390625
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: achievementsPlusOne@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.20507812
+      y: 0.80322266
+      width: 0.03125
+      height: 0.03125
+    inner:
+      serializedVersion: 2
+      x: 0.20507812
+      y: 0.80322266
+      width: 0.03125
+      height: 0.03125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: achivments
+    uv:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.5810547
+      width: 0.068359375
+      height: 0.08642578
+    inner:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.5810547
+      width: 0.068359375
+      height: 0.08642578
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: BlackSquare
+    uv:
+      serializedVersion: 2
+      x: 0.20507812
+      y: 0.77197266
+      width: 0.03125
+      height: 0.03125
+    inner:
+      serializedVersion: 2
+      x: 0.20507812
+      y: 0.77197266
+      width: 0.03125
+      height: 0.03125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: check_box
+    uv:
+      serializedVersion: 2
+      x: 0.19335938
+      y: 0.5810547
+      width: 0.043945312
+      height: 0.043945312
+    inner:
+      serializedVersion: 2
+      x: 0.19335938
+      y: 0.5810547
+      width: 0.043945312
+      height: 0.043945312
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: check_mark
+    uv:
+      serializedVersion: 2
+      x: 0.64697266
+      y: 0.6381836
+      width: 0.046875
+      height: 0.049316406
+    inner:
+      serializedVersion: 2
+      x: 0.64697266
+      y: 0.6381836
+      width: 0.046875
+      height: 0.049316406
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: coinLarge@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.7402344
+      y: 0.17089844
+      width: 0.029296875
+      height: 0.029296875
+    inner:
+      serializedVersion: 2
+      x: 0.7402344
+      y: 0.17089844
+      width: 0.029296875
+      height: 0.029296875
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: coinSmall@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.97753906
+      y: 0.3564453
+      width: 0.01953125
+      height: 0.01953125
+    inner:
+      serializedVersion: 2
+      x: 0.97753906
+      y: 0.3564453
+      width: 0.01953125
+      height: 0.01953125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: coinStoreButton@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.8388672
+      width: 0.20117188
+      height: 0.060546875
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.8388672
+      width: 0.20117188
+      height: 0.060546875
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: coinStoreIconFacebook@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.5004883
+      y: 0.5419922
+      width: 0.087890625
+      height: 0.048828125
+    inner:
+      serializedVersion: 2
+      x: 0.5004883
+      y: 0.5419922
+      width: 0.087890625
+      height: 0.048828125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: coinStoreIconFreeLargePile@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.8520508
+      y: 0.49316406
+      width: 0.087890625
+      height: 0.048828125
+    inner:
+      serializedVersion: 2
+      x: 0.8520508
+      y: 0.49316406
+      width: 0.087890625
+      height: 0.048828125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: coinStoreIconFreeSmallPile@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.76416016
+      y: 0.49316406
+      width: 0.087890625
+      height: 0.048828125
+    inner:
+      serializedVersion: 2
+      x: 0.76416016
+      y: 0.49316406
+      width: 0.087890625
+      height: 0.048828125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: coinStoreIconFullScreenAds@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.67626953
+      y: 0.49316406
+      width: 0.087890625
+      height: 0.048828125
+    inner:
+      serializedVersion: 2
+      x: 0.67626953
+      y: 0.49316406
+      width: 0.087890625
+      height: 0.048828125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: coinStoreIconTwitter@2x
+    uv:
+      serializedVersion: 2
+      x: 0.5883789
+      y: 0.49316406
+      width: 0.087890625
+      height: 0.048828125
+    inner:
+      serializedVersion: 2
+      x: 0.5883789
+      y: 0.49316406
+      width: 0.087890625
+      height: 0.048828125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: coinStoreSizeA@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.5004883
+      y: 0.49316406
+      width: 0.087890625
+      height: 0.048828125
+    inner:
+      serializedVersion: 2
+      x: 0.5004883
+      y: 0.49316406
+      width: 0.087890625
+      height: 0.048828125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: coinStoreSizeAA@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.32714844
+      y: 0.92871094
+      width: 0.087890625
+      height: 0.048828125
+    inner:
+      serializedVersion: 2
+      x: 0.32714844
+      y: 0.92871094
+      width: 0.087890625
+      height: 0.048828125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: coinStoreSizeB@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.32714844
+      y: 0.8798828
+      width: 0.087890625
+      height: 0.048828125
+    inner:
+      serializedVersion: 2
+      x: 0.32714844
+      y: 0.8798828
+      width: 0.087890625
+      height: 0.048828125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: coinStoreSizeC@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.92871094
+      width: 0.087890625
+      height: 0.048828125
+    inner:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.92871094
+      width: 0.087890625
+      height: 0.048828125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: coinStoreSizeD@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.8798828
+      width: 0.087890625
+      height: 0.048828125
+    inner:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.8798828
+      width: 0.087890625
+      height: 0.048828125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: coinStoreSizeE@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.37597656
+      y: 0.62939453
+      width: 0.087890625
+      height: 0.048828125
+    inner:
+      serializedVersion: 2
+      x: 0.37597656
+      y: 0.62939453
+      width: 0.087890625
+      height: 0.048828125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: coinStoreSizeF@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.1171875
+      y: 0.77197266
+      width: 0.087890625
+      height: 0.048828125
+    inner:
+      serializedVersion: 2
+      x: 0.1171875
+      y: 0.77197266
+      width: 0.087890625
+      height: 0.048828125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: Divider
+    uv:
+      serializedVersion: 2
+      x: 0.8022461
+      y: 0.18457031
+      width: 0.12207031
+      height: 0.0087890625
+    inner:
+      serializedVersion: 2
+      x: 0.8022461
+      y: 0.18457031
+      width: 0.12207031
+      height: 0.0087890625
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: endGameBackground@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0.23925781
+      height: 0.2607422
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.22753906
+      width: 0.23925781
+      height: 0.033203125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 466, z: 0, w: 0}
+  - name: endGameBackground_tile
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.2607422
+      width: 0.23925781
+      height: 0.1953125
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.2607422
+      width: 0.23925781
+      height: 0.1953125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: endGameFreeCoinsButton@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.3076172
+      y: 0.62939453
+      width: 0.068359375
+      height: 0.078125
+    inner:
+      serializedVersion: 2
+      x: 0.3076172
+      y: 0.62939453
+      width: 0.068359375
+      height: 0.078125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: endGameScore@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.8022461
+      y: 0.09667969
+      width: 0.1953125
+      height: 0.0390625
+    inner:
+      serializedVersion: 2
+      x: 0.8022461
+      y: 0.09667969
+      width: 0.1953125
+      height: 0.0390625
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: endGameStatsButton@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.86328125
+      y: 0.21044922
+      width: 0.068359375
+      height: 0.078125
+    inner:
+      serializedVersion: 2
+      x: 0.86328125
+      y: 0.21044922
+      width: 0.068359375
+      height: 0.078125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: endGameStoreButton@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.9316406
+      y: 0.21044922
+      width: 0.068359375
+      height: 0.078125
+    inner:
+      serializedVersion: 2
+      x: 0.9316406
+      y: 0.21044922
+      width: 0.068359375
+      height: 0.078125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: endGameTweetButton@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.62939453
+      width: 0.068359375
+      height: 0.078125
+    inner:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.62939453
+      width: 0.068359375
+      height: 0.078125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: freeCoins
+    uv:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.58984375
+      width: 0.140625
+      height: 0.03955078
+    inner:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.58984375
+      width: 0.140625
+      height: 0.03955078
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: freecoins_button
+    uv:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.66748047
+      width: 0.033203125
+      height: 0.03466797
+    inner:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.66748047
+      width: 0.033203125
+      height: 0.03466797
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: freecoins_cell
+    uv:
+      serializedVersion: 2
+      x: 0.7626953
+      y: 0.3857422
+      width: 0.21484375
+      height: 0.046875
+    inner:
+      serializedVersion: 2
+      x: 0.7626953
+      y: 0.3857422
+      width: 0.21484375
+      height: 0.046875
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: head1
+    uv:
+      serializedVersion: 2
+      x: 0.15820312
+      y: 0.66748047
+      width: 0.032226562
+      height: 0.032226562
+    inner:
+      serializedVersion: 2
+      x: 0.15820312
+      y: 0.66748047
+      width: 0.032226562
+      height: 0.032226562
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: head2
+    uv:
+      serializedVersion: 2
+      x: 0.7104492
+      y: 0.17089844
+      width: 0.029785156
+      height: 0.029296875
+    inner:
+      serializedVersion: 2
+      x: 0.7104492
+      y: 0.17089844
+      width: 0.029785156
+      height: 0.029296875
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: Icon_doublecoins
+    uv:
+      serializedVersion: 2
+      x: 0.9272461
+      y: 0.13574219
+      width: 0.061523438
+      height: 0.061523438
+    inner:
+      serializedVersion: 2
+      x: 0.9272461
+      y: 0.13574219
+      width: 0.061523438
+      height: 0.061523438
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: Imangi_logo
+    uv:
+      serializedVersion: 2
+      x: 0.5126953
+      y: 0.33691406
+      width: 0.25
+      height: 0.1430664
+    inner:
+      serializedVersion: 2
+      x: 0.5126953
+      y: 0.33691406
+      width: 0.25
+      height: 0.1430664
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: imangiAlertViewBg@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.33691406
+      width: 0.2734375
+      height: 0.15625
+    inner:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.33691406
+      width: 0.2734375
+      height: 0.15625
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: imangiAlertViewButton@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.36523438
+      y: 0.7753906
+      width: 0.125
+      height: 0.03515625
+    inner:
+      serializedVersion: 2
+      x: 0.36523438
+      y: 0.7753906
+      width: 0.125
+      height: 0.03515625
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: language-button
+    uv:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.4560547
+      width: 0.095703125
+      height: 0.09033203
+    inner:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.4560547
+      width: 0.095703125
+      height: 0.09033203
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: LoadingBar_back
+    uv:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.8125
+      width: 0.18896484
+      height: 0.023925781
+    inner:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.8125
+      width: 0.18896484
+      height: 0.023925781
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: LoadingBar_Front
+    uv:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.8364258
+      width: 0.18896484
+      height: 0.023925781
+    inner:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.8364258
+      width: 0.18896484
+      height: 0.023925781
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: M
+    uv:
+      serializedVersion: 2
+      x: 0.9658203
+      y: 0.027832031
+      width: 0.032714844
+      height: 0.022460938
+    inner:
+      serializedVersion: 2
+      x: 0.9658203
+      y: 0.027832031
+      width: 0.032714844
+      height: 0.022460938
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: mainMenuAchievements@2x
+    uv:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.74609375
+      width: 0.17382812
+      height: 0.029296875
+    inner:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.74609375
+      width: 0.17382812
+      height: 0.029296875
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: mainMenuIdol@2x
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.7060547
+      width: 0.1171875
+      height: 0.1328125
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.7060547
+      width: 0.1171875
+      height: 0.1328125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: mainMenuLeaderboards@2x
+    uv:
+      serializedVersion: 2
+      x: 0.38378906
+      y: 0.55078125
+      width: 0.10839844
+      height: 0.034179688
+    inner:
+      serializedVersion: 2
+      x: 0.38378906
+      y: 0.55078125
+      width: 0.10839844
+      height: 0.034179688
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: mainMenuLogo@2x
+    uv:
+      serializedVersion: 2
+      x: 0.49560547
+      y: 0
+      width: 0.30664062
+      height: 0.17089844
+    inner:
+      serializedVersion: 2
+      x: 0.49560547
+      y: 0
+      width: 0.30664062
+      height: 0.17089844
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: mainMenuMoreGames@2x
+    uv:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.55078125
+      width: 0.14453125
+      height: 0.0390625
+    inner:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.55078125
+      width: 0.14453125
+      height: 0.0390625
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: mainMenuOptions@2x
+    uv:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.7753906
+      width: 0.12597656
+      height: 0.037109375
+    inner:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.7753906
+      width: 0.12597656
+      height: 0.037109375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: mainMenuStore@2x
+    uv:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.5463867
+      width: 0.11230469
+      height: 0.034179688
+    inner:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.5463867
+      width: 0.11230469
+      height: 0.034179688
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: moreCoins
+    uv:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.70751953
+      width: 0.13769531
+      height: 0.03857422
+    inner:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.70751953
+      width: 0.13769531
+      height: 0.03857422
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: MoreInfo_Background
+    uv:
+      serializedVersion: 2
+      x: 0.21484375
+      y: 0.89941406
+      width: 0.024414062
+      height: 0.024414062
+    inner:
+      serializedVersion: 2
+      x: 0.22314453
+      y: 0.90771484
+      width: 0.0078125
+      height: 0.0078125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 17, y: 17, z: 17, w: 17}
+  - name: MoreInfo_QuestionMark
+    uv:
+      serializedVersion: 2
+      x: 0.21484375
+      y: 0.9238281
+      width: 0.024414062
+      height: 0.024414062
+    inner:
+      serializedVersion: 2
+      x: 0.21484375
+      y: 0.9238281
+      width: 0.024414062
+      height: 0.024414062
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: number_arrow
+    uv:
+      serializedVersion: 2
+      x: 0.86328125
+      y: 0.28857422
+      width: 0.038085938
+      height: 0.019042969
+    inner:
+      serializedVersion: 2
+      x: 0.86328125
+      y: 0.28857422
+      width: 0.038085938
+      height: 0.019042969
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: off
+    uv:
+      serializedVersion: 2
+      x: 0.8022461
+      y: 0.19335938
+      width: 0.025390625
+      height: 0.0126953125
+    inner:
+      serializedVersion: 2
+      x: 0.8022461
+      y: 0.19335938
+      width: 0.025390625
+      height: 0.0126953125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: off_btn
+    uv:
+      serializedVersion: 2
+      x: 0.9013672
+      y: 0.30810547
+      width: 0.020996094
+      height: 0.020996094
+    inner:
+      serializedVersion: 2
+      x: 0.9013672
+      y: 0.30810547
+      width: 0.020996094
+      height: 0.020996094
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: on
+    uv:
+      serializedVersion: 2
+      x: 0.8276367
+      y: 0.19335938
+      width: 0.020507812
+      height: 0.013183594
+    inner:
+      serializedVersion: 2
+      x: 0.8276367
+      y: 0.19335938
+      width: 0.020507812
+      height: 0.013183594
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: on_btn
+    uv:
+      serializedVersion: 2
+      x: 0.97753906
+      y: 0.3857422
+      width: 0.019042969
+      height: 0.019042969
+    inner:
+      serializedVersion: 2
+      x: 0.97753906
+      y: 0.3857422
+      width: 0.019042969
+      height: 0.019042969
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: optionsHeader@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.95458984
+      width: 0.21484375
+      height: 0.0390625
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.95458984
+      width: 0.21484375
+      height: 0.0390625
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: PaidAd_Button
+    uv:
+      serializedVersion: 2
+      x: 0.41503906
+      y: 0.8798828
+      width: 0.078125
+      height: 0.04736328
+    inner:
+      serializedVersion: 2
+      x: 0.41503906
+      y: 0.8798828
+      width: 0.078125
+      height: 0.04736328
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: pausedHeader@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.6142578
+      y: 0.28027344
+      width: 0.21484375
+      height: 0.048828125
+    inner:
+      serializedVersion: 2
+      x: 0.6142578
+      y: 0.28027344
+      width: 0.21484375
+      height: 0.048828125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: resurrection_cell
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.89941406
+      width: 0.21484375
+      height: 0.05517578
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.89941406
+      width: 0.21484375
+      height: 0.05517578
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: revive_icon
+    uv:
+      serializedVersion: 2
+      x: 0.1171875
+      y: 0.7060547
+      width: 0.11767578
+      height: 0.06591797
+    inner:
+      serializedVersion: 2
+      x: 0.1171875
+      y: 0.7060547
+      width: 0.11767578
+      height: 0.06591797
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: ribbon_button_short
+    uv:
+      serializedVersion: 2
+      x: 0.8022461
+      y: 0
+      width: 0.16357422
+      height: 0.057617188
+    inner:
+      serializedVersion: 2
+      x: 0.8022461
+      y: 0
+      width: 0.16357422
+      height: 0.057617188
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: ribbon_button_wide
+    uv:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.49316406
+      width: 0.26123047
+      height: 0.057617188
+    inner:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.49316406
+      width: 0.26123047
+      height: 0.057617188
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: saveme_timer_background
+    uv:
+      serializedVersion: 2
+      x: 0.5883789
+      y: 0.5419922
+      width: 0.20751953
+      height: 0.018066406
+    inner:
+      serializedVersion: 2
+      x: 0.5883789
+      y: 0.5419922
+      width: 0.20751953
+      height: 0.018066406
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: saveme_timer_foreground
+    uv:
+      serializedVersion: 2
+      x: 0.7626953
+      y: 0.4716797
+      width: 0.20751953
+      height: 0.018066406
+    inner:
+      serializedVersion: 2
+      x: 0.7626953
+      y: 0.4716797
+      width: 0.20751953
+      height: 0.018066406
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: saveme-camerabutton
+    uv:
+      serializedVersion: 2
+      x: 0.20117188
+      y: 0.8691406
+      width: 0.037597656
+      height: 0.030273438
+    inner:
+      serializedVersion: 2
+      x: 0.20117188
+      y: 0.8691406
+      width: 0.037597656
+      height: 0.030273438
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: saveme-playbutton
+    uv:
+      serializedVersion: 2
+      x: 0.9658203
+      y: 0
+      width: 0.027832031
+      height: 0.027832031
+    inner:
+      serializedVersion: 2
+      x: 0.9658203
+      y: 0
+      width: 0.027832031
+      height: 0.027832031
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: saveme-reelbutton
+    uv:
+      serializedVersion: 2
+      x: 0.20117188
+      y: 0.8388672
+      width: 0.037597656
+      height: 0.030273438
+    inner:
+      serializedVersion: 2
+      x: 0.20117188
+      y: 0.8388672
+      width: 0.037597656
+      height: 0.030273438
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: saveme-xbutton
+    uv:
+      serializedVersion: 2
+      x: 0.76953125
+      y: 0.17089844
+      width: 0.027832031
+      height: 0.027832031
+    inner:
+      serializedVersion: 2
+      x: 0.76953125
+      y: 0.17089844
+      width: 0.027832031
+      height: 0.027832031
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: Scarlett_gdpr_age_gate
+    uv:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0
+      width: 0.25634766
+      height: 0.21044922
+    inner:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0
+      width: 0.25634766
+      height: 0.21044922
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: shine_a
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.5810547
+      width: 0.125
+      height: 0.125
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.5810547
+      width: 0.125
+      height: 0.125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: shine_b
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.4560547
+      width: 0.125
+      height: 0.125
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.4560547
+      width: 0.125
+      height: 0.125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: SplashScreen_PortraitBottom_iPad
+    uv:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.21044922
+      width: 0.375
+      height: 0.12646484
+    inner:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.21044922
+      width: 0.375
+      height: 0.12646484
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: statsHeader@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.7626953
+      y: 0.4326172
+      width: 0.21484375
+      height: 0.0390625
+    inner:
+      serializedVersion: 2
+      x: 0.7626953
+      y: 0.4326172
+      width: 0.21484375
+      height: 0.0390625
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeHeader@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.8022461
+      y: 0.057617188
+      width: 0.1953125
+      height: 0.0390625
+    inner:
+      serializedVersion: 2
+      x: 0.8022461
+      y: 0.057617188
+      width: 0.1953125
+      height: 0.0390625
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemAngelWings@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.88134766
+      y: 0.5600586
+      width: 0.05859375
+      height: 0.05859375
+    inner:
+      serializedVersion: 2
+      x: 0.88134766
+      y: 0.5600586
+      width: 0.05859375
+      height: 0.05859375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemBigB@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.9399414
+      y: 0.5600586
+      width: 0.05859375
+      height: 0.05859375
+    inner:
+      serializedVersion: 2
+      x: 0.9399414
+      y: 0.5600586
+      width: 0.05859375
+      height: 0.05859375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemBonusDuration@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.5883789
+      y: 0.61865234
+      width: 0.05859375
+      height: 0.05859375
+    inner:
+      serializedVersion: 2
+      x: 0.5883789
+      y: 0.61865234
+      width: 0.05859375
+      height: 0.05859375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemBoost@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.5883789
+      y: 0.6772461
+      width: 0.05859375
+      height: 0.05859375
+    inner:
+      serializedVersion: 2
+      x: 0.5883789
+      y: 0.6772461
+      width: 0.05859375
+      height: 0.05859375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemChina@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.5883789
+      y: 0.73583984
+      width: 0.05859375
+      height: 0.05859375
+    inner:
+      serializedVersion: 2
+      x: 0.5883789
+      y: 0.73583984
+      width: 0.05859375
+      height: 0.05859375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemClear@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.7626953
+      y: 0.33691406
+      width: 0.21484375
+      height: 0.048828125
+    inner:
+      serializedVersion: 2
+      x: 0.7626953
+      y: 0.33691406
+      width: 0.21484375
+      height: 0.048828125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemCoinBonus@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.5883789
+      y: 0.85302734
+      width: 0.05859375
+      height: 0.05859375
+    inner:
+      serializedVersion: 2
+      x: 0.5883789
+      y: 0.85302734
+      width: 0.05859375
+      height: 0.05859375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemCoinValue@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.5883789
+      y: 0.9116211
+      width: 0.05859375
+      height: 0.05859375
+    inner:
+      serializedVersion: 2
+      x: 0.5883789
+      y: 0.9116211
+      width: 0.05859375
+      height: 0.05859375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemConq@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.5883789
+      y: 0.7944336
+      width: 0.05859375
+      height: 0.05859375
+    inner:
+      serializedVersion: 2
+      x: 0.5883789
+      y: 0.7944336
+      width: 0.05859375
+      height: 0.05859375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemCounter@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.97753906
+      y: 0.33691406
+      width: 0.01953125
+      height: 0.01953125
+    inner:
+      serializedVersion: 2
+      x: 0.97753906
+      y: 0.33691406
+      width: 0.01953125
+      height: 0.01953125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemFootball@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.8227539
+      y: 0.5600586
+      width: 0.05859375
+      height: 0.05859375
+    inner:
+      serializedVersion: 2
+      x: 0.8227539
+      y: 0.5600586
+      width: 0.05859375
+      height: 0.05859375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemGirl@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.41503906
+      y: 0.9272461
+      width: 0.05859375
+      height: 0.05859375
+    inner:
+      serializedVersion: 2
+      x: 0.41503906
+      y: 0.9272461
+      width: 0.05859375
+      height: 0.05859375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemGuy@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.76416016
+      y: 0.5600586
+      width: 0.05859375
+      height: 0.05859375
+    inner:
+      serializedVersion: 2
+      x: 0.76416016
+      y: 0.5600586
+      width: 0.05859375
+      height: 0.05859375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemHeader@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.86035156
+      width: 0.22070312
+      height: 0.01953125
+    inner:
+      serializedVersion: 2
+      x: 0.23925781
+      y: 0.86035156
+      width: 0.22070312
+      height: 0.01953125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemHeadStart@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.7055664
+      y: 0.5600586
+      width: 0.05859375
+      height: 0.05859375
+    inner:
+      serializedVersion: 2
+      x: 0.7055664
+      y: 0.5600586
+      width: 0.05859375
+      height: 0.05859375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemHeadStartMega@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.64697266
+      y: 0.5600586
+      width: 0.05859375
+      height: 0.05859375
+    inner:
+      serializedVersion: 2
+      x: 0.64697266
+      y: 0.5600586
+      width: 0.05859375
+      height: 0.05859375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemIndi@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.5883789
+      y: 0.5600586
+      width: 0.05859375
+      height: 0.05859375
+    inner:
+      serializedVersion: 2
+      x: 0.5883789
+      y: 0.5600586
+      width: 0.05859375
+      height: 0.05859375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemInvincibility@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.5004883
+      y: 0.9326172
+      width: 0.05859375
+      height: 0.05859375
+    inner:
+      serializedVersion: 2
+      x: 0.5004883
+      y: 0.9326172
+      width: 0.05859375
+      height: 0.05859375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemMultiplier@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.5004883
+      y: 0.87402344
+      width: 0.05859375
+      height: 0.05859375
+    inner:
+      serializedVersion: 2
+      x: 0.5004883
+      y: 0.87402344
+      width: 0.05859375
+      height: 0.05859375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemNoAds@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.5004883
+      y: 0.8154297
+      width: 0.05859375
+      height: 0.05859375
+    inner:
+      serializedVersion: 2
+      x: 0.5004883
+      y: 0.8154297
+      width: 0.05859375
+      height: 0.05859375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemPermaWings@2x
+    uv:
+      serializedVersion: 2
+      x: 0.5004883
+      y: 0.75683594
+      width: 0.05859375
+      height: 0.05859375
+    inner:
+      serializedVersion: 2
+      x: 0.5004883
+      y: 0.75683594
+      width: 0.05859375
+      height: 0.05859375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemSeparator@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.5126953
+      y: 0.47998047
+      width: 0.21484375
+      height: 0.009765625
+    inner:
+      serializedVersion: 2
+      x: 0.5126953
+      y: 0.47998047
+      width: 0.21484375
+      height: 0.009765625
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemVacuum@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.5004883
+      y: 0.6982422
+      width: 0.05859375
+      height: 0.05859375
+    inner:
+      serializedVersion: 2
+      x: 0.5004883
+      y: 0.6982422
+      width: 0.05859375
+      height: 0.05859375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeItemWallpaper@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.5004883
+      y: 0.63964844
+      width: 0.05859375
+      height: 0.05859375
+    inner:
+      serializedVersion: 2
+      x: 0.5004883
+      y: 0.63964844
+      width: 0.05859375
+      height: 0.05859375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeNewItemIndicator@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.21484375
+      y: 0.95458984
+      width: 0.021484375
+      height: 0.021484375
+    inner:
+      serializedVersion: 2
+      x: 0.21484375
+      y: 0.95458984
+      width: 0.021484375
+      height: 0.021484375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeScrollDown@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.8022461
+      y: 0.13574219
+      width: 0.125
+      height: 0.048828125
+    inner:
+      serializedVersion: 2
+      x: 0.8022461
+      y: 0.13574219
+      width: 0.125
+      height: 0.048828125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeUpgradeBarDisabled1@2x
+    uv:
+      serializedVersion: 2
+      x: 0.82910156
+      y: 0.28027344
+      width: 0.033203125
+      height: 0.01953125
+    inner:
+      serializedVersion: 2
+      x: 0.82910156
+      y: 0.28027344
+      width: 0.033203125
+      height: 0.01953125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeUpgradeBarDisabled2@2x
+    uv:
+      serializedVersion: 2
+      x: 0.82910156
+      y: 0.2998047
+      width: 0.033203125
+      height: 0.01953125
+    inner:
+      serializedVersion: 2
+      x: 0.82910156
+      y: 0.2998047
+      width: 0.033203125
+      height: 0.01953125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeUpgradeBarDisabled3@2x
+    uv:
+      serializedVersion: 2
+      x: 0.86328125
+      y: 0.3076172
+      width: 0.033203125
+      height: 0.01953125
+    inner:
+      serializedVersion: 2
+      x: 0.86328125
+      y: 0.3076172
+      width: 0.033203125
+      height: 0.01953125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeUpgradeBarDisabled4@2x
+    uv:
+      serializedVersion: 2
+      x: 0.9316406
+      y: 0.28857422
+      width: 0.033203125
+      height: 0.01953125
+    inner:
+      serializedVersion: 2
+      x: 0.9316406
+      y: 0.28857422
+      width: 0.033203125
+      height: 0.01953125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeUpgradeBarDisabled5@2x
+    uv:
+      serializedVersion: 2
+      x: 0.9316406
+      y: 0.30810547
+      width: 0.033203125
+      height: 0.01953125
+    inner:
+      serializedVersion: 2
+      x: 0.9316406
+      y: 0.30810547
+      width: 0.033203125
+      height: 0.01953125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeUpgradeBarEmpty@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.80322266
+      y: 0.61865234
+      width: 0.15625
+      height: 0.01953125
+    inner:
+      serializedVersion: 2
+      x: 0.80322266
+      y: 0.61865234
+      width: 0.15625
+      height: 0.01953125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeUpgradeBarFull1@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.96484375
+      y: 0.28857422
+      width: 0.033203125
+      height: 0.01953125
+    inner:
+      serializedVersion: 2
+      x: 0.96484375
+      y: 0.28857422
+      width: 0.033203125
+      height: 0.01953125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeUpgradeBarFull2@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.96484375
+      y: 0.30810547
+      width: 0.033203125
+      height: 0.01953125
+    inner:
+      serializedVersion: 2
+      x: 0.96484375
+      y: 0.30810547
+      width: 0.033203125
+      height: 0.01953125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeUpgradeBarFull3@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.3798828
+      y: 0.58984375
+      width: 0.033203125
+      height: 0.01953125
+    inner:
+      serializedVersion: 2
+      x: 0.3798828
+      y: 0.58984375
+      width: 0.033203125
+      height: 0.01953125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeUpgradeBarFull4@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.3798828
+      y: 0.609375
+      width: 0.033203125
+      height: 0.01953125
+    inner:
+      serializedVersion: 2
+      x: 0.3798828
+      y: 0.609375
+      width: 0.033203125
+      height: 0.01953125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeUpgradeBarFull5@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.41308594
+      y: 0.58984375
+      width: 0.033203125
+      height: 0.01953125
+    inner:
+      serializedVersion: 2
+      x: 0.41308594
+      y: 0.58984375
+      width: 0.033203125
+      height: 0.01953125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeUpgradeButton@2x.png
+    uv:
+      serializedVersion: 2
+      x: 0.64697266
+      y: 0.61865234
+      width: 0.15625
+      height: 0.01953125
+    inner:
+      serializedVersion: 2
+      x: 0.64697266
+      y: 0.61865234
+      width: 0.15625
+      height: 0.01953125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: storeUpgradeButton_9slice
+    uv:
+      serializedVersion: 2
+      x: 0.9013672
+      y: 0.28857422
+      width: 0.0234375
+      height: 0.01953125
+    inner:
+      serializedVersion: 2
+      x: 0.91064453
+      y: 0.29589844
+      width: 0.0048828125
+      height: 0.0048828125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 19, y: 15, z: 19, w: 15}
+  - name: storeUpgradeButton_9slice_fill
+    uv:
+      serializedVersion: 2
+      x: 0.21484375
+      y: 0.9760742
+      width: 0.0234375
+      height: 0.01953125
+    inner:
+      serializedVersion: 2
+      x: 0.2241211
+      y: 0.98339844
+      width: 0.0048828125
+      height: 0.0048828125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 19, y: 15, z: 19, w: 15}
+  - name: TweetBox
+    uv:
+      serializedVersion: 2
+      x: 0.6142578
+      y: 0.21044922
+      width: 0.24902344
+      height: 0.06982422
+    inner:
+      serializedVersion: 2
+      x: 0.6142578
+      y: 0.21044922
+      width: 0.24902344
+      height: 0.06982422
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: twitterLogo@2x
+    uv:
+      serializedVersion: 2
+      x: 0.1171875
+      y: 0.8208008
+      width: 0.076171875
+      height: 0.017578125
+    inner:
+      serializedVersion: 2
+      x: 0.1171875
+      y: 0.8208008
+      width: 0.076171875
+      height: 0.017578125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: vol_bar
+    uv:
+      serializedVersion: 2
+      x: 0.6142578
+      y: 0.32910156
+      width: 0.15625
+      height: 0.0078125
+    inner:
+      serializedVersion: 2
+      x: 0.6142578
+      y: 0.32910156
+      width: 0.15625
+      height: 0.0078125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: Xlogo
+    uv:
+      serializedVersion: 2
+      x: 0.5004883
+      y: 0.5908203
+      width: 0.087890625
+      height: 0.048828125
+    inner:
+      serializedVersion: 2
+      x: 0.5004883
+      y: 0.5908203
+      width: 0.087890625
+      height: 0.048828125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}

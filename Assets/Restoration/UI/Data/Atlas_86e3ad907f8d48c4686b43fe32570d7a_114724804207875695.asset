@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c644a821308ed65b7a98a2273d6afe29, type: 3}
+  m_Name: Atlas_86e3ad907f8d48c4686b43fe32570d7a_114724804207875695
+  m_EditorClassIdentifier: Assembly-CSharp::TempleRunUIAtlasData
+  source: Assets/GameObject/Font Atlas.prefab
+  texture: {fileID: 2800000, guid: e845fe43ceb842949b025bdf2e898038, type: 3}
+  sprites:
+  - name: Arial_Rounded_White
+    uv:
+      serializedVersion: 2
+      x: 0.0009765625
+      y: 0.65625
+      width: 0.49414062
+      height: 0.34277344
+    inner:
+      serializedVersion: 2
+      x: 0.0009765625
+      y: 0.65625
+      width: 0.49414062
+      height: 0.34277344
+    paddingLeft: 0.0019762847
+    paddingRight: 0.009881423
+    paddingTop: 0.0056980057
+    paddingBottom: 0.45299146
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: Cheboygan_Arty2x
+    uv:
+      serializedVersion: 2
+      x: 0.0009765625
+      y: 0.54785156
+      width: 0.24414062
+      height: 0.10644531
+    inner:
+      serializedVersion: 2
+      x: 0.0009765625
+      y: 0.54785156
+      width: 0.24414062
+      height: 0.10644531
+    paddingLeft: 0.004
+    paddingRight: 0.02
+    paddingTop: 0.018348623
+    paddingBottom: 0.1559633
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: Cheboygan_White2x
+    uv:
+      serializedVersion: 2
+      x: 0.4970703
+      y: 0.6660156
+      width: 0.4892578
+      height: 0.3330078
+    inner:
+      serializedVersion: 2
+      x: 0.4970703
+      y: 0.6660156
+      width: 0.4892578
+      height: 0.3330078
+    paddingLeft: 0.001996008
+    paddingRight: 0.01996008
+    paddingTop: 0.0029325513
+    paddingBottom: 0.49853373
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: Temple_Run_Brushed
+    uv:
+      serializedVersion: 2
+      x: 0.4970703
+      y: 0.34277344
+      width: 0.49316406
+      height: 0.32128906
+    inner:
+      serializedVersion: 2
+      x: 0.4970703
+      y: 0.34277344
+      width: 0.49316406
+      height: 0.32128906
+    paddingLeft: 0.001980198
+    paddingRight: 0.0118811885
+    paddingTop: 0.0060790274
+    paddingBottom: 0.550152
+    border: {x: 0, y: 0, z: 0, w: 0}

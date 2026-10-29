@@ -61,6 +61,7 @@ public static class TempleRunProjectBuilder
         if (catalog.characters.Any(c => !c)) throw new InvalidOperationException("An extracted character prefab could not be loaded.");
         EditorUtility.SetDirty(catalog);
         AdaptMaterials();
+        TempleRunUIBuilder.Prepare();
         var scene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
         new GameObject("Temple Run Host").AddComponent<TempleRunFlow>();
         const string scenePath = "Assets/Restoration/Scenes/TempleRun.unity";

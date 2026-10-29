@@ -127,6 +127,8 @@ public class StatsGUI : BasePanel
 
 	public override void SlideIn(BasePanel returnTo)
 	{
+		// Authored bridge; original slide-animation coroutine remains unrecovered; see Evidence/ui-csharp-restoration.json.
+		base.SlideIn(returnTo);
 	}
 
 	[IteratorStateMachine(typeof(_003CSlideInAnimation_003Ed__29))]
@@ -137,6 +139,8 @@ public class StatsGUI : BasePanel
 
 	private void BackClicked()
 	{
+		// Native-derived control flow with local host binding; see Evidence/ui-csharp-restoration.json.
+		ReturnMenu();
 	}
 
 	private void OnStatsButton()

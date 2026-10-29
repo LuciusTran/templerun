@@ -38,13 +38,9 @@ public class UIFilledSprite : UISprite
 
 	public float fillAmount
 	{
-		get
-		{
-			return 0f;
-		}
-		set
-		{
-		}
+		// Serialized-field compatibility accessor; geometry invalidation adapted; see Evidence/ui-csharp-restoration.json.
+		get { return mFillAmount; }
+		set { float amount = Mathf.Max(0f, value); if (mFillAmount != amount) { mFillAmount = amount; mChanged = true; } }
 	}
 
 	public bool invert

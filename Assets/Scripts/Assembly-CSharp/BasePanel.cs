@@ -94,10 +94,14 @@ public class BasePanel : MonoBehaviour
 
 	public virtual void ShowAll(bool inShowBannerAds = true)
 	{
+		// Native panel visibility intent; local presenter retains source inactive variants; see Evidence/ui-csharp-restoration.json.
+		TempleRunUIPresenter.Instance?.ShowPanel(this);
 	}
 
 	public virtual void HideAll()
 	{
+		// Native-derived control flow with local host binding; see Evidence/ui-csharp-restoration.json.
+		TempleRunUIPresenter.Instance?.HidePanel(this);
 	}
 
 	private void ShowPanel()
@@ -124,22 +128,35 @@ public class BasePanel : MonoBehaviour
 
 	public void Show()
 	{
+		// Native-derived panel activation intent; analytics/ad branches omitted; see Evidence/ui-csharp-restoration.json.
+		SlideIn(null);
 	}
 
 	public void SlideInDontClearReturn()
 	{
+		// Native-derived control flow with local host binding; see Evidence/ui-csharp-restoration.json.
+		SlideIn(ReturnToPanel);
 	}
 
 	public void SlideIn()
 	{
+		// Native-derived control flow with local host binding; see Evidence/ui-csharp-restoration.json.
+		SlideIn(null);
 	}
 
 	public virtual void SlideIn(BasePanel returnTo)
 	{
+		// Native return-panel storage plus authored presentation binding; see Evidence/ui-csharp-restoration.json.
+		ReturnToPanel = returnTo;
+		TempleRunUIPresenter.Instance?.ShowPanel(this);
 	}
 
 	public void ReturnMenu()
 	{
+		// Native-derived control flow with local host binding; see Evidence/ui-csharp-restoration.json.
+		HideAll();
+		if (ReturnToPanel) ReturnToPanel.SlideIn(ReturnToPanel.ReturnToPanel);
+		else TempleRunUIPresenter.Instance?.Home();
 	}
 
 	protected void ShowBannerAd()

@@ -148,10 +148,14 @@ public class StoreItem : MonoBehaviour
 
 	public void Reconfigure()
 	{
+		// Native-derived control flow with local host binding; see Evidence/ui-csharp-restoration.json.
+		Configure();
 	}
 
 	public void Configure()
 	{
+		// Native item classification/pricing intent; authored local-profile binding; see Evidence/ui-csharp-restoration.json.
+		TempleRunUIPresenter.Instance?.ConfigureItem(this);
 	}
 
 	private void SetIcon()
@@ -176,6 +180,8 @@ public class StoreItem : MonoBehaviour
 
 	private void OnClick()
 	{
+		// Native item purchase/select intent; authored local-profile binding; see Evidence/ui-csharp-restoration.json.
+		TempleRunUIPresenter.Instance?.ClickItem(this);
 	}
 
 	private void ActivateCharacter(RecordManager.StoreItemType type)

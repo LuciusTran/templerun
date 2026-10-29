@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c644a821308ed65b7a98a2273d6afe29, type: 3}
+  m_Name: Atlas_fb0db7f150aebf748b1097aa1c7aa50b_114724804207875695
+  m_EditorClassIdentifier: Assembly-CSharp::TempleRunUIAtlasData
+  source: Assets/GameObject/Idol_Localized.prefab
+  texture: {fileID: 2800000, guid: a75d156ed97612748852374fd1516f86, type: 3}
+  sprites:
+  - name: nl
+    uv:
+      serializedVersion: 2
+      x: 0.7470703
+      y: 0.13476562
+      width: 0.25195312
+      height: 0.12841797
+    inner:
+      serializedVersion: 2
+      x: 0.7470703
+      y: 0.13476562
+      width: 0.25195312
+      height: 0.12841797
+    paddingLeft: 0.027131783
+    paddingRight: 0.04263566
+    paddingTop: 0.064638786
+    paddingBottom: 0.045627378
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: fr
+    uv:
+      serializedVersion: 2
+      x: 0.2685547
+      y: 0
+      width: 0.265625
+      height: 0.12890625
+    inner:
+      serializedVersion: 2
+      x: 0.2685547
+      y: 0
+      width: 0.265625
+      height: 0.12890625
+    paddingLeft: 0.007352941
+    paddingRight: 0.007352941
+    paddingTop: 0.08712121
+    paddingBottom: 0.018939395
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: en
+    uv:
+      serializedVersion: 2
+      x: 0.49902344
+      y: 0.2680664
+      width: 0.23339844
+      height: 0.13232422
+    inner:
+      serializedVersion: 2
+      x: 0.49902344
+      y: 0.2680664
+      width: 0.23339844
+      height: 0.13232422
+    paddingLeft: 0.07531381
+    paddingRight: 0.07949791
+    paddingTop: 0.06642067
+    paddingBottom: 0.011070111
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: de
+    uv:
+      serializedVersion: 2
+      x: 0.24804688
+      y: 0.13476562
+      width: 0.24902344
+      height: 0.13134766
+    inner:
+      serializedVersion: 2
+      x: 0.24804688
+      y: 0.13476562
+      width: 0.24902344
+      height: 0.13134766
+    paddingLeft: 0.043137256
+    paddingRight: 0.039215688
+    paddingTop: 0.059479553
+    paddingBottom: 0.026022306
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: pt
+    uv:
+      serializedVersion: 2
+      x: 0.73339844
+      y: 0.2680664
+      width: 0.23632812
+      height: 0.12939453
+    inner:
+      serializedVersion: 2
+      x: 0.73339844
+      y: 0.2680664
+      width: 0.23632812
+      height: 0.12939453
+    paddingLeft: 0.07024793
+    paddingRight: 0.07024793
+    paddingTop: 0.041509435
+    paddingBottom: 0.06037736
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: it
+    uv:
+      serializedVersion: 2
+      x: 0.49804688
+      y: 0.13476562
+      width: 0.24804688
+      height: 0.13183594
+    inner:
+      serializedVersion: 2
+      x: 0.49804688
+      y: 0.13476562
+      width: 0.24804688
+      height: 0.13183594
+    paddingLeft: 0.04330709
+    paddingRight: 0.04330709
+    paddingTop: 0.05185185
+    paddingBottom: 0.02962963
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: ja
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.40185547
+      width: 0.21679688
+      height: 0.13623047
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.40185547
+      width: 0.21679688
+      height: 0.13623047
+    paddingLeft: 0.12162162
+    paddingRight: 0.12162162
+    paddingTop: 0.010752688
+    paddingBottom: 0.035842296
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: ko
+    uv:
+      serializedVersion: 2
+      x: 0.53515625
+      y: 0
+      width: 0.24902344
+      height: 0.1328125
+    inner:
+      serializedVersion: 2
+      x: 0.53515625
+      y: 0
+      width: 0.24902344
+      height: 0.1328125
+    paddingLeft: 0.039215688
+    paddingRight: 0.043137256
+    paddingTop: 0.022058824
+    paddingBottom: 0.05147059
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: ru
+    uv:
+      serializedVersion: 2
+      x: 0.24707031
+      y: 0.2680664
+      width: 0.25097656
+      height: 0.12890625
+    inner:
+      serializedVersion: 2
+      x: 0.24707031
+      y: 0.2680664
+      width: 0.25097656
+      height: 0.12890625
+    paddingLeft: 0.023346303
+    paddingRight: 0.050583657
+    paddingTop: 0.060606062
+    paddingBottom: 0.045454547
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: zh
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.2680664
+      width: 0.24609375
+      height: 0.13330078
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.2680664
+      width: 0.24609375
+      height: 0.13330078
+    paddingLeft: 0.04761905
+    paddingRight: 0.04761905
+    paddingTop: 0.02930403
+    paddingBottom: 0.04029304
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: es
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0.26757812
+      height: 0.13427734
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0.26757812
+      height: 0.13427734
+    paddingLeft: 0.003649635
+    paddingRight: 0.003649635
+    paddingTop: 0.05818182
+    paddingBottom: 0.0036363637
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: tr
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.5385742
+      width: 0.20800781
+      height: 0.13720703
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.5385742
+      width: 0.20800781
+      height: 0.13720703
+    paddingLeft: 0.15023474
+    paddingRight: 0.14553991
+    paddingTop: 0.0071174377
+    paddingBottom: 0.03202847
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: zh-Hant
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.13476562
+      width: 0.24707031
+      height: 0.1328125
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.13476562
+      width: 0.24707031
+      height: 0.1328125
+    paddingLeft: 0.04743083
+    paddingRight: 0.04347826
+    paddingTop: 0.033088237
+    paddingBottom: 0.040441178
+    border: {x: 0, y: 0, z: 0, w: 0}

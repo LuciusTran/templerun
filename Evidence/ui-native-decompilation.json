@@ -1,0 +1,3446 @@
+{
+  "tool": "Ghidra 12.1.4 targeted read-only headless decompilation",
+  "nativeBinarySha256": "40d634295843ceee9c019e6c862bed7fb2c3636d2b297f1d1eb6cc5818188d3d",
+  "selectedBodies": 153,
+  "allSelectedMethodBytesVerified": true,
+  "records": [
+    {
+      "className": "AdjustCameraFOV",
+      "signature": "private void Start() { }",
+      "label": "AdjustCameraFOV_Start_11ea2f8",
+      "producerRva": 18785016,
+      "fileOffset": 18785016,
+      "virtualAddress": 18801400,
+      "length": 4,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/AdjustCameraFOV.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Start() { }",
+          "label": "AdjustCameraFOV_Start_11ea2f8"
+        }
+      ],
+      "ghidraAddress": "012ee2f8",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "AdjustCameraFOV/AdjustCameraFOV_Start_11ea2f8.cpp"
+    },
+    {
+      "className": "BasePanel",
+      "signature": "public override void HideAll() { }",
+      "label": "BasePanel_HideAll_12dfbf8",
+      "producerRva": 19790840,
+      "fileOffset": 19790840,
+      "virtualAddress": 19807224,
+      "length": 40,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/BasePanel.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public override void HideAll() { }",
+          "label": "BasePanel_HideAll_12dfbf8"
+        }
+      ],
+      "ghidraAddress": "013e3bf8",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "BasePanel/BasePanel_HideAll_12dfbf8.cpp"
+    },
+    {
+      "className": "BasePanel",
+      "signature": "private void HidePanel() { }",
+      "label": "BasePanel_HidePanel_12dfdac",
+      "producerRva": 19791276,
+      "fileOffset": 19791276,
+      "virtualAddress": 19807660,
+      "length": 32,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/BasePanel.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void HidePanel() { }",
+          "label": "BasePanel_HidePanel_12dfdac"
+        }
+      ],
+      "ghidraAddress": "013e3dac",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "BasePanel/BasePanel_HidePanel_12dfdac.cpp"
+    },
+    {
+      "className": "BasePanel",
+      "signature": "public void ReturnMenu() { }",
+      "label": "BasePanel_ReturnMenu_12e003c",
+      "producerRva": 19791932,
+      "fileOffset": 19791932,
+      "virtualAddress": 19808316,
+      "length": 192,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/BasePanel.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public void ReturnMenu() { }",
+          "label": "BasePanel_ReturnMenu_12e003c"
+        }
+      ],
+      "ghidraAddress": "013e403c",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "BasePanel/BasePanel_ReturnMenu_12e003c.cpp"
+    },
+    {
+      "className": "BasePanel",
+      "signature": "public override void ShowAll(bool inShowBannerAds = true) { }",
+      "label": "BasePanel_ShowAll_12df6a4",
+      "producerRva": 19789476,
+      "fileOffset": 19789476,
+      "virtualAddress": 19805860,
+      "length": 432,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/BasePanel.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public override void ShowAll(bool inShowBannerAds = true) { }",
+          "label": "BasePanel_ShowAll_12df6a4"
+        }
+      ],
+      "ghidraAddress": "013e36a4",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "BasePanel/BasePanel_ShowAll_12df6a4.cpp"
+    },
+    {
+      "className": "BasePanel",
+      "signature": "private void ShowPanel() { }",
+      "label": "BasePanel_ShowPanel_12dfd8c",
+      "producerRva": 19791244,
+      "fileOffset": 19791244,
+      "virtualAddress": 19807628,
+      "length": 32,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/BasePanel.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void ShowPanel() { }",
+          "label": "BasePanel_ShowPanel_12dfd8c"
+        }
+      ],
+      "ghidraAddress": "013e3d8c",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "BasePanel/BasePanel_ShowPanel_12dfd8c.cpp"
+    },
+    {
+      "className": "BasePanel",
+      "signature": "public void Show() { }",
+      "label": "BasePanel_Show_12dff8c",
+      "producerRva": 19791756,
+      "fileOffset": 19791756,
+      "virtualAddress": 19808140,
+      "length": 152,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/BasePanel.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public void Show() { }",
+          "label": "BasePanel_Show_12dff8c"
+        }
+      ],
+      "ghidraAddress": "013e3f8c",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "BasePanel/BasePanel_Show_12dff8c.cpp"
+    },
+    {
+      "className": "BasePanel",
+      "signature": "public void SlideIn() { }",
+      "label": "BasePanel_SlideIn_12def74",
+      "producerRva": 19787636,
+      "fileOffset": 19787636,
+      "virtualAddress": 19804020,
+      "length": 16,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/BasePanel.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public void SlideIn() { }",
+          "label": "BasePanel_SlideIn_12def74"
+        }
+      ],
+      "ghidraAddress": "013e2f74",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "BasePanel/BasePanel_SlideIn_12def74.cpp"
+    },
+    {
+      "className": "BasePanel",
+      "signature": "public override void SlideIn(BasePanel returnTo) { }",
+      "label": "BasePanel_SlideIn_12e0034",
+      "producerRva": 19791924,
+      "fileOffset": 19791924,
+      "virtualAddress": 19808308,
+      "length": 8,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/BasePanel.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public override void SlideIn(BasePanel returnTo) { }",
+          "label": "BasePanel_SlideIn_12e0034"
+        }
+      ],
+      "ghidraAddress": "013e4034",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "BasePanel/BasePanel_SlideIn_12e0034.cpp"
+    },
+    {
+      "className": "BasePanel",
+      "signature": "public override void Start() { }",
+      "label": "BasePanel_Start_12df654",
+      "producerRva": 19789396,
+      "fileOffset": 19789396,
+      "virtualAddress": 19805780,
+      "length": 80,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/BasePanel.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public override void Start() { }",
+          "label": "BasePanel_Start_12df654"
+        }
+      ],
+      "ghidraAddress": "013e3654",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "BasePanel/BasePanel_Start_12df654.cpp"
+    },
+    {
+      "className": "BonusStartButtons",
+      "signature": "public BonusStartButtons() { }",
+      "label": "BonusStartButtons_BonusStartButtons_12e0a5c",
+      "producerRva": 19794524,
+      "fileOffset": 19794524,
+      "virtualAddress": 19810908,
+      "length": 8,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/BonusStartButtons.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public BonusStartButtons() { }",
+          "label": "BonusStartButtons_BonusStartButtons_12e0a5c"
+        }
+      ],
+      "ghidraAddress": "013e4a5c",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "BonusStartButtons/BonusStartButtons_BonusStartButtons_12e0a5c.cpp"
+    },
+    {
+      "className": "BonusStartButtons",
+      "signature": "private void OnEnable() { }",
+      "label": "BonusStartButtons_OnEnable_12e0658",
+      "producerRva": 19793496,
+      "fileOffset": 19793496,
+      "virtualAddress": 19809880,
+      "length": 1028,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/BonusStartButtons.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void OnEnable() { }",
+          "label": "BonusStartButtons_OnEnable_12e0658"
+        }
+      ],
+      "ghidraAddress": "013e4658",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "BonusStartButtons/BonusStartButtons_OnEnable_12e0658.cpp"
+    },
+    {
+      "className": "CharacterSelectGUI",
+      "signature": "private void AdjustCoins() { }",
+      "label": "CharacterSelectGUI_AdjustCoins_12e0c40",
+      "producerRva": 19795008,
+      "fileOffset": 19795008,
+      "virtualAddress": 19811392,
+      "length": 212,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/CharacterSelectGUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void AdjustCoins() { }",
+          "label": "CharacterSelectGUI_AdjustCoins_12e0c40"
+        }
+      ],
+      "ghidraAddress": "013e4c40",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "CharacterSelectGUI/CharacterSelectGUI_AdjustCoins_12e0c40.cpp"
+    },
+    {
+      "className": "CharacterSelectGUI",
+      "signature": "private void BackClicked() { }",
+      "label": "CharacterSelectGUI_BackClicked_12e13dc",
+      "producerRva": 19796956,
+      "fileOffset": 19796956,
+      "virtualAddress": 19813340,
+      "length": 4,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/CharacterSelectGUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void BackClicked() { }",
+          "label": "CharacterSelectGUI_BackClicked_12e13dc"
+        }
+      ],
+      "ghidraAddress": "013e53dc",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "CharacterSelectGUI/CharacterSelectGUI_BackClicked_12e13dc.cpp"
+    },
+    {
+      "className": "CharacterSelectGUI",
+      "signature": "public virtual void HideAll() { }",
+      "label": "CharacterSelectGUI_HideAll_12e0d14",
+      "producerRva": 19795220,
+      "fileOffset": 19795220,
+      "virtualAddress": 19811604,
+      "length": 4,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/CharacterSelectGUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public virtual void HideAll() { }",
+          "label": "CharacterSelectGUI_HideAll_12e0d14"
+        }
+      ],
+      "ghidraAddress": "013e4d14",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "CharacterSelectGUI/CharacterSelectGUI_HideAll_12e0d14.cpp"
+    },
+    {
+      "className": "CharacterSelectGUI",
+      "signature": "private void ReconfigureStoreItems() { }",
+      "label": "CharacterSelectGUI_ReconfigureStoreItems_12e0bc8",
+      "producerRva": 19794888,
+      "fileOffset": 19794888,
+      "virtualAddress": 19811272,
+      "length": 120,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/CharacterSelectGUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void ReconfigureStoreItems() { }",
+          "label": "CharacterSelectGUI_ReconfigureStoreItems_12e0bc8"
+        }
+      ],
+      "ghidraAddress": "013e4bc8",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "CharacterSelectGUI/CharacterSelectGUI_ReconfigureStoreItems_12e0bc8.cpp"
+    },
+    {
+      "className": "CharacterSelectGUI",
+      "signature": "private void Setup() { }",
+      "label": "CharacterSelectGUI_Setup_12e0ab8",
+      "producerRva": 19794616,
+      "fileOffset": 19794616,
+      "virtualAddress": 19811000,
+      "length": 124,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/CharacterSelectGUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Setup() { }",
+          "label": "CharacterSelectGUI_Setup_12e0ab8"
+        }
+      ],
+      "ghidraAddress": "013e4ab8",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "CharacterSelectGUI/CharacterSelectGUI_Setup_12e0ab8.cpp"
+    },
+    {
+      "className": "CharacterSelectGUI",
+      "signature": "public virtual void ShowAll(bool inShowBannerAds = true) { }",
+      "label": "CharacterSelectGUI_ShowAll_12e0b38",
+      "producerRva": 19794744,
+      "fileOffset": 19794744,
+      "virtualAddress": 19811128,
+      "length": 144,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/CharacterSelectGUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public virtual void ShowAll(bool inShowBannerAds = true) { }",
+          "label": "CharacterSelectGUI_ShowAll_12e0b38"
+        }
+      ],
+      "ghidraAddress": "013e4b38",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "CharacterSelectGUI/CharacterSelectGUI_ShowAll_12e0b38.cpp"
+    },
+    {
+      "className": "CharacterSelectGUI",
+      "signature": "public virtual void SlideIn(BasePanel returnTo) { }",
+      "label": "CharacterSelectGUI_SlideIn_12e0d18",
+      "producerRva": 19795224,
+      "fileOffset": 19795224,
+      "virtualAddress": 19811608,
+      "length": 688,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/CharacterSelectGUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public virtual void SlideIn(BasePanel returnTo) { }",
+          "label": "CharacterSelectGUI_SlideIn_12e0d18"
+        }
+      ],
+      "ghidraAddress": "013e4d18",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "CharacterSelectGUI/CharacterSelectGUI_SlideIn_12e0d18.cpp"
+    },
+    {
+      "className": "CharacterSelectGUI",
+      "signature": "public void UpdateHeaderLabel() { }",
+      "label": "CharacterSelectGUI_UpdateHeaderLabel_12e1028",
+      "producerRva": 19796008,
+      "fileOffset": 19796008,
+      "virtualAddress": 19812392,
+      "length": 908,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/CharacterSelectGUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public void UpdateHeaderLabel() { }",
+          "label": "CharacterSelectGUI_UpdateHeaderLabel_12e1028"
+        }
+      ],
+      "ghidraAddress": "013e5028",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "CharacterSelectGUI/CharacterSelectGUI_UpdateHeaderLabel_12e1028.cpp"
+    },
+    {
+      "className": "EndGameUI",
+      "signature": "public virtual void HideAll() { }",
+      "label": "EndGameUI_HideAll_12e4f80",
+      "producerRva": 19812224,
+      "fileOffset": 19812224,
+      "virtualAddress": 19828608,
+      "length": 976,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/EndGameUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public virtual void HideAll() { }",
+          "label": "EndGameUI_HideAll_12e4f80"
+        }
+      ],
+      "ghidraAddress": "013e8f80",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "EndGameUI/EndGameUI_HideAll_12e4f80.cpp"
+    },
+    {
+      "className": "EndGameUI",
+      "signature": "private void MainMenuClicked() { }",
+      "label": "EndGameUI_MainMenuClicked_12e4e60",
+      "producerRva": 19811936,
+      "fileOffset": 19811936,
+      "virtualAddress": 19828320,
+      "length": 76,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/EndGameUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void MainMenuClicked() { }",
+          "label": "EndGameUI_MainMenuClicked_12e4e60"
+        }
+      ],
+      "ghidraAddress": "013e8e60",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "EndGameUI/EndGameUI_MainMenuClicked_12e4e60.cpp"
+    },
+    {
+      "className": "EndGameUI",
+      "signature": "private void RunAgainClicked() { }",
+      "label": "EndGameUI_RunAgainClicked_12e4e04",
+      "producerRva": 19811844,
+      "fileOffset": 19811844,
+      "virtualAddress": 19828228,
+      "length": 92,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/EndGameUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void RunAgainClicked() { }",
+          "label": "EndGameUI_RunAgainClicked_12e4e04"
+        }
+      ],
+      "ghidraAddress": "013e8e04",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "EndGameUI/EndGameUI_RunAgainClicked_12e4e04.cpp"
+    },
+    {
+      "className": "EndGameUI",
+      "signature": "private void Setup() { }",
+      "label": "EndGameUI_Setup_12e2ed8",
+      "producerRva": 19803864,
+      "fileOffset": 19803864,
+      "virtualAddress": 19820248,
+      "length": 184,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/EndGameUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Setup() { }",
+          "label": "EndGameUI_Setup_12e2ed8"
+        }
+      ],
+      "ghidraAddress": "013e6ed8",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "EndGameUI/EndGameUI_Setup_12e2ed8.cpp"
+    },
+    {
+      "className": "EndGameUI",
+      "signature": "public virtual void SlideIn(BasePanel returnTo) { }",
+      "label": "EndGameUI_SlideIn_12e3adc",
+      "producerRva": 19806940,
+      "fileOffset": 19806940,
+      "virtualAddress": 19823324,
+      "length": 1020,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/EndGameUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public virtual void SlideIn(BasePanel returnTo) { }",
+          "label": "EndGameUI_SlideIn_12e3adc"
+        }
+      ],
+      "ghidraAddress": "013e7adc",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "EndGameUI/EndGameUI_SlideIn_12e3adc.cpp"
+    },
+    {
+      "className": "EndGameUI",
+      "signature": "private void StoreClick() { }",
+      "label": "EndGameUI_StoreClick_12e4eac",
+      "producerRva": 19812012,
+      "fileOffset": 19812012,
+      "virtualAddress": 19828396,
+      "length": 68,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/EndGameUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void StoreClick() { }",
+          "label": "EndGameUI_StoreClick_12e4eac"
+        }
+      ],
+      "ghidraAddress": "013e8eac",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "EndGameUI/EndGameUI_StoreClick_12e4eac.cpp"
+    },
+    {
+      "className": "GameGUI",
+      "signature": "public void PauseClicked() { }",
+      "label": "GameGUI_PauseClicked_12e7914",
+      "producerRva": 19822868,
+      "fileOffset": 19822868,
+      "virtualAddress": 19839252,
+      "length": 188,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameGUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public void PauseClicked() { }",
+          "label": "GameGUI_PauseClicked_12e7914"
+        }
+      ],
+      "ghidraAddress": "013eb914",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "GameGUI/GameGUI_PauseClicked_12e7914.cpp"
+    },
+    {
+      "className": "GameGUI",
+      "signature": "public void SetCoins(int coins) { }",
+      "label": "GameGUI_SetCoins_12e7788",
+      "producerRva": 19822472,
+      "fileOffset": 19822472,
+      "virtualAddress": 19838856,
+      "length": 64,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameGUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public void SetCoins(int coins) { }",
+          "label": "GameGUI_SetCoins_12e7788"
+        }
+      ],
+      "ghidraAddress": "013eb788",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "GameGUI/GameGUI_SetCoins_12e7788.cpp"
+    },
+    {
+      "className": "GameGUI",
+      "signature": "public void SetScore(int score) { }",
+      "label": "GameGUI_SetScore_12e7748",
+      "producerRva": 19822408,
+      "fileOffset": 19822408,
+      "virtualAddress": 19838792,
+      "length": 64,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameGUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public void SetScore(int score) { }",
+          "label": "GameGUI_SetScore_12e7748"
+        }
+      ],
+      "ghidraAddress": "013eb748",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "GameGUI/GameGUI_SetScore_12e7748.cpp"
+    },
+    {
+      "className": "GameGUI",
+      "signature": "public void ShowProperly() { }",
+      "label": "GameGUI_ShowProperly_12e78e0",
+      "producerRva": 19822816,
+      "fileOffset": 19822816,
+      "virtualAddress": 19839200,
+      "length": 52,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameGUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public void ShowProperly() { }",
+          "label": "GameGUI_ShowProperly_12e78e0"
+        }
+      ],
+      "ghidraAddress": "013eb8e0",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "GameGUI/GameGUI_ShowProperly_12e78e0.cpp"
+    },
+    {
+      "className": "GameGUITotem",
+      "signature": "private void Awake() { }",
+      "label": "GameGUITotem_Awake_12e88ec",
+      "producerRva": 19826924,
+      "fileOffset": 19826924,
+      "virtualAddress": 19843308,
+      "length": 4,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameGUITotem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Awake() { }",
+          "label": "GameGUITotem_Awake_12e88ec"
+        }
+      ],
+      "ghidraAddress": "013ec8ec",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "GameGUITotem/GameGUITotem_Awake_12e88ec.cpp"
+    },
+    {
+      "className": "GameGUITotem",
+      "signature": "public GameGUITotem() { }",
+      "label": "GameGUITotem_GameGUITotem_12e8f48",
+      "producerRva": 19828552,
+      "fileOffset": 19828552,
+      "virtualAddress": 19844936,
+      "length": 28,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameGUITotem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public GameGUITotem() { }",
+          "label": "GameGUITotem_GameGUITotem_12e8f48"
+        }
+      ],
+      "ghidraAddress": "013ecf48",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "GameGUITotem/GameGUITotem_GameGUITotem_12e8f48.cpp"
+    },
+    {
+      "className": "GameGUITotem",
+      "signature": "public void HideAll() { }",
+      "label": "GameGUITotem_HideAll_12e88fc",
+      "producerRva": 19826940,
+      "fileOffset": 19826940,
+      "virtualAddress": 19843324,
+      "length": 4,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameGUITotem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public void HideAll() { }",
+          "label": "GameGUITotem_HideAll_12e88fc"
+        }
+      ],
+      "ghidraAddress": "013ec8fc",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "GameGUITotem/GameGUITotem_HideAll_12e88fc.cpp"
+    },
+    {
+      "className": "GameGUITotem",
+      "signature": "public void Reset() { }",
+      "label": "GameGUITotem_Reset_12e7c40",
+      "producerRva": 19823680,
+      "fileOffset": 19823680,
+      "virtualAddress": 19840064,
+      "length": 404,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameGUITotem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public void Reset() { }",
+          "label": "GameGUITotem_Reset_12e7c40"
+        }
+      ],
+      "ghidraAddress": "013ebc40",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "GameGUITotem/GameGUITotem_Reset_12e7c40.cpp"
+    },
+    {
+      "className": "GameGUITotem",
+      "signature": "public void SetBonusLevel(int level, bool awardBonus) { }",
+      "label": "GameGUITotem_SetBonusLevel_12e89f8",
+      "producerRva": 19827192,
+      "fileOffset": 19827192,
+      "virtualAddress": 19843576,
+      "length": 468,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameGUITotem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public void SetBonusLevel(int level, bool awardBonus) { }",
+          "label": "GameGUITotem_SetBonusLevel_12e89f8"
+        }
+      ],
+      "ghidraAddress": "013ec9f8",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "GameGUITotem/GameGUITotem_SetBonusLevel_12e89f8.cpp"
+    },
+    {
+      "className": "GameGUITotem",
+      "signature": "private void SetVisibility(bool visible) { }",
+      "label": "GameGUITotem_SetVisibility_12e88f4",
+      "producerRva": 19826932,
+      "fileOffset": 19826932,
+      "virtualAddress": 19843316,
+      "length": 4,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameGUITotem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void SetVisibility(bool visible) { }",
+          "label": "GameGUITotem_SetVisibility_12e88f4"
+        }
+      ],
+      "ghidraAddress": "013ec8f4",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "GameGUITotem/GameGUITotem_SetVisibility_12e88f4.cpp"
+    },
+    {
+      "className": "GameGUITotem",
+      "signature": "private void SetupStar(GUIParticle sprite) { }",
+      "label": "GameGUITotem_SetupStar_12e8d50",
+      "producerRva": 19828048,
+      "fileOffset": 19828048,
+      "virtualAddress": 19844432,
+      "length": 504,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameGUITotem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void SetupStar(GUIParticle sprite) { }",
+          "label": "GameGUITotem_SetupStar_12e8d50"
+        }
+      ],
+      "ghidraAddress": "013ecd50",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "GameGUITotem/GameGUITotem_SetupStar_12e8d50.cpp"
+    },
+    {
+      "className": "GameGUITotem",
+      "signature": "private void Setup() { }",
+      "label": "GameGUITotem_Setup_12e88f0",
+      "producerRva": 19826928,
+      "fileOffset": 19826928,
+      "virtualAddress": 19843312,
+      "length": 4,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameGUITotem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Setup() { }",
+          "label": "GameGUITotem_Setup_12e88f0"
+        }
+      ],
+      "ghidraAddress": "013ec8f0",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "GameGUITotem/GameGUITotem_Setup_12e88f0.cpp"
+    },
+    {
+      "className": "GameGUITotem",
+      "signature": "public void ShowAll() { }",
+      "label": "GameGUITotem_ShowAll_12e88f8",
+      "producerRva": 19826936,
+      "fileOffset": 19826936,
+      "virtualAddress": 19843320,
+      "length": 4,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameGUITotem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public void ShowAll() { }",
+          "label": "GameGUITotem_ShowAll_12e88f8"
+        }
+      ],
+      "ghidraAddress": "013ec8f8",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "GameGUITotem/GameGUITotem_ShowAll_12e88f8.cpp"
+    },
+    {
+      "className": "GameGUITotem",
+      "signature": "private void StartEmblemFallIfVisible(UISprite emblem) { }",
+      "label": "GameGUITotem_StartEmblemFallIfVisible_12e8bcc",
+      "producerRva": 19827660,
+      "fileOffset": 19827660,
+      "virtualAddress": 19844044,
+      "length": 240,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameGUITotem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void StartEmblemFallIfVisible(UISprite emblem) { }",
+          "label": "GameGUITotem_StartEmblemFallIfVisible_12e8bcc"
+        }
+      ],
+      "ghidraAddress": "013ecbcc",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "GameGUITotem/GameGUITotem_StartEmblemFallIfVisible_12e8bcc.cpp"
+    },
+    {
+      "className": "GameGUITotem",
+      "signature": "public void UpdateProgress(float coinPercent) { }",
+      "label": "GameGUITotem_UpdateProgress_12e89dc",
+      "producerRva": 19827164,
+      "fileOffset": 19827164,
+      "virtualAddress": 19843548,
+      "length": 28,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameGUITotem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public void UpdateProgress(float coinPercent) { }",
+          "label": "GameGUITotem_UpdateProgress_12e89dc"
+        }
+      ],
+      "ghidraAddress": "013ec9dc",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "GameGUITotem/GameGUITotem_UpdateProgress_12e89dc.cpp"
+    },
+    {
+      "className": "GameGUITotem",
+      "signature": "private void Update() { }",
+      "label": "GameGUITotem_Update_12e8900",
+      "producerRva": 19826944,
+      "fileOffset": 19826944,
+      "virtualAddress": 19843328,
+      "length": 220,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameGUITotem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Update() { }",
+          "label": "GameGUITotem_Update_12e8900"
+        }
+      ],
+      "ghidraAddress": "013ec900",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "GameGUITotem/GameGUITotem_Update_12e8900.cpp"
+    },
+    {
+      "className": "HeadStartButton",
+      "signature": "public HeadStartButton() { }",
+      "label": "HeadStartButton_HeadStartButton_12ed594",
+      "producerRva": 19846548,
+      "fileOffset": 19846548,
+      "virtualAddress": 19862932,
+      "length": 8,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/HeadStartButton.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public HeadStartButton() { }",
+          "label": "HeadStartButton_HeadStartButton_12ed594"
+        }
+      ],
+      "ghidraAddress": "013f1594",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "HeadStartButton/HeadStartButton_HeadStartButton_12ed594.cpp"
+    },
+    {
+      "className": "HeadStartButton",
+      "signature": "private void OnClick() { }",
+      "label": "HeadStartButton_OnClick_12ed360",
+      "producerRva": 19845984,
+      "fileOffset": 19845984,
+      "virtualAddress": 19862368,
+      "length": 120,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/HeadStartButton.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void OnClick() { }",
+          "label": "HeadStartButton_OnClick_12ed360"
+        }
+      ],
+      "ghidraAddress": "013f1360",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "HeadStartButton/HeadStartButton_OnClick_12ed360.cpp"
+    },
+    {
+      "className": "HeadStartButton",
+      "signature": "private void OnEnable() { }",
+      "label": "HeadStartButton_OnEnable_12ed3d8",
+      "producerRva": 19846104,
+      "fileOffset": 19846104,
+      "virtualAddress": 19862488,
+      "length": 444,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/HeadStartButton.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void OnEnable() { }",
+          "label": "HeadStartButton_OnEnable_12ed3d8"
+        }
+      ],
+      "ghidraAddress": "013f13d8",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "HeadStartButton/HeadStartButton_OnEnable_12ed3d8.cpp"
+    },
+    {
+      "className": "HeadStartButton",
+      "signature": "private void Update() { }",
+      "label": "HeadStartButton_Update_12ed26c",
+      "producerRva": 19845740,
+      "fileOffset": 19845740,
+      "virtualAddress": 19862124,
+      "length": 244,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/HeadStartButton.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Update() { }",
+          "label": "HeadStartButton_Update_12ed26c"
+        }
+      ],
+      "ghidraAddress": "013f126c",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "HeadStartButton/HeadStartButton_Update_12ed26c.cpp"
+    },
+    {
+      "className": "MainMenu",
+      "signature": "public virtual void HideAll() { }",
+      "label": "MainMenu_HideAll_12f2410",
+      "producerRva": 19866640,
+      "fileOffset": 19866640,
+      "virtualAddress": 19883024,
+      "length": 28,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/MainMenu.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public virtual void HideAll() { }",
+          "label": "MainMenu_HideAll_12f2410"
+        }
+      ],
+      "ghidraAddress": "013f6410",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "MainMenu/MainMenu_HideAll_12f2410.cpp"
+    },
+    {
+      "className": "MainMenu",
+      "signature": "private void HideMainMenuButtons() { }",
+      "label": "MainMenu_HideMainMenuButtons_12f242c",
+      "producerRva": 19866668,
+      "fileOffset": 19866668,
+      "virtualAddress": 19883052,
+      "length": 32,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/MainMenu.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void HideMainMenuButtons() { }",
+          "label": "MainMenu_HideMainMenuButtons_12f242c"
+        }
+      ],
+      "ghidraAddress": "013f642c",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "MainMenu/MainMenu_HideMainMenuButtons_12f242c.cpp"
+    },
+    {
+      "className": "MainMenu",
+      "signature": "public void OnPlayClicked() { }",
+      "label": "MainMenu_OnPlayClicked_12f244c",
+      "producerRva": 19866700,
+      "fileOffset": 19866700,
+      "virtualAddress": 19883084,
+      "length": 44,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/MainMenu.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public void OnPlayClicked() { }",
+          "label": "MainMenu_OnPlayClicked_12f244c"
+        }
+      ],
+      "ghidraAddress": "013f644c",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "MainMenu/MainMenu_OnPlayClicked_12f244c.cpp"
+    },
+    {
+      "className": "MainMenu",
+      "signature": "public virtual void ShowAll(bool inShowBannerAds = true) { }",
+      "label": "MainMenu_ShowAll_12f2248",
+      "producerRva": 19866184,
+      "fileOffset": 19866184,
+      "virtualAddress": 19882568,
+      "length": 28,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/MainMenu.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public virtual void ShowAll(bool inShowBannerAds = true) { }",
+          "label": "MainMenu_ShowAll_12f2248"
+        }
+      ],
+      "ghidraAddress": "013f6248",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "MainMenu/MainMenu_ShowAll_12f2248.cpp"
+    },
+    {
+      "className": "MainMenu",
+      "signature": "public virtual void SlideIn(BasePanel returnTo) { }",
+      "label": "MainMenu_SlideIn_12f1690",
+      "producerRva": 19863184,
+      "fileOffset": 19863184,
+      "virtualAddress": 19879568,
+      "length": 2188,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/MainMenu.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public virtual void SlideIn(BasePanel returnTo) { }",
+          "label": "MainMenu_SlideIn_12f1690"
+        }
+      ],
+      "ghidraAddress": "013f5690",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "MainMenu/MainMenu_SlideIn_12f1690.cpp"
+    },
+    {
+      "className": "MainMenu",
+      "signature": "public virtual void Start() { }",
+      "label": "MainMenu_Start_12f1444",
+      "producerRva": 19862596,
+      "fileOffset": 19862596,
+      "virtualAddress": 19878980,
+      "length": 492,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/MainMenu.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public virtual void Start() { }",
+          "label": "MainMenu_Start_12f1444"
+        }
+      ],
+      "ghidraAddress": "013f5444",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "MainMenu/MainMenu_Start_12f1444.cpp"
+    },
+    {
+      "className": "OffsetOnWidth",
+      "signature": "public OffsetOnWidth() { }",
+      "label": "OffsetOnWidth_OffsetOnWidth_12f5404",
+      "producerRva": 19878916,
+      "fileOffset": 19878916,
+      "virtualAddress": 19895300,
+      "length": 8,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/OffsetOnWidth.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public OffsetOnWidth() { }",
+          "label": "OffsetOnWidth_OffsetOnWidth_12f5404"
+        }
+      ],
+      "ghidraAddress": "013f9404",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "OffsetOnWidth/OffsetOnWidth_OffsetOnWidth_12f5404.cpp"
+    },
+    {
+      "className": "OffsetOnWidth",
+      "signature": "private void Update() { }",
+      "label": "OffsetOnWidth_Update_12f5274",
+      "producerRva": 19878516,
+      "fileOffset": 19878516,
+      "virtualAddress": 19894900,
+      "length": 400,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/OffsetOnWidth.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Update() { }",
+          "label": "OffsetOnWidth_Update_12f5274"
+        }
+      ],
+      "ghidraAddress": "013f9274",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "OffsetOnWidth/OffsetOnWidth_Update_12f5274.cpp"
+    },
+    {
+      "className": "OptionsGUI",
+      "signature": "private void BackButtonClicked() { }",
+      "label": "OptionsGUI_BackButtonClicked_12f5834",
+      "producerRva": 19879988,
+      "fileOffset": 19879988,
+      "virtualAddress": 19896372,
+      "length": 8,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/OptionsGUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void BackButtonClicked() { }",
+          "label": "OptionsGUI_BackButtonClicked_12f5834"
+        }
+      ],
+      "ghidraAddress": "013f9834",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "OptionsGUI/OptionsGUI_BackButtonClicked_12f5834.cpp"
+    },
+    {
+      "className": "OptionsGUI",
+      "signature": "public virtual void SlideIn(BasePanel returnTo) { }",
+      "label": "OptionsGUI_SlideIn_12f5580",
+      "producerRva": 19879296,
+      "fileOffset": 19879296,
+      "virtualAddress": 19895680,
+      "length": 64,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/OptionsGUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public virtual void SlideIn(BasePanel returnTo) { }",
+          "label": "OptionsGUI_SlideIn_12f5580"
+        }
+      ],
+      "ghidraAddress": "013f9580",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "OptionsGUI/OptionsGUI_SlideIn_12f5580.cpp"
+    },
+    {
+      "className": "OptionsGUI",
+      "signature": "public virtual void Start() { }",
+      "label": "OptionsGUI_Start_12f540c",
+      "producerRva": 19878924,
+      "fileOffset": 19878924,
+      "virtualAddress": 19895308,
+      "length": 372,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/OptionsGUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public virtual void Start() { }",
+          "label": "OptionsGUI_Start_12f540c"
+        }
+      ],
+      "ghidraAddress": "013f940c",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "OptionsGUI/OptionsGUI_Start_12f540c.cpp"
+    },
+    {
+      "className": "PauseMenu",
+      "signature": "private void MainMenuClicked() { }",
+      "label": "PauseMenu_MainMenuClicked_12f6bf0",
+      "producerRva": 19885040,
+      "fileOffset": 19885040,
+      "virtualAddress": 19901424,
+      "length": 432,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/PauseMenu.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void MainMenuClicked() { }",
+          "label": "PauseMenu_MainMenuClicked_12f6bf0"
+        }
+      ],
+      "ghidraAddress": "013fabf0",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "PauseMenu/PauseMenu_MainMenuClicked_12f6bf0.cpp"
+    },
+    {
+      "className": "PauseMenu",
+      "signature": "private void NewGameClicked() { }",
+      "label": "PauseMenu_NewGameClicked_12f6e44",
+      "producerRva": 19885636,
+      "fileOffset": 19885636,
+      "virtualAddress": 19902020,
+      "length": 432,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/PauseMenu.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void NewGameClicked() { }",
+          "label": "PauseMenu_NewGameClicked_12f6e44"
+        }
+      ],
+      "ghidraAddress": "013fae44",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "PauseMenu/PauseMenu_NewGameClicked_12f6e44.cpp"
+    },
+    {
+      "className": "PauseMenu",
+      "signature": "public void ResumeClicked() { }",
+      "label": "PauseMenu_ResumeClicked_12f6da0",
+      "producerRva": 19885472,
+      "fileOffset": 19885472,
+      "virtualAddress": 19901856,
+      "length": 164,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/PauseMenu.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public void ResumeClicked() { }",
+          "label": "PauseMenu_ResumeClicked_12f6da0"
+        }
+      ],
+      "ghidraAddress": "013fada0",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "PauseMenu/PauseMenu_ResumeClicked_12f6da0.cpp"
+    },
+    {
+      "className": "PauseMenu",
+      "signature": "private void Setup() { }",
+      "label": "PauseMenu_Setup_12f6294",
+      "producerRva": 19882644,
+      "fileOffset": 19882644,
+      "virtualAddress": 19899028,
+      "length": 84,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/PauseMenu.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Setup() { }",
+          "label": "PauseMenu_Setup_12f6294"
+        }
+      ],
+      "ghidraAddress": "013fa294",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "PauseMenu/PauseMenu_Setup_12f6294.cpp"
+    },
+    {
+      "className": "PauseMenu",
+      "signature": "public virtual void Start() { }",
+      "label": "PauseMenu_Start_12f5f80",
+      "producerRva": 19881856,
+      "fileOffset": 19881856,
+      "virtualAddress": 19898240,
+      "length": 788,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/PauseMenu.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public virtual void Start() { }",
+          "label": "PauseMenu_Start_12f5f80"
+        }
+      ],
+      "ghidraAddress": "013f9f80",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "PauseMenu/PauseMenu_Start_12f5f80.cpp"
+    },
+    {
+      "className": "PauseMenu",
+      "signature": "private void UpdateStats() { }",
+      "label": "PauseMenu_UpdateStats_12f63e0",
+      "producerRva": 19882976,
+      "fileOffset": 19882976,
+      "virtualAddress": 19899360,
+      "length": 2064,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/PauseMenu.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void UpdateStats() { }",
+          "label": "PauseMenu_UpdateStats_12f63e0"
+        }
+      ],
+      "ghidraAddress": "013fa3e0",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "PauseMenu/PauseMenu_UpdateStats_12f63e0.cpp"
+    },
+    {
+      "className": "PermaWingButton",
+      "signature": "private void OnClick() { }",
+      "label": "PermaWingButton_OnClick_12f7b9c",
+      "producerRva": 19889052,
+      "fileOffset": 19889052,
+      "virtualAddress": 19905436,
+      "length": 100,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/PermaWingButton.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void OnClick() { }",
+          "label": "PermaWingButton_OnClick_12f7b9c"
+        }
+      ],
+      "ghidraAddress": "013fbb9c",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "PermaWingButton/PermaWingButton_OnClick_12f7b9c.cpp"
+    },
+    {
+      "className": "PermaWingButton",
+      "signature": "private void OnEnable() { }",
+      "label": "PermaWingButton_OnEnable_12f7a38",
+      "producerRva": 19888696,
+      "fileOffset": 19888696,
+      "virtualAddress": 19905080,
+      "length": 356,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/PermaWingButton.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void OnEnable() { }",
+          "label": "PermaWingButton_OnEnable_12f7a38"
+        }
+      ],
+      "ghidraAddress": "013fba38",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "PermaWingButton/PermaWingButton_OnEnable_12f7a38.cpp"
+    },
+    {
+      "className": "PermaWingButton",
+      "signature": "public PermaWingButton() { }",
+      "label": "PermaWingButton_PermaWingButton_12f7c00",
+      "producerRva": 19889152,
+      "fileOffset": 19889152,
+      "virtualAddress": 19905536,
+      "length": 8,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/PermaWingButton.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public PermaWingButton() { }",
+          "label": "PermaWingButton_PermaWingButton_12f7c00"
+        }
+      ],
+      "ghidraAddress": "013fbc00",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "PermaWingButton/PermaWingButton_PermaWingButton_12f7c00.cpp"
+    },
+    {
+      "className": "PermaWingButton",
+      "signature": "private void Update() { }",
+      "label": "PermaWingButton_Update_12f7944",
+      "producerRva": 19888452,
+      "fileOffset": 19888452,
+      "virtualAddress": 19904836,
+      "length": 244,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/PermaWingButton.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Update() { }",
+          "label": "PermaWingButton_Update_12f7944"
+        }
+      ],
+      "ghidraAddress": "013fb944",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "PermaWingButton/PermaWingButton_Update_12f7944.cpp"
+    },
+    {
+      "className": "RecordManager",
+      "signature": "private void AddAchievement(string aId, string aName, string aPreDescription, string aPostDescription = null, bool aHidden = false) { }",
+      "label": "RecordManager_AddAchievement_12b2524",
+      "producerRva": 19604772,
+      "fileOffset": 19604772,
+      "virtualAddress": 19621156,
+      "length": 284,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/RecordManager.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void AddAchievement(string aId, string aName, string aPreDescription, string aPostDescription = null, bool aHidden = false) { }",
+          "label": "RecordManager_AddAchievement_12b2524"
+        }
+      ],
+      "ghidraAddress": "013b6524",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "RecordManager/RecordManager_AddAchievement_12b2524.cpp"
+    },
+    {
+      "className": "RecordManager",
+      "signature": "private void SetupAchievements() { }",
+      "label": "RecordManager_SetupAchievements_12af14c",
+      "producerRva": 19591500,
+      "fileOffset": 19591500,
+      "virtualAddress": 19607884,
+      "length": 6120,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/RecordManager.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void SetupAchievements() { }",
+          "label": "RecordManager_SetupAchievements_12af14c"
+        }
+      ],
+      "ghidraAddress": "013b314c",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+    },
+    {
+      "className": "StoreGUI",
+      "signature": "private void AdjustCoins() { }",
+      "label": "StoreGUI_AdjustCoins_12f9bfc",
+      "producerRva": 19897340,
+      "fileOffset": 19897340,
+      "virtualAddress": 19913724,
+      "length": 212,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/StoreGUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void AdjustCoins() { }",
+          "label": "StoreGUI_AdjustCoins_12f9bfc"
+        }
+      ],
+      "ghidraAddress": "013fdbfc",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "StoreGUI/StoreGUI_AdjustCoins_12f9bfc.cpp"
+    },
+    {
+      "className": "StoreGUI",
+      "signature": "private void BackClicked() { }",
+      "label": "StoreGUI_BackClicked_12fa7ec",
+      "producerRva": 19900396,
+      "fileOffset": 19900396,
+      "virtualAddress": 19916780,
+      "length": 8,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/StoreGUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void BackClicked() { }",
+          "label": "StoreGUI_BackClicked_12fa7ec"
+        }
+      ],
+      "ghidraAddress": "013fe7ec",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "StoreGUI/StoreGUI_BackClicked_12fa7ec.cpp"
+    },
+    {
+      "className": "StoreGUI",
+      "signature": "public virtual void HideAll() { }",
+      "label": "StoreGUI_HideAll_12f9f54",
+      "producerRva": 19898196,
+      "fileOffset": 19898196,
+      "virtualAddress": 19914580,
+      "length": 28,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/StoreGUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public virtual void HideAll() { }",
+          "label": "StoreGUI_HideAll_12f9f54"
+        }
+      ],
+      "ghidraAddress": "013fdf54",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "StoreGUI/StoreGUI_HideAll_12f9f54.cpp"
+    },
+    {
+      "className": "StoreGUI",
+      "signature": "private void ReconfigureStoreItems() { }",
+      "label": "StoreGUI_ReconfigureStoreItems_12f9b84",
+      "producerRva": 19897220,
+      "fileOffset": 19897220,
+      "virtualAddress": 19913604,
+      "length": 120,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/StoreGUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void ReconfigureStoreItems() { }",
+          "label": "StoreGUI_ReconfigureStoreItems_12f9b84"
+        }
+      ],
+      "ghidraAddress": "013fdb84",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "StoreGUI/StoreGUI_ReconfigureStoreItems_12f9b84.cpp"
+    },
+    {
+      "className": "StoreGUI",
+      "signature": "private void Setup() { }",
+      "label": "StoreGUI_Setup_12f93bc",
+      "producerRva": 19895228,
+      "fileOffset": 19895228,
+      "virtualAddress": 19911612,
+      "length": 124,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/StoreGUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Setup() { }",
+          "label": "StoreGUI_Setup_12f93bc"
+        }
+      ],
+      "ghidraAddress": "013fd3bc",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "StoreGUI/StoreGUI_Setup_12f93bc.cpp"
+    },
+    {
+      "className": "StoreGUI",
+      "signature": "public virtual void ShowAll(bool inShowBannerAds = true) { }",
+      "label": "StoreGUI_ShowAll_12f9944",
+      "producerRva": 19896644,
+      "fileOffset": 19896644,
+      "virtualAddress": 19913028,
+      "length": 576,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/StoreGUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public virtual void ShowAll(bool inShowBannerAds = true) { }",
+          "label": "StoreGUI_ShowAll_12f9944"
+        }
+      ],
+      "ghidraAddress": "013fd944",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "StoreGUI/StoreGUI_ShowAll_12f9944.cpp"
+    },
+    {
+      "className": "StoreGUI",
+      "signature": "public virtual void SlideIn(BasePanel returnTo) { }",
+      "label": "StoreGUI_SlideIn_12fa548",
+      "producerRva": 19899720,
+      "fileOffset": 19899720,
+      "virtualAddress": 19916104,
+      "length": 540,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/StoreGUI.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public virtual void SlideIn(BasePanel returnTo) { }",
+          "label": "StoreGUI_SlideIn_12fa548"
+        }
+      ],
+      "ghidraAddress": "013fe548",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "StoreGUI/StoreGUI_SlideIn_12fa548.cpp"
+    },
+    {
+      "className": "StoreItem",
+      "signature": "private void ActivateCharacter(StoreItemType type) { }",
+      "label": "StoreItem_ActivateCharacter_12fd2b4",
+      "producerRva": 19911348,
+      "fileOffset": 19911348,
+      "virtualAddress": 19927732,
+      "length": 416,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/StoreItem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void ActivateCharacter(StoreItemType type) { }",
+          "label": "StoreItem_ActivateCharacter_12fd2b4"
+        }
+      ],
+      "ghidraAddress": "014012b4",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "StoreItem/StoreItem_ActivateCharacter_12fd2b4.cpp"
+    },
+    {
+      "className": "StoreItem",
+      "signature": "private void BuyItem() { }",
+      "label": "StoreItem_BuyItem_12fd520",
+      "producerRva": 19911968,
+      "fileOffset": 19911968,
+      "virtualAddress": 19928352,
+      "length": 3844,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/StoreItem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void BuyItem() { }",
+          "label": "StoreItem_BuyItem_12fd520"
+        }
+      ],
+      "ghidraAddress": "01401520",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "StoreItem/StoreItem_BuyItem_12fd520.cpp"
+    },
+    {
+      "className": "StoreItem",
+      "signature": "public void Configure() { }",
+      "label": "StoreItem_Configure_12fb958",
+      "producerRva": 19904856,
+      "fileOffset": 19904856,
+      "virtualAddress": 19921240,
+      "length": 476,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/StoreItem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public void Configure() { }",
+          "label": "StoreItem_Configure_12fb958"
+        }
+      ],
+      "ghidraAddress": "013ff958",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "StoreItem/StoreItem_Configure_12fb958.cpp"
+    },
+    {
+      "className": "StoreItem",
+      "signature": "private void OnClick() { }",
+      "label": "StoreItem_OnClick_12fd0b0",
+      "producerRva": 19910832,
+      "fileOffset": 19910832,
+      "virtualAddress": 19927216,
+      "length": 516,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/StoreItem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void OnClick() { }",
+          "label": "StoreItem_OnClick_12fd0b0"
+        }
+      ],
+      "ghidraAddress": "014010b0",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "StoreItem/StoreItem_OnClick_12fd0b0.cpp"
+    },
+    {
+      "className": "StoreItem",
+      "signature": "public void Reconfigure() { }",
+      "label": "StoreItem_Reconfigure_12fbb8c",
+      "producerRva": 19905420,
+      "fileOffset": 19905420,
+      "virtualAddress": 19921804,
+      "length": 20,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/StoreItem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public void Reconfigure() { }",
+          "label": "StoreItem_Reconfigure_12fbb8c"
+        }
+      ],
+      "ghidraAddress": "013ffb8c",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "StoreItem/StoreItem_Reconfigure_12fbb8c.cpp"
+    },
+    {
+      "className": "StoreItem",
+      "signature": "private void SetIcon() { }",
+      "label": "StoreItem_SetIcon_12fbc24",
+      "producerRva": 19905572,
+      "fileOffset": 19905572,
+      "virtualAddress": 19921956,
+      "length": 184,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/StoreItem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void SetIcon() { }",
+          "label": "StoreItem_SetIcon_12fbc24"
+        }
+      ],
+      "ghidraAddress": "013ffc24",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "StoreItem/StoreItem_SetIcon_12fbc24.cpp"
+    },
+    {
+      "className": "StoreItem",
+      "signature": "private void Start() { }",
+      "label": "StoreItem_Start_12fb954",
+      "producerRva": 19904852,
+      "fileOffset": 19904852,
+      "virtualAddress": 19921236,
+      "length": 4,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/StoreItem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Start() { }",
+          "label": "StoreItem_Start_12fb954"
+        }
+      ],
+      "ghidraAddress": "013ff954",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "StoreItem/StoreItem_Start_12fb954.cpp"
+    },
+    {
+      "className": "StoreItem",
+      "signature": "private void UpdateBar() { }",
+      "label": "StoreItem_UpdateBar_12fcde8",
+      "producerRva": 19910120,
+      "fileOffset": 19910120,
+      "virtualAddress": 19926504,
+      "length": 712,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/StoreItem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void UpdateBar() { }",
+          "label": "StoreItem_UpdateBar_12fcde8"
+        }
+      ],
+      "ghidraAddress": "01400de8",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "StoreItem/StoreItem_UpdateBar_12fcde8.cpp"
+    },
+    {
+      "className": "StoreItem",
+      "signature": "private void UpdateClass() { }",
+      "label": "StoreItem_UpdateClass_12fbba0",
+      "producerRva": 19905440,
+      "fileOffset": 19905440,
+      "virtualAddress": 19921824,
+      "length": 132,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/StoreItem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void UpdateClass() { }",
+          "label": "StoreItem_UpdateClass_12fbba0"
+        }
+      ],
+      "ghidraAddress": "013ffba0",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "StoreItem/StoreItem_UpdateClass_12fbba0.cpp"
+    },
+    {
+      "className": "StoreItem",
+      "signature": "private void UpdateDescription() { }",
+      "label": "StoreItem_UpdateDescription_12fc418",
+      "producerRva": 19907608,
+      "fileOffset": 19907608,
+      "virtualAddress": 19923992,
+      "length": 2512,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/StoreItem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void UpdateDescription() { }",
+          "label": "StoreItem_UpdateDescription_12fc418"
+        }
+      ],
+      "ghidraAddress": "01400418",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "StoreItem/StoreItem_UpdateDescription_12fc418.cpp"
+    },
+    {
+      "className": "StoreItem",
+      "signature": "private void UpdatePrice() { }",
+      "label": "StoreItem_UpdatePrice_12fbcdc",
+      "producerRva": 19905756,
+      "fileOffset": 19905756,
+      "virtualAddress": 19922140,
+      "length": 1852,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/StoreItem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void UpdatePrice() { }",
+          "label": "StoreItem_UpdatePrice_12fbcdc"
+        }
+      ],
+      "ghidraAddress": "013ffcdc",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "StoreItem/StoreItem_UpdatePrice_12fbcdc.cpp"
+    },
+    {
+      "className": "StoreItem",
+      "signature": "private void Update() { }",
+      "label": "StoreItem_Update_12fbb34",
+      "producerRva": 19905332,
+      "fileOffset": 19905332,
+      "virtualAddress": 19921716,
+      "length": 56,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/StoreItem.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Update() { }",
+          "label": "StoreItem_Update_12fbb34"
+        }
+      ],
+      "ghidraAddress": "013ffb34",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "StoreItem/StoreItem_Update_12fbb34.cpp"
+    },
+    {
+      "className": "TR1LocalizeString",
+      "signature": "public TR1LocalizeString() { }",
+      "label": "TR1LocalizeString_TR1LocalizeString_13069a8",
+      "producerRva": 19949992,
+      "fileOffset": 19949992,
+      "virtualAddress": 19966376,
+      "length": 16,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/TR1LocalizeString.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public TR1LocalizeString() { }",
+          "label": "TR1LocalizeString_TR1LocalizeString_13069a8"
+        }
+      ],
+      "ghidraAddress": "0140a9a8",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "TR1LocalizeString/TR1LocalizeString_TR1LocalizeString_13069a8.cpp"
+    },
+    {
+      "className": "TR1LocalizeString",
+      "signature": "protected virtual void UpdateString(string value) { }",
+      "label": "TR1LocalizeString_UpdateString_130666c",
+      "producerRva": 19949164,
+      "fileOffset": 19949164,
+      "virtualAddress": 19965548,
+      "length": 828,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/TR1LocalizeString.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "protected virtual void UpdateString(string value) { }",
+          "label": "TR1LocalizeString_UpdateString_130666c"
+        }
+      ],
+      "ghidraAddress": "0140a66c",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "TR1LocalizeString/TR1LocalizeString_UpdateString_130666c.cpp"
+    },
+    {
+      "className": "TR1LocalizeStringMainMenuButtons",
+      "signature": "private void AdjustBoxCollider() { }",
+      "label": "TR1LocalizeStringMainMenuButtons_AdjustBoxCollider_1306db8",
+      "producerRva": 19951032,
+      "fileOffset": 19951032,
+      "virtualAddress": 19967416,
+      "length": 644,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/TR1LocalizeStringMainMenuButtons.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void AdjustBoxCollider() { }",
+          "label": "TR1LocalizeStringMainMenuButtons_AdjustBoxCollider_1306db8"
+        }
+      ],
+      "ghidraAddress": "0140adb8",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "TR1LocalizeStringMainMenuButtons/TR1LocalizeStringMainMenuButtons_AdjustBoxCollider_1306db8.cpp"
+    },
+    {
+      "className": "TR1LocalizeStringMainMenuButtons",
+      "signature": "private void AdjustLabelSize() { }",
+      "label": "TR1LocalizeStringMainMenuButtons_AdjustLabelSize_1306bc8",
+      "producerRva": 19950536,
+      "fileOffset": 19950536,
+      "virtualAddress": 19966920,
+      "length": 496,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/TR1LocalizeStringMainMenuButtons.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void AdjustLabelSize() { }",
+          "label": "TR1LocalizeStringMainMenuButtons_AdjustLabelSize_1306bc8"
+        }
+      ],
+      "ghidraAddress": "0140abc8",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "TR1LocalizeStringMainMenuButtons/TR1LocalizeStringMainMenuButtons_AdjustLabelSize_1306bc8.cpp"
+    },
+    {
+      "className": "TR1LocalizeStringMainMenuButtons",
+      "signature": "private void AdjustVariablesForRussian() { }",
+      "label": "TR1LocalizeStringMainMenuButtons_AdjustVariablesForRussian_1306ad8",
+      "producerRva": 19950296,
+      "fileOffset": 19950296,
+      "virtualAddress": 19966680,
+      "length": 172,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/TR1LocalizeStringMainMenuButtons.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void AdjustVariablesForRussian() { }",
+          "label": "TR1LocalizeStringMainMenuButtons_AdjustVariablesForRussian_1306ad8"
+        }
+      ],
+      "ghidraAddress": "0140aad8",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "TR1LocalizeStringMainMenuButtons/TR1LocalizeStringMainMenuButtons_AdjustVariablesForRussian_1306ad8.cpp"
+    },
+    {
+      "className": "TR1LocalizeStringMainMenuButtons",
+      "signature": "private void ConvertTextToUpperCase() { }",
+      "label": "TR1LocalizeStringMainMenuButtons_ConvertTextToUpperCase_1306b84",
+      "producerRva": 19950468,
+      "fileOffset": 19950468,
+      "virtualAddress": 19966852,
+      "length": 68,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/TR1LocalizeStringMainMenuButtons.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void ConvertTextToUpperCase() { }",
+          "label": "TR1LocalizeStringMainMenuButtons_ConvertTextToUpperCase_1306b84"
+        }
+      ],
+      "ghidraAddress": "0140ab84",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "TR1LocalizeStringMainMenuButtons/TR1LocalizeStringMainMenuButtons_ConvertTextToUpperCase_1306b84.cpp"
+    },
+    {
+      "className": "TR1LocalizeStringMainMenuButtons",
+      "signature": "private void Start() { }",
+      "label": "TR1LocalizeStringMainMenuButtons_Start_13069b8",
+      "producerRva": 19950008,
+      "fileOffset": 19950008,
+      "virtualAddress": 19966392,
+      "length": 80,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/TR1LocalizeStringMainMenuButtons.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Start() { }",
+          "label": "TR1LocalizeStringMainMenuButtons_Start_13069b8"
+        }
+      ],
+      "ghidraAddress": "0140a9b8",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "TR1LocalizeStringMainMenuButtons/TR1LocalizeStringMainMenuButtons_Start_13069b8.cpp"
+    },
+    {
+      "className": "TR1LocalizeStringMainMenuButtons",
+      "signature": "public TR1LocalizeStringMainMenuButtons() { }",
+      "label": "TR1LocalizeStringMainMenuButtons_TR1LocalizeStringMainMenuButtons_130703c",
+      "producerRva": 19951676,
+      "fileOffset": 19951676,
+      "virtualAddress": 19968060,
+      "length": 16,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/TR1LocalizeStringMainMenuButtons.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public TR1LocalizeStringMainMenuButtons() { }",
+          "label": "TR1LocalizeStringMainMenuButtons_TR1LocalizeStringMainMenuButtons_130703c"
+        }
+      ],
+      "ghidraAddress": "0140b03c",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "TR1LocalizeStringMainMenuButtons/TR1LocalizeStringMainMenuButtons_TR1LocalizeStringMainMenuButtons_130703c.cpp"
+    },
+    {
+      "className": "TR1LocalizeStringMainMenuButtons",
+      "signature": "protected virtual void UpdateString(string value) { }",
+      "label": "TR1LocalizeStringMainMenuButtons_UpdateString_1306a08",
+      "producerRva": 19950088,
+      "fileOffset": 19950088,
+      "virtualAddress": 19966472,
+      "length": 208,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/TR1LocalizeStringMainMenuButtons.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "protected virtual void UpdateString(string value) { }",
+          "label": "TR1LocalizeStringMainMenuButtons_UpdateString_1306a08"
+        }
+      ],
+      "ghidraAddress": "0140aa08",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "TR1LocalizeStringMainMenuButtons/TR1LocalizeStringMainMenuButtons_UpdateString_1306a08.cpp"
+    },
+    {
+      "className": "UIAnchor",
+      "signature": "public void AnchorItem() { }",
+      "label": "UIAnchor_AnchorItem_120c2dc",
+      "producerRva": 18924252,
+      "fileOffset": 18924252,
+      "virtualAddress": 18940636,
+      "length": 968,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIAnchor.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public void AnchorItem() { }",
+          "label": "UIAnchor_AnchorItem_120c2dc"
+        }
+      ],
+      "ghidraAddress": "013102dc",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIAnchor/UIAnchor_AnchorItem_120c2dc.cpp"
+    },
+    {
+      "className": "UIAnchor",
+      "signature": "private void OnEnable() { }",
+      "label": "UIAnchor_OnEnable_120c1dc",
+      "producerRva": 18923996,
+      "fileOffset": 18923996,
+      "virtualAddress": 18940380,
+      "length": 256,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIAnchor.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void OnEnable() { }",
+          "label": "UIAnchor_OnEnable_120c1dc"
+        }
+      ],
+      "ghidraAddress": "013101dc",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIAnchor/UIAnchor_OnEnable_120c1dc.cpp"
+    },
+    {
+      "className": "UIAnchor",
+      "signature": "private void Start() { }",
+      "label": "UIAnchor_Start_120c160",
+      "producerRva": 18923872,
+      "fileOffset": 18923872,
+      "virtualAddress": 18940256,
+      "length": 124,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIAnchor.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Start() { }",
+          "label": "UIAnchor_Start_120c160"
+        }
+      ],
+      "ghidraAddress": "01310160",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIAnchor/UIAnchor_Start_120c160.cpp"
+    },
+    {
+      "className": "UIButtonMessage",
+      "signature": "private void OnClick() { }",
+      "label": "UIButtonMessage_OnClick_11f0d6c",
+      "producerRva": 18812268,
+      "fileOffset": 18812268,
+      "virtualAddress": 18828652,
+      "length": 48,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIButtonMessage.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void OnClick() { }",
+          "label": "UIButtonMessage_OnClick_11f0d6c"
+        }
+      ],
+      "ghidraAddress": "012f4d6c",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIButtonMessage/UIButtonMessage_OnClick_11f0d6c.cpp"
+    },
+    {
+      "className": "UIButtonMessage",
+      "signature": "private void Send() { }",
+      "label": "UIButtonMessage_Send_11f0b90",
+      "producerRva": 18811792,
+      "fileOffset": 18811792,
+      "virtualAddress": 18828176,
+      "length": 396,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIButtonMessage.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Send() { }",
+          "label": "UIButtonMessage_Send_11f0b90"
+        }
+      ],
+      "ghidraAddress": "012f4b90",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIButtonMessage/UIButtonMessage_Send_11f0b90.cpp"
+    },
+    {
+      "className": "UIButtonMessage",
+      "signature": "private void Start() { }",
+      "label": "UIButtonMessage_Start_11f0a9c",
+      "producerRva": 18811548,
+      "fileOffset": 18811548,
+      "virtualAddress": 18827932,
+      "length": 12,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIButtonMessage.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Start() { }",
+          "label": "UIButtonMessage_Start_11f0a9c"
+        }
+      ],
+      "ghidraAddress": "012f4a9c",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIButtonMessage/UIButtonMessage_Start_11f0a9c.cpp"
+    },
+    {
+      "className": "UIButtonMessage2",
+      "signature": "private void OnClick() { }",
+      "label": "UIButtonMessage2_OnClick_12f3ac8",
+      "producerRva": 19872456,
+      "fileOffset": 19872456,
+      "virtualAddress": 19888840,
+      "length": 16,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIButtonMessage2.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void OnClick() { }",
+          "label": "UIButtonMessage2_OnClick_12f3ac8"
+        }
+      ],
+      "ghidraAddress": "013f7ac8",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIButtonMessage2/UIButtonMessage2_OnClick_12f3ac8.cpp"
+    },
+    {
+      "className": "UIButtonMessage2",
+      "signature": "private void OnPress(bool isPressed) { }",
+      "label": "UIButtonMessage2_OnPress_12f3aa8",
+      "producerRva": 19872424,
+      "fileOffset": 19872424,
+      "virtualAddress": 19888808,
+      "length": 32,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIButtonMessage2.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void OnPress(bool isPressed) { }",
+          "label": "UIButtonMessage2_OnPress_12f3aa8"
+        }
+      ],
+      "ghidraAddress": "013f7aa8",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIButtonMessage2/UIButtonMessage2_OnPress_12f3aa8.cpp"
+    },
+    {
+      "className": "UIButtonMessage2",
+      "signature": "private void Send() { }",
+      "label": "UIButtonMessage2_Send_12f3890",
+      "producerRva": 19871888,
+      "fileOffset": 19871888,
+      "virtualAddress": 19888272,
+      "length": 536,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIButtonMessage2.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Send() { }",
+          "label": "UIButtonMessage2_Send_12f3890"
+        }
+      ],
+      "ghidraAddress": "013f7890",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIButtonMessage2/UIButtonMessage2_Send_12f3890.cpp"
+    },
+    {
+      "className": "UIButtonScale",
+      "signature": "private void OnEnable() { }",
+      "label": "UIButtonScale_OnEnable_11f1c80",
+      "producerRva": 18816128,
+      "fileOffset": 18816128,
+      "virtualAddress": 18832512,
+      "length": 148,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIButtonScale.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void OnEnable() { }",
+          "label": "UIButtonScale_OnEnable_11f1c80"
+        }
+      ],
+      "ghidraAddress": "012f5c80",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIButtonScale/UIButtonScale_OnEnable_11f1c80.cpp"
+    },
+    {
+      "className": "UIButtonScale",
+      "signature": "private void OnPress(bool isPressed) { }",
+      "label": "UIButtonScale_OnPress_11f1f2c",
+      "producerRva": 18816812,
+      "fileOffset": 18816812,
+      "virtualAddress": 18833196,
+      "length": 280,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIButtonScale.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void OnPress(bool isPressed) { }",
+          "label": "UIButtonScale_OnPress_11f1f2c"
+        }
+      ],
+      "ghidraAddress": "012f5f2c",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIButtonScale/UIButtonScale_OnPress_11f1f2c.cpp"
+    },
+    {
+      "className": "UIButtonScale",
+      "signature": "private void Start() { }",
+      "label": "UIButtonScale_Start_11f1c74",
+      "producerRva": 18816116,
+      "fileOffset": 18816116,
+      "virtualAddress": 18832500,
+      "length": 12,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIButtonScale.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Start() { }",
+          "label": "UIButtonScale_Start_11f1c74"
+        }
+      ],
+      "ghidraAddress": "012f5c74",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIButtonScale/UIButtonScale_Start_11f1c74.cpp"
+    },
+    {
+      "className": "UICheckbox",
+      "signature": "private void Awake() { }",
+      "label": "UICheckbox_Awake_11f2b54",
+      "producerRva": 18819924,
+      "fileOffset": 18819924,
+      "virtualAddress": 18836308,
+      "length": 232,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UICheckbox.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Awake() { }",
+          "label": "UICheckbox_Awake_11f2b54"
+        }
+      ],
+      "ghidraAddress": "012f6b54",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UICheckbox/UICheckbox_Awake_11f2b54.cpp"
+    },
+    {
+      "className": "UICheckbox",
+      "signature": "private void OnClick() { }",
+      "label": "UICheckbox_OnClick_11f2ccc",
+      "producerRva": 18820300,
+      "fileOffset": 18820300,
+      "virtualAddress": 18836684,
+      "length": 52,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UICheckbox.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void OnClick() { }",
+          "label": "UICheckbox_OnClick_11f2ccc"
+        }
+      ],
+      "ghidraAddress": "012f6ccc",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UICheckbox/UICheckbox_OnClick_11f2ccc.cpp"
+    },
+    {
+      "className": "UICheckbox",
+      "signature": "private void Start() { }",
+      "label": "UICheckbox_Start_11f2c3c",
+      "producerRva": 18820156,
+      "fileOffset": 18820156,
+      "virtualAddress": 18836540,
+      "length": 144,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UICheckbox.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Start() { }",
+          "label": "UICheckbox_Start_11f2c3c"
+        }
+      ],
+      "ghidraAddress": "012f6c3c",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UICheckbox/UICheckbox_Start_11f2c3c.cpp"
+    },
+    {
+      "className": "UICheckbox",
+      "signature": "public bool get_isChecked() { }",
+      "label": "UICheckbox_get_isChecked_11f2744",
+      "producerRva": 18818884,
+      "fileOffset": 18818884,
+      "virtualAddress": 18835268,
+      "length": 8,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UICheckbox.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "get { } //Length: 8",
+          "label": "UICheckbox_8_11f2744"
+        },
+        {
+          "signature": "public bool get_isChecked() { }",
+          "label": "UICheckbox_get_isChecked_11f2744"
+        }
+      ],
+      "ghidraAddress": "012f6744",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UICheckbox/UICheckbox_get_isChecked_11f2744.cpp"
+    },
+    {
+      "className": "UICheckbox",
+      "signature": "public void set_isChecked(bool value) { }",
+      "label": "UICheckbox_set_isChecked_11f274c",
+      "producerRva": 18818892,
+      "fileOffset": 18818892,
+      "virtualAddress": 18835276,
+      "length": 160,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UICheckbox.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "set { } //Length: 160",
+          "label": "UICheckbox_160_11f274c"
+        },
+        {
+          "signature": "public void set_isChecked(bool value) { }",
+          "label": "UICheckbox_set_isChecked_11f274c"
+        }
+      ],
+      "ghidraAddress": "012f674c",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UICheckbox/UICheckbox_set_isChecked_11f274c.cpp"
+    },
+    {
+      "className": "UIFilledSprite",
+      "signature": "private bool AdjustRadial(Vector2[] xy, Vector2[] uv, float fill, bool invert) { }",
+      "label": "UIFilledSprite_AdjustRadial_1211324",
+      "producerRva": 18944804,
+      "fileOffset": 18944804,
+      "virtualAddress": 18961188,
+      "length": 688,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIFilledSprite.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private bool AdjustRadial(Vector2[] xy, Vector2[] uv, float fill, bool invert) { }",
+          "label": "UIFilledSprite_AdjustRadial_1211324"
+        }
+      ],
+      "ghidraAddress": "01315324",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIFilledSprite/UIFilledSprite_AdjustRadial_1211324.cpp"
+    },
+    {
+      "className": "UIFilledSprite",
+      "signature": "public virtual void OnFill(BetterList<Vector3> verts, BetterList<Vector2> uvs, BetterList<Color> cols) { }",
+      "label": "UIFilledSprite_OnFill_1211628",
+      "producerRva": 18945576,
+      "fileOffset": 18945576,
+      "virtualAddress": 18961960,
+      "length": 3228,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIFilledSprite.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public virtual void OnFill(BetterList<Vector3> verts, BetterList<Vector2> uvs, BetterList<Color> cols) { }",
+          "label": "UIFilledSprite_OnFill_1211628"
+        }
+      ],
+      "ghidraAddress": "01315628",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIFilledSprite/UIFilledSprite_OnFill_1211628.cpp"
+    },
+    {
+      "className": "UIFilledSprite",
+      "signature": "private void Rotate(Vector2[] v, int offset) { }",
+      "label": "UIFilledSprite_Rotate_12115d4",
+      "producerRva": 18945492,
+      "fileOffset": 18945492,
+      "virtualAddress": 18961876,
+      "length": 84,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIFilledSprite.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Rotate(Vector2[] v, int offset) { }",
+          "label": "UIFilledSprite_Rotate_12115d4"
+        }
+      ],
+      "ghidraAddress": "013155d4",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIFilledSprite/UIFilledSprite_Rotate_12115d4.cpp"
+    },
+    {
+      "className": "UIFilledSprite",
+      "signature": "public UIFilledSprite() { }",
+      "label": "UIFilledSprite_UIFilledSprite_12122c4",
+      "producerRva": 18948804,
+      "fileOffset": 18948804,
+      "virtualAddress": 18965188,
+      "length": 20,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIFilledSprite.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public UIFilledSprite() { }",
+          "label": "UIFilledSprite_UIFilledSprite_12122c4"
+        }
+      ],
+      "ghidraAddress": "013162c4",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIFilledSprite/UIFilledSprite_UIFilledSprite_12122c4.cpp"
+    },
+    {
+      "className": "UIFilledSprite",
+      "signature": "public float get_fillAmount() { }",
+      "label": "UIFilledSprite_get_fillAmount_12112c4",
+      "producerRva": 18944708,
+      "fileOffset": 18944708,
+      "virtualAddress": 18961092,
+      "length": 8,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIFilledSprite.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "get { } //Length: 8",
+          "label": "UIFilledSprite_8_12112c4"
+        },
+        {
+          "signature": "public float get_fillAmount() { }",
+          "label": "UIFilledSprite_get_fillAmount_12112c4"
+        }
+      ],
+      "ghidraAddress": "013152c4",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIFilledSprite/UIFilledSprite_get_fillAmount_12112c4.cpp"
+    },
+    {
+      "className": "UIFilledSprite",
+      "signature": "public FillDirection get_fillDirection() { }",
+      "label": "UIFilledSprite_get_fillDirection_12112a0",
+      "producerRva": 18944672,
+      "fileOffset": 18944672,
+      "virtualAddress": 18961056,
+      "length": 8,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIFilledSprite.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "get { } //Length: 8",
+          "label": "UIFilledSprite_8_12112a0"
+        },
+        {
+          "signature": "public FillDirection get_fillDirection() { }",
+          "label": "UIFilledSprite_get_fillDirection_12112a0"
+        }
+      ],
+      "ghidraAddress": "013152a0",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIFilledSprite/UIFilledSprite_get_fillDirection_12112a0.cpp"
+    },
+    {
+      "className": "UIFilledSprite",
+      "signature": "public bool get_invert() { }",
+      "label": "UIFilledSprite_get_invert_12112fc",
+      "producerRva": 18944764,
+      "fileOffset": 18944764,
+      "virtualAddress": 18961148,
+      "length": 8,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIFilledSprite.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "get { } //Length: 8",
+          "label": "UIFilledSprite_8_12112fc"
+        },
+        {
+          "signature": "public bool get_invert() { }",
+          "label": "UIFilledSprite_get_invert_12112fc"
+        }
+      ],
+      "ghidraAddress": "013152fc",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIFilledSprite/UIFilledSprite_get_invert_12112fc.cpp"
+    },
+    {
+      "className": "UIFilledSprite",
+      "signature": "public void set_fillAmount(float value) { }",
+      "label": "UIFilledSprite_set_fillAmount_12112cc",
+      "producerRva": 18944716,
+      "fileOffset": 18944716,
+      "virtualAddress": 18961100,
+      "length": 48,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIFilledSprite.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "set { } //Length: 48",
+          "label": "UIFilledSprite_48_12112cc"
+        },
+        {
+          "signature": "public void set_fillAmount(float value) { }",
+          "label": "UIFilledSprite_set_fillAmount_12112cc"
+        }
+      ],
+      "ghidraAddress": "013152cc",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIFilledSprite/UIFilledSprite_set_fillAmount_12112cc.cpp"
+    },
+    {
+      "className": "UIFilledSprite",
+      "signature": "public void set_fillDirection(FillDirection value) { }",
+      "label": "UIFilledSprite_set_fillDirection_12112a8",
+      "producerRva": 18944680,
+      "fileOffset": 18944680,
+      "virtualAddress": 18961064,
+      "length": 28,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIFilledSprite.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "set { } //Length: 28",
+          "label": "UIFilledSprite_28_12112a8"
+        },
+        {
+          "signature": "public void set_fillDirection(FillDirection value) { }",
+          "label": "UIFilledSprite_set_fillDirection_12112a8"
+        }
+      ],
+      "ghidraAddress": "013152a8",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIFilledSprite/UIFilledSprite_set_fillDirection_12112a8.cpp"
+    },
+    {
+      "className": "UIFilledSprite",
+      "signature": "public void set_invert(bool value) { }",
+      "label": "UIFilledSprite_set_invert_1211304",
+      "producerRva": 18944772,
+      "fileOffset": 18944772,
+      "virtualAddress": 18961156,
+      "length": 32,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIFilledSprite.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "set { } //Length: 32",
+          "label": "UIFilledSprite_32_1211304"
+        },
+        {
+          "signature": "public void set_invert(bool value) { }",
+          "label": "UIFilledSprite_set_invert_1211304"
+        }
+      ],
+      "ghidraAddress": "01315304",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIFilledSprite/UIFilledSprite_set_invert_1211304.cpp"
+    },
+    {
+      "className": "UIFont",
+      "signature": "public Vector2 CalculatePrintedSize(string text, bool encoding, SymbolStyle symbolStyle) { }",
+      "label": "UIFont_CalculatePrintedSize_129e838",
+      "producerRva": 19523640,
+      "fileOffset": 19523640,
+      "virtualAddress": 19540024,
+      "length": 696,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIFont.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public Vector2 CalculatePrintedSize(string text, bool encoding, SymbolStyle symbolStyle) { }",
+          "label": "UIFont_CalculatePrintedSize_129e838"
+        }
+      ],
+      "ghidraAddress": "013a2838",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIFont/UIFont_CalculatePrintedSize_129e838.cpp"
+    },
+    {
+      "className": "UIFont",
+      "signature": "public void Print(string text, Color color, BetterList<Vector3> verts, BetterList<Vector2> uvs, BetterList<Color> cols, bool encoding, SymbolStyle symbolStyle, Alignment alignment, int lineWidth) { }",
+      "label": "UIFont_Print_129f2a4",
+      "producerRva": 19526308,
+      "fileOffset": 19526308,
+      "virtualAddress": 19542692,
+      "length": 2204,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIFont.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public void Print(string text, Color color, BetterList<Vector3> verts, BetterList<Vector2> uvs, BetterList<Color> cols, bool encoding, SymbolStyle symbolStyle, Alignment alignment, int lineWidth) { }",
+          "label": "UIFont_Print_129f2a4"
+        }
+      ],
+      "ghidraAddress": "013a32a4",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIFont/UIFont_Print_129f2a4.cpp"
+    },
+    {
+      "className": "UIGrowByAspectRatio",
+      "signature": "private void Awake() { }",
+      "label": "UIGrowByAspectRatio_Awake_1300904",
+      "producerRva": 19925252,
+      "fileOffset": 19925252,
+      "virtualAddress": 19941636,
+      "length": 460,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIGrowByAspectRatio.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Awake() { }",
+          "label": "UIGrowByAspectRatio_Awake_1300904"
+        }
+      ],
+      "ghidraAddress": "01404904",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIGrowByAspectRatio/UIGrowByAspectRatio_Awake_1300904.cpp"
+    },
+    {
+      "className": "UIGrowByAspectRatio",
+      "signature": "private void Start() { }",
+      "label": "UIGrowByAspectRatio_Start_1300ad0",
+      "producerRva": 19925712,
+      "fileOffset": 19925712,
+      "virtualAddress": 19942096,
+      "length": 92,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIGrowByAspectRatio.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Start() { }",
+          "label": "UIGrowByAspectRatio_Start_1300ad0"
+        }
+      ],
+      "ghidraAddress": "01404ad0",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIGrowByAspectRatio/UIGrowByAspectRatio_Start_1300ad0.cpp"
+    },
+    {
+      "className": "UILabel",
+      "signature": "public virtual void OnFill(BetterList<Vector3> verts, BetterList<Vector2> uvs, BetterList<Color> cols) { }",
+      "label": "UILabel_OnFill_12a250c",
+      "producerRva": 19539212,
+      "fileOffset": 19539212,
+      "virtualAddress": 19555596,
+      "length": 1196,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UILabel.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public virtual void OnFill(BetterList<Vector3> verts, BetterList<Vector2> uvs, BetterList<Color> cols) { }",
+          "label": "UILabel_OnFill_12a250c"
+        }
+      ],
+      "ghidraAddress": "013a650c",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UILabel/UILabel_OnFill_12a250c.cpp"
+    },
+    {
+      "className": "UILabel",
+      "signature": "private void ProcessText() { }",
+      "label": "UILabel_ProcessText_12a1038",
+      "producerRva": 19533880,
+      "fileOffset": 19533880,
+      "virtualAddress": 19550264,
+      "length": 856,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UILabel.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void ProcessText() { }",
+          "label": "UILabel_ProcessText_12a1038"
+        }
+      ],
+      "ghidraAddress": "013a5038",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UILabel/UILabel_ProcessText_12a1038.cpp"
+    },
+    {
+      "className": "UILabel",
+      "signature": "public string get_text() { }",
+      "label": "UILabel_get_text_12a0e4c",
+      "producerRva": 19533388,
+      "fileOffset": 19533388,
+      "virtualAddress": 19549772,
+      "length": 8,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UILabel.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "get { } //Length: 8",
+          "label": "UILabel_8_12a0e4c"
+        },
+        {
+          "signature": "public string get_text() { }",
+          "label": "UILabel_get_text_12a0e4c"
+        }
+      ],
+      "ghidraAddress": "013a4e4c",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UILabel/UILabel_get_text_12a0e4c.cpp"
+    },
+    {
+      "className": "UILabel",
+      "signature": "public void set_text(string value) { }",
+      "label": "UILabel_set_text_129fea0",
+      "producerRva": 19529376,
+      "fileOffset": 19529376,
+      "virtualAddress": 19545760,
+      "length": 64,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UILabel.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "set { } //Length: 64",
+          "label": "UILabel_64_129fea0"
+        },
+        {
+          "signature": "public void set_text(string value) { }",
+          "label": "UILabel_set_text_129fea0"
+        }
+      ],
+      "ghidraAddress": "013a3ea0",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UILabel/UILabel_set_text_129fea0.cpp"
+    },
+    {
+      "className": "UISlider",
+      "signature": "private void Awake() { }",
+      "label": "UISlider_Awake_11fb750",
+      "producerRva": 18855760,
+      "fileOffset": 18855760,
+      "virtualAddress": 18872144,
+      "length": 180,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UISlider.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Awake() { }",
+          "label": "UISlider_Awake_11fb750"
+        }
+      ],
+      "ghidraAddress": "012ff750",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UISlider/UISlider_Awake_11fb750.cpp"
+    },
+    {
+      "className": "UISlider",
+      "signature": "private void OnPress(bool pressed) { }",
+      "label": "UISlider_OnPress_11fba34",
+      "producerRva": 18856500,
+      "fileOffset": 18856500,
+      "virtualAddress": 18872884,
+      "length": 12,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UISlider.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void OnPress(bool pressed) { }",
+          "label": "UISlider_OnPress_11fba34"
+        }
+      ],
+      "ghidraAddress": "012ffa34",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UISlider/UISlider_OnPress_11fba34.cpp"
+    },
+    {
+      "className": "UISlider",
+      "signature": "private void Start() { }",
+      "label": "UISlider_Start_11fb804",
+      "producerRva": 18855940,
+      "fileOffset": 18855940,
+      "virtualAddress": 18872324,
+      "length": 560,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UISlider.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Start() { }",
+          "label": "UISlider_Start_11fb804"
+        }
+      ],
+      "ghidraAddress": "012ff804",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UISlider/UISlider_Start_11fb804.cpp"
+    },
+    {
+      "className": "UISlider",
+      "signature": "public float get_sliderValue() { }",
+      "label": "UISlider_get_sliderValue_11fb0b0",
+      "producerRva": 18854064,
+      "fileOffset": 18854064,
+      "virtualAddress": 18870448,
+      "length": 8,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UISlider.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "get { } //Length: 8",
+          "label": "UISlider_8_11fb0b0"
+        },
+        {
+          "signature": "public float get_sliderValue() { }",
+          "label": "UISlider_get_sliderValue_11fb0b0"
+        }
+      ],
+      "ghidraAddress": "012ff0b0",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UISlider/UISlider_get_sliderValue_11fb0b0.cpp"
+    },
+    {
+      "className": "UISlider",
+      "signature": "public void set_sliderValue(float value) { }",
+      "label": "UISlider_set_sliderValue_11fb0b8",
+      "producerRva": 18854072,
+      "fileOffset": 18854072,
+      "virtualAddress": 18870456,
+      "length": 8,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UISlider.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "set { } //Length: 8",
+          "label": "UISlider_8_11fb0b8"
+        },
+        {
+          "signature": "public void set_sliderValue(float value) { }",
+          "label": "UISlider_set_sliderValue_11fb0b8"
+        }
+      ],
+      "ghidraAddress": "012ff0b8",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UISlider/UISlider_set_sliderValue_11fb0b8.cpp"
+    },
+    {
+      "className": "UISprite",
+      "signature": "public virtual void OnFill(BetterList<Vector3> verts, BetterList<Vector2> uvs, BetterList<Color> cols) { }",
+      "label": "UISprite_OnFill_12a815c",
+      "producerRva": 19562844,
+      "fileOffset": 19562844,
+      "virtualAddress": 19579228,
+      "length": 424,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UISprite.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public virtual void OnFill(BetterList<Vector3> verts, BetterList<Vector2> uvs, BetterList<Color> cols) { }",
+          "label": "UISprite_OnFill_12a815c"
+        }
+      ],
+      "ghidraAddress": "013ac15c",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UISprite/UISprite_OnFill_12a815c.cpp"
+    },
+    {
+      "className": "UISprite",
+      "signature": "public string get_spriteName() { }",
+      "label": "UISprite_get_spriteName_12a8680",
+      "producerRva": 19564160,
+      "fileOffset": 19564160,
+      "virtualAddress": 19580544,
+      "length": 8,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UISprite.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "get { } //Length: 8",
+          "label": "UISprite_8_12a8680"
+        },
+        {
+          "signature": "public string get_spriteName() { }",
+          "label": "UISprite_get_spriteName_12a8680"
+        }
+      ],
+      "ghidraAddress": "013ac680",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UISprite/UISprite_get_spriteName_12a8680.cpp"
+    },
+    {
+      "className": "UISprite",
+      "signature": "public void set_spriteName(string value) { }",
+      "label": "UISprite_set_spriteName_12a2d48",
+      "producerRva": 19541320,
+      "fileOffset": 19541320,
+      "virtualAddress": 19557704,
+      "length": 156,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UISprite.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "set { } //Length: 156",
+          "label": "UISprite_156_12a2d48"
+        },
+        {
+          "signature": "public void set_spriteName(string value) { }",
+          "label": "UISprite_set_spriteName_12a2d48"
+        }
+      ],
+      "ghidraAddress": "013a6d48",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UISprite/UISprite_set_spriteName_12a2d48.cpp"
+    },
+    {
+      "className": "UIStack",
+      "signature": "public void Reposition() { }",
+      "label": "UIStack_Reposition_13042d4",
+      "producerRva": 19940052,
+      "fileOffset": 19940052,
+      "virtualAddress": 19956436,
+      "length": 1912,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIStack.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public void Reposition() { }",
+          "label": "UIStack_Reposition_13042d4"
+        }
+      ],
+      "ghidraAddress": "014082d4",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIStack/UIStack_Reposition_13042d4.cpp"
+    },
+    {
+      "className": "UIStack",
+      "signature": "private void Start() { }",
+      "label": "UIStack_Start_13042d0",
+      "producerRva": 19940048,
+      "fileOffset": 19940048,
+      "virtualAddress": 19956432,
+      "length": 4,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIStack.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Start() { }",
+          "label": "UIStack_Start_13042d0"
+        }
+      ],
+      "ghidraAddress": "014082d0",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIStack/UIStack_Start_13042d0.cpp"
+    },
+    {
+      "className": "UIStack",
+      "signature": "public UIStack() { }",
+      "label": "UIStack_UIStack_1304a60",
+      "producerRva": 19941984,
+      "fileOffset": 19941984,
+      "virtualAddress": 19958368,
+      "length": 8,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIStack.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public UIStack() { }",
+          "label": "UIStack_UIStack_1304a60"
+        }
+      ],
+      "ghidraAddress": "01408a60",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIStack/UIStack_UIStack_1304a60.cpp"
+    },
+    {
+      "className": "UIStack",
+      "signature": "private void Update() { }",
+      "label": "UIStack_Update_1304a4c",
+      "producerRva": 19941964,
+      "fileOffset": 19941964,
+      "virtualAddress": 19958348,
+      "length": 20,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIStack.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Update() { }",
+          "label": "UIStack_Update_1304a4c"
+        }
+      ],
+      "ghidraAddress": "01408a4c",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIStack/UIStack_Update_1304a4c.cpp"
+    },
+    {
+      "className": "UIWidget",
+      "signature": "private void Awake() { }",
+      "label": "UIWidget_Awake_1207780",
+      "producerRva": 18904960,
+      "fileOffset": 18904960,
+      "virtualAddress": 18921344,
+      "length": 96,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIWidget.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Awake() { }",
+          "label": "UIWidget_Awake_1207780"
+        }
+      ],
+      "ghidraAddress": "0130b780",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIWidget/UIWidget_Awake_1207780.cpp"
+    },
+    {
+      "className": "UIWidget",
+      "signature": "private void OnEnable() { }",
+      "label": "UIWidget_OnEnable_12077e0",
+      "producerRva": 18905056,
+      "fileOffset": 18905056,
+      "virtualAddress": 18921440,
+      "length": 236,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIWidget.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void OnEnable() { }",
+          "label": "UIWidget_OnEnable_12077e0"
+        }
+      ],
+      "ghidraAddress": "0130b7e0",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIWidget/UIWidget_OnEnable_12077e0.cpp"
+    },
+    {
+      "className": "UIWidget",
+      "signature": "public override void OnFill(BetterList<Vector3> verts, BetterList<Vector2> uvs, BetterList<Color> cols) { }",
+      "label": "UIWidget_OnFill_12082cc",
+      "producerRva": 18907852,
+      "fileOffset": 18907852,
+      "virtualAddress": 18924236,
+      "length": 4,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIWidget.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "public override void OnFill(BetterList<Vector3> verts, BetterList<Vector2> uvs, BetterList<Color> cols) { }",
+          "label": "UIWidget_OnFill_12082cc"
+        }
+      ],
+      "ghidraAddress": "0130c2cc",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIWidget/UIWidget_OnFill_12082cc.cpp"
+    },
+    {
+      "className": "UIWidget",
+      "signature": "private void Start() { }",
+      "label": "UIWidget_Start_12078cc",
+      "producerRva": 18905292,
+      "fileOffset": 18905292,
+      "virtualAddress": 18921676,
+      "length": 32,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIWidget.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Start() { }",
+          "label": "UIWidget_Start_12078cc"
+        }
+      ],
+      "ghidraAddress": "0130b8cc",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIWidget/UIWidget_Start_12078cc.cpp"
+    },
+    {
+      "className": "UIWidget",
+      "signature": "private void Update() { }",
+      "label": "UIWidget_Update_12078ec",
+      "producerRva": 18905324,
+      "fileOffset": 18905324,
+      "virtualAddress": 18921708,
+      "length": 184,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIWidget.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "private void Update() { }",
+          "label": "UIWidget_Update_12078ec"
+        }
+      ],
+      "ghidraAddress": "0130b8ec",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIWidget/UIWidget_Update_12078ec.cpp"
+    },
+    {
+      "className": "UIWidget",
+      "signature": "public float get_alpha() { }",
+      "label": "UIWidget_get_alpha_1206eb4",
+      "producerRva": 18902708,
+      "fileOffset": 18902708,
+      "virtualAddress": 18919092,
+      "length": 8,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIWidget.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "get { } //Length: 8",
+          "label": "UIWidget_8_1206eb4"
+        },
+        {
+          "signature": "public float get_alpha() { }",
+          "label": "UIWidget_get_alpha_1206eb4"
+        }
+      ],
+      "ghidraAddress": "0130aeb4",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIWidget/UIWidget_get_alpha_1206eb4.cpp"
+    },
+    {
+      "className": "UIWidget",
+      "signature": "public Color get_color() { }",
+      "label": "UIWidget_get_color_1206e50",
+      "producerRva": 18902608,
+      "fileOffset": 18902608,
+      "virtualAddress": 18918992,
+      "length": 12,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIWidget.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "get { } //Length: 12",
+          "label": "UIWidget_12_1206e50"
+        },
+        {
+          "signature": "public Color get_color() { }",
+          "label": "UIWidget_get_color_1206e50"
+        }
+      ],
+      "ghidraAddress": "0130ae50",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIWidget/UIWidget_get_color_1206e50.cpp"
+    },
+    {
+      "className": "UIWidget",
+      "signature": "public void set_alpha(float value) { }",
+      "label": "UIWidget_set_alpha_1206ebc",
+      "producerRva": 18902716,
+      "fileOffset": 18902716,
+      "virtualAddress": 18919100,
+      "length": 24,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIWidget.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "set { } //Length: 24",
+          "label": "UIWidget_24_1206ebc"
+        },
+        {
+          "signature": "public void set_alpha(float value) { }",
+          "label": "UIWidget_set_alpha_1206ebc"
+        }
+      ],
+      "ghidraAddress": "0130aebc",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIWidget/UIWidget_set_alpha_1206ebc.cpp"
+    },
+    {
+      "className": "UIWidget",
+      "signature": "public void set_color(Color value) { }",
+      "label": "UIWidget_set_color_1206e5c",
+      "producerRva": 18902620,
+      "fileOffset": 18902620,
+      "virtualAddress": 18919004,
+      "length": 88,
+      "coreGameplay": true,
+      "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/UIWidget.cs",
+      "metadataRepresentations": [
+        {
+          "signature": "set { } //Length: 88",
+          "label": "UIWidget_88_1206e5c"
+        },
+        {
+          "signature": "public void set_color(Color value) { }",
+          "label": "UIWidget_set_color_1206e5c"
+        }
+      ],
+      "ghidraAddress": "0130ae5c",
+      "instructionPrefixVerified": true,
+      "allMethodBytesVerified": true,
+      "decompiled": true,
+      "output": "UIWidget/UIWidget_set_color_1206e5c.cpp"
+    }
+  ]
+}

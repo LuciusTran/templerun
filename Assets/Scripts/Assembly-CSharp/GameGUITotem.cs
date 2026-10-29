@@ -135,6 +135,8 @@ public class GameGUITotem : MonoBehaviour
 
 	public void UpdateProgress(float coinPercent)
 	{
+		// Native-derived progress assignment; see Evidence/ui-csharp-restoration.json.
+		if (ProgressBarSprite) ProgressBarSprite.fillAmount = Mathf.Max(0f, coinPercent);
 	}
 
 	private void StartEmblemFallIfVisible(UISprite emblem)

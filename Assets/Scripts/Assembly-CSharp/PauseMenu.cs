@@ -130,6 +130,8 @@ public class PauseMenu : BasePanel
 
 	public override void SlideIn(BasePanel returnTo)
 	{
+		// Authored bridge; original slide-animation coroutine remains unrecovered; see Evidence/ui-csharp-restoration.json.
+		base.SlideIn(returnTo);
 	}
 
 	[IteratorStateMachine(typeof(_003CSlideInAnimation_003Ed__32))]
@@ -144,14 +146,20 @@ public class PauseMenu : BasePanel
 
 	private void MainMenuClicked()
 	{
+		// Native-derived control flow with local host binding; see Evidence/ui-csharp-restoration.json.
+		TempleRunUIPresenter.Instance.ConfirmHome();
 	}
 
 	public void ResumeClicked()
 	{
+		// Native resume intent; authored host binding, resume countdown not recovered; see Evidence/ui-csharp-restoration.json.
+		TempleRunFlow.Instance.Resume();
 	}
 
 	private void NewGameClicked()
 	{
+		// Native-derived control flow with local host binding; see Evidence/ui-csharp-restoration.json.
+		TempleRunUIPresenter.Instance.ConfirmRestart();
 	}
 
 	public void OnCloseDebugPanelButtonClicked()

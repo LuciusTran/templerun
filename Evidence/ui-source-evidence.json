@@ -71,6 +71,8 @@
     "DecompiledNative/MainMenu/MainMenu_ShowAll_12f2248.cpp",
     "DecompiledNative/MainMenu/MainMenu_SlideIn_12f1690.cpp",
     "DecompiledNative/MainMenu/MainMenu_Start_12f1444.cpp",
+    "DecompiledNative/OffsetOnWidth/OffsetOnWidth_OffsetOnWidth_12f5404.cpp",
+    "DecompiledNative/OffsetOnWidth/OffsetOnWidth_Update_12f5274.cpp",
     "DecompiledNative/OptionsGUI/OptionsGUI_BackButtonClicked_12f5834.cpp",
     "DecompiledNative/OptionsGUI/OptionsGUI_SlideIn_12f5580.cpp",
     "DecompiledNative/OptionsGUI/OptionsGUI_Start_12f540c.cpp",

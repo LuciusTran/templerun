@@ -50,6 +50,9 @@ public class GameGUI : BasePanel
 
 	public void PauseClicked()
 	{
+		// Native-derived control flow with local host binding; see Evidence/ui-csharp-restoration.json.
+		var flow = TempleRunFlow.Instance;
+		if (flow && flow.IsPlaying && !flow.Runner.IsDead) flow.Pause();
 	}
 
 	public void PauseSprite()
@@ -70,10 +73,16 @@ public class GameGUI : BasePanel
 
 	public void SetScore(int score)
 	{
+		// Native-derived control flow with local host binding; see Evidence/ui-csharp-restoration.json.
+		LastScore = score;
+		if (ScoreLabel) ScoreLabel.text = score.ToString();
 	}
 
 	public void SetCoins(int coins)
 	{
+		// Native-derived control flow with local host binding; see Evidence/ui-csharp-restoration.json.
+		LastCoins = coins;
+		if (CoinsLabel) CoinsLabel.text = coins.ToString();
 	}
 
 	public void Reset()

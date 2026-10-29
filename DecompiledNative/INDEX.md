@@ -1,14 +1,10 @@
 # Temple Run native references
 
-Generated native pseudocode with original method bytes checked against the APK library. See `Evidence/native-decompilation.json`.
+Ghidra pseudocode with method-byte verification. See `Evidence/native-decompilation.json` and `Evidence/ui-native-decompilation.json` for scope and limitations.
 
 | Class | Signature | File offset | Decompiled file |
 |---|---|---|---|
-| AudioManager.<DebugInternal_PlayAllSounds>d__31 | `private override bool MoveNext() { }` | `0x12bb930` | [AudioManager__DebugInternal_PlayAllSounds_d__31_MoveNext_12bb930](AudioManager__DebugInternal_PlayAllSounds_d__31/AudioManager__DebugInternal_PlayAllSounds_d__31_MoveNext_12bb930.cpp) |
-| AudioManager | `public float get_MusicVolume() { }` | `0x12bab58` | [AudioManager_get_MusicVolume_12bab58](AudioManager/AudioManager_get_MusicVolume_12bab58.cpp) |
-| AudioManager | `public void set_MusicVolume(float value) { }` | `0x12bab60` | [AudioManager_set_MusicVolume_12bab60](AudioManager/AudioManager_set_MusicVolume_12bab60.cpp) |
-| AudioManager | `public float get_SoundVolume() { }` | `0x12babd4` | [AudioManager_get_SoundVolume_12babd4](AudioManager/AudioManager_get_SoundVolume_12babd4.cpp) |
-| AudioManager | `public void set_SoundVolume(float value) { }` | `0x12babdc` | [AudioManager_set_SoundVolume_12babdc](AudioManager/AudioManager_set_SoundVolume_12babdc.cpp) |
+| AdjustCameraFOV | `private void Start() { }` | `0x11ea2f8` | [AdjustCameraFOV_Start_11ea2f8](AdjustCameraFOV/AdjustCameraFOV_Start_11ea2f8.cpp) |
 | AudioManager | `public AudioManager() { }` | `0x12bb854` | [AudioManager_AudioManager_12bb854](AudioManager/AudioManager_AudioManager_12bb854.cpp) |
 | AudioManager | `private void Awake() { }` | `0x12bb038` | [AudioManager_Awake_12bb038](AudioManager/AudioManager_Awake_12bb038.cpp) |
 | AudioManager | `public void Debug_PlayAllSounds() { }` | `0x12badac` | [AudioManager_Debug_PlayAllSounds_12badac](AudioManager/AudioManager_Debug_PlayAllSounds_12badac.cpp) |
@@ -19,25 +15,41 @@ Generated native pseudocode with original method bytes checked against the APK l
 | AudioManager | `public void PlayFX(Effects effect, float volumeScale = 1) { }` | `0x12bb190` | [AudioManager_PlayFX_12bb190](AudioManager/AudioManager_PlayFX_12bb190.cpp) |
 | AudioManager | `private void PreloadSounds() { }` | `0x12baea4` | [AudioManager_PreloadSounds_12baea4](AudioManager/AudioManager_PreloadSounds_12baea4.cpp) |
 | AudioManager | `public void ResumeMusic() { }` | `0x12bb43c` | [AudioManager_ResumeMusic_12bb43c](AudioManager/AudioManager_ResumeMusic_12bb43c.cpp) |
-| AudioManager | `private void Start() { }` | `0x12bae54` | [AudioManager_Start_12bae54](AudioManager/AudioManager_Start_12bae54.cpp) |
 | AudioManager | `public void StartGameMusic() { }` | `0x12bb130` | [AudioManager_StartGameMusic_12bb130](AudioManager/AudioManager_StartGameMusic_12bb130.cpp) |
 | AudioManager | `public void StartMainMenuMusic() { }` | `0x12bb0ec` | [AudioManager_StartMainMenuMusic_12bb0ec](AudioManager/AudioManager_StartMainMenuMusic_12bb0ec.cpp) |
+| AudioManager | `private void Start() { }` | `0x12bae54` | [AudioManager_Start_12bae54](AudioManager/AudioManager_Start_12bae54.cpp) |
 | AudioManager | `public void StopFX() { }` | `0x12bb390` | [AudioManager_StopFX_12bb390](AudioManager/AudioManager_StopFX_12bb390.cpp) |
 | AudioManager | `public void StopMusic() { }` | `0x12bb174` | [AudioManager_StopMusic_12bb174](AudioManager/AudioManager_StopMusic_12bb174.cpp) |
 | AudioManager | `private void Update() { }` | `0x12bb464` | [AudioManager_Update_12bb464](AudioManager/AudioManager_Update_12bb464.cpp) |
-| BonusItem | `private static BonusItem() { }` | `0x12bc32c` | [BonusItem_BonusItem_12bc32c](BonusItem/BonusItem_BonusItem_12bc32c.cpp) |
+| AudioManager | `public float get_MusicVolume() { }` | `0x12bab58` | [AudioManager_get_MusicVolume_12bab58](AudioManager/AudioManager_get_MusicVolume_12bab58.cpp) |
+| AudioManager | `public float get_SoundVolume() { }` | `0x12babd4` | [AudioManager_get_SoundVolume_12babd4](AudioManager/AudioManager_get_SoundVolume_12babd4.cpp) |
+| AudioManager | `public void set_MusicVolume(float value) { }` | `0x12bab60` | [AudioManager_set_MusicVolume_12bab60](AudioManager/AudioManager_set_MusicVolume_12bab60.cpp) |
+| AudioManager | `public void set_SoundVolume(float value) { }` | `0x12babdc` | [AudioManager_set_SoundVolume_12babdc](AudioManager/AudioManager_set_SoundVolume_12babdc.cpp) |
+| AudioManager.<DebugInternal_PlayAllSounds>d__31 | `private override bool MoveNext() { }` | `0x12bb930` | [AudioManager__DebugInternal_PlayAllSounds_d__31_MoveNext_12bb930](AudioManager__DebugInternal_PlayAllSounds_d__31/AudioManager__DebugInternal_PlayAllSounds_d__31_MoveNext_12bb930.cpp) |
+| BasePanel | `public override void HideAll() { }` | `0x12dfbf8` | [BasePanel_HideAll_12dfbf8](BasePanel/BasePanel_HideAll_12dfbf8.cpp) |
+| BasePanel | `private void HidePanel() { }` | `0x12dfdac` | [BasePanel_HidePanel_12dfdac](BasePanel/BasePanel_HidePanel_12dfdac.cpp) |
+| BasePanel | `public void ReturnMenu() { }` | `0x12e003c` | [BasePanel_ReturnMenu_12e003c](BasePanel/BasePanel_ReturnMenu_12e003c.cpp) |
+| BasePanel | `public override void ShowAll(bool inShowBannerAds = true) { }` | `0x12df6a4` | [BasePanel_ShowAll_12df6a4](BasePanel/BasePanel_ShowAll_12df6a4.cpp) |
+| BasePanel | `private void ShowPanel() { }` | `0x12dfd8c` | [BasePanel_ShowPanel_12dfd8c](BasePanel/BasePanel_ShowPanel_12dfd8c.cpp) |
+| BasePanel | `public void Show() { }` | `0x12dff8c` | [BasePanel_Show_12dff8c](BasePanel/BasePanel_Show_12dff8c.cpp) |
+| BasePanel | `public void SlideIn() { }` | `0x12def74` | [BasePanel_SlideIn_12def74](BasePanel/BasePanel_SlideIn_12def74.cpp) |
+| BasePanel | `public override void SlideIn(BasePanel returnTo) { }` | `0x12e0034` | [BasePanel_SlideIn_12e0034](BasePanel/BasePanel_SlideIn_12e0034.cpp) |
+| BasePanel | `public override void Start() { }` | `0x12df654` | [BasePanel_Start_12df654](BasePanel/BasePanel_Start_12df654.cpp) |
 | BonusItem | `public BonusItem() { }` | `0x12bc324` | [BonusItem_BonusItem_12bc324](BonusItem/BonusItem_BonusItem_12bc324.cpp) |
+| BonusItem | `private static BonusItem() { }` | `0x12bc32c` | [BonusItem_BonusItem_12bc32c](BonusItem/BonusItem_BonusItem_12bc32c.cpp) |
 | BonusItem | `public void DestroySelf() { }` | `0x12bc250` | [BonusItem_DestroySelf_12bc250](BonusItem/BonusItem_DestroySelf_12bc250.cpp) |
 | BonusItem | `public static BonusItem Instantiate(BonusItemType type) { }` | `0x12bbc58` | [BonusItem_Instantiate_12bbc58](BonusItem/BonusItem_Instantiate_12bbc58.cpp) |
 | BonusItem | `public bool IsACoin() { }` | `0x12bbc44` | [BonusItem_IsACoin_12bbc44](BonusItem/BonusItem_IsACoin_12bbc44.cpp) |
 | BonusItem | `public void OnDespawned() { }` | `0x12bc198` | [BonusItem_OnDespawned_12bc198](BonusItem/BonusItem_OnDespawned_12bc198.cpp) |
 | BonusItem | `private void Start() { }` | `0x12bbc38` | [BonusItem_Start_12bbc38](BonusItem/BonusItem_Start_12bbc38.cpp) |
 | BonusItem | `public virtual void Update() { }` | `0x12bbc3c` | [BonusItem_Update_12bbc3c](BonusItem/BonusItem_Update_12bbc3c.cpp) |
-| CharacterPlayer | `public CharacterPlayer() { }` | `0x12bee88` | [CharacterPlayer_CharacterPlayer_12bee88](CharacterPlayer/CharacterPlayer_CharacterPlayer_12bee88.cpp) |
+| BonusStartButtons | `public BonusStartButtons() { }` | `0x12e0a5c` | [BonusStartButtons_BonusStartButtons_12e0a5c](BonusStartButtons/BonusStartButtons_BonusStartButtons_12e0a5c.cpp) |
+| BonusStartButtons | `private void OnEnable() { }` | `0x12e0658` | [BonusStartButtons_OnEnable_12e0658](BonusStartButtons/BonusStartButtons_OnEnable_12e0658.cpp) |
 | CharacterPlayer | `public void AddCoins(int count) { }` | `0x12be67c` | [CharacterPlayer_AddCoins_12be67c](CharacterPlayer/CharacterPlayer_AddCoins_12be67c.cpp) |
 | CharacterPlayer | `public void AddScore(int score) { }` | `0x12be660` | [CharacterPlayer_AddScore_12be660](CharacterPlayer/CharacterPlayer_AddScore_12be660.cpp) |
 | CharacterPlayer | `public void AdjustAnimationSpeed() { }` | `0x12bdb3c` | [CharacterPlayer_AdjustAnimationSpeed_12bdb3c](CharacterPlayer/CharacterPlayer_AdjustAnimationSpeed_12bdb3c.cpp) |
 | CharacterPlayer | `public void ApplyPlayerTexture() { }` | `0x12bd84c` | [CharacterPlayer_ApplyPlayerTexture_12bd84c](CharacterPlayer/CharacterPlayer_ApplyPlayerTexture_12bd84c.cpp) |
+| CharacterPlayer | `public CharacterPlayer() { }` | `0x12bee88` | [CharacterPlayer_CharacterPlayer_12bee88](CharacterPlayer/CharacterPlayer_CharacterPlayer_12bee88.cpp) |
 | CharacterPlayer | `public float GetAlpha() { }` | `0x12bcc6c` | [CharacterPlayer_GetAlpha_12bcc6c](CharacterPlayer/CharacterPlayer_GetAlpha_12bcc6c.cpp) |
 | CharacterPlayer | `public float GetMaxRunVelocity() { }` | `0x12bdf10` | [CharacterPlayer_GetMaxRunVelocity_12bdf10](CharacterPlayer/CharacterPlayer_GetMaxRunVelocity_12bdf10.cpp) |
 | CharacterPlayer | `public Vector2 GetPreviousPosition2D() { }` | `0x12be330` | [CharacterPlayer_GetPreviousPosition2D_12be330](CharacterPlayer/CharacterPlayer_GetPreviousPosition2D_12be330.cpp) |
@@ -53,16 +65,16 @@ Generated native pseudocode with original method bytes checked against the APK l
 | CharacterPlayer | `public void SetAlpha(float a) { }` | `0x12bcab8` | [CharacterPlayer_SetAlpha_12bcab8](CharacterPlayer/CharacterPlayer_SetAlpha_12bcab8.cpp) |
 | CharacterPlayer | `public void SetGroundHeight(float groundHeight) { }` | `0x12bde90` | [CharacterPlayer_SetGroundHeight_12bde90](CharacterPlayer/CharacterPlayer_SetGroundHeight_12bde90.cpp) |
 | CharacterPlayer | `public void SetInvincibilityTexture() { }` | `0x12be6e0` | [CharacterPlayer_SetInvincibilityTexture_12be6e0](CharacterPlayer/CharacterPlayer_SetInvincibilityTexture_12be6e0.cpp) |
-| CharacterPlayer | `public void SetupCharacter() { }` | `0x12be0d4` | [CharacterPlayer_SetupCharacter_12be0d4](CharacterPlayer/CharacterPlayer_SetupCharacter_12be0d4.cpp) |
 | CharacterPlayer | `public virtual void SetVisibility(bool visible) { }` | `0x12beb00` | [CharacterPlayer_SetVisibility_12beb00](CharacterPlayer/CharacterPlayer_SetVisibility_12beb00.cpp) |
+| CharacterPlayer | `public void SetupCharacter() { }` | `0x12be0d4` | [CharacterPlayer_SetupCharacter_12be0d4](CharacterPlayer/CharacterPlayer_SetupCharacter_12be0d4.cpp) |
 | CharacterPlayer | `public bool SlamDown() { }` | `0x12be420` | [CharacterPlayer_SlamDown_12be420](CharacterPlayer/CharacterPlayer_SlamDown_12be420.cpp) |
 | CharacterPlayer | `public bool Slide() { }` | `0x12be33c` | [CharacterPlayer_Slide_12be33c](CharacterPlayer/CharacterPlayer_Slide_12be33c.cpp) |
-| CharacterPlayer | `private void Start() { }` | `0x12bc9dc` | [CharacterPlayer_Start_12bc9dc](CharacterPlayer/CharacterPlayer_Start_12bc9dc.cpp) |
 | CharacterPlayer | `public void StartAngelWings(float duration, bool isPermanent = false) { }` | `0x12be840` | [CharacterPlayer_StartAngelWings_12be840](CharacterPlayer/CharacterPlayer_StartAngelWings_12be840.cpp) |
 | CharacterPlayer | `public void StartBoost(float distance, bool isMega) { }` | `0x12be89c` | [CharacterPlayer_StartBoost_12be89c](CharacterPlayer/CharacterPlayer_StartBoost_12be89c.cpp) |
 | CharacterPlayer | `public void StartCoinBonus(int value) { }` | `0x12be884` | [CharacterPlayer_StartCoinBonus_12be884](CharacterPlayer/CharacterPlayer_StartCoinBonus_12be884.cpp) |
 | CharacterPlayer | `public void StartInvcibility(float duration) { }` | `0x12be7f8` | [CharacterPlayer_StartInvcibility_12be7f8](CharacterPlayer/CharacterPlayer_StartInvcibility_12be7f8.cpp) |
 | CharacterPlayer | `public void StartVacuum(float duration) { }` | `0x12be870` | [CharacterPlayer_StartVacuum_12be870](CharacterPlayer/CharacterPlayer_StartVacuum_12be870.cpp) |
+| CharacterPlayer | `private void Start() { }` | `0x12bc9dc` | [CharacterPlayer_Start_12bc9dc](CharacterPlayer/CharacterPlayer_Start_12bc9dc.cpp) |
 | CharacterPlayer | `public void StopAllAnimation() { }` | `0x12be918` | [CharacterPlayer_StopAllAnimation_12be918](CharacterPlayer/CharacterPlayer_StopAllAnimation_12be918.cpp) |
 | CharacterPlayer | `public void StrafeLeft() { }` | `0x12be448` | [CharacterPlayer_StrafeLeft_12be448](CharacterPlayer/CharacterPlayer_StrafeLeft_12be448.cpp) |
 | CharacterPlayer | `public void StrafeRight() { }` | `0x12be4dc` | [CharacterPlayer_StrafeRight_12be4dc](CharacterPlayer/CharacterPlayer_StrafeRight_12be4dc.cpp) |
@@ -71,31 +83,35 @@ Generated native pseudocode with original method bytes checked against the APK l
 | CharacterPlayer | `public void TurnRight() { }` | `0x12be5e8` | [CharacterPlayer_TurnRight_12be5e8](CharacterPlayer/CharacterPlayer_TurnRight_12be5e8.cpp) |
 | CharacterPlayer | `public void UnpauseAnimation() { }` | `0x12bee84` | [CharacterPlayer_UnpauseAnimation_12bee84](CharacterPlayer/CharacterPlayer_UnpauseAnimation_12bee84.cpp) |
 | CharacterPlayer | `public virtual void Update() { }` | `0x12bcdc4` | [CharacterPlayer_Update_12bcdc4](CharacterPlayer/CharacterPlayer_Update_12bcdc4.cpp) |
-| CoinSpawnConfigData | `public virtual int get_ErrorCode() { }` | `0x12c38bc` | [CoinSpawnConfigData_get_ErrorCode_12c38bc](CoinSpawnConfigData/CoinSpawnConfigData_get_ErrorCode_12c38bc.cpp) |
-| CoinSpawnConfigData | `public virtual int get_Index() { }` | `0x12c3874` | [CoinSpawnConfigData_get_Index_12c3874](CoinSpawnConfigData/CoinSpawnConfigData_get_Index_12c3874.cpp) |
-| CoinSpawnConfigData | `public virtual string get_Keyword() { }` | `0x12c387c` | [CoinSpawnConfigData_get_Keyword_12c387c](CoinSpawnConfigData/CoinSpawnConfigData_get_Keyword_12c387c.cpp) |
+| CharacterSelectGUI | `private void AdjustCoins() { }` | `0x12e0c40` | [CharacterSelectGUI_AdjustCoins_12e0c40](CharacterSelectGUI/CharacterSelectGUI_AdjustCoins_12e0c40.cpp) |
+| CharacterSelectGUI | `private void BackClicked() { }` | `0x12e13dc` | [CharacterSelectGUI_BackClicked_12e13dc](CharacterSelectGUI/CharacterSelectGUI_BackClicked_12e13dc.cpp) |
+| CharacterSelectGUI | `public virtual void HideAll() { }` | `0x12e0d14` | [CharacterSelectGUI_HideAll_12e0d14](CharacterSelectGUI/CharacterSelectGUI_HideAll_12e0d14.cpp) |
+| CharacterSelectGUI | `private void ReconfigureStoreItems() { }` | `0x12e0bc8` | [CharacterSelectGUI_ReconfigureStoreItems_12e0bc8](CharacterSelectGUI/CharacterSelectGUI_ReconfigureStoreItems_12e0bc8.cpp) |
+| CharacterSelectGUI | `private void Setup() { }` | `0x12e0ab8` | [CharacterSelectGUI_Setup_12e0ab8](CharacterSelectGUI/CharacterSelectGUI_Setup_12e0ab8.cpp) |
+| CharacterSelectGUI | `public virtual void ShowAll(bool inShowBannerAds = true) { }` | `0x12e0b38` | [CharacterSelectGUI_ShowAll_12e0b38](CharacterSelectGUI/CharacterSelectGUI_ShowAll_12e0b38.cpp) |
+| CharacterSelectGUI | `public virtual void SlideIn(BasePanel returnTo) { }` | `0x12e0d18` | [CharacterSelectGUI_SlideIn_12e0d18](CharacterSelectGUI/CharacterSelectGUI_SlideIn_12e0d18.cpp) |
+| CharacterSelectGUI | `public void UpdateHeaderLabel() { }` | `0x12e1028` | [CharacterSelectGUI_UpdateHeaderLabel_12e1028](CharacterSelectGUI/CharacterSelectGUI_UpdateHeaderLabel_12e1028.cpp) |
 | CoinSpawnConfigData | `public CoinSpawnConfigData() { }` | `0x12c3aa8` | [CoinSpawnConfigData_CoinSpawnConfigData_12c3aa8](CoinSpawnConfigData/CoinSpawnConfigData_CoinSpawnConfigData_12c3aa8.cpp) |
 | CoinSpawnConfigData | `public virtual bool FromDict(Dictionary<String, Object> inDict) { }` | `0x12c39bc` | [CoinSpawnConfigData_FromDict_12c39bc](CoinSpawnConfigData/CoinSpawnConfigData_FromDict_12c39bc.cpp) |
 | CoinSpawnConfigData | `public virtual Dictionary<String, Object> ToDict() { }` | `0x12c38c4` | [CoinSpawnConfigData_ToDict_12c38c4](CoinSpawnConfigData/CoinSpawnConfigData_ToDict_12c38c4.cpp) |
+| CoinSpawnConfigData | `public virtual int get_ErrorCode() { }` | `0x12c38bc` | [CoinSpawnConfigData_get_ErrorCode_12c38bc](CoinSpawnConfigData/CoinSpawnConfigData_get_ErrorCode_12c38bc.cpp) |
+| CoinSpawnConfigData | `public virtual int get_Index() { }` | `0x12c3874` | [CoinSpawnConfigData_get_Index_12c3874](CoinSpawnConfigData/CoinSpawnConfigData_get_Index_12c3874.cpp) |
+| CoinSpawnConfigData | `public virtual string get_Keyword() { }` | `0x12c387c` | [CoinSpawnConfigData_get_Keyword_12c387c](CoinSpawnConfigData/CoinSpawnConfigData_get_Keyword_12c387c.cpp) |
 | CommonPlayer | `public CommonPlayer() { }` | `0x12bef64` | [CommonPlayer_CommonPlayer_12bef64](CommonPlayer/CommonPlayer_CommonPlayer_12bef64.cpp) |
 | CommonPlayer | `public override void Reset() { }` | `0x12bf790` | [CommonPlayer_Reset_12bf790](CommonPlayer/CommonPlayer_Reset_12bf790.cpp) |
 | CommonPlayer | `private void Start() { }` | `0x12bf6a0` | [CommonPlayer_Start_12bf6a0](CommonPlayer/CommonPlayer_Start_12bf6a0.cpp) |
 | CommonPlayer | `public void Teleport(Vector3 pos) { }` | `0x12bf738` | [CommonPlayer_Teleport_12bf738](CommonPlayer/CommonPlayer_Teleport_12bf738.cpp) |
 | CommonPlayer | `public PathDirection TravelingDirection() { }` | `0x12bf6d0` | [CommonPlayer_TravelingDirection_12bf6d0](CommonPlayer/CommonPlayer_TravelingDirection_12bf6d0.cpp) |
 | CommonPlayer | `public virtual void Update() { }` | `0x12bda14` | [CommonPlayer_Update_12bda14](CommonPlayer/CommonPlayer_Update_12bda14.cpp) |
-| DynamicElement | `private static DynamicElement() { }` | `0x12d5df0` | [DynamicElement_DynamicElement_12d5df0](DynamicElement/DynamicElement_DynamicElement_12d5df0.cpp) |
-| DynamicElement | `public DynamicElement() { }` | `0x12d5de8` | [DynamicElement_DynamicElement_12d5de8](DynamicElement/DynamicElement_DynamicElement_12d5de8.cpp) |
 | DynamicElement | `public void ClearAllChildren() { }` | `0x12d593c` | [DynamicElement_ClearAllChildren_12d593c](DynamicElement/DynamicElement_ClearAllChildren_12d593c.cpp) |
 | DynamicElement | `public void DestroySelf() { }` | `0x12d5ce8` | [DynamicElement_DestroySelf_12d5ce8](DynamicElement/DynamicElement_DestroySelf_12d5ce8.cpp) |
+| DynamicElement | `public DynamicElement() { }` | `0x12d5de8` | [DynamicElement_DynamicElement_12d5de8](DynamicElement/DynamicElement_DynamicElement_12d5de8.cpp) |
+| DynamicElement | `private static DynamicElement() { }` | `0x12d5df0` | [DynamicElement_DynamicElement_12d5df0](DynamicElement/DynamicElement_DynamicElement_12d5df0.cpp) |
 | DynamicElement | `public GameObject SetDataModelReference(string prefabName, string poolName = null) { }` | `0x12d54e4` | [DynamicElement_SetDataModelReference_12d54e4](DynamicElement/DynamicElement_SetDataModelReference_12d54e4.cpp) |
-| EndGameUI.<LoopDoubleCoinsButtonVibrate>d__63 | `private override bool MoveNext() { }` | `0x12e67dc` | [EndGameUI__LoopDoubleCoinsButtonVibrate_d__63_MoveNext_12e67dc](EndGameUI__LoopDoubleCoinsButtonVibrate_d__63/EndGameUI__LoopDoubleCoinsButtonVibrate_d__63_MoveNext_12e67dc.cpp) |
-| EndGameUI.<SlideInAnimation>d__61 | `private override bool MoveNext() { }` | `0x12e6910` | [EndGameUI__SlideInAnimation_d__61_MoveNext_12e6910](EndGameUI__SlideInAnimation_d__61/EndGameUI__SlideInAnimation_d__61_MoveNext_12e6910.cpp) |
-| EndGameUI.Illustration | `public Illustration() { }` | `0x12e5628` | [EndGameUI_Illustration_Illustration_12e5628](EndGameUI_Illustration/EndGameUI_Illustration_Illustration_12e5628.cpp) |
-| EndGameUI | `protected string get_InterstitalName() { }` | `0x12e28c0` | [EndGameUI_get_InterstitalName_12e28c0](EndGameUI/EndGameUI_get_InterstitalName_12e28c0.cpp) |
-| EndGameUI | `public EndGameUI() { }` | `0x12e6744` | [EndGameUI_EndGameUI_12e6744](EndGameUI/EndGameUI_EndGameUI_12e6744.cpp) |
 | EndGameUI | `private void AssignDeathDetails() { }` | `0x12e48fc` | [EndGameUI_AssignDeathDetails_12e48fc](EndGameUI/EndGameUI_AssignDeathDetails_12e48fc.cpp) |
 | EndGameUI | `private void Awake() { }` | `0x12e2e60` | [EndGameUI_Awake_12e2e60](EndGameUI/EndGameUI_Awake_12e2e60.cpp) |
 | EndGameUI | `public void CacheInterstitial(string inReason) { }` | `0x12e4218` | [EndGameUI_CacheInterstitial_12e4218](EndGameUI/EndGameUI_CacheInterstitial_12e4218.cpp) |
+| EndGameUI | `public EndGameUI() { }` | `0x12e6744` | [EndGameUI_EndGameUI_12e6744](EndGameUI/EndGameUI_EndGameUI_12e6744.cpp) |
 | EndGameUI | `protected void EndGame_OnAdClicked(AdService inService, AdType inAdType, string inAdSpaceName) { }` | `0x12e5bd0` | [EndGameUI_EndGame_OnAdClicked_12e5bd0](EndGameUI/EndGameUI_EndGame_OnAdClicked_12e5bd0.cpp) |
 | EndGameUI | `protected void EndGame_OnAdDismissed(AdService inService, AdType inAdType, string inAdSpaceName, bool inCompleted) { }` | `0x12e6148` | [EndGameUI_EndGame_OnAdDismissed_12e6148](EndGameUI/EndGameUI_EndGame_OnAdDismissed_12e6148.cpp) |
 | EndGameUI | `protected void EndGame_OnAdFailed(AdService inService, AdType inAdType, string inAdSpaceName, string inError) { }` | `0x12e5df0` | [EndGameUI_EndGame_OnAdFailed_12e5df0](EndGameUI/EndGameUI_EndGame_OnAdFailed_12e5df0.cpp) |
@@ -121,8 +137,8 @@ Generated native pseudocode with original method bytes checked against the APK l
 | EndGameUI | `protected void SetDoubleButtonState(bool inEnabled) { }` | `0x12e39e0` | [EndGameUI_SetDoubleButtonState_12e39e0](EndGameUI/EndGameUI_SetDoubleButtonState_12e39e0.cpp) |
 | EndGameUI | `private void Setup() { }` | `0x12e2ed8` | [EndGameUI_Setup_12e2ed8](EndGameUI/EndGameUI_Setup_12e2ed8.cpp) |
 | EndGameUI | `public void ShowAdAfterHandling() { }` | `0x12de9bc` | [EndGameUI_ShowAdAfterHandling_12de9bc](EndGameUI/EndGameUI_ShowAdAfterHandling_12de9bc.cpp) |
-| EndGameUI | `private void ShowRewardedAd() { }` | `0x12e5a3c` | [EndGameUI_ShowRewardedAd_12e5a3c](EndGameUI/EndGameUI_ShowRewardedAd_12e5a3c.cpp) |
 | EndGameUI | `public void ShowRewardedAdAlert() { }` | `0x12e5894` | [EndGameUI_ShowRewardedAdAlert_12e5894](EndGameUI/EndGameUI_ShowRewardedAdAlert_12e5894.cpp) |
+| EndGameUI | `private void ShowRewardedAd() { }` | `0x12e5a3c` | [EndGameUI_ShowRewardedAd_12e5a3c](EndGameUI/EndGameUI_ShowRewardedAd_12e5a3c.cpp) |
 | EndGameUI | `public virtual void SlideIn(BasePanel returnTo) { }` | `0x12e3adc` | [EndGameUI_SlideIn_12e3adc](EndGameUI/EndGameUI_SlideIn_12e3adc.cpp) |
 | EndGameUI | `private void StartTweet() { }` | `0x12e56fc` | [EndGameUI_StartTweet_12e56fc](EndGameUI/EndGameUI_StartTweet_12e56fc.cpp) |
 | EndGameUI | `private void StoreClick() { }` | `0x12e4eac` | [EndGameUI_StoreClick_12e4eac](EndGameUI/EndGameUI_StoreClick_12e4eac.cpp) |
@@ -130,58 +146,30 @@ Generated native pseudocode with original method bytes checked against the APK l
 | EndGameUI | `private DeathTypes TypeFromName(string name) { }` | `0x12e5350` | [EndGameUI_TypeFromName_12e5350](EndGameUI/EndGameUI_TypeFromName_12e5350.cpp) |
 | EndGameUI | `private void UnhookAdEvents() { }` | `0x12e2bb0` | [EndGameUI_UnhookAdEvents_12e2bb0](EndGameUI/EndGameUI_UnhookAdEvents_12e2bb0.cpp) |
 | EndGameUI | `private void UpdateStats() { }` | `0x12e43cc` | [EndGameUI_UpdateStats_12e43cc](EndGameUI/EndGameUI_UpdateStats_12e43cc.cpp) |
+| EndGameUI | `protected string get_InterstitalName() { }` | `0x12e28c0` | [EndGameUI_get_InterstitalName_12e28c0](EndGameUI/EndGameUI_get_InterstitalName_12e28c0.cpp) |
+| EndGameUI.Illustration | `public Illustration() { }` | `0x12e5628` | [EndGameUI_Illustration_Illustration_12e5628](EndGameUI_Illustration/EndGameUI_Illustration_Illustration_12e5628.cpp) |
+| EndGameUI.<LoopDoubleCoinsButtonVibrate>d__63 | `private override bool MoveNext() { }` | `0x12e67dc` | [EndGameUI__LoopDoubleCoinsButtonVibrate_d__63_MoveNext_12e67dc](EndGameUI__LoopDoubleCoinsButtonVibrate_d__63/EndGameUI__LoopDoubleCoinsButtonVibrate_d__63_MoveNext_12e67dc.cpp) |
+| EndGameUI.<SlideInAnimation>d__61 | `private override bool MoveNext() { }` | `0x12e6910` | [EndGameUI__SlideInAnimation_d__61_MoveNext_12e6910](EndGameUI__SlideInAnimation_d__61/EndGameUI__SlideInAnimation_d__61_MoveNext_12e6910.cpp) |
 | Enemy | `public Enemy() { }` | `0x12d628c` | [Enemy_Enemy_12d628c](Enemy/Enemy_Enemy_12d628c.cpp) |
 | Enemy | `public void Jump(float delay = 0) { }` | `0x12d5f40` | [Enemy_Jump_12d5f40](Enemy/Enemy_Jump_12d5f40.cpp) |
-| Enemy | `private void OnDrawGizmos() { }` | `0x12d610c` | [Enemy_OnDrawGizmos_12d610c](Enemy/Enemy_OnDrawGizmos_12d610c.cpp) |
 | Enemy | `private void OnDrawGizmosSelected() { }` | `0x12d611c` | [Enemy_OnDrawGizmosSelected_12d611c](Enemy/Enemy_OnDrawGizmosSelected_12d611c.cpp) |
+| Enemy | `private void OnDrawGizmos() { }` | `0x12d610c` | [Enemy_OnDrawGizmos_12d610c](Enemy/Enemy_OnDrawGizmos_12d610c.cpp) |
 | Enemy | `public void Reset() { }` | `0x12d5e80` | [Enemy_Reset_12d5e80](Enemy/Enemy_Reset_12d5e80.cpp) |
 | Enemy | `public void Run() { }` | `0x12d5f3c` | [Enemy_Run_12d5f3c](Enemy/Enemy_Run_12d5f3c.cpp) |
 | Enemy | `private void Start() { }` | `0x12d5e7c` | [Enemy_Start_12d5e7c](Enemy/Enemy_Start_12d5e7c.cpp) |
 | Enemy | `public virtual void Update() { }` | `0x12d5f80` | [Enemy_Update_12d5f80](Enemy/Enemy_Update_12d5f80.cpp) |
-| GameCamera | `public GameCamera() { }` | `0x12d824c` | [GameCamera_GameCamera_12d824c](GameCamera/GameCamera_GameCamera_12d824c.cpp) |
 | GameCamera | `private void Awake() { }` | `0x12d7240` | [GameCamera_Awake_12d7240](GameCamera/GameCamera_Awake_12d7240.cpp) |
+| GameCamera | `public GameCamera() { }` | `0x12d824c` | [GameCamera_GameCamera_12d824c](GameCamera/GameCamera_GameCamera_12d824c.cpp) |
 | GameCamera | `private void OnDrawGizmosSelected() { }` | `0x12d810c` | [GameCamera_OnDrawGizmosSelected_12d810c](GameCamera/GameCamera_OnDrawGizmosSelected_12d810c.cpp) |
 | GameCamera | `public void Reset() { }` | `0x12d73b4` | [GameCamera_Reset_12d73b4](GameCamera/GameCamera_Reset_12d73b4.cpp) |
 | GameCamera | `public void SetMainMenuAniatmion(bool SnapToEnd = false) { }` | `0x12d7f20` | [GameCamera_SetMainMenuAniatmion_12d7f20](GameCamera/GameCamera_SetMainMenuAniatmion_12d7f20.cpp) |
 | GameCamera | `public void Shake(float magnitude, float duration, float freqMult, float delay = 0) { }` | `0x12d364c` | [GameCamera_Shake_12d364c](GameCamera/GameCamera_Shake_12d364c.cpp) |
 | GameCamera | `public void SnapStartGame() { }` | `0x12d8170` | [GameCamera_SnapStartGame_12d8170](GameCamera/GameCamera_SnapStartGame_12d8170.cpp) |
 | GameCamera | `private void Start() { }` | `0x12d7340` | [GameCamera_Start_12d7340](GameCamera/GameCamera_Start_12d7340.cpp) |
-| GameCamera | `public virtual void Update() { }` | `0x12d7648` | [GameCamera_Update_12d7648](GameCamera/GameCamera_Update_12d7648.cpp) |
 | GameCamera | `private void UpdateWater() { }` | `0x12d8070` | [GameCamera_UpdateWater_12d8070](GameCamera/GameCamera_UpdateWater_12d8070.cpp) |
-| GameController.<>c | `private static <>c() { }` | `0x12ac4d4` | [GameController___c___c_12ac4d4](GameController___c/GameController___c___c_12ac4d4.cpp) |
-| GameController.<>c | `public <>c() { }` | `0x12ac530` | [GameController___c___c_12ac530](GameController___c/GameController___c___c_12ac530.cpp) |
-| GameController.<>c | `internal bool <InitalizeAdjust>b__236_0() { }` | `0x12ac53c` | [GameController___c__InitalizeAdjust_b__236_0_12ac53c](GameController___c/GameController___c__InitalizeAdjust_b__236_0_12ac53c.cpp) |
-| GameController.<>c | `internal bool <InitalizeAdjust>b__236_1() { }` | `0x12ac5b8` | [GameController___c__InitalizeAdjust_b__236_1_12ac5b8](GameController___c/GameController___c__InitalizeAdjust_b__236_1_12ac5b8.cpp) |
-| GameController.<>c | `internal void <RefreshRcReachability>b__43_0(bool success) { }` | `0x12ac538` | [GameController___c__RefreshRcReachability_b__43_0_12ac538](GameController___c/GameController___c__RefreshRcReachability_b__43_0_12ac538.cpp) |
-| GameController.<>c__DisplayClass46_0 | `public <>c__DisplayClass46_0() { }` | `0x12ac63c` | [GameController___c__DisplayClass46_0___c__DisplayClass46_0_12ac63c](GameController___c__DisplayClass46_0/GameController___c__DisplayClass46_0___c__DisplayClass46_0_12ac63c.cpp) |
-| GameController.<>c__DisplayClass46_0 | `internal void <PostGamePrivacyFlow>b__0() { }` | `0x12ac644` | [GameController___c__DisplayClass46_0__PostGamePrivacyFlow_b__0_12ac644](GameController___c__DisplayClass46_0/GameController___c__DisplayClass46_0__PostGamePrivacyFlow_b__0_12ac644.cpp) |
-| GameController.<InitalizeAdjust>d__236 | `private override bool MoveNext() { }` | `0x12ac738` | [GameController__InitalizeAdjust_d__236_MoveNext_12ac738](GameController__InitalizeAdjust_d__236/GameController__InitalizeAdjust_d__236_MoveNext_12ac738.cpp) |
-| GameController.<LogAdInitOutcome>d__55 | `private override bool MoveNext() { }` | `0x12acb4c` | [GameController__LogAdInitOutcome_d__55_MoveNext_12acb4c](GameController__LogAdInitOutcome_d__55/GameController__LogAdInitOutcome_d__55_MoveNext_12acb4c.cpp) |
-| GameController.<LogRetryResult>d__227 | `private override bool MoveNext() { }` | `0x12accac` | [GameController__LogRetryResult_d__227_MoveNext_12accac](GameController__LogRetryResult_d__227/GameController__LogRetryResult_d__227_MoveNext_12accac.cpp) |
-| GameController.<LogStartupAdInitAttemptDeferred>d__53 | `private override bool MoveNext() { }` | `0x12ad224` | [GameController__LogStartupAdInitAttemptDeferred_d__53_MoveNext_12ad224](GameController__LogStartupAdInitAttemptDeferred_d__53/GameController__LogStartupAdInitAttemptDeferred_d__53_MoveNext_12ad224.cpp) |
-| GameController.<WaitAndWarmResources>d__240 | `private override bool MoveNext() { }` | `0x12ad7dc` | [GameController__WaitAndWarmResources_d__240_MoveNext_12ad7dc](GameController__WaitAndWarmResources_d__240/GameController__WaitAndWarmResources_d__240_MoveNext_12ad7dc.cpp) |
-| GameController | `public static bool get_AllowFallOnCliffs() { }` | `0x1297450` | [GameController_get_AllowFallOnCliffs_1297450](GameController/GameController_get_AllowFallOnCliffs_1297450.cpp) |
-| GameController | `public static bool get_AllowFallOnNarrows() { }` | `0x12974b4` | [GameController_get_AllowFallOnNarrows_12974b4](GameController/GameController_get_AllowFallOnNarrows_12974b4.cpp) |
-| GameController | `public static bool get_AllowSwipeStumbleDeath() { }` | `0x129c7b0` | [GameController_get_AllowSwipeStumbleDeath_129c7b0](GameController/GameController_get_AllowSwipeStumbleDeath_129c7b0.cpp) |
-| GameController | `public static bool get_AllowSwipeToSlamDown() { }` | `0x129c878` | [GameController_get_AllowSwipeToSlamDown_129c878](GameController/GameController_get_AllowSwipeToSlamDown_129c878.cpp) |
-| GameController | `public static bool get_AllowSwipeToStrafe() { }` | `0x129c814` | [GameController_get_AllowSwipeToStrafe_129c814](GameController/GameController_get_AllowSwipeToStrafe_129c814.cpp) |
-| GameController | `public static bool get_AllowTiltToTurn() { }` | `0x1296de4` | [GameController_get_AllowTiltToTurn_1296de4](GameController/GameController_get_AllowTiltToTurn_1296de4.cpp) |
-| GameController | `public static CultureInfo get_CurrentCultureInfo() { }` | `0x128cabc` | [GameController_get_CurrentCultureInfo_128cabc](GameController/GameController_get_CurrentCultureInfo_128cabc.cpp) |
-| GameController | `public ImangiLocaleInfo get_CurrentLocale() { }` | `0x128ca54` | [GameController_get_CurrentLocale_128ca54](GameController/GameController_get_CurrentLocale_128ca54.cpp) |
-| GameController | `public bool get_IsAdInitHeldForRegulation() { }` | `0x128877c` | [GameController_get_IsAdInitHeldForRegulation_128877c](GameController/GameController_get_IsAdInitHeldForRegulation_128877c.cpp) |
-| GameController | `public bool get_IsPostGamePrivacyFlowActive() { }` | `0x128878c` | [GameController_get_IsPostGamePrivacyFlowActive_128878c](GameController/GameController_get_IsPostGamePrivacyFlowActive_128878c.cpp) |
-| GameController | `public static float get_MaxRunVelocity() { }` | `0x129c940` | [GameController_get_MaxRunVelocity_129c940](GameController/GameController_get_MaxRunVelocity_129c940.cpp) |
-| GameController | `public bool get_NeedsPrivacyFlowAfterGame() { }` | `0x1288784` | [GameController_get_NeedsPrivacyFlowAfterGame_1288784](GameController/GameController_get_NeedsPrivacyFlowAfterGame_1288784.cpp) |
-| GameController | `public static bool get_RemoteConfigReady() { }` | `0x128cbac` | [GameController_get_RemoteConfigReady_128cbac](GameController/GameController_get_RemoteConfigReady_128cbac.cpp) |
-| GameController | `public static void set_RemoteConfigReady(bool value) { }` | `0x128cc04` | [GameController_set_RemoteConfigReady_128cc04](GameController/GameController_set_RemoteConfigReady_128cc04.cpp) |
-| GameController | `public static int get_ResurrectionBoostDistance() { }` | `0x1296c70` | [GameController_get_ResurrectionBoostDistance_1296c70](GameController/GameController_get_ResurrectionBoostDistance_1296c70.cpp) |
-| GameController | `public static float get_ResurrectionSlowDownPercent() { }` | `0x1296cd4` | [GameController_get_ResurrectionSlowDownPercent_1296cd4](GameController/GameController_get_ResurrectionSlowDownPercent_1296cd4.cpp) |
-| GameController | `public static float get_StartRunVelocity() { }` | `0x129c8dc` | [GameController_get_StartRunVelocity_129c8dc](GameController/GameController_get_StartRunVelocity_129c8dc.cpp) |
-| GameController | `public static float get_StumbleSlowDownPercent() { }` | `0x129c9a4` | [GameController_get_StumbleSlowDownPercent_129c9a4](GameController/GameController_get_StumbleSlowDownPercent_129c9a4.cpp) |
-| GameController | `private static GameController() { }` | `0x129cca8` | [GameController_GameController_129cca8](GameController/GameController_GameController_129cca8.cpp) |
-| GameController | `public GameController() { }` | `0x129ca08` | [GameController_GameController_129ca08](GameController/GameController_GameController_129ca08.cpp) |
-| GameController | `public void AdjustCultureinfoForLanguageSetting(string languageName) { }` | `0x129c330` | [GameController_AdjustCultureinfoForLanguageSetting_129c330](GameController/GameController_AdjustCultureinfoForLanguageSetting_129c330.cpp) |
+| GameCamera | `public virtual void Update() { }` | `0x12d7648` | [GameCamera_Update_12d7648](GameCamera/GameCamera_Update_12d7648.cpp) |
 | GameController | `private EventParameter[] AdServiceStateParams() { }` | `0x1288a68` | [GameController_AdServiceStateParams_1288a68](GameController/GameController_AdServiceStateParams_1288a68.cpp) |
+| GameController | `public void AdjustCultureinfoForLanguageSetting(string languageName) { }` | `0x129c330` | [GameController_AdjustCultureinfoForLanguageSetting_129c330](GameController/GameController_AdjustCultureinfoForLanguageSetting_129c330.cpp) |
 | GameController | `private static EventParameter AgeRestrictedParam() { }` | `0x128887c` | [GameController_AgeRestrictedParam_128887c](GameController/GameController_AgeRestrictedParam_128887c.cpp) |
 | GameController | `public static bool AreGameServicesAvailable() { }` | `0x1287aec` | [GameController_AreGameServicesAvailable_1287aec](GameController/GameController_AreGameServicesAvailable_1287aec.cpp) |
 | GameController | `public static void AttributionChangedCallback(AdjustAttribution attributionData) { }` | `0x128f028` | [GameController_AttributionChangedCallback_128f028](GameController/GameController_AttributionChangedCallback_128f028.cpp) |
@@ -203,6 +191,8 @@ Generated native pseudocode with original method bytes checked against the APK l
 | GameController | `private void EndGame(float delayTime, bool autoRestart) { }` | `0x1296758` | [GameController_EndGame_1296758](GameController/GameController_EndGame_1296758.cpp) |
 | GameController | `public void EndOfRunAdInitRetryGate() { }` | `0x1289f3c` | [GameController_EndOfRunAdInitRetryGate_1289f3c](GameController/GameController_EndOfRunAdInitRetryGate_1289f3c.cpp) |
 | GameController | `private void ExecutePrivacyFlowForAdInit() { }` | `0x128d40c` | [GameController_ExecutePrivacyFlowForAdInit_128d40c](GameController/GameController_ExecutePrivacyFlowForAdInit_128d40c.cpp) |
+| GameController | `public GameController() { }` | `0x129ca08` | [GameController_GameController_129ca08](GameController/GameController_GameController_129ca08.cpp) |
+| GameController | `private static GameController() { }` | `0x129cca8` | [GameController_GameController_129cca8](GameController/GameController_GameController_129cca8.cpp) |
 | GameController | `protected void GameController_OnAdClicked(AdService inService, AdType inAdType, string inAdSpaceName) { }` | `0x1290094` | [GameController_GameController_OnAdClicked_1290094](GameController/GameController_GameController_OnAdClicked_1290094.cpp) |
 | GameController | `protected void GameController_OnAdDismissed(AdService inService, AdType inAdType, string inAdSpaceName, bool inCompleted) { }` | `0x1290694` | [GameController_GameController_OnAdDismissed_1290694](GameController/GameController_GameController_OnAdDismissed_1290694.cpp) |
 | GameController | `protected void GameController_OnAdFailed(AdService inService, AdType inAdType, string inAdSpaceName, string inError) { }` | `0x12901c8` | [GameController_GameController_OnAdFailed_12901c8](GameController/GameController_GameController_OnAdFailed_12901c8.cpp) |
@@ -239,8 +229,8 @@ Generated native pseudocode with original method bytes checked against the APK l
 | GameController | `public static void InitializeConfig(PromoFile inPromoFile) { }` | `0x129c3c4` | [GameController_InitializeConfig_129c3c4](GameController/GameController_InitializeConfig_129c3c4.cpp) |
 | GameController | `public void InitializeGameCenter() { }` | `0x1287900` | [GameController_InitializeGameCenter_1287900](GameController/GameController_InitializeGameCenter_1287900.cpp) |
 | GameController | `public static bool IsVideoAdAvailable() { }` | `0x128da40` | [GameController_IsVideoAdAvailable_128da40](GameController/GameController_IsVideoAdAvailable_128da40.cpp) |
-| GameController | `private void LoadedAchievements(List<ImangiGameCenterAchievement> inAchievements) { }` | `0x1287d8c` | [GameController_LoadedAchievements_1287d8c](GameController/GameController_LoadedAchievements_1287d8c.cpp) |
 | GameController | `public void LoadLevelInformation() { }` | `0x128e344` | [GameController_LoadLevelInformation_128e344](GameController/GameController_LoadLevelInformation_128e344.cpp) |
+| GameController | `private void LoadedAchievements(List<ImangiGameCenterAchievement> inAchievements) { }` | `0x1287d8c` | [GameController_LoadedAchievements_1287d8c](GameController/GameController_LoadedAchievements_1287d8c.cpp) |
 | GameController | `private void LocalPlayerAuthenticated(ImangiGameCenterPlayer inPlayer) { }` | `0x1287b7c` | [GameController_LocalPlayerAuthenticated_1287b7c](GameController/GameController_LocalPlayerAuthenticated_1287b7c.cpp) |
 | GameController | `public void LogBootConsentAttempt() { }` | `0x128bfec` | [GameController_LogBootConsentAttempt_128bfec](GameController/GameController_LogBootConsentAttempt_128bfec.cpp) |
 | GameController | `public void LogBootConsentOutcome(string inOutcome) { }` | `0x128c450` | [GameController_LogBootConsentOutcome_128c450](GameController/GameController_LogBootConsentOutcome_128c450.cpp) |
@@ -301,24 +291,53 @@ Generated native pseudocode with original method bytes checked against the APK l
 | GameController | `public void SimulateEnemies() { }` | `0x1295d7c` | [GameController_SimulateEnemies_1295d7c](GameController/GameController_SimulateEnemies_1295d7c.cpp) |
 | GameController | `private void SimulateWorldElements() { }` | `0x12969bc` | [GameController_SimulateWorldElements_12969bc](GameController/GameController_SimulateWorldElements_12969bc.cpp) |
 | GameController | `public void SnapMainMenu() { }` | `0x128fb68` | [GameController_SnapMainMenu_128fb68](GameController/GameController_SnapMainMenu_128fb68.cpp) |
-| GameController | `private void Start() { }` | `0x128e1e4` | [GameController_Start_128e1e4](GameController/GameController_Start_128e1e4.cpp) |
 | GameController | `private void StartGame() { }` | `0x128f440` | [GameController_StartGame_128f440](GameController/GameController_StartGame_128f440.cpp) |
+| GameController | `private void Start() { }` | `0x128e1e4` | [GameController_Start_128e1e4](GameController/GameController_Start_128e1e4.cpp) |
 | GameController | `private void SwitchToAdMob(AdManager mgr) { }` | `0x128b2c8` | [GameController_SwitchToAdMob_128b2c8](GameController/GameController_SwitchToAdMob_128b2c8.cpp) |
 | GameController | `private void TriggerPrivacyFlowForAdInit() { }` | `0x1289b28` | [GameController_TriggerPrivacyFlowForAdInit_1289b28](GameController/GameController_TriggerPrivacyFlowForAdInit_1289b28.cpp) |
 | GameController | `protected void UnhookAdEvents() { }` | `0x12903b0` | [GameController_UnhookAdEvents_12903b0](GameController/GameController_UnhookAdEvents_12903b0.cpp) |
 | GameController | `public void Unpause() { }` | `0x1296d38` | [GameController_Unpause_1296d38](GameController/GameController_Unpause_1296d38.cpp) |
-| GameController | `private void Update() { }` | `0x1290c18` | [GameController_Update_1290c18](GameController/GameController_Update_1290c18.cpp) |
 | GameController | `private void UpdateAchievementRecords() { }` | `0x1297da8` | [GameController_UpdateAchievementRecords_1297da8](GameController/GameController_UpdateAchievementRecords_1297da8.cpp) |
 | GameController | `private void UpdateAndSaveRecords() { }` | `0x1297c90` | [GameController_UpdateAndSaveRecords_1297c90](GameController/GameController_UpdateAndSaveRecords_1297c90.cpp) |
+| GameController | `private void Update() { }` | `0x1290c18` | [GameController_Update_1290c18](GameController/GameController_Update_1290c18.cpp) |
 | GameController | `public void UseAngelWings() { }` | `0x129bcd8` | [GameController_UseAngelWings_129bcd8](GameController/GameController_UseAngelWings_129bcd8.cpp) |
-| GameController | `public void UseHeadStart() { }` | `0x129bfc4` | [GameController_UseHeadStart_129bfc4](GameController/GameController_UseHeadStart_129bfc4.cpp) |
 | GameController | `public void UseHeadStartMega() { }` | `0x129c134` | [GameController_UseHeadStartMega_129c134](GameController/GameController_UseHeadStartMega_129c134.cpp) |
+| GameController | `public void UseHeadStart() { }` | `0x129bfc4` | [GameController_UseHeadStart_129bfc4](GameController/GameController_UseHeadStart_129bfc4.cpp) |
 | GameController | `public void UsePermaWings() { }` | `0x129be50` | [GameController_UsePermaWings_129be50](GameController/GameController_UsePermaWings_129be50.cpp) |
-| GameGUI | `public GameGUI() { }` | `0x12e88dc` | [GameGUI_GameGUI_12e88dc](GameGUI/GameGUI_GameGUI_12e88dc.cpp) |
+| GameController | `public static bool get_AllowFallOnCliffs() { }` | `0x1297450` | [GameController_get_AllowFallOnCliffs_1297450](GameController/GameController_get_AllowFallOnCliffs_1297450.cpp) |
+| GameController | `public static bool get_AllowFallOnNarrows() { }` | `0x12974b4` | [GameController_get_AllowFallOnNarrows_12974b4](GameController/GameController_get_AllowFallOnNarrows_12974b4.cpp) |
+| GameController | `public static bool get_AllowSwipeStumbleDeath() { }` | `0x129c7b0` | [GameController_get_AllowSwipeStumbleDeath_129c7b0](GameController/GameController_get_AllowSwipeStumbleDeath_129c7b0.cpp) |
+| GameController | `public static bool get_AllowSwipeToSlamDown() { }` | `0x129c878` | [GameController_get_AllowSwipeToSlamDown_129c878](GameController/GameController_get_AllowSwipeToSlamDown_129c878.cpp) |
+| GameController | `public static bool get_AllowSwipeToStrafe() { }` | `0x129c814` | [GameController_get_AllowSwipeToStrafe_129c814](GameController/GameController_get_AllowSwipeToStrafe_129c814.cpp) |
+| GameController | `public static bool get_AllowTiltToTurn() { }` | `0x1296de4` | [GameController_get_AllowTiltToTurn_1296de4](GameController/GameController_get_AllowTiltToTurn_1296de4.cpp) |
+| GameController | `public static CultureInfo get_CurrentCultureInfo() { }` | `0x128cabc` | [GameController_get_CurrentCultureInfo_128cabc](GameController/GameController_get_CurrentCultureInfo_128cabc.cpp) |
+| GameController | `public ImangiLocaleInfo get_CurrentLocale() { }` | `0x128ca54` | [GameController_get_CurrentLocale_128ca54](GameController/GameController_get_CurrentLocale_128ca54.cpp) |
+| GameController | `public bool get_IsAdInitHeldForRegulation() { }` | `0x128877c` | [GameController_get_IsAdInitHeldForRegulation_128877c](GameController/GameController_get_IsAdInitHeldForRegulation_128877c.cpp) |
+| GameController | `public bool get_IsPostGamePrivacyFlowActive() { }` | `0x128878c` | [GameController_get_IsPostGamePrivacyFlowActive_128878c](GameController/GameController_get_IsPostGamePrivacyFlowActive_128878c.cpp) |
+| GameController | `public static float get_MaxRunVelocity() { }` | `0x129c940` | [GameController_get_MaxRunVelocity_129c940](GameController/GameController_get_MaxRunVelocity_129c940.cpp) |
+| GameController | `public bool get_NeedsPrivacyFlowAfterGame() { }` | `0x1288784` | [GameController_get_NeedsPrivacyFlowAfterGame_1288784](GameController/GameController_get_NeedsPrivacyFlowAfterGame_1288784.cpp) |
+| GameController | `public static bool get_RemoteConfigReady() { }` | `0x128cbac` | [GameController_get_RemoteConfigReady_128cbac](GameController/GameController_get_RemoteConfigReady_128cbac.cpp) |
+| GameController | `public static int get_ResurrectionBoostDistance() { }` | `0x1296c70` | [GameController_get_ResurrectionBoostDistance_1296c70](GameController/GameController_get_ResurrectionBoostDistance_1296c70.cpp) |
+| GameController | `public static float get_ResurrectionSlowDownPercent() { }` | `0x1296cd4` | [GameController_get_ResurrectionSlowDownPercent_1296cd4](GameController/GameController_get_ResurrectionSlowDownPercent_1296cd4.cpp) |
+| GameController | `public static float get_StartRunVelocity() { }` | `0x129c8dc` | [GameController_get_StartRunVelocity_129c8dc](GameController/GameController_get_StartRunVelocity_129c8dc.cpp) |
+| GameController | `public static float get_StumbleSlowDownPercent() { }` | `0x129c9a4` | [GameController_get_StumbleSlowDownPercent_129c9a4](GameController/GameController_get_StumbleSlowDownPercent_129c9a4.cpp) |
+| GameController | `public static void set_RemoteConfigReady(bool value) { }` | `0x128cc04` | [GameController_set_RemoteConfigReady_128cc04](GameController/GameController_set_RemoteConfigReady_128cc04.cpp) |
+| GameController.<InitalizeAdjust>d__236 | `private override bool MoveNext() { }` | `0x12ac738` | [GameController__InitalizeAdjust_d__236_MoveNext_12ac738](GameController__InitalizeAdjust_d__236/GameController__InitalizeAdjust_d__236_MoveNext_12ac738.cpp) |
+| GameController.<LogAdInitOutcome>d__55 | `private override bool MoveNext() { }` | `0x12acb4c` | [GameController__LogAdInitOutcome_d__55_MoveNext_12acb4c](GameController__LogAdInitOutcome_d__55/GameController__LogAdInitOutcome_d__55_MoveNext_12acb4c.cpp) |
+| GameController.<LogRetryResult>d__227 | `private override bool MoveNext() { }` | `0x12accac` | [GameController__LogRetryResult_d__227_MoveNext_12accac](GameController__LogRetryResult_d__227/GameController__LogRetryResult_d__227_MoveNext_12accac.cpp) |
+| GameController.<LogStartupAdInitAttemptDeferred>d__53 | `private override bool MoveNext() { }` | `0x12ad224` | [GameController__LogStartupAdInitAttemptDeferred_d__53_MoveNext_12ad224](GameController__LogStartupAdInitAttemptDeferred_d__53/GameController__LogStartupAdInitAttemptDeferred_d__53_MoveNext_12ad224.cpp) |
+| GameController.<WaitAndWarmResources>d__240 | `private override bool MoveNext() { }` | `0x12ad7dc` | [GameController__WaitAndWarmResources_d__240_MoveNext_12ad7dc](GameController__WaitAndWarmResources_d__240/GameController__WaitAndWarmResources_d__240_MoveNext_12ad7dc.cpp) |
+| GameController.<>c | `internal bool <InitalizeAdjust>b__236_0() { }` | `0x12ac53c` | [GameController___c__InitalizeAdjust_b__236_0_12ac53c](GameController___c/GameController___c__InitalizeAdjust_b__236_0_12ac53c.cpp) |
+| GameController.<>c | `internal bool <InitalizeAdjust>b__236_1() { }` | `0x12ac5b8` | [GameController___c__InitalizeAdjust_b__236_1_12ac5b8](GameController___c/GameController___c__InitalizeAdjust_b__236_1_12ac5b8.cpp) |
+| GameController.<>c | `internal void <RefreshRcReachability>b__43_0(bool success) { }` | `0x12ac538` | [GameController___c__RefreshRcReachability_b__43_0_12ac538](GameController___c/GameController___c__RefreshRcReachability_b__43_0_12ac538.cpp) |
+| GameController.<>c | `private static <>c() { }` | `0x12ac4d4` | [GameController___c___c_12ac4d4](GameController___c/GameController___c___c_12ac4d4.cpp) |
+| GameController.<>c | `public <>c() { }` | `0x12ac530` | [GameController___c___c_12ac530](GameController___c/GameController___c___c_12ac530.cpp) |
+| GameController.<>c__DisplayClass46_0 | `internal void <PostGamePrivacyFlow>b__0() { }` | `0x12ac644` | [GameController___c__DisplayClass46_0__PostGamePrivacyFlow_b__0_12ac644](GameController___c__DisplayClass46_0/GameController___c__DisplayClass46_0__PostGamePrivacyFlow_b__0_12ac644.cpp) |
+| GameController.<>c__DisplayClass46_0 | `public <>c__DisplayClass46_0() { }` | `0x12ac63c` | [GameController___c__DisplayClass46_0___c__DisplayClass46_0_12ac63c](GameController___c__DisplayClass46_0/GameController___c__DisplayClass46_0___c__DisplayClass46_0_12ac63c.cpp) |
 | GameGUI | `protected virtual void AdClickedEvent(AdService inService, AdType inAdType, string inAdSpaceName) { }` | `0x12e88b8` | [GameGUI_AdClickedEvent_12e88b8](GameGUI/GameGUI_AdClickedEvent_12e88b8.cpp) |
 | GameGUI | `private void Awake() { }` | `0x12e7694` | [GameGUI_Awake_12e7694](GameGUI/GameGUI_Awake_12e7694.cpp) |
+| GameGUI | `public GameGUI() { }` | `0x12e88dc` | [GameGUI_GameGUI_12e88dc](GameGUI/GameGUI_GameGUI_12e88dc.cpp) |
 | GameGUI | `public void HideInGameBannerAdsIfDisabled() { }` | `0x12e7a78` | [GameGUI_HideInGameBannerAdsIfDisabled_12e7a78](GameGUI/GameGUI_HideInGameBannerAdsIfDisabled_12e7a78.cpp) |
-| GameGUI | `private string nameForCoin(int coinValue) { }` | `0x12e8384` | [GameGUI_nameForCoin_12e8384](GameGUI/GameGUI_nameForCoin_12e8384.cpp) |
 | GameGUI | `private GUIParticle NewParticleSprite() { }` | `0x12e7dd4` | [GameGUI_NewParticleSprite_12e7dd4](GameGUI/GameGUI_NewParticleSprite_12e7dd4.cpp) |
 | GameGUI | `public GUIParticle NextFreeParticle(string name = null) { }` | `0x12e7f50` | [GameGUI_NextFreeParticle_12e7f50](GameGUI/GameGUI_NextFreeParticle_12e7f50.cpp) |
 | GameGUI | `public void PauseClicked() { }` | `0x12e7914` | [GameGUI_PauseClicked_12e7914](GameGUI/GameGUI_PauseClicked_12e7914.cpp) |
@@ -332,15 +351,35 @@ Generated native pseudocode with original method bytes checked against the APK l
 | GameGUI | `public void SpawnMegaCoinParticle(int coinCount) { }` | `0x12e860c` | [GameGUI_SpawnMegaCoinParticle_12e860c](GameGUI/GameGUI_SpawnMegaCoinParticle_12e860c.cpp) |
 | GameGUI | `public void SpawnSpriteParticleForCoin(int coinValue) { }` | `0x12e840c` | [GameGUI_SpawnSpriteParticleForCoin_12e840c](GameGUI/GameGUI_SpawnSpriteParticleForCoin_12e840c.cpp) |
 | GameGUI | `private void Update() { }` | `0x12e7bb4` | [GameGUI_Update_12e7bb4](GameGUI/GameGUI_Update_12e7bb4.cpp) |
+| GameGUI | `private string nameForCoin(int coinValue) { }` | `0x12e8384` | [GameGUI_nameForCoin_12e8384](GameGUI/GameGUI_nameForCoin_12e8384.cpp) |
+| GameGUITotem | `private void Awake() { }` | `0x12e88ec` | [GameGUITotem_Awake_12e88ec](GameGUITotem/GameGUITotem_Awake_12e88ec.cpp) |
+| GameGUITotem | `public GameGUITotem() { }` | `0x12e8f48` | [GameGUITotem_GameGUITotem_12e8f48](GameGUITotem/GameGUITotem_GameGUITotem_12e8f48.cpp) |
+| GameGUITotem | `public void HideAll() { }` | `0x12e88fc` | [GameGUITotem_HideAll_12e88fc](GameGUITotem/GameGUITotem_HideAll_12e88fc.cpp) |
+| GameGUITotem | `public void Reset() { }` | `0x12e7c40` | [GameGUITotem_Reset_12e7c40](GameGUITotem/GameGUITotem_Reset_12e7c40.cpp) |
+| GameGUITotem | `public void SetBonusLevel(int level, bool awardBonus) { }` | `0x12e89f8` | [GameGUITotem_SetBonusLevel_12e89f8](GameGUITotem/GameGUITotem_SetBonusLevel_12e89f8.cpp) |
+| GameGUITotem | `private void SetVisibility(bool visible) { }` | `0x12e88f4` | [GameGUITotem_SetVisibility_12e88f4](GameGUITotem/GameGUITotem_SetVisibility_12e88f4.cpp) |
+| GameGUITotem | `private void SetupStar(GUIParticle sprite) { }` | `0x12e8d50` | [GameGUITotem_SetupStar_12e8d50](GameGUITotem/GameGUITotem_SetupStar_12e8d50.cpp) |
+| GameGUITotem | `private void Setup() { }` | `0x12e88f0` | [GameGUITotem_Setup_12e88f0](GameGUITotem/GameGUITotem_Setup_12e88f0.cpp) |
+| GameGUITotem | `public void ShowAll() { }` | `0x12e88f8` | [GameGUITotem_ShowAll_12e88f8](GameGUITotem/GameGUITotem_ShowAll_12e88f8.cpp) |
+| GameGUITotem | `private void StartEmblemFallIfVisible(UISprite emblem) { }` | `0x12e8bcc` | [GameGUITotem_StartEmblemFallIfVisible_12e8bcc](GameGUITotem/GameGUITotem_StartEmblemFallIfVisible_12e8bcc.cpp) |
+| GameGUITotem | `public void UpdateProgress(float coinPercent) { }` | `0x12e89dc` | [GameGUITotem_UpdateProgress_12e89dc](GameGUITotem/GameGUITotem_UpdateProgress_12e89dc.cpp) |
+| GameGUITotem | `private void Update() { }` | `0x12e8900` | [GameGUITotem_Update_12e8900](GameGUITotem/GameGUITotem_Update_12e8900.cpp) |
 | GameInput | `public GameInput() { }` | `0x12d2c00` | [GameInput_GameInput_12d2c00](GameInput/GameInput_GameInput_12d2c00.cpp) |
 | GameInput | `public override float GetAccelerometerForceX() { }` | `0x12d2bd8` | [GameInput_GetAccelerometerForceX_12d2bd8](GameInput/GameInput_GetAccelerometerForceX_12d2bd8.cpp) |
 | GameInput | `private void HandleAccelerometerForce() { }` | `0x12d2b48` | [GameInput_HandleAccelerometerForce_12d2b48](GameInput/GameInput_HandleAccelerometerForce_12d2b48.cpp) |
 | GameInput | `public void Reset() { }` | `0x12d2be0` | [GameInput_Reset_12d2be0](GameInput/GameInput_Reset_12d2be0.cpp) |
 | GameInput | `private void Start() { }` | `0x12d2a90` | [GameInput_Start_12d2a90](GameInput/GameInput_Start_12d2a90.cpp) |
 | GameInput | `public override void Update() { }` | `0x12d2a94` | [GameInput_Update_12d2a94](GameInput/GameInput_Update_12d2a94.cpp) |
-| MovingObject.MovingObjectPathNode | `public MovingObjectPathNode() { }` | `0x1309120` | [MovingObject_MovingObjectPathNode_MovingObjectPathNode_1309120](MovingObject_MovingObjectPathNode/MovingObject_MovingObjectPathNode_MovingObjectPathNode_1309120.cpp) |
-| MovingObject.MovingObjectPathNode | `public virtual string ToString() { }` | `0x13097dc` | [MovingObject_MovingObjectPathNode_ToString_13097dc](MovingObject_MovingObjectPathNode/MovingObject_MovingObjectPathNode_ToString_13097dc.cpp) |
-| MovingObject | `public MovingObject() { }` | `0x13097b4` | [MovingObject_MovingObject_13097b4](MovingObject/MovingObject_MovingObject_13097b4.cpp) |
+| HeadStartButton | `public HeadStartButton() { }` | `0x12ed594` | [HeadStartButton_HeadStartButton_12ed594](HeadStartButton/HeadStartButton_HeadStartButton_12ed594.cpp) |
+| HeadStartButton | `private void OnClick() { }` | `0x12ed360` | [HeadStartButton_OnClick_12ed360](HeadStartButton/HeadStartButton_OnClick_12ed360.cpp) |
+| HeadStartButton | `private void OnEnable() { }` | `0x12ed3d8` | [HeadStartButton_OnEnable_12ed3d8](HeadStartButton/HeadStartButton_OnEnable_12ed3d8.cpp) |
+| HeadStartButton | `private void Update() { }` | `0x12ed26c` | [HeadStartButton_Update_12ed26c](HeadStartButton/HeadStartButton_Update_12ed26c.cpp) |
+| MainMenu | `public virtual void HideAll() { }` | `0x12f2410` | [MainMenu_HideAll_12f2410](MainMenu/MainMenu_HideAll_12f2410.cpp) |
+| MainMenu | `private void HideMainMenuButtons() { }` | `0x12f242c` | [MainMenu_HideMainMenuButtons_12f242c](MainMenu/MainMenu_HideMainMenuButtons_12f242c.cpp) |
+| MainMenu | `public void OnPlayClicked() { }` | `0x12f244c` | [MainMenu_OnPlayClicked_12f244c](MainMenu/MainMenu_OnPlayClicked_12f244c.cpp) |
+| MainMenu | `public virtual void ShowAll(bool inShowBannerAds = true) { }` | `0x12f2248` | [MainMenu_ShowAll_12f2248](MainMenu/MainMenu_ShowAll_12f2248.cpp) |
+| MainMenu | `public virtual void SlideIn(BasePanel returnTo) { }` | `0x12f1690` | [MainMenu_SlideIn_12f1690](MainMenu/MainMenu_SlideIn_12f1690.cpp) |
+| MainMenu | `public virtual void Start() { }` | `0x12f1444` | [MainMenu_Start_12f1444](MainMenu/MainMenu_Start_12f1444.cpp) |
 | MovingObject | `public void AddFollowingPathNode(MovingObjectPathNode node) { }` | `0x1308f94` | [MovingObject_AddFollowingPathNode_1308f94](MovingObject/MovingObject_AddFollowingPathNode_1308f94.cpp) |
 | MovingObject | `public void AddFollowingPathNode(float timeStamp, Vector3 location, bool ease) { }` | `0x1309080` | [MovingObject_AddFollowingPathNode_1309080](MovingObject/MovingObject_AddFollowingPathNode_1309080.cpp) |
 | MovingObject | `public void ApplyForce(Vector3 force) { }` | `0x13091b0` | [MovingObject_ApplyForce_13091b0](MovingObject/MovingObject_ApplyForce_13091b0.cpp) |
@@ -349,6 +388,7 @@ Generated native pseudocode with original method bytes checked against the APK l
 | MovingObject | `public Vector2 GetPosition2D() { }` | `0x1309760` | [MovingObject_GetPosition2D_1309760](MovingObject/MovingObject_GetPosition2D_1309760.cpp) |
 | MovingObject | `public override Bounds GetWorldSpaceBounds() { }` | `0x13096d8` | [MovingObject_GetWorldSpaceBounds_13096d8](MovingObject/MovingObject_GetWorldSpaceBounds_13096d8.cpp) |
 | MovingObject | `public bool IsMoving() { }` | `0x1308f04` | [MovingObject_IsMoving_1308f04](MovingObject/MovingObject_IsMoving_1308f04.cpp) |
+| MovingObject | `public MovingObject() { }` | `0x13097b4` | [MovingObject_MovingObject_13097b4](MovingObject/MovingObject_MovingObject_13097b4.cpp) |
 | MovingObject | `public void ResetForce() { }` | `0x13091d8` | [MovingObject_ResetForce_13091d8](MovingObject/MovingObject_ResetForce_13091d8.cpp) |
 | MovingObject | `public void ResetSimulation() { }` | `0x13091e8` | [MovingObject_ResetSimulation_13091e8](MovingObject/MovingObject_ResetSimulation_13091e8.cpp) |
 | MovingObject | `public void SetLocalX(float x) { }` | `0x1309494` | [MovingObject_SetLocalX_1309494](MovingObject/MovingObject_SetLocalX_1309494.cpp) |
@@ -364,21 +404,26 @@ Generated native pseudocode with original method bytes checked against the APK l
 | MovingObject | `public void SetY(float y) { }` | `0x130939c` | [MovingObject_SetY_130939c](MovingObject/MovingObject_SetY_130939c.cpp) |
 | MovingObject | `public void SetZ(float z) { }` | `0x1309418` | [MovingObject_SetZ_1309418](MovingObject/MovingObject_SetZ_1309418.cpp) |
 | MovingObject | `public void Simulate() { }` | `0x1308918` | [MovingObject_Simulate_1308918](MovingObject/MovingObject_Simulate_1308918.cpp) |
-| MovingObject | `private void Start() { }` | `0x1308910` | [MovingObject_Start_1308910](MovingObject/MovingObject_Start_1308910.cpp) |
 | MovingObject | `public void StartFollowingPath() { }` | `0x1309128` | [MovingObject_StartFollowingPath_1309128](MovingObject/MovingObject_StartFollowingPath_1309128.cpp) |
+| MovingObject | `private void Start() { }` | `0x1308910` | [MovingObject_Start_1308910](MovingObject/MovingObject_Start_1308910.cpp) |
 | MovingObject | `public void StopFollowingPath() { }` | `0x1309138` | [MovingObject_StopFollowingPath_1309138](MovingObject/MovingObject_StopFollowingPath_1309138.cpp) |
 | MovingObject | `public override void Update() { }` | `0x1308914` | [MovingObject_Update_1308914](MovingObject/MovingObject_Update_1308914.cpp) |
-| Obstacle | `public Obstacle() { }` | `0x1309dc4` | [Obstacle_Obstacle_1309dc4](Obstacle/Obstacle_Obstacle_1309dc4.cpp) |
+| MovingObject.MovingObjectPathNode | `public MovingObjectPathNode() { }` | `0x1309120` | [MovingObject_MovingObjectPathNode_MovingObjectPathNode_1309120](MovingObject_MovingObjectPathNode/MovingObject_MovingObjectPathNode_MovingObjectPathNode_1309120.cpp) |
+| MovingObject.MovingObjectPathNode | `public virtual string ToString() { }` | `0x13097dc` | [MovingObject_MovingObjectPathNode_ToString_13097dc](MovingObject_MovingObjectPathNode/MovingObject_MovingObjectPathNode_ToString_13097dc.cpp) |
 | Obstacle | `public bool DoesLineSegementIntersect(Vector2 p1, Vector2 p2) { }` | `0x1309c0c` | [Obstacle_DoesLineSegementIntersect_1309c0c](Obstacle/Obstacle_DoesLineSegementIntersect_1309c0c.cpp) |
 | Obstacle | `public bool IsPointInRegion(Vector2 p) { }` | `0x1309cf4` | [Obstacle_IsPointInRegion_1309cf4](Obstacle/Obstacle_IsPointInRegion_1309cf4.cpp) |
-| PCInput | `public PCInput() { }` | `0x12d37b4` | [PCInput_PCInput_12d37b4](PCInput/PCInput_PCInput_12d37b4.cpp) |
+| Obstacle | `public Obstacle() { }` | `0x1309dc4` | [Obstacle_Obstacle_1309dc4](Obstacle/Obstacle_Obstacle_1309dc4.cpp) |
+| OffsetOnWidth | `public OffsetOnWidth() { }` | `0x12f5404` | [OffsetOnWidth_OffsetOnWidth_12f5404](OffsetOnWidth/OffsetOnWidth_OffsetOnWidth_12f5404.cpp) |
+| OffsetOnWidth | `private void Update() { }` | `0x12f5274` | [OffsetOnWidth_Update_12f5274](OffsetOnWidth/OffsetOnWidth_Update_12f5274.cpp) |
+| OptionsGUI | `private void BackButtonClicked() { }` | `0x12f5834` | [OptionsGUI_BackButtonClicked_12f5834](OptionsGUI/OptionsGUI_BackButtonClicked_12f5834.cpp) |
+| OptionsGUI | `public virtual void SlideIn(BasePanel returnTo) { }` | `0x12f5580` | [OptionsGUI_SlideIn_12f5580](OptionsGUI/OptionsGUI_SlideIn_12f5580.cpp) |
+| OptionsGUI | `public virtual void Start() { }` | `0x12f540c` | [OptionsGUI_Start_12f540c](OptionsGUI/OptionsGUI_Start_12f540c.cpp) |
 | PCInput | `public virtual float GetAccelerometerForceX() { }` | `0x12d37ac` | [PCInput_GetAccelerometerForceX_12d37ac](PCInput/PCInput_GetAccelerometerForceX_12d37ac.cpp) |
+| PCInput | `public PCInput() { }` | `0x12d37b4` | [PCInput_PCInput_12d37b4](PCInput/PCInput_PCInput_12d37b4.cpp) |
 | PCInput | `public void SensitivityChanged() { }` | `0x12d2c68` | [PCInput_SensitivityChanged_12d2c68](PCInput/PCInput_SensitivityChanged_12d2c68.cpp) |
 | PCInput | `private void SimulateTilt() { }` | `0x12d36ac` | [PCInput_SimulateTilt_12d36ac](PCInput/PCInput_SimulateTilt_12d36ac.cpp) |
 | PCInput | `private void Start() { }` | `0x12d2c08` | [PCInput_Start_12d2c08](PCInput/PCInput_Start_12d2c08.cpp) |
 | PCInput | `public virtual void Update() { }` | `0x12d2c6c` | [PCInput_Update_12d2c6c](PCInput/PCInput_Update_12d2c6c.cpp) |
-| PathElement | `private static PathElement() { }` | `0x131166c` | [PathElement_PathElement_131166c](PathElement/PathElement_PathElement_131166c.cpp) |
-| PathElement | `public PathElement() { }` | `0x1311614` | [PathElement_PathElement_1311614](PathElement/PathElement_PathElement_1311614.cpp) |
 | PathElement | `private bool ACertainTypeCheck(PathType currentType, PathType parentType) { }` | `0x130c6b8` | [PathElement_ACertainTypeCheck_130c6b8](PathElement/PathElement_ACertainTypeCheck_130c6b8.cpp) |
 | PathElement | `public void AddBonusItems(PathDirection direction, PathElement parentPiece) { }` | `0x130e7d8` | [PathElement_AddBonusItems_130e7d8](PathElement/PathElement_AddBonusItems_130e7d8.cpp) |
 | PathElement | `public void AddCoins(PathDirection direction, PathElement parentPiece) { }` | `0x130d4b8` | [PathElement_AddCoins_130d4b8](PathElement/PathElement_AddCoins_130d4b8.cpp) |
@@ -387,34 +432,35 @@ Generated native pseudocode with original method bytes checked against the APK l
 | PathElement | `public void AddRandomPath(int depth, PathDirection origin) { }` | `0x130fed8` | [PathElement_AddRandomPath_130fed8](PathElement/PathElement_AddRandomPath_130fed8.cpp) |
 | PathElement | `public void AddSafteyNet(PathElement newPath, PathDirection origin) { }` | `0x130ec0c` | [PathElement_AddSafteyNet_130ec0c](PathElement/PathElement_AddSafteyNet_130ec0c.cpp) |
 | PathElement | `public void AddTutorialPath(int tutorialId) { }` | `0x130f270` | [PathElement_AddTutorialPath_130f270](PathElement/PathElement_AddTutorialPath_130f270.cpp) |
-| PathElement | `private bool CanPathExtendOnSide(PathDirection direction) { }` | `0x130c140` | [PathElement_CanPathExtendOnSide_130c140](PathElement/PathElement_CanPathExtendOnSide_130c140.cpp) |
 | PathElement | `private bool CanPathExtendOnSide2(PathDirection direction) { }` | `0x130c514` | [PathElement_CanPathExtendOnSide2_130c514](PathElement/PathElement_CanPathExtendOnSide2_130c514.cpp) |
+| PathElement | `private bool CanPathExtendOnSide(PathDirection direction) { }` | `0x130c140` | [PathElement_CanPathExtendOnSide_130c140](PathElement/PathElement_CanPathExtendOnSide_130c140.cpp) |
 | PathElement | `public bool CanTurnLeft(PathDirection origin) { }` | `0x130b74c` | [PathElement_CanTurnLeft_130b74c](PathElement/PathElement_CanTurnLeft_130b74c.cpp) |
 | PathElement | `public bool CanTurnRight(PathDirection origin) { }` | `0x130b808` | [PathElement_CanTurnRight_130b808](PathElement/PathElement_CanTurnRight_130b808.cpp) |
 | PathElement | `private void ClearTerrainPieces() { }` | `0x130a784` | [PathElement_ClearTerrainPieces_130a784](PathElement/PathElement_ClearTerrainPieces_130a784.cpp) |
 | PathElement | `private bool DoesPieceTypeFitOnSide(PathType type, PathDirection direction, bool checkPieceTypes = true) { }` | `0x130c044` | [PathElement_DoesPieceTypeFitOnSide_130c044](PathElement/PathElement_DoesPieceTypeFitOnSide_130c044.cpp) |
-| PathElement | `public bool DoesSidePathhaveCoins() { }` | `0x1311594` | [PathElement_DoesSidePathhaveCoins_1311594](PathElement/PathElement_DoesSidePathhaveCoins_1311594.cpp) |
 | PathElement | `public bool DoesSidePathHaveObstacles() { }` | `0x130b8c4` | [PathElement_DoesSidePathHaveObstacles_130b8c4](PathElement/PathElement_DoesSidePathHaveObstacles_130b8c4.cpp) |
+| PathElement | `public bool DoesSidePathhaveCoins() { }` | `0x1311594` | [PathElement_DoesSidePathhaveCoins_1311594](PathElement/PathElement_DoesSidePathhaveCoins_1311594.cpp) |
 | PathElement | `public static void DumpStatics() { }` | `0x1309dcc` | [PathElement_DumpStatics_1309dcc](PathElement/PathElement_DumpStatics_1309dcc.cpp) |
 | PathElement | `public PathElement GetNearestPathElement(Vector2 point, PathDirection origin, bool isRootNode, int maxTurns = 3) { }` | `0x1310488` | [PathElement_GetNearestPathElement_1310488](PathElement/PathElement_GetNearestPathElement_1310488.cpp) |
 | PathElement | `public static PathDirection GetOpposite(PathDirection direction) { }` | `0x130c020` | [PathElement_GetOpposite_130c020](PathElement/PathElement_GetOpposite_130c020.cpp) |
-| PathElement | `public PathElement GetPath(PathDirection direction) { }` | `0x130bd38` | [PathElement_GetPath_130bd38](PathElement/PathElement_GetPath_130bd38.cpp) |
 | PathElement | `public PathElement GetPathBackward(PathDirection origin) { }` | `0x130bdd8` | [PathElement_GetPathBackward_130bdd8](PathElement/PathElement_GetPathBackward_130bdd8.cpp) |
-| PathElement | `public PathElement GetPathElementIfPointOverTurn(Vector3 point, float radius, PathDirection origin, bool isRootNode, int bailOut = 3) { }` | `0x131075c` | [PathElement_GetPathElementIfPointOverTurn_131075c](PathElement/PathElement_GetPathElementIfPointOverTurn_131075c.cpp) |
 | PathElement | `public PathElement GetPathElementIfPointOverTurn2D(Vector2 point, float radius, PathDirection origin, bool isRootNode, int bailOut = 3) { }` | `0x131076c` | [PathElement_GetPathElementIfPointOverTurn2D_131076c](PathElement/PathElement_GetPathElementIfPointOverTurn2D_131076c.cpp) |
-| PathElement | `public PathElement GetPathElementIfPointOverTutorialObstacle(Vector2 point, float radius, PathDirection origin, bool isRootNode) { }` | `0x1310bf0` | [PathElement_GetPathElementIfPointOverTutorialObstacle_1310bf0](PathElement/PathElement_GetPathElementIfPointOverTutorialObstacle_1310bf0.cpp) |
+| PathElement | `public PathElement GetPathElementIfPointOverTurn(Vector3 point, float radius, PathDirection origin, bool isRootNode, int bailOut = 3) { }` | `0x131075c` | [PathElement_GetPathElementIfPointOverTurn_131075c](PathElement/PathElement_GetPathElementIfPointOverTurn_131075c.cpp) |
 | PathElement | `public PathElement GetPathElementIfPointOverTutorialObstacle(Vector3 point, float radius, PathDirection origin, bool isRootNode) { }` | `0x1310be0` | [PathElement_GetPathElementIfPointOverTutorialObstacle_1310be0](PathElement/PathElement_GetPathElementIfPointOverTutorialObstacle_1310be0.cpp) |
+| PathElement | `public PathElement GetPathElementIfPointOverTutorialObstacle(Vector2 point, float radius, PathDirection origin, bool isRootNode) { }` | `0x1310bf0` | [PathElement_GetPathElementIfPointOverTutorialObstacle_1310bf0](PathElement/PathElement_GetPathElementIfPointOverTutorialObstacle_1310bf0.cpp) |
 | PathElement | `public PathElement GetPathForward(PathDirection origin) { }` | `0x130bd88` | [PathElement_GetPathForward_130bd88](PathElement/PathElement_GetPathForward_130bd88.cpp) |
 | PathElement | `public float GetPathHeight() { }` | `0x130bd10` | [PathElement_GetPathHeight_130bd10](PathElement/PathElement_GetPathHeight_130bd10.cpp) |
 | PathElement | `public PathElement GetPathLeft(PathDirection origin) { }` | `0x130be28` | [PathElement_GetPathLeft_130be28](PathElement/PathElement_GetPathLeft_130be28.cpp) |
 | PathElement | `public PathElement GetPathRight(PathDirection origin) { }` | `0x130bf24` | [PathElement_GetPathRight_130bf24](PathElement/PathElement_GetPathRight_130bf24.cpp) |
+| PathElement | `public PathElement GetPath(PathDirection direction) { }` | `0x130bd38` | [PathElement_GetPath_130bd38](PathElement/PathElement_GetPath_130bd38.cpp) |
 | PathElement | `private static string GetPrefabNameForType(PathType type, PathLevel level) { }` | `0x130a7a0` | [PathElement_GetPrefabNameForType_130a7a0](PathElement/PathElement_GetPrefabNameForType_130a7a0.cpp) |
 | PathElement | `private PathElement GetRandomPathElementForSide(PathDirection direction) { }` | `0x130c70c` | [PathElement_GetRandomPathElementForSide_130c70c](PathElement/PathElement_GetRandomPathElementForSide_130c70c.cpp) |
 | PathElement | `protected static bool HalfTheTime() { }` | `0x130b1d4` | [PathElement_HalfTheTime_130b1d4](PathElement/PathElement_HalfTheTime_130b1d4.cpp) |
 | PathElement | `public static bool HasObstacle(PathElement node) { }` | `0x130b98c` | [PathElement_HasObstacle_130b98c](PathElement/PathElement_HasObstacle_130b98c.cpp) |
-| PathElement | `public static GameObject Instantiate(PathType type, PathLevel level = 2) { }` | `0x130a21c` | [PathElement_Instantiate_130a21c](PathElement/PathElement_Instantiate_130a21c.cpp) |
+| PathElement | `public static bool ISsPathTypeStraight(PathType type) { }` | `0x130ba0c` | [PathElement_ISsPathTypeStraight_130ba0c](PathElement/PathElement_ISsPathTypeStraight_130ba0c.cpp) |
 | PathElement | `public static PathElement InstantiatePathElement(PathType type, PathLevel level = 2) { }` | `0x130a194` | [PathElement_InstantiatePathElement_130a194](PathElement/PathElement_InstantiatePathElement_130a194.cpp) |
 | PathElement | `public GameObject InstantiateSafteynet() { }` | `0x130f18c` | [PathElement_InstantiateSafteynet_130f18c](PathElement/PathElement_InstantiateSafteynet_130f18c.cpp) |
+| PathElement | `public static GameObject Instantiate(PathType type, PathLevel level = 2) { }` | `0x130a21c` | [PathElement_Instantiate_130a21c](PathElement/PathElement_Instantiate_130a21c.cpp) |
 | PathElement | `public bool IsNarrow() { }` | `0x130b6ec` | [PathElement_IsNarrow_130b6ec](PathElement/PathElement_IsNarrow_130b6ec.cpp) |
 | PathElement | `public static bool IsPathTypeHole(PathType type) { }` | `0x130b144` | [PathElement_IsPathTypeHole_130b144](PathElement/PathElement_IsPathTypeHole_130b144.cpp) |
 | PathElement | `public static bool IsPathTypeLevelChange(PathType type) { }` | `0x130b164` | [PathElement_IsPathTypeLevelChange_130b164](PathElement/PathElement_IsPathTypeLevelChange_130b164.cpp) |
@@ -425,22 +471,23 @@ Generated native pseudocode with original method bytes checked against the APK l
 | PathElement | `public static bool IsPathTypeStraightVert(PathType type) { }` | `0x130b694` | [PathElement_IsPathTypeStraightVert_130b694](PathElement/PathElement_IsPathTypeStraightVert_130b694.cpp) |
 | PathElement | `public static bool IsPathTypeTurn(PathType type) { }` | `0x130b564` | [PathElement_IsPathTypeTurn_130b564](PathElement/PathElement_IsPathTypeTurn_130b564.cpp) |
 | PathElement | `public bool IsPointInsideAnyRegion2D(Vector3 point) { }` | `0x13113e4` | [PathElement_IsPointInsideAnyRegion2D_13113e4](PathElement/PathElement_IsPointInsideAnyRegion2D_13113e4.cpp) |
-| PathElement | `public bool IsPointOverTurnArea(Vector2 point, float radius) { }` | `0x1310ae0` | [PathElement_IsPointOverTurnArea_1310ae0](PathElement/PathElement_IsPointOverTurnArea_1310ae0.cpp) |
 | PathElement | `public bool IsPointOverTurnArea(Vector3 point, float radius) { }` | `0x1310ad4` | [PathElement_IsPointOverTurnArea_1310ad4](PathElement/PathElement_IsPointOverTurnArea_1310ad4.cpp) |
-| PathElement | `public static bool ISsPathTypeStraight(PathType type) { }` | `0x130ba0c` | [PathElement_ISsPathTypeStraight_130ba0c](PathElement/PathElement_ISsPathTypeStraight_130ba0c.cpp) |
-| PathElement | `public bool IsStraight() { }` | `0x130b574` | [PathElement_IsStraight_130b574](PathElement/PathElement_IsStraight_130b574.cpp) |
+| PathElement | `public bool IsPointOverTurnArea(Vector2 point, float radius) { }` | `0x1310ae0` | [PathElement_IsPointOverTurnArea_1310ae0](PathElement/PathElement_IsPointOverTurnArea_1310ae0.cpp) |
 | PathElement | `public bool IsStraightHorz() { }` | `0x130b618` | [PathElement_IsStraightHorz_130b618](PathElement/PathElement_IsStraightHorz_130b618.cpp) |
 | PathElement | `public bool IsStraightVert() { }` | `0x130b59c` | [PathElement_IsStraightVert_130b59c](PathElement/PathElement_IsStraightVert_130b59c.cpp) |
+| PathElement | `public bool IsStraight() { }` | `0x130b574` | [PathElement_IsStraight_130b574](PathElement/PathElement_IsStraight_130b574.cpp) |
 | PathElement | `public bool IsTurn() { }` | `0x130b174` | [PathElement_IsTurn_130b174](PathElement/PathElement_IsTurn_130b174.cpp) |
 | PathElement | `public void OnDespawned() { }` | `0x131020c` | [PathElement_OnDespawned_131020c](PathElement/PathElement_OnDespawned_131020c.cpp) |
 | PathElement | `private void OnDrawGizmos() { }` | `0x130a478` | [PathElement_OnDrawGizmos_130a478](PathElement/PathElement_OnDrawGizmos_130a478.cpp) |
 | PathElement | `public void OnSpawned() { }` | `0x13101e4` | [PathElement_OnSpawned_13101e4](PathElement/PathElement_OnSpawned_13101e4.cpp) |
+| PathElement | `public PathElement() { }` | `0x1311614` | [PathElement_PathElement_1311614](PathElement/PathElement_PathElement_1311614.cpp) |
+| PathElement | `private static PathElement() { }` | `0x131166c` | [PathElement_PathElement_131166c](PathElement/PathElement_PathElement_131166c.cpp) |
 | PathElement | `public void Prune(PathDirection origin) { }` | `0x13102e8` | [PathElement_Prune_13102e8](PathElement/PathElement_Prune_13102e8.cpp) |
 | PathElement | `public void RecursiveVisibility(bool activeFlag, PathDirection origin, bool isRootNode, int turnCount = 0) { }` | `0x1311120` | [PathElement_RecursiveVisibility_1311120](PathElement/PathElement_RecursiveVisibility_1311120.cpp) |
 | PathElement | `private void RemoveAllSubObjects() { }` | `0x130b440` | [PathElement_RemoveAllSubObjects_130b440](PathElement/PathElement_RemoveAllSubObjects_130b440.cpp) |
 | PathElement | `private static void ResetItem(BonusItem item1) { }` | `0x13115e4` | [PathElement_ResetItem_13115e4](PathElement/PathElement_ResetItem_13115e4.cpp) |
-| PathElement | `private bool SetPath(PathElement path, PathDirection direction) { }` | `0x130fc48` | [PathElement_SetPath_130fc48](PathElement/PathElement_SetPath_130fc48.cpp) |
 | PathElement | `private void SetPathType(PathType type, PathLevel level) { }` | `0x130a470` | [PathElement_SetPathType_130a470](PathElement/PathElement_SetPathType_130a470.cpp) |
+| PathElement | `private bool SetPath(PathElement path, PathDirection direction) { }` | `0x130fc48` | [PathElement_SetPath_130fc48](PathElement/PathElement_SetPath_130fc48.cpp) |
 | PathElement | `private void SetRendering(bool enable) { }` | `0x1310f3c` | [PathElement_SetRendering_1310f3c](PathElement/PathElement_SetRendering_1310f3c.cpp) |
 | PathElement | `public void SetupTerrain() { }` | `0x130a4dc` | [PathElement_SetupTerrain_130a4dc](PathElement/PathElement_SetupTerrain_130a4dc.cpp) |
 | PathElement | `private bool SideHasCoins(PathDirection direciton) { }` | `0x13114c4` | [PathElement_SideHasCoins_13114c4](PathElement/PathElement_SideHasCoins_13114c4.cpp) |
@@ -448,35 +495,35 @@ Generated native pseudocode with original method bytes checked against the APK l
 | PathElement | `public void UpdatePathDescription(PathElement parentPath) { }` | `0x130ef10` | [PathElement_UpdatePathDescription_130ef10](PathElement/PathElement_UpdatePathDescription_130ef10.cpp) |
 | PathElement | `public static void WarmResources() { }` | `0x130bb54` | [PathElement_WarmResources_130bb54](PathElement/PathElement_WarmResources_130bb54.cpp) |
 | PathElement | `private bool WillPieceTypeConnectOnSide(PathType type, PathDirection direction) { }` | `0x130c258` | [PathElement_WillPieceTypeConnectOnSide_130c258](PathElement/PathElement_WillPieceTypeConnectOnSide_130c258.cpp) |
+| PauseMenu | `private void MainMenuClicked() { }` | `0x12f6bf0` | [PauseMenu_MainMenuClicked_12f6bf0](PauseMenu/PauseMenu_MainMenuClicked_12f6bf0.cpp) |
+| PauseMenu | `private void NewGameClicked() { }` | `0x12f6e44` | [PauseMenu_NewGameClicked_12f6e44](PauseMenu/PauseMenu_NewGameClicked_12f6e44.cpp) |
+| PauseMenu | `public void ResumeClicked() { }` | `0x12f6da0` | [PauseMenu_ResumeClicked_12f6da0](PauseMenu/PauseMenu_ResumeClicked_12f6da0.cpp) |
+| PauseMenu | `private void Setup() { }` | `0x12f6294` | [PauseMenu_Setup_12f6294](PauseMenu/PauseMenu_Setup_12f6294.cpp) |
+| PauseMenu | `public virtual void Start() { }` | `0x12f5f80` | [PauseMenu_Start_12f5f80](PauseMenu/PauseMenu_Start_12f5f80.cpp) |
+| PauseMenu | `private void UpdateStats() { }` | `0x12f63e0` | [PauseMenu_UpdateStats_12f63e0](PauseMenu/PauseMenu_UpdateStats_12f63e0.cpp) |
+| PermaWingButton | `private void OnClick() { }` | `0x12f7b9c` | [PermaWingButton_OnClick_12f7b9c](PermaWingButton/PermaWingButton_OnClick_12f7b9c.cpp) |
+| PermaWingButton | `private void OnEnable() { }` | `0x12f7a38` | [PermaWingButton_OnEnable_12f7a38](PermaWingButton/PermaWingButton_OnEnable_12f7a38.cpp) |
+| PermaWingButton | `public PermaWingButton() { }` | `0x12f7c00` | [PermaWingButton_PermaWingButton_12f7c00](PermaWingButton/PermaWingButton_PermaWingButton_12f7c00.cpp) |
+| PermaWingButton | `private void Update() { }` | `0x12f7944` | [PermaWingButton_Update_12f7944](PermaWingButton/PermaWingButton_Update_12f7944.cpp) |
+| PlayerConfigData | `public virtual bool FromDict(Dictionary<String, Object> inDict) { }` | `0x12c8254` | [PlayerConfigData_FromDict_12c8254](PlayerConfigData/PlayerConfigData_FromDict_12c8254.cpp) |
+| PlayerConfigData | `public PlayerConfigData() { }` | `0x12c8438` | [PlayerConfigData_PlayerConfigData_12c8438](PlayerConfigData/PlayerConfigData_PlayerConfigData_12c8438.cpp) |
+| PlayerConfigData | `public virtual Dictionary<String, Object> ToDict() { }` | `0x12c803c` | [PlayerConfigData_ToDict_12c803c](PlayerConfigData/PlayerConfigData_ToDict_12c803c.cpp) |
 | PlayerConfigData | `public virtual int get_ErrorCode() { }` | `0x12c8034` | [PlayerConfigData_get_ErrorCode_12c8034](PlayerConfigData/PlayerConfigData_get_ErrorCode_12c8034.cpp) |
 | PlayerConfigData | `public virtual int get_Index() { }` | `0x12c7fec` | [PlayerConfigData_get_Index_12c7fec](PlayerConfigData/PlayerConfigData_get_Index_12c7fec.cpp) |
 | PlayerConfigData | `public virtual string get_Keyword() { }` | `0x12c7ff4` | [PlayerConfigData_get_Keyword_12c7ff4](PlayerConfigData/PlayerConfigData_get_Keyword_12c7ff4.cpp) |
-| PlayerConfigData | `public PlayerConfigData() { }` | `0x12c8438` | [PlayerConfigData_PlayerConfigData_12c8438](PlayerConfigData/PlayerConfigData_PlayerConfigData_12c8438.cpp) |
-| PlayerConfigData | `public virtual bool FromDict(Dictionary<String, Object> inDict) { }` | `0x12c8254` | [PlayerConfigData_FromDict_12c8254](PlayerConfigData/PlayerConfigData_FromDict_12c8254.cpp) |
-| PlayerConfigData | `public virtual Dictionary<String, Object> ToDict() { }` | `0x12c803c` | [PlayerConfigData_ToDict_12c803c](PlayerConfigData/PlayerConfigData_ToDict_12c803c.cpp) |
-| PlayerManager | `public static PlayerManager get_Instance() { }` | `0x12ccbc8` | [PlayerManager_get_Instance_12ccbc8](PlayerManager/PlayerManager_get_Instance_12ccbc8.cpp) |
-| PlayerManager | `public PlayerManager() { }` | `0x12d6d38` | [PlayerManager_PlayerManager_12d6d38](PlayerManager/PlayerManager_PlayerManager_12d6d38.cpp) |
 | PlayerManager | `public int GetActivePlayer() { }` | `0x12ccc8c` | [PlayerManager_GetActivePlayer_12ccc8c](PlayerManager/PlayerManager_GetActivePlayer_12ccc8c.cpp) |
+| PlayerManager | `public PlayerManager() { }` | `0x12d6d38` | [PlayerManager_PlayerManager_12d6d38](PlayerManager/PlayerManager_PlayerManager_12d6d38.cpp) |
 | PlayerManager | `private void Start() { }` | `0x12d6cec` | [PlayerManager_Start_12d6cec](PlayerManager/PlayerManager_Start_12d6cec.cpp) |
-| PsuedoRunner | `public PsuedoRunner() { }` | `0x131e740` | [PsuedoRunner_PsuedoRunner_131e740](PsuedoRunner/PsuedoRunner_PsuedoRunner_131e740.cpp) |
+| PlayerManager | `public static PlayerManager get_Instance() { }` | `0x12ccbc8` | [PlayerManager_get_Instance_12ccbc8](PlayerManager/PlayerManager_get_Instance_12ccbc8.cpp) |
 | PsuedoRunner | `private PathElement PicknNextPathElement() { }` | `0x131e308` | [PsuedoRunner_PicknNextPathElement_131e308](PsuedoRunner/PsuedoRunner_PicknNextPathElement_131e308.cpp) |
+| PsuedoRunner | `public PsuedoRunner() { }` | `0x131e740` | [PsuedoRunner_PsuedoRunner_131e740](PsuedoRunner/PsuedoRunner_PsuedoRunner_131e740.cpp) |
 | PsuedoRunner | `private void SnapToFirstPathElemeent() { }` | `0x131e288` | [PsuedoRunner_SnapToFirstPathElemeent_131e288](PsuedoRunner/PsuedoRunner_SnapToFirstPathElemeent_131e288.cpp) |
 | PsuedoRunner | `private void Start() { }` | `0x131df88` | [PsuedoRunner_Start_131df88](PsuedoRunner/PsuedoRunner_Start_131df88.cpp) |
 | PsuedoRunner | `private void TurnCameraToFaceDirection(PathDirection direction) { }` | `0x131e720` | [PsuedoRunner_TurnCameraToFaceDirection_131e720](PsuedoRunner/PsuedoRunner_TurnCameraToFaceDirection_131e720.cpp) |
 | PsuedoRunner | `public virtual void Update() { }` | `0x131df8c` | [PsuedoRunner_Update_131df8c](PsuedoRunner/PsuedoRunner_Update_131df8c.cpp) |
-| TouchInput | `public float get_Sensitivity() { }` | `0x12d389c` | [TouchInput_get_Sensitivity_12d389c](TouchInput/TouchInput_get_Sensitivity_12d389c.cpp) |
-| TouchInput | `public void set_Sensitivity(float value) { }` | `0x12d38a4` | [TouchInput_set_Sensitivity_12d38a4](TouchInput/TouchInput_set_Sensitivity_12d38a4.cpp) |
-| TouchInput | `public TouchInput() { }` | `0x12d4394` | [TouchInput_TouchInput_12d4394](TouchInput/TouchInput_TouchInput_12d4394.cpp) |
-| TouchInput | `private void Awake() { }` | `0x12d3838` | [TouchInput_Awake_12d3838](TouchInput/TouchInput_Awake_12d3838.cpp) |
-| TouchInput | `private void DoubleTap() { }` | `0x12d397c` | [TouchInput_DoubleTap_12d397c](TouchInput/TouchInput_DoubleTap_12d397c.cpp) |
-| TouchInput | `public virtual float GetAccelerometerForceX() { }` | `0x12d4324` | [TouchInput_GetAccelerometerForceX_12d4324](TouchInput/TouchInput_GetAccelerometerForceX_12d4324.cpp) |
-| TouchInput | `public void OnSensitivitySlider(float v) { }` | `0x12d3900` | [TouchInput_OnSensitivitySlider_12d3900](TouchInput/TouchInput_OnSensitivitySlider_12d3900.cpp) |
-| TouchInput | `private void Start() { }` | `0x12d37cc` | [TouchInput_Start_12d37cc](TouchInput/TouchInput_Start_12d37cc.cpp) |
-| TouchInput | `public void TouchBegan(Vector2 touchPoint) { }` | `0x12d39fc` | [TouchInput_TouchBegan_12d39fc](TouchInput/TouchInput_TouchBegan_12d39fc.cpp) |
-| TouchInput | `public void TouchEnded(Vector2 touchPoint) { }` | `0x12d39f8` | [TouchInput_TouchEnded_12d39f8](TouchInput/TouchInput_TouchEnded_12d39f8.cpp) |
-| TouchInput | `public void TouchMoved(Vector2 touchPoint) { }` | `0x12d3aa0` | [TouchInput_TouchMoved_12d3aa0](TouchInput/TouchInput_TouchMoved_12d3aa0.cpp) |
-| TouchInput | `public virtual void Update() { }` | `0x12d3998` | [TouchInput_Update_12d3998](TouchInput/TouchInput_Update_12d3998.cpp) |
-| Region2D | `public Region2D() { }` | `0x131ee68` | [Region2D_Region2D_131ee68](Region2D/Region2D_Region2D_131ee68.cpp) |
+| RecordManager | `private void AddAchievement(string aId, string aName, string aPreDescription, string aPostDescription = null, bool aHidden = false) { }` | `0x12b2524` | [RecordManager_AddAchievement_12b2524](RecordManager/RecordManager_AddAchievement_12b2524.cpp) |
+| RecordManager | `public int GetPriceForUpgradeType(StoreItemType itemType, int currentLevel) { }` | `0x12b3654` | [RecordManager_GetPriceForUpgradeType_12b3654](RecordManager/RecordManager_GetPriceForUpgradeType_12b3654.cpp) |
+| RecordManager | `private void SetupAchievements() { }` | `0x12af14c` | [RecordManager_SetupAchievements_12af14c](RecordManager/RecordManager_SetupAchievements_12af14c.cpp) |
 | Region2D | `public void AddPoint(float x, float y) { }` | `0x131e754` | [Region2D_AddPoint_131e754](Region2D/Region2D_AddPoint_131e754.cpp) |
 | Region2D | `public void AddPoint(Vector2 p) { }` | `0x131e758` | [Region2D_AddPoint_131e758](Region2D/Region2D_AddPoint_131e758.cpp) |
 | Region2D | `public void Clear() { }` | `0x131e810` | [Region2D_Clear_131e810](Region2D/Region2D_Clear_131e810.cpp) |
@@ -485,7 +532,100 @@ Generated native pseudocode with original method bytes checked against the APK l
 | Region2D | `public bool IsPointInside(Vector3 point) { }` | `0x131eb60` | [Region2D_IsPointInside_131eb60](Region2D/Region2D_IsPointInside_131eb60.cpp) |
 | Region2D | `public bool IsPointInside(Vector2 worldPoint) { }` | `0x131eb68` | [Region2D_IsPointInside_131eb68](Region2D/Region2D_IsPointInside_131eb68.cpp) |
 | Region2D | `private void OnDrawGizmos() { }` | `0x131e908` | [Region2D_OnDrawGizmos_131e908](Region2D/Region2D_OnDrawGizmos_131e908.cpp) |
-
-## Store price audit
-
-- [RecordManager.GetPriceForUpgradeType](RecordManager/RecordManager_GetPriceForUpgradeType_12b3654.cpp): targeted read-only Ghidra follow-up; all method bytes verified.
+| Region2D | `public Region2D() { }` | `0x131ee68` | [Region2D_Region2D_131ee68](Region2D/Region2D_Region2D_131ee68.cpp) |
+| StoreGUI | `private void AdjustCoins() { }` | `0x12f9bfc` | [StoreGUI_AdjustCoins_12f9bfc](StoreGUI/StoreGUI_AdjustCoins_12f9bfc.cpp) |
+| StoreGUI | `private void BackClicked() { }` | `0x12fa7ec` | [StoreGUI_BackClicked_12fa7ec](StoreGUI/StoreGUI_BackClicked_12fa7ec.cpp) |
+| StoreGUI | `public virtual void HideAll() { }` | `0x12f9f54` | [StoreGUI_HideAll_12f9f54](StoreGUI/StoreGUI_HideAll_12f9f54.cpp) |
+| StoreGUI | `private void ReconfigureStoreItems() { }` | `0x12f9b84` | [StoreGUI_ReconfigureStoreItems_12f9b84](StoreGUI/StoreGUI_ReconfigureStoreItems_12f9b84.cpp) |
+| StoreGUI | `private void Setup() { }` | `0x12f93bc` | [StoreGUI_Setup_12f93bc](StoreGUI/StoreGUI_Setup_12f93bc.cpp) |
+| StoreGUI | `public virtual void ShowAll(bool inShowBannerAds = true) { }` | `0x12f9944` | [StoreGUI_ShowAll_12f9944](StoreGUI/StoreGUI_ShowAll_12f9944.cpp) |
+| StoreGUI | `public virtual void SlideIn(BasePanel returnTo) { }` | `0x12fa548` | [StoreGUI_SlideIn_12fa548](StoreGUI/StoreGUI_SlideIn_12fa548.cpp) |
+| StoreItem | `private void ActivateCharacter(StoreItemType type) { }` | `0x12fd2b4` | [StoreItem_ActivateCharacter_12fd2b4](StoreItem/StoreItem_ActivateCharacter_12fd2b4.cpp) |
+| StoreItem | `private void BuyItem() { }` | `0x12fd520` | [StoreItem_BuyItem_12fd520](StoreItem/StoreItem_BuyItem_12fd520.cpp) |
+| StoreItem | `public void Configure() { }` | `0x12fb958` | [StoreItem_Configure_12fb958](StoreItem/StoreItem_Configure_12fb958.cpp) |
+| StoreItem | `private void OnClick() { }` | `0x12fd0b0` | [StoreItem_OnClick_12fd0b0](StoreItem/StoreItem_OnClick_12fd0b0.cpp) |
+| StoreItem | `public void Reconfigure() { }` | `0x12fbb8c` | [StoreItem_Reconfigure_12fbb8c](StoreItem/StoreItem_Reconfigure_12fbb8c.cpp) |
+| StoreItem | `private void SetIcon() { }` | `0x12fbc24` | [StoreItem_SetIcon_12fbc24](StoreItem/StoreItem_SetIcon_12fbc24.cpp) |
+| StoreItem | `private void Start() { }` | `0x12fb954` | [StoreItem_Start_12fb954](StoreItem/StoreItem_Start_12fb954.cpp) |
+| StoreItem | `private void UpdateBar() { }` | `0x12fcde8` | [StoreItem_UpdateBar_12fcde8](StoreItem/StoreItem_UpdateBar_12fcde8.cpp) |
+| StoreItem | `private void UpdateClass() { }` | `0x12fbba0` | [StoreItem_UpdateClass_12fbba0](StoreItem/StoreItem_UpdateClass_12fbba0.cpp) |
+| StoreItem | `private void UpdateDescription() { }` | `0x12fc418` | [StoreItem_UpdateDescription_12fc418](StoreItem/StoreItem_UpdateDescription_12fc418.cpp) |
+| StoreItem | `private void UpdatePrice() { }` | `0x12fbcdc` | [StoreItem_UpdatePrice_12fbcdc](StoreItem/StoreItem_UpdatePrice_12fbcdc.cpp) |
+| StoreItem | `private void Update() { }` | `0x12fbb34` | [StoreItem_Update_12fbb34](StoreItem/StoreItem_Update_12fbb34.cpp) |
+| TR1LocalizeString | `public TR1LocalizeString() { }` | `0x13069a8` | [TR1LocalizeString_TR1LocalizeString_13069a8](TR1LocalizeString/TR1LocalizeString_TR1LocalizeString_13069a8.cpp) |
+| TR1LocalizeString | `protected virtual void UpdateString(string value) { }` | `0x130666c` | [TR1LocalizeString_UpdateString_130666c](TR1LocalizeString/TR1LocalizeString_UpdateString_130666c.cpp) |
+| TR1LocalizeStringMainMenuButtons | `private void AdjustBoxCollider() { }` | `0x1306db8` | [TR1LocalizeStringMainMenuButtons_AdjustBoxCollider_1306db8](TR1LocalizeStringMainMenuButtons/TR1LocalizeStringMainMenuButtons_AdjustBoxCollider_1306db8.cpp) |
+| TR1LocalizeStringMainMenuButtons | `private void AdjustLabelSize() { }` | `0x1306bc8` | [TR1LocalizeStringMainMenuButtons_AdjustLabelSize_1306bc8](TR1LocalizeStringMainMenuButtons/TR1LocalizeStringMainMenuButtons_AdjustLabelSize_1306bc8.cpp) |
+| TR1LocalizeStringMainMenuButtons | `private void AdjustVariablesForRussian() { }` | `0x1306ad8` | [TR1LocalizeStringMainMenuButtons_AdjustVariablesForRussian_1306ad8](TR1LocalizeStringMainMenuButtons/TR1LocalizeStringMainMenuButtons_AdjustVariablesForRussian_1306ad8.cpp) |
+| TR1LocalizeStringMainMenuButtons | `private void ConvertTextToUpperCase() { }` | `0x1306b84` | [TR1LocalizeStringMainMenuButtons_ConvertTextToUpperCase_1306b84](TR1LocalizeStringMainMenuButtons/TR1LocalizeStringMainMenuButtons_ConvertTextToUpperCase_1306b84.cpp) |
+| TR1LocalizeStringMainMenuButtons | `private void Start() { }` | `0x13069b8` | [TR1LocalizeStringMainMenuButtons_Start_13069b8](TR1LocalizeStringMainMenuButtons/TR1LocalizeStringMainMenuButtons_Start_13069b8.cpp) |
+| TR1LocalizeStringMainMenuButtons | `public TR1LocalizeStringMainMenuButtons() { }` | `0x130703c` | [TR1LocalizeStringMainMenuButtons_TR1LocalizeStringMainMenuButtons_130703c](TR1LocalizeStringMainMenuButtons/TR1LocalizeStringMainMenuButtons_TR1LocalizeStringMainMenuButtons_130703c.cpp) |
+| TR1LocalizeStringMainMenuButtons | `protected virtual void UpdateString(string value) { }` | `0x1306a08` | [TR1LocalizeStringMainMenuButtons_UpdateString_1306a08](TR1LocalizeStringMainMenuButtons/TR1LocalizeStringMainMenuButtons_UpdateString_1306a08.cpp) |
+| TouchInput | `private void Awake() { }` | `0x12d3838` | [TouchInput_Awake_12d3838](TouchInput/TouchInput_Awake_12d3838.cpp) |
+| TouchInput | `private void DoubleTap() { }` | `0x12d397c` | [TouchInput_DoubleTap_12d397c](TouchInput/TouchInput_DoubleTap_12d397c.cpp) |
+| TouchInput | `public virtual float GetAccelerometerForceX() { }` | `0x12d4324` | [TouchInput_GetAccelerometerForceX_12d4324](TouchInput/TouchInput_GetAccelerometerForceX_12d4324.cpp) |
+| TouchInput | `public void OnSensitivitySlider(float v) { }` | `0x12d3900` | [TouchInput_OnSensitivitySlider_12d3900](TouchInput/TouchInput_OnSensitivitySlider_12d3900.cpp) |
+| TouchInput | `private void Start() { }` | `0x12d37cc` | [TouchInput_Start_12d37cc](TouchInput/TouchInput_Start_12d37cc.cpp) |
+| TouchInput | `public void TouchBegan(Vector2 touchPoint) { }` | `0x12d39fc` | [TouchInput_TouchBegan_12d39fc](TouchInput/TouchInput_TouchBegan_12d39fc.cpp) |
+| TouchInput | `public void TouchEnded(Vector2 touchPoint) { }` | `0x12d39f8` | [TouchInput_TouchEnded_12d39f8](TouchInput/TouchInput_TouchEnded_12d39f8.cpp) |
+| TouchInput | `public TouchInput() { }` | `0x12d4394` | [TouchInput_TouchInput_12d4394](TouchInput/TouchInput_TouchInput_12d4394.cpp) |
+| TouchInput | `public void TouchMoved(Vector2 touchPoint) { }` | `0x12d3aa0` | [TouchInput_TouchMoved_12d3aa0](TouchInput/TouchInput_TouchMoved_12d3aa0.cpp) |
+| TouchInput | `public virtual void Update() { }` | `0x12d3998` | [TouchInput_Update_12d3998](TouchInput/TouchInput_Update_12d3998.cpp) |
+| TouchInput | `public float get_Sensitivity() { }` | `0x12d389c` | [TouchInput_get_Sensitivity_12d389c](TouchInput/TouchInput_get_Sensitivity_12d389c.cpp) |
+| TouchInput | `public void set_Sensitivity(float value) { }` | `0x12d38a4` | [TouchInput_set_Sensitivity_12d38a4](TouchInput/TouchInput_set_Sensitivity_12d38a4.cpp) |
+| UIAnchor | `public void AnchorItem() { }` | `0x120c2dc` | [UIAnchor_AnchorItem_120c2dc](UIAnchor/UIAnchor_AnchorItem_120c2dc.cpp) |
+| UIAnchor | `private void OnEnable() { }` | `0x120c1dc` | [UIAnchor_OnEnable_120c1dc](UIAnchor/UIAnchor_OnEnable_120c1dc.cpp) |
+| UIAnchor | `private void Start() { }` | `0x120c160` | [UIAnchor_Start_120c160](UIAnchor/UIAnchor_Start_120c160.cpp) |
+| UIButtonMessage | `private void OnClick() { }` | `0x11f0d6c` | [UIButtonMessage_OnClick_11f0d6c](UIButtonMessage/UIButtonMessage_OnClick_11f0d6c.cpp) |
+| UIButtonMessage | `private void Send() { }` | `0x11f0b90` | [UIButtonMessage_Send_11f0b90](UIButtonMessage/UIButtonMessage_Send_11f0b90.cpp) |
+| UIButtonMessage | `private void Start() { }` | `0x11f0a9c` | [UIButtonMessage_Start_11f0a9c](UIButtonMessage/UIButtonMessage_Start_11f0a9c.cpp) |
+| UIButtonMessage2 | `private void OnClick() { }` | `0x12f3ac8` | [UIButtonMessage2_OnClick_12f3ac8](UIButtonMessage2/UIButtonMessage2_OnClick_12f3ac8.cpp) |
+| UIButtonMessage2 | `private void OnPress(bool isPressed) { }` | `0x12f3aa8` | [UIButtonMessage2_OnPress_12f3aa8](UIButtonMessage2/UIButtonMessage2_OnPress_12f3aa8.cpp) |
+| UIButtonMessage2 | `private void Send() { }` | `0x12f3890` | [UIButtonMessage2_Send_12f3890](UIButtonMessage2/UIButtonMessage2_Send_12f3890.cpp) |
+| UIButtonScale | `private void OnEnable() { }` | `0x11f1c80` | [UIButtonScale_OnEnable_11f1c80](UIButtonScale/UIButtonScale_OnEnable_11f1c80.cpp) |
+| UIButtonScale | `private void OnPress(bool isPressed) { }` | `0x11f1f2c` | [UIButtonScale_OnPress_11f1f2c](UIButtonScale/UIButtonScale_OnPress_11f1f2c.cpp) |
+| UIButtonScale | `private void Start() { }` | `0x11f1c74` | [UIButtonScale_Start_11f1c74](UIButtonScale/UIButtonScale_Start_11f1c74.cpp) |
+| UICheckbox | `private void Awake() { }` | `0x11f2b54` | [UICheckbox_Awake_11f2b54](UICheckbox/UICheckbox_Awake_11f2b54.cpp) |
+| UICheckbox | `private void OnClick() { }` | `0x11f2ccc` | [UICheckbox_OnClick_11f2ccc](UICheckbox/UICheckbox_OnClick_11f2ccc.cpp) |
+| UICheckbox | `private void Start() { }` | `0x11f2c3c` | [UICheckbox_Start_11f2c3c](UICheckbox/UICheckbox_Start_11f2c3c.cpp) |
+| UICheckbox | `public bool get_isChecked() { }` | `0x11f2744` | [UICheckbox_get_isChecked_11f2744](UICheckbox/UICheckbox_get_isChecked_11f2744.cpp) |
+| UICheckbox | `public void set_isChecked(bool value) { }` | `0x11f274c` | [UICheckbox_set_isChecked_11f274c](UICheckbox/UICheckbox_set_isChecked_11f274c.cpp) |
+| UIFilledSprite | `private bool AdjustRadial(Vector2[] xy, Vector2[] uv, float fill, bool invert) { }` | `0x1211324` | [UIFilledSprite_AdjustRadial_1211324](UIFilledSprite/UIFilledSprite_AdjustRadial_1211324.cpp) |
+| UIFilledSprite | `public virtual void OnFill(BetterList<Vector3> verts, BetterList<Vector2> uvs, BetterList<Color> cols) { }` | `0x1211628` | [UIFilledSprite_OnFill_1211628](UIFilledSprite/UIFilledSprite_OnFill_1211628.cpp) |
+| UIFilledSprite | `private void Rotate(Vector2[] v, int offset) { }` | `0x12115d4` | [UIFilledSprite_Rotate_12115d4](UIFilledSprite/UIFilledSprite_Rotate_12115d4.cpp) |
+| UIFilledSprite | `public UIFilledSprite() { }` | `0x12122c4` | [UIFilledSprite_UIFilledSprite_12122c4](UIFilledSprite/UIFilledSprite_UIFilledSprite_12122c4.cpp) |
+| UIFilledSprite | `public float get_fillAmount() { }` | `0x12112c4` | [UIFilledSprite_get_fillAmount_12112c4](UIFilledSprite/UIFilledSprite_get_fillAmount_12112c4.cpp) |
+| UIFilledSprite | `public FillDirection get_fillDirection() { }` | `0x12112a0` | [UIFilledSprite_get_fillDirection_12112a0](UIFilledSprite/UIFilledSprite_get_fillDirection_12112a0.cpp) |
+| UIFilledSprite | `public bool get_invert() { }` | `0x12112fc` | [UIFilledSprite_get_invert_12112fc](UIFilledSprite/UIFilledSprite_get_invert_12112fc.cpp) |
+| UIFilledSprite | `public void set_fillAmount(float value) { }` | `0x12112cc` | [UIFilledSprite_set_fillAmount_12112cc](UIFilledSprite/UIFilledSprite_set_fillAmount_12112cc.cpp) |
+| UIFilledSprite | `public void set_fillDirection(FillDirection value) { }` | `0x12112a8` | [UIFilledSprite_set_fillDirection_12112a8](UIFilledSprite/UIFilledSprite_set_fillDirection_12112a8.cpp) |
+| UIFilledSprite | `public void set_invert(bool value) { }` | `0x1211304` | [UIFilledSprite_set_invert_1211304](UIFilledSprite/UIFilledSprite_set_invert_1211304.cpp) |
+| UIFont | `public Vector2 CalculatePrintedSize(string text, bool encoding, SymbolStyle symbolStyle) { }` | `0x129e838` | [UIFont_CalculatePrintedSize_129e838](UIFont/UIFont_CalculatePrintedSize_129e838.cpp) |
+| UIFont | `public void Print(string text, Color color, BetterList<Vector3> verts, BetterList<Vector2> uvs, BetterList<Color> cols, bool encoding, SymbolStyle symbolStyle, Alignment alignment, int lineWidth) { }` | `0x129f2a4` | [UIFont_Print_129f2a4](UIFont/UIFont_Print_129f2a4.cpp) |
+| UIGrowByAspectRatio | `private void Awake() { }` | `0x1300904` | [UIGrowByAspectRatio_Awake_1300904](UIGrowByAspectRatio/UIGrowByAspectRatio_Awake_1300904.cpp) |
+| UIGrowByAspectRatio | `private void Start() { }` | `0x1300ad0` | [UIGrowByAspectRatio_Start_1300ad0](UIGrowByAspectRatio/UIGrowByAspectRatio_Start_1300ad0.cpp) |
+| UILabel | `public virtual void OnFill(BetterList<Vector3> verts, BetterList<Vector2> uvs, BetterList<Color> cols) { }` | `0x12a250c` | [UILabel_OnFill_12a250c](UILabel/UILabel_OnFill_12a250c.cpp) |
+| UILabel | `private void ProcessText() { }` | `0x12a1038` | [UILabel_ProcessText_12a1038](UILabel/UILabel_ProcessText_12a1038.cpp) |
+| UILabel | `public string get_text() { }` | `0x12a0e4c` | [UILabel_get_text_12a0e4c](UILabel/UILabel_get_text_12a0e4c.cpp) |
+| UILabel | `public void set_text(string value) { }` | `0x129fea0` | [UILabel_set_text_129fea0](UILabel/UILabel_set_text_129fea0.cpp) |
+| UISlider | `private void Awake() { }` | `0x11fb750` | [UISlider_Awake_11fb750](UISlider/UISlider_Awake_11fb750.cpp) |
+| UISlider | `private void OnPress(bool pressed) { }` | `0x11fba34` | [UISlider_OnPress_11fba34](UISlider/UISlider_OnPress_11fba34.cpp) |
+| UISlider | `private void Start() { }` | `0x11fb804` | [UISlider_Start_11fb804](UISlider/UISlider_Start_11fb804.cpp) |
+| UISlider | `public float get_sliderValue() { }` | `0x11fb0b0` | [UISlider_get_sliderValue_11fb0b0](UISlider/UISlider_get_sliderValue_11fb0b0.cpp) |
+| UISlider | `public void set_sliderValue(float value) { }` | `0x11fb0b8` | [UISlider_set_sliderValue_11fb0b8](UISlider/UISlider_set_sliderValue_11fb0b8.cpp) |
+| UISprite | `public virtual void OnFill(BetterList<Vector3> verts, BetterList<Vector2> uvs, BetterList<Color> cols) { }` | `0x12a815c` | [UISprite_OnFill_12a815c](UISprite/UISprite_OnFill_12a815c.cpp) |
+| UISprite | `public string get_spriteName() { }` | `0x12a8680` | [UISprite_get_spriteName_12a8680](UISprite/UISprite_get_spriteName_12a8680.cpp) |
+| UISprite | `public void set_spriteName(string value) { }` | `0x12a2d48` | [UISprite_set_spriteName_12a2d48](UISprite/UISprite_set_spriteName_12a2d48.cpp) |
+| UIStack | `public void Reposition() { }` | `0x13042d4` | [UIStack_Reposition_13042d4](UIStack/UIStack_Reposition_13042d4.cpp) |
+| UIStack | `private void Start() { }` | `0x13042d0` | [UIStack_Start_13042d0](UIStack/UIStack_Start_13042d0.cpp) |
+| UIStack | `public UIStack() { }` | `0x1304a60` | [UIStack_UIStack_1304a60](UIStack/UIStack_UIStack_1304a60.cpp) |
+| UIStack | `private void Update() { }` | `0x1304a4c` | [UIStack_Update_1304a4c](UIStack/UIStack_Update_1304a4c.cpp) |
+| UIWidget | `private void Awake() { }` | `0x1207780` | [UIWidget_Awake_1207780](UIWidget/UIWidget_Awake_1207780.cpp) |
+| UIWidget | `private void OnEnable() { }` | `0x12077e0` | [UIWidget_OnEnable_12077e0](UIWidget/UIWidget_OnEnable_12077e0.cpp) |
+| UIWidget | `public override void OnFill(BetterList<Vector3> verts, BetterList<Vector2> uvs, BetterList<Color> cols) { }` | `0x12082cc` | [UIWidget_OnFill_12082cc](UIWidget/UIWidget_OnFill_12082cc.cpp) |
+| UIWidget | `private void Start() { }` | `0x12078cc` | [UIWidget_Start_12078cc](UIWidget/UIWidget_Start_12078cc.cpp) |
+| UIWidget | `private void Update() { }` | `0x12078ec` | [UIWidget_Update_12078ec](UIWidget/UIWidget_Update_12078ec.cpp) |
+| UIWidget | `public float get_alpha() { }` | `0x1206eb4` | [UIWidget_get_alpha_1206eb4](UIWidget/UIWidget_get_alpha_1206eb4.cpp) |
+| UIWidget | `public Color get_color() { }` | `0x1206e50` | [UIWidget_get_color_1206e50](UIWidget/UIWidget_get_color_1206e50.cpp) |
+| UIWidget | `public void set_alpha(float value) { }` | `0x1206ebc` | [UIWidget_set_alpha_1206ebc](UIWidget/UIWidget_set_alpha_1206ebc.cpp) |
+| UIWidget | `public void set_color(Color value) { }` | `0x1206e5c` | [UIWidget_set_color_1206e5c](UIWidget/UIWidget_set_color_1206e5c.cpp) |

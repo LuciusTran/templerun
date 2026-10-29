@@ -1,0 +1,342 @@
+{
+  "source": "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp",
+  "classification": "Native registration order and keys; completion/progress evaluation is not recovered.",
+  "entries": [
+    {
+      "id": "distance500",
+      "nameKey": "ACH_NAME_NOVICE_RUNNER",
+      "preKey": "ACH_PRE_NOVICE_RUNNER",
+      "postKey": "ACH_POST_NOVICE_RUNNER"
+    },
+    {
+      "id": "coins100",
+      "nameKey": "ACH_NAME_POCKET_CHANGE",
+      "preKey": "ACH_PRE_POCKET_CHANGE",
+      "postKey": "ACH_POST_POCKET_CHANGE"
+    },
+    {
+      "id": "score25000",
+      "nameKey": "ACH_NAME_ADVENTURER",
+      "preKey": "ACH_PRE_ADVENTURER",
+      "postKey": "ACH_POST_ADVENTURER"
+    },
+    {
+      "id": "distance1000",
+      "nameKey": "ACH_NAME_SPRINTER",
+      "preKey": "ACH_PRE_SPRINTER",
+      "postKey": "ACH_POST_SPRINTER"
+    },
+    {
+      "id": "distance500NoCoins",
+      "nameKey": "ACH_NAME_MISER_RUN",
+      "preKey": "ACH_PRE_MISER_RUN",
+      "postKey": "ACH_POST_MISER_RUN"
+    },
+    {
+      "id": "coins250",
+      "nameKey": "ACH_NAME_PIGGY_BANK",
+      "preKey": "ACH_PRE_PIGGY_BANK",
+      "postKey": "ACH_POST_PIGGY_BANK"
+    },
+    {
+      "id": "score50000",
+      "nameKey": "ACH_NAME_TREASURE_HUNTER",
+      "preKey": "ACH_PRE_TREASURE_HUNTER",
+      "postKey": "ACH_POST_TREASURE_HUNTER"
+    },
+    {
+      "id": "totemFull",
+      "nameKey": "ACH_NAME_MEGA_BONUS",
+      "preKey": "ACH_PRE_MEGA_BONUS",
+      "postKey": "ACH_POST_MEGA_BONUS"
+    },
+    {
+      "id": "distance2500",
+      "nameKey": "ACH_NAME_ATHLETE",
+      "preKey": "ACH_PRE_ATHLETE",
+      "postKey": "ACH_POST_ATHLETE"
+    },
+    {
+      "id": "coins500",
+      "nameKey": "ACH_NAME_LUMP_SUM",
+      "preKey": "ACH_PRE_LUMP_SUM",
+      "postKey": "ACH_POST_LUMP_SUM"
+    },
+    {
+      "id": "resurrection",
+      "nameKey": "ACH_NAME_RESURRECTION",
+      "preKey": "ACH_PRE_RESURRECTION",
+      "postKey": "ACH_POST_RESURRECTION"
+    },
+    {
+      "id": "upgrade1",
+      "nameKey": "ACH_NAME_BASIC_POWERS",
+      "preKey": "ACH_PRE_BASIC_POWERS",
+      "postKey": "ACH_POST_BASIC_POWERS"
+    },
+    {
+      "id": "score100000",
+      "nameKey": "ACH_NAME_HIGH_ROLLER",
+      "preKey": "ACH_PRE_HIGH_ROLLER",
+      "postKey": "ACH_POST_HIGH_ROLLER"
+    },
+    {
+      "id": "coins750",
+      "nameKey": "ACH_NAME_PAYDAY",
+      "preKey": "ACH_PRE_PAYDAY",
+      "postKey": "ACH_POST_PAYDAY"
+    },
+    {
+      "id": "headstart",
+      "nameKey": "ACH_NAME_HEAD_START",
+      "preKey": "ACH_PRE_HEAD_START",
+      "postKey": "ACH_POST_HEAD_START"
+    },
+    {
+      "id": "notrip2500",
+      "nameKey": "ACH_NAME_STEADY_FEET",
+      "preKey": "ACH_PRE_STEADY_FEET",
+      "postKey": "ACH_POST_STEADY_FEET"
+    },
+    {
+      "id": "distance1000NoCoins",
+      "nameKey": "ACH_NAME_ALLERGIC_TO_GOLD",
+      "preKey": "ACH_PRE_ALLERGIC_TO_GOLD",
+      "postKey": "ACH_POST_ALLERGIC_TO_GOLD"
+    },
+    {
+      "id": "distance5000",
+      "nameKey": "ACH_NAME_5K_RUNNER",
+      "preKey": "ACH_PRE_5K_RUNNER",
+      "postKey": "ACH_POST_5K_RUNNER"
+    },
+    {
+      "id": "notrip5000",
+      "nameKey": "ACH_NAME_NO.TRIP.RUNNER",
+      "preKey": "ACH_PRE_NO.TRIP.RUNNER",
+      "postKey": "ACH_POST_NO.TRIP.RUNNER"
+    },
+    {
+      "id": "score250000",
+      "nameKey": "ACH_NAME_QUARTER_MILLION_CLUB",
+      "preKey": "ACH_PRE_QUARTER_MILLION_CLUB",
+      "postKey": "ACH_POST_QUARTER_MILLION_CLUB"
+    },
+    {
+      "id": "resurrection2",
+      "nameKey": "ACH_NAME_DOUBLE_RESURRECTION",
+      "preKey": "ACH_PRE_DOUBLE_RESURRECTION",
+      "postKey": "ACH_POST_DOUBLE_RESURRECTION"
+    },
+    {
+      "id": "coins1000",
+      "nameKey": "ACH_NAME_MONEY_BAGS",
+      "preKey": "ACH_PRE_MONEY_BAGS",
+      "postKey": "ACH_POST_MONEY_BAGS"
+    },
+    {
+      "id": "score500000",
+      "nameKey": "ACH_NAME_HALF_MILLION_CLUB",
+      "preKey": "ACH_PRE_HALF_MILLION_CLUB",
+      "postKey": "ACH_POST_HALF_MILLION_CLUB"
+    },
+    {
+      "id": "upgrade5",
+      "nameKey": "ACH_NAME_SUPER_POWERS",
+      "preKey": "ACH_PRE_SUPER_POWERS",
+      "postKey": "ACH_POST_SUPER_POWERS"
+    },
+    {
+      "id": "character2",
+      "nameKey": "ACH_NAME_DYNAMIC_DUO",
+      "preKey": "ACH_PRE_DYNAMIC_DUO",
+      "postKey": "ACH_POST_DYNAMIC_DUO"
+    },
+    {
+      "id": "score1000000",
+      "nameKey": "ACH_NAME_MILLION_CLUB",
+      "preKey": "ACH_PRE_MILLION_CLUB",
+      "postKey": "ACH_POST_MILLION_CLUB"
+    },
+    {
+      "id": "coins2500",
+      "nameKey": "ACH_NAME_MONEY_BIN",
+      "preKey": "ACH_PRE_MONEY_BIN",
+      "postKey": "ACH_POST_MONEY_BIN"
+    },
+    {
+      "id": "character4",
+      "nameKey": "ACH_NAME_FANTASTIC_FOUR",
+      "preKey": "ACH_PRE_FANTASTIC_FOUR",
+      "postKey": "ACH_POST_FANTASTIC_FOUR"
+    },
+    {
+      "id": "character6",
+      "nameKey": "ACH_NAME_SEXY_SIX",
+      "preKey": "ACH_PRE_SEXY_SIX",
+      "postKey": "ACH_POST_SEXY_SIX"
+    },
+    {
+      "id": "distance10000",
+      "nameKey": "ACH_NAME_10K_RUNNER",
+      "preKey": "ACH_PRE_10K_RUNNER",
+      "postKey": "ACH_POST_10K_RUNNER"
+    },
+    {
+      "id": "coins5000",
+      "nameKey": "ACH_NAME_FORT_KNOX",
+      "preKey": "ACH_PRE_FORT_KNOX",
+      "postKey": "ACH_POST_FORT_KNOX"
+    },
+    {
+      "id": "score2500000",
+      "nameKey": "ACH_NAME_2.5_MILLION_CLUB",
+      "preKey": "ACH_PRE_2.5_MILLION_CLUB",
+      "postKey": "ACH_POST_2.5_MILLION_CLUB"
+    },
+    {
+      "id": "score5000000",
+      "nameKey": "ACH_NAME_5_MILLION_CLUB",
+      "preKey": "ACH_PRE_5_MILLION_CLUB",
+      "postKey": "ACH_POST_5_MILLION_CLUB"
+    },
+    {
+      "id": "score1000000nopowers",
+      "nameKey": "ACH_NAME_THE_SPARTAN",
+      "preKey": "ACH_PRE_THE_SPARTAN",
+      "postKey": "ACH_POST_THE_SPARTAN"
+    },
+    {
+      "id": "score10000000",
+      "nameKey": "ACH_NAME_10_MILLION_CLUB",
+      "preKey": "ACH_PRE_10_MILLION_CLUB",
+      "postKey": "ACH_POST_10_MILLION_CLUB"
+    },
+    {
+      "id": "lifetimeGames1000",
+      "nameKey": "ACH_NAME_TEMPLE_RUNNER",
+      "preKey": "ACH_PRE_TEMPLE_RUNNER",
+      "postKey": "ACH_POST_TEMPLE_RUNNER"
+    },
+    {
+      "id": "lifetimeCoins100000",
+      "nameKey": "ACH_NAME_MINOR_MINER",
+      "preKey": "ACH_PRE_MINOR_MINER",
+      "postKey": "ACH_POST_MINOR_MINER"
+    },
+    {
+      "id": "lifetimeMeters100000",
+      "nameKey": "ACH_NAME_MARATHONER",
+      "preKey": "ACH_PRE_MARATHONER",
+      "postKey": "ACH_POST_MARATHONER"
+    },
+    {
+      "id": "lifetimeGames5000",
+      "nameKey": "ACH_NAME_PRO_TEMPLE_RUNNER",
+      "preKey": "ACH_PRE_PRO_TEMPLE_RUNNER",
+      "postKey": "ACH_POST_PRO_TEMPLE_RUNNER"
+    },
+    {
+      "id": "lifetimeCoins500000",
+      "nameKey": "ACH_NAME_GOLD_MINER",
+      "preKey": "ACH_PRE_GOLD_MINER",
+      "postKey": "ACH_POST_GOLD_MINER"
+    },
+    {
+      "id": "lifetimeMeters1000000",
+      "nameKey": "ACH_NAME_CIRCUMNAVIGATOR",
+      "preKey": "ACH_PRE_CIRCUMNAVIGATOR",
+      "postKey": "ACH_POST_CIRCUMNAVIGATOR"
+    },
+    {
+      "id": "magnets5",
+      "nameKey": "ACH_NAME_MAGNET_MINER",
+      "preKey": "ACH_PRE_MAGNET_MINER",
+      "postKey": "ACH_POST_MAGNET_MINER"
+    },
+    {
+      "id": "coinBonuses5",
+      "nameKey": "ACH_NAME_COIN_JUMPER",
+      "preKey": "ACH_PRE_COIN_JUMPER",
+      "postKey": "ACH_POST_COIN_JUMPER"
+    },
+    {
+      "id": "invisibilityBonuses5",
+      "nameKey": "ACH_NAME_INVISIBLE",
+      "preKey": "ACH_PRE_INVISIBLE",
+      "postKey": "ACH_POST_INVISIBLE"
+    },
+    {
+      "id": "boosts5",
+      "nameKey": "ACH_NAME_BOOSTER_SHOT",
+      "preKey": "ACH_PRE_BOOSTER_SHOT",
+      "postKey": "ACH_POST_BOOSTER_SHOT"
+    },
+    {
+      "id": "magnets10",
+      "nameKey": "ACH_NAME_MAGNETIC_PERSONALITY",
+      "preKey": "ACH_PRE_MAGNETIC_PERSONALITY",
+      "postKey": "ACH_POST_MAGNETIC_PERSONALITY"
+    },
+    {
+      "id": "coinBonuses10",
+      "nameKey": "ACH_NAME_GOLD_EXPLOSION",
+      "preKey": "ACH_PRE_GOLD_EXPLOSION",
+      "postKey": "ACH_POST_GOLD_EXPLOSION"
+    },
+    {
+      "id": "invisibilityBonuses10",
+      "nameKey": "ACH_NAME_UNBREAKABLE",
+      "preKey": "ACH_PRE_UNBREAKABLE",
+      "postKey": "ACH_POST_UNBREAKABLE"
+    },
+    {
+      "id": "boosts10",
+      "nameKey": "ACH_NAME_SPEED_DEMON",
+      "preKey": "ACH_PRE_SPEED_DEMON",
+      "postKey": "ACH_POST_SPEED_DEMON"
+    },
+    {
+      "id": "magnets20",
+      "nameKey": "ACH_NAME_THE_ATTRACTOR",
+      "preKey": "ACH_PRE_THE_ATTRACTOR",
+      "postKey": "ACH_POST_THE_ATTRACTOR"
+    },
+    {
+      "id": "coinBonuses20",
+      "nameKey": "ACH_NAME_GOLDEN_GOD",
+      "preKey": "ACH_PRE_GOLDEN_GOD",
+      "postKey": "ACH_POST_GOLDEN_GOD"
+    },
+    {
+      "id": "invisibilityBonuses20",
+      "nameKey": "ACH_NAME_INVINCIBLE",
+      "preKey": "ACH_PRE_INVINCIBLE",
+      "postKey": "ACH_POST_INVINCIBLE"
+    },
+    {
+      "id": "boosts20",
+      "nameKey": "ACH_NAME_THE_ROCKET",
+      "preKey": "ACH_PRE_THE_ROCKET",
+      "postKey": "ACH_POST_THE_ROCKET"
+    },
+    {
+      "id": "lifetimeGames10000",
+      "nameKey": "ACH_NAME_MEGA_RUNNER",
+      "preKey": "ACH_PRE_MEGA_RUNNER",
+      "postKey": "ACH_POST_MEGA_RUNNER"
+    },
+    {
+      "id": "lifetimeCoins1000000",
+      "nameKey": "ACH_NAME_MIDAS_TOUCH",
+      "preKey": "ACH_PRE_MIDAS_TOUCH",
+      "postKey": "ACH_POST_MIDAS_TOUCH"
+    },
+    {
+      "id": "lifetimeMeters10000000",
+      "nameKey": "ACH_NAME_INFINIRUNNER",
+      "preKey": "ACH_PRE_INFINIRUNNER",
+      "postKey": "ACH_POST_INFINIRUNNER"
+    }
+  ]
+}

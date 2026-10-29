@@ -46,13 +46,9 @@ public class UISlider : IgnoreTimeScale
 
 	public float sliderValue
 	{
-		get
-		{
-			return 0f;
-		}
-		set
-		{
-		}
+		// Serialized-field compatibility accessor; geometry invalidation adapted; see Evidence/ui-csharp-restoration.json.
+		get { return rawValue; }
+		set { rawValue = Mathf.Clamp01(value); if (thumb) { var p = thumb.localPosition; if (direction == Direction.Horizontal) p.x = fullSize.x * rawValue; else p.y = fullSize.y * rawValue; thumb.localPosition = p; } }
 	}
 
 	private void Init()

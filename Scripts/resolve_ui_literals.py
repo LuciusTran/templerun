@@ -32,7 +32,7 @@ def value(address):
     return None
 
 references = {}
-for folder in ['DecompiledUI', 'DecompiledUIExtra', 'DecompiledUIThird', 'DecompiledUIFourth']:
+for folder in ['DecompiledUI', 'DecompiledUIExtra', 'DecompiledUIThird', 'DecompiledUIFourth', 'DecompiledUIFifth']:
     for file in (args.analysis / folder).glob('*/*.cpp'):
         for address in set(re.findall(r'PTR_DAT_([0-9a-fA-F]{8})', file.read_text())):
             references.setdefault(address, []).append(str(Path('DecompiledNative') / file.parent.name / file.name))

@@ -1,0 +1,59 @@
+{
+  "provider": {
+    "id": "rea-game-project",
+    "name": "REA game project inspection",
+    "version": "1"
+  },
+  "editorVersion": "6000.4.12f1",
+  "inspectionSha256": "d41c014bda542bbffcf7c5d3a566c43e966853d495be26fe27b72b3dd27da51a",
+  "coverage": {
+    "directory_inventory": "complete",
+    "selected_text": "partial",
+    "csharp_analysis": "heuristic",
+    "inspected_text_bytes": 34806861,
+    "enumerated_entries": 5793,
+    "skipped": [
+      {
+        "path": "Assets/Scenes/GamePlay/LightingData.asset",
+        "reason": "binary-serialization-not-decoded"
+      }
+    ]
+  },
+  "observations": {
+    "case_collisions": [],
+    "duplicate_guids": [],
+    "missing_meta": [],
+    "invalid_meta": [],
+    "build_scenes": [
+      {
+        "path": "Assets/Restoration/Scenes/TempleRun.unity",
+        "serialized_path": "Assets/Restoration/Scenes/TempleRun.unity",
+        "enabled": true,
+        "state": "present"
+      }
+    ],
+    "unresolved_script_references": [
+      {
+        "path": "Assets/Resources/applovin/AppLovinSettings.asset",
+        "line": 12,
+        "guid": "a557bca52a1cec1ccd50136005a0381b"
+      },
+      {
+        "path": "Assets/Resources/AppLovinSettings.asset",
+        "line": 12,
+        "guid": "a557bca52a1cec1ccd50136005a0381b"
+      },
+      {
+        "path": "Assets/Resources/googlemobileads/resources/GoogleMobileAdsSettings.asset",
+        "line": 12,
+        "guid": "80ff55188f2e4651127747f99e6b46bf"
+      },
+      {
+        "path": "ProjectSettings/PackageManagerSettings.asset",
+        "line": 12,
+        "guid": "0000000000000000e000000000000000"
+      }
+    ]
+  },
+  "classification": "Three pre-existing advertising settings references and one untracked Unity editor built-in PackageManagerSettings reference remain; no unresolved script reference in the recovered UI prefab or playable scene."
+}

@@ -123,6 +123,8 @@ public class VCGUI : BasePanel
 
 	public override void SlideIn(BasePanel returnTo)
 	{
+		// Authored bridge; original slide-animation coroutine remains unrecovered; see Evidence/ui-csharp-restoration.json.
+		base.SlideIn(returnTo);
 	}
 
 	private void OnStoreUnavailableButton(string inButtonName)
@@ -181,5 +183,7 @@ public class VCGUI : BasePanel
 
 	private void BackButtonClicked()
 	{
+		// Native-derived control flow with local host binding; see Evidence/ui-csharp-restoration.json.
+		ReturnMenu();
 	}
 }

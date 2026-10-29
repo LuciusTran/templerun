@@ -137,10 +137,14 @@ public class StoreGUI : BasePanel
 
 	public override void ShowAll(bool inShowBannerAds = true)
 	{
+		// Authored bridge preserving original panel entry points; see Evidence/ui-csharp-restoration.json.
+		base.ShowAll(false);
 	}
 
 	public override void HideAll()
 	{
+		// Authored bridge preserving original panel entry points; see Evidence/ui-csharp-restoration.json.
+		base.HideAll();
 	}
 
 	private void SetupRewardedAdItems()
@@ -161,6 +165,8 @@ public class StoreGUI : BasePanel
 
 	public override void SlideIn(BasePanel returnTo)
 	{
+		// Authored bridge; original slide-animation coroutine remains unrecovered; see Evidence/ui-csharp-restoration.json.
+		base.SlideIn(returnTo);
 	}
 
 	[IteratorStateMachine(typeof(_003CSlideInAnimation_003Ed__38))]
@@ -175,10 +181,14 @@ public class StoreGUI : BasePanel
 
 	private void BackClicked()
 	{
+		// Native-derived control flow with local host binding; see Evidence/ui-csharp-restoration.json.
+		ReturnMenu();
 	}
 
 	private void GetMoreCoinsClicked()
 	{
+		// Authored offline service binding; purchasing remains unavailable; see Evidence/ui-csharp-restoration.json.
+		TempleRunUIPresenter.Instance.OpenCoins(this);
 	}
 
 	public void StartRewardedAdCoinFlow()

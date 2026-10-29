@@ -8,10 +8,11 @@ The supplied XAPK contains the base APK and the ARM64 split. The original build 
 |---|---|---|
 | Unity serialized data in the APK | Exported scenes, prefabs, meshes, textures, animation, audio and configuration | AssetRipper's C# declarations initially contain stub bodies. Exporting assets does not restore gameplay. |
 | IL2CPP metadata and ARM64 library | Class layouts, signatures and native method coordinates | Cpp2IL's `diffable-cs` output is metadata, not original C# implementations. |
-| Targeted Ghidra decompilation | 482 native pseudocode bodies with byte verification | Optimized code, runtime helpers, inherited fields and indirect calls can remain unresolved. |
+| Targeted Ghidra decompilation | 625 retained native pseudocode bodies with byte verification | Optimized code, runtime helpers, inherited fields and indirect calls can remain unresolved. |
 | Reviewed native bodies and original configuration | 73 restored exported C# method bodies and additional recovered frame helpers | Each restored body has native references and its recovery category in `Evidence/csharp-restoration-map.json`. |
 | Original gameplay scene | Character model/texture pairs, character indices and water geometry | Original GUIDs are retained; materials use documented built-in shader replacements. |
-| Authored Unity integration | Playable scene, UI, course scheduler, input and local persistence | This supplies the development flow around the recovered rules; it is not a complete translation of the original game controller. |
+| Original UI scene and native UI methods | 1,902 transforms, 1,173 widgets, 218 colliders, 15 atlases, 5 bitmap fonts; 77 restored/adapted declarations | Rendering/input compatibility and profile bindings are authored; see [UI recovery](UI-RECOVERY.md). |
+| Authored Unity integration | Playable host, course scheduler, input and local persistence | This supplies the development flow around the recovered rules; it is not a complete translation of the original game controller. |
 
 The analysis used [Reverse-Engineer-Game](https://github.com/LuciusTran/Reverse-Engineer-Game) at the commit recorded in the input provenance. Its artifact inspection established the archive identity and contents; its game-project inspection checked scene paths, metadata, GUIDs and likely stubs. Native decompilation used the existing Ghidra installation directly through the included `Scripts/DecompileGameplay.java`. REA does not automatically turn this APK into a playable C# project.
 
@@ -23,9 +24,11 @@ The full original AssetRipper export, APKs, ELF library, Cpp2IL outputs for Unit
 
 `TempleRunGoldenChecks` compares the same vectors with C# outputs inside Unity. Separate editor checks exercise the extracted polygon ground, including transformed geometry. These comparisons establish the tested rules, not equivalence of every reconstructed function.
 
-The final Linux player passed 64 headless and 66 graphical integration checks with OpenGL on Xvfb/llvmpipe. They exercise normal Unity updates, original character animation, jumping, landing, sliding, pickups, save/continue, purchases, character textures, shared ownership of prefab aliases, stumble/death/revive, bounded course retention and all three biome heights. Corner-check counts can change with the generated route. The graphical capture also checks that a textured character renderer lies in the camera frustum.
+The final Linux player passed 64 headless and 63 graphical integration checks with OpenGL on Xvfb/llvmpipe. They exercise normal Unity updates, original character animation, jumping, landing, sliding, pickups, save/continue, purchases, character textures, shared ownership of prefab aliases, stumble/death/revive, bounded course retention and all three biome heights. Corner-check counts can change with the generated route. The graphical capture also checks that a textured character renderer lies in the camera frustum.
 
 The playable scene has no unresolved MonoScript reference reported by REA. Three unresolved settings references remain in the original exported advertising assets; the playable flow does not load those SDK settings. The original reference scene and many unused exported scripts still contain stubs. The inspector's stub list is heuristic and is not a count of missing gameplay features.
+
+The original UI hierarchy is now used by the playable scene. Its separate [UI recovery report](UI-RECOVERY.md) describes source assets, translated methods and the remaining authored boundaries. The 57 UI checks use scripted pointer coordinates through raycasts and callbacks; physical mouse/touch input is not established by that test.
 
 ## Repeat verification
 

@@ -1,0 +1,1261 @@
+{
+  "policy": "Native-derived means source-reviewed translation, not recovered original C# text. Authored bindings and unrecovered paths are labeled per entry.",
+  "bodies": [
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/UILabel.cs",
+      "declaration": "public string text",
+      "classification": "Serialized-field compatibility accessor; geometry invalidation adapted",
+      "nativeEvidence": "UILabel_get_text_12a0e4c; UILabel_set_text_129fea0",
+      "metadataDeclarations": [
+        {
+          "label": "UILabel_get_text_12a0e4c",
+          "fileOffset": 19533388,
+          "length": 8
+        },
+        {
+          "label": "UILabel_set_text_129fea0",
+          "fileOffset": 19529376,
+          "length": 64
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/UILabel/UILabel_get_text_12a0e4c.cpp",
+        "DecompiledNative/UILabel/UILabel_set_text_129fea0.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/UIWidget.cs",
+      "declaration": "public Color color",
+      "classification": "Serialized-field compatibility accessor; geometry invalidation adapted",
+      "nativeEvidence": "UIWidget_get_color; UIWidget_set_color",
+      "metadataDeclarations": [
+        {
+          "label": "UIWidget_get_color_1206e50",
+          "fileOffset": 18902608,
+          "length": 12
+        },
+        {
+          "label": "UIWidget_set_color_1206e5c",
+          "fileOffset": 18902620,
+          "length": 88
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/UIWidget/UIWidget_get_color_1206e50.cpp",
+        "DecompiledNative/UIWidget/UIWidget_set_color_1206e5c.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/UIWidget.cs",
+      "declaration": "public float alpha",
+      "classification": "Serialized-field compatibility accessor; geometry invalidation adapted",
+      "nativeEvidence": "UIWidget_get_alpha; UIWidget_set_alpha",
+      "metadataDeclarations": [
+        {
+          "label": "UIWidget_get_alpha_1206eb4",
+          "fileOffset": 18902708,
+          "length": 8
+        },
+        {
+          "label": "UIWidget_set_alpha_1206ebc",
+          "fileOffset": 18902716,
+          "length": 24
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/UIWidget/UIWidget_get_alpha_1206eb4.cpp",
+        "DecompiledNative/UIWidget/UIWidget_set_alpha_1206ebc.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/UIWidget.cs",
+      "declaration": "public Pivot pivot",
+      "classification": "Serialized-field compatibility accessor; geometry invalidation adapted",
+      "nativeEvidence": "UIWidget_get_pivot; UIWidget_set_pivot",
+      "metadataDeclarations": [
+        {
+          "label": "UIWidget_get_pivot_1206ed4",
+          "fileOffset": 18902740,
+          "length": 8
+        },
+        {
+          "label": "UIWidget_set_pivot_1206edc",
+          "fileOffset": 18902748,
+          "length": 28
+        }
+      ],
+      "nativeFiles": []
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/UIWidget.cs",
+      "declaration": "public int depth",
+      "classification": "Serialized-field compatibility accessor; geometry invalidation adapted",
+      "nativeEvidence": "UIWidget_get_depth; UIWidget_set_depth",
+      "metadataDeclarations": [
+        {
+          "label": "UIWidget_get_depth_1206ef8",
+          "fileOffset": 18902776,
+          "length": 8
+        },
+        {
+          "label": "UIWidget_set_depth_1206f00",
+          "fileOffset": 18902784,
+          "length": 180
+        }
+      ],
+      "nativeFiles": []
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/UISprite.cs",
+      "declaration": "public string spriteName",
+      "classification": "Serialized-field compatibility accessor; geometry invalidation adapted",
+      "nativeEvidence": "UISprite_get_spriteName_12a8680; UISprite_set_spriteName_12a2d48",
+      "metadataDeclarations": [
+        {
+          "label": "UISprite_get_spriteName_12a8680",
+          "fileOffset": 19564160,
+          "length": 8
+        },
+        {
+          "label": "UISprite_set_spriteName_12a2d48",
+          "fileOffset": 19541320,
+          "length": 156
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/UISprite/UISprite_get_spriteName_12a8680.cpp",
+        "DecompiledNative/UISprite/UISprite_set_spriteName_12a2d48.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/UIAnchor.cs",
+      "declaration": "private void Start()",
+      "classification": "Native-derived control flow with local host binding",
+      "nativeEvidence": "UIAnchor_Start_120c1ac",
+      "metadataDeclarations": [
+        {
+          "label": "UIAnchor_Start_120c160",
+          "fileOffset": 18923872,
+          "length": 124
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/UIAnchor/UIAnchor_Start_120c160.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/UIAnchor.cs",
+      "declaration": "private void OnEnable()",
+      "classification": "Native-derived control flow with local host binding",
+      "nativeEvidence": "UIAnchor_OnEnable",
+      "metadataDeclarations": [
+        {
+          "label": "UIAnchor_OnEnable_120c1dc",
+          "fileOffset": 18923996,
+          "length": 256
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/UIAnchor/UIAnchor_OnEnable_120c1dc.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/UIAnchor.cs",
+      "declaration": "public void AnchorItem()",
+      "classification": "Native-derived anchoring; safe-area input supplied by host",
+      "nativeEvidence": "UIAnchor_AnchorItem_120c2dc",
+      "metadataDeclarations": [
+        {
+          "label": "UIAnchor_AnchorItem_120c2dc",
+          "fileOffset": 18924252,
+          "length": 968
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/UIAnchor/UIAnchor_AnchorItem_120c2dc.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/UIGrowByAspectRatio.cs",
+      "declaration": "private void Awake()",
+      "classification": "Native-derived aspect sizing; Unity Screen.safeArea compatibility input",
+      "nativeEvidence": "UIGrowByAspectRatio_Awake_1300904",
+      "metadataDeclarations": [
+        {
+          "label": "UIGrowByAspectRatio_Awake_1300904",
+          "fileOffset": 19925252,
+          "length": 460
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/UIGrowByAspectRatio/UIGrowByAspectRatio_Awake_1300904.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/UIGrowByAspectRatio.cs",
+      "declaration": "private void Start()",
+      "classification": "Authored initialization ordering adapter for recovered anchors",
+      "nativeEvidence": "UIGrowByAspectRatio_Start",
+      "metadataDeclarations": [
+        {
+          "label": "UIGrowByAspectRatio_Start_1300ad0",
+          "fileOffset": 19925712,
+          "length": 92
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/UIGrowByAspectRatio/UIGrowByAspectRatio_Start_1300ad0.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/AdjustCameraFOV.cs",
+      "declaration": "private void Start()",
+      "classification": "Native-derived resolution branches; constant verified against ELF",
+      "nativeEvidence": "AdjustCameraFOV_Start_11ea2f8",
+      "metadataDeclarations": [
+        {
+          "label": "AdjustCameraFOV_Start_11ea2f8",
+          "fileOffset": 18785016,
+          "length": 4
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/AdjustCameraFOV/AdjustCameraFOV_Start_11ea2f8.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/UIButtonMessage.cs",
+      "declaration": "private void OnClick()",
+      "classification": "Native-derived trigger dispatch",
+      "nativeEvidence": "UIButtonMessage_OnClick",
+      "metadataDeclarations": [
+        {
+          "label": "UIButtonMessage_OnClick_11f0d6c",
+          "fileOffset": 18812268,
+          "length": 48
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/UIButtonMessage/UIButtonMessage_OnClick_11f0d6c.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/UIButtonMessage.cs",
+      "declaration": "private void OnPress(bool isPressed)",
+      "classification": "Native-derived trigger dispatch",
+      "nativeEvidence": "UIButtonMessage_OnPress",
+      "metadataDeclarations": [
+        {
+          "label": "UIButtonMessage_OnPress_11f0d1c",
+          "fileOffset": 18812188,
+          "length": 80
+        }
+      ],
+      "nativeFiles": []
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/UIButtonMessage.cs",
+      "declaration": "private void Send()",
+      "classification": "Native-derived target/callback dispatch; external references recorded during export",
+      "nativeEvidence": "UIButtonMessage_Send",
+      "metadataDeclarations": [
+        {
+          "label": "UIButtonMessage_Send_11f0b90",
+          "fileOffset": 18811792,
+          "length": 396
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/UIButtonMessage/UIButtonMessage_Send_11f0b90.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/UIButtonMessage2.cs",
+      "declaration": "private void OnClick()",
+      "classification": "Native-derived trigger dispatch",
+      "nativeEvidence": "UIButtonMessage2_OnClick",
+      "metadataDeclarations": [
+        {
+          "label": "UIButtonMessage2_OnClick_12f3ac8",
+          "fileOffset": 19872456,
+          "length": 16
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/UIButtonMessage2/UIButtonMessage2_OnClick_12f3ac8.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/UIButtonMessage2.cs",
+      "declaration": "private void OnPress(bool isPressed)",
+      "classification": "Native-derived trigger dispatch",
+      "nativeEvidence": "UIButtonMessage2_OnPress",
+      "metadataDeclarations": [
+        {
+          "label": "UIButtonMessage2_OnPress_12f3aa8",
+          "fileOffset": 19872424,
+          "length": 32
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/UIButtonMessage2/UIButtonMessage2_OnPress_12f3aa8.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/UIButtonMessage2.cs",
+      "declaration": "private void Send()",
+      "classification": "Native-derived target/callback dispatch; external references recorded during export",
+      "nativeEvidence": "UIButtonMessage2_Send",
+      "metadataDeclarations": [
+        {
+          "label": "UIButtonMessage2_Send_12f3890",
+          "fileOffset": 19871888,
+          "length": 536
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/UIButtonMessage2/UIButtonMessage2_Send_12f3890.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/BasePanel.cs",
+      "declaration": "public void Show()",
+      "classification": "Native-derived panel activation intent; analytics/ad branches omitted",
+      "nativeEvidence": "BasePanel_Show_12dff8c",
+      "metadataDeclarations": [
+        {
+          "label": "BasePanel_Show_12dff8c",
+          "fileOffset": 19791756,
+          "length": 152
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/BasePanel/BasePanel_Show_12dff8c.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/BasePanel.cs",
+      "declaration": "public void SlideIn()",
+      "classification": "Native-derived control flow with local host binding",
+      "nativeEvidence": "BasePanel_SlideIn_12def74",
+      "metadataDeclarations": [
+        {
+          "label": "BasePanel_SlideIn_12def74",
+          "fileOffset": 19787636,
+          "length": 16
+        },
+        {
+          "label": "BasePanel_SlideIn_12e0034",
+          "fileOffset": 19791924,
+          "length": 8
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/BasePanel/BasePanel_SlideIn_12def74.cpp",
+        "DecompiledNative/BasePanel/BasePanel_SlideIn_12e0034.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/BasePanel.cs",
+      "declaration": "public void SlideInDontClearReturn()",
+      "classification": "Native-derived control flow with local host binding",
+      "nativeEvidence": "BasePanel_SlideInDontClearReturn",
+      "metadataDeclarations": [
+        {
+          "label": "BasePanel_SlideInDontClearReturn_12e0024",
+          "fileOffset": 19791908,
+          "length": 16
+        }
+      ],
+      "nativeFiles": []
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/BasePanel.cs",
+      "declaration": "public virtual void SlideIn(BasePanel returnTo)",
+      "classification": "Native return-panel storage plus authored presentation binding",
+      "nativeEvidence": "BasePanel_SlideIn_12e0034",
+      "metadataDeclarations": [
+        {
+          "label": "BasePanel_SlideIn_12def74",
+          "fileOffset": 19787636,
+          "length": 16
+        },
+        {
+          "label": "BasePanel_SlideIn_12e0034",
+          "fileOffset": 19791924,
+          "length": 8
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/BasePanel/BasePanel_SlideIn_12def74.cpp",
+        "DecompiledNative/BasePanel/BasePanel_SlideIn_12e0034.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/BasePanel.cs",
+      "declaration": "public virtual void ShowAll(bool inShowBannerAds = true)",
+      "classification": "Native panel visibility intent; local presenter retains source inactive variants",
+      "nativeEvidence": "BasePanel_ShowAll_12df6a4",
+      "metadataDeclarations": [
+        {
+          "label": "BasePanel_ShowAll_12df6a4",
+          "fileOffset": 19789476,
+          "length": 432
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/BasePanel/BasePanel_ShowAll_12df6a4.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/BasePanel.cs",
+      "declaration": "public virtual void HideAll()",
+      "classification": "Native-derived control flow with local host binding",
+      "nativeEvidence": "BasePanel_HideAll_12dfbf8",
+      "metadataDeclarations": [
+        {
+          "label": "BasePanel_HideAll_12dfbf8",
+          "fileOffset": 19790840,
+          "length": 40
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/BasePanel/BasePanel_HideAll_12dfbf8.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/BasePanel.cs",
+      "declaration": "public void ReturnMenu()",
+      "classification": "Native-derived control flow with local host binding",
+      "nativeEvidence": "BasePanel_ReturnMenu_12e003c",
+      "metadataDeclarations": [
+        {
+          "label": "BasePanel_ReturnMenu_12e003c",
+          "fileOffset": 19791932,
+          "length": 192
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/BasePanel/BasePanel_ReturnMenu_12e003c.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/MainMenu.cs",
+      "declaration": "public override void SlideIn(BasePanel returnTo)",
+      "classification": "Authored bridge; original slide-animation coroutine remains unrecovered",
+      "nativeEvidence": "MainMenu_SlideIn",
+      "metadataDeclarations": [
+        {
+          "label": "MainMenu_SlideIn_12f1690",
+          "fileOffset": 19863184,
+          "length": 2188
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/MainMenu/MainMenu_SlideIn_12f1690.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/MainMenu.cs",
+      "declaration": "public override void ShowAll(bool inShowBannerAds = true)",
+      "classification": "Authored bridge preserving original panel entry points",
+      "nativeEvidence": "MainMenu_ShowAll",
+      "metadataDeclarations": [
+        {
+          "label": "MainMenu_ShowAll_12f2248",
+          "fileOffset": 19866184,
+          "length": 28
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/MainMenu/MainMenu_ShowAll_12f2248.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/MainMenu.cs",
+      "declaration": "public override void HideAll()",
+      "classification": "Authored bridge preserving original panel entry points",
+      "nativeEvidence": "MainMenu_HideAll",
+      "metadataDeclarations": [
+        {
+          "label": "MainMenu_HideAll_12f2410",
+          "fileOffset": 19866640,
+          "length": 28
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/MainMenu/MainMenu_HideAll_12f2410.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/PauseMenu.cs",
+      "declaration": "public override void SlideIn(BasePanel returnTo)",
+      "classification": "Authored bridge; original slide-animation coroutine remains unrecovered",
+      "nativeEvidence": "PauseMenu_SlideIn",
+      "metadataDeclarations": [
+        {
+          "label": "PauseMenu_SlideIn_12f62e8",
+          "fileOffset": 19882728,
+          "length": 112
+        }
+      ],
+      "nativeFiles": []
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/EndGameUI.cs",
+      "declaration": "public override void SlideIn(BasePanel returnTo)",
+      "classification": "Authored bridge; original slide-animation coroutine remains unrecovered",
+      "nativeEvidence": "EndGameUI_SlideIn",
+      "metadataDeclarations": [
+        {
+          "label": "EndGameUI_SlideIn_12e3adc",
+          "fileOffset": 19806940,
+          "length": 1020
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/EndGameUI/EndGameUI_SlideIn_12e3adc.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/EndGameUI.cs",
+      "declaration": "public override void HideAll()",
+      "classification": "Authored bridge preserving original panel entry points",
+      "nativeEvidence": "EndGameUI_HideAll",
+      "metadataDeclarations": [
+        {
+          "label": "EndGameUI_HideAll_12e4f80",
+          "fileOffset": 19812224,
+          "length": 976
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/EndGameUI/EndGameUI_HideAll_12e4f80.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/StoreGUI.cs",
+      "declaration": "public override void SlideIn(BasePanel returnTo)",
+      "classification": "Authored bridge; original slide-animation coroutine remains unrecovered",
+      "nativeEvidence": "StoreGUI_SlideIn",
+      "metadataDeclarations": [
+        {
+          "label": "StoreGUI_SlideIn_12fa548",
+          "fileOffset": 19899720,
+          "length": 540
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/StoreGUI/StoreGUI_SlideIn_12fa548.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/StoreGUI.cs",
+      "declaration": "public override void ShowAll(bool inShowBannerAds = true)",
+      "classification": "Authored bridge preserving original panel entry points",
+      "nativeEvidence": "StoreGUI_ShowAll",
+      "metadataDeclarations": [
+        {
+          "label": "StoreGUI_ShowAll_12f9944",
+          "fileOffset": 19896644,
+          "length": 576
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/StoreGUI/StoreGUI_ShowAll_12f9944.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/StoreGUI.cs",
+      "declaration": "public override void HideAll()",
+      "classification": "Authored bridge preserving original panel entry points",
+      "nativeEvidence": "StoreGUI_HideAll",
+      "metadataDeclarations": [
+        {
+          "label": "StoreGUI_HideAll_12f9f54",
+          "fileOffset": 19898196,
+          "length": 28
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/StoreGUI/StoreGUI_HideAll_12f9f54.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterSelectGUI.cs",
+      "declaration": "public override void SlideIn(BasePanel returnTo)",
+      "classification": "Authored bridge; original slide-animation coroutine remains unrecovered",
+      "nativeEvidence": "CharacterSelectGUI_SlideIn",
+      "metadataDeclarations": [
+        {
+          "label": "CharacterSelectGUI_SlideIn_12e0d18",
+          "fileOffset": 19795224,
+          "length": 688
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/CharacterSelectGUI/CharacterSelectGUI_SlideIn_12e0d18.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterSelectGUI.cs",
+      "declaration": "public override void ShowAll(bool inShowBannerAds = true)",
+      "classification": "Authored bridge preserving original panel entry points",
+      "nativeEvidence": "CharacterSelectGUI_ShowAll",
+      "metadataDeclarations": [
+        {
+          "label": "CharacterSelectGUI_ShowAll_12e0b38",
+          "fileOffset": 19794744,
+          "length": 144
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/CharacterSelectGUI/CharacterSelectGUI_ShowAll_12e0b38.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterSelectGUI.cs",
+      "declaration": "public override void HideAll()",
+      "classification": "Authored bridge preserving original panel entry points",
+      "nativeEvidence": "CharacterSelectGUI_HideAll",
+      "metadataDeclarations": [
+        {
+          "label": "CharacterSelectGUI_HideAll_12e0d14",
+          "fileOffset": 19795220,
+          "length": 4
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/CharacterSelectGUI/CharacterSelectGUI_HideAll_12e0d14.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/OptionsGUI.cs",
+      "declaration": "public override void SlideIn(BasePanel returnTo)",
+      "classification": "Authored bridge; original slide-animation coroutine remains unrecovered",
+      "nativeEvidence": "OptionsGUI_SlideIn",
+      "metadataDeclarations": [
+        {
+          "label": "OptionsGUI_SlideIn_12f5580",
+          "fileOffset": 19879296,
+          "length": 64
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/OptionsGUI/OptionsGUI_SlideIn_12f5580.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/StatsGUI.cs",
+      "declaration": "public override void SlideIn(BasePanel returnTo)",
+      "classification": "Authored bridge; original slide-animation coroutine remains unrecovered",
+      "nativeEvidence": "StatsGUI_SlideIn",
+      "metadataDeclarations": [
+        {
+          "label": "StatsGUI_SlideIn_12f86f8",
+          "fileOffset": 19891960,
+          "length": 1520
+        }
+      ],
+      "nativeFiles": []
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/ObjectivesGUI.cs",
+      "declaration": "public override void SlideIn(BasePanel returnTo)",
+      "classification": "Authored bridge; original slide-animation coroutine remains unrecovered",
+      "nativeEvidence": "ObjectivesGUI_SlideIn",
+      "metadataDeclarations": [
+        {
+          "label": "ObjectivesGUI_SlideIn_12f42e4",
+          "fileOffset": 19874532,
+          "length": 404
+        }
+      ],
+      "nativeFiles": []
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/VCGUI.cs",
+      "declaration": "public override void SlideIn(BasePanel returnTo)",
+      "classification": "Authored bridge; original slide-animation coroutine remains unrecovered",
+      "nativeEvidence": "VCGUI_SlideIn",
+      "metadataDeclarations": [
+        {
+          "label": "VCGUI_SlideIn_1304c54",
+          "fileOffset": 19942484,
+          "length": 484
+        }
+      ],
+      "nativeFiles": []
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/MainMenu.cs",
+      "declaration": "public void OnPlayClicked()",
+      "classification": "Native start-game intent; authored host binding, original intro/analytics omitted",
+      "nativeEvidence": "MainMenu_OnPlayClicked",
+      "metadataDeclarations": [
+        {
+          "label": "MainMenu_OnPlayClicked_12f244c",
+          "fileOffset": 19866700,
+          "length": 44
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/MainMenu/MainMenu_OnPlayClicked_12f244c.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/GameGUI.cs",
+      "declaration": "public void PauseClicked()",
+      "classification": "Native-derived control flow with local host binding",
+      "nativeEvidence": "GameGUI_PauseClicked_12e7914",
+      "metadataDeclarations": [
+        {
+          "label": "GameGUI_PauseClicked_12e7914",
+          "fileOffset": 19822868,
+          "length": 188
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/GameGUI/GameGUI_PauseClicked_12e7914.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/GameGUI.cs",
+      "declaration": "public void SetScore(int score)",
+      "classification": "Native-derived control flow with local host binding",
+      "nativeEvidence": "GameGUI_SetScore",
+      "metadataDeclarations": [
+        {
+          "label": "GameGUI_SetScore_12e7748",
+          "fileOffset": 19822408,
+          "length": 64
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/GameGUI/GameGUI_SetScore_12e7748.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/GameGUI.cs",
+      "declaration": "public void SetCoins(int coins)",
+      "classification": "Native-derived control flow with local host binding",
+      "nativeEvidence": "GameGUI_SetCoins",
+      "metadataDeclarations": [
+        {
+          "label": "GameGUI_SetCoins_12e7788",
+          "fileOffset": 19822472,
+          "length": 64
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/GameGUI/GameGUI_SetCoins_12e7788.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/PauseMenu.cs",
+      "declaration": "public void ResumeClicked()",
+      "classification": "Native resume intent; authored host binding, resume countdown not recovered",
+      "nativeEvidence": "PauseMenu_ResumeClicked_12f6da0",
+      "metadataDeclarations": [
+        {
+          "label": "PauseMenu_ResumeClicked_12f6da0",
+          "fileOffset": 19885472,
+          "length": 164
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/PauseMenu/PauseMenu_ResumeClicked_12f6da0.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/PauseMenu.cs",
+      "declaration": "private void MainMenuClicked()",
+      "classification": "Native-derived control flow with local host binding",
+      "nativeEvidence": "PauseMenu_MainMenuClicked_12f6bf0",
+      "metadataDeclarations": [
+        {
+          "label": "PauseMenu_MainMenuClicked_12f6bf0",
+          "fileOffset": 19885040,
+          "length": 432
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/PauseMenu/PauseMenu_MainMenuClicked_12f6bf0.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/PauseMenu.cs",
+      "declaration": "private void NewGameClicked()",
+      "classification": "Native-derived control flow with local host binding",
+      "nativeEvidence": "PauseMenu_NewGameClicked_12f6e44",
+      "metadataDeclarations": [
+        {
+          "label": "PauseMenu_NewGameClicked_12f6e44",
+          "fileOffset": 19885636,
+          "length": 432
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/PauseMenu/PauseMenu_NewGameClicked_12f6e44.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/EndGameUI.cs",
+      "declaration": "private void RunAgainClicked()",
+      "classification": "Native-derived control flow with local host binding",
+      "nativeEvidence": "EndGameUI_RunAgainClicked_12e4e04",
+      "metadataDeclarations": [
+        {
+          "label": "EndGameUI_RunAgainClicked_12e4e04",
+          "fileOffset": 19811844,
+          "length": 92
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/EndGameUI/EndGameUI_RunAgainClicked_12e4e04.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/EndGameUI.cs",
+      "declaration": "private void MainMenuClicked()",
+      "classification": "Native-derived control flow with local host binding",
+      "nativeEvidence": "EndGameUI_MainMenuClicked",
+      "metadataDeclarations": [
+        {
+          "label": "EndGameUI_MainMenuClicked_12e4e60",
+          "fileOffset": 19811936,
+          "length": 76
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/EndGameUI/EndGameUI_MainMenuClicked_12e4e60.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/EndGameUI.cs",
+      "declaration": "private void StoreClick()",
+      "classification": "Native-derived control flow with local host binding",
+      "nativeEvidence": "EndGameUI_StoreClick",
+      "metadataDeclarations": [
+        {
+          "label": "EndGameUI_StoreClick_12e4eac",
+          "fileOffset": 19812012,
+          "length": 68
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/EndGameUI/EndGameUI_StoreClick_12e4eac.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/StoreGUI.cs",
+      "declaration": "private void BackClicked()",
+      "classification": "Native-derived control flow with local host binding",
+      "nativeEvidence": "StoreGUI_BackClicked",
+      "metadataDeclarations": [
+        {
+          "label": "StoreGUI_BackClicked_12fa7ec",
+          "fileOffset": 19900396,
+          "length": 8
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/StoreGUI/StoreGUI_BackClicked_12fa7ec.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterSelectGUI.cs",
+      "declaration": "private void BackClicked()",
+      "classification": "Native-derived control flow with local host binding",
+      "nativeEvidence": "CharacterSelectGUI_BackClicked",
+      "metadataDeclarations": [
+        {
+          "label": "CharacterSelectGUI_BackClicked_12e13dc",
+          "fileOffset": 19796956,
+          "length": 4
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/CharacterSelectGUI/CharacterSelectGUI_BackClicked_12e13dc.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/OptionsGUI.cs",
+      "declaration": "private void BackButtonClicked()",
+      "classification": "Native-derived control flow with local host binding",
+      "nativeEvidence": "OptionsGUI_BackButtonClicked",
+      "metadataDeclarations": [
+        {
+          "label": "OptionsGUI_BackButtonClicked_12f5834",
+          "fileOffset": 19879988,
+          "length": 8
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/OptionsGUI/OptionsGUI_BackButtonClicked_12f5834.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/StatsGUI.cs",
+      "declaration": "private void BackClicked()",
+      "classification": "Native-derived control flow with local host binding",
+      "nativeEvidence": "StatsGUI_BackClicked",
+      "metadataDeclarations": [
+        {
+          "label": "StatsGUI_BackClicked_12f8d70",
+          "fileOffset": 19893616,
+          "length": 8
+        }
+      ],
+      "nativeFiles": []
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/ObjectivesGUI.cs",
+      "declaration": "private void MainMenuClicked()",
+      "classification": "Native-derived control flow with local host binding",
+      "nativeEvidence": "ObjectivesGUI_MainMenuClicked",
+      "metadataDeclarations": [
+        {
+          "label": "ObjectivesGUI_MainMenuClicked_12f4d14",
+          "fileOffset": 19877140,
+          "length": 8
+        }
+      ],
+      "nativeFiles": []
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/VCGUI.cs",
+      "declaration": "private void BackButtonClicked()",
+      "classification": "Native-derived control flow with local host binding",
+      "nativeEvidence": "VCGUI_BackButtonClicked",
+      "metadataDeclarations": [
+        {
+          "label": "VCGUI_BackButtonClicked_1304f24",
+          "fileOffset": 19943204,
+          "length": 8
+        }
+      ],
+      "nativeFiles": []
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/StoreItem.cs",
+      "declaration": "public void Configure()",
+      "classification": "Native item classification/pricing intent; authored local-profile binding",
+      "nativeEvidence": "StoreItem_Configure",
+      "metadataDeclarations": [
+        {
+          "label": "StoreItem_Configure_12fb958",
+          "fileOffset": 19904856,
+          "length": 476
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/StoreItem/StoreItem_Configure_12fb958.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/StoreItem.cs",
+      "declaration": "public void Reconfigure()",
+      "classification": "Native-derived control flow with local host binding",
+      "nativeEvidence": "StoreItem_Reconfigure",
+      "metadataDeclarations": [
+        {
+          "label": "StoreItem_Reconfigure_12fbb8c",
+          "fileOffset": 19905420,
+          "length": 20
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/StoreItem/StoreItem_Reconfigure_12fbb8c.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/StoreItem.cs",
+      "declaration": "private void OnClick()",
+      "classification": "Native item purchase/select intent; authored local-profile binding",
+      "nativeEvidence": "StoreItem_OnClick",
+      "metadataDeclarations": [
+        {
+          "label": "StoreItem_OnClick_12fd0b0",
+          "fileOffset": 19910832,
+          "length": 516
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/StoreItem/StoreItem_OnClick_12fd0b0.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/UICheckbox.cs",
+      "declaration": "public bool isChecked",
+      "classification": "Serialized-field compatibility accessor; geometry invalidation adapted",
+      "nativeEvidence": "UICheckbox_get_isChecked; UICheckbox_set_isChecked",
+      "metadataDeclarations": [
+        {
+          "label": "UICheckbox_get_isChecked_11f2744",
+          "fileOffset": 18818884,
+          "length": 8
+        },
+        {
+          "label": "UICheckbox_set_isChecked_11f274c",
+          "fileOffset": 18818892,
+          "length": 160
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/UICheckbox/UICheckbox_get_isChecked_11f2744.cpp",
+        "DecompiledNative/UICheckbox/UICheckbox_set_isChecked_11f274c.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/UICheckbox.cs",
+      "declaration": "private void Start()",
+      "classification": "Compatibility initialization from serialized source state",
+      "nativeEvidence": "UICheckbox_Start",
+      "metadataDeclarations": [
+        {
+          "label": "UICheckbox_Start_11f2c3c",
+          "fileOffset": 18820156,
+          "length": 144
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/UICheckbox/UICheckbox_Start_11f2c3c.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/UICheckbox.cs",
+      "declaration": "private void OnClick()",
+      "classification": "Native toggle intent; authored local settings binding",
+      "nativeEvidence": "UICheckbox_OnClick",
+      "metadataDeclarations": [
+        {
+          "label": "UICheckbox_OnClick_11f2ccc",
+          "fileOffset": 18820300,
+          "length": 52
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/UICheckbox/UICheckbox_OnClick_11f2ccc.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/UISlider.cs",
+      "declaration": "public float sliderValue",
+      "classification": "Serialized-field compatibility accessor; geometry invalidation adapted",
+      "nativeEvidence": "UISlider_get_sliderValue; UISlider_set_sliderValue",
+      "metadataDeclarations": [
+        {
+          "label": "UISlider_get_sliderValue_11fb0b0",
+          "fileOffset": 18854064,
+          "length": 8
+        },
+        {
+          "label": "UISlider_set_sliderValue_11fb0b8",
+          "fileOffset": 18854072,
+          "length": 8
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/UISlider/UISlider_get_sliderValue_11fb0b0.cpp",
+        "DecompiledNative/UISlider/UISlider_set_sliderValue_11fb0b8.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/UIFilledSprite.cs",
+      "declaration": "public float fillAmount",
+      "classification": "Serialized-field compatibility accessor; geometry invalidation adapted",
+      "nativeEvidence": "UIFilledSprite_set_fillAmount_12112cc",
+      "metadataDeclarations": [
+        {
+          "label": "UIFilledSprite_get_fillAmount_12112c4",
+          "fileOffset": 18944708,
+          "length": 8
+        },
+        {
+          "label": "UIFilledSprite_set_fillAmount_12112cc",
+          "fileOffset": 18944716,
+          "length": 48
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/UIFilledSprite/UIFilledSprite_get_fillAmount_12112c4.cpp",
+        "DecompiledNative/UIFilledSprite/UIFilledSprite_set_fillAmount_12112cc.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/HeadStartButton.cs",
+      "declaration": "private void OnClick()",
+      "classification": "Native utility selection intent; local inventory binding",
+      "nativeEvidence": "HeadStartButton_OnClick",
+      "metadataDeclarations": [
+        {
+          "label": "HeadStartButton_OnClick_12ed360",
+          "fileOffset": 19845984,
+          "length": 120
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/HeadStartButton/HeadStartButton_OnClick_12ed360.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/EndGameUI.cs",
+      "declaration": "private void OnStatsButton()",
+      "classification": "Authored local navigation binding",
+      "nativeEvidence": "EndGameUI_OnStatsButton",
+      "metadataDeclarations": [
+        {
+          "label": "EndGameUI_OnStatsButton_12e57a0",
+          "fileOffset": 19814304,
+          "length": 244
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/EndGameUI/EndGameUI_OnStatsButton_12e57a0.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/ObjectivesGUI.cs",
+      "declaration": "private void OnStatsButton()",
+      "classification": "Authored local navigation binding",
+      "nativeEvidence": "ObjectivesGUI_OnStatsButton",
+      "metadataDeclarations": [
+        {
+          "label": "ObjectivesGUI_OnStatsButton_12f4d1c",
+          "fileOffset": 19877148,
+          "length": 216
+        }
+      ],
+      "nativeFiles": []
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/StoreGUI.cs",
+      "declaration": "private void GetMoreCoinsClicked()",
+      "classification": "Authored offline service binding; purchasing remains unavailable",
+      "nativeEvidence": "StoreGUI_GetMoreCoinsClicked",
+      "metadataDeclarations": [
+        {
+          "label": "StoreGUI_GetMoreCoinsClicked_12fa7f4",
+          "fileOffset": 19900404,
+          "length": 52
+        }
+      ],
+      "nativeFiles": []
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterSelectGUI.cs",
+      "declaration": "private void GetMoreCoinsClicked()",
+      "classification": "Authored offline service binding; purchasing remains unavailable",
+      "nativeEvidence": "CharacterSelectGUI_GetMoreCoinsClicked",
+      "metadataDeclarations": [
+        {
+          "label": "CharacterSelectGUI_GetMoreCoinsClicked_12e13e0",
+          "fileOffset": 19796960,
+          "length": 52
+        }
+      ],
+      "nativeFiles": []
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/OptionsGUI.cs",
+      "declaration": "private void ResetProgressButtonClicked()",
+      "classification": "Authored local-profile reset binding",
+      "nativeEvidence": "OptionsGUI_ResetProgressButtonClicked",
+      "metadataDeclarations": [
+        {
+          "label": "OptionsGUI_ResetProgressButtonClicked_12f5a00",
+          "fileOffset": 19880448,
+          "length": 72
+        }
+      ],
+      "nativeFiles": []
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/EndGameUI.cs",
+      "declaration": "private void ParseDeathDetails()",
+      "classification": "Native-derived ImageData grammar; malformed-input handling simplified for the supplied asset",
+      "nativeEvidence": "EndGameUI_ParseDeathDetails_12e2f90",
+      "metadataDeclarations": [
+        {
+          "label": "EndGameUI_ParseDeathDetails_12e2f90",
+          "fileOffset": 19804048,
+          "length": 2232
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/EndGameUI/EndGameUI_ParseDeathDetails_12e2f90.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/EndGameUI.cs",
+      "declaration": "private void AssignDeathDetails()",
+      "classification": "Native selection/fallback semantics translated in presenter; local runner binding",
+      "nativeEvidence": "EndGameUI_AssignDeathDetails_12e48fc",
+      "metadataDeclarations": [
+        {
+          "label": "EndGameUI_AssignDeathDetails_12e48fc",
+          "fileOffset": 19810556,
+          "length": 1288
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/EndGameUI/EndGameUI_AssignDeathDetails_12e48fc.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/RecordManager.cs",
+      "declaration": "private void AddAchievement(string aId, string aName, string aPreDescription, string aPostDescription = null, bool aHidden = false)",
+      "classification": "Native-derived record construction",
+      "nativeEvidence": "RecordManager_AddAchievement_12b2524",
+      "metadataDeclarations": [
+        {
+          "label": "RecordManager_AddAchievement_12b2524",
+          "fileOffset": 19604772,
+          "length": 284
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/RecordManager/RecordManager_AddAchievement_12b2524.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/RecordManager.cs",
+      "declaration": "private void SetupAchievements()",
+      "classification": "Native registration order and literal keys recovered through ELF relocations",
+      "nativeEvidence": "RecordManager_SetupAchievements_12af14c",
+      "metadataDeclarations": [
+        {
+          "label": "RecordManager_SetupAchievements_12af14c",
+          "fileOffset": 19591500,
+          "length": 6120
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/RecordManager/RecordManager_SetupAchievements_12af14c.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/GameGUITotem.cs",
+      "declaration": "public void UpdateProgress(float coinPercent)",
+      "classification": "Native-derived progress assignment",
+      "nativeEvidence": "GameGUITotem_UpdateProgress_12e89dc",
+      "metadataDeclarations": [
+        {
+          "label": "GameGUITotem_UpdateProgress_12e89dc",
+          "fileOffset": 19827164,
+          "length": 28
+        }
+      ],
+      "nativeFiles": [
+        "DecompiledNative/GameGUITotem/GameGUITotem_UpdateProgress_12e89dc.cpp"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Assembly-CSharp/OffsetOnWidth.cs",
+      "declaration": "private void Update()",
+      "classification": "Native width/pivot/side calculation; compatibility renderer supplies glyph width",
+      "nativeEvidence": "OffsetOnWidth_Update_12f5274"
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c644a821308ed65b7a98a2273d6afe29, type: 3}
+  m_Name: Atlas_31859c897599b144bb7441b8834746c2_114724804207875695
+  m_EditorClassIdentifier: Assembly-CSharp::TempleRunUIAtlasData
+  source: Assets/GameObject/GC Promo Atlas.prefab
+  texture: {fileID: 2800000, guid: 8638a1acf5fbed94dae5867a51952033, type: 3}
+  sprites:
+  - name: HolidayDreams_InGame_Ad_510x314
+    uv:
+      serializedVersion: 2
+      x: 0.24902344
+      y: 0.2626953
+      width: 0.24902344
+      height: 0.1508789
+    inner:
+      serializedVersion: 2
+      x: 0.24902344
+      y: 0.2626953
+      width: 0.24902344
+      height: 0.1508789
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.01618123
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: GoldRush_InGame_Ad_510x314
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.5683594
+      width: 0.24902344
+      height: 0.15136719
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.5683594
+      width: 0.24902344
+      height: 0.15136719
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.012903226
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: TempleRaid_InGame_Ad_510x314
+    uv:
+      serializedVersion: 2
+      x: 0.5214844
+      y: 0
+      width: 0.24902344
+      height: 0.15332031
+    inner:
+      serializedVersion: 2
+      x: 0.5214844
+      y: 0
+      width: 0.24902344
+      height: 0.15332031
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: BG_image_Promo
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0.27246094
+      height: 0.2626953
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0.27246094
+      height: 0.2626953
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: TrickTreat_InGame_Ad_510x314
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.41601562
+      width: 0.24902344
+      height: 0.15234375
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.41601562
+      width: 0.24902344
+      height: 0.15234375
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.0064102565
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: RunningWild_InGame_Ad_510x314
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.2626953
+      width: 0.24902344
+      height: 0.15332031
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.2626953
+      width: 0.24902344
+      height: 0.15332031
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: NewBeginnings_InGame_Ad_510x314
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.71972656
+      width: 0.24902344
+      height: 0.15136719
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0.71972656
+      width: 0.24902344
+      height: 0.15136719
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.012903226
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: IntoTheRuins_InGame_Ad_510x314
+    uv:
+      serializedVersion: 2
+      x: 0.49804688
+      y: 0.2626953
+      width: 0.24902344
+      height: 0.1508789
+    inner:
+      serializedVersion: 2
+      x: 0.49804688
+      y: 0.2626953
+      width: 0.24902344
+      height: 0.1508789
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.01618123
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: SummerMarathon_InGame_Ad_510x314
+    uv:
+      serializedVersion: 2
+      x: 0.24902344
+      y: 0.7133789
+      width: 0.24902344
+      height: 0.14746094
+    inner:
+      serializedVersion: 2
+      x: 0.24902344
+      y: 0.7133789
+      width: 0.24902344
+      height: 0.14746094
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.0397351
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: Fifteen_Years_Still_Running_InGame_Ad_510x314
+    uv:
+      serializedVersion: 2
+      x: 0.7470703
+      y: 0.2626953
+      width: 0.24902344
+      height: 0.1508789
+    inner:
+      serializedVersion: 2
+      x: 0.7470703
+      y: 0.2626953
+      width: 0.24902344
+      height: 0.1508789
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.01618123
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: BirthdayLoot_InGame_Ad_510x314
+    uv:
+      serializedVersion: 2
+      x: 0.49804688
+      y: 0.41357422
+      width: 0.24902344
+      height: 0.14746094
+    inner:
+      serializedVersion: 2
+      x: 0.49804688
+      y: 0.41357422
+      width: 0.24902344
+      height: 0.14746094
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.0397351
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: ColdAsItGets_InGame_Ad_510x314
+    uv:
+      serializedVersion: 2
+      x: 0.49804688
+      y: 0.56103516
+      width: 0.24902344
+      height: 0.1430664
+    inner:
+      serializedVersion: 2
+      x: 0.49804688
+      y: 0.56103516
+      width: 0.24902344
+      height: 0.1430664
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.07167236
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: GrabTheTurkey_InGame_Ad_510x314
+    uv:
+      serializedVersion: 2
+      x: 0.7470703
+      y: 0.56103516
+      width: 0.24902344
+      height: 0.1430664
+    inner:
+      serializedVersion: 2
+      x: 0.7470703
+      y: 0.56103516
+      width: 0.24902344
+      height: 0.1430664
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.07167236
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: FreedomRun_InGame_Ad_510x314
+    uv:
+      serializedVersion: 2
+      x: 0.7470703
+      y: 0.41357422
+      width: 0.24902344
+      height: 0.14648438
+    inner:
+      serializedVersion: 2
+      x: 0.7470703
+      y: 0.41357422
+      width: 0.24902344
+      height: 0.14648438
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.046666667
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: TheLongestMile_InGame_Ad_510x314
+    uv:
+      serializedVersion: 2
+      x: 0.24902344
+      y: 0.5644531
+      width: 0.24902344
+      height: 0.14892578
+    inner:
+      serializedVersion: 2
+      x: 0.24902344
+      y: 0.5644531
+      width: 0.24902344
+      height: 0.14892578
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.029508196
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: One_More_Run_InGame_Ad_510x314
+    uv:
+      serializedVersion: 2
+      x: 0.24902344
+      y: 0.41357422
+      width: 0.24902344
+      height: 0.1508789
+    inner:
+      serializedVersion: 2
+      x: 0.24902344
+      y: 0.41357422
+      width: 0.24902344
+      height: 0.1508789
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.01618123
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: FridayNIghtRun_InGame_Ad_510x314
+    uv:
+      serializedVersion: 2
+      x: 0.27246094
+      y: 0
+      width: 0.24902344
+      height: 0.15332031
+    inner:
+      serializedVersion: 2
+      x: 0.27246094
+      y: 0
+      width: 0.24902344
+      height: 0.15332031
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 0, z: 0, w: 0}

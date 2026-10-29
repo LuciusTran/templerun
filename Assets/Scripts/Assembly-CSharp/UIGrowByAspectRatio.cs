@@ -19,9 +19,19 @@ public class UIGrowByAspectRatio : MonoBehaviour
 
 	private void Awake()
 	{
+		// Native-derived aspect sizing; Unity Screen.safeArea compatibility input; see Evidence/ui-csharp-restoration.json.
+		_LocalCam = GetComponent<Camera>();
+		float size = _LocalCam.orthographicSize, aspect = Screen.width / (float)Screen.height;
+		if (aspect < BaseAspectRatio && !Mathf.Approximately(aspect, BaseAspectRatio)) _LocalCam.orthographicSize = BaseAspectRatio * size / aspect;
+		UiOriginalHeight = size * 2f; UiOriginalWidth = UiOriginalHeight * BaseAspectRatio;
+		UiHeight = _LocalCam.orthographicSize * 2f; UiWidth = aspect * UiHeight;
+		Rect safe = Screen.safeArea;
+		SafeRect = new Rect(safe.x, safe.y, Screen.width - safe.width, Screen.height - safe.height);
 	}
 
 	private void Start()
 	{
+		// Authored initialization ordering adapter for recovered anchors; see Evidence/ui-csharp-restoration.json.
+		foreach (var anchor in transform.root.GetComponentsInChildren<UIAnchor>(true)) anchor.AnchorItem();
 	}
 }

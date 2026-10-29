@@ -1,0 +1,323 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c644a821308ed65b7a98a2273d6afe29, type: 3}
+  m_Name: Atlas_9684cdbd865b0a64984c797988a27b93_114724804207875695
+  m_EditorClassIdentifier: Assembly-CSharp::TempleRunUIAtlasData
+  source: Assets/GameObject/Tutorial Atlas.prefab
+  texture: {fileID: 2800000, guid: 87435c16d77bbaf4eb048a7f1432a648, type: 3}
+  sprites:
+  - name: instructionsFinished
+    uv:
+      serializedVersion: 2
+      x: 0.453125
+      y: 0.75390625
+      width: 0.36132812
+      height: 0.24414062
+    inner:
+      serializedVersion: 2
+      x: 0.453125
+      y: 0.75390625
+      width: 0.36132812
+      height: 0.24414062
+    paddingLeft: 0.035135135
+    paddingRight: 0.045945946
+    paddingTop: 0.424
+    paddingBottom: 0.496
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: instructionsJump
+    uv:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.23046875
+      width: 0.28320312
+      height: 0.40625
+    inner:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.23046875
+      width: 0.28320312
+      height: 0.40625
+    paddingLeft: 0.6
+    paddingRight: 0.6068966
+    paddingTop: 0.072115384
+    paddingBottom: 0.08173077
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: instructionsMeter
+    uv:
+      serializedVersion: 2
+      x: 0.453125
+      y: 0.53515625
+      width: 0.35351562
+      height: 0.21679688
+    inner:
+      serializedVersion: 2
+      x: 0.453125
+      y: 0.53515625
+      width: 0.35351562
+      height: 0.21679688
+    paddingLeft: 0.37845305
+    paddingRight: 0.38950276
+    paddingTop: 0.5135135
+    paddingBottom: 0.6486486
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: instructionsSlide
+    uv:
+      serializedVersion: 2
+      x: 0.28710938
+      y: 0.05859375
+      width: 0.28320312
+      height: 0.39453125
+    inner:
+      serializedVersion: 2
+      x: 0.28710938
+      y: 0.05859375
+      width: 0.28320312
+      height: 0.39453125
+    paddingLeft: 0.6034483
+    paddingRight: 0.6034483
+    paddingTop: 0.037128713
+    paddingBottom: 0.1509901
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: instructionsTilt
+    uv:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.6386719
+      width: 0.35351562
+      height: 0.10546875
+    inner:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.6386719
+      width: 0.35351562
+      height: 0.10546875
+    paddingLeft: 0.049723756
+    paddingRight: 0.055248618
+    paddingTop: 2.648148
+    paddingBottom: 0.7962963
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: instructionsTurn
+    uv:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.74609375
+      width: 0.44921875
+      height: 0.25195312
+    inner:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.74609375
+      width: 0.44921875
+      height: 0.25195312
+    paddingLeft: 0.19347826
+    paddingRight: 0.19782609
+    paddingTop: 0.41472867
+    paddingBottom: 0.44573644
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: tilt1
+    uv:
+      serializedVersion: 2
+      x: 0.81640625
+      y: 0.6894531
+      width: 0.12695312
+      height: 0.15429688
+    inner:
+      serializedVersion: 2
+      x: 0.81640625
+      y: 0.6894531
+      width: 0.12695312
+      height: 0.15429688
+    paddingLeft: 0.7307692
+    paddingRight: 0.7307692
+    paddingTop: 0.7721519
+    paddingBottom: 1.2658228
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: tilt10
+    uv:
+      serializedVersion: 2
+      x: 0.80859375
+      y: 0.5371094
+      width: 0.1171875
+      height: 0.15039062
+    inner:
+      serializedVersion: 2
+      x: 0.80859375
+      y: 0.5371094
+      width: 0.1171875
+      height: 0.15039062
+    paddingLeft: 0.8333333
+    paddingRight: 0.8333333
+    paddingTop: 0.8051948
+    paddingBottom: 1.3116883
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: tilt2
+    uv:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.080078125
+      width: 0.109375
+      height: 0.1484375
+    inner:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.080078125
+      width: 0.109375
+      height: 0.1484375
+    paddingLeft: 0.9285714
+    paddingRight: 0.9285714
+    paddingTop: 0.82236844
+    paddingBottom: 1.3355263
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: tilt3
+    uv:
+      serializedVersion: 2
+      x: 0.35742188
+      y: 0.60546875
+      width: 0.091796875
+      height: 0.13867188
+    inner:
+      serializedVersion: 2
+      x: 0.35742188
+      y: 0.60546875
+      width: 0.091796875
+      height: 0.13867188
+    paddingLeft: 1.2021277
+    paddingRight: 1.2021277
+    paddingTop: 0.9084507
+    paddingBottom: 1.471831
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: tilt4
+    uv:
+      serializedVersion: 2
+      x: 0.28710938
+      y: 0.45507812
+      width: 0.111328125
+      height: 0.1484375
+    inner:
+      serializedVersion: 2
+      x: 0.28710938
+      y: 0.45507812
+      width: 0.111328125
+      height: 0.1484375
+    paddingLeft: 0.9035088
+    paddingRight: 0.9035088
+    paddingTop: 0.81578946
+    paddingBottom: 1.3421053
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: tilt5
+    uv:
+      serializedVersion: 2
+      x: 0.81640625
+      y: 0.8457031
+      width: 0.12890625
+      height: 0.15234375
+    inner:
+      serializedVersion: 2
+      x: 0.81640625
+      y: 0.8457031
+      width: 0.12890625
+      height: 0.15234375
+    paddingLeft: 0.7121212
+    paddingRight: 0.7121212
+    paddingTop: 0.78846157
+    paddingBottom: 1.2884616
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: tilt6
+    uv:
+      serializedVersion: 2
+      x: 0.80859375
+      y: 0.38476562
+      width: 0.115234375
+      height: 0.15039062
+    inner:
+      serializedVersion: 2
+      x: 0.80859375
+      y: 0.38476562
+      width: 0.115234375
+      height: 0.15039062
+    paddingLeft: 0.86440676
+    paddingRight: 0.84745765
+    paddingTop: 0.8051948
+    paddingBottom: 1.3116883
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: tilt7
+    uv:
+      serializedVersion: 2
+      x: 0.5722656
+      y: 0.38867188
+      width: 0.103515625
+      height: 0.14453125
+    inner:
+      serializedVersion: 2
+      x: 0.5722656
+      y: 0.38867188
+      width: 0.103515625
+      height: 0.14453125
+    paddingLeft: 1.018868
+    paddingRight: 1
+    paddingTop: 0.8581081
+    paddingBottom: 1.3851352
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: tilt8
+    uv:
+      serializedVersion: 2
+      x: 0.35742188
+      y: 0.60546875
+      width: 0.091796875
+      height: 0.13867188
+    inner:
+      serializedVersion: 2
+      x: 0.35742188
+      y: 0.60546875
+      width: 0.091796875
+      height: 0.13867188
+    paddingLeft: 1.2021277
+    paddingRight: 1.2021277
+    paddingTop: 0.9084507
+    paddingBottom: 1.471831
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: tilt9
+    uv:
+      serializedVersion: 2
+      x: 0.11328125
+      y: 0.083984375
+      width: 0.103515625
+      height: 0.14453125
+    inner:
+      serializedVersion: 2
+      x: 0.11328125
+      y: 0.083984375
+      width: 0.103515625
+      height: 0.14453125
+    paddingLeft: 1.018868
+    paddingRight: 1
+    paddingTop: 0.8581081
+    paddingBottom: 1.3851352
+    border: {x: 0, y: 0, z: 0, w: 0}
+  - name: SwipeArrow
+    uv:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.3876953
+      width: 0.28320312
+      height: 0.24902344
+    inner:
+      serializedVersion: 2
+      x: 0.001953125
+      y: 0.6347656
+      width: 0.28320312
+      height: 0.001953125
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+    border: {x: 0, y: 253, z: 0, w: 0}

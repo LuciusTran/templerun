@@ -5,12 +5,12 @@ using System.IO;
 using UnityEngine;
 
 /// <summary>
-/// Authored local host for the native-derived runner. Track scheduling, UI, input,
-/// save storage and unavailable platform integrations are explicit replacements.
+/// Local host for the native-derived runner and recovered serialized UI.
+/// Track scheduling, persistence, rendering/input compatibility and service bindings are authored.
 /// </summary>
 public partial class TempleRunFlow : MonoBehaviour
 {
-    public enum Page { Home, Running, Paused, Finished, Store, Characters, Settings }
+    public enum Page { Home, Running, Paused, Finished, Store, Characters, Settings, Stats, Objectives, Coins }
     public static TempleRunFlow Instance { get; private set; }
     public CharacterPlayer Runner { get; private set; }
     public Page CurrentPage { get; private set; }
@@ -29,7 +29,7 @@ public partial class TempleRunFlow : MonoBehaviour
     private GameObject waterPlane;
     private AudioSource music, effects;
     private string profilePath;
-    private float distanceRemainder, saveClock, noticeUntil, turnBufferTime;
+    private float distanceRemainder, saveClock, noticeUntil, turnBufferTime, lastTapTime = -1f;
     private int reviveCount, bankedCoins, turnBuffer;
     private string notice = "", deathCaption = "";
     private Vector2 gestureStart;
@@ -42,7 +42,8 @@ public partial class TempleRunFlow : MonoBehaviour
         Instance = this;
         string[] arguments = Environment.GetCommandLineArgs();
         int captureIndex = Array.IndexOf(arguments, "--capture-path");
-        TestMode = Array.IndexOf(arguments, "--temple-test") >= 0 || captureIndex >= 0;
+        int uiTestIndex = Array.IndexOf(arguments, "--ui-test");
+        TestMode = Array.IndexOf(arguments, "--temple-test") >= 0 || captureIndex >= 0 || uiTestIndex >= 0;
         profilePath = Path.Combine(Application.persistentDataPath, TestMode
             ? "test-profile-" + System.Diagnostics.Process.GetCurrentProcess().Id + ".json" : "profile.json");
         Profile = LoadProfile(profilePath);
@@ -57,7 +58,8 @@ public partial class TempleRunFlow : MonoBehaviour
         Runner.Reset(); Runner.SetY(BaseHeight); Runner.Hold = true; Runner.PlayAnimation("Idle");
         SnapCamera();
         CurrentPage = Page.Home;
-        if (captureIndex >= 0 && captureIndex + 1 < arguments.Length) StartCoroutine(TempleRunCapture.Run(this, arguments[captureIndex + 1]));
+        if (uiTestIndex >= 0 && uiTestIndex + 1 < arguments.Length) StartCoroutine(TempleRunUIFlowChecks.Run(this, arguments[uiTestIndex + 1]));
+        else if (captureIndex >= 0 && captureIndex + 1 < arguments.Length) StartCoroutine(TempleRunCapture.Run(this, arguments[captureIndex + 1]));
         else if (TestMode) StartCoroutine(TempleRunPlayerChecks.Run(this));
     }
 
@@ -98,6 +100,7 @@ public partial class TempleRunFlow : MonoBehaviour
     public void NotifyDeath(CharacterPlayer.DeathTypes type)
     {
         if (!IsPlaying) return;
+        Runner.DeathType = type;
         deathCaption = type == CharacterPlayer.DeathTypes.kDeathTypeFall ? "Watch your step!" :
             type == CharacterPlayer.DeathTypes.kDeathTypeEaten ? "The guardians caught you!" :
             type == CharacterPlayer.DeathTypes.kDeathTypeSlide ? "Slide under the roots!" : "Watch the obstacles!";
@@ -143,6 +146,7 @@ public partial class TempleRunFlow : MonoBehaviour
 
     private void Update()
     {
+        RecoveredHostShortcuts();
         if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))
         {
             if (IsPlaying) Pause(); else if (CurrentPage == Page.Paused) Resume();
@@ -161,11 +165,15 @@ public partial class TempleRunFlow : MonoBehaviour
 
     private void HandleGestures()
     {
-        if (Input.GetMouseButtonDown(0)) { gestureStart = Input.mousePosition; gestureActive = true; }
+        if (Input.GetMouseButtonDown(0)) { gestureStart = Input.mousePosition; gestureActive = !TempleRunUIPresenter.Instance || !TempleRunUIPresenter.Instance.PointerOverUI(gestureStart); }
         if (!Input.GetMouseButtonUp(0) || !gestureActive) return;
         gestureActive = false;
         Vector2 delta = (Vector2)Input.mousePosition - gestureStart;
-        if (delta.magnitude < Mathf.Max(24, Screen.height * .035f)) return;
+        if (delta.magnitude < Mathf.Max(24, Screen.height * .035f))
+        {
+            if (Time.unscaledTime - lastTapTime < .3f) { UseWings(); lastTapTime = -1f; } else lastTapTime = Time.unscaledTime;
+            return;
+        }
         if (Mathf.Abs(delta.x) > Mathf.Abs(delta.y)) RequestTurn(delta.x < 0 ? -1 : 1);
         else if (delta.y > 0) RequestJump(); else RequestSlide();
     }
@@ -175,7 +183,7 @@ public partial class TempleRunFlow : MonoBehaviour
         if (!IsPlaying || Runner.IsDead || deltaTime <= 0f) return;
         ProcessTurnBuffer(deltaTime);
         float tilt = Input.GetKey(KeyCode.A) ? 1f : Input.GetKey(KeyCode.D) ? -1f :
-            Application.isMobilePlatform ? -Mathf.Clamp(Input.acceleration.x * 2f, -1f, 1f) : 0f;
+            Application.isMobilePlatform ? -Mathf.Clamp(Input.acceleration.x * Mathf.Lerp(1f, 3f, Profile.sensitivity), -1f, 1f) : 0f;
         if (!Runner.IsStrafing) Runner.PlayerXOffset = Mathf.MoveTowards(Runner.PlayerXOffset, tilt * 7f, deltaTime * 18f);
         var tile = tiles[tileIndex];
         Vector3 right = Vector3.Cross(Vector3.up, Runner.transform.forward);
@@ -234,7 +242,7 @@ public partial class TempleRunFlow : MonoBehaviour
     private void Sound(string name)
     {
         if (!Profile.sound || !effects) return;
-        var clip = Resources.Load<AudioClip>("sound/" + name); if (clip) effects.PlayOneShot(clip, .6f);
+        var clip = Resources.Load<AudioClip>("sound/" + name); if (clip) effects.PlayOneShot(clip, .6f * Profile.effectsVolume);
     }
     private void Notice(string message) { notice = message; noticeUntil = Time.unscaledTime + 3f; }
     private void OnApplicationPause(bool paused) { if (paused && IsPlaying) Pause(); }
