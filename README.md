@@ -11,8 +11,10 @@ Project Temple Run 1.43.0 từ bộ APK đã cung cấp, đang phục hồi asse
 
 - [x] Kiểm kê XAPK, APK chính và split ARM64; xác định Unity/IL2CPP.
 - [x] Trích xuất assets và cấu trúc project Unity.
-- [ ] Ánh xạ metadata → địa chỉ native và dịch ngược các hàm gameplay.
+- [x] Ánh xạ 6.930 thân hàm game/Unity; dịch ngược 472 thân hàm được chọn, kiểm tra toàn bộ bytes từng hàm.
 - [ ] Phục hồi luồng C# và kiểm thử player.
 
 Assets và scene gốc đã xuất vào `Assets/`. Các script hiện còn thân hàm stub; chưa phải project có thể chơi.
 Không đưa APK, thư viện native gốc, cache editor, credentials hoặc tool binaries vào repository.
+
+Mã giả native: [DecompiledNative/INDEX.md](DecompiledNative/INDEX.md). Metadata thô nằm ngoài `Assets` trong `NativeMapWithAddresses/`; các thân hàm ở đó là stub, không phải C# gameplay đã phục hồi.

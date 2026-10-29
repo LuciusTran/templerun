@@ -1,0 +1,51 @@
+// Decompiled from supplied libil2cpp.so by Ghidra; not handwritten gameplay.
+// Declared C# signature: public void ResumeSprite() { }
+// Ghidra address: 013eba24; ELF VA: 0x12eba24; file offset: 0x12e7a24
+// Address resolved from Ghidra loader source mappings; all method bytes verified against original file bytes.
+// Native runtime helpers and unsupported type information may remain unresolved.
+
+
+void GameGUI_ResumeSprite_12e7a24(GameGUI *self,void *runtimeMethod)
+
+{
+  ulong uVar1;
+  UISprite *pUVar2;
+  void *extraout_x1;
+  void *pvVar3;
+  
+  if ((bRam0000000002b94fe0 & 1) == 0) {
+    NativeHelper_011df0b4(PTR_DAT_029c0988);
+    bRam0000000002b94fe0 = 1;
+    runtimeMethod = extraout_x1;
+  }
+  pUVar2 = self->_PauseSprite;
+  if (pUVar2 != (UISprite *)0x0) {
+    pvVar3 = *(void **)PTR_DAT_029c0988;
+    if ((bRam0000000002b94d93 & 1) == 0) {
+      NativeHelper_011df0b4(PTR_DAT_029b8618,pvVar3,0);
+      bRam0000000002b94d93 = 1;
+    }
+    uVar1 = NativeHelper_01e9be28(pvVar3,0);
+    if ((uVar1 & 1) == 0) {
+      uVar1 = NativeHelper_01e9b7a0(pUVar2->mSpriteName,pvVar3,0);
+      if ((uVar1 & 1) != 0) {
+        pUVar2->mSpriteName = pvVar3;
+        pUVar2->mSprite = (UIAtlas_Sprite *)0x0;
+        pUVar2->field_0x58 = 1;
+      }
+    }
+    else {
+      uVar1 = NativeHelper_01e9be28(pUVar2->mSpriteName,0);
+      if ((uVar1 & 1) == 0) {
+        pvVar3 = *(void **)PTR_DAT_029b8618;
+        pUVar2->field_0x58 = 1;
+        pUVar2->mSpriteName = pvVar3;
+        pUVar2->mSprite = (UIAtlas_Sprite *)0x0;
+      }
+    }
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  NativeHelper_011df2dc(0,runtimeMethod);
+}
+

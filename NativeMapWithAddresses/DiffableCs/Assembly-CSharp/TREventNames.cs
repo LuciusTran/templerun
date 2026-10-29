@@ -1,0 +1,220 @@
+//Type is in global namespace
+
+[Token(Token = "0x200009E")]
+public static class TREventNames
+{
+	[Token(Token = "0x40004A9")]
+	public const string Initialize = "Initialize"; //Field offset: 0x0
+	[Token(Token = "0x40004EF")]
+	public const string LifetimeRuns50 = "LifetimeRuns_50"; //Field offset: 0x0
+	[Token(Token = "0x40004EE")]
+	public const string LifetimeRuns25 = "LifetimeRuns_25"; //Field offset: 0x0
+	[Token(Token = "0x40004ED")]
+	public const string LifetimeRuns10 = "LifetimeRuns_10"; //Field offset: 0x0
+	[Token(Token = "0x40004EC")]
+	public const string LifetimeRuns5 = "LifetimeRuns_5"; //Field offset: 0x0
+	[Token(Token = "0x40004EB")]
+	public const string Scored10000000 = "Scored_10000000"; //Field offset: 0x0
+	[Token(Token = "0x40004EA")]
+	public const string Scored5000000 = "Scored_5000000"; //Field offset: 0x0
+	[Token(Token = "0x40004E9")]
+	public const string Scored2500000 = "Scored_2500000"; //Field offset: 0x0
+	[Token(Token = "0x40004E8")]
+	public const string Scored1000000 = "Scored_1000000"; //Field offset: 0x0
+	[Token(Token = "0x40004E7")]
+	public const string Scored500000 = "Scored_500000"; //Field offset: 0x0
+	[Token(Token = "0x40004F0")]
+	public const string LifetimeRuns100 = "LifetimeRuns_100"; //Field offset: 0x0
+	[Token(Token = "0x40004E6")]
+	public const string Scored250000 = "Scored_250000"; //Field offset: 0x0
+	[Token(Token = "0x40004E4")]
+	public const string Scored50000 = "Scored_50000"; //Field offset: 0x0
+	[Token(Token = "0x40004E3")]
+	public const string Scored25000 = "Scored_25000"; //Field offset: 0x0
+	[Token(Token = "0x40004E2")]
+	public const string IAPComplete = "IAPPurchaseComplete"; //Field offset: 0x0
+	[Token(Token = "0x40004E1")]
+	public const string IAPCanceled = "IAPPurchaseCanceled"; //Field offset: 0x0
+	[Token(Token = "0x40004E0")]
+	public const string IAPFailed = "IAPPurchaseFailed"; //Field offset: 0x0
+	[Token(Token = "0x40004DF")]
+	public const string IAPStart = "IAPPurchaseStart"; //Field offset: 0x0
+	[Token(Token = "0x40004DE")]
+	public const string FirstIAP = "IAPFirstPurchase"; //Field offset: 0x0
+	[Token(Token = "0x40004DD")]
+	public const string AdInitRetryFirstImpression = "ad_init_retry_first_impression"; //Field offset: 0x0
+	[Token(Token = "0x40004DC")]
+	public const string AdInitRetryResult = "ad_init_retry_result"; //Field offset: 0x0
+	[Token(Token = "0x40004E5")]
+	public const string Scored100000 = "Scored_100000"; //Field offset: 0x0
+	[Token(Token = "0x40004F1")]
+	public const string LifetimeRuns250 = "LifetimeRuns_250"; //Field offset: 0x0
+	[Token(Token = "0x40004F2")]
+	public const string LifetimeRuns500 = "LifetimeRuns_500"; //Field offset: 0x0
+	[Token(Token = "0x40004F3")]
+	public const string LifetimeRuns1000 = "LifetimeRuns_1000"; //Field offset: 0x0
+	[Token(Token = "0x4000508")]
+	public const string gc_milestone6_complete = "gc_milestone6_complete"; //Field offset: 0x0
+	[Token(Token = "0x4000507")]
+	public const string gc_milestone1_complete = "gc_milestone1_complete"; //Field offset: 0x0
+	[Token(Token = "0x4000506")]
+	public const string VideoAdsWatched25 = "VideoAdsWatched_25"; //Field offset: 0x0
+	[Token(Token = "0x4000505")]
+	public const string VideoAdsWatched10 = "VideoAdsWatched_10"; //Field offset: 0x0
+	[Token(Token = "0x4000504")]
+	public const string VideoAdsWatched5 = "VideoAdsWatched_5"; //Field offset: 0x0
+	[Token(Token = "0x4000503")]
+	public const string VideoAdsWatched3 = "VideoAdsWatched_3"; //Field offset: 0x0
+	[Token(Token = "0x4000502")]
+	public const string VideoAdsWatched2 = "VideoAdsWatched_2"; //Field offset: 0x0
+	[Token(Token = "0x4000501")]
+	public const string InterstitialAdsSeen25 = "InterstitialAdsSeen_25"; //Field offset: 0x0
+	[Token(Token = "0x4000500")]
+	public const string InterstitialAdsSeen10 = "InterstitialAdsSeen_10"; //Field offset: 0x0
+	[Token(Token = "0x40004FF")]
+	public const string InterstitialAdsSeen5 = "InterstitialAdsSeen_5"; //Field offset: 0x0
+	[Token(Token = "0x40004FE")]
+	public const string InterstitialAdsSeen3 = "InterstitialAdsSeen_3"; //Field offset: 0x0
+	[Token(Token = "0x40004FD")]
+	public const string InterstitialAdsSeen2 = "InterstitialAdsSeen_2"; //Field offset: 0x0
+	[Token(Token = "0x40004FC")]
+	public const string ScoreMultiplier67 = "ScoreMultiplierReached_67"; //Field offset: 0x0
+	[Token(Token = "0x40004FB")]
+	public const string ScoreMultiplier61 = "ScoreMultiplierReached_61"; //Field offset: 0x0
+	[Token(Token = "0x40004FA")]
+	public const string ScoreMultiplier51 = "ScoreMultiplierReached_51"; //Field offset: 0x0
+	[Token(Token = "0x40004F9")]
+	public const string ScoreMultiplier41 = "ScoreMultiplierReached_41"; //Field offset: 0x0
+	[Token(Token = "0x40004F8")]
+	public const string ScoreMultiplier31 = "ScoreMultiplierReached_31"; //Field offset: 0x0
+	[Token(Token = "0x40004F7")]
+	public const string ScoreMultiplier21 = "ScoreMultiplierReached_21"; //Field offset: 0x0
+	[Token(Token = "0x40004F6")]
+	public const string ScoreMultiplier16 = "ScoreMultiplierReached_16"; //Field offset: 0x0
+	[Token(Token = "0x40004F5")]
+	public const string ScoreMultiplier13 = "ScoreMultiplierReached_13"; //Field offset: 0x0
+	[Token(Token = "0x40004F4")]
+	public const string ScoreMultiplier11 = "ScoreMultiplierReached_11"; //Field offset: 0x0
+	[Token(Token = "0x40004DB")]
+	public const string AdInitRetry = "ad_init_retry"; //Field offset: 0x0
+	[Token(Token = "0x40004DA")]
+	public const string BannerAdFailed = "BannerAdFailed"; //Field offset: 0x0
+	[Token(Token = "0x40004D9")]
+	public const string BannerAdClicked = "BannerAdClicked"; //Field offset: 0x0
+	[Token(Token = "0x40004D8")]
+	public const string BannerAdReceived = "BannerAdReceived"; //Field offset: 0x0
+	[Token(Token = "0x40004BE")]
+	public const string EndRun = "EndOfRun"; //Field offset: 0x0
+	[Token(Token = "0x40004BD")]
+	public const string StartRun = "StartOfRun"; //Field offset: 0x0
+	[Token(Token = "0x40004BC")]
+	public const string RevivePromptClose = "RevivePromptClose"; //Field offset: 0x0
+	[Token(Token = "0x40004BB")]
+	public const string RevivePromptOpen = "RevivePromptOpen"; //Field offset: 0x0
+	[Token(Token = "0x40004BA")]
+	public const string DialogClose = "DialogClose"; //Field offset: 0x0
+	[Token(Token = "0x40004B9")]
+	public const string DialogOpen = "DialogOpen"; //Field offset: 0x0
+	[Token(Token = "0x40004B8")]
+	public const string ResetUIStack = "ResetUIStack"; //Field offset: 0x0
+	[Token(Token = "0x40004B7")]
+	public const string PromoDownloadEmptyResp = "PromoDownloadEmptyResp"; //Field offset: 0x0
+	[Token(Token = "0x40004B6")]
+	public const string PromoDowloadFailed = "PromoDownloadFailed"; //Field offset: 0x0
+	[Token(Token = "0x40004B5")]
+	public const string PrivacyDownloadEmptyResp = "PrivacyDownloadEmptyResp"; //Field offset: 0x0
+	[Token(Token = "0x40004B4")]
+	public const string PrivacyDowloadFailed = "PrivacyDowloadFailed"; //Field offset: 0x0
+	[Token(Token = "0x40004B3")]
+	public const string EndAppTrackingTransparencyFlow = "EndAppTrackingTransparencyFlow"; //Field offset: 0x0
+	[Token(Token = "0x40004B2")]
+	public const string BeginAppTrackingTransparencyFlow = "BeginAppTrackingTransparencyFlow"; //Field offset: 0x0
+	[Token(Token = "0x40004B1")]
+	public const string EndPrivacyConsentFlow = "EndPrivacyConsentFlow"; //Field offset: 0x0
+	[Token(Token = "0x40004B0")]
+	public const string BeginPrivacyConsentFlow = "BeginPrivacyConsentFlow"; //Field offset: 0x0
+	[Token(Token = "0x40004AF")]
+	public const string Metrics = "Metrics"; //Field offset: 0x0
+	[Token(Token = "0x40004AE")]
+	public const string Attributes = "Attributes"; //Field offset: 0x0
+	[Token(Token = "0x40004AD")]
+	public const string UserABTest = "UserABTest"; //Field offset: 0x0
+	[Token(Token = "0x40004AC")]
+	public const string NewUpdate = "NewUpdate"; //Field offset: 0x0
+	[Token(Token = "0x40004AB")]
+	public const string NewInstall = "NewInstall"; //Field offset: 0x0
+	[Token(Token = "0x40004AA")]
+	public const string DelayedInitialize = "DelayedInitialize"; //Field offset: 0x0
+	[Token(Token = "0x40004BF")]
+	public const string EndFirstRun = "EndOfFirstRun"; //Field offset: 0x0
+	[Token(Token = "0x4000509")]
+	private static readonly HashSet<String> AllEvents; //Field offset: 0x0
+	[Token(Token = "0x40004C0")]
+	public const string QuitRun = "QuitRun"; //Field offset: 0x0
+	[Token(Token = "0x40004C2")]
+	public const string TutorialStumble = "TutorialStumble"; //Field offset: 0x0
+	[Token(Token = "0x40004D7")]
+	public const string VideoAdUnAvailable = "VideoAdUnAvailable"; //Field offset: 0x0
+	[Token(Token = "0x40004D6")]
+	public const string VideoAdOpened = "VideoAdOpened"; //Field offset: 0x0
+	[Token(Token = "0x40004D5")]
+	public const string VideoAdFailed = "VideoAdFailed"; //Field offset: 0x0
+	[Token(Token = "0x40004D4")]
+	public const string VideoAdDismiss = "VideoAdDismiss"; //Field offset: 0x0
+	[Token(Token = "0x40004D3")]
+	public const string VideoAdComplete = "VideoAdComplete"; //Field offset: 0x0
+	[Token(Token = "0x40004D2")]
+	public const string VideoAdClicked = "VideoAdClicked"; //Field offset: 0x0
+	[Token(Token = "0x40004D1")]
+	public const string VideoAdAvailable = "VideoAdAvailable"; //Field offset: 0x0
+	[Token(Token = "0x40004D0")]
+	public const string InterstitialAdUnAvailable = "InterstitialAdUnAvailable"; //Field offset: 0x0
+	[Token(Token = "0x40004CF")]
+	public const string InterstitialAdOpened = "InterstitialAdOpened"; //Field offset: 0x0
+	[Token(Token = "0x40004CE")]
+	public const string InterstitialAdFetch = "InterstitialAdFetch"; //Field offset: 0x0
+	[Token(Token = "0x40004CD")]
+	public const string InterstitialAdFailed = "InterstitialAdFailed"; //Field offset: 0x0
+	[Token(Token = "0x40004CC")]
+	public const string InterstitialAdDismiss = "InterstitialAdDismiss"; //Field offset: 0x0
+	[Token(Token = "0x40004CB")]
+	public const string InterstitialAdClicked = "InterstitialAdClicked"; //Field offset: 0x0
+	[Token(Token = "0x40004CA")]
+	public const string InterstitialAdAvailable = "InterstitialAdAvailable"; //Field offset: 0x0
+	[Token(Token = "0x40004C9")]
+	public const string SaveMe = "SaveMe"; //Field offset: 0x0
+	[Token(Token = "0x40004C8")]
+	public const string TutorialSectionCompleteMeter = "TutorialSectionCompleteMeter"; //Field offset: 0x0
+	[Token(Token = "0x40004C7")]
+	public const string TutorialSectionCompleteTilting = "TutorialSectionCompleteTilting"; //Field offset: 0x0
+	[Token(Token = "0x40004C6")]
+	public const string TutorialSectionCompleteSlides = "TutorialSectionCompleteSlides"; //Field offset: 0x0
+	[Token(Token = "0x40004C5")]
+	public const string TutorialSectionCompleteJumps = "TutorialSectionCompleteJumps"; //Field offset: 0x0
+	[Token(Token = "0x40004C4")]
+	public const string TutorialSectionCompleteTurns = "TutorialSectionCompleteTurns"; //Field offset: 0x0
+	[Token(Token = "0x40004C3")]
+	public const string TutorialExited = "TutorialExited"; //Field offset: 0x0
+	[Token(Token = "0x40004C1")]
+	public const string TutorialDeath = "TutorialDeath"; //Field offset: 0x0
+	[Token(Token = "0x400050A")]
+	private static HashSet<String> _Disabled; //Field offset: 0x8
+
+	[Address(RVA = "0x12B52C4", Offset = "0x12B52C4", Length = "0x1068")]
+	[Token(Token = "0x60004DD")]
+	private static TREventNames() { }
+
+	[Address(RVA = "0x12B6470", Offset = "0x12B6470", Length = "0x214")]
+	[Token(Token = "0x60004E0")]
+	public static void EnableEvent(string inEvent, bool inEnable) { }
+
+	[Address(RVA = "0x12B63AC", Offset = "0x12B63AC", Length = "0xC4")]
+	[Token(Token = "0x60004DF")]
+	public static bool EventEnabled(string inEvent) { }
+
+	[Address(RVA = "0x12B632C", Offset = "0x12B632C", Length = "0x80")]
+	[Token(Token = "0x60004DE")]
+	public static bool EventExists(string inEvent) { }
+
+}
+
