@@ -1,0 +1,35 @@
+{
+  "source": {
+    "name": "Temple+Run_1.43.0_APKPure.xapk",
+    "sha256": "151eabad999a51ce24593d5a9e7d99421bdf46a5a89f61cab63a226fa67c9760",
+    "bytes": 181151052
+  },
+  "package": {
+    "name": "com.imangi.templerun",
+    "version": "1.43.0",
+    "versionCode": "29864577"
+  },
+  "inputs": [
+    {
+      "file": "com.imangi.templerun.apk",
+      "sha256": "422c91d53ebf6d4bf2359fb4eb15ac847d8079df94fb9a17e5dbeefec690f1c3",
+      "bytes": 157199574
+    },
+    {
+      "file": "config.arm64_v8a.apk",
+      "sha256": "99371e4e034761872eb0c33ae96b60230dc29d572f2b68dd00b5dc5cf6ea0fe7",
+      "bytes": 23779658
+    }
+  ],
+  "observations": {
+    "unityVersion": "2022.3.62f2",
+    "scriptingBackend": "IL2CPP",
+    "metadataPath": "assets/bin/Data/Managed/Metadata/global-metadata.dat",
+    "nativePath": "lib/arm64-v8a/libil2cpp.so"
+  },
+  "toolingRepository": "https://github.com/LuciusTran/Reverse-Engineer-Game",
+  "toolingCommit": "faf518c15da7af0ce459840570ce051638d82285",
+  "limitations": [
+    "Input extraction and metadata observations do not establish recovered method bodies or a playable project."
+  ]
+}
