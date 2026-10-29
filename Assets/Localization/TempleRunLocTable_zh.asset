@@ -1,0 +1,4003 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: TempleRunLocTable_zh
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: zh
+  m_SharedData: {fileID: 11400000, guid: 0071ada7e6fa56344b4d42c06e5e2bd7, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 306466174001152
+    m_Localized: 如果你够胆的话
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466660540416
+    m_Localized: 就把神像拿走吧！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466681511936
+    m_Localized: 开始游戏！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466685706240
+    m_Localized: 任务
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466702483456
+    m_Localized: 成绩
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466706677760
+    m_Localized: 升级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466710872064
+    m_Localized: 选项
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466710872065
+    m_Localized: 选择存档槽
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466715066368
+    m_Localized: 复活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466719260672
+    m_Localized: 每周挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466723454976
+    m_Localized: 选项
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466723454977
+    m_Localized: 灵敏度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466727649280
+    m_Localized: 音乐
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466731843584
+    m_Localized: 声音
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466731843585
+    m_Localized: 教程
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466736037888
+    m_Localized: 语言：简体中文
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466740232192
+    m_Localized: 删除存档数据
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466740232193
+    m_Localized: 隐私政策
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466744426496
+    m_Localized: 返回
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466748620800
+    m_Localized: 语言
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466752815104
+    m_Localized: 暂停
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466752815105
+    m_Localized: 得分：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466757009408
+    m_Localized: 距离：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466761203712
+    m_Localized: 金币：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466765398016
+    m_Localized: 加成：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466765398017
+    m_Localized: 下一个任务：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466769592320
+    m_Localized: 下一层级：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466773786624
+    m_Localized: 主菜单
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466773786625
+    m_Localized: 新游戏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466777980928
+    m_Localized: 继续游戏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466782175232
+    m_Localized: 新游戏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466782175233
+    m_Localized: 游戏进度将会丢失！确定要开始新游戏吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466786369536
+    m_Localized: 退出游戏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466790563840
+    m_Localized: 游戏进度将会丢失！确定要退出吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466790563841
+    m_Localized: 否
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466794758144
+    m_Localized: 是
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466798952448
+    m_Localized: 继续奔跑？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466803146752
+    m_Localized: 下次复活时间在<color=#F6D600>{0}分钟{1}秒</color>后
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466803146753
+    m_Localized: 使用一次复活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466807341056
+    m_Localized: 结束奔跑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466811535360
+    m_Localized: 已满
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466815729664
+    m_Localized: 成绩
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466815729665
+    m_Localized: 加成：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466819923968
+    m_Localized: '{0}x'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466824118272
+    m_Localized: 单局游戏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466824118273
+    m_Localized: 最高分：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466828312576
+    m_Localized: 最远距离：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466832506880
+    m_Localized: '{0}米'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466832506881
+    m_Localized: 最多金币：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466836701184
+    m_Localized: 使用复活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466840895488
+    m_Localized: 生涯累计
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466840895489
+    m_Localized: 生涯累计游戏次数：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466845089792
+    m_Localized: 生涯累计距离：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466849284096
+    m_Localized: 生涯累计收集金币数：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466853478400
+    m_Localized: 升级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466853478401
+    m_Localized: 强化道具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466857672704
+    m_Localized: 未知
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466861867008
+    m_Localized: 启用50金币强化道具。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466861867009
+    m_Localized: 将大金币增加至75个。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466866061312
+    m_Localized: 将大金币增加至100个。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466870255616
+    m_Localized: 将大金币增加至125个。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466870255617
+    m_Localized: 将大金币增加至150个。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466874449920
+    m_Localized: 允许禁用大金币。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466878644224
+    m_Localized: 大金币已完全升级！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466878644225
+    m_Localized: 大金币已禁用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466882838528
+    m_Localized: 升级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466887032832
+    m_Localized: 免费
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466887032833
+    m_Localized: 启用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466891227136
+    m_Localized: 禁用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466895421440
+    m_Localized: 启用金币磁铁强化道具。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466895421441
+    m_Localized: 增加金币磁铁持续时间。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466899615744
+    m_Localized: 金币磁铁吸取金币数量翻倍。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466899615745
+    m_Localized: 增加金币磁铁持续时间。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466903810048
+    m_Localized: 金币磁铁吸取金币数量增至三倍。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466908004352
+    m_Localized: 允许禁用金币磁铁。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466912198656
+    m_Localized: 金币磁铁已完全升级！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466912198657
+    m_Localized: 金币磁铁已禁用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466916392960
+    m_Localized: 启用隐身强化道具。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466920587264
+    m_Localized: 增加隐身持续时间。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466920587265
+    m_Localized: 允许禁用隐身。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466924781568
+    m_Localized: 隐身技能已完全升级！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466928975872
+    m_Localized: 隐身技能已禁用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466928975873
+    m_Localized: 启用250米加速强化道具。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466933170176
+    m_Localized: 加速距离增加375米。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466937364480
+    m_Localized: 加速距离增加500米。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466937364481
+    m_Localized: 加速距离增加625米。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466941558784
+    m_Localized: 加速距离增加750米。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466945753088
+    m_Localized: 允许禁用加速。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466949947392
+    m_Localized: 加速已完全升级！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466949947393
+    m_Localized: 加速已禁用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466954141696
+    m_Localized: 在{0}米后使金币数量翻倍。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466958336000
+    m_Localized: 在{0}米后使金币数量翻倍。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466958336001
+    m_Localized: 在{0}米后使金币数量翻倍。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466962530304
+    m_Localized: 在{0}米后使金币数量增至三倍。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466966724608
+    m_Localized: 在{0}米后使金币数量增至三倍。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466966724609
+    m_Localized: 在{0}米后使金币数量增至三倍。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466970918912
+    m_Localized: 完全升级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466975113216
+    m_Localized: 一次性道具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466975113217
+    m_Localized: 激活时，你将在死后立即复活。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466979307520
+    m_Localized: 单次使用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466983501824
+    m_Localized: 复活翅膀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466983501825
+    m_Localized: '奔跑过程中，请双击屏幕激活此道具，或暂停游戏，然后选择一次性道具复活翅膀。激活后，道具效果持续30秒。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466987696128
+    m_Localized: '奔跑过程中，按住中间按钮1秒，激活此道具，或暂停游戏，然后选择一次性道具复活翅膀。激活后，道具效果持续30秒。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466987696129
+    m_Localized: '奔跑过程中，按下游戏手柄(Y/△)键，激活此道具，或暂停游戏，然后选择一次性道具复活翅膀。激活后，道具效果持续30秒。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466991890432
+    m_Localized: '奔跑过程中，按下[R]键，激活此道具，或暂停游戏，然后选择一次性道具复活翅膀。激活后，道具效果持续30秒。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466996084736
+    m_Localized: 好的
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466996084737
+    m_Localized: 好的
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467000279040
+    m_Localized: 永久激活的复活翅膀。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467004473344
+    m_Localized: 永恒翅膀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467004473345
+    m_Localized: 暂停游戏，在游戏开始时选择一次性道具永恒翅膀，激活此道具。你将在死后立即自动复活。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467008667648
+    m_Localized: 在游戏开始时加速1000米。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467012861952
+    m_Localized: 冲刺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467012861953
+    m_Localized: 暂停游戏，在游戏开始时选择一次性道具冲刺，向前加速奔跑1000米。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467017056256
+    m_Localized: 在游戏开始时超级加速奔跑2500米。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467021250560
+    m_Localized: 超级冲刺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467025444864
+    m_Localized: 暂停游戏，在游戏开始时选择一次性道具超级冲刺，向前加速奔跑2500米。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467025444865
+    m_Localized: 角色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467029639168
+    m_Localized: 当前激活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467033833472
+    m_Localized: 激活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467033833473
+    m_Localized: 解锁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467038027776
+    m_Localized: 解锁盖伊丹兹劳斯，一名平平无奇的冒险家。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467042222080
+    m_Localized: 解锁斯卡利特福克斯，一位狡猾的逃脱大师。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467042222081
+    m_Localized: 解锁巴瑞博恩斯，一个有态度的城市警察。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467046416384
+    m_Localized: 解锁卡尔玛李，远东地区跑的最快的人。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467050610688
+    m_Localized: 解锁蒙塔纳史密斯，有史以来排名第二的伟大冒险家。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467050610689
+    m_Localized: 解锁弗朗西斯科蒙托亚，一位征服者。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467054804992
+    m_Localized: 解锁扎克温德，一位橄榄球明星。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467058999296
+    m_Localized: 盖伊丹兹劳斯，一名平平无奇的冒险家。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467058999297
+    m_Localized: 斯卡利特福克斯，一位狡猾的逃脱大师。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467063193600
+    m_Localized: 巴瑞博恩斯，一个有态度的城市警察。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467067387904
+    m_Localized: 卡尔玛李，远东地区跑的最快的人。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467067387905
+    m_Localized: 蒙塔纳史密斯，有史以来排名第二的伟大冒险家。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467071582208
+    m_Localized: 弗朗西斯科蒙托亚，一位征服者。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467075776512
+    m_Localized: 扎克温德，一位橄榄球明星。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467075776513
+    m_Localized: 金币不足
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467079970816
+    m_Localized: 奔跑时收集硬币，在这里消费！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467084165120
+    m_Localized: 请求失败
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467084165121
+    m_Localized: 目前无法执行请求，请稍后再试。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467088359424
+    m_Localized: 高分！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467092553728
+    m_Localized: 滑动以转弯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467092553729
+    m_Localized: 滑动以转弯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467096748032
+    m_Localized: 滑动以转弯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467100942336
+    m_Localized: 滑动以跳跃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467100942337
+    m_Localized: 滑动以滑铲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467105136640
+    m_Localized: 倾斜以收集金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467105136641
+    m_Localized: 倾斜以收集金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467113525248
+    m_Localized: 倾斜以收集金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467113525249
+    m_Localized: 滑动以转弯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467117719552
+    m_Localized: 滑动以转弯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467121913856
+    m_Localized: 滑动以转弯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467121913857
+    m_Localized: 向上滑动以跳跃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467126108160
+    m_Localized: 向下滑动以滑铲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467130302464
+    m_Localized: 滑动以收集金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467130302465
+    m_Localized: 滑动以收集金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467134496768
+    m_Localized: 滑动以收集金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467138691072
+    m_Localized: 方向键左键
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467138691073
+    m_Localized: 方向键右键
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467142885376
+    m_Localized: 按方向键左/右键以转弯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467142885377
+    m_Localized: 按上键以跳跃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467147079680
+    m_Localized: 按下键以滑铲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467151273984
+    m_Localized: 按左键以收集金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467155468288
+    m_Localized: 按右键以收集金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467155468289
+    m_Localized: 按左/右键以收集金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467159662592
+    m_Localized: 按左箭头键以转弯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467163856896
+    m_Localized: 按右箭头键以转弯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467163856897
+    m_Localized: 按左/右键以转弯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467168051200
+    m_Localized: 按上键以跳跃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467172245504
+    m_Localized: 按下键以滑铲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467172245505
+    m_Localized: 按左键以收集金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467176439808
+    m_Localized: 按右键以收集金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467180634112
+    m_Localized: 按左/右键以收集金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467180634113
+    m_Localized: 填满进度条，获取奖励积分！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467184828416
+    m_Localized: 干得漂亮！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467189022720
+    m_Localized: 你已做好准备！祝你好运！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467189022721
+    m_Localized: 一个控制器已连接
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467193217024
+    m_Localized: 控制器已断开连接
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467197411328
+    m_Localized: 从暂停菜单中激活一次性道具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467197411329
+    m_Localized: 控制设备
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467201605632
+    m_Localized: 触控设备
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467205799936
+    m_Localized: Siri遥控器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467205799937
+    m_Localized: 遥控2代
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467209994240
+    m_Localized: 游戏手柄/控制器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467209994241
+    m_Localized: 键盘
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467214188544
+    m_Localized: 左转：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467218382848
+    m_Localized: 右转：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467218382849
+    m_Localized: 向左移动以收集金币：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467222577152
+    m_Localized: 向右移动以收集金币：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467226771456
+    m_Localized: 跳跃：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467226771457
+    m_Localized: 滑铲：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467230965760
+    m_Localized: 暂停菜单：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467235160064
+    m_Localized: 游戏内一次性道具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467235160065
+    m_Localized: 30秒复活翅膀：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467239354368
+    m_Localized: 游戏初始一次性道具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467243548672
+    m_Localized: 冲刺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467243548673
+    m_Localized: 超级冲刺：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467247742976
+    m_Localized: 永恒翅膀：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467251937280
+    m_Localized: 向左滑动
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467251937281
+    m_Localized: 向右滑动
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467256131584
+    m_Localized: 向上滑动
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467260325888
+    m_Localized: 向下滑动
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467264520192
+    m_Localized: 向左倾斜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467264520193
+    m_Localized: 向右倾斜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467268714496
+    m_Localized: 点触暂停图标
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467272908800
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467272908801
+    m_Localized: 在游戏中双击屏幕，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467277103104
+    m_Localized: 或暂停，然后从菜单中选择“复活翅膀”。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467281297408
+    m_Localized: 开始倒计时后暂停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467281297409
+    m_Localized: 然后从菜单中选择“冲刺”。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467285491712
+    m_Localized: 开始倒计时后暂停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467289686016
+    m_Localized: 然后从菜单中选择“超级冲刺”。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467289686017
+    m_Localized: 开始倒计时后暂停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467293880320
+    m_Localized: 然后从菜单中选择“永恒翅膀”。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467298074624
+    m_Localized: 向左滑动
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467298074625
+    m_Localized: 向右滑动
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467302268928
+    m_Localized: 向上滑动
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467302268929
+    m_Localized: 向下滑动
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467306463232
+    m_Localized: 向左滑动
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467310657536
+    m_Localized: 向右滑动
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467310657537
+    m_Localized: 暂停按钮
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467314851840
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467319046144
+    m_Localized: 按住中间按钮，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467323240448
+    m_Localized: 或暂停，然后从菜单中选择“复活翅膀”。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467323240449
+    m_Localized: 开始倒计时后暂停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467327434752
+    m_Localized: 然后从菜单中选择“冲刺”。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467331629056
+    m_Localized: 开始倒计时后暂停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467331629057
+    m_Localized: 然后从菜单中选择“超级冲刺”。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467335823360
+    m_Localized: 开始倒计时后暂停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467335823361
+    m_Localized: 然后从菜单中选择“永恒翅膀”。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467340017664
+    m_Localized: 方向键左键/摇杆向左←/L1(LB)键
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467344211968
+    m_Localized: 方向键右键/摇杆向右→/R1(RB)键
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467344211969
+    m_Localized: 方向键上键/摇杆向上↑，或按A/×键
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467348406272
+    m_Localized: 方向键下键/摇杆向下↓，或按X/□键
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467352600576
+    m_Localized: 方向键左键/摇杆向左
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467352600577
+    m_Localized: 方向键右键/摇杆向右
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467356794880
+    m_Localized: 开始/菜单/选项按钮
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467360989184
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467360989185
+    m_Localized: 按Y/△键，或暂停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467365183488
+    m_Localized: 然后从菜单中选择“复活翅膀”。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467365183489
+    m_Localized: 开始倒计时后暂停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467369377792
+    m_Localized: 然后从菜单中选择“冲刺”。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467373572096
+    m_Localized: 开始倒计时后暂停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467373572097
+    m_Localized: 然后从菜单中选择“超级冲刺”。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467377766400
+    m_Localized: 开始倒计时后暂停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467381960704
+    m_Localized: 然后从菜单中选择“永恒翅膀”。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467381960705
+    m_Localized: '[←]或[A]键'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467386155008
+    m_Localized: '[→]或[D]键'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467390349312
+    m_Localized: '[↑]或[W]键'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467390349313
+    m_Localized: '[↓]或[S]键'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467394543616
+    m_Localized: '[←]或[A]键'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467394543617
+    m_Localized: '[→]或[D]键'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467398737920
+    m_Localized: '[ESC]键'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467402932224
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467407126528
+    m_Localized: 按[R]键，或暂停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467407126529
+    m_Localized: 然后从菜单中选择“复活翅膀”。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467411320832
+    m_Localized: 开始倒计时后暂停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467415515136
+    m_Localized: 然后从菜单中选择“冲刺”。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467415515137
+    m_Localized: 开始倒计时后暂停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467419709440
+    m_Localized: 然后从菜单中选择“超级冲刺”。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467423903744
+    m_Localized: 开始倒计时后暂停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467423903745
+    m_Localized: 然后从菜单中选择“永恒翅膀”。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467428098048
+    m_Localized: 任务
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467428098049
+    m_Localized: 参与奖杯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467432292352
+    m_Localized: 参加1场每周挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467436486656
+    m_Localized: 已参加1场每周挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467436486657
+    m_Localized: 新生代
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467440680960
+    m_Localized: 参加5场每周挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467444875264
+    m_Localized: 已参加5场每周挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467444875265
+    m_Localized: 全明星
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467449069568
+    m_Localized: 参加10场每周挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467453263872
+    m_Localized: 已参加10场每周挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467453263873
+    m_Localized: 勤劳的打工人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467457458176
+    m_Localized: 在1次每周挑战中达到传说层级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467457458177
+    m_Localized: 已在1次每周挑战中达到传说层级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467461652480
+    m_Localized: '奔跑进行中 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467465846784
+    m_Localized: 在2次每周挑战中达到传说层级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467465846785
+    m_Localized: 已在2次每周挑战中达到传说层级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467470041088
+    m_Localized: 全球挑战者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467474235392
+    m_Localized: 在3次每周挑战中达到传说层级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467478429696
+    m_Localized: 已在3次每周挑战中达到传说层级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467478429697
+    m_Localized: 知名挑战者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467482624000
+    m_Localized: 在4次每周挑战中达到传说层级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467486818304
+    m_Localized: 已在4次每周挑战中达到传说层级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467486818305
+    m_Localized: '完成主义者   '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467491012608
+    m_Localized: 在5次每周挑战中达到传说层级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467499401216
+    m_Localized: 已在5次每周挑战中达到传说层级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467503595520
+    m_Localized: 继续奔跑！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467507789824
+    m_Localized: 在单局游戏中使用1次“复活”
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467507789825
+    m_Localized: 已在单局游戏中使用1次“复活”
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467511984128
+    m_Localized: 再远一点！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467516178432
+    m_Localized: 在单局游戏中使用2次“复活”
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467516178433
+    m_Localized: 已在单局游戏中使用2次“复活”
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467520372736
+    m_Localized: 就快到了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467524567040
+    m_Localized: 在单局游戏中使用3次“复活”
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467524567041
+    m_Localized: 已在单局游戏中使用3次“复活”
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467528761344
+    m_Localized: 兴风作浪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467532955648
+    m_Localized: 在排行榜中排名前10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467532955649
+    m_Localized: 已在排行榜中排名前10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467537149952
+    m_Localized: 世界之巅
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467541344256
+    m_Localized: 在排行榜中排名前5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467541344257
+    m_Localized: 已在排行榜中排名前5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467545538560
+    m_Localized: 初级跑者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467549732864
+    m_Localized: 奔跑500米
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467549732865
+    m_Localized: 已奔跑500米
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467553927168
+    m_Localized: 零钱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467553927169
+    m_Localized: 收集100金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467558121472
+    m_Localized: 已收集100金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467562315776
+    m_Localized: 冒险者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467562315777
+    m_Localized: 获得25000分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467566510080
+    m_Localized: 已获得25000分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467570704384
+    m_Localized: 短跑运动员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467570704385
+    m_Localized: 奔跑1000米
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467574898688
+    m_Localized: 已奔跑1000米
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467579092992
+    m_Localized: 吝啬之跑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467583287296
+    m_Localized: 500米内未收集任何金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467583287297
+    m_Localized: 500米内未收集任何金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467587481600
+    m_Localized: 小猪银行
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467591675904
+    m_Localized: 收集250金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467591675905
+    m_Localized: 已收集250金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467595870208
+    m_Localized: 宝藏猎人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467600064512
+    m_Localized: 获得50000分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467600064513
+    m_Localized: 已获得50000分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467604258816
+    m_Localized: 超级奖励
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467604258817
+    m_Localized: 填充奖励进度条 4x
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467608453120
+    m_Localized: 已填充奖励进度条 4x
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467612647424
+    m_Localized: 运动员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467612647425
+    m_Localized: 奔跑2500米
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467616841728
+    m_Localized: 已奔跑2500米
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467621036032
+    m_Localized: 一次结清
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467621036033
+    m_Localized: 收集500金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467625230336
+    m_Localized: 已收集500金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467629424640
+    m_Localized: 复活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467629424641
+    m_Localized: 在一局游戏中使用一次性道具复活翅膀。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467633618944
+    m_Localized: 已在一局游戏中使用一次性道具复活翅膀。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467637813248
+    m_Localized: 基础能力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467642007552
+    m_Localized: 所有强化道具达到1级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467642007553
+    m_Localized: 所有强化道具达到1级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467646201856
+    m_Localized: 成功人士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467646201857
+    m_Localized: 获得100000分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467650396160
+    m_Localized: 已获得100000分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467654590464
+    m_Localized: 发薪日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467654590465
+    m_Localized: 收集750金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467658784768
+    m_Localized: 已收集750金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467662979072
+    m_Localized: 冲刺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467662979073
+    m_Localized: 使用一次冲刺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467667173376
+    m_Localized: 已使用一次冲刺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467671367680
+    m_Localized: 健步如飞
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467671367681
+    m_Localized: 奔跑2500米未摔倒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467675561984
+    m_Localized: 已奔跑2500米未摔倒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467679756288
+    m_Localized: 黄金过敏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467683950592
+    m_Localized: 1000米内没有收集到金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467683950593
+    m_Localized: 1000米内没有收集到金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467688144896
+    m_Localized: 5000米奔跑者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467692339200
+    m_Localized: 跑到5000米
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467692339201
+    m_Localized: 已跑到5000米
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467696533504
+    m_Localized: 你绊我不到
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467700727808
+    m_Localized: 奔跑5000米未摔倒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467700727809
+    m_Localized: 已奔跑5000米未摔倒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467704922112
+    m_Localized: 二十五万俱乐部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467709116416
+    m_Localized: 获得250000分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467709116417
+    m_Localized: 已获得250000分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467713310720
+    m_Localized: 两次复活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467717505024
+    m_Localized: 在一局游戏中使用复活翅膀。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467717505025
+    m_Localized: 已在一局游戏中使用复活翅膀。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467721699328
+    m_Localized: 钱袋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467721699329
+    m_Localized: 收集1000金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467725893632
+    m_Localized: 已收集1000金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467730087936
+    m_Localized: 五十万俱乐部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467730087937
+    m_Localized: 获得500000分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467734282240
+    m_Localized: 已获得500000分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467738476544
+    m_Localized: 超能力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467738476545
+    m_Localized: 所有强化道具达到5级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467742670848
+    m_Localized: 所有强化道具达到5级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467746865152
+    m_Localized: 超能双侠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467751059456
+    m_Localized: 解锁两个角色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467751059457
+    m_Localized: 已解锁两个角色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467755253760
+    m_Localized: 百万俱乐部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467759448064
+    m_Localized: 获得1000000分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467759448065
+    m_Localized: 已获得1000000分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467763642368
+    m_Localized: 钱仓
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467763642369
+    m_Localized: 收集2500金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467767836672
+    m_Localized: 已收集2500金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467772030976
+    m_Localized: 奇妙四侠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467772030977
+    m_Localized: 解锁四个角色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467776225280
+    m_Localized: 已解锁四个角色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467780419584
+    m_Localized: 火辣六人行
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467784613888
+    m_Localized: 解锁六个角色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467784613889
+    m_Localized: 已解锁六个角色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467788808192
+    m_Localized: 万米长跑者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467793002496
+    m_Localized: 跑到10000米
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467793002497
+    m_Localized: 已跑到10000米
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467797196800
+    m_Localized: 诺克斯堡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467797196801
+    m_Localized: 收集5000金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467801391104
+    m_Localized: 已收集5000金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467805585408
+    m_Localized: 二百五十万俱乐部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467805585409
+    m_Localized: 获得2500000分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467809779712
+    m_Localized: 已获得2500000分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467813974016
+    m_Localized: 五百万俱乐部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467818168320
+    m_Localized: 获得5000000分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467818168321
+    m_Localized: 已获得5000000分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467822362624
+    m_Localized: 斯巴达
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467826556928
+    m_Localized: 不使用强化道具获得1000000分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467826556929
+    m_Localized: 不使用强化道具获得1000000分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467830751232
+    m_Localized: 一千万俱乐部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467834945536
+    m_Localized: 获得10000000分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467834945537
+    m_Localized: 已获得10000000分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467839139840
+    m_Localized: 神庙逃亡者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467843334144
+    m_Localized: 游玩超过1000次游戏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467843334145
+    m_Localized: 已游玩超过1000次游戏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467847528448
+    m_Localized: 小矿工
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467851722752
+    m_Localized: 生涯累计收集100000金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467851722753
+    m_Localized: 生涯累计收集100000金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467855917056
+    m_Localized: 马拉松运动员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467860111360
+    m_Localized: 生涯累计奔跑100000米
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467860111361
+    m_Localized: 生涯累计奔跑100000米
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467864305664
+    m_Localized: 专业神庙逃亡者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467864305665
+    m_Localized: 游玩超过5000次游戏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467868499968
+    m_Localized: 已游玩超过5000次游戏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467872694272
+    m_Localized: 黄金矿工
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467876888576
+    m_Localized: 生涯累计收集500000金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467881082880
+    m_Localized: 生涯累计收集500000金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467881082881
+    m_Localized: 环游世界
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467885277184
+    m_Localized: 生涯累计奔跑1000000米
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467885277185
+    m_Localized: 生涯累计奔跑1000000米
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467889471488
+    m_Localized: 磁铁矿工
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467893665792
+    m_Localized: 在一局游戏中收集5个磁铁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467893665793
+    m_Localized: 在一局游戏中收集5个磁铁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467897860096
+    m_Localized: 金币侠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467902054400
+    m_Localized: 在一局游戏中收集5个金币强化道具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467902054401
+    m_Localized: 在一局游戏中收集5个金币强化道具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467906248704
+    m_Localized: 隐身
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467906248705
+    m_Localized: 在一局游戏中收集5个隐身
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467910443008
+    m_Localized: 在一局游戏中收集5个隐身
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467914637312
+    m_Localized: 超速侠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467914637313
+    m_Localized: 在一局游戏中收集5个加速
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467918831616
+    m_Localized: 在一局游戏中收集5个加速
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467923025920
+    m_Localized: 磁力超人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467923025921
+    m_Localized: 在一局游戏中收集10个磁铁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467927220224
+    m_Localized: 在一局游戏中收集10个磁铁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467931414528
+    m_Localized: 黄金爆炸
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467931414529
+    m_Localized: 在一局游戏中收集10个金币强化道具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467935608832
+    m_Localized: 在一局游戏中收集10个金币强化道具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467939803136
+    m_Localized: 万夫莫敌
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467939803137
+    m_Localized: 在一局游戏中收集10个隐身
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467943997440
+    m_Localized: 在一局游戏中收集10个隐身
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467943997441
+    m_Localized: 速度狂魔
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467948191744
+    m_Localized: 在一局游戏中收集10个加速
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467952386048
+    m_Localized: 在一局游戏中收集10个加速
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467952386049
+    m_Localized: 万磁王
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467956580352
+    m_Localized: 在一局游戏中收集20个磁铁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467960774656
+    m_Localized: 在一局游戏中收集20个磁铁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467960774657
+    m_Localized: 黄金之神
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467964968960
+    m_Localized: 在一局游戏中收集20个金币强化道具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467969163264
+    m_Localized: 在一局游戏中收集20个金币强化道具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467969163265
+    m_Localized: 无敌
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467973357568
+    m_Localized: 在一局游戏中收集20个隐身
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467973357569
+    m_Localized: 在一局游戏中收集20个隐身
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467977551872
+    m_Localized: 火箭
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467981746176
+    m_Localized: 在一局游戏中收集20个加速
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467985940480
+    m_Localized: 在一局游戏中收集20个加速
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467985940481
+    m_Localized: 超速魔
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467990134784
+    m_Localized: 游玩超过10000次游戏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467994329088
+    m_Localized: 已游玩超过10000次游戏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467994329089
+    m_Localized: 点石成金
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467998523392
+    m_Localized: 生涯累计收集1000000金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467998523393
+    m_Localized: 生涯累计收集1000000金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468002717696
+    m_Localized: 无尽狂奔
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468006912000
+    m_Localized: 生涯累计奔跑10000000米
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468006912001
+    m_Localized: 生涯累计奔跑10000000米
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468011106304
+    m_Localized: 重新奔跑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468015300608
+    m_Localized: 升级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468019494912
+    m_Localized: 最佳分数！！！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468019494913
+    m_Localized: 简直神秘莫测！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468023689216
+    m_Localized: 一支古老的霍基科基舞。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468027883520
+    m_Localized: 你摔死了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468027883521
+    m_Localized: 啊啊啊啊啊！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468032077824
+    m_Localized: 你摔死了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468036272128
+    m_Localized: 我恐高！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468036272129
+    m_Localized: 道路尽头……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468040466432
+    m_Localized: 小心间隙。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468044660736
+    m_Localized: 就差“那么”多。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468044660737
+    m_Localized: 又来了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468048855040
+    m_Localized: 我要举报这起安全违规事件！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468053049344
+    m_Localized: 想当初我该学会飞的！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468053049345
+    m_Localized: 再见！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468057243648
+    m_Localized: 还好我戴了头盔！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468061437952
+    m_Localized: 你做的点心很好吃。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468061437953
+    m_Localized: 喂食时间！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468065632256
+    m_Localized: 与鱼群共游。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468065632257
+    m_Localized: 蛇？我讨厌蛇！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468069826560
+    m_Localized: 泡泡，泡泡，泡泡……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468074020864
+    m_Localized: 你去哪里了？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468074020865
+    m_Localized: 谁把巴尼从笼子里放出来了？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468078215168
+    m_Localized: 好险。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468082409472
+    m_Localized: 有人在看着我吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468082409473
+    m_Localized: 有人倒下了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468086603776
+    m_Localized: 拥抱一棵树！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468090798080
+    m_Localized: 树木伤人。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468090798081
+    m_Localized: 我们打扰到你了吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468094992384
+    m_Localized: 蚂蚁。为什么一定是蚂蚁？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468099186688
+    m_Localized: 我总能给人留下好印象。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468099186689
+    m_Localized: 我就把它留在这里。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468103380992
+    m_Localized: 谁把这棵树留在这里的？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468107575296
+    m_Localized: 我在这个世界留下了印记。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468107575297
+    m_Localized: 至少我的帽子很安全。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468111769600
+    m_Localized: 我需要休息一下。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468111769601
+    m_Localized: 两只爱情鸟……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468115963904
+    m_Localized: 介意我去逛逛吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468120158208
+    m_Localized: 我没在那看到它。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468120158209
+    m_Localized: 这对树的伤害比我大。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468124352512
+    m_Localized: 别搞我的帽子！！！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468128546816
+    m_Localized: 没有帽子的我就不是我了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468132741120
+    m_Localized: 比看起来更硬……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468132741121
+    m_Localized: 好在我练过铁头功！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468136935424
+    m_Localized: 头盔一点用都没有……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468141129728
+    m_Localized: 没有头很难奔跑。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468141129729
+    m_Localized: 别忘了躲避！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468145324032
+    m_Localized: 惊呆了小伙伴！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468149518336
+    m_Localized: 看来我要被困在这一段时间了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468149518337
+    m_Localized: 别看我的毛腿！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468153712640
+    m_Localized: 我应该穿漂亮袜子来的。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468157906944
+    m_Localized: 该回去学学凌波舞入门课程了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468157906945
+    m_Localized: 注意脚下……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468162101248
+    m_Localized: 神庙潮湿时会很滑。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468166295552
+    m_Localized: 嗯，酥脆的探险家。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468166295553
+    m_Localized: 闻起来像吐司面包。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468170489856
+    m_Localized: 发型糟糕的一天？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468174684160
+    m_Localized: 我刚把它弄干！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468174684161
+    m_Localized: 警告：护甲不防火。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468178878464
+    m_Localized: 你做的点心很好吃。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468178878465
+    m_Localized: 像你这样的冒险家，我都当早餐吃。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468183072768
+    m_Localized: 吧唧吧唧……皮革味的！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468187267072
+    m_Localized: 球门禁区前被擒获！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468187267073
+    m_Localized: 这个家伙有壳！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468191461376
+    m_Localized: 擒获！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468195655680
+    m_Localized: 全都纠结在一起……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468195655681
+    m_Localized: 抓住你了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468199849984
+    m_Localized: 不系鞋带会出事的。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468199849985
+    m_Localized: 我有种不好的预感……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468204044288
+    m_Localized: 如果我带打火机就好了……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468208238592
+    m_Localized: 这不是我想象中的退休生活。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468208238593
+    m_Localized: 想知道这些头骨是从哪里来的吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468212432896
+    m_Localized: 这太不卫生了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468216627200
+    m_Localized: 这看起来像赫尔南叔叔！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468220821504
+    m_Localized: 每周\n挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468220821505
+    m_Localized: 排行榜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468225015808
+    m_Localized: 每周挑战进度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468229210112
+    m_Localized: 已达到层级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468229210113
+    m_Localized: 季节性物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468233404416
+    m_Localized: 下一挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468233404417
+    m_Localized: 喜欢神庙逃亡吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468237598720
+    m_Localized: 请给我们留下评价！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468241793024
+    m_Localized: 继续
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468241793025
+    m_Localized: 已完成
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468245987328
+    m_Localized: 存档槽
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468250181632
+    m_Localized: 选择一个存档槽，以保存每周挑战进度、升级和成绩。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468250181633
+    m_Localized: '[{0}] （当前存档）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468254375936
+    m_Localized: '[{0}] （新存档）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468258570240
+    m_Localized: '[{0}] （选择以加载）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468262764544
+    m_Localized: 生涯累计距离：{0}米
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468262764545
+    m_Localized: 生涯累计收集金币数：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468266958848
+    m_Localized: 上次存档：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468271153152
+    m_Localized: 永久删除存档槽[{0}]记录的每周挑战进度、升级和成绩吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468271153153
+    m_Localized: 删除
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468275347456
+    m_Localized: 取消
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468275347457
+    m_Localized: 删除存档？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468279541760
+    m_Localized: 剩余时间：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468283736064
+    m_Localized: 单次距离挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468287930368
+    m_Localized: 累计距离挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468287930369
+    m_Localized: 单次得分挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468292124672
+    m_Localized: 累计得分挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468296318976
+    m_Localized: 单次金币挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468296318977
+    m_Localized: 累计金币挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468300513280
+    m_Localized: 单次强化道具挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468304707584
+    m_Localized: 在单局游戏中跑到规定的距离，完成这项挑战！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468304707585
+    m_Localized: 在多局游戏中累计跑到规定的距离，完成这项挑战！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468308901888
+    m_Localized: 在单局游戏中达到规定分数，完成这项挑战！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468313096192
+    m_Localized: 在多局游戏中累计达到规定分数，完成这项挑战！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468313096193
+    m_Localized: '在单局游戏中获得规定的金币数，完成这项挑战！ '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468317290496
+    m_Localized: '在多局游戏中累计获得规定的金币数，完成这项挑战！ '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468321484800
+    m_Localized: '在单局游戏中获得规定数量的强化道具，完成这项挑战！ '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468321484801
+    m_Localized: 新手
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468334067712
+    m_Localized: 斗士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468342456320
+    m_Localized: 学徒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468346650624
+    m_Localized: 探路者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468350844928
+    m_Localized: 教授
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468355039232
+    m_Localized: 传说
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468355039233
+    m_Localized: 挑战已结束。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468359233536
+    m_Localized: 全新每周挑战！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468359233537
+    m_Localized: '"{0}" 层级已达成！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468363427840
+    m_Localized: 以上获得的奖励将添加到你的物品栏中。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468367622144
+    m_Localized: 物品栏中没有该物品：在游戏中拾取硬币，然后从主菜单的“升级”界面中购买物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468371816448
+    m_Localized: 游戏教程期间无法使用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468376010752
+    m_Localized: 游戏倒计时/介绍期间无法使用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468380205056
+    m_Localized: 在一局游戏中，永恒翅膀、冲刺和超级冲刺这三个道具，只能选择一种使用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468384399360
+    m_Localized: 这种一次性道具，只在游戏开始阶段有效，范围在{0}和{1}米之间。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468384399361
+    m_Localized: 复活翅膀正在充能。距离充能完毕还剩{0}秒。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468388593664
+    m_Localized: 复活或永恒翅膀已经生效：只能在翅膀破损后重新激活。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468392787968
+    m_Localized: 复活翅膀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468396982272
+    m_Localized: 永恒翅膀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468396982273
+    m_Localized: 冲刺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468401176576
+    m_Localized: 超级冲刺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468405370880
+    m_Localized: 该一次性道具无法使用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468409565184
+    m_Localized: 该设备当前处于离线状态，任何现有的云存档均无法使用。系统不会保存任何游戏进度。针对iCloud存档，请确保已启用并登录iCloud。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468413759488
+    m_Localized: 任何现有的云存档均无法使用。任何游戏进度将保存在本地。针对iCloud存档，请确保已启用并登录iCloud。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468417953792
+    m_Localized: 云存档无法使用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468426342400
+    m_Localized: 层级达成！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468426342401
+    m_Localized: 层级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468430536704
+    m_Localized: 奖励
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468430536705
+    m_Localized: 下一挑战在：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468434731008
+    m_Localized: 你的进度：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468438925312
+    m_Localized: 距离
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468438925313
+    m_Localized: 金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468443119616
+    m_Localized: 得分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468447313920
+    m_Localized: 强化道具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468447313921
+    m_Localized: 需要控制器或遥控器才能继续。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468451508224
+    m_Localized: 每周高分（每周一UTC时间中午重置）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468455702528
+    m_Localized: 基本加成：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468455702529
+    m_Localized: 已完成的任务：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468459896832
+    m_Localized: 你的加成：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468459896833
+    m_Localized: 已加速
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468464091136
+    m_Localized: 下次复活时间在<color=#F6D600>{0}秒</color>后
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468468285440
+    m_Localized: 金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468468285441
+    m_Localized: 复活\n翅膀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468472479744
+    m_Localized: 永恒\n翅膀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468476674048
+    m_Localized: 冲\n刺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468476674049
+    m_Localized: 超级\n冲刺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468480868352
+    m_Localized: 复活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468480868353
+    m_Localized: 快速\n填充
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468485062656
+    m_Localized: '{3}天{2}小时{1}分{0}秒'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468489256960
+    m_Localized: '{2}天{1}小时{0}分'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468489256961
+    m_Localized: '{1}小时{0}分'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468493451264
+    m_Localized: '{0}分'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468497645568
+    m_Localized: '{1}分{0}秒'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468497645569
+    m_Localized: '{0}秒'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468501839872
+    m_Localized: 复活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468501839873
+    m_Localized: 添加1次复活，死后可复活继续游戏。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468506034176
+    m_Localized: 复活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468510228480
+    m_Localized: 1个复活道具已添加到你的物品栏。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468510228481
+    m_Localized: 让“距离下次复活的时间”立即缩短5分钟。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468514422784
+    m_Localized: 即时快速填充
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468518617088
+    m_Localized: 已让“距离下次复活的时间”缩短5分钟。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468518617089
+    m_Localized: 无法使用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468522811392
+    m_Localized: 如果你有{0}个或更多复活道具，则无法使用“即时快速填充”。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468527005696
+    m_Localized: 不适用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468527005697
+    m_Localized: 没有网络连接
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468531200000
+    m_Localized: 浅浅试水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468535394304
+    m_Localized: 参加一次“单局游戏”每周挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468539588608
+    m_Localized: 已参加一次“单局游戏”每周挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468539588609
+    m_Localized: 深入试水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468543782912
+    m_Localized: 参加一次“累计”每周挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468547977216
+    m_Localized: 已参加一次“累计”每周挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468547977217
+    m_Localized: 快速填充：{0}/
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468552171520
+    m_Localized: 在{0}中重置到{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468552171521
+    m_Localized: 控制帮助
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468556365824
+    m_Localized: 奖励帮助
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468560560128
+    m_Localized: 得分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468560560129
+    m_Localized: 金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468564754432
+    m_Localized: 向物品栏中添加额外的金币。在升级界面中消费。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468568948736
+    m_Localized: 复活翅膀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468573143040
+    m_Localized: 在游戏过程中随时激活，提供30秒的保护，免于死亡。如果佩戴复活翅膀，死后可自动复活。查看选项→“控制帮助”，了解如何激活道具。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468573143041
+    m_Localized: 永恒翅膀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468577337344
+    m_Localized: 佩戴这些特殊的翅膀后，你在游戏过程中第一次死亡后可立即复活。翅膀可在奔跑的前100米，从暂停菜单中激活。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468581531648
+    m_Localized: 冲刺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468581531649
+    m_Localized: 游戏开始时，处于无敌状态，冲刺前进1000米。在奔跑的前100米，从暂停菜单中激活。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468585725952
+    m_Localized: 超级冲刺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468585725953
+    m_Localized: 游戏开始时，处于无敌状态，冲刺前进2500米。在奔跑的前100米，从暂停菜单中激活。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468589920256
+    m_Localized: 复活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468594114560
+    m_Localized: 在你的物品栏中添加1个复活道具。复活道具可以储存起来，在游戏中连续使用，创造超长记录，冲击排行榜！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468594114561
+    m_Localized: 快速填充
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468598308864
+    m_Localized: 半永久地缩短复活的重新填充时间，缩短量显示在奖励下方。收集这些道具，可更快地进行重新填充，最多实现3次复活，以便能更连贯地长时间游戏。快速填充奖励每4周到期一次。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468602503168
+    m_Localized: 奖励信息
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468602503169
+    m_Localized: 下一层级阈值：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468606697472
+    m_Localized: 最终进度：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468610891776
+    m_Localized: 本次奔跑剩余复活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468610891777
+    m_Localized: 金币价值已完全升级！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468615086080
+    m_Localized: '{0}小时'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468615086081
+    m_Localized: 没有什么比连续20次奔跑时把脸撞到树上更能说明"d决心"。做一个🏆的冠军🏆——盖伊丹兹劳斯，专业的生活教练。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468619280384
+    m_Localized: 想来次快跑吗？自从我冲刺一头撞到树上后，已经过了⌛个小时⌛。——盖伊丹兹劳斯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468623474688
+    m_Localized: 拿一些被诅咒的黄金吧！（✨这赛季很流行的。✨）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468623474689
+    m_Localized: 甘地说过"要成为你想看到的改变。"我说抓住💰的变化💰。它只是一直躺在那儿。——盖伊丹兹劳斯，全球尊敬的哲学家。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468627668992
+    m_Localized: 不要问🔔钟声🔔为谁而鸣，要问这钟值多少钱。如果你抓住它，会有什么东西追着你跑！ 🏃💰——盖伊丹兹劳斯，专业的经济学家。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468631863296
+    m_Localized: ⌛人生苦短⌛......让我们把口袋里塞满被诅咒的黄金，然后再一不小心冲下悬崖。——盖伊丹兹劳斯，诺贝尔奖获得者。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468631863297
+    m_Localized: 💪让金色神像看看谁才是老大！（或者至少冲刺到树上几次。）——盖伊丹兹劳斯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468636057600
+    m_Localized: 你上次以45英里的时速冲刺到树上是什么时候？让我们来改变这种状况吧。🌳💥
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468640251904
+    m_Localized: 😈🐒哦们想泥咧🐒😈筷肥来被宰次呲掉吧——诚掷的，枴兽妖侯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468640251905
+    m_Localized: 手感火热
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468644446208
+    m_Localized: 完成教程
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468644446209
+    m_Localized: 已完成教程
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468648640512
+    m_Localized: https://www.imangistudios.com/privacy/eng/ZH/privacy-policy-plus.html
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468652834816
+    m_Localized: 隐私政策
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468657029120
+    m_Localized: 累计强化道具挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468657029121
+    m_Localized: '在多局游戏中累计获得规定数目的强化道具，完成这项挑战！ '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468661223424
+    m_Localized: 你的iCloud存档已满。任何现有的云存档均无法使用。系统不会保存任何游戏进度。对于iCloud存档，请前往iCloud设置，升级或清理出更多空间。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468665417728
+    m_Localized: 你的iCloud存档已满。系统不会在本地保存任何游戏进度。对于iCloud存档，请前往iCloud设置，升级或清理出更多空间。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468665417729
+    m_Localized: 云端存档已满
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468669612032
+    m_Localized: iPhone/iPad：\n支持蓝牙控制器/键盘
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468673806336
+    m_Localized: 解锁塔马托亚，萨摩亚最强大的战士！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468673806337
+    m_Localized: 塔马托亚，萨摩亚最强大的战士！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468678000640
+    m_Localized: 解锁西蒙戴维斯，无情的海盗猎人！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468682194944
+    m_Localized: 西蒙戴维斯，无情的海盗猎人！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468682194945
+    m_Localized: 解锁诗格弗罗斯彼得，冠军伐木工！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468686389248
+    m_Localized: 诗格弗罗斯彼得，冠军伐木工！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468686389249
+    m_Localized: 解锁“黄金”盖伊·危，镀金人！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468690583552
+    m_Localized: ' “黄金”盖伊·危，镀金人！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468694777856
+    m_Localized: 解锁塞琳娜塞莱斯特，好奇的坠落宇航员！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468694777857
+    m_Localized: 塞琳娜塞莱斯特，好奇的坠落宇航员！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468698972160
+    m_Localized: 解锁蒙塔古爵士，骷髅兵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468703166464
+    m_Localized: 蒙塔古爵士，骷髅兵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468703166465
+    m_Localized: 解锁阿斯特里德女王，冰冻荒原的统治者！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468707360768
+    m_Localized: 阿斯特里德女王，冰冻荒原的统治者！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468711555072
+    m_Localized: 解锁圣诞老人，北极的主人！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468711555073
+    m_Localized: 圣诞老人，北极的主人！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468715749376
+    m_Localized: 解锁尼迪尼玛尔，宝莱坞巨星！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468715749377
+    m_Localized: 尼迪尼玛尔，宝莱坞巨星！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468719943680
+    m_Localized: 解锁拉赫拉贾，印度最好的特技演员！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468724137984
+    m_Localized: 拉赫拉贾，印度最好的特技演员！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468724137985
+    m_Localized: 解锁萨拉班扬，淘气的波斯草药师！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468728332288
+    m_Localized: 萨拉班扬，淘气的波斯草药师！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468732526592
+    m_Localized: 解锁泽诺比奥斯博士，杰出的疯狂科学家！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468732526593
+    m_Localized: 泽诺比奥斯博士，杰出的疯狂科学家！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468736720896
+    m_Localized: 塔马托亚
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468740915200
+    m_Localized: 西蒙\n戴维斯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468740915201
+    m_Localized: 诗格\n弗罗斯彼得
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468745109504
+    m_Localized: 黄金\n盖伊\n
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468745109505
+    m_Localized: 塞琳娜\n塞莱斯特
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468749303808
+    m_Localized: 蒙塔古\n爵士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468753498112
+    m_Localized: 阿斯特里德\n女王
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468753498113
+    m_Localized: 圣诞老人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468757692416
+    m_Localized: 尼迪\n尼玛尔
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468761886720
+    m_Localized: 拉赫\n拉贾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468761886721
+    m_Localized: 萨拉\n班扬
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468766081024
+    m_Localized: 泽诺比奥斯\n博士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496035999744
+    m_Localized: 加载中……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496400904192
+    m_Localized: 你赢得了金币！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496409292800
+    m_Localized: 通过安装免费应用程序，你赢得了 {0} 枚金币！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496409292801
+    m_Localized: 免费金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496413487104
+    m_Localized: 观看一则小广告，赢得 {0} 枚金币？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496417681408
+    m_Localized: 感谢你的观看！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496421875712
+    m_Localized: '{0} 枚金币已到账！请 12 小时后回来领取下一份奖励！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496421875713
+    m_Localized: 距离获得下一个奖励还有 [] 米
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496426070016
+    m_Localized: 免费复活翅膀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496430264320
+    m_Localized: 观看一则小广告，领取永恒翅膀？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496430264321
+    m_Localized: 跑步时可以使用你的复活翅膀！请 12 小时后回来领取下一份奖励！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496434458624
+    m_Localized: 奖励翻倍！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496438652928
+    m_Localized: 观看一则小广告，赢得双倍金币？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496438652929
+    m_Localized: 你的收入已经翻倍！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496442847232
+    m_Localized: 购买失败
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496447041536
+    m_Localized: 无法连接到 iTunes Store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496447041537
+    m_Localized: 观看一段视频
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496451235840
+    m_Localized: 为《神庙逃亡》点赞！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496455430144
+    m_Localized: 启用广告
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496459624448
+    m_Localized: 免费游戏广告
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496459624449
+    m_Localized: 你想在每局游戏结束时启用观看全屏广告并获得 {0} 枚金币吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496463818752
+    m_Localized: 不，谢谢
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496468013056
+    m_Localized: 启用广告！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496468013057
+    m_Localized: 在 Facebook 上点赞
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496472207360
+    m_Localized: 在 Facebook 上为《神庙逃亡》点赞，获得 {0} 枚免费金币！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496476401664
+    m_Localized: 在 X 上关注
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496480595968
+    m_Localized: 在 X 上关注《神庙逃亡》，获得 {0} 枚免费金币！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496484790272
+    m_Localized: 优惠不可用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496488984576
+    m_Localized: 此优惠目前不可用，请稍后再试！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496488984577
+    m_Localized: 升级商店
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496501567488
+    m_Localized: 你已收集到一些金币，现在可以在商店升级角色，助你获得更高得分了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496505761792
+    m_Localized: 暂时不要
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496509956096
+    m_Localized: 查看商店！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496514150400
+    m_Localized: 壁纸
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496514150401
+    m_Localized: 下载中……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496518344704
+    m_Localized: 保存中……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496522539008
+    m_Localized: 壁纸已保存
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496522539009
+    m_Localized: 你的壁纸已保存到相册中。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496526733312
+    m_Localized: 下载失败
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496530927616
+    m_Localized: 无法下载此物品。请确保网络连接正常，然后再试一次。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496530927617
+    m_Localized: 解锁神庙墙壁纸。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496535121920
+    m_Localized: 下载神庙墙壁纸。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496539316224
+    m_Localized: 解锁盖伊·危壁纸。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496539316225
+    m_Localized: 下载盖伊·危壁纸。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496543510528
+    m_Localized: 解锁魔猴壁纸。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496547704832
+    m_Localized: 下载魔猴壁纸。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496547704833
+    m_Localized: 解锁神庙墙壁纸。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496551899136
+    m_Localized: 下载神庙墙壁纸。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496556093440
+    m_Localized: 移除游戏结尾广告。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496560287744
+    m_Localized: 游戏结尾广告已移除。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496560287745
+    m_Localized: 下载
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496564482048
+    m_Localized: 想要获得免费金币吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496568676352
+    m_Localized: 请观看视频，或在金币商店的免费优惠区完成其他金币优惠活动！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496568676353
+    m_Localized: 免费金币！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496572870656
+    m_Localized: 没有网络连接
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496577064960
+    m_Localized: 无法连接到商店，请确保网络连接正常。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496577064961
+    m_Localized: 联系商店……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496581259264
+    m_Localized: 产品加载中……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496585453568
+    m_Localized: '{0} 枚免费金币'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496585453569
+    m_Localized: 免费优惠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496589647872
+    m_Localized: 在 App Store 上给游戏打分！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496593842176
+    m_Localized: 稍后提醒我
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496593842177
+    m_Localized: 不再询问
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496598036480
+    m_Localized: 用户名
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496602230784
+    m_Localized: 密码
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496602230785
+    m_Localized: '我在《神庙逃亡》中逃离魔猴时获得了 %@ 分。快来打败我吧！http://bit.ly/TempleRunGame'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496606425088
+    m_Localized: 内容发送失败：请检查登录情况或稍后再试
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496610619392
+    m_Localized: 好友标记
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496610619393
+    m_Localized: 完成挑战里程碑，获得奖励！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496614813696
+    m_Localized: 关闭
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496619008000
+    m_Localized: 全球挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496619008001
+    m_Localized: 累计距离
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496623202304
+    m_Localized: 每次奔跑的得分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496627396608
+    m_Localized: 每次奔跑的金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496627396609
+    m_Localized: 随时间累积的金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496631590912
+    m_Localized: 累计得分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496635785216
+    m_Localized: 每次奔跑的距离
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496635785217
+    m_Localized: 获得更多金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496639979520
+    m_Localized: 更多精彩内容即将到来……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496644173824
+    m_Localized: 角色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496644173825
+    m_Localized: 观看广告复活？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496648368128
+    m_Localized: 已解锁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496652562432
+    m_Localized: 商店
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496656756736
+    m_Localized: 恢复购买
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496656756737
+    m_Localized: 无广告
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496660951040
+    m_Localized: 隐私设置
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496665145344
+    m_Localized: 分享！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496665145345
+    m_Localized: 解锁盖伊·危，1940年代勇敢的飞行员冒险家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496669339648
+    m_Localized: 盖伊·危，1940年代勇敢的飞行员冒险家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496673533952
+    m_Localized: 解锁斯嘉丽·福克斯，1930年代诡计多端的顶级盗贼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496673533953
+    m_Localized: 斯嘉丽·福克斯，1930年代诡计多端的顶级盗贼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496677728256
+    m_Localized: 解锁巴里·伯恩斯，80年代使命在肩的硬汉警察
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496681922560
+    m_Localized: 巴里·伯恩斯，80年代使命在肩的硬汉警察
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496681922561
+    m_Localized: 解锁卡尔玛·李，公元前500年正义的游侠公主
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496686116864
+    m_Localized: 卡尔玛·李，公元前500年正义的游侠公主
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496690311168
+    m_Localized: 解锁蒙大拿·史密斯，1800年代西部荒野的亡命之徒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496690311169
+    m_Localized: 蒙大拿·史密斯，1800年代西部荒野的亡命之徒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496694505472
+    m_Localized: 解锁弗朗西斯科·蒙托亚，1500年代疯狂的西班牙修士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496698699776
+    m_Localized: 弗朗西斯科·蒙托亚，1500年代疯狂的西班牙修士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496698699777
+    m_Localized: 解锁扎克·温德，2004年的橄榄球巨星
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496702894080
+    m_Localized: 扎克·温德，2004年的橄榄球巨星
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496707088384
+    m_Localized: 解锁西蒙·戴维斯，1600年代的加勒比海军准将
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496707088385
+    m_Localized: 西蒙·戴维斯，1600年代的加勒比海军准将
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496723865600
+    m_Localized: 解锁爱德华·特维根波塔姆，大地的永恒守护者。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496723865601
+    m_Localized: 爱德华·特维根波塔姆，大地的永恒守护者。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496728059904
+    m_Localized: 解锁凯翔，公元500年寻求救赎的少林僧人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496732254208
+    m_Localized: 凯翔，公元500年寻求救赎的少林僧人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496736448512
+    m_Localized: 解锁卡尼菲克斯，掌控混乱的邪恶女王
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496736448513
+    m_Localized: 卡尼菲克斯，掌控混乱的邪恶女王
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496740642816
+    m_Localized: 解锁寒霜海盗，1690年横扫海洋的恐怖船长
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496744837120
+    m_Localized: 寒霜海盗，1690年横扫海洋的恐怖船长
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496744837121
+    m_Localized: 解锁沃利·纳特，散播节日欢乐的圣诞胡桃夹子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496749031424
+    m_Localized: 沃利·纳特，散播节日欢乐的圣诞胡桃夹子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496753225728
+    m_Localized: 解锁阿斯特里德女王，公元930年起掠夺四方的维京皇族
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496757420032
+    m_Localized: 阿斯特里德女王，公元930年起掠夺四方的维京皇族
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496757420033
+    m_Localized: 解锁克罗诺斯·时髯，带来无尽浩劫的永恒半神
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496761614336
+    m_Localized: 克罗诺斯·时髯，带来无尽浩劫的永恒半神
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16968939731935232
+    m_Localized: 谢谢！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406555136000
+    m_Localized: 距离获得下一个奖励还有 {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406815182848
+    m_Localized: 取得更高分数以推进游戏进度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406823571456
+    m_Localized: 距离获得下一个奖励还有{0}{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406823571457
+    m_Localized: 分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406827765760
+    m_Localized: 领取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406827765761
+    m_Localized: 已领取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406831960064
+    m_Localized: 开启
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406836154368
+    m_Localized: 关闭
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406836154369
+    m_Localized: 全球挑战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406840348672
+    m_Localized: 天使之翼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406844542976
+    m_Localized: 室内装饰设计师
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406844542977
+    m_Localized: 解锁3张壁纸
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406848737280
+    m_Localized: 已解锁3张壁纸
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406848737281
+    m_Localized: 开始
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406852931584
+    m_Localized: 观看广告以继续？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406857125888
+    m_Localized: 我在逃离魔猴时获得了{0}分。快来打败我吧！{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406857125889
+    m_Localized: 恢复完成！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406861320192
+    m_Localized: 成功！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406865514496
+    m_Localized: 这是什么？全球挑战？！准备好迎接{0}吧！！！，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406869708800
+    m_Localized: 颤抖吧，凡人！{0}已闪亮登场！准备迎接新的全球挑战吧！！！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406869708801
+    m_Localized: 别放弃！{0}中还有奖励等着你来领取！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406873903104
+    m_Localized: 别忘了{0}！它可没有忘记你哦。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406878097408
+    m_Localized: 抓紧时间！距离{1}消失只剩{0}了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406878097409
+    m_Localized: 继续奔跑！你还有{0}的时间领取{1}的丰厚奖励！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406882291712
+    m_Localized: 奔跑时间到！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406882291713
+    m_Localized: 我们想你了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406886486016
+    m_Localized: 购买无广告版
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406890680320
+    m_Localized: 购买金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406890680321
+    m_Localized: 无广告版购买失败。请检查网络连接后重试。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406894874624
+    m_Localized: 金币购买失败。请检查网络连接后重试。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406899068928
+    m_Localized: 已取消购买
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406899068929
+    m_Localized: 消息\"{0}\"发送失败，请检查网络连接。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406903263232
+    m_Localized: 重试
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406903263233
+    m_Localized: 无法分享
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406907457536
+    m_Localized: 失败
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406911651840
+    m_Localized: 很抱歉，视频无法播放。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406911651841
+    m_Localized: 奖励
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406915846144
+    m_Localized: 重新授权应用内购买服务，才能启用金币商店。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406920040448
+    m_Localized: 金币商店目前不可用。请联系support@imangistudios.com获取更多信息。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406920040449
+    m_Localized: 已添加{0}枚金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406924234752
+    m_Localized: 需要更新
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406924234753
+    m_Localized: 需要更新游戏才能继续游玩《神庙逃亡》。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406928429056
+    m_Localized: 免费角色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406932623360
+    m_Localized: 新角色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406932623361
+    m_Localized: 新冒险
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406936817664
+    m_Localized: 加入我们
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406936817665
+    m_Localized: 分享已取消！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406941011968
+    m_Localized: 分享失败！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406945206272
+    m_Localized: 分享成功！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406945206273
+    m_Localized: 已完成里程碑{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23200394329972736
+    m_Localized: 感谢更新
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23200394455801856
+    m_Localized: 感谢你一直更新《神庙逃亡》！请收下这 500 枚金币的礼物吧！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23204094888894464
+    m_Localized: 500 枚金币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23204095056666624
+    m_Localized: 不，谢谢
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55828746446299136
+    m_Localized: 感谢您下载《Temple Run》游戏！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355477262336
+    m_Localized: 在”跑者选择”\n界面中，您可与
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355628257280
+    m_Localized: 弗朗西斯科·\n蒙托亚
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355636645888
+    m_Localized: 一同探索\n未知领域。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929317220352
+    m_Localized: 可在“跑者选择”界面中免费获取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929606627328
+    m_Localized: 与卡尔玛·李
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929619210240
+    m_Localized: 一同踏入\n传说
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929623404544
+    m_Localized: 做好冒险的准备吧\n
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929627598848
+    m_Localized: 扎克·温德
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929635987456
+    m_Localized: 等待\n通向黑暗之路
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929640181760
+    m_Localized: 卡尼菲克斯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929644376064
+    m_Localized: 女王\n冲在最前，奋勇奔跑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929652764672
+    m_Localized: 阿斯特里德女王
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929656958976
+    m_Localized: 開啟神秘面幕\n體感未知冒險
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929661153280
+    m_Localized: 与沃利·纳特
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773763731456
+    m_Localized: 一起进入\n传说
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773776314368
+    m_Localized: 与卡尔玛·李
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773780508672
+    m_Localized: 可在“跑者选择”界面中免费获取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126122979169918976
+    m_Localized: 做好冒险的准备吧\n
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126463690687897600
+    m_Localized: 做好冒险的准备吧\n
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126497313759682560
+    m_Localized: 扎克·温德
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126497313763876864
+    m_Localized: 可在“跑者选择”界面中免费获取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126481317888
+    m_Localized: 淘金\n狂潮
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126485512192
+    m_Localized: 狂野\n疾奔
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126485512193
+    m_Localized: 全新\n开端
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027824455680
+    m_Localized: 抓住\n夜餐
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027824455681
+    m_Localized: 神庙\n突击
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649984
+    m_Localized: 最长\n旅程！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649985
+    m_Localized: 深入\n古跡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649986
+    m_Localized: 自在\n奔跑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649987
+    m_Localized: 节日\n奇地
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844288
+    m_Localized: 酷热\n马拉松
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844289
+    m_Localized: 不给点心\n就捣乱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844290
+    m_Localized: 冰冷\n刺骨！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038592
+    m_Localized: 获取\n宝藏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038593
+    m_Localized: 你能活下来吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038594
+    m_Localized: 体会赛季
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232896
+    m_Localized: 加入\n节日狂欢！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232897
+    m_Localized: 寻找失落的神像
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232898
+    m_Localized: 你能撑多久？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232899
+    m_Localized: 探索\n未知一帯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427200
+    m_Localized: 哦，你可\n看见？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427201
+    m_Localized: 节日\n已至
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427202
+    m_Localized: 克服\n酷热
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027849621504
+    m_Localized: 拿走\n点心
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027849621505
+    m_Localized: 撑过\n冰寒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477794344960
+    m_Localized: 重置进度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477811122176
+    m_Localized: 提升广告效果
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316480
+    m_Localized: 许可
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316481
+    m_Localized: 不允许
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316482
+    m_Localized: 取消许可？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316483
+    m_Localized: "你目前已允许 Imangi 将你设备的广告 ID 提供至广告网络，用于游戏中的广告目的。\n你确定要取消许可吗？\n（点击 是 将关闭游戏。重新启动以使更改生效）"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510784
+    m_Localized: 提升广告效果？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510785
+    m_Localized: "Temple Run 采用广告支持。为了向你展示尽可能相关的广告，我们将与广告合作伙伴收集并共享数据。请注意，选择 不谢谢 不会移除广告。你可能会看到与你无关的广告。你可以随时在 设置 中更新你的选择。\n（点击 是 将关闭游戏。重新启动以使更改生效）"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510786
+    m_Localized: 征服\n季节
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649416769536
+    m_Localized: 逃离危险 \n 与...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649437741056
+    m_Localized: SCARLETT FOX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649437741057
+    m_Localized: 在Runner Select免费提供
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202893421137879040
+    m_Localized: 可在“角色选择”中免费获取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574259658752
+    m_Localized: 掌控你的 \n 速度，尽在...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574322573312
+    m_Localized: KAI XIANG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574322573313
+    m_Localized: 可在“角色选择”中免费获取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105925562368
+    m_Localized: 掌控你的 \n 速度，尽在...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105938145280
+    m_Localized: 巴里·博恩斯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105938145281
+    m_Localized: 可在“角色选择”中免费获取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438307418112
+    m_Localized: 尼迪\n尼玛尔
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438332583936
+    m_Localized: 解锁尼迪尼玛尔，宝莱坞巨星！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438332583937
+    m_Localized: 尼迪尼玛尔，宝莱坞巨星！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984695754752
+    m_Localized: 祝15 \n 周年，与…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984729309184
+    m_Localized: 尼迪·尼尔玛尔
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984729309185
+    m_Localized: 可在“角色选择”中免费获取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096434597888
+    m_Localized: 再来！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096451375104
+    m_Localized: 15周年
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096455569408
+    m_Localized: 领取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096455569409
+    m_Localized: 15,000枚免费金币！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228703228063113216
+    m_Localized: 立即领取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075348025344
+    m_Localized: 一直跑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075381579776
+    m_Localized: 15年后……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774080
+    m_Localized: 生日宝藏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774081
+    m_Localized: 每枚金幣都超讚
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774082
+    m_Localized: 再跑一局
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774083
+    m_Localized: 你能跑多远？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412179812352
+    m_Localized: 宝藏在前\n与...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412196589568
+    m_Localized: 弗朗西斯科·蒙托亚
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412196589569
+    m_Localized: 可在“角色选择”中免费获取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243860789221384192
+    m_Localized: 飞奔 \n 赛场，加入...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243860789229772800
+    m_Localized: 周五奔跑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252909526883229696
+    m_Localized: 与…一起向前冲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252909526900006912
+    m_Localized: ZACK WONDER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260263528729927680
+    m_Localized: 和他一起 \n 恐怖开跑...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260263528746704896
+    m_Localized: EDGAR TWIGGENBOTTOM
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

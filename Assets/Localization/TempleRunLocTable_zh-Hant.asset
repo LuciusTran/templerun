@@ -1,0 +1,4003 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: TempleRunLocTable_zh-Hant
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: zh-Hant
+  m_SharedData: {fileID: 11400000, guid: 0071ada7e6fa56344b4d42c06e5e2bd7, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 306466174001152
+    m_Localized: 如果你夠膽的話
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466660540416
+    m_Localized: 就把神像拿走吧！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466681511936
+    m_Localized: 開始遊戲！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466685706240
+    m_Localized: 目標
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466702483456
+    m_Localized: 統計
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466706677760
+    m_Localized: 升級
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466710872064
+    m_Localized: 選項
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466710872065
+    m_Localized: 選擇儲存欄位
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466715066368
+    m_Localized: 復活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466719260672
+    m_Localized: 每週挑戰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466723454976
+    m_Localized: 選項
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466723454977
+    m_Localized: 靈敏度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466727649280
+    m_Localized: 音樂
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466731843584
+    m_Localized: 音效
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466731843585
+    m_Localized: 教學
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466736037888
+    m_Localized: 語言：繁體中文
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466740232192
+    m_Localized: 刪除所儲存的資料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466740232193
+    m_Localized: 隱私權政策
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466744426496
+    m_Localized: 返回
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466748620800
+    m_Localized: 語言
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466752815104
+    m_Localized: 暫停
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466752815105
+    m_Localized: 積分：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466757009408
+    m_Localized: 距離：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466761203712
+    m_Localized: 金幣：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466765398016
+    m_Localized: 乘數：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466765398017
+    m_Localized: 下一個目標：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466769592320
+    m_Localized: 下一層級：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466773786624
+    m_Localized: 主選單
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466773786625
+    m_Localized: 新遊戲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466777980928
+    m_Localized: 返回
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466782175232
+    m_Localized: 新遊戲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466782175233
+    m_Localized: 您的進度將會遺失！確定要重新開始遊戲嗎？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466786369536
+    m_Localized: 退出遊戲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466790563840
+    m_Localized: 您的進度將會遺失！確定要退出遊戲嗎？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466790563841
+    m_Localized: 否
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466794758144
+    m_Localized: 是
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466798952448
+    m_Localized: 繼續奔跑？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466803146752
+    m_Localized: 下一次復活時間在 <color=#F6D600>{0}分 {1}秒</color>後
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466803146753
+    m_Localized: 使用復活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466807341056
+    m_Localized: 結束奔跑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466811535360
+    m_Localized: 已滿
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466815729664
+    m_Localized: 統計
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466815729665
+    m_Localized: 乘數：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466819923968
+    m_Localized: '{0}x'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466824118272
+    m_Localized: 單次奔跑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466824118273
+    m_Localized: 最高分記錄：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466828312576
+    m_Localized: 最長奔跑距離記錄：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466832506880
+    m_Localized: '{0} 公尺'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466832506881
+    m_Localized: 最多金幣記錄：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466836701184
+    m_Localized: 使用復活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466840895488
+    m_Localized: 生涯累計
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466840895489
+    m_Localized: 生涯累計遊戲次數：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466845089792
+    m_Localized: 生涯累計距離：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466849284096
+    m_Localized: 生涯累計金幣：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466853478400
+    m_Localized: 升級
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466853478401
+    m_Localized: 能力加給
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466857672704
+    m_Localized: 不詳
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466861867008
+    m_Localized: 啟用 50 金幣的能力加給。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466861867009
+    m_Localized: 增加超級金幣到 75 金幣。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466866061312
+    m_Localized: 增加超級金幣到 100 金幣。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466870255616
+    m_Localized: 增加超級金幣到 125 金幣。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466870255617
+    m_Localized: 增加超級金幣到 150 金幣。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466874449920
+    m_Localized: 允許取消超級金幣。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466878644224
+    m_Localized: 超級金幣完全升級！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466878644225
+    m_Localized: 已取消超級金幣。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466882838528
+    m_Localized: 升級
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466887032832
+    m_Localized: 免費
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466887032833
+    m_Localized: 啟用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466891227136
+    m_Localized: 取消
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466895421440
+    m_Localized: 啟用金幣磁鐵能力加給。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466895421441
+    m_Localized: 使金幣磁鐵持續更久。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466899615744
+    m_Localized: 金幣磁鐵可倍增金幣的價值。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466899615745
+    m_Localized: 使金幣磁鐵持續更久。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466903810048
+    m_Localized: 金幣磁鐵可使金幣的價值增為三倍。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466908004352
+    m_Localized: 允許取消金幣磁鐵。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466912198656
+    m_Localized: 金幣磁鐵完全升級！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466912198657
+    m_Localized: 已取消金幣磁鐵。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466916392960
+    m_Localized: 啟用隱形能力加給。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466920587264
+    m_Localized: 使隱形持續更久。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466920587265
+    m_Localized: 允許取消隱形。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466924781568
+    m_Localized: 隱形完全升級！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466928975872
+    m_Localized: 已取消隱形。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466928975873
+    m_Localized: 啟用 250 公尺加速能力加給。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466933170176
+    m_Localized: 加速距離增加到 375 公尺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466937364480
+    m_Localized: 加速距離增加到 500 公尺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466937364481
+    m_Localized: 加速距離增加到 625 公尺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466941558784
+    m_Localized: 加速距離增加到 750 公尺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466945753088
+    m_Localized: 允許取消加速。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466949947392
+    m_Localized: 加速完全升級！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466949947393
+    m_Localized: 已取消加速。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466954141696
+    m_Localized: 在 {0} 公尺後將金幣的價值增為兩倍。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466958336000
+    m_Localized: 在 {0} 公尺後將金幣的價值增為兩倍。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466958336001
+    m_Localized: 在 {0} 公尺後將金幣的價值增為兩倍。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466962530304
+    m_Localized: 在 {0} 公尺後將金幣的價值增為三倍。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466966724608
+    m_Localized: 在 {0} 公尺後將金幣的價值增為三倍。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466966724609
+    m_Localized: 在{0} 米後將金幣的價值增為三倍。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466970918912
+    m_Localized: 已完全升級
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466975113216
+    m_Localized: 工具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466975113217
+    m_Localized: 激活時，你會在死後立即復活。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466979307520
+    m_Localized: 單次使用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466983501824
+    m_Localized: 復活之翼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466983501825
+    m_Localized: '在奔跑期間點擊熒幕兩次激活此道具，或是暫停遊戲並選擇「復活之翼」工具。激活時間會持續 30 秒。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466987696128
+    m_Localized: '在奔跑期間按住中央按鈕 1 秒激活此道具，或是暫停遊戲並選擇「復活之翼」工具。激活時間會持續 30 秒。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466987696129
+    m_Localized: '在奔跑期間按下北邊的 (Y/△) 遊戲手把按鈕激活此道具，或是暫停遊戲並選擇「復活之翼」工具。激活時間會持續 30 秒。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466991890432
+    m_Localized: '在奔跑期間按下 [R] 鍵激活此道具，或是暫停遊戲並選擇「復活之翼」工具。激活時間會持續 30 秒。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466996084736
+    m_Localized: 好的
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466996084737
+    m_Localized: 好的
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467000279040
+    m_Localized: 永久激活的復活之翼。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467004473344
+    m_Localized: 永久之翼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467004473345
+    m_Localized: 暫停遊戲，並在遊戲一開始時選擇「永久之翼」工具激活此道具。你死後會立即自動復活。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467008667648
+    m_Localized: 在遊戲一開始時，加速前進 1000 公尺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467012861952
+    m_Localized: 衝刺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467012861953
+    m_Localized: 暫停遊戲並在遊戲一開始時選擇「衝刺」工具，加速前進 1000 公尺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467017056256
+    m_Localized: 在遊戲一開始時，超級加速前進 2500 公尺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467021250560
+    m_Localized: 超級衝刺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467025444864
+    m_Localized: 暫停遊戲並在遊戲一開始時選擇「超級衝刺」工具，超級加速前進 2500 公尺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467025444865
+    m_Localized: 角色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467029639168
+    m_Localized: 當前激活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467033833472
+    m_Localized: 激活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467033833473
+    m_Localized: 解鎖
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467038027776
+    m_Localized: 解鎖「危險傢伙」- 只是你的普通探險家。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467042222080
+    m_Localized: 解鎖「腥紅狐狸」- 狡猾的逃脫藝術家。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467042222081
+    m_Localized: 解鎖「巴利骨頭」- 有態度的城市警察。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467046416384
+    m_Localized: 解鎖「克拉瑪李」- 遠東最快的飛毛腿。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467050610688
+    m_Localized: 解鎖「蒙大拿史密斯」- 有史以來第二偉大的探險家。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467050610689
+    m_Localized: 解鎖「法蘭西斯哥蒙托雅」- 征服者。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467054804992
+    m_Localized: 解鎖「柴克旺達」- 橄欖球明星。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467058999296
+    m_Localized: 「危險傢伙」- 只是你的普通探險家。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467058999297
+    m_Localized: 「腥紅狐狸」- 狡猾的逃脫藝術家。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467063193600
+    m_Localized: 「巴利骨頭」- 有態度的城市警察。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467067387904
+    m_Localized: 「克拉瑪李」- 遠東最快的飛毛腿。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467067387905
+    m_Localized: 「蒙大拿史密斯」- 有史以來第二偉大的探險家。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467071582208
+    m_Localized: 「法蘭西斯哥蒙托雅」- 征服者。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467075776512
+    m_Localized: 「柴克旺達」- 橄欖球明星。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467075776513
+    m_Localized: 金幣不足
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467079970816
+    m_Localized: 一邊奔跑一邊蒐集金幣，再來這裡消費！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467084165120
+    m_Localized: 申請失敗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467084165121
+    m_Localized: 無法在這個時候提出申請，請稍後再試。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467088359424
+    m_Localized: 高分！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467092553728
+    m_Localized: 滑動以轉向
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467092553729
+    m_Localized: 滑動以轉向
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467096748032
+    m_Localized: 滑動以轉向
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467100942336
+    m_Localized: 滑動以跳躍
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467100942337
+    m_Localized: 滑動以滑鏟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467105136640
+    m_Localized: 傾斜以蒐集金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467105136641
+    m_Localized: 傾斜以蒐集金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467113525248
+    m_Localized: 傾斜以蒐集金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467113525249
+    m_Localized: 滑動以轉向
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467117719552
+    m_Localized: 滑動以轉向
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467121913856
+    m_Localized: 滑動以轉向
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467121913857
+    m_Localized: 向上滑動以跳躍
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467126108160
+    m_Localized: 向下滑動以滑鏟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467130302464
+    m_Localized: 滑動以蒐集金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467130302465
+    m_Localized: 滑動以蒐集金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467134496768
+    m_Localized: 滑動以蒐集金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467138691072
+    m_Localized: 十字鍵左
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467138691073
+    m_Localized: 十字鍵右
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467142885376
+    m_Localized: 按下十字鍵左/右以轉向
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467142885377
+    m_Localized: 向上以跳躍
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467147079680
+    m_Localized: 向下以滑鏟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467151273984
+    m_Localized: 向左以蒐集金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467155468288
+    m_Localized: 向右以蒐集金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467155468289
+    m_Localized: 向左/向右以蒐集金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467159662592
+    m_Localized: 按下左箭頭以轉向
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467163856896
+    m_Localized: 按下右箭頭以轉向
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467163856897
+    m_Localized: 向左/向右以轉向
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467168051200
+    m_Localized: 向上以跳躍
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467172245504
+    m_Localized: 向下以滑鏟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467172245505
+    m_Localized: 向左以蒐集金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467176439808
+    m_Localized: 向右以蒐集金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467180634112
+    m_Localized: 向左/向右以蒐集金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467180634113
+    m_Localized: 填滿碼錶以獲得獎勵點數！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467184828416
+    m_Localized: 幹得好！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467189022720
+    m_Localized: 你準備好了！祝你好運！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467189022721
+    m_Localized: 一個遊戲控制器已連接
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467193217024
+    m_Localized: 遊戲控制器已斷開
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467197411328
+    m_Localized: 請從暫停選單中激活工具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467197411329
+    m_Localized: 控制
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467201605632
+    m_Localized: 觸碰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467205799936
+    m_Localized: Siri 遙控
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467205799937
+    m_Localized: 遙控 Gen 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467209994240
+    m_Localized: 手把/控制器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467209994241
+    m_Localized: 鍵盤
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467214188544
+    m_Localized: 向左轉：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467218382848
+    m_Localized: 向右轉：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467218382849
+    m_Localized: 向左移動以撿拾金幣：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467222577152
+    m_Localized: 向右移動以撿拾金幣：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467226771456
+    m_Localized: 跳躍：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467226771457
+    m_Localized: 滑鏟：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467230965760
+    m_Localized: 暫停選單：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467235160064
+    m_Localized: 遊戲內工具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467235160065
+    m_Localized: 30 秒復活之翼：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467239354368
+    m_Localized: 遊戲初始工具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467243548672
+    m_Localized: 衝刺：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467243548673
+    m_Localized: 超級衝刺：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467247742976
+    m_Localized: 永久之翼：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467251937280
+    m_Localized: 向左滑動
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467251937281
+    m_Localized: 向右滑動
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467256131584
+    m_Localized: 向上滑動
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467260325888
+    m_Localized: 向下滑動
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467264520192
+    m_Localized: 向左傾斜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467264520193
+    m_Localized: 向右傾斜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467268714496
+    m_Localized: 觸碰暫停圖示
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467272908800
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467272908801
+    m_Localized: 在遊戲期間點擊螢幕兩次，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467277103104
+    m_Localized: 或是暫停，然後從選單選擇「復活之翼」。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467281297408
+    m_Localized: 開始倒數計時後暫停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467281297409
+    m_Localized: 然後從選單中選擇「衝刺」。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467285491712
+    m_Localized: 開始倒數計時後暫停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467289686016
+    m_Localized: 然後從選單中選擇「超級衝刺」。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467289686017
+    m_Localized: 開始倒數計時後暫停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467293880320
+    m_Localized: 然後從選單中選擇「永久之翼」。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467298074624
+    m_Localized: 向左滑動
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467298074625
+    m_Localized: 向右滑動
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467302268928
+    m_Localized: 向上滑動
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467302268929
+    m_Localized: 向下滑動
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467306463232
+    m_Localized: 向左滑動
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467310657536
+    m_Localized: 向右滑動
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467310657537
+    m_Localized: 暫停按鈕
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467314851840
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467319046144
+    m_Localized: 按住中央按鈕，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467323240448
+    m_Localized: 或是暫停，然後從選單選擇「復活之翼」。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467323240449
+    m_Localized: 開始倒數計時後暫停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467327434752
+    m_Localized: 然後從選單中選擇「衝刺」。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467331629056
+    m_Localized: 開始倒數計時後暫停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467331629057
+    m_Localized: 然後從選單中選擇「超級衝刺」。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467335823360
+    m_Localized: 開始倒數計時後暫停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467335823361
+    m_Localized: 然後從選單中選擇「永久之翼」。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467340017664
+    m_Localized: 方向鍵/搖桿 ←/L1(LB)鍵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467344211968
+    m_Localized: 方向鍵/搖桿 →/R1(RB)鍵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467344211969
+    m_Localized: 方向鍵/搖桿 ↑ 或 A/×
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467348406272
+    m_Localized: 方向鍵/搖桿 ↓ 或 X/□
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467352600576
+    m_Localized: 方向鍵/搖桿 ←
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467352600577
+    m_Localized: 方向鍵/搖桿 →
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467356794880
+    m_Localized: 開始/選單/選項按鈕
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467360989184
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467360989185
+    m_Localized: Y/△，或暫停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467365183488
+    m_Localized: 然後從選單選擇「復活之翼」。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467365183489
+    m_Localized: 開始倒數計時後暫停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467369377792
+    m_Localized: 然後從選單中選擇「衝刺」。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467373572096
+    m_Localized: 開始倒數計時後暫停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467373572097
+    m_Localized: 然後從選單中選擇「超級衝刺」。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467377766400
+    m_Localized: 開始倒數計時後暫停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467381960704
+    m_Localized: 然後從選單中選擇「永久之翼」。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467381960705
+    m_Localized: '[←] 或 [A] 鍵'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467386155008
+    m_Localized: '[→] 或 [D] 鍵'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467390349312
+    m_Localized: '[↑] 或 [W] 鍵'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467390349313
+    m_Localized: '[↓] 或 [S] 鍵'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467394543616
+    m_Localized: '[←] 或 [A] 鍵'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467394543617
+    m_Localized: '[→] 或 [D] 鍵'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467398737920
+    m_Localized: '[ESC] 鍵'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467402932224
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467407126528
+    m_Localized: '[R] 鍵，或暫停，'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467407126529
+    m_Localized: 然後從選單選擇「復活之翼」。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467411320832
+    m_Localized: 開始倒數計時後暫停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467415515136
+    m_Localized: 然後從選單中選擇「衝刺」。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467415515137
+    m_Localized: 開始倒數計時後暫停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467419709440
+    m_Localized: 然後從選單中選擇「超級衝刺」。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467423903744
+    m_Localized: 開始倒數計時後暫停，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467423903745
+    m_Localized: 然後從選單中選擇「永久之翼」。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467428098048
+    m_Localized: 目標
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467428098049
+    m_Localized: 參與獎杯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467432292352
+    m_Localized: 遊玩 1 次每週挑戰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467436486656
+    m_Localized: 已遊玩 1 次每週挑戰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467436486657
+    m_Localized: 新生代
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467440680960
+    m_Localized: 遊玩 5 次每週挑戰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467444875264
+    m_Localized: 已遊玩 5 次每週挑戰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467444875265
+    m_Localized: 全明星
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467449069568
+    m_Localized: 遊玩 10 次每週挑戰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467453263872
+    m_Localized: 已遊玩 10 次每週挑戰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467453263873
+    m_Localized: 辛勤工作者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467457458176
+    m_Localized: 在 1 次每週挑戰中達到傳奇層級
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467457458177
+    m_Localized: 已在 1 次每週挑戰中達到傳奇層級
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467461652480
+    m_Localized: '奔跑進行中 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467465846784
+    m_Localized: 在 2 次每週挑戰中達到傳奇層級
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467465846785
+    m_Localized: 已在 2 次每週挑戰中達到傳奇層級
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467470041088
+    m_Localized: 全球挑戰者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467474235392
+    m_Localized: 在 3 次每週挑戰中達到傳奇層級
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467478429696
+    m_Localized: 已在 3 次每週挑戰中達到傳奇層級
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467478429697
+    m_Localized: 知名挑戰者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467482624000
+    m_Localized: 在 4 次每週挑戰中達到傳奇層級
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467486818304
+    m_Localized: 已在 4 次每週挑戰中達到傳奇層級
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467486818305
+    m_Localized: '完成主義者   '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467491012608
+    m_Localized: 在 5 次每週挑戰中達到傳奇層級
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467499401216
+    m_Localized: 已在 5 次每週挑戰中達到傳奇層級
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467503595520
+    m_Localized: 繼續奔跑！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467507789824
+    m_Localized: 在單次奔跑中使用 1 次「復活」
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467507789825
+    m_Localized: 已在單次奔跑中使用 1 次「復活」
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467511984128
+    m_Localized: 再往前一點！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467516178432
+    m_Localized: 在單次奔跑中使用 2 次「復活」
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467516178433
+    m_Localized: 已在單次奔跑中使用 2 次「復活」
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467520372736
+    m_Localized: 就快到了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467524567040
+    m_Localized: 在單次奔跑中使用 3 次「復活」
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467524567041
+    m_Localized: 已在單次奔跑中使用 3 次「復活」
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467528761344
+    m_Localized: 興風作浪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467532955648
+    m_Localized: 在排行榜上位於前十名
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467532955649
+    m_Localized: 在排行榜上位於前十名
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467537149952
+    m_Localized: 世界顛峰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467541344256
+    m_Localized: 在排行榜上位於前五名
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467541344257
+    m_Localized: 在排行榜上位於前五名
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467545538560
+    m_Localized: 新手跑者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467549732864
+    m_Localized: 跑 500 公尺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467549732865
+    m_Localized: 跑了 500 公尺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467553927168
+    m_Localized: 口袋零錢
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467553927169
+    m_Localized: 蒐集 100 個金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467558121472
+    m_Localized: 蒐集了 100 個金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467562315776
+    m_Localized: 冒險家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467562315777
+    m_Localized: 取得 25,000 積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467566510080
+    m_Localized: 取得了 25,000 積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467570704384
+    m_Localized: 短跑運動員
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467570704385
+    m_Localized: 跑 1,000 公尺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467574898688
+    m_Localized: 跑了 1,000 公尺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467579092992
+    m_Localized: 守財奴賽局
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467583287296
+    m_Localized: 500 公尺未蒐集任何金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467583287297
+    m_Localized: 500 公尺未蒐集任何金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467587481600
+    m_Localized: 撲滿
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467591675904
+    m_Localized: 蒐集 250 個金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467591675905
+    m_Localized: 蒐集了 250 個金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467595870208
+    m_Localized: 尋寶者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467600064512
+    m_Localized: 取得 50,000 積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467600064513
+    m_Localized: 取得了 50,000 積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467604258816
+    m_Localized: 超級獎勵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467604258817
+    m_Localized: 填滿獎勵碼錶 4 次
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467608453120
+    m_Localized: 填滿了獎勵碼錶 4 次
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467612647424
+    m_Localized: 運動員
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467612647425
+    m_Localized: 跑 2,500 公尺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467616841728
+    m_Localized: 跑了 2,500 公尺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467621036032
+    m_Localized: 一次付清
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467621036033
+    m_Localized: 蒐集 500 個金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467625230336
+    m_Localized: 蒐集了 500 個金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467629424640
+    m_Localized: 復活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467629424641
+    m_Localized: 在遊戲中使用「復活之翼」工具。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467633618944
+    m_Localized: 已在遊戲中使用「復活之翼」工具。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467637813248
+    m_Localized: 基礎動力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467642007552
+    m_Localized: 所有能力加給達到 1 級
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467642007553
+    m_Localized: 所有能力加給達到 1 級
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467646201856
+    m_Localized: 成功人士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467646201857
+    m_Localized: 取得 100,000 積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467650396160
+    m_Localized: 取得了 100,000 積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467654590464
+    m_Localized: 發薪日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467654590465
+    m_Localized: 蒐集 750 個金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467658784768
+    m_Localized: 蒐集了 750 個金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467662979072
+    m_Localized: 搶先一步
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467662979073
+    m_Localized: 使用「衝刺」
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467667173376
+    m_Localized: 使用了「衝刺」
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467671367680
+    m_Localized: 健步如飛
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467671367681
+    m_Localized: 跑 2,500 公尺沒有摔倒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467675561984
+    m_Localized: 跑了 2,500 公尺沒有摔倒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467679756288
+    m_Localized: 黃金過敏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467683950592
+    m_Localized: 1,000 公尺沒蒐集到金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467683950593
+    m_Localized: 1,000 公尺沒蒐集到金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467688144896
+    m_Localized: 五千公尺跑者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467692339200
+    m_Localized: 跑 5,000 公尺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467692339201
+    m_Localized: 跑了 5,000 公尺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467696533504
+    m_Localized: 從不摔倒的跑者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467700727808
+    m_Localized: 跑 5,000 公尺沒有摔倒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467700727809
+    m_Localized: 跑了 5,000 公尺沒有摔倒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467704922112
+    m_Localized: 25 萬俱樂部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467709116416
+    m_Localized: 獲得 250,000 積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467709116417
+    m_Localized: 獲得了 250,000 積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467713310720
+    m_Localized: 雙重復活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467717505024
+    m_Localized: 在單次奔跑中使用「復活之翼」兩次。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467717505025
+    m_Localized: 已在單次奔跑中使用「復活之翼」兩次。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467721699328
+    m_Localized: 錢袋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467721699329
+    m_Localized: 蒐集 1,000 個金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467725893632
+    m_Localized: 蒐集了 1,000 個金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467730087936
+    m_Localized: 50 萬俱樂部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467730087937
+    m_Localized: 獲得 500,000 積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467734282240
+    m_Localized: 獲得了 500,000 積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467738476544
+    m_Localized: 超級能力加給
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467738476545
+    m_Localized: 所有能力加給達到 5 級
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467742670848
+    m_Localized: 所有能力加給達到 5 級
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467746865152
+    m_Localized: 動感二人組
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467751059456
+    m_Localized: 解鎖兩個角色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467751059457
+    m_Localized: 解鎖了兩個角色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467755253760
+    m_Localized: 百萬元俱樂部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467759448064
+    m_Localized: 獲得 1,000,000 積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467759448065
+    m_Localized: 獲得了 1,000,000 積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467763642368
+    m_Localized: 錢箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467763642369
+    m_Localized: 蒐集 2,500 個金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467767836672
+    m_Localized: 蒐集了 2,500 個金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467772030976
+    m_Localized: 神奇四人組
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467772030977
+    m_Localized: 解鎖四個角色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467776225280
+    m_Localized: 解鎖了四個角色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467780419584
+    m_Localized: 性感六人組
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467784613888
+    m_Localized: 解鎖六個角色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467784613889
+    m_Localized: 解鎖了六個角色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467788808192
+    m_Localized: 一萬公尺跑者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467793002496
+    m_Localized: 跑 10,000 公尺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467793002497
+    m_Localized: 跑了 10,000 公尺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467797196800
+    m_Localized: 諾克斯堡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467797196801
+    m_Localized: 蒐集 5,000 個金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467801391104
+    m_Localized: 蒐集 5,000 個金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467805585408
+    m_Localized: 二百五十萬俱樂部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467805585409
+    m_Localized: 獲得 2,500,000 積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467809779712
+    m_Localized: 獲得了 2,500,000 積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467813974016
+    m_Localized: 五百萬俱樂部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467818168320
+    m_Localized: 獲得 5,000,000 積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467818168321
+    m_Localized: 獲得了 5,000,000 積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467822362624
+    m_Localized: 斯巴達人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467826556928
+    m_Localized: 不使用能力加給獲得 1,000,000 積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467826556929
+    m_Localized: 不使用能力加給獲得 1,000,000 積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467830751232
+    m_Localized: 一千萬俱樂部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467834945536
+    m_Localized: 獲得 10,000,000 積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467834945537
+    m_Localized: 獲得了 10,000,000 積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467839139840
+    m_Localized: 神廟逃亡者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467843334144
+    m_Localized: 玩超過 1,000 場遊戲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467843334145
+    m_Localized: 玩了超過 1,000 場遊戲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467847528448
+    m_Localized: 小礦工
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467851722752
+    m_Localized: 生涯累計獲得 100,000 金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467851722753
+    m_Localized: 生涯累計獲得 100,000 金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467855917056
+    m_Localized: 馬拉松跑者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467860111360
+    m_Localized: 生涯累計奔跑 100,000 公尺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467860111361
+    m_Localized: 生涯累計奔跑 100,000 公尺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467864305664
+    m_Localized: 職業神廟逃亡者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467864305665
+    m_Localized: 玩超過 5,000 場遊戲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467868499968
+    m_Localized: 玩了超過 5,000 場遊戲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467872694272
+    m_Localized: 金礦挖掘者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467876888576
+    m_Localized: 生涯累計獲取 500,000 金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467881082880
+    m_Localized: 生涯累計獲取 500,000 金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467881082881
+    m_Localized: 環遊者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467885277184
+    m_Localized: 生涯累計奔跑 1,000,000 公尺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467885277185
+    m_Localized: 生涯累計奔跑 1,000,000 公尺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467889471488
+    m_Localized: 磁鐵礦工
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467893665792
+    m_Localized: 在一場遊戲裡獲取 5 個磁鐵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467893665793
+    m_Localized: 在一場遊戲裡獲取 5 個磁鐵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467897860096
+    m_Localized: 金幣俠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467902054400
+    m_Localized: 在一場遊戲裡獲取 5 個金幣能力加給
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467902054401
+    m_Localized: 在一場遊戲裡獲取 5 個金幣能力加給
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467906248704
+    m_Localized: 隱形
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467906248705
+    m_Localized: 在一場遊戲裡獲取 5 個隱形
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467910443008
+    m_Localized: 在一場遊戲裡獲取 5 個隱形
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467914637312
+    m_Localized: 加速俠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467914637313
+    m_Localized: 在一場遊戲裡獲取 5 個加速
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467918831616
+    m_Localized: 在一場遊戲裡獲取 5 個加速
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467923025920
+    m_Localized: 磁性人格
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467923025921
+    m_Localized: 在一場遊戲裡獲取 10 個磁鐵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467927220224
+    m_Localized: 在一場遊戲裡獲取 10 個磁鐵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467931414528
+    m_Localized: 黃金爆炸
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467931414529
+    m_Localized: 在一場遊戲裡獲取 10 個金幣能力加給
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467935608832
+    m_Localized: 在一場遊戲裡獲取 10 個金幣能力加給
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467939803136
+    m_Localized: 無法突破
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467939803137
+    m_Localized: 在一場遊戲裡獲取 10 個隱形
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467943997440
+    m_Localized: 在一場遊戲裡獲取 10 個隱形
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467943997441
+    m_Localized: 速度精靈
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467948191744
+    m_Localized: 在一場遊戲裡獲取 10 個加速
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467952386048
+    m_Localized: 在一場遊戲裡獲取 10 個加速
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467952386049
+    m_Localized: 吸引者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467956580352
+    m_Localized: 在一場遊戲裡獲取 20 個磁鐵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467960774656
+    m_Localized: 在一場遊戲裡獲取 20 個磁鐵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467960774657
+    m_Localized: 黃金之神
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467964968960
+    m_Localized: 在一場遊戲裡獲取 20 個金幣能力加給
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467969163264
+    m_Localized: 在一場遊戲裡獲取 20 個金幣能力加給
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467969163265
+    m_Localized: 無敵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467973357568
+    m_Localized: 在一場遊戲裡獲取 20 個隱形
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467973357569
+    m_Localized: 在一場遊戲裡獲取 20 個隱形
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467977551872
+    m_Localized: 火箭
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467981746176
+    m_Localized: 在一場遊戲裡獲取 20 個加速
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467985940480
+    m_Localized: 在一場遊戲裡獲取 20 個加速
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467985940481
+    m_Localized: 超級跑者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467990134784
+    m_Localized: 玩超過 10,000 場遊戲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467994329088
+    m_Localized: 玩了超過 10,000 場遊戲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467994329089
+    m_Localized: 點石成金
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467998523392
+    m_Localized: 生涯累計獲取 1,000,000 個金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467998523393
+    m_Localized: 生涯累計獲取 1,000,000 個金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468002717696
+    m_Localized: 無限跑者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468006912000
+    m_Localized: 生涯累計奔跑 10,000,000 公尺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468006912001
+    m_Localized: 生涯累計奔跑 10,000,000 公尺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468011106304
+    m_Localized: 再跑一次
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468015300608
+    m_Localized: 升級
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468019494912
+    m_Localized: 您的最佳積分！！！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468019494913
+    m_Localized: 簡直令人費解！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468023689216
+    m_Localized: 一種古老的 Hokey pokey 舞。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468027883520
+    m_Localized: 你摔死了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468027883521
+    m_Localized: 啊～！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468032077824
+    m_Localized: 你摔死了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468036272128
+    m_Localized: 但我怕高！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468036272129
+    m_Localized: 沒路了...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468040466432
+    m_Localized: 小心縫隙。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468044660736
+    m_Localized: 就差「那麼」一點點。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468044660737
+    m_Localized: 又來！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468048855040
+    m_Localized: 我要舉報這起安全違規事件！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468053049344
+    m_Localized: 早知道我應該要學會飛！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468053049345
+    m_Localized: 再見！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468057243648
+    m_Localized: 還好我有戴頭盔！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468061437952
+    m_Localized: 你做的點心真好吃。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468061437953
+    m_Localized: 餵食時間！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468065632256
+    m_Localized: 和魚一起游泳。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468065632257
+    m_Localized: 蛇！？我討厭蛇！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468069826560
+    m_Localized: 泡泡、泡泡、泡泡...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468074020864
+    m_Localized: 你到哪裡去了？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468074020865
+    m_Localized: 是誰讓 Barney 跑出他的籠子的？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468078215168
+    m_Localized: 好險。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468082409472
+    m_Localized: 有人在看著我嗎？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468082409473
+    m_Localized: 有人倒下了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468086603776
+    m_Localized: 抱樹者！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468090798080
+    m_Localized: 樹木傷人。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468090798081
+    m_Localized: 我們有打擾到你嗎？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468094992384
+    m_Localized: 螞蟻。為什麼是螞蟻呢？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468099186688
+    m_Localized: 我總能留下好印象。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468099186689
+    m_Localized: 我把那個留在這裡。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468103380992
+    m_Localized: 誰把這樹留在這裡的？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468107575296
+    m_Localized: 我在世上留下了紀錄。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468107575297
+    m_Localized: 至少我的帽子是安全的。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468111769600
+    m_Localized: 我需要暫停一下。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468111769601
+    m_Localized: 一對愛情鳥...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468115963904
+    m_Localized: 介意我來逛逛嗎？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468120158208
+    m_Localized: 我在那裡沒看到那個。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468120158209
+    m_Localized: 這對樹的傷害比我大。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468124352512
+    m_Localized: 不是我的帽子！！！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468128546816
+    m_Localized: 沒有帽子，我就不是以前的我了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468132741120
+    m_Localized: 比看起來更硬...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468132741121
+    m_Localized: 還好我有個硬腦袋！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468136935424
+    m_Localized: 我的頭盔根本幫不上忙...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468141129728
+    m_Localized: 沒有頭很難奔跑。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468141129729
+    m_Localized: 別忘了要閃避！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468145324032
+    m_Localized: 震驚小夥伴！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468149518336
+    m_Localized: 看起來我會卡在這裡一陣子。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468149518337
+    m_Localized: 別盯著我的毛毛腿看！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468153712640
+    m_Localized: 我應該穿我的好襪子。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468157906944
+    m_Localized: 是時候重新學習 Limbo 101 了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468157906945
+    m_Localized: 注意腳下...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468162101248
+    m_Localized: 潮溼的時候，神殿會很滑。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468166295552
+    m_Localized: 嗯，脆皮探險家。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468166295553
+    m_Localized: 聞起來像是吐司。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468170489856
+    m_Localized: 頭髮糟糕的一天？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468174684160
+    m_Localized: 我才把那個乾洗了呢！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468174684161
+    m_Localized: 警告：鎧甲是不防火的。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468178878464
+    m_Localized: 你做了好吃的點心。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468178878465
+    m_Localized: 我吃了像你一樣的探險家當早餐。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468183072768
+    m_Localized: 吧唧吧唧... 皮革味道的！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468187267072
+    m_Localized: 結束區前被擒獲。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468187267073
+    m_Localized: 這個有個殼！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468191461376
+    m_Localized: 已擒獲。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468195655680
+    m_Localized: 都纏繞在一起了...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468195655681
+    m_Localized: 可逮到你了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468199849984
+    m_Localized: 解開的鞋帶會造成意外。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468199849985
+    m_Localized: 我對這件事有不好的預感...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468204044288
+    m_Localized: 我如果有我的打火機就好了...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468208238592
+    m_Localized: 這不是我想像中的退休方式。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468208238593
+    m_Localized: 有想過這些骷髏頭是從哪裡來的嗎？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468212432896
+    m_Localized: 簡直太不衛生了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468216627200
+    m_Localized: 那看起來像是賀南叔叔！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468220821504
+    m_Localized: 每週\n挑戰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468220821505
+    m_Localized: 排行榜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468225015808
+    m_Localized: 每週挑戰進度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468229210112
+    m_Localized: 已達到的層級
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468229210113
+    m_Localized: 季節性物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468233404416
+    m_Localized: 下一個挑戰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468233404417
+    m_Localized: 享受神廟逃亡嗎？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468237598720
+    m_Localized: 請留給我們評論！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468241793024
+    m_Localized: 繼續
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468241793025
+    m_Localized: 已完成
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468245987328
+    m_Localized: 儲存欄位
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468250181632
+    m_Localized: 選擇用於儲存每週挑戰進度、升級和統計數據的欄位。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468250181633
+    m_Localized: '[{0}] (目前欄位)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468254375936
+    m_Localized: '[{0}] (新欄位)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468258570240
+    m_Localized: '[{0}] (選擇以載入)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468262764544
+    m_Localized: 生涯累計距離：{0} 公尺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468262764545
+    m_Localized: 生涯累計金幣：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468266958848
+    m_Localized: 上次儲存：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468271153152
+    m_Localized: 是否要永久刪除欄位 [{0}] 的每週挑戰進度、升級和統計數據？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468271153153
+    m_Localized: 刪除
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468275347456
+    m_Localized: 取消
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468275347457
+    m_Localized: 刪除欄位？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468279541760
+    m_Localized: 剩餘時間：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468283736064
+    m_Localized: 單次距離挑戰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468287930368
+    m_Localized: 累積距離挑戰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468287930369
+    m_Localized: 單次積分挑戰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468292124672
+    m_Localized: 累積積分挑戰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468296318976
+    m_Localized: 單次金幣挑戰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468296318977
+    m_Localized: 累積金幣挑戰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468300513280
+    m_Localized: 單次強化道具挑戰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468304707584
+    m_Localized: 在單次奔跑中達到要求距離以完成這項挑戰！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468304707585
+    m_Localized: 在多次奔跑中達到要求距離以完成這項挑戰！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468308901888
+    m_Localized: 在單次奔跑中達到要求積分以完成這項挑戰！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468313096192
+    m_Localized: 在多次奔跑中達到要求積分以完成這項挑戰！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468313096193
+    m_Localized: '在單次奔跑中蒐集到要求的金幣數以完成這項挑戰！ '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468317290496
+    m_Localized: '在多次奔跑中蒐集到要求的金幣數以完成這項挑戰！ '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468321484800
+    m_Localized: '在單次奔跑中蒐集到要求的強化道具數以完成這項挑戰！ '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468321484801
+    m_Localized: 新手
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468334067712
+    m_Localized: 鬥士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468342456320
+    m_Localized: 學徒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468346650624
+    m_Localized: 探路者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468350844928
+    m_Localized: 教授
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468355039232
+    m_Localized: 傳奇
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468355039233
+    m_Localized: 挑戰已結束。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468359233536
+    m_Localized: 全新每週挑戰！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468359233537
+    m_Localized: 「{0}」層級已達成！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468363427840
+    m_Localized: 以上獲得的獎勵將新增至你的道具欄中。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468367622144
+    m_Localized: 道具欄中沒有該物品：在奔跑過程中檢拾金幣，然後從主選單中的「升級」畫面購買物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468371816448
+    m_Localized: 教學期間無法使用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468376010752
+    m_Localized: 在你的奔跑倒數計時/介紹期間無法使用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468380205056
+    m_Localized: 每次奔跑中只能使用「永久之翼」、「衝刺」和「超級衝刺」其中之一。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468384399360
+    m_Localized: 此工具僅在奔跑一開始時，{0} 到 {1} 公尺之間有效。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468384399361
+    m_Localized: 「復活之翼」正在儲存能量，還需要 {0} 秒。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468388593664
+    m_Localized: 復活之翼或永久之翼已經生效：翅膀損毀後才能重新激活。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468392787968
+    m_Localized: 復活之翼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468396982272
+    m_Localized: 永久之翼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468396982273
+    m_Localized: 衝刺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468401176576
+    m_Localized: 超級衝刺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468405370880
+    m_Localized: 此工具無法使用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468409565184
+    m_Localized: 此裝置目前處於離線狀態。現有的所有雲端存檔都無法使用。任何遊戲進度都可能無法儲存。如果是使用 iCloud 儲存，請確保 iCloud 已啟用並已登入。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468413759488
+    m_Localized: 現有的所有雲端存檔都無法使用。任何遊戲進度都只能儲存在本機中。如果是使用 iCloud 儲存，請確保 iCloud 已啟用並已登入。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468417953792
+    m_Localized: 無法使用雲端儲存
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468426342400
+    m_Localized: 層級完成！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468426342401
+    m_Localized: 層級
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468430536704
+    m_Localized: 獎勵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468430536705
+    m_Localized: 下次挑戰：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468434731008
+    m_Localized: 你的進度：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468438925312
+    m_Localized: 距離：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468438925313
+    m_Localized: 金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468443119616
+    m_Localized: 積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468447313920
+    m_Localized: 強化道具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468447313921
+    m_Localized: 需要控制器或遙控器才能繼續。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468451508224
+    m_Localized: 每週高分（UTC 時間星期一中午重置）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468455702528
+    m_Localized: 基礎乘數：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468455702529
+    m_Localized: 已達到的目標：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468459896832
+    m_Localized: 你的乘數：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468459896833
+    m_Localized: 已強化
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468464091136
+    m_Localized: 下一次復活時間在 <color=#F6D600>{0}秒</color>後
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468468285440
+    m_Localized: 金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468468285441
+    m_Localized: 復活\n之翼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468472479744
+    m_Localized: 永久\n之翼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468476674048
+    m_Localized: 衝\n刺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468476674049
+    m_Localized: 超級\n衝刺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468480868352
+    m_Localized: 復活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468480868353
+    m_Localized: 快速\n填充
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468485062656
+    m_Localized: '{3} 天 {2} 小時 {1} 分 {0} 秒'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468489256960
+    m_Localized: '{2} 天 {1} 小時 {0} 分'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468489256961
+    m_Localized: '{1} 小時 {0} 分'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468493451264
+    m_Localized: '{0} 分'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468497645568
+    m_Localized: '{1} 分 {0} 秒'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468497645569
+    m_Localized: '{0} 秒'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468501839872
+    m_Localized: 復活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468501839873
+    m_Localized: 新增 1 次復活，用來復活並在死後持續奔跑。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468506034176
+    m_Localized: 復活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468510228480
+    m_Localized: 已新增 1 次復活到你的物品欄中。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468510228481
+    m_Localized: 立即將你的「下次復活時間」縮短 5 分鐘。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468514422784
+    m_Localized: 即時快速填充
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468518617088
+    m_Localized: 你的「下次復活時間」已扣除 5 分鐘。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468518617089
+    m_Localized: 無法使用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468522811392
+    m_Localized: 當你有 {0} 個或以上的「復活」時，「快速填充」將無法使用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468527005696
+    m_Localized: n/a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468527005697
+    m_Localized: 無網路連線
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468531200000
+    m_Localized: 小心探索
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468535394304
+    m_Localized: 參加一次「單次奔跑」每週挑戰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468539588608
+    m_Localized: 已參加一次「單次奔跑」每週挑戰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468539588609
+    m_Localized: 大膽探索
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468543782912
+    m_Localized: 參加一次「累積」每週挑戰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468547977216
+    m_Localized: 已參加一次「累積」每週挑戰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468547977217
+    m_Localized: 快速填充：{0} /
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468552171520
+    m_Localized: 在 {0} 中重置為 {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468552171521
+    m_Localized: 控制說明
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468556365824
+    m_Localized: 獎勵說明
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468560560128
+    m_Localized: 積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468560560129
+    m_Localized: 金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468564754432
+    m_Localized: 將額外金幣新增到你的物品欄中。在升級畫面上消費使用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468568948736
+    m_Localized: 復活之翼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468573143040
+    m_Localized: 在奔跑期間隨時激活，提供 30 秒的死亡保護。如果你戴著這些翅膀死亡，死後會自動復活。請查看「選項」→「控制說明」以了解如何激活道具。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468573143041
+    m_Localized: 永久之翼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468577337344
+    m_Localized: 穿上這些特殊的翅膀，你在奔跑的第一次死亡後可立即復活。在跑步的前 100 公尺期間從暫停選單激活。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468581531648
+    m_Localized: 衝刺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468581531649
+    m_Localized: 在奔跑開始時無敵前進 1000 公尺。在跑步的前 100 公尺期間從暫停選單激活。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468585725952
+    m_Localized: 超級衝刺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468585725953
+    m_Localized: 在奔跑開始時無敵前進 2500 公尺。在跑步的前 100 公尺期間從暫停選單激活。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468589920256
+    m_Localized: 復活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468594114560
+    m_Localized: 為你的道具欄新增 1 次復活。復活可以累積，然後連續使用，發動一次超久的排行榜突襲！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468594114561
+    m_Localized: 快速填充
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468598308864
+    m_Localized: 半永久性地減少你的「復活」補充時間，縮短量顯示在獎勵下方。蒐集「快速填充」就能更快地補充最多 3 次復活，更頻繁地進行長時間遊戲。「快速填充」獎勵每 4 週會到期一次。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468602503168
+    m_Localized: 獎勵資訊
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468602503169
+    m_Localized: 下一層級門檻：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468606697472
+    m_Localized: 最終進度：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468610891776
+    m_Localized: 本次奔跑剩餘復活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468610891777
+    m_Localized: 金幣價值已完全升級！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468615086080
+    m_Localized: '{0} 小時'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468615086081
+    m_Localized: 沒有什麼比連續 20 次奔跑時把臉撞到樹上更能說明"d決心"。做一個🏆的冠軍🏆——危險傢伙，專業的生活教練。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468619280384
+    m_Localized: 想來次快跑嗎？自從我衝刺一頭撞到樹上後，已經過了⌛個小時⌛。——危險傢伙
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468623474688
+    m_Localized: 拿一些被詛咒的黃金吧！（✨這賽季很流行的。✨）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468623474689
+    m_Localized: 甘地說過"要成為你想看到的改變。"我說抓住💰的變化💰。它只是一直躺在那裡。——危險傢伙，全球尊敬的哲學家。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468627668992
+    m_Localized: 不要問🔔鐘聲🔔為誰而鳴，要問這鐘值多少錢。如果你抓住它，會有什麼東西追著你跑！ 🏃💰——危險傢伙，專業的經濟學家。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468631863296
+    m_Localized: ⌛人生苦短⌛......讓我們把口袋裡塞滿被詛咒的黃金，然後再一不小心衝下懸崖。——危險傢伙，諾貝爾獎獲得者。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468631863297
+    m_Localized: 💪讓金色神像看看誰才是老大！（或者至少衝刺到樹上幾次。）——危險傢伙
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468636057600
+    m_Localized: 你上次以 45 英里的時速衝刺到樹上是什麼時候？讓我們來改變這種狀況吧。🌳💥
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468640251904
+    m_Localized: 😈🐒哦們想泥咧🐒😈筷肥來被宰次呲掉吧——誠擲的，拐獸妖侯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468640251905
+    m_Localized: 手感火熱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468644446208
+    m_Localized: 完成教學
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468644446209
+    m_Localized: 已完成教學
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468648640512
+    m_Localized: https://www.imangistudios.com/privacy/eng/ZHH/privacy-policy-plus.html
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468652834816
+    m_Localized: 隱私權政策
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468657029120
+    m_Localized: 累積強化道具挑戰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468657029121
+    m_Localized: '在多次奔跑中蒐集到要求數目的強化道具以完成這項挑戰！ '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468661223424
+    m_Localized: 你的 iCloud 儲存已滿。現有的所有雲端存檔都無法使用。任何遊戲進度都可能無法儲存。如果是使用 iCloud 儲存，請前往 iCloud 設置，升級或清理出更多空間。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468665417728
+    m_Localized: 你的 iCloud 儲存已滿。任何遊戲進度都可能無法在本地儲存。如果是使用 iCloud 儲存，請前往 iCloud 設置，升級或清理出更多空間。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468665417729
+    m_Localized: 雲端儲存已滿
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468669612032
+    m_Localized: iPhone/iPad：\n支持藍牙控制器/鍵盤
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468673806336
+    m_Localized: 解鎖塔馬托亞，全薩摩亞最強大的戰士！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468673806337
+    m_Localized: 塔馬托亞，全薩摩亞最強大的戰士！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468678000640
+    m_Localized: 解鎖西蒙戴維斯，無情的海盜獵人！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468682194944
+    m_Localized: 西蒙戴維斯，無情的海盜獵人！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468682194945
+    m_Localized: 解鎖詩格弗羅斯彼得，冠軍伐木工！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468686389248
+    m_Localized: 詩格弗羅斯彼得，冠軍伐木工！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468686389249
+    m_Localized: 解鎖「黄金」蓋伊丹茲勞斯，被金色包裹的男人！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468690583552
+    m_Localized: ' 「黄金」蓋伊丹茲勞斯，被金色包裹的男人！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468694777856
+    m_Localized: 解鎖塞琳娜塞萊斯特，好奇的墜毀宇航員！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468694777857
+    m_Localized: 塞琳娜塞萊斯特，好奇的墜毀宇航員！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468698972160
+    m_Localized: 解鎖蒙塔古爵士，骷髏兵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468703166464
+    m_Localized: 蒙塔古爵士，骷髏兵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468703166465
+    m_Localized: 解鎖阿斯特里德女王，冰原荒地的統治者！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468707360768
+    m_Localized: 阿斯特里德女王，冰原荒地的統治者！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468711555072
+    m_Localized: 解鎖桑塔，北極主宰！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468711555073
+    m_Localized: 桑塔，北極主宰！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468715749376
+    m_Localized: 解鎖尼迪尼瑪爾，寶萊塢的超級巨星！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468715749377
+    m_Localized: 尼迪尼瑪爾，寶萊塢的超級巨星！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468719943680
+    m_Localized: 解鎖拉赫拉賈，印度最佳特技演員！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468724137984
+    m_Localized: 拉赫拉賈，印度最佳特技演員！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468724137985
+    m_Localized: 解鎖薩拉班揚，調皮的波斯草藥師！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468728332288
+    m_Localized: 薩拉班揚，調皮的波斯草藥師！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468732526592
+    m_Localized: 解鎖澤諾比奧斯博士，傑出的瘋狂科學家！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468732526593
+    m_Localized: 澤諾比奧斯博士，傑出的瘋狂科學家！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468736720896
+    m_Localized: 塔馬托亞
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468740915200
+    m_Localized: 西蒙\n戴維斯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468740915201
+    m_Localized: 詩格\n弗羅斯彼得
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468745109504
+    m_Localized: 黄金\n危險傢伙\n
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468745109505
+    m_Localized: 塞琳\n娜塞萊斯特
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468749303808
+    m_Localized: 蒙塔古\n爵士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468753498112
+    m_Localized: 阿斯特里德\n女王
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468753498113
+    m_Localized: 聖誕老人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468757692416
+    m_Localized: 尼迪\n尼瑪爾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468761886720
+    m_Localized: 拉赫\n拉賈
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468761886721
+    m_Localized: 薩拉\n班揚
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468766081024
+    m_Localized: 澤諾比奧斯\n博士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496035999744
+    m_Localized: 載入中……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496400904192
+    m_Localized: 你獲得金幣了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496409292800
+    m_Localized: 你安裝免費應用程式，獲得了{0}金幣！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496409292801
+    m_Localized: 免費金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496413487104
+    m_Localized: 要觀看簡短廣告以獲得{0}金幣嗎？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496417681408
+    m_Localized: 謝謝你的觀看！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496421875712
+    m_Localized: 已頒發{0}金幣！請在12小時後回來以獲得其他獎勵！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496421875713
+    m_Localized: 距離下次獎勵還有[]公尺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496426070016
+    m_Localized: 免費復活之翼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496430264320
+    m_Localized: 要觀看簡短廣告以獲得一對永久之翼嗎？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496430264321
+    m_Localized: 奔跑時使用你的復活之翼！請在12小時後回來以獲得其他獎勵！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496434458624
+    m_Localized: 獲得兩倍！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496438652928
+    m_Localized: 要觀看簡短廣告以獲得兩倍金幣嗎？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496438652929
+    m_Localized: 你已將收入變成兩倍！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496442847232
+    m_Localized: 購買失敗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496447041536
+    m_Localized: 無法連接iTunes Store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496447041537
+    m_Localized: 觀看影片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496451235840
+    m_Localized: 為《神廟逃亡》按讚！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496455430144
+    m_Localized: 啟用廣告
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496459624448
+    m_Localized: 免費遊戲廣告
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496459624449
+    m_Localized: 你要啟用在每場遊戲結束後的全螢幕廣告，並獲得{0}金幣嗎？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496463818752
+    m_Localized: 不了，謝謝
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496468013056
+    m_Localized: 啟用廣告！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496468013057
+    m_Localized: 在Facebook上按讚
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496472207360
+    m_Localized: 在Facebook上為《神廟逃亡》按讚以獲得{0}免費金幣！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496476401664
+    m_Localized: 在 X 上跟隨
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496480595968
+    m_Localized: 在Twitter上跟隨《神廟逃亡》以獲得{0}免費金幣！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496484790272
+    m_Localized: 沒有可用的優惠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496488984576
+    m_Localized: 本優惠目前不可用，請稍後再試！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496488984577
+    m_Localized: 升級商店
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496501567488
+    m_Localized: 你領取到一些金幣了——現在你可以在商店升級你的角色，以助你獲得更高得分！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496505761792
+    m_Localized: 現在不要
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496509956096
+    m_Localized: 檢視商店！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496514150400
+    m_Localized: 桌布
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496514150401
+    m_Localized: 下載中……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496518344704
+    m_Localized: 儲存中……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496522539008
+    m_Localized: 桌布已儲存
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496522539009
+    m_Localized: 你的桌布已儲存至你的圖像庫。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496526733312
+    m_Localized: 下載失敗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496530927616
+    m_Localized: 無法下載此項目。請確認你的網際網路連線可用，然後再試一次。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496530927617
+    m_Localized: 解鎖「神廟之牆」桌布。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496535121920
+    m_Localized: 下載「神廟之牆」桌布。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496539316224
+    m_Localized: 解鎖「冒險狂蓋伊」桌布。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496539316225
+    m_Localized: 下載「冒險狂蓋伊」桌布。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496543510528
+    m_Localized: 解鎖「邪惡妖猴」桌布。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496547704832
+    m_Localized: 下載「邪惡妖猴」桌布。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496547704833
+    m_Localized: 解鎖「神廟之牆」桌布。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496551899136
+    m_Localized: 下載「神廟之牆」桌布。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496556093440
+    m_Localized: 移除遊戲後的廣告。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496560287744
+    m_Localized: 已移除遊戲後的廣告。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496560287745
+    m_Localized: 下載
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496564482048
+    m_Localized: 想要免費金幣嗎？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496568676352
+    m_Localized: 在金幣商店的免費優惠區觀看影片或完成其他優惠以獲得金幣！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496568676353
+    m_Localized: 免費金幣！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496572870656
+    m_Localized: 無網際網路連線
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496577064960
+    m_Localized: 無法連接商店。請確認你的網際網路連線可用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496577064961
+    m_Localized: 正在聯繫商店……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496581259264
+    m_Localized: 正在載入產品……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496585453568
+    m_Localized: '{0}免費金幣'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496585453569
+    m_Localized: 免費優惠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496589647872
+    m_Localized: 在App Store上評分！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496593842176
+    m_Localized: 稍後提醒我
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496593842177
+    m_Localized: 不要再問
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496598036480
+    m_Localized: 使用者名稱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496602230784
+    m_Localized: 密碼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496602230785
+    m_Localized: 我在《神廟逃亡》中逃離妖猴時得到了%@分。你能贏我嗎？http://bit.ly/TempleRunGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496606425088
+    m_Localized: 推文失敗：請檢查你的登入或稍後再試
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496610619392
+    m_Localized: 好友標記
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496610619393
+    m_Localized: 完成挑戰里程碑以獲得獎勵！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496614813696
+    m_Localized: 關閉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496619008000
+    m_Localized: 全球挑戰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496619008001
+    m_Localized: 累計距離
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496623202304
+    m_Localized: 每趟積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496627396608
+    m_Localized: 每趟金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496627396609
+    m_Localized: 金幣總計
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496631590912
+    m_Localized: 累計積分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496635785216
+    m_Localized: 每趟距離
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496635785217
+    m_Localized: 取多更多金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496639979520
+    m_Localized: 更多內容即將推出……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496644173824
+    m_Localized: 角色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496644173825
+    m_Localized: 要觀看廣告來復活嗎？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496648368128
+    m_Localized: 已解鎖
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496652562432
+    m_Localized: 商店
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496656756736
+    m_Localized: 復原購買
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496656756737
+    m_Localized: 無廣告
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496660951040
+    m_Localized: 隱私權設定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496665145344
+    m_Localized: 分享！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496665145345
+    m_Localized: 解鎖1940年代的大膽飛行員冒險家，冒險狂蓋伊
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496669339648
+    m_Localized: 1940年代的大膽飛行員冒險家，冒險狂蓋伊
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496673533952
+    m_Localized: 解鎖1930年代的精明神偷斯嘉麗·福克斯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496673533953
+    m_Localized: 1930年代的精明神偷斯嘉麗·福克斯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496677728256
+    m_Localized: 解鎖勇猛的80年代勤務警察貝瑞·邦斯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496681922560
+    m_Localized: 勇猛的80年代勤務警察貝瑞·邦斯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496681922561
+    m_Localized: 解鎖史前500年的江湖俠客公主嘉瑪·李
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496686116864
+    m_Localized: 史前500年的江湖俠客公主嘉瑪·李
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496690311168
+    m_Localized: 解鎖逃出1800年代的西部盜賊蒙大拿·史密斯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496690311169
+    m_Localized: 逃出1800年代的西部盜賊蒙大拿·史密斯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496694505472
+    m_Localized: 解鎖1500年代的瘋狂西班牙僧侶法蘭西斯哥蒙托雅
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496698699776
+    m_Localized: 解鎖1500年代的瘋狂西班牙僧侶法蘭西斯哥蒙托雅
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496698699777
+    m_Localized: 解鎖2004年的美式足球明星柴克旺達
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496702894080
+    m_Localized: 2004年的美式足球明星柴克旺達
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496707088384
+    m_Localized: 解鎖1600年代的加勒比海艦長西蒙戴維斯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496707088385
+    m_Localized: 1600年代的加勒比海艦長西蒙戴維斯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496723865600
+    m_Localized: 解鎖永恆的田野守護者艾德格‧特維根巴登。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496723865601
+    m_Localized: 永恆的田野守護者艾德格‧特維根巴登
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496728059904
+    m_Localized: 解鎖公元500年代尋求救贖的少林僧侶凱翔
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496732254208
+    m_Localized: 公元500年代尋求救贖的少林僧侶凱翔
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496736448512
+    m_Localized: 解鎖惡毒的渾沌女王卡尼費斯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496736448513
+    m_Localized: 惡毒的渾沌女王卡尼費斯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496740642816
+    m_Localized: 解鎖1690年代作惡海洋的船長冰封海盜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496744837120
+    m_Localized: 1690年代作惡海洋的船長冰封海盜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496744837121
+    m_Localized: 解鎖散佈歡樂的聖誕節胡桃鉗士兵瓦利胡桃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496749031424
+    m_Localized: 散佈歡樂的聖誕節胡桃鉗士兵瓦利胡桃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496753225728
+    m_Localized: 解鎖公元930年代四處掠奪的維京王族阿斯特里德女王
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496757420032
+    m_Localized: 公元930年代四處掠奪的維京王族阿斯特里德女王
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496757420033
+    m_Localized: 解鎖無盡肆虐的永生半神克羅諾斯·泰姆比爾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496761614336
+    m_Localized: 無盡肆虐的永生半神克羅諾斯·泰姆比爾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16968939731935232
+    m_Localized: 謝謝！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406555136000
+    m_Localized: 距離下次獎勵還有 {0} 公尺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406815182848
+    m_Localized: 取得更高得分來推進
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406823571456
+    m_Localized: 距離下個獎勵還有{0}{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406823571457
+    m_Localized: 分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406827765760
+    m_Localized: 領取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406827765761
+    m_Localized: 已領取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406831960064
+    m_Localized: 開
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406836154368
+    m_Localized: 關
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406836154369
+    m_Localized: 全球挑戰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406840348672
+    m_Localized: 天使之翼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406844542976
+    m_Localized: 內部裝飾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406844542977
+    m_Localized: 解鎖3款桌布
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406848737280
+    m_Localized: 已解鎖3款桌布
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406848737281
+    m_Localized: 開始
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406852931584
+    m_Localized: 要觀看廣告來繼續嗎？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406857125888
+    m_Localized: 我在逃離妖猴時得到了{0}分。你能贏我嗎？{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406857125889
+    m_Localized: 復原完成！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406861320192
+    m_Localized: 成功！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406865514496
+    m_Localized: 這是什麼？是全球挑戰？！做好準備迎接{0}！！！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406869708800
+    m_Localized: 退縮吧，凡人！{0}來了！準備迎接新的全球挑戰！！！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406869708801
+    m_Localized: 別放棄！{0}還有獎品等你領取！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406873903104
+    m_Localized: 別忘了{0}！它還沒有忘記你。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406878097408
+    m_Localized: 動作快！再過{0}{1}就會消失了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406878097409
+    m_Localized: 繼續跑下去！你還有{0}來把握{1}的榮耀獎勵！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406882291712
+    m_Localized: 該跑一趟了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406882291713
+    m_Localized: 我們很想念你！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406886486016
+    m_Localized: 購買無廣告
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406890680320
+    m_Localized: 購買金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406890680321
+    m_Localized: 購買無廣告失敗。請檢查網際網路連線並再試一次。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406894874624
+    m_Localized: 購買金幣失敗。請檢查網際網路連線並再試一次。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406899068928
+    m_Localized: 購買已取消
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406899068929
+    m_Localized: 由於連線失敗，訊息\"{0}\"無法送出。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406903263232
+    m_Localized: 再試一次
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406903263233
+    m_Localized: 無法分享
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406907457536
+    m_Localized: 失敗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406911651840
+    m_Localized: 抱歉，影片播放失敗。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406911651841
+    m_Localized: 獎勵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406915846144
+    m_Localized: 重新套用同意遊戲內購買，以啟用金幣商店
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406920040448
+    m_Localized: 目前無法使用金幣商店，請聯絡support@imangistudios.com以了解更多資訊。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406920040449
+    m_Localized: 已新增{0}金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406924234752
+    m_Localized: 需要更新
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406924234753
+    m_Localized: 需要更新才能繼續遊玩《Temple Run》。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406928429056
+    m_Localized: 免費角色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406932623360
+    m_Localized: 新角色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406932623361
+    m_Localized: 新冒險
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406936817664
+    m_Localized: 加入我們
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406936817665
+    m_Localized: 已取消分享！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406941011968
+    m_Localized: 分享失敗！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406945206272
+    m_Localized: 分享成功！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406945206273
+    m_Localized: 已完成里程碑{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23200394329972736
+    m_Localized: 感謝更新
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23200394455801856
+    m_Localized: 感謝你確保《神廟逃亡》維持最新狀態！請收下這份500金幣的禮物！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23204094888894464
+    m_Localized: 500金幣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23204095056666624
+    m_Localized: 不了，謝謝
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55828746446299136
+    m_Localized: 感謝下載《Temple Run》！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355477262336
+    m_Localized: "以法蘭西斯哥\\n蒙托雅\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355628257280
+    m_Localized: 探索未知\n
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355636645888
+    m_Localized: 可在跑者選擇中免費取用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929317220352
+    m_Localized: 可在跑者選擇中免費取用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929606627328
+    m_Localized: 與嘉瑪·李
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929619210240
+    m_Localized: 一同登上\n傳奇
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929623404544
+    m_Localized: 以柴克·旺達
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929627598848
+    m_Localized: 完善整裝\n展開冒險
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929635987456
+    m_Localized: 黑暗之道\n正在等待
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929640181760
+    m_Localized: 卡尼費斯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929644376064
+    m_Localized: 女王\n率先登場
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929652764672
+    m_Localized: 阿斯特里德
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929656958976
+    m_Localized: 打开神秘面影\n自身未知冒險
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929661153280
+    m_Localized: 以瓦利‧胡桃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773763731456
+    m_Localized: 一起進入\n傳奇
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773776314368
+    m_Localized: 與嘉瑪·李
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773780508672
+    m_Localized: 可在跑者選擇中免費取用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126122979169918976
+    m_Localized: 以柴克·旺達
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126463690687897600
+    m_Localized: 一起進入\n傳奇
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126497313759682560
+    m_Localized: 以柴克·旺達
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126497313763876864
+    m_Localized: 可在跑者選擇中免費取用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126481317888
+    m_Localized: 淘金\n狂熱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126485512192
+    m_Localized: 瘋狂\n逃亡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126485512193
+    m_Localized: 全新\n開端
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027824455680
+    m_Localized: 帶走\n大鳥
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027824455681
+    m_Localized: 神廟\n奪寶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649984
+    m_Localized: 最長的\n一段路！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649985
+    m_Localized: 深入\n遺跡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649986
+    m_Localized: 自在\n狂奔
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649987
+    m_Localized: 佳節\n狂想
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844288
+    m_Localized: 熱季\n馬拉松
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844289
+    m_Localized: 萬聖節\n驚喜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844290
+    m_Localized: 天寒\n地凍！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038592
+    m_Localized: 獲得\n寶藏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038593
+    m_Localized: 你能存活下來嗎？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038594
+    m_Localized: 感受佳節
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232896
+    m_Localized: 一起來歡度佳節！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232897
+    m_Localized: 探尋失落神像
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232898
+    m_Localized: 你能度過嗎？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232899
+    m_Localized: 探索\n未知
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427200
+    m_Localized: 哦你可\n看見？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427201
+    m_Localized: 佳節季\n到來
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427202
+    m_Localized: 克服\n盛熱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027849621504
+    m_Localized: 來點\n零食
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027849621505
+    m_Localized: 度過\n極寒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477794344960
+    m_Localized: 重置進度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477811122176
+    m_Localized: 提升廣告效果
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316480
+    m_Localized: 許可
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316481
+    m_Localized: 不允许
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316482
+    m_Localized: 取消許可？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316483
+    m_Localized: "你目前已允許 Imangi 將你裝置的廣告 ID 提供至廣告網路，用於遊戲中的廣告目的。\n你確定要取消許可嗎？\n（點擊 是 將關閉遊戲。重新啟動以使變更生效）"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510784
+    m_Localized: 提升廣告效果？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510785
+    m_Localized: "Temple Run 採用廣告支持。為了向你提供盡可能相關的廣告，我們將與廣告合作夥伴收集並分享資料。請注意，選擇 不謝謝 不會移除廣告。你可能會看到與你無關的廣告。你可以隨時在 設定 中更新你的選擇。\n（點擊 是 將關閉遊戲。重新啟動以使變更生效）"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510786
+    m_Localized: 征服\n季節
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649416769536
+    m_Localized: 逃離危險 \n 與...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649437741056
+    m_Localized: SCARLETT FOX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649437741057
+    m_Localized: 在Runner Select免費提供
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202893421137879040
+    m_Localized: 可在「角色選擇」中免費獲取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574259658752
+    m_Localized: 掌控你的 \n 速度，盡在...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574322573312
+    m_Localized: KAI XIANG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574322573313
+    m_Localized: 可在「角色選擇」中免費獲取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105925562368
+    m_Localized: 掌控你的 \n 速度，盡在...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105938145280
+    m_Localized: 貝瑞·博恩斯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105938145281
+    m_Localized: 可在「角色選擇」中免費獲取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438307418112
+    m_Localized: 尼迪\n尼瑪爾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438332583936
+    m_Localized: 解鎖尼迪尼瑪爾，寶萊塢的超級巨星！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438332583937
+    m_Localized: 尼迪尼瑪爾，寶萊塢的超級巨星！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984695754752
+    m_Localized: 祝15 \n 週年，與…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984729309184
+    m_Localized: 尼迪·尼爾瑪爾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984729309185
+    m_Localized: 可在「角色選擇」中免費獲取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096434597888
+    m_Localized: 再來！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096451375104
+    m_Localized: 15周年
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096455569408
+    m_Localized: 領取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096455569409
+    m_Localized: 15,000枚免費金幣！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228703228063113216
+    m_Localized: 立即領取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075348025344
+    m_Localized: 不停奔跑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075381579776
+    m_Localized: 15年後……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774080
+    m_Localized: 生日寶藏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774081
+    m_Localized: 每枚金幣都太好了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774082
+    m_Localized: 再跑一局
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774083
+    m_Localized: 你能跑多遠？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412179812352
+    m_Localized: 寶藏在前 \n 與...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412196589568
+    m_Localized: 法蘭西斯科・蒙托亞
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412196589569
+    m_Localized: 可在「角色選擇」中免費獲取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243860789221384192
+    m_Localized: 飛奔 \n 賽場，加入...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243860789229772800
+    m_Localized: 週五奔跑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252909526883229696
+    m_Localized: 與…一起向前衝
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252909526900006912
+    m_Localized: ZACK WONDER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260263528729927680
+    m_Localized: 和他一起 \n 恐怖開跑...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260263528746704896
+    m_Localized: EDGAR TWIGGENBOTTOM
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

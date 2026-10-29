@@ -1,0 +1,4003 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: TempleRunLocTable_fr
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 0071ada7e6fa56344b4d42c06e5e2bd7, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 306466174001152
+    m_Localized: Emparez-vous de l'idole
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466660540416
+    m_Localized: Si vous l'osez !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466681511936
+    m_Localized: Jouer !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466685706240
+    m_Localized: Objectifs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466702483456
+    m_Localized: Stats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466706677760
+    m_Localized: Améliorations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466710872064
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466710872065
+    m_Localized: Sélection de sauvegarde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466715066368
+    m_Localized: Retours à la vie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466719260672
+    m_Localized: Défi hebdomadaire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466723454976
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466723454977
+    m_Localized: Sensibilité
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466727649280
+    m_Localized: Musique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466731843584
+    m_Localized: Son
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466731843585
+    m_Localized: Didacticiel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466736037888
+    m_Localized: 'Langue : Français'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466740232192
+    m_Localized: Supprimer les données de sauvegarde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466740232193
+    m_Localized: Respect de la vie privée
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466744426496
+    m_Localized: RETOUR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466748620800
+    m_Localized: Langue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466752815104
+    m_Localized: Pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466752815105
+    m_Localized: 'Score :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466757009408
+    m_Localized: 'Distance :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466761203712
+    m_Localized: 'Pièces :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466765398016
+    m_Localized: 'Multiplicateur :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466765398017
+    m_Localized: 'Objectif suivant :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466769592320
+    m_Localized: 'Rang suivant :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466773786624
+    m_Localized: Menu principal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466773786625
+    m_Localized: Nouvelle partie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466777980928
+    m_Localized: Reprendre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466782175232
+    m_Localized: Nouvelle partie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466782175233
+    m_Localized: Votre progression sera perdue ! Voulez-vous vraiment commencer une nouvelle partie ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466786369536
+    m_Localized: Quitter le jeu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466790563840
+    m_Localized: Votre progression sera perdue ! Voulez-vous vraiment quitter le jeu ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466790563841
+    m_Localized: Non
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466794758144
+    m_Localized: Oui
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466798952448
+    m_Localized: Continuer ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466803146752
+    m_Localized: 'Prochaine vie : <color=#F6D600>{0} min {1} s</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466803146753
+    m_Localized: Retour à la vie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466807341056
+    m_Localized: Mettre fin à la partie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466811535360
+    m_Localized: MAX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466815729664
+    m_Localized: Stats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466815729665
+    m_Localized: 'Multiplicateur :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466819923968
+    m_Localized: x{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466824118272
+    m_Localized: Partie unique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466824118273
+    m_Localized: 'Score max. :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466828312576
+    m_Localized: 'Distance max. :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466832506880
+    m_Localized: '{0} m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466832506881
+    m_Localized: 'Pièces max. :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466836701184
+    m_Localized: avec retour à la vie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466840895488
+    m_Localized: Au total
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466840895489
+    m_Localized: 'Total des parties jouées :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466845089792
+    m_Localized: 'Total de la distance parcourue :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466849284096
+    m_Localized: 'Total des pièces ramassées :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466853478400
+    m_Localized: Améliorations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466853478401
+    m_Localized: BONUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466857672704
+    m_Localized: Inconnu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466861867008
+    m_Localized: Méga-pièce valant 50 pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466861867009
+    m_Localized: La Méga-pièce vaut 75 pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466866061312
+    m_Localized: La Méga-pièce vaut 100 pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466870255616
+    m_Localized: La Méga-pièce vaut 125 pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466870255617
+    m_Localized: La Méga-pièce vaut 150 pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466874449920
+    m_Localized: Autoriser la désactivation de la Méga-pièce.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466878644224
+    m_Localized: Méga-pièce pleinement améliorée !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466878644225
+    m_Localized: Méga-pièce désactivée.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466882838528
+    m_Localized: AMÉLIORER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466887032832
+    m_Localized: GRATUIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466887032833
+    m_Localized: ACTIVER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466891227136
+    m_Localized: DÉSACTIVER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466895421440
+    m_Localized: Bonus Aimant à pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466895421441
+    m_Localized: L'Aimant à pièces dure plus longtemps.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466899615744
+    m_Localized: L'Aimant à pièces double la valeur des pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466899615745
+    m_Localized: L'Aimant à pièces dure plus longtemps.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466903810048
+    m_Localized: L'Aimant à pièces triple la valeur des pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466908004352
+    m_Localized: Autoriser la désactivation de l'Aimant à pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466912198656
+    m_Localized: Aimant à pièces pleinement amélioré !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466912198657
+    m_Localized: Aimant à pièces désactivé.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466916392960
+    m_Localized: Bonus Invisibilité.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466920587264
+    m_Localized: L'Invisibilité dure plus longtemps.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466920587265
+    m_Localized: Autoriser la désactivation de l'Invisibilité.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466924781568
+    m_Localized: Invisibilité pleinement améliorée !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466928975872
+    m_Localized: Autoriser la désactivation de l'Invisibilité.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466928975873
+    m_Localized: Accélération sur 250 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466933170176
+    m_Localized: Accélération sur 375 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466937364480
+    m_Localized: Accélération sur 500 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466937364481
+    m_Localized: Accélération sur 625 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466941558784
+    m_Localized: Accélération sur 750 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466945753088
+    m_Localized: Autoriser la désactivation de l'Accélération.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466949947392
+    m_Localized: Accélération pleinement améliorée !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466949947393
+    m_Localized: Accélération désactivée.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466954141696
+    m_Localized: Pièces doublées après {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466958336000
+    m_Localized: Pièces doublées après {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466958336001
+    m_Localized: Pièces doublées après {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466962530304
+    m_Localized: Pièces triplées après {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466966724608
+    m_Localized: Pièces triplées après {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466966724609
+    m_Localized: Pièces triplées après {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466970918912
+    m_Localized: PLEINEMENT AMÉLIORÉ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466975113216
+    m_Localized: OBJETS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466975113217
+    m_Localized: Si activées, vous revenez à la vie tout de suite.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466979307520
+    m_Localized: USAGE UNIQUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466983501824
+    m_Localized: Ailes de résurrection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466983501825
+    m_Localized: 'Pour activer les Ailes de résurrection pendant votre partie, appuyez deux fois sur l''écran, ou mettez en pause et sélectionnez-les. Dure 30 s après activation. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466987696128
+    m_Localized: 'Pour activer les Ailes de résurrection pendant votre partie, maintenez le bouton central pendant 1 seconde, ou mettez en pause et sélectionnez-les. Dure 30 s après activation. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466987696129
+    m_Localized: 'Pour activer les Ailes de résurrection pendant votre partie, appuyez sur le bouton en haut de votre manette (Y/△), ou mettez en pause et sélectionnez-les. Dure 30 s après activation. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466991890432
+    m_Localized: 'Pour activer les Ailes de résurrection pendant votre partie, appuyez sur la touche [R], ou mettez en pause et sélectionnez-les. Dure 30 s après activation. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466996084736
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466996084737
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467000279040
+    m_Localized: Ces Ailes de résurrection restent actives.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467004473344
+    m_Localized: Ailes permanentes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467004473345
+    m_Localized: Mettez en pause et sélectionnez les Ailes permanentes en début de partie pour les activer. Vous revenez automatiquement à la vie si vous mourez.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467008667648
+    m_Localized: Donne 1 000 m d'avance au départ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467012861952
+    m_Localized: Départ anticipé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467012861953
+    m_Localized: Mettez en pause et sélectionnez le Départ anticipé en début de partie pour foncer directement sur 1 000 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467017056256
+    m_Localized: Donne 2 500 m d'avance au départ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467021250560
+    m_Localized: Méga-départ anticipé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467025444864
+    m_Localized: Mettez le jeu en pause et sélectionnez le Méga-départ anticipé en début de partie pour foncer directement sur 2 500 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467025444865
+    m_Localized: PERSONNAGES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467029639168
+    m_Localized: ACTUELLEMENT ACTIF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467033833472
+    m_Localized: ACTIVER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467033833473
+    m_Localized: DÉBLOQUER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467038027776
+    m_Localized: Débloquer Guy Dangerous, un explorateur comme un autre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467042222080
+    m_Localized: Débloquer Scarlett Fox, la spécialiste de l'évasion.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467042222081
+    m_Localized: Débloquer Barry Bones, un policier new-yorkais au caractère bien trempé.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467046416384
+    m_Localized: Débloquer Karma Lee, l'athlète la plus rapide d'Extrême-Orient.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467050610688
+    m_Localized: Débloquer Montana Smith, le 2e meilleur explorateur du monde.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467050610689
+    m_Localized: Débloquer Francisco Montoya, le conquistador.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467054804992
+    m_Localized: Débloquer Zack Wonder, la star du football américain.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467058999296
+    m_Localized: Guy Dangerous, un explorateur comme un autre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467058999297
+    m_Localized: Scarlett Fox, la spécialiste de l'évasion.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467063193600
+    m_Localized: Barry Bones, un policier new-yorkais au caractère bien trempé.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467067387904
+    m_Localized: Karma Lee, l'athlète la plus rapide d'Extrême-Orient.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467067387905
+    m_Localized: Montana Smith, le 2emeilleur explorateur du monde.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467071582208
+    m_Localized: Francisco Montoya, le conquistador.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467075776512
+    m_Localized: Zack Wonder, la star du football américain.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467075776513
+    m_Localized: PAS ASSEZ DE PIÈCES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467079970816
+    m_Localized: Dépensez ici les pièces ramassées lors de votre partie !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467084165120
+    m_Localized: La requête a échoué
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467084165121
+    m_Localized: Impossible de remplir la requête maintenant. Veuillez réessayer ultérieurement.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467088359424
+    m_Localized: Super score !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467092553728
+    m_Localized: Balayer pour tourner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467092553729
+    m_Localized: Balayer pour tourner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467096748032
+    m_Localized: Balayer pour tourner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467100942336
+    m_Localized: Balayer pour sauter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467100942337
+    m_Localized: Balayer pour glisser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467105136640
+    m_Localized: Incliner pour ramasser les pièces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467105136641
+    m_Localized: Incliner pour ramasser les pièces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467113525248
+    m_Localized: Incliner pour ramasser les pièces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467113525249
+    m_Localized: Balayer pour tourner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467117719552
+    m_Localized: Balayer pour tourner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467121913856
+    m_Localized: Balayer pour tourner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467121913857
+    m_Localized: Balayer vers le haut pour sauter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467126108160
+    m_Localized: Balayer vers le bas pour glisser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467130302464
+    m_Localized: Balayer pour ramasser les pièces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467130302465
+    m_Localized: Balayer pour ramasser les pièces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467134496768
+    m_Localized: Balayer pour ramasser les pièces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467138691072
+    m_Localized: BMD gauche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467138691073
+    m_Localized: BMD droit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467142885376
+    m_Localized: BMD droit/gauche pour tourner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467142885377
+    m_Localized: Haut pour sauter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467147079680
+    m_Localized: Bas pour glisser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467151273984
+    m_Localized: Gauche pour ramasser les pièces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467155468288
+    m_Localized: Droite pour ramasser les pièces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467155468289
+    m_Localized: Gauche/droite pour ramasser les pièces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467159662592
+    m_Localized: Flèche gauche pour tourner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467163856896
+    m_Localized: Flèche droite pour tourner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467163856897
+    m_Localized: Gauche/droite pour tourner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467168051200
+    m_Localized: Flèche haut pour sauter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467172245504
+    m_Localized: Flèche bas pour glisser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467172245505
+    m_Localized: Flèche gauche pour ramasser les pièces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467176439808
+    m_Localized: Flèche droite pour ramasser les pièces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467180634112
+    m_Localized: Gauche/droite pour ramasser les pièces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467180634113
+    m_Localized: Remplissez la jauge pour marquer un bonus de points !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467184828416
+    m_Localized: Beau travail !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467189022720
+    m_Localized: Vous pouvez y aller ! Bonne chance !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467189022721
+    m_Localized: Une manette a été connectée
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467193217024
+    m_Localized: La manette a été déconnectée
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467197411328
+    m_Localized: Activez les objets dans le menu de pause.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467197411329
+    m_Localized: Commandes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467201605632
+    m_Localized: Toucher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467205799936
+    m_Localized: Télécommande Siri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467205799937
+    m_Localized: Remote 2e génération
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467209994240
+    m_Localized: Manette de jeu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467209994241
+    m_Localized: Clavier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467214188544
+    m_Localized: 'Tourner à gauche :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467218382848
+    m_Localized: 'Tourner à droite :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467218382849
+    m_Localized: 'Aller à gauche pour ramasser les pièces :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467222577152
+    m_Localized: 'Aller à droite pour ramasser les pièces :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467226771456
+    m_Localized: 'Sauter :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467226771457
+    m_Localized: 'Glisser :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467230965760
+    m_Localized: 'Menu de pause :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467235160064
+    m_Localized: Objets à ramasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467235160065
+    m_Localized: 'Ailes de résurrection de 30 s :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467239354368
+    m_Localized: Objets de départ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467243548672
+    m_Localized: 'Départ anticipé :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467243548673
+    m_Localized: 'Méga-départ anticipé :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467247742976
+    m_Localized: 'Ailes permanentes :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467251937280
+    m_Localized: Balayer à gauche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467251937281
+    m_Localized: Balayer à droite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467256131584
+    m_Localized: Balayer vers le haut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467260325888
+    m_Localized: Balayer vers le bas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467264520192
+    m_Localized: Incliner à gauche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467264520193
+    m_Localized: Incliner à droite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467268714496
+    m_Localized: Toucher l'icône de pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467272908800
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467272908801
+    m_Localized: Toucher l'écran deux fois durant la partie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467277103104
+    m_Localized: ou mettre en pause, puis choisir les Ailes de résurrection dans le menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467281297408
+    m_Localized: Mettre en pause après le début du compte à rebours,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467281297409
+    m_Localized: puis choisir Départ anticipé dans le menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467285491712
+    m_Localized: Mettre en pause après le début du compte à rebours,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467289686016
+    m_Localized: puis choisir Méga-départ anticipé dans le menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467289686017
+    m_Localized: Mettre en pause après le début du compte à rebours,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467293880320
+    m_Localized: puis choisir Ailes permanentes dans le menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467298074624
+    m_Localized: Balayer à gauche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467298074625
+    m_Localized: Balayer à droite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467302268928
+    m_Localized: Balayer vers le haut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467302268929
+    m_Localized: Balayer vers le bas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467306463232
+    m_Localized: Balayer à gauche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467310657536
+    m_Localized: Balayer à droite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467310657537
+    m_Localized: Touche de pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467314851840
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467319046144
+    m_Localized: Appuyer et maintenir le bouton central
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467323240448
+    m_Localized: ou mettre en pause, puis choisir les Ailes de résurrection dans le menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467323240449
+    m_Localized: Mettre en pause après le début du compte à rebours,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467327434752
+    m_Localized: puis choisir Départ anticipé dans le menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467331629056
+    m_Localized: Mettre en pause après le début du compte à rebours,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467331629057
+    m_Localized: puis choisir Méga-départ anticipé dans le menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467335823360
+    m_Localized: Mettre en pause après le début du compte à rebours,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467335823361
+    m_Localized: puis choisir les Ailes permanentes dans le menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467340017664
+    m_Localized: BMD/stick ←/L1(LB)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467344211968
+    m_Localized: BMD/stick →/R1(RB)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467344211969
+    m_Localized: BMD/stick ↑ or A/×
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467348406272
+    m_Localized: BMD/stick ↓ or X/□
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467352600576
+    m_Localized: BMD/stick ←
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467352600577
+    m_Localized: BMD/stick →
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467356794880
+    m_Localized: Bouton Démarrer/Menu/Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467360989184
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467360989185
+    m_Localized: Y/△, ou mettre en pause,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467365183488
+    m_Localized: puis choisir Ailes de résurrection dans le menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467365183489
+    m_Localized: Mettre en pause après le début du compte à rebours,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467369377792
+    m_Localized: puis choisir Départ anticipé dans le menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467373572096
+    m_Localized: Mettre en pause après le début du compte à rebours,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467373572097
+    m_Localized: puis choisir Méga-départ anticipé dans le menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467377766400
+    m_Localized: Mettre en pause après le début du compte à rebours,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467381960704
+    m_Localized: puis choisir Ailes permanentes dans le menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467381960705
+    m_Localized: Touche [←] ou [A]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467386155008
+    m_Localized: Touche [→] ou [D]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467390349312
+    m_Localized: Touche [↑] ou [W]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467390349313
+    m_Localized: Touche [↓] ou [S]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467394543616
+    m_Localized: Touche [←] ou [A]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467394543617
+    m_Localized: Touche [→] ou [D]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467398737920
+    m_Localized: Touche [ÉCHAP]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467402932224
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467407126528
+    m_Localized: Touche [R] or mettre en pause,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467407126529
+    m_Localized: puis choisir Ailes de résurrection dans le menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467411320832
+    m_Localized: Mettre en pause après le début du compte à rebours,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467415515136
+    m_Localized: puis choisir Départ anticipé dans le menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467415515137
+    m_Localized: Mettre en pause après le début du compte à rebours,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467419709440
+    m_Localized: puis choisir Méga-départ anticipé dans le menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467423903744
+    m_Localized: Mettre en pause après le début du compte à rebours,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467423903745
+    m_Localized: puis choisir Ailes permanentes dans le menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467428098048
+    m_Localized: Objectifs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467428098049
+    m_Localized: Trophée de participation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467432292352
+    m_Localized: Participer à 1 défi hebdomadaire.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467436486656
+    m_Localized: Vous avez participé à 1 défi hebdomadaire.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467436486657
+    m_Localized: Habitué
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467440680960
+    m_Localized: Participer à 5 défis hebdomadaires.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467444875264
+    m_Localized: Vous avez participé à 5 défis hebdomadaires.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467444875265
+    m_Localized: Vétéran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467449069568
+    m_Localized: Participer à 10 défis hebdomadaires.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467453263872
+    m_Localized: Vous avez participé à 10 défis hebdomadaires.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467453263873
+    m_Localized: Travailleur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467457458176
+    m_Localized: Atteindre le rang Légende dans 1 défi hebdomadaire.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467457458177
+    m_Localized: Vous avez atteint le rang Légende dans 1 défi hebdomadaire.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467461652480
+    m_Localized: 'Travailleur pressé '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467465846784
+    m_Localized: Atteindre le rang Légende dans 2 défis hebdomadaires.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467465846785
+    m_Localized: Vous avez atteint le rang Légende dans 2 défis hebdomadaires.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467470041088
+    m_Localized: Challenger de niveau mondial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467474235392
+    m_Localized: Atteindre le rang Légende dans 3 défis hebdomadaires.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467478429696
+    m_Localized: Vous avez atteint le rang Légende dans 3 défis hebdomadaires.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467478429697
+    m_Localized: Célébrité
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467482624000
+    m_Localized: Atteindre le rang Légende dans 4 défis hebdomadaires.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467486818304
+    m_Localized: Vous avez atteint le rang Légende dans 4 défis hebdomadaires.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467486818305
+    m_Localized: 'Jusqu''au-boutiste   '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467491012608
+    m_Localized: Atteindre le rang Légende dans 5 défis hebdomadaires.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467499401216
+    m_Localized: Vous avez atteint le rang Légende dans 5 défis hebdomadaires.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467503595520
+    m_Localized: Encore un peu !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467507789824
+    m_Localized: Utiliser 1 Retour à la vie au cours d'une partie unique.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467507789825
+    m_Localized: Vous avez utilisé 1 Retour à la vie au cours d'une partie unique.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467511984128
+    m_Localized: Toujours plus loin !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467516178432
+    m_Localized: Utiliser 2 Retours à la vie au cours d'une partie unique.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467516178433
+    m_Localized: Vous avez utilisé 2 Retours à la vie au cours d'une partie unique.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467520372736
+    m_Localized: Vous y êtes presque !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467524567040
+    m_Localized: Utiliser 3 Retours à la vie au cours d'une partie unique.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467524567041
+    m_Localized: Vous avez utilisé 3 Retours à la vie au cours d'une partie unique.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467528761344
+    m_Localized: Top 10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467532955648
+    m_Localized: Être classé dans le top 10 d'un tableau des scores.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467532955649
+    m_Localized: Vous avez réussi à vous classer dans le top 10 d'un tableau des scores.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467537149952
+    m_Localized: Top 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467541344256
+    m_Localized: Être classé dans le top 5 d'un tableau des scores.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467541344257
+    m_Localized: Vous avez réussi à vous classer dans le top 5 d'un tableau des scores.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467545538560
+    m_Localized: Coureur novice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467549732864
+    m_Localized: Courir sur 500 mètres.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467549732865
+    m_Localized: Vous avez parcouru 500 mètres en courant.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467553927168
+    m_Localized: Argent de poche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467553927169
+    m_Localized: Ramasser 100 pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467558121472
+    m_Localized: Vous avez ramassé 100 pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467562315776
+    m_Localized: Aventurier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467562315777
+    m_Localized: Marquer 25 000 points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467566510080
+    m_Localized: Vous avez marqué 25 000 points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467570704384
+    m_Localized: Sprinter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467570704385
+    m_Localized: Courir sur 1 000 mètres.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467574898688
+    m_Localized: Vous avez parcouru 1 000 mètres en courant.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467579092992
+    m_Localized: Coureur avare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467583287296
+    m_Localized: 500 mètres sans ramasser de pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467583287297
+    m_Localized: 500 mètres sans avoir ramassé de pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467587481600
+    m_Localized: Tirelire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467591675904
+    m_Localized: Ramasser 250 pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467591675905
+    m_Localized: Vous avez ramassé 250 pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467595870208
+    m_Localized: Chasseur de trésors
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467600064512
+    m_Localized: Marquer 50 000 points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467600064513
+    m_Localized: Vous avez marqué 50 000 points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467604258816
+    m_Localized: Méga-bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467604258817
+    m_Localized: Remplir la jauge bonus à 4 reprises.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467608453120
+    m_Localized: Vous avez rempli la jauge bonus à 4 reprises.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467612647424
+    m_Localized: Athlète
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467612647425
+    m_Localized: Courir sur 2 500 mètres.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467616841728
+    m_Localized: Vous avez parcouru 2 500 mètres en courant.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467621036032
+    m_Localized: Belle somme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467621036033
+    m_Localized: Ramasser 500 pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467625230336
+    m_Localized: Vous avez ramassé 500 pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467629424640
+    m_Localized: Résurrection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467629424641
+    m_Localized: Utiliser les Ailes de résurrection dans une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467633618944
+    m_Localized: Vous avez utilisé les Ailes de résurrection dans une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467637813248
+    m_Localized: Pouvoirs de base
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467642007552
+    m_Localized: Obtenir tous les bonus de niveau 1.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467642007553
+    m_Localized: Vous avez obtenu tous les bonus de niveau 1.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467646201856
+    m_Localized: Flambeur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467646201857
+    m_Localized: Marquer 100 000 points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467650396160
+    m_Localized: Vous avez marqué 100 000 points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467654590464
+    m_Localized: Jour de paie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467654590465
+    m_Localized: Ramasser 750 pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467658784768
+    m_Localized: Vous avez ramassé 750 pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467662979072
+    m_Localized: Départ anticipé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467662979073
+    m_Localized: Utiliser Départ anticipé.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467667173376
+    m_Localized: Vous avez utilisé Départ anticipé.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467671367680
+    m_Localized: Sens de l'équilibre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467671367681
+    m_Localized: Courir sur 2 500 mètres sans trébucher.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467675561984
+    m_Localized: Vous avez parcouru 2 500 mètres en courant sans trébucher.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467679756288
+    m_Localized: Allergique à l'or
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467683950592
+    m_Localized: 1 000 mètres sans ramasser de pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467683950593
+    m_Localized: 1 000 mètres sans avoir ramassé de pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467688144896
+    m_Localized: Coureur de demi-fond
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467692339200
+    m_Localized: Courir sur 5 000 mètres.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467692339201
+    m_Localized: Vous avez parcouru 5 000 mètres en courant.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467696533504
+    m_Localized: Équilibriste confirmé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467700727808
+    m_Localized: Courir sur 5 000 mètres sans trébucher.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467700727809
+    m_Localized: Vous avez parcouru 5 000 mètres en courant sans trébucher.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467704922112
+    m_Localized: Club des quart-de-millionnaires
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467709116416
+    m_Localized: Marquer 250 000 points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467709116417
+    m_Localized: Vous avez marqué 250 000 points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467713310720
+    m_Localized: Double résurrection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467717505024
+    m_Localized: Utiliser les Ailes de résurrection deux fois en une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467717505025
+    m_Localized: Vous avez utilisé les Ailes de résurrection deux fois en une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467721699328
+    m_Localized: Sacs de pièces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467721699329
+    m_Localized: Ramasser 1 000 pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467725893632
+    m_Localized: Vous avez ramassé 1 000 pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467730087936
+    m_Localized: Club des demi-millionnaires
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467730087937
+    m_Localized: Marquer 500 000 points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467734282240
+    m_Localized: Vous avez marqué 500 000 points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467738476544
+    m_Localized: Superpouvoirs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467738476545
+    m_Localized: Obtenir tous les bonus de niveau 5.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467742670848
+    m_Localized: Vous avez obtenu tous les bonus de niveau 5.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467746865152
+    m_Localized: Duo de choc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467751059456
+    m_Localized: Débloquer deux personnages.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467751059457
+    m_Localized: Vous avez débloqué deux personnages.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467755253760
+    m_Localized: Club des millionnaires
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467759448064
+    m_Localized: Marquer 1 000 000 de points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467759448065
+    m_Localized: Vous avez marqué 1 000 000 de points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467763642368
+    m_Localized: Coffre de pièces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467763642369
+    m_Localized: Ramasser 2 500 pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467767836672
+    m_Localized: Vous avez ramassé 2 500 pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467772030976
+    m_Localized: Quatre fantastiques
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467772030977
+    m_Localized: Débloquer quatre personnages.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467776225280
+    m_Localized: Vous avez débloqué quatre personnages.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467780419584
+    m_Localized: Club des six
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467784613888
+    m_Localized: Débloquer six personnages.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467784613889
+    m_Localized: Vous avez débloqué six personnages.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467788808192
+    m_Localized: Coureur de fond
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467793002496
+    m_Localized: Courir sur 10 000 mètres.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467793002497
+    m_Localized: Vous avez parcouru 10 000 mètres en courant.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467797196800
+    m_Localized: Fort Knox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467797196801
+    m_Localized: Ramasser 5 000 pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467801391104
+    m_Localized: Vous avez ramassé 5 000 pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467805585408
+    m_Localized: Club des multimillionnaires
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467805585409
+    m_Localized: Marquer 2 500 000 points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467809779712
+    m_Localized: Vous avez marqué 2 500 000 points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467813974016
+    m_Localized: Club des super-multimillionnaires
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467818168320
+    m_Localized: Marquer 5 000 000 de points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467818168321
+    m_Localized: Vous avez marqué 5 000 000 de points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467822362624
+    m_Localized: Spartiate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467826556928
+    m_Localized: Marquer 1 000 000 de points sans utiliser de bonus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467826556929
+    m_Localized: Vous avez marqué 1 000 000 de points sans utiliser de bonus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467830751232
+    m_Localized: Club des giga-multimillionnaires
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467834945536
+    m_Localized: Marquer 10 000 000 de points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467834945537
+    m_Localized: Vous avez marqué 10 000 000 de points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467839139840
+    m_Localized: Explorateur de temples
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467843334144
+    m_Localized: Jouer plus de 1 000 parties.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467843334145
+    m_Localized: Vous avez joué plus de 1 000 parties.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467847528448
+    m_Localized: Mineur débutant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467851722752
+    m_Localized: Ramasser un total de 100 000 pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467851722753
+    m_Localized: Vous avez ramassé un total de 100 000 pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467855917056
+    m_Localized: Marathonien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467860111360
+    m_Localized: Remplir un total de 100 000 jauges.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467860111361
+    m_Localized: Vous avez rempli un total de 100 000 jauges.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467864305664
+    m_Localized: Grand explorateur de temples
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467864305665
+    m_Localized: Jouer plus de 5 000 parties.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467868499968
+    m_Localized: Vous avez joué plus de 5 000 parties.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467872694272
+    m_Localized: Mineur d'exception
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467876888576
+    m_Localized: Ramasser un total de 500 000 pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467881082880
+    m_Localized: Vous avez ramassé un total de 500 000 pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467881082881
+    m_Localized: Circumnavigateur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467885277184
+    m_Localized: Remplir un total de 1 000 000 de jauges.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467885277185
+    m_Localized: Vous avez rempli un total de 1 000 000 de jauges.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467889471488
+    m_Localized: Chercheur d'aimants
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467893665792
+    m_Localized: Obtenir 5 Aimants à pièces au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467893665793
+    m_Localized: Vous avez obtenu 5 Aimants à pièces au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467897860096
+    m_Localized: Pièces en bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467902054400
+    m_Localized: Obtenir 5 Méga-pièces au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467902054401
+    m_Localized: Vous avez obtenu 5 Méga-pièces au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467906248704
+    m_Localized: Invisible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467906248705
+    m_Localized: Obtenir 5 Invisibilités au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467910443008
+    m_Localized: Vous avez obtenu 5 Invisibilités au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467914637312
+    m_Localized: Accélérateur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467914637313
+    m_Localized: Obtenir 5 Accélérations au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467918831616
+    m_Localized: Vous avez obtenu 5 Accélérations au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467923025920
+    m_Localized: Personnalité magnétique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467923025921
+    m_Localized: Obtenir 10 Aimants à pièces au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467927220224
+    m_Localized: Vous avez obtenu 10 Aimants à pièces au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467931414528
+    m_Localized: Explosion d'or
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467931414529
+    m_Localized: Obtenir 10 Méga-pièces au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467935608832
+    m_Localized: Vous avez obtenu 10 Méga-pièces au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467939803136
+    m_Localized: Incassable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467939803137
+    m_Localized: Obtenir 10 Invisibilités au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467943997440
+    m_Localized: Vous avez obtenu 10 Invisibilités au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467943997441
+    m_Localized: Dingue de vitesse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467948191744
+    m_Localized: Obtenir 10 Accélérations au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467952386048
+    m_Localized: Vous avez obtenu 10 Accélérations au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467952386049
+    m_Localized: Grand attracteur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467956580352
+    m_Localized: Obtenir 20 Aimants à pièces au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467960774656
+    m_Localized: Vous avez obtenu 20 Aimants à pièces au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467960774657
+    m_Localized: Roi du bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467964968960
+    m_Localized: Obtenir 20 Méga-pièces au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467969163264
+    m_Localized: Vous avez obtenu 20 Méga-pièces au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467969163265
+    m_Localized: Invincible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467973357568
+    m_Localized: Obtenir 20 Invisibilités au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467973357569
+    m_Localized: Vous avez obtenu 20 Invisibilités au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467977551872
+    m_Localized: Fusée humaine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467981746176
+    m_Localized: Obtenir 20 Accélérations au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467985940480
+    m_Localized: Vous avez obtenu 20 Accélérations au cours d'une partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467985940481
+    m_Localized: Très grand explorateur de temples
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467990134784
+    m_Localized: Jouer plus de 10 000 parties.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467994329088
+    m_Localized: Vous avez joué plus de 10 000 parties.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467994329089
+    m_Localized: Midas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467998523392
+    m_Localized: Ramasser un total de 1 000 000 de pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467998523393
+    m_Localized: Vous avez ramassé un total de 1 000 000 de pièces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468002717696
+    m_Localized: Coureur de l'infini
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468006912000
+    m_Localized: Remplir un total de 10 000 000 de jauges.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468006912001
+    m_Localized: Vous avez rempli un total de 10 000 000 de jauges.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468011106304
+    m_Localized: Rejouer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468015300608
+    m_Localized: Amélio.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468019494912
+    m_Localized: Votre meilleur score !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468019494913
+    m_Localized: Vous n'avez rien vu venir !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468023689216
+    m_Localized: Une petite danse de la mort, rien que pour vous !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468027883520
+    m_Localized: Cette chute a mis fin à votre existence !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468027883521
+    m_Localized: Ahhhhhhh !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468032077824
+    m_Localized: Cette chute a mis fin à votre existence !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468036272128
+    m_Localized: Mais j'ai le vertige !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468036272129
+    m_Localized: C'est le bout de la piste...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468040466432
+    m_Localized: Attention, la terre est basse !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468044660736
+    m_Localized: Vous y étiez presque !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468044660737
+    m_Localized: Oh, non ! Encore ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468048855040
+    m_Localized: C'est contraire aux normes de sécurité !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468053049344
+    m_Localized: Je savais bien que j'aurais dû apprendre à voler !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468053049345
+    m_Localized: Adios !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468057243648
+    m_Localized: Heureusement que j'ai pensé à mettre mon casque !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468061437952
+    m_Localized: Merci, ils se sont régalés !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468061437953
+    m_Localized: C'est l'heure du repas !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468065632256
+    m_Localized: Vous avez nourri les poissons !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468065632257
+    m_Localized: Des serpents ? Mais je déteste ça !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468069826560
+    m_Localized: Glou, glou, glou...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468074020864
+    m_Localized: Où avez-vous bien pu passer ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468074020865
+    m_Localized: Qui a laissé Barney sortir de sa cage ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468078215168
+    m_Localized: J'étais si près...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468082409472
+    m_Localized: Quelqu'un m'observe, ou quoi ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468082409473
+    m_Localized: Un homme à terre !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468086603776
+    m_Localized: Ça vous apprendra à faire des câlins aux arbres !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468090798080
+    m_Localized: Un arbre, ça peut faire bobo...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468090798081
+    m_Localized: Vous avez quelque chose contre les insectes ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468094992384
+    m_Localized: Des fourmis, évidemment...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468099186688
+    m_Localized: Je fais toujours bonne impression.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468099186689
+    m_Localized: Je vais laisser ça là...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468103380992
+    m_Localized: Qui a laissé cet arbre ici ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468107575296
+    m_Localized: Au moins, j'aurai laissé une trace...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468107575297
+    m_Localized: Au moins, mon chapeau n'a rien...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468111769600
+    m_Localized: J'ai besoin d'un temps mort.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468111769601
+    m_Localized: J'adore regarder les oiseaux...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468115963904
+    m_Localized: Je peux traîner dans le coin ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468120158208
+    m_Localized: Je n'avais pas vu ça ici.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468120158209
+    m_Localized: L'arbre a eu plus mal que moi !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468124352512
+    m_Localized: Pas mon chapeau !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468128546816
+    m_Localized: Je ne suis plus moi-même sans mon chapeau !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468132741120
+    m_Localized: C'est plus difficile que ça en a l'air...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468132741121
+    m_Localized: Heureusement que j'ai la tête dure !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468136935424
+    m_Localized: Mon casque ne m'a été d'aucune utilité...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468141129728
+    m_Localized: C'est difficile de courir sans tête...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468141129729
+    m_Localized: N'oubliez pas de vous baisser !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468145324032
+    m_Localized: Ça vous en a mis un coup, pas vrai ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468149518336
+    m_Localized: On dirait que je vais devoir rester là un bon moment...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468149518337
+    m_Localized: Ne regardez pas mes jambes poilues !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468153712640
+    m_Localized: J'aurais dû mettre mes plus belles chaussettes...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468157906944
+    m_Localized: Bon, c'est le moment de retourner dans les limbes, on dirait...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468157906945
+    m_Localized: Attention à la marche !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468162101248
+    m_Localized: Attention, sol glissant !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468166295552
+    m_Localized: Miam ! Les explorateurs calcinés, c'est très croustillant !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468166295553
+    m_Localized: J'adore l'odeur des toasts...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468170489856
+    m_Localized: Mauvaise journée ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468174684160
+    m_Localized: Je sortais juste du pressing !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468174684161
+    m_Localized: Attention, cette armure n'est pas à l'épreuve du feu !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468178878464
+    m_Localized: Vous avez fini dans l'estomac de poissons voraces !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468178878465
+    m_Localized: Les explorateurs tels que vous, j'en mange cinq au petit-déjeuner !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468183072768
+    m_Localized: Vous savez que vous êtes très peu digeste ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468187267072
+    m_Localized: Argh ! Ce tacle juste avant la ligne d'arrivée...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468187267073
+    m_Localized: Tiens, celui-là avait une coquille !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468191461376
+    m_Localized: Le tacle qui tue !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468195655680
+    m_Localized: C'est ce qu'on appelle se faire entortiller...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468195655681
+    m_Localized: Emballez, c'est pesé !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468199849984
+    m_Localized: Les lacets défaits, c'est un risque d'accident !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468199849985
+    m_Localized: J'ai un mauvais pressentiment...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468204044288
+    m_Localized: Si seulement j'avais mon briquet...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468208238592
+    m_Localized: Ce n'est pas comme ça que j'imaginais la retraite...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468208238593
+    m_Localized: Je me demande d'où tous ces crânes peuvent bien venir...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468212432896
+    m_Localized: C'est carrément insalubre !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468216627200
+    m_Localized: On dirait l'oncle Hernan !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468220821504
+    m_Localized: Défi\nhebdomadaire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468220821505
+    m_Localized: Tableau des scores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468225015808
+    m_Localized: Progression du défi hebdomadaire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468229210112
+    m_Localized: Rang atteint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468229210113
+    m_Localized: Événements saisonniers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468233404416
+    m_Localized: Défi suivant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468233404417
+    m_Localized: Temple Run vous plaît ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468237598720
+    m_Localized: Pensez à laisser un avis !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468241793024
+    m_Localized: SUIVANT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468241793025
+    m_Localized: TERMINÉ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468245987328
+    m_Localized: Sauvegardes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468250181632
+    m_Localized: Sélectionnez un emplacement pour sauvegarder vos améliorations, stats et progression du défi hebdomadaire.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468250181633
+    m_Localized: '[{0}] (Emplacement actuel)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468254375936
+    m_Localized: '[{0}] (Nouveau)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468258570240
+    m_Localized: '[{0}] (Sélectionner pour charger)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468262764544
+    m_Localized: 'Total de la distance parcourue : {0} m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468262764545
+    m_Localized: 'Total des pièces ramassées : {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468266958848
+    m_Localized: 'Dernière sauvegarde : {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468271153152
+    m_Localized: SUPPRIMER définitivement l'emplacement [{0}] de vos améliorations, stats et progression du défi hebdomadaire ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468271153153
+    m_Localized: Supprimer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468275347456
+    m_Localized: Annuler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468275347457
+    m_Localized: SUPPRIMER l'emplacement ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468279541760
+    m_Localized: 'Temps restant :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468283736064
+    m_Localized: Défi de distance en partie unique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468287930368
+    m_Localized: Défi de distance en plusieurs parties uniques
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468287930369
+    m_Localized: Défi de score en partie unique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468292124672
+    m_Localized: Défi de score en plusieurs parties uniques
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468296318976
+    m_Localized: Défi de pièces en partie unique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468296318977
+    m_Localized: Défi de pièces en plusieurs parties uniques
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468300513280
+    m_Localized: Défi d'améliorations en partie unique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468304707584
+    m_Localized: Atteignez la distance requise en une partie unique pour valider ce défi !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468304707585
+    m_Localized: Atteignez la distance requise en plusieurs parties uniques pour valider ce défi !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468308901888
+    m_Localized: Atteignez le score requis en une partie unique pour valider ce défi !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468313096192
+    m_Localized: Atteignez le score requis en plusieurs parties uniques pour valider ce défi !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468313096193
+    m_Localized: 'Rassemblez la quantité de pièces requises en une partie unique pour valider ce défi ! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468317290496
+    m_Localized: 'Rassemblez la quantité de pièces requises en plusieurs parties uniques pour valider ce défi ! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468321484800
+    m_Localized: 'Obtenez la quantité requise d''amélioration en une partie unique pour valider ce défi ! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468321484801
+    m_Localized: Novice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468334067712
+    m_Localized: Amateur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468342456320
+    m_Localized: Apprenti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468346650624
+    m_Localized: Pionnier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468350844928
+    m_Localized: Professeur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468355039232
+    m_Localized: Légende
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468355039233
+    m_Localized: Le défi est terminé.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468359233536
+    m_Localized: Nouveau défi hebdomadaire !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468359233537
+    m_Localized: Rang "{0}" atteint !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468363427840
+    m_Localized: La récompense gagnée ci-dessus sera ajoutée à votre inventaire.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468367622144
+    m_Localized: Rien dans l'inventaire. Ramassez des pièces lors de votre partie, puis accédez à l'écran Améliorations du menu principal pour en acheter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468371816448
+    m_Localized: Non disponible dans le didacticiel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468376010752
+    m_Localized: Non disponible lors du compte à rebours/de l'intro de la partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468380205056
+    m_Localized: 'Une seule des améliorations suivantes est utilisable en début de partie : Ailes permanentes, Départ anticipé et Méga-départ anticipé.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468384399360
+    m_Localized: Cet objet est utilisable seulement en début de partie, entre {0} et {1} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468384399361
+    m_Localized: 'Les Ailes de résurrection se rechargent : {0} s.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468388593664
+    m_Localized: 'Les Ailes permanentes ou de résurrection sont déjà actives : vous ne pouvez les réactiver que lorsqu''elles sont épuisées.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468392787968
+    m_Localized: Ailes de résurrection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468396982272
+    m_Localized: Ailes permanentes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468396982273
+    m_Localized: Départ anticipé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468401176576
+    m_Localized: Méga-départ anticipé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468405370880
+    m_Localized: CET OBJET N'EST PAS DISPONIBLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468409565184
+    m_Localized: Cet appareil est déconnecté. Les sauvegardes existantes ne seront pas disponibles et toute progression réalisée dans le jeu pourrait ne pas être sauvegardée. Concernant les sauvegardes iCloud, vérifiez qu'elles sont activées et que votre compte est connecté.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468413759488
+    m_Localized: Les sauvegardes existantes ne seront pas disponibles et toute progression réalisée dans le jeu sera sauvegardée localement. Concernant les sauvegardes iCloud, vérifiez qu'elles sont activées et que votre compte est connecté.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468417953792
+    m_Localized: Sauvegardes cloud non disponibles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468426342400
+    m_Localized: Rangs atteints !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468426342401
+    m_Localized: RANG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468430536704
+    m_Localized: RÉCOMPENSES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468430536705
+    m_Localized: 'Prochain défi dans :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468434731008
+    m_Localized: 'Votre progression :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468438925312
+    m_Localized: Distance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468438925313
+    m_Localized: Pièces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468443119616
+    m_Localized: Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468447313920
+    m_Localized: Bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468447313921
+    m_Localized: Utilisez une manette ou une télécommande pour continuer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468451508224
+    m_Localized: Meilleur score hebdomadaire (se réinitialise tous les lundis à midi UTC)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468455702528
+    m_Localized: 'Multiplicateur de base :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468455702529
+    m_Localized: 'Objectifs atteints :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468459896832
+    m_Localized: 'Votre multiplicateur :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468459896833
+    m_Localized: BOOSTÉ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468464091136
+    m_Localized: 'Prochaine vie : <color=#F6D600>{0}s</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468468285440
+    m_Localized: PIÈCES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468468285441
+    m_Localized: AILES\nDE RÉS.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468472479744
+    m_Localized: AILES\nPERMA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468476674048
+    m_Localized: DÉPART\nANTICIPÉ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468476674049
+    m_Localized: MÉGA\nDÉPART
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468480868352
+    m_Localized: R. À LA VIE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468480868353
+    m_Localized: RECHARGE\nRAPIDE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468485062656
+    m_Localized: '{3} j {2} h {1} min {0} s'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468489256960
+    m_Localized: '{2} j {1} h {0} min'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468489256961
+    m_Localized: '{1} h {0} min'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468493451264
+    m_Localized: '{0} min'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468497645568
+    m_Localized: '{1} min {0} s'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468497645569
+    m_Localized: '{0} s'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468501839872
+    m_Localized: RETOURS À LA VIE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468501839873
+    m_Localized: Ajouter 1 retour à la vie, utilisé pour reprendre la course en cas de mort.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468506034176
+    m_Localized: Retour à la vie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468510228480
+    m_Localized: 1 Retour à la vie a été ajouté à votre inventaire.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468510228481
+    m_Localized: Réduit instantanément de 5 minutes le temps de recharge du Retour à la vie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468514422784
+    m_Localized: Recharge rapide instantanée
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468518617088
+    m_Localized: Le temps de recharge du Retour à la vie a été réduit de 5 minutes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468518617089
+    m_Localized: Non disponible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468522811392
+    m_Localized: Recharge rapide instantanée non disponible si vous avez au moins {0} retour(s) à la vie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468527005696
+    m_Localized: n/a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468527005697
+    m_Localized: Aucune connexion réseau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468531200000
+    m_Localized: Jusqu'aux pieds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468535394304
+    m_Localized: Participer à un défi hebdomadaire en partie unique.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468539588608
+    m_Localized: Vous avez participé à un défi hebdomadaire en partie unique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468539588609
+    m_Localized: Jusqu'aux genoux
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468543782912
+    m_Localized: Participer à un défi hebdomadaire en plusieurs parties.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468547977216
+    m_Localized: Vous avez participé à un défi hebdomadaire en plusieurs parties.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468547977217
+    m_Localized: 'RECHARGE RAPIDE : {0} par'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468552171520
+    m_Localized: se réinitialise à {1} dans {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468552171521
+    m_Localized: Aide aux commandes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468556365824
+    m_Localized: Aide aux récompenses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468560560128
+    m_Localized: SCORE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468560560129
+    m_Localized: PIÈCES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468564754432
+    m_Localized: Ajoute des pièces supplémentaires dans votre inventaire. À utiliser depuis l'écran AMÉLIORATIONS.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468568948736
+    m_Localized: AILES DE RÉSURRECTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468573143040
+    m_Localized: À activer à tout moment de la partie pour profiter de 30 secondes de protection contre la mort. En portant ces ailes, vous revenez automatiquement à la vie. Pour savoir comment les activer, allez dans OPTIONS → "Aide aux commandes".
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468573143041
+    m_Localized: AILES PERMANENTES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468577337344
+    m_Localized: Équipez ces ailes spéciales pour revenir instantanément à la vie après votre première mort durant la course. Activez-les dans le menu de pause lors des 100 premiers mètres de votre partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468581531648
+    m_Localized: DÉPART ANTICIPÉ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468581531649
+    m_Localized: Parcourez 1 000 mètres en début de course tout en étant invincible. Activez-le dans le menu de pause lors des 100 premiers mètres de votre partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468585725952
+    m_Localized: MÉGA-DÉPART ANTICIPÉ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468585725953
+    m_Localized: Parcourez 2 500 mètres en début de course tout en étant invincible. Activez-le dans le menu de pause lors des 100 premiers mètres de votre partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468589920256
+    m_Localized: RETOUR À LA VIE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468594114560
+    m_Localized: Ajoute 1 Retour à la vie dans votre inventaire. Vous pouvez les cumuler afin de les utiliser les uns à la suite des autres pour grimper dans le tableau des scores.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468594114561
+    m_Localized: RECHARGE RAPIDE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468598308864
+    m_Localized: Réduit de manière semi-permanente le temps de recharge du Retour à la vie de la valeur indiquée sous la récompense. Ramassez-les pour recharger rapidement jusqu'à 3 Retours à la vie pour profiter plus souvent de parties plus longues. Les Recharges rapides expirent toutes les 4 semaines.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468602503168
+    m_Localized: Information de récompense
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468602503169
+    m_Localized: 'Seuil de rang suivant :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468606697472
+    m_Localized: 'Progression finale :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468610891776
+    m_Localized: Retour(s) à la vie restant(s)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468610891777
+    m_Localized: Valeur des pièces pleinement améliorée !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468615086080
+    m_Localized: '{0} h'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468615086081
+    m_Localized: Rien n'exprime mieux la "détermination" que de foncer dans un arbre 20 fois de suite. Soyez un 🏆 champion. 🏆 – Guy Dangerous, coach de vie professionnel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468619280384
+    m_Localized: Envie d'une petite course ? Ça fait ⌛ heures ⌛ que je n'ai pas couru la tête la première dans un arbre. – Guy Dangerous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468623474688
+    m_Localized: Récupérez de l'or maudit ! (✨ C'est de saison. ✨)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468623474689
+    m_Localized: 'Gandhi a dit "Incarnez le changement que vous espérez." Moi, je dis : ramassez les 💰 pièces 💰 que vous rencontrez. – Guy Dangerous, philosophe mondialement respecté.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468627668992
+    m_Localized: Ne demandez pas pour qui sonne le 🔔 glas 🔔, demandez quelle est sa valeur et ce qui vous poursuivra si vous vous en emparez ! 🏃 💰 – Guy Dangerous, économiste professionnel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468631863296
+    m_Localized: ⌛ La vie est courte...⌛ Remplissons nos poches d'or maudit et sautons accidentellement d'une falaise – Guy Dangerous, lauréat du prix Nobel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468631863297
+    m_Localized: 💪 Montrons à cette idole d'or qui est le patron (ou au moins, courons quelques fois tout droit dans un arbre) ! – Guy Dangerous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468636057600
+    m_Localized: C'est quand la dernière fois que vous avez foncé dans un arbre à 70 km/h ? Hâtons-nous. 🌳 💥
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468640251904
+    m_Localized: 😈 🐒 oN A BEsOin dE vOU 🐒 😈 rEvEneZ vItE VOu fAIr dÉvOReR – SaINcèReMeNT, LÉ sINgeS déMOnIaK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468640251905
+    m_Localized: Il faut partir à point
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468644446208
+    m_Localized: Terminer le didacticiel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468644446209
+    m_Localized: Didacticiel terminé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468648640512
+    m_Localized: https://www.imangistudios.com/privacy/eng/FR/privacy-policy-plus.html
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468652834816
+    m_Localized: Respect de la vie privée
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468657029120
+    m_Localized: Défi d'améliorations en plusieurs parties uniques
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468657029121
+    m_Localized: Rassemblez la quantité d'améliorations requises en plusieurs parties uniques pour valider ce défi !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468661223424
+    m_Localized: Votre stockage iCloud est plein. Les sauvegardes existantes ne seront pas disponibles et toute progression réalisée dans le jeu pourrait ne pas être sauvegardée. Concernant les sauvegardes iCloud, accédez aux paramètres iCloud pour ajouter ou libérer de l'espace.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468665417728
+    m_Localized: Votre stockage iCloud est plein. Toute progression réalisée dans le jeu sera sauvegardée localement. Concernant les sauvegardes iCloud, accédez aux paramètres iCloud pour ajouter ou libérer de l'espace.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468665417729
+    m_Localized: Stockage cloud plein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468669612032
+    m_Localized: iPhone/iPad :\nclavier/manette Bluetooth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468673806336
+    m_Localized: Débloquez Tamatoa, le plus grand guerrier de tout Samoa !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468673806337
+    m_Localized: Tamatoa, le plus grand guerrier de tout Samoa !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468678000640
+    m_Localized: Débloquez Simone Davies, l'implacable chasseuse de pirates !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468682194944
+    m_Localized: Simone Davies, l'implacable chasseuse de pirates !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468682194945
+    m_Localized: Débloquez Sigur Frostbeard, le champion des bûcherons !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468686389248
+    m_Localized: Sigur Frostbeard, le champion des bûcherons !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468686389249
+    m_Localized: Débloquez "Golden" Guy Dangerous, l'homme en or !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468690583552
+    m_Localized: ' "Golden" Guy Dangerous, l''homme en or !'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468694777856
+    m_Localized: Débloquez Selene Celeste, l'astronaute accidentée !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468694777857
+    m_Localized: Selene Celeste, l'astronaute accidentée !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468698972160
+    m_Localized: Débloquer Edgar Twiggenbottom, squelette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468703166464
+    m_Localized: Edgar Twiggenbottom, squelette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468703166465
+    m_Localized: Débloquez Queen Astrid, la reine des terres glacées !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468707360768
+    m_Localized: Queen Astrid, la reine des terres glacées !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468711555072
+    m_Localized: Débloquez Santa, le maître du pôle Nord !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468711555073
+    m_Localized: Santa, le maître du pôle Nord !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468715749376
+    m_Localized: Débloquez Nidhi Nirmal, la superstar de Bollywood !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468715749377
+    m_Localized: Nidhi Nirmal, la superstar de Bollywood !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468719943680
+    m_Localized: Débloquez Rahi Raja, le meilleur cascadeur d'Inde !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468724137984
+    m_Localized: Rahl Raja, le meilleur cascadeur d'Inde !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468724137985
+    m_Localized: Débloquez Sara Banyan, l'espiègle herboriste perse !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468728332288
+    m_Localized: Sara Banyan, l'espiègle herboriste perse !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468732526592
+    m_Localized: Débloquez Dr. Zenobios, le brillant savant fou !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468732526593
+    m_Localized: Dr. Zenobios, le brillant savant fou !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468736720896
+    m_Localized: TAMATOA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468740915200
+    m_Localized: SIMONE\nDAVIES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468740915201
+    m_Localized: SIGUR\nFROSTBEARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468745109504
+    m_Localized: GUY\nHOMME EN OR\n
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468745109505
+    m_Localized: SELENE\nCELESTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468749303808
+    m_Localized: EDGAR\nTWIGGENBOTTOM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468753498112
+    m_Localized: QUEEN\nASTRID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468753498113
+    m_Localized: SANTA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468757692416
+    m_Localized: NIDHI\nNIRMAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468761886720
+    m_Localized: RAHI\nRAJA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468761886721
+    m_Localized: SARA\nBANYAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468766081024
+    m_Localized: DR.\nZENOBIOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496035999744
+    m_Localized: Chargement...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496400904192
+    m_Localized: Vous avez gagné des pièces !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496409292800
+    m_Localized: Vous avez gagné {0} pièces en installant des applications gratuites !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496409292801
+    m_Localized: Pièces gratuites
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496413487104
+    m_Localized: Regarder une courte publicité pour {0} pièces ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496417681408
+    m_Localized: Merci d'avoir regardé !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496421875712
+    m_Localized: '{0} pièces ont été données ! Revenez dans 12 heures pour une nouvelle récompense !'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496421875713
+    m_Localized: '[] m jusqu''à la récompense suivante'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496426070016
+    m_Localized: Ailes de résurrection gratuites
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496430264320
+    m_Localized: Regarder une courte publicité pour une paire d'ailes permanentes ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496430264321
+    m_Localized: Utilisez vos Ailes de résurrection en courant ! Revenez dans 12 heures pour une nouvelle récompense !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496434458624
+    m_Localized: Doublez vos gains !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496438652928
+    m_Localized: Regarder une courte publicité pour doubler vos pièces ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496438652929
+    m_Localized: Vous avez doublé vos gains !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496442847232
+    m_Localized: Échec de l'achat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496447041536
+    m_Localized: Impossible de se connecter à l'iTunes Store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496447041537
+    m_Localized: Regarder une vidéo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496451235840
+    m_Localized: Aimez Temple Run !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496455430144
+    m_Localized: Activer les publicités
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496459624448
+    m_Localized: Publicités en jeu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496459624449
+    m_Localized: Souhaitez-vous activer les publicités en plein écran à la fin de chaque partie et recevoir {0} pièces ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496463818752
+    m_Localized: Non merci
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496468013056
+    m_Localized: Activer les publicités !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496468013057
+    m_Localized: Aimez sur Facebook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496472207360
+    m_Localized: Aimez Temple Run sur Facebook pour obtenir {0} pièces GRATUITES !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496476401664
+    m_Localized: Suivez sur X
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496480595968
+    m_Localized: Suivez Temple Run sur X pour obtenir {0} pièces GRATUITES !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496484790272
+    m_Localized: Offre non disponible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496488984576
+    m_Localized: Cette offre n'est pas disponible pour le moment. Veuillez réessayer ultérieurement !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496488984577
+    m_Localized: Boutique d'améliorations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496501567488
+    m_Localized: 'Vous avez récupéré des pièces : vous pouvez maintenant améliorer votre personnage dans la boutique pour vous aider à réaliser un meilleur score !'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496505761792
+    m_Localized: Pas maintenant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496509956096
+    m_Localized: Voir la boutique !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496514150400
+    m_Localized: FONDS D'ÉCRAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496514150401
+    m_Localized: Téléchargement...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496518344704
+    m_Localized: Enregistrement...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496522539008
+    m_Localized: Fond d'écran enregistré
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496522539009
+    m_Localized: Votre fond d'écran a été enregistré dans votre galerie d'images.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496526733312
+    m_Localized: Échec du téléchargement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496530927616
+    m_Localized: Impossible de télécharger cet article. Assurez-vous que votre connexion Internet est active et réessayez.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496530927617
+    m_Localized: Débloquez le fond d'écran du mur du temple.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496535121920
+    m_Localized: Téléchargez le fond d'écran du mur du temple.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496539316224
+    m_Localized: Débloquez le fond d'écran de Guy Dangerous.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496539316225
+    m_Localized: Téléchargez le fond d'écran de Guy Dangerous.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496543510528
+    m_Localized: Débloquez le fond d'écran des singes démoniaques maléfiques.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496547704832
+    m_Localized: Téléchargez le fond d'écran des singes démoniaques maléfiques.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496547704833
+    m_Localized: Débloquez le fond d'écran du mur du temple.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496551899136
+    m_Localized: Téléchargez le fond d'écran du mur du temple.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496556093440
+    m_Localized: Supprimez les publicités de fin de partie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496560287744
+    m_Localized: Publicités de fin de partie supprimées.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496560287745
+    m_Localized: TÉLÉCHARGER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496564482048
+    m_Localized: Vous voulez des pièces GRATUITES ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496568676352
+    m_Localized: Regardez des vidéos ou complétez d'autres offres pour obtenir des pièces dans la section OFFRES GRATUITES de la boutique de pièces !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496568676353
+    m_Localized: Pièces GRATUITES !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496572870656
+    m_Localized: Aucune connexion Internet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496577064960
+    m_Localized: Impossible de se connecter à la boutique. Assurez-vous que votre connexion Internet est active.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496577064961
+    m_Localized: Contact de la boutique...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496581259264
+    m_Localized: Chargement des produits...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496585453568
+    m_Localized: '{0} pièces gratuites'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496585453569
+    m_Localized: OFFRES GRATUITES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496589647872
+    m_Localized: Notez-le sur l'App Store !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496593842176
+    m_Localized: Me le rappeler plus tard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496593842177
+    m_Localized: Ne plus demander
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496598036480
+    m_Localized: Nom d'utilisateur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496602230784
+    m_Localized: Mot de passe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496602230785
+    m_Localized: 'J''ai obtenu %@ points en échappant à des singes démoniaques dans Temple Run. Essayez de battre mon score ! http://bit.ly/TempleRunGame'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496606425088
+    m_Localized: 'Échec de la publication : vérifiez vos identifiants ou réessayez plus tard'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496610619392
+    m_Localized: Marqueurs d'ami
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496610619393
+    m_Localized: Terminez des étapes de défi pour obtenir des récompenses !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496614813696
+    m_Localized: Fermer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496619008000
+    m_Localized: Défis mondiaux
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496619008001
+    m_Localized: Distance cumulée
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496623202304
+    m_Localized: Score par partie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496627396608
+    m_Localized: Pièces par partie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496627396609
+    m_Localized: Pièces cumulées
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496631590912
+    m_Localized: Score cumulé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496635785216
+    m_Localized: Distance par partie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496635785217
+    m_Localized: PLUS DE PIÈCES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496639979520
+    m_Localized: Plus à venir...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496644173824
+    m_Localized: Personnages
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496644173825
+    m_Localized: Regarder une pub pour revenir à la vie ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496648368128
+    m_Localized: DÉBLOQUÉS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496652562432
+    m_Localized: Boutique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496656756736
+    m_Localized: RESTAURER LES ACHATS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496656756737
+    m_Localized: PAS DE PUBS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496660951040
+    m_Localized: PARAMÈTRES DE CONFIDENTIALITÉ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496665145344
+    m_Localized: Partagez !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496665145345
+    m_Localized: Débloquez Guy Dangerous, le vaillant pilote des années 40
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496669339648
+    m_Localized: Guy Dangerous, le vaillant pilote des années 40
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496673533952
+    m_Localized: Débloquez Scarlett Fox, la voleuse roublarde des années 30
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496673533953
+    m_Localized: Scarlett Fox, la voleuse roublarde des années 30
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496677728256
+    m_Localized: Débloquez Barry Bones, le super flic des années 80 en mission
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496681922560
+    m_Localized: Barry Bones, le super flic des années 80 en mission
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496681922561
+    m_Localized: Débloquez Karma Lee, la princesse errante de l'an 500 av. J-C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496686116864
+    m_Localized: Karma Lee, la princesse errante de l'an 500 av. J-C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496690311168
+    m_Localized: Débloquez Montana Smith, le bandit du Far West échappé des années 1800
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496690311169
+    m_Localized: Montana Smith, le bandit du Far West échappé des années 1800
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496694505472
+    m_Localized: Débloquez Francisco Montoya, le moine espagnol fou des années 1500
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496698699776
+    m_Localized: Francisco Montoya, le moine espagnol fou des années 1500
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496698699777
+    m_Localized: Débloquer Zack Wonder, la superstar du football américain de 2004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496702894080
+    m_Localized: Zack Wonder, la superstar du football américain de 2004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496707088384
+    m_Localized: Débloquez Simone Davies, l'amirale des Caraïbes des années 1600
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496707088385
+    m_Localized: Simone Davies, l'amirale des Caraïbes des années 1600
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496723865600
+    m_Localized: Débloquez Edgar Twiggenbottom, l'éternel gardien des champs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496723865601
+    m_Localized: Edgar Twiggenbottom, l'éternel gardien des champs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496728059904
+    m_Localized: Débloquez Kai Xiang, le moine Shaolin de l'an 500 en quête de rédemption
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496732254208
+    m_Localized: Kai Xiang, le moine Shaolin de l'an 500 en quête de rédemption
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496736448512
+    m_Localized: Débloquez Carnifex, la malicieuse maîtresse du chaos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496736448513
+    m_Localized: Carnifex, la malicieuse maîtresse du chaos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496740642816
+    m_Localized: Débloquez Frost Pirate, la terreur des mers de 1690
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496744837120
+    m_Localized: Frost Pirate, la terreur des mers de 1690
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496744837121
+    m_Localized: Débloquez Wally Nut, le casse-noisette de Noël qui répand la joie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496749031424
+    m_Localized: Wally Nut, le casse-noisette de Noël qui répand la joie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496753225728
+    m_Localized: Débloquez Queen Astrid, la pilleuse de vikings depuis l'an 930
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496757420032
+    m_Localized: Queen Astrid, la pilleuse de vikings depuis l'an 930
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496757420033
+    m_Localized: Débloquez Chronos Timebeard, l'éternel demi-dieu ravageur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496761614336
+    m_Localized: Chronos Timebeard, l'éternel demi-dieu ravageur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16968939731935232
+    m_Localized: Merci !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406555136000
+    m_Localized: '{0} jusqu''à la récompense suivante'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406815182848
+    m_Localized: Obtenez de meilleurs scores pour progresser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406823571456
+    m_Localized: '{0} {1} jusqu''à la récompense suivante'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406823571457
+    m_Localized: points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406827765760
+    m_Localized: Récupérer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406827765761
+    m_Localized: Récupéré
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406831960064
+    m_Localized: ACTIVÉ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406836154368
+    m_Localized: DÉSACTIVÉ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406836154369
+    m_Localized: DÉFI MONDIAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406840348672
+    m_Localized: Ailes d'ange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406844542976
+    m_Localized: Décorateur d'intérieur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406844542977
+    m_Localized: Débloquer 3 fonds d'écran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406848737280
+    m_Localized: 3 fonds d'écran débloqués
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406848737281
+    m_Localized: Commencer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406852931584
+    m_Localized: Regarder une pub pour continuer ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406857125888
+    m_Localized: J'ai obtenu {0} points en échappant à des singes démoniaques. Essayez de battre mon score ! {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406857125889
+    m_Localized: Restauration terminée !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406861320192
+    m_Localized: Bravo !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406865514496
+    m_Localized: C'est quoi, ça ? UN DÉFI MONDIAL ! Préparez-vous pour {0} !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406869708800
+    m_Localized: Tremblez, mortels ! {0} EST LÀ ! Préparez-vous à un nouveau DÉFI MONDIAL !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406869708801
+    m_Localized: N'abandonnez pas ! Il y a encore des prix à gagner pour {0} !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406873903104
+    m_Localized: N'oubliez pas {0} ! LUI NE VOUS A PAS OUBLIÉ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406878097408
+    m_Localized: Vite ! Il ne reste plus que {0} avant que {1} ne disparaisse !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406878097409
+    m_Localized: Continuez à jouer ! Vous avez {0} pour récupérer les glorieuses récompenses de {1} !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406882291712
+    m_Localized: C'est le moment d'une course !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406882291713
+    m_Localized: Vous nous manquez !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406886486016
+    m_Localized: Achat aucune pub
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406890680320
+    m_Localized: Achat de pièce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406890680321
+    m_Localized: Échec de l'achat aucune pub.  Vérifiez la connexion Internet et réessayez.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406894874624
+    m_Localized: Échec de l'achat de pièce.  Vérifiez la connexion Internet et réessayez.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406899068928
+    m_Localized: Achat annulé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406899068929
+    m_Localized: Le message \"{0}\" ne peut être envoyé, car la connexion a échoué.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406903263232
+    m_Localized: Réessayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406903263233
+    m_Localized: Impossible de partager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406907457536
+    m_Localized: Échec
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406911651840
+    m_Localized: Désolé, impossible de lire la vidéo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406911651841
+    m_Localized: Récompense
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406915846144
+    m_Localized: Renouveler l'autorisation d'achat intégré afin d'activer la boutique de pièces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406920040448
+    m_Localized: La boutique de pièces est actuellement indisponible. Veuillez contacter support@imangistudios.com pour plus d'informations.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406920040449
+    m_Localized: '{0} pièces ajoutées'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406924234752
+    m_Localized: Mise à jour nécessaire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406924234753
+    m_Localized: Une mise à jour est nécessaire pour continuer à jouer à Temple Run.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406928429056
+    m_Localized: Personnages gratuits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406932623360
+    m_Localized: Nouveaux personnages
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406932623361
+    m_Localized: Nouvelle aventure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406936817664
+    m_Localized: Rejoignez-nous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406936817665
+    m_Localized: Partage annulé !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406941011968
+    m_Localized: Échec du partage !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406945206272
+    m_Localized: Partage réussi !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406945206273
+    m_Localized: Étape {0} terminée !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23200394329972736
+    m_Localized: Merci pour la mise à jour
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23200394455801856
+    m_Localized: Merci de garder Temple Run à jour ! Nous vous offrons 500 pièces en guise de récompense !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23204094888894464
+    m_Localized: 500 pièces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23204095056666624
+    m_Localized: Non merci
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55828746446299136
+    m_Localized: Merci d'avoir téléchargé Temple Run !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355477262336
+    m_Localized: "EXPLOREZ\\nL'INCONNU AVEC\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355628257280
+    m_Localized: "FRANCISCO\\nMONTOYA\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355636645888
+    m_Localized: "\nDisponible GRATUITEMENT dans la sélection de coureurs"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929317220352
+    m_Localized: Disponible GRATUITEMENT dans la sélection de coureurs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929606627328
+    m_Localized: "ENTREZ DANS \\n LA LÉGENDE AVEC\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929619210240
+    m_Localized: "KARMA LEE\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929623404544
+    m_Localized: "ENFILEZ VOS CRAMPONS \\n AVEC\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929627598848
+    m_Localized: "ZACK WONDER\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929635987456
+    m_Localized: "LA VOIE DES TÉNÈBRES \\n S'OUVRE AVEC\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929640181760
+    m_Localized: CARNIFEX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929644376064
+    m_Localized: LA REINE \n MÈNE LA COURSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929652764672
+    m_Localized: QUEEN ASTRID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929656958976
+    m_Localized: VIVEZ LA FÉÉRIE \n DE L'AVENTURE \n AVEC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929661153280
+    m_Localized: WALLY NUTT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773763731456
+    m_Localized: "ENTREZ DANS \\n LA LÉGENDE AVEC\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773776314368
+    m_Localized: "KARMA LEE\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773780508672
+    m_Localized: Disponible GRATUITEMENT dans la sélection de coureurs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126122979169918976
+    m_Localized: "ENFILEZ VOS CRAMPONS \\n AVEC\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126463690687897600
+    m_Localized: "ENFILEZ VOS\\nCRAMPONS AVEC\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126497313759682560
+    m_Localized: ZACK WONDER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126497313763876864
+    m_Localized: Disponible GRATUITEMENT dans la sélection de coureurs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126481317888
+    m_Localized: RUÉE \nVERS L'OR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126485512192
+    m_Localized: COURSE \nSAUVAGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126485512193
+    m_Localized: NOUVEAU \nDÉPART
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027824455680
+    m_Localized: ATTRAPEZ LA \nDINDE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027824455681
+    m_Localized: RAID \nDU TEMPLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649984
+    m_Localized: COURSE \nSANS FIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649985
+    m_Localized: AU COEUR \nDES RUINES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649986
+    m_Localized: COURSE \nDE LA LIBERTÉ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649987
+    m_Localized: RÊVES \nFÉERIQUES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844288
+    m_Localized: MARATHON \nD'ÉTÉ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844289
+    m_Localized: DES BONBONS \nOU UN SORT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844290
+    m_Localized: FROID \nEXTRÊME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038592
+    m_Localized: RÉCUPÉREZ LE \nTRÉSOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038593
+    m_Localized: SURVIVREZ-VOUS ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038594
+    m_Localized: LA SAISON \nVOUS ATTEND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232896
+    m_Localized: PARTICIPEZ \nAUX FESTIVITÉS !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232897
+    m_Localized: TROUVEZ \nL'IDOLE PERDUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232898
+    m_Localized: TIENDREZ-VOUS BON ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232899
+    m_Localized: EXPLOREZ \nL'INCONNU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427200
+    m_Localized: O SAY CAN \nYOU SEE ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427201
+    m_Localized: LA MAGIE \nDES FÊTES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427202
+    m_Localized: AFFRONTEZ \nLA CHALEUR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027849621504
+    m_Localized: CAP SUR LES \nFRIANDISES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027849621505
+    m_Localized: BRAVEZ \nLE GEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477794344960
+    m_Localized: Réinitialiser la progression
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477811122176
+    m_Localized: Expérience publicitaire améliorée
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316480
+    m_Localized: Accepter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316481
+    m_Localized: Refuser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316482
+    m_Localized: RETIRER LE CONSENTEMENT?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316483
+    m_Localized: "Vous avez actuellement donné votre consentement à Imangi pour la divulgation de l'identifiant publicitaire de votre appareil aux réseaux publicitaires à des fins de marketing dans le jeu.\n\nVoulez-vous vraiment retirer votre consentement?\n\n(Appuyer sur OUI fermera le jeu; relancez-le pour que les changements prennent effet)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510784
+    m_Localized: AMELIORER L EXPERIENCE PUBLICITAIRE?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510785
+    m_Localized: "Temple Run est finance par la publicite. Afin de rendre les annonces aussi pertinentes que possible, nous souhaitons collecter et partager des donnees avec nos partenaires publicitaires. Veuillez noter que choisir Non merci ne supprimera pas les annonces; vous pourriez voir des annonces sans lien avec vos interets. Vous pouvez modifier votre choix dans les parametres a tout moment.\n\n(Appuyer sur OUI fermera le jeu; relancez-le pour que les changements prennent effet)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510786
+    m_Localized: CONQUERIR \nL HIVER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649416769536
+    m_Localized: FUYEZ LE DANGER \n AVEC...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649437741056
+    m_Localized: SCARLETT FOX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649437741057
+    m_Localized: Disponible GRATUIT ds Runner Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202893421137879040
+    m_Localized: Disponible GRATUITEMENT dans la sélection de coureurs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574259658752
+    m_Localized: MAÎTRISEZ VOTRE \n VITESSE AVEC...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574322573312
+    m_Localized: KAI XIANG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574322573313
+    m_Localized: Disponible GRATUITEMENT dans la sélection de coureurs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105925562368
+    m_Localized: MAÎTRISEZ VOTRE \n VITESSE AVEC...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105938145280
+    m_Localized: BARRY BONES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105938145281
+    m_Localized: Disponible GRATUITEMENT dans la sélection de coureurs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438307418112
+    m_Localized: NIDHI\nNIRMAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438332583936
+    m_Localized: Débloquez Nidhi Nirmal, la superstar de Bollywood !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438332583937
+    m_Localized: Nidhi Nirmal, la superstar de Bollywood !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984695754752
+    m_Localized: CÉLÉBREZ 15 \n ANS AVEC...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984729309184
+    m_Localized: NIDHI NIRMAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984729309185
+    m_Localized: Disponible GRATUITEMENT dans la sélection de coureurs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096434597888
+    m_Localized: BON RETOUR !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096451375104
+    m_Localized: CÉLÉBREZ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096455569408
+    m_Localized: 15 ANS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096455569409
+    m_Localized: CON 15.000 MONETE GRATIS!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228703228063113216
+    m_Localized: Réclamer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075348025344
+    m_Localized: TOUJOURS EN COURSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075381579776
+    m_Localized: 15 ANS PLUS TARD...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774080
+    m_Localized: BUTIN D'ANNIVERSAIRE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774081
+    m_Localized: CÉLÉBREZ AVEC CHAQUE PIÈCE !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774082
+    m_Localized: UNE DERNIÈRE COURSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774083
+    m_Localized: JUSQU'OÙ IREZ-VOUS ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412179812352
+    m_Localized: UN TRÉSOR VOUS \n ATTEND AVEC...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412196589568
+    m_Localized: FRANCISCO MONTOYA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412196589569
+    m_Localized: Disponible GRATUITEMENT dans la sélection de coureurs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243860789221384192
+    m_Localized: ENTREZ SUR LE \n TERRAIN AVEC...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243860789229772800
+    m_Localized: COURSE DU VENDREDI SOIR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252909526883229696
+    m_Localized: FONCEZ AVEC…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252909526900006912
+    m_Localized: ZACK WONDER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260263528729927680
+    m_Localized: FRISSONNEZ \n AVEC...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260263528746704896
+    m_Localized: EDGAR TWIGGENBOTTOM
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

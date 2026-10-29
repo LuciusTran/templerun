@@ -1,0 +1,272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: Anniversary_Banners_Localized
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 6fde9498fd84c0c4da092168cffcc665, type: 2}
+  sprites:
+  - name: en
+    outer:
+      serializedVersion: 2
+      x: 513
+      y: 3071
+      width: 512
+      height: 512
+    inner:
+      serializedVersion: 2
+      x: 513
+      y: 3071
+      width: 0
+      height: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fr
+    outer:
+      serializedVersion: 2
+      x: 1026
+      y: 3071
+      width: 512
+      height: 512
+    inner:
+      serializedVersion: 2
+      x: 1026
+      y: 3071
+      width: 0
+      height: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: it
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 2558
+      width: 512
+      height: 512
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 2558
+      width: 0
+      height: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: es
+    outer:
+      serializedVersion: 2
+      x: 513
+      y: 2558
+      width: 512
+      height: 512
+    inner:
+      serializedVersion: 2
+      x: 513
+      y: 2558
+      width: 0
+      height: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ja
+    outer:
+      serializedVersion: 2
+      x: 1026
+      y: 2558
+      width: 512
+      height: 512
+    inner:
+      serializedVersion: 2
+      x: 1026
+      y: 2558
+      width: 0
+      height: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ko
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 2045
+      width: 512
+      height: 512
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 2045
+      width: 0
+      height: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ru
+    outer:
+      serializedVersion: 2
+      x: 513
+      y: 2045
+      width: 512
+      height: 512
+    inner:
+      serializedVersion: 2
+      x: 513
+      y: 2045
+      width: 0
+      height: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: nl
+    outer:
+      serializedVersion: 2
+      x: 1026
+      y: 2045
+      width: 512
+      height: 512
+    inner:
+      serializedVersion: 2
+      x: 1026
+      y: 2045
+      width: 0
+      height: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pt
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1532
+      width: 512
+      height: 512
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1532
+      width: 0
+      height: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tr
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 3584
+      width: 512
+      height: 512
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 3584
+      width: 512
+      height: 512
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zh-Hant
+    outer:
+      serializedVersion: 2
+      x: 513
+      y: 3584
+      width: 512
+      height: 512
+    inner:
+      serializedVersion: 2
+      x: 513
+      y: 3584
+      width: 512
+      height: 512
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: de
+    outer:
+      serializedVersion: 2
+      x: 1026
+      y: 3584
+      width: 512
+      height: 512
+    inner:
+      serializedVersion: 2
+      x: 1026
+      y: 3584
+      width: 512
+      height: 512
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zh
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 3071
+      width: 512
+      height: 512
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 3071
+      width: 512
+      height: 512
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

@@ -1,0 +1,11 @@
+{
+  "tool": "AssetRipper existing Linux build",
+  "sourceUnityVersion": "2022.3.62f2",
+  "exportedFiles": 5443,
+  "exportedBytes": 129406363,
+  "scene": "Assets/Scenes/GamePlay.unity",
+  "limitations": [
+    "C# export contains metadata stubs; playable gameplay has not yet been recovered.",
+    "Export completion does not establish Unity compilation or runtime correctness."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "evidence_id": "ev_2d0cad7253a383e3e96ea511cf9d35c3512f5a33ab9a712c99714567cc1c31e0",
+  "subject": {
+    "name": "Temple+Run_1.43.0_APKPure.xapk",
+    "digest": {
+      "sha256": "151eabad999a51ce24593d5a9e7d99421bdf46a5a89f61cab63a226fa67c9760"
+    },
+    "format": "zip",
+    "architecture": null,
+    "local_path": "/home/dong/Bản tải về/Temple+Run_1.43.0_APKPure.xapk"
+  },
+  "provider": {
+    "id": "rea-artifact-graph",
+    "name": "REA safe artifact graph provider",
+    "version": "1"
+  },
+  "operation": "inspect_artifact",
+  "confidence": "observed",
+  "authority": "shipped-artifact",
+  "limitations": [
+    "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics."
+  ],
+  "result": {
+    "subject": {
+      "manifest_id": "agm_5f53a8e21fbff9f57ade4efa7efeb62a7766be40abb83fd7bf09395ad7e87a27",
+      "root_artifact_id": "art_071835f3f13d490d802057443599dcb7ec6bf8f8f5ef03b60f4897557cd9f535",
+      "root_sha256": "151eabad999a51ce24593d5a9e7d99421bdf46a5a89f61cab63a226fa67c9760",
+      "root_format": "zip"
+    },
+    "coverage": {
+      "status": "complete-within-substeps",
+      "substeps_completed": 1,
+      "observations_retained": 11,
+      "observations_omitted": 0,
+      "relationships_retained": 4,
+      "relationships_omitted": 0,
+      "hypotheses_retained": 0,
+      "hypotheses_omitted": 0,
+      "unexplored_branches_retained": 0,
+      "unexplored_branches_omitted": 0,
+      "next_probes_retained": 0,
+      "next_probes_omitted": 0
+    },
+    "limitations": [
+      "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics."
+    ]
+  }
+}

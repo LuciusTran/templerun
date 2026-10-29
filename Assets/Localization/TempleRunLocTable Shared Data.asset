@@ -1,0 +1,4008 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -299433217, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: TempleRunLocTable Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: TempleRunLocTable
+  m_TableCollectionNameGuidString: 26115c2fb863749a6aea099f12280788
+  m_Entries:
+  - m_Id: 306466174001152
+    m_Key: UI_PLAY_BUTTON_LINE1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466660540416
+    m_Key: UI_PLAY_BUTTON_LINE2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466681511936
+    m_Key: UI_PLAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466685706240
+    m_Key: UI_MAINMENU_OBJECTIVES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466702483456
+    m_Key: UI_MAINMENU_STATS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466706677760
+    m_Key: UI_MAINMENU_UPGRADES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466710872064
+    m_Key: UI_MAINMENU_OPTIONS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466710872065
+    m_Key: UI_MAINMENU_SAVELOAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466715066368
+    m_Key: UI_MAINMENU_REVIVES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466719260672
+    m_Key: UI_MAINMENU_PROGRESS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466723454976
+    m_Key: UI_OPTIONS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466723454977
+    m_Key: UI_SENSITIVITY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466727649280
+    m_Key: UI_MUSIC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466731843584
+    m_Key: UI_SOUND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466731843585
+    m_Key: UI_TUTORIAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466736037888
+    m_Key: UI_LANGUAGE_THIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466740232192
+    m_Key: UI_DELETE_SAVE_DATA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466740232193
+    m_Key: UI_PRIVACY_POLICY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466744426496
+    m_Key: UI_BACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466748620800
+    m_Key: UI_LANGUAGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466752815104
+    m_Key: UI_PAUSED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466752815105
+    m_Key: UI_SCORE_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466757009408
+    m_Key: UI_DISTANCE_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466761203712
+    m_Key: UI_COINS_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466765398016
+    m_Key: UI_MULTIPLIER_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466765398017
+    m_Key: UI_NEW_OBJECTIVES_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466769592320
+    m_Key: UI_NEXT_TIER_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466773786624
+    m_Key: UI_BUTTON_MAINMENU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466773786625
+    m_Key: UI_BUTTON_NEWGAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466777980928
+    m_Key: UI_BUTTON_RESUME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466782175232
+    m_Key: UI_NEW_GAME_HEADER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466782175233
+    m_Key: UI_NEW_GAME_WARNING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466786369536
+    m_Key: UI_RETURN_MAIN_MENU_HEADER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466790563840
+    m_Key: UI_RETURN_MAIN_MENU_WARNING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466790563841
+    m_Key: UI_NO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466794758144
+    m_Key: UI_YES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466798952448
+    m_Key: UI_CONTINUE_RUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466803146752
+    m_Key: UI_TOKEN_REFILL_FMT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466803146753
+    m_Key: UI_SAVEME_USE_TOKEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466807341056
+    m_Key: UI_SAVEME_END_RUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466811535360
+    m_Key: UI_FULL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466815729664
+    m_Key: UI_STATS_HEADER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466815729665
+    m_Key: UI_MULTIPLER_LABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466819923968
+    m_Key: UI_MULTIPLIER_FMT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466824118272
+    m_Key: UI_SINGLE_RUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466824118273
+    m_Key: UI_HIGHEST_SCORE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466828312576
+    m_Key: UI_LONGEST_RUN_LABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466832506880
+    m_Key: UI_DISTANCE_FMT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466832506881
+    m_Key: UI_MOST_COINS_LABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466836701184
+    m_Key: UI_WITH_REVIVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466840895488
+    m_Key: UI_LIFETIME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466840895489
+    m_Key: UI_TOTAL_GAMES_LABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466845089792
+    m_Key: UI_TOTAL_DISTANCE_LABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466849284096
+    m_Key: UI_TOTAL_COINS_LABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466853478400
+    m_Key: UI_UPGRADES_HEADING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466853478401
+    m_Key: UI_POWERUPS_HEADING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466857672704
+    m_Key: UI_UNKNOWN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466861867008
+    m_Key: UI_MEGA_COIN_DESC_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466861867009
+    m_Key: UI_MEGA_COIN_DESC_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466866061312
+    m_Key: UI_MEGA_COIN_DESC_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466870255616
+    m_Key: UI_MEGA_COIN_DESC_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466870255617
+    m_Key: UI_MEGA_COIN_DESC_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466874449920
+    m_Key: UI_MEGA_COIN_DESC_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466878644224
+    m_Key: UI_MEGA_COIN_DESC_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466878644225
+    m_Key: UI_MEGA_COIN_DESC_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466882838528
+    m_Key: UI_POWERUP_PURCHASE_LABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466887032832
+    m_Key: UI_FREE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466887032833
+    m_Key: UI_ENABLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466891227136
+    m_Key: UI_DISABLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466895421440
+    m_Key: UI_COIN_MAGNET_DESC_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466895421441
+    m_Key: UI_COIN_MAGNET_DESC_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466899615744
+    m_Key: UI_COIN_MAGNET_DESC_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466899615745
+    m_Key: UI_COIN_MAGNET_DESC_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466903810048
+    m_Key: UI_COIN_MAGNET_DESC_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466908004352
+    m_Key: UI_COIN_MAGNET_DESC_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466912198656
+    m_Key: UI_COIN_MAGNET_DESC_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466912198657
+    m_Key: UI_COIN_MAGNET_DESC_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466916392960
+    m_Key: UI_INVISIBILITY_DESC_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466920587264
+    m_Key: UI_INVISIBILITY_DESC_1_TO_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466920587265
+    m_Key: UI_INVISIBILITY_DESC_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466924781568
+    m_Key: UI_INVISIBILITY_DESC_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466928975872
+    m_Key: UI_INVISIBILITY_DESC_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466928975873
+    m_Key: UI_BOOST_DESC_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466933170176
+    m_Key: UI_BOOST_DESC_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466937364480
+    m_Key: UI_BOOST_DESC_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466937364481
+    m_Key: UI_BOOST_DESC_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466941558784
+    m_Key: UI_BOOST_DESC_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466945753088
+    m_Key: UI_BOOST_DESC_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466949947392
+    m_Key: UI_BOOST_DESC_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466949947393
+    m_Key: UI_BOOST_DESC_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466954141696
+    m_Key: UI_COIN_VALUE_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466958336000
+    m_Key: UI_COIN_VALUE_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466958336001
+    m_Key: UI_COIN_VALUE_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466962530304
+    m_Key: UI_COIN_VALUE_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466966724608
+    m_Key: UI_COIN_VALUE_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466966724609
+    m_Key: UI_COIN_VALUE_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466970918912
+    m_Key: UI_FULLY_UPGRADED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466975113216
+    m_Key: UI_UTILITIES_HEADING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466975113217
+    m_Key: UI_RESURRECTION_WINGS_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466979307520
+    m_Key: UI_UTILITY_PURCHASE_LABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466983501824
+    m_Key: UI_RESURRECTION_WINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466983501825
+    m_Key: UI_RESURRECTION_WINGS_LONG_DESC_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466987696128
+    m_Key: UI_RESURRECTION_WINGS_LONG_DESC_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466987696129
+    m_Key: UI_RESURRECTION_WINGS_LONG_DESC_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466991890432
+    m_Key: UI_RESURRECTION_WINGS_LONG_DESC_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466996084736
+    m_Key: UI_OKAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466996084737
+    m_Key: UI_OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467000279040
+    m_Key: UI_PERMA_WINGS_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467004473344
+    m_Key: UI_PERMA_WINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467004473345
+    m_Key: UI_PERMA_WINGS_LONG_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467008667648
+    m_Key: UI_HEAD_START_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467012861952
+    m_Key: UI_HEAD_START
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467012861953
+    m_Key: UI_HEAD_START_LONG_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467017056256
+    m_Key: UI_MEGA_HEAD_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467021250560
+    m_Key: UI_MEGA_HEAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467025444864
+    m_Key: UI_MEGA_HEAD_LONG_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467025444865
+    m_Key: UI_CHARACTERS_HEADING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467029639168
+    m_Key: UI_CURRENTLY_ACTIVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467033833472
+    m_Key: UI_ACTIVATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467033833473
+    m_Key: UI_CHARACTER_PURCHASE_LABEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467038027776
+    m_Key: UI_CHAR_GUY_DANGEROUS_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467042222080
+    m_Key: UI_CHAR_SCARLETT_FOX_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467042222081
+    m_Key: UI_CHAR_BARRY_BONES_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467046416384
+    m_Key: UI_CHAR_KARMA_LEE_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467050610688
+    m_Key: UI_CHAR_MONTANA_SMITH_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467050610689
+    m_Key: UI_CHAR_FRANCISCO_MONTOYA_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467054804992
+    m_Key: UI_CHAR_ZACK_WONDER_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467058999296
+    m_Key: UI_CHAR_UNLOCKED_GUY_DANGEROUS_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467058999297
+    m_Key: UI_CHAR_UNLOCKED_SCARLETT_FOX_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467063193600
+    m_Key: UI_CHAR_UNLOCKED_BARRY_BONES_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467067387904
+    m_Key: UI_CHAR_UNLOCKED_KARMA_LEE_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467067387905
+    m_Key: UI_CHAR_UNLOCKED_MONTANA_SMITH_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467071582208
+    m_Key: UI_CHAR_UNLOCKED_FRANCISCO_MONTOYA_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467075776512
+    m_Key: UI_CHAR_UNLOCKED_ZACK_WONDER_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467075776513
+    m_Key: UI_UPGRADES_NOTENOUGHCOIN_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467079970816
+    m_Key: UI_UPGRADES_NOTENOUGHCOIN_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467084165120
+    m_Key: UI_NETWORK_REQUEST_FAILED_HEADING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467084165121
+    m_Key: UI_NETWORK_REQUEST_FAILED_BODY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467088359424
+    m_Key: UI_HIGH_SCORE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467092553728
+    m_Key: UI_TUT_TURN_LEFT_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467092553729
+    m_Key: UI_TUT_TURN_RIGHT_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467096748032
+    m_Key: UI_TUT_TURN_LEFTRIGHT_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467100942336
+    m_Key: UI_TUT_JUMP_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467100942337
+    m_Key: UI_TUT_SLIDE_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467105136640
+    m_Key: UI_TUT_STRAFE_LEFT_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467105136641
+    m_Key: UI_TUT_STRAFE_RIGHT_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467113525248
+    m_Key: UI_TUT_STRAFE_LEFTRIGHT_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467113525249
+    m_Key: UI_TUT_TURN_LEFT_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467117719552
+    m_Key: UI_TUT_TURN_RIGHT_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467121913856
+    m_Key: UI_TUT_TURN_LEFTRIGHT_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467121913857
+    m_Key: UI_TUT_JUMP_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467126108160
+    m_Key: UI_TUT_SLIDE_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467130302464
+    m_Key: UI_TUT_STRAFE_LEFT_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467130302465
+    m_Key: UI_TUT_STRAFE_RIGHT_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467134496768
+    m_Key: UI_TUT_STRAFE_LEFTRIGHT_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467138691072
+    m_Key: UI_TUT_TURN_LEFT_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467138691073
+    m_Key: UI_TUT_TURN_RIGHT_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467142885376
+    m_Key: UI_TUT_TURN_LEFTRIGHT_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467142885377
+    m_Key: UI_TUT_JUMP_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467147079680
+    m_Key: UI_TUT_SLIDE_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467151273984
+    m_Key: UI_TUT_STRAFE_LEFT_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467155468288
+    m_Key: UI_TUT_STRAFE_RIGHT_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467155468289
+    m_Key: UI_TUT_STRAFE_LEFTRIGHT_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467159662592
+    m_Key: UI_TUT_TURN_LEFT_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467163856896
+    m_Key: UI_TUT_TURN_RIGHT_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467163856897
+    m_Key: UI_TUT_TURN_LEFTRIGHT_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467168051200
+    m_Key: UI_TUT_JUMP_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467172245504
+    m_Key: UI_TUT_SLIDE_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467172245505
+    m_Key: UI_TUT_STRAFE_LEFT_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467176439808
+    m_Key: UI_TUT_STRAFE_RIGHT_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467180634112
+    m_Key: UI_TUT_STRAFE_LEFTRIGHT_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467180634113
+    m_Key: UI_FILL_UP_METER_FOR_BONUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467184828416
+    m_Key: UI_TUT_PROGRESS_FEEDBACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467189022720
+    m_Key: UI_TUT_DONE_GOOD_LUCK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467189022721
+    m_Key: UI_CONTROLLER_CONNECTED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467193217024
+    m_Key: UI_CONTROLLER_DISCONNECTED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467197411328
+    m_Key: UI_PAUSE_TO_USE_UTILITY_TIMER_FMT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467197411329
+    m_Key: UI_CONTROLS_SUMMARY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467201605632
+    m_Key: UI_TOUCH_CONTROLS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467205799936
+    m_Key: UI_SIRI_REMOTE_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467205799937
+    m_Key: UI_SIRI_REMOTE_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467209994240
+    m_Key: UI_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467209994241
+    m_Key: UI_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467214188544
+    m_Key: UI_TURN_LEFT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467218382848
+    m_Key: UI_TURN_RIGHT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467218382849
+    m_Key: UI_STRAFE_LEFT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467222577152
+    m_Key: UI_STRAFE_RIGHT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467226771456
+    m_Key: UI_JUMP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467226771457
+    m_Key: UI_SLIDE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467230965760
+    m_Key: UI_SUMMON_PAUSE_MENU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467235160064
+    m_Key: UI_IN_GAME_UTILITES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467235160065
+    m_Key: UI_USE_RESURRECTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467239354368
+    m_Key: UI_PRE_GAME_UTILITIES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467243548672
+    m_Key: UI_BOOST_AT_START
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467243548673
+    m_Key: UI_MEGA_BOOST_AT_START
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467247742976
+    m_Key: UI_PERMANENT_RESURRECTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467251937280
+    m_Key: UI_TURN_LEFT_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467251937281
+    m_Key: UI_TURN_RIGHT_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467256131584
+    m_Key: UI_JUMP_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467260325888
+    m_Key: UI_SLIDE_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467264520192
+    m_Key: UI_STRAFE_LEFT_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467264520193
+    m_Key: UI_STRAFE_RIGHT_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467268714496
+    m_Key: UI_SUMMON_PAUSE_MENU_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467272908800
+    m_Key: UI_SUMMON_PAUSE_MENU_ALT_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467272908801
+    m_Key: UI_USE_RESURRECTION_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467277103104
+    m_Key: UI_USE_RESURRECTION_ALT_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467281297408
+    m_Key: UI_BOOST_AT_START_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467281297409
+    m_Key: UI_BOOST_AT_START_ALT_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467285491712
+    m_Key: UI_MEGA_BOOST_AT_START_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467289686016
+    m_Key: UI_MEGA_BOOST_AT_START_ALT_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467289686017
+    m_Key: UI_PERMANENT_RESURRECTION_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467293880320
+    m_Key: UI_PERMANENT_RESURRECTION_ALT_IOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467298074624
+    m_Key: UI_TURN_LEFT_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467298074625
+    m_Key: UI_TURN_RIGHT_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467302268928
+    m_Key: UI_JUMP_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467302268929
+    m_Key: UI_SLIDE_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467306463232
+    m_Key: UI_STRAFE_LEFT_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467310657536
+    m_Key: UI_STRAFE_RIGHT_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467310657537
+    m_Key: UI_SUMMON_PAUSE_MENU_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467314851840
+    m_Key: UI_SUMMON_PAUSE_MENU_ALT_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467319046144
+    m_Key: UI_USE_RESURRECTION_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467323240448
+    m_Key: UI_USE_RESURRECTION_ALT_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467323240449
+    m_Key: UI_BOOST_AT_START_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467327434752
+    m_Key: UI_BOOST_AT_START_ALT_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467331629056
+    m_Key: UI_MEGA_BOOST_AT_START_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467331629057
+    m_Key: UI_MEGA_BOOST_AT_START_ALT_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467335823360
+    m_Key: UI_PERMANENT_RESURRECTION_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467335823361
+    m_Key: UI_PERMANENT_RESURRECTION_ALT_REMOTE_GEN1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467340017664
+    m_Key: UI_TURN_LEFT_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467344211968
+    m_Key: UI_TURN_RIGHT_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467344211969
+    m_Key: UI_JUMP_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467348406272
+    m_Key: UI_SLIDE_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467352600576
+    m_Key: UI_STRAFE_LEFT_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467352600577
+    m_Key: UI_STRAFE_RIGHT_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467356794880
+    m_Key: UI_SUMMON_PAUSE_MENU_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467360989184
+    m_Key: UI_SUMMON_PAUSE_MENU_ALT_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467360989185
+    m_Key: UI_USE_RESURRECTION_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467365183488
+    m_Key: UI_USE_RESURRECTION_ALT_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467365183489
+    m_Key: UI_BOOST_AT_START_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467369377792
+    m_Key: UI_BOOST_AT_START_ALT_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467373572096
+    m_Key: UI_MEGA_BOOST_AT_START_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467373572097
+    m_Key: UI_MEGA_BOOST_AT_START_ALT_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467377766400
+    m_Key: UI_PERMANENT_RESURRECTION_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467381960704
+    m_Key: UI_PERMANENT_RESURRECTION_ALT_CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467381960705
+    m_Key: UI_TURN_LEFT_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467386155008
+    m_Key: UI_TURN_RIGHT_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467390349312
+    m_Key: UI_JUMP_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467390349313
+    m_Key: UI_SLIDE_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467394543616
+    m_Key: UI_STRAFE_LEFT_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467394543617
+    m_Key: UI_STRAFE_RIGHT_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467398737920
+    m_Key: UI_SUMMON_PAUSE_MENU_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467402932224
+    m_Key: UI_SUMMON_PAUSE_MENU_ALT_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467407126528
+    m_Key: UI_USE_RESURRECTION_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467407126529
+    m_Key: UI_USE_RESURRECTION_ALT_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467411320832
+    m_Key: UI_BOOST_AT_START_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467415515136
+    m_Key: UI_BOOST_AT_START_ALT_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467415515137
+    m_Key: UI_MEGA_BOOST_AT_START_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467419709440
+    m_Key: UI_MEGA_BOOST_AT_START_ALT_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467423903744
+    m_Key: UI_PERMANENT_RESURRECTION_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467423903745
+    m_Key: UI_PERMANENT_RESURRECTION_ALT_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467428098048
+    m_Key: UI_OBJECTIVES_HEADER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467428098049
+    m_Key: ACH_NAME_PARTICIPATION_TROPHY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467432292352
+    m_Key: ACH_PRE_PARTICIPATION_TROPHY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467436486656
+    m_Key: ACH_POST_PARTICIPATION_TROPHY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467436486657
+    m_Key: ACH_NAME_UP_AND_COMER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467440680960
+    m_Key: ACH_PRE_UP_AND_COMER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467444875264
+    m_Key: ACH_POST_UP_AND_COMER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467444875265
+    m_Key: ACH_NAME_ALL_STAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467449069568
+    m_Key: ACH_PRE_ALL_STAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467453263872
+    m_Key: ACH_POST_ALL_STAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467453263873
+    m_Key: ACH_NAME_HARD_WORKER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467457458176
+    m_Key: ACH_PRE_HARD_WORKER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467457458177
+    m_Key: ACH_POST_HARD_WORKER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467461652480
+    m_Key: ACH_NAME_ON_A_RUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467465846784
+    m_Key: ACH_PRE_ON_A_RUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467465846785
+    m_Key: ACH_POST_ON_A_RUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467470041088
+    m_Key: ACH_NAME_WORLD_WIDE_CHALLENGER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467474235392
+    m_Key: ACH_PRE_WORLD_WIDE_CHALLENGER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467478429696
+    m_Key: ACH_POST_WORLD_WIDE_CHALLENGER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467478429697
+    m_Key: ACH_NAME_FAMOUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467482624000
+    m_Key: ACH_PRE_FAMOUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467486818304
+    m_Key: ACH_POST_FAMOUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467486818305
+    m_Key: ACH_NAME_THE_COMPLETIONIST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467491012608
+    m_Key: ACH_PRE_THE_COMPLETIONIST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467499401216
+    m_Key: ACH_POST_THE_COMPLETIONIST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467503595520
+    m_Key: ACH_NAME_KEEP_ON_GOING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467507789824
+    m_Key: ACH_PRE_KEEP_ON_GOING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467507789825
+    m_Key: ACH_POST_KEEP_ON_GOING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467511984128
+    m_Key: ACH_NAME_A_LITTLE_FURTHER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467516178432
+    m_Key: ACH_PRE_A_LITTLE_FURTHER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467516178433
+    m_Key: ACH_POST_A_LITTLE_FURTHER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467520372736
+    m_Key: ACH_NAME_JUST_ABOUT_THERE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467524567040
+    m_Key: ACH_PRE_JUST_ABOUT_THERE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467524567041
+    m_Key: ACH_POST_JUST_ABOUT_THERE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467528761344
+    m_Key: ACH_NAME_MAKING_WAVES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467532955648
+    m_Key: ACH_PRE_MAKING_WAVES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467532955649
+    m_Key: ACH_POST_MAKING_WAVES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467537149952
+    m_Key: ACH_NAME_TOP_OF_THE_WORLD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467541344256
+    m_Key: ACH_PRE_TOP_OF_THE_WORLD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467541344257
+    m_Key: ACH_POST_TOP_OF_THE_WORLD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467545538560
+    m_Key: ACH_NAME_NOVICE_RUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467549732864
+    m_Key: ACH_PRE_NOVICE_RUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467549732865
+    m_Key: ACH_POST_NOVICE_RUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467553927168
+    m_Key: ACH_NAME_POCKET_CHANGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467553927169
+    m_Key: ACH_PRE_POCKET_CHANGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467558121472
+    m_Key: ACH_POST_POCKET_CHANGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467562315776
+    m_Key: ACH_NAME_ADVENTURER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467562315777
+    m_Key: ACH_PRE_ADVENTURER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467566510080
+    m_Key: ACH_POST_ADVENTURER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467570704384
+    m_Key: ACH_NAME_SPRINTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467570704385
+    m_Key: ACH_PRE_SPRINTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467574898688
+    m_Key: ACH_POST_SPRINTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467579092992
+    m_Key: ACH_NAME_MISER_RUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467583287296
+    m_Key: ACH_PRE_MISER_RUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467583287297
+    m_Key: ACH_POST_MISER_RUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467587481600
+    m_Key: ACH_NAME_PIGGY_BANK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467591675904
+    m_Key: ACH_PRE_PIGGY_BANK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467591675905
+    m_Key: ACH_POST_PIGGY_BANK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467595870208
+    m_Key: ACH_NAME_TREASURE_HUNTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467600064512
+    m_Key: ACH_PRE_TREASURE_HUNTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467600064513
+    m_Key: ACH_POST_TREASURE_HUNTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467604258816
+    m_Key: ACH_NAME_MEGA_BONUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467604258817
+    m_Key: ACH_PRE_MEGA_BONUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467608453120
+    m_Key: ACH_POST_MEGA_BONUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467612647424
+    m_Key: ACH_NAME_ATHLETE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467612647425
+    m_Key: ACH_PRE_ATHLETE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467616841728
+    m_Key: ACH_POST_ATHLETE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467621036032
+    m_Key: ACH_NAME_LUMP_SUM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467621036033
+    m_Key: ACH_PRE_LUMP_SUM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467625230336
+    m_Key: ACH_POST_LUMP_SUM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467629424640
+    m_Key: ACH_NAME_RESURRECTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467629424641
+    m_Key: ACH_PRE_RESURRECTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467633618944
+    m_Key: ACH_POST_RESURRECTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467637813248
+    m_Key: ACH_NAME_BASIC_POWERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467642007552
+    m_Key: ACH_PRE_BASIC_POWERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467642007553
+    m_Key: ACH_POST_BASIC_POWERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467646201856
+    m_Key: ACH_NAME_HIGH_ROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467646201857
+    m_Key: ACH_PRE_HIGH_ROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467650396160
+    m_Key: ACH_POST_HIGH_ROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467654590464
+    m_Key: ACH_NAME_PAYDAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467654590465
+    m_Key: ACH_PRE_PAYDAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467658784768
+    m_Key: ACH_POST_PAYDAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467662979072
+    m_Key: ACH_NAME_HEAD_START
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467662979073
+    m_Key: ACH_PRE_HEAD_START
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467667173376
+    m_Key: ACH_POST_HEAD_START
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467671367680
+    m_Key: ACH_NAME_STEADY_FEET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467671367681
+    m_Key: ACH_PRE_STEADY_FEET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467675561984
+    m_Key: ACH_POST_STEADY_FEET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467679756288
+    m_Key: ACH_NAME_ALLERGIC_TO_GOLD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467683950592
+    m_Key: ACH_PRE_ALLERGIC_TO_GOLD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467683950593
+    m_Key: ACH_POST_ALLERGIC_TO_GOLD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467688144896
+    m_Key: ACH_NAME_5K_RUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467692339200
+    m_Key: ACH_PRE_5K_RUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467692339201
+    m_Key: ACH_POST_5K_RUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467696533504
+    m_Key: ACH_NAME_NO.TRIP.RUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467700727808
+    m_Key: ACH_PRE_NO.TRIP.RUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467700727809
+    m_Key: ACH_POST_NO.TRIP.RUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467704922112
+    m_Key: ACH_NAME_QUARTER_MILLION_CLUB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467709116416
+    m_Key: ACH_PRE_QUARTER_MILLION_CLUB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467709116417
+    m_Key: ACH_POST_QUARTER_MILLION_CLUB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467713310720
+    m_Key: ACH_NAME_DOUBLE_RESURRECTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467717505024
+    m_Key: ACH_PRE_DOUBLE_RESURRECTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467717505025
+    m_Key: ACH_POST_DOUBLE_RESURRECTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467721699328
+    m_Key: ACH_NAME_MONEY_BAGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467721699329
+    m_Key: ACH_PRE_MONEY_BAGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467725893632
+    m_Key: ACH_POST_MONEY_BAGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467730087936
+    m_Key: ACH_NAME_HALF_MILLION_CLUB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467730087937
+    m_Key: ACH_PRE_HALF_MILLION_CLUB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467734282240
+    m_Key: ACH_POST_HALF_MILLION_CLUB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467738476544
+    m_Key: ACH_NAME_SUPER_POWERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467738476545
+    m_Key: ACH_PRE_SUPER_POWERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467742670848
+    m_Key: ACH_POST_SUPER_POWERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467746865152
+    m_Key: ACH_NAME_DYNAMIC_DUO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467751059456
+    m_Key: ACH_PRE_DYNAMIC_DUO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467751059457
+    m_Key: ACH_POST_DYNAMIC_DUO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467755253760
+    m_Key: ACH_NAME_MILLION_CLUB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467759448064
+    m_Key: ACH_PRE_MILLION_CLUB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467759448065
+    m_Key: ACH_POST_MILLION_CLUB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467763642368
+    m_Key: ACH_NAME_MONEY_BIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467763642369
+    m_Key: ACH_PRE_MONEY_BIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467767836672
+    m_Key: ACH_POST_MONEY_BIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467772030976
+    m_Key: ACH_NAME_FANTASTIC_FOUR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467772030977
+    m_Key: ACH_PRE_FANTASTIC_FOUR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467776225280
+    m_Key: ACH_POST_FANTASTIC_FOUR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467780419584
+    m_Key: ACH_NAME_SEXY_SIX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467784613888
+    m_Key: ACH_PRE_SEXY_SIX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467784613889
+    m_Key: ACH_POST_SEXY_SIX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467788808192
+    m_Key: ACH_NAME_10K_RUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467793002496
+    m_Key: ACH_PRE_10K_RUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467793002497
+    m_Key: ACH_POST_10K_RUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467797196800
+    m_Key: ACH_NAME_FORT_KNOX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467797196801
+    m_Key: ACH_PRE_FORT_KNOX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467801391104
+    m_Key: ACH_POST_FORT_KNOX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467805585408
+    m_Key: ACH_NAME_2.5_MILLION_CLUB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467805585409
+    m_Key: ACH_PRE_2.5_MILLION_CLUB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467809779712
+    m_Key: ACH_POST_2.5_MILLION_CLUB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467813974016
+    m_Key: ACH_NAME_5_MILLION_CLUB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467818168320
+    m_Key: ACH_PRE_5_MILLION_CLUB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467818168321
+    m_Key: ACH_POST_5_MILLION_CLUB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467822362624
+    m_Key: ACH_NAME_THE_SPARTAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467826556928
+    m_Key: ACH_PRE_THE_SPARTAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467826556929
+    m_Key: ACH_POST_THE_SPARTAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467830751232
+    m_Key: ACH_NAME_10_MILLION_CLUB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467834945536
+    m_Key: ACH_PRE_10_MILLION_CLUB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467834945537
+    m_Key: ACH_POST_10_MILLION_CLUB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467839139840
+    m_Key: ACH_NAME_TEMPLE_RUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467843334144
+    m_Key: ACH_PRE_TEMPLE_RUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467843334145
+    m_Key: ACH_POST_TEMPLE_RUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467847528448
+    m_Key: ACH_NAME_MINOR_MINER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467851722752
+    m_Key: ACH_PRE_MINOR_MINER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467851722753
+    m_Key: ACH_POST_MINOR_MINER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467855917056
+    m_Key: ACH_NAME_MARATHONER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467860111360
+    m_Key: ACH_PRE_MARATHONER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467860111361
+    m_Key: ACH_POST_MARATHONER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467864305664
+    m_Key: ACH_NAME_PRO_TEMPLE_RUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467864305665
+    m_Key: ACH_PRE_PRO_TEMPLE_RUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467868499968
+    m_Key: ACH_POST_PRO_TEMPLE_RUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467872694272
+    m_Key: ACH_NAME_GOLD_MINER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467876888576
+    m_Key: ACH_PRE_GOLD_MINER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467881082880
+    m_Key: ACH_POST_GOLD_MINER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467881082881
+    m_Key: ACH_NAME_CIRCUMNAVIGATOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467885277184
+    m_Key: ACH_PRE_CIRCUMNAVIGATOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467885277185
+    m_Key: ACH_POST_CIRCUMNAVIGATOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467889471488
+    m_Key: ACH_NAME_MAGNET_MINER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467893665792
+    m_Key: ACH_PRE_MAGNET_MINER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467893665793
+    m_Key: ACH_POST_MAGNET_MINER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467897860096
+    m_Key: ACH_NAME_COIN_JUMPER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467902054400
+    m_Key: ACH_PRE_COIN_JUMPER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467902054401
+    m_Key: ACH_POST_COIN_JUMPER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467906248704
+    m_Key: ACH_NAME_INVISIBLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467906248705
+    m_Key: ACH_PRE_INVISIBLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467910443008
+    m_Key: ACH_POST_INVISIBLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467914637312
+    m_Key: ACH_NAME_BOOSTER_SHOT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467914637313
+    m_Key: ACH_PRE_BOOSTER_SHOT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467918831616
+    m_Key: ACH_POST_BOOSTER_SHOT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467923025920
+    m_Key: ACH_NAME_MAGNETIC_PERSONALITY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467923025921
+    m_Key: ACH_PRE_MAGNETIC_PERSONALITY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467927220224
+    m_Key: ACH_POST_MAGNETIC_PERSONALITY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467931414528
+    m_Key: ACH_NAME_GOLD_EXPLOSION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467931414529
+    m_Key: ACH_PRE_GOLD_EXPLOSION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467935608832
+    m_Key: ACH_POST_GOLD_EXPLOSION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467939803136
+    m_Key: ACH_NAME_UNBREAKABLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467939803137
+    m_Key: ACH_PRE_UNBREAKABLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467943997440
+    m_Key: ACH_POST_UNBREAKABLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467943997441
+    m_Key: ACH_NAME_SPEED_DEMON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467948191744
+    m_Key: ACH_PRE_SPEED_DEMON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467952386048
+    m_Key: ACH_POST_SPEED_DEMON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467952386049
+    m_Key: ACH_NAME_THE_ATTRACTOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467956580352
+    m_Key: ACH_PRE_THE_ATTRACTOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467960774656
+    m_Key: ACH_POST_THE_ATTRACTOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467960774657
+    m_Key: ACH_NAME_GOLDEN_GOD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467964968960
+    m_Key: ACH_PRE_GOLDEN_GOD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467969163264
+    m_Key: ACH_POST_GOLDEN_GOD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467969163265
+    m_Key: ACH_NAME_INVINCIBLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467973357568
+    m_Key: ACH_PRE_INVINCIBLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467973357569
+    m_Key: ACH_POST_INVINCIBLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467977551872
+    m_Key: ACH_NAME_THE_ROCKET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467981746176
+    m_Key: ACH_PRE_THE_ROCKET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467985940480
+    m_Key: ACH_POST_THE_ROCKET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467985940481
+    m_Key: ACH_NAME_MEGA_RUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467990134784
+    m_Key: ACH_PRE_MEGA_RUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467994329088
+    m_Key: ACH_POST_MEGA_RUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467994329089
+    m_Key: ACH_NAME_MIDAS_TOUCH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467998523392
+    m_Key: ACH_PRE_MIDAS_TOUCH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467998523393
+    m_Key: ACH_POST_MIDAS_TOUCH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468002717696
+    m_Key: ACH_NAME_INFINIRUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468006912000
+    m_Key: ACH_PRE_INFINIRUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468006912001
+    m_Key: ACH_POST_INFINIRUNNER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468011106304
+    m_Key: UI_RUN_AGAIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468015300608
+    m_Key: UI_UPGRADES_ON_RESULT_SCREEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468019494912
+    m_Key: UI_END_GAME_YOUR_BEST_SCORE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468019494913
+    m_Key: DeathCaptionFossil1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468023689216
+    m_Key: DeathCaptionFossil2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468027883520
+    m_Key: DeathCaptionFall1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468027883521
+    m_Key: DeathCaptionFall2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468032077824
+    m_Key: DeathCaptionFall3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468036272128
+    m_Key: DeathCaptionFall4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468036272129
+    m_Key: DeathCaptionFall5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468040466432
+    m_Key: DeathCaptionFall6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468044660736
+    m_Key: DeathCaptionFall7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468044660737
+    m_Key: DeathCaptionFallBigB1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468048855040
+    m_Key: DeathCaptionFallBigB2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468053049344
+    m_Key: DeathCaptionFallChina1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468053049345
+    m_Key: DeathCaptionFallConq
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468057243648
+    m_Key: DeathCaptionFallFootball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468061437952
+    m_Key: DeathCaptionWater1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468061437953
+    m_Key: DeathCaptionWater2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468065632256
+    m_Key: DeathCaptionWater3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468065632257
+    m_Key: DeathCaptionWater4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468069826560
+    m_Key: DeathCaptionWater5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468074020864
+    m_Key: DeathCaptionWater6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468074020865
+    m_Key: DeathCaptionWaterBigB1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468078215168
+    m_Key: DeathCaptionWaterBigB2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468082409472
+    m_Key: DeathCaptionWaterChina1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468082409473
+    m_Key: DeathCaptionWaterFootball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468086603776
+    m_Key: DeathCaptionTree1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468090798080
+    m_Key: DeathCaptionTree2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468090798081
+    m_Key: DeathCaptionTree3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468094992384
+    m_Key: DeathCaptionTree4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468099186688
+    m_Key: DeathCaptionTree5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468099186689
+    m_Key: DeathCaptionTree6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468103380992
+    m_Key: DeathCaptionTreeBigB1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468107575296
+    m_Key: DeathCaptionTreeChina1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468107575297
+    m_Key: DeathCaptionTreeConq
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468111769600
+    m_Key: DeathCaptionTreeFootball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468111769601
+    m_Key: DeathCaptionTreeScenery1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468115963904
+    m_Key: DeathCaptionTreeScenery2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468120158208
+    m_Key: DeathCaptionTreeScenery3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468120158209
+    m_Key: DeathCaptionTreeScenery4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468124352512
+    m_Key: DeathCaptionTreeScenery5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468128546816
+    m_Key: DeathCaptionTreeScenery6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468132741120
+    m_Key: DeathCaptionSceneryRock1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468132741121
+    m_Key: DeathCaptionSceneryRock2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468136935424
+    m_Key: DeathCaptionSceneryRock3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468141129728
+    m_Key: DeathCaptionSlide1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468141129729
+    m_Key: DeathCaptionSlide2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468145324032
+    m_Key: DeathCaptionSlide3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468149518336
+    m_Key: DeathCaptionSlide4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468149518337
+    m_Key: DeathCaptionSlide5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468153712640
+    m_Key: DeathCaptionSlideBigB1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468157906944
+    m_Key: DeathCaptionSlideChina1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468157906945
+    m_Key: DeathCaptionLedge1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468162101248
+    m_Key: DeathCaptionLedge2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468166295552
+    m_Key: DeathCaptionBurnt1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468166295553
+    m_Key: DeathCaptionBurnt2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468170489856
+    m_Key: DeathCaptionBurnt3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468174684160
+    m_Key: DeathCaptionBurnt4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468174684161
+    m_Key: DeathCaptionBurntConq
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468178878464
+    m_Key: DeathCaptionEaten1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468178878465
+    m_Key: DeathCaptionEaten2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468183072768
+    m_Key: DeathCaptionEaten3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468187267072
+    m_Key: DeathCaptionEaten4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468187267073
+    m_Key: DeathCaptionEatenConq
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468191461376
+    m_Key: DeathCaptionEatenFootball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468195655680
+    m_Key: DeathCaptionTangle1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468195655681
+    m_Key: DeathCaptionTangle2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468199849984
+    m_Key: DeathCaptionTangle3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468199849985
+    m_Key: DeathCaptionTangle4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468204044288
+    m_Key: DeathCaptionTangle5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468208238592
+    m_Key: DeathCaptionTangleBigB1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468208238593
+    m_Key: DeathCaptionTangleBigB2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468212432896
+    m_Key: DeathCaptionTangleChina1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468216627200
+    m_Key: DeathCaptionTangleConq
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468220821504
+    m_Key: UI_GC_HEADER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468220821505
+    m_Key: UI_LEADERBOARD_HEADER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468225015808
+    m_Key: UI_EVENT_PROGRESS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468229210112
+    m_Key: UI_TIER_ACHIEVED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468229210113
+    m_Key: UI_SEASONAL_HEADER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468233404416
+    m_Key: UI_NEXT_CHALLENGE_HEADER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468233404417
+    m_Key: ReviewRequestTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468237598720
+    m_Key: ReviewRequestBody
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468241793024
+    m_Key: UI_NEXT_BUTTON_TEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468241793025
+    m_Key: UI_COMPLETED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468245987328
+    m_Key: UI_SAVESLOTS_HEADING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468250181632
+    m_Key: UI_SAVESLOTS_DESCRIPTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468250181633
+    m_Key: UI_CURRENT_SLOT_FMT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468254375936
+    m_Key: UI_NEW_SLOT_FMT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468258570240
+    m_Key: UI_LOAD_SLOT_FMT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468262764544
+    m_Key: UI_SLOT_DISTANCE_FMT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468262764545
+    m_Key: UI_SLOT_COINS_FMT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468266958848
+    m_Key: UI_LAST_SAVE_FMT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468271153152
+    m_Key: UI_DELETE_SLOT_WARNING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468271153153
+    m_Key: UI_DELETE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468275347456
+    m_Key: UI_CANCEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468275347457
+    m_Key: UI_DELETE_SLOT_HEADING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468279541760
+    m_Key: UI_TIME_LEFT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468283736064
+    m_Key: UI_SINGLE_DISTANCE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468287930368
+    m_Key: UI_COLLECTIVE_DISTANCE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468287930369
+    m_Key: UI_SINGLE_SCORE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468292124672
+    m_Key: UI_COLLECTIVE_SCORE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468296318976
+    m_Key: UI_SINGLE_COIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468296318977
+    m_Key: UI_COLLECTIVE_COIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468300513280
+    m_Key: UI_SINGLE_POWERUP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468304707584
+    m_Key: UI_SINGLE_DISTANCE_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468304707585
+    m_Key: UI_COLLECTIVE_DISTANCE_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468308901888
+    m_Key: UI_SINGLE_SCORE_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468313096192
+    m_Key: UI_COLLECTIVE_SCORE_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468313096193
+    m_Key: UI_SINGLE_COIN_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468317290496
+    m_Key: UI_COLLECTIVE_COIN_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468321484800
+    m_Key: UI_SINGLE_POWERUP_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468321484801
+    m_Key: UI_NOVICE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468334067712
+    m_Key: UI_SCRAPPER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468342456320
+    m_Key: UI_APPRENTICE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468346650624
+    m_Key: UI_PATHFINDER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468350844928
+    m_Key: UI_PROFESSOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468355039232
+    m_Key: UI_LEGEND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468355039233
+    m_Key: UI_EVENT_ENDED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468359233536
+    m_Key: UI_NEW_CHALLENGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468359233537
+    m_Key: UI_NEW_TIER_COMPLETED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468363427840
+    m_Key: UI_REWARD_POPUP_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468367622144
+    m_Key: UI_UTILITY_NOT_IN_INVENTORY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468371816448
+    m_Key: UI_UTILITY_NOT_DURING_TUTORIAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468376010752
+    m_Key: UI_UTILITY_NOT_DURING_INTRO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468380205056
+    m_Key: UI_UTILITY_SOME_INTRO_UTILITY_ALREADY_USED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468384399360
+    m_Key: UI_UTILITY_ONLY_AT_START
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468384399361
+    m_Key: UI_UTILITY_WINGS_RECHARGING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468388593664
+    m_Key: UI_UTILITY_ALREADY_IN_EFFECT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468392787968
+    m_Key: UI_RES_WINGS_SHORT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468396982272
+    m_Key: UI_PERMA_WINGS_SHORT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468396982273
+    m_Key: UI_HEAD_START_SHORT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468401176576
+    m_Key: UI_MEGA_HEAD_SHORT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468405370880
+    m_Key: UI_UTILITY_UNAVAILABLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468409565184
+    m_Key: UI_TVOS_OFFLINE_WARNING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468413759488
+    m_Key: UI_MAC_IOS_OFFLINE_WARNING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468417953792
+    m_Key: UI_CLOUD_SAVE_UNAVAILABLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468426342400
+    m_Key: UI_MULTIPLE_TIERS_COMPLETE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468426342401
+    m_Key: UI_TIER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468430536704
+    m_Key: UI_REWARDS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468430536705
+    m_Key: UI_TIME_TILL_NEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468434731008
+    m_Key: UI_YOUR_PROGRESS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468438925312
+    m_Key: UI_DISTANCE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468438925313
+    m_Key: UI_COINS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468443119616
+    m_Key: UI_SCORE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468447313920
+    m_Key: UI_POWERUP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468447313921
+    m_Key: UI_NO_CONTROLLER_WARNING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468451508224
+    m_Key: UI_LEADERBOARD_NAME_WITH_RESET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468455702528
+    m_Key: UI_BASE_MULTIPLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468455702529
+    m_Key: UI_NUM_OBJECTIVES_ACHIEVED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468459896832
+    m_Key: UI_YOUR_MULTIPLIER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468459896833
+    m_Key: UI_BOOSTED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468464091136
+    m_Key: UI_TOKEN_REFILL_SEC_FMT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468468285440
+    m_Key: UI_REWARD_COINS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468468285441
+    m_Key: UI_REWARD_RESWINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468472479744
+    m_Key: UI_REWARD_PERMAWINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468476674048
+    m_Key: UI_REWARD_HEADSTART
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468476674049
+    m_Key: UI_REWARD_MEGASTART
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468480868352
+    m_Key: UI_REWARD_REVIVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468480868353
+    m_Key: UI_REWARD_REVIVE_QUICKFILL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468485062656
+    m_Key: UI_TIME_DAYS_HOURS_MINS_SECS_FMT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468489256960
+    m_Key: UI_TIME_DAYS_HOURS_MINS_FMT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468489256961
+    m_Key: UI_TIME_HOURS_MINS_FMT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468493451264
+    m_Key: UI_TIME_MINS_FMT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468497645568
+    m_Key: UI_TIME_MINS_SECS_FMT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468497645569
+    m_Key: UI_TIME_SECS_FMT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468501839872
+    m_Key: UI_REVIVES_HEADING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468501839873
+    m_Key: UI_REVIVE_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468506034176
+    m_Key: UI_REVIVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468510228480
+    m_Key: UI_REVIVE_LONG_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468510228481
+    m_Key: UI_QUICK_FILL_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468514422784
+    m_Key: UI_QUICK_FILL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468518617088
+    m_Key: UI_QUICK_FILL_LONG_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468518617089
+    m_Key: UI_UNAVAILABLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468522811392
+    m_Key: UI_INSTANT_QUICK_FILL_UNAVAILABLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468527005696
+    m_Key: UI_NOT_APPLICABLE_SHORT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468527005697
+    m_Key: UI_NO_NETWORK_CONNECTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468531200000
+    m_Key: ACH_NAME_TOE_IN_THE_WATER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468535394304
+    m_Key: ACH_PRE_TOE_IN_THE_WATER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468539588608
+    m_Key: ACH_POST_TOE_IN_THE_WATER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468539588609
+    m_Key: ACH_NAME_FOOT_IN_THE_WATER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468543782912
+    m_Key: ACH_PRE_FOOT_IN_THE_WATER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468547977216
+    m_Key: ACH_POST_FOOT_IN_THE_WATER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468547977217
+    m_Key: UI_QUICK_FILL_TIME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468552171520
+    m_Key: UI_QUICK_FILL_RESET_TIME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468552171521
+    m_Key: UI_CONTROLS_HELP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468556365824
+    m_Key: UI_REWARDS_HELP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468560560128
+    m_Key: UI_SCORE_FOR_RESULT_SCREEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468560560129
+    m_Key: UI_REWARD_HEADING_COINS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468564754432
+    m_Key: UI_REWARD_DESC_COINS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468568948736
+    m_Key: UI_REWARD_HEADING_RESWINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468573143040
+    m_Key: UI_REWARD_DESC_RESWINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468573143041
+    m_Key: UI_REWARD_HEADING_PERMAWINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468577337344
+    m_Key: UI_REWARD_DESC_PERMAWINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468581531648
+    m_Key: UI_REWARD_HEADING_HEADSTART
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468581531649
+    m_Key: UI_REWARD_DESC_HEADSTART
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468585725952
+    m_Key: UI_REWARD_HEADING_MEGASTART
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468585725953
+    m_Key: UI_REWARD_DESC_MEGASTART
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468589920256
+    m_Key: UI_REWARD_HEADING_REVIVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468594114560
+    m_Key: UI_REWARD_DESC_REVIVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468594114561
+    m_Key: UI_REWARD_HEADING_QUICKFILL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468598308864
+    m_Key: UI_REWARD_DESC_QUICKFILL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468602503168
+    m_Key: UI_REWARD_INFO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468602503169
+    m_Key: UI_NEXT_TIER_THRESHOLD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468606697472
+    m_Key: UI_FINAL_PROGRESS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468610891776
+    m_Key: UI_REVIVES_REMAINING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468610891777
+    m_Key: UI_COIN_VALUE_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468615086080
+    m_Key: UI_TIME_HOURS_FMT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468615086081
+    m_Key: UI_DAILY_LOGIN_MESSAGE_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468619280384
+    m_Key: UI_DAILY_LOGIN_MESSAGE_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468623474688
+    m_Key: UI_DAILY_LOGIN_MESSAGE_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468623474689
+    m_Key: UI_DAILY_LOGIN_MESSAGE_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468627668992
+    m_Key: UI_DAILY_LOGIN_MESSAGE_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468631863296
+    m_Key: UI_DAILY_LOGIN_MESSAGE_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468631863297
+    m_Key: UI_DAILY_LOGIN_MESSAGE_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468636057600
+    m_Key: UI_REACTIVATION_REWARD_MESSAGE_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468640251904
+    m_Key: UI_REACTIVATION_REWARD_MESSAGE_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468640251905
+    m_Key: ACH_NAME_UP_TO_SPEED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468644446208
+    m_Key: ACH_PRE_UP_TO_SPEED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468644446209
+    m_Key: ACH_POST_UP_TO_SPEED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468648640512
+    m_Key: PRIVACY_POLICY_URL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468652834816
+    m_Key: PRIVACY_POLICY_PROMPT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468657029120
+    m_Key: UI_COLLECTIVE_POWERUP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468657029121
+    m_Key: UI_COLLECTIVE_POWERUP_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468661223424
+    m_Key: UI_TVOS_CLOUDSTORAGEFULL_WARNING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468665417728
+    m_Key: UI_MAC_IOS_CLOUDSTORAGEFULL_WARNING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468665417729
+    m_Key: UI_CLOUD_STORAGE_FULL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468669612032
+    m_Key: UI_ENABLE_BT_CONTROLLER_OR_KEYBOARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468673806336
+    m_Key: UI_CHAR_TAMATOA_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468673806337
+    m_Key: UI_CHAR_UNLOCKED_TAMATOA_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468678000640
+    m_Key: UI_CHAR_SIMONE_DAVIES_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468682194944
+    m_Key: UI_CHAR_UNLOCKED_SIMONE_DAVIES_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468682194945
+    m_Key: UI_CHAR_SIGUR_FROSTBEARD_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468686389248
+    m_Key: UI_CHAR_UNLOCKED_SIGUR_FROSTBEARD_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468686389249
+    m_Key: UI_CHAR_GOLDEN_GUY_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468690583552
+    m_Key: UI_CHAR_UNLOCKED_GOLDEN_GUY_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468694777856
+    m_Key: UI_CHAR_SELENE_ASTRONAUT_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468694777857
+    m_Key: UI_CHAR_UNLOCKED_SELENE_ASTRONAUT_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468698972160
+    m_Key: UI_CHAR_SKELETON_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468703166464
+    m_Key: UI_CHAR_UNLOCKED_SKELETON_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468703166465
+    m_Key: UI_CHAR_QUEEN_ASTRID_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468707360768
+    m_Key: UI_CHAR_UNLOCKED_QUEEN_ASTRID_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468711555072
+    m_Key: UI_CHAR_SANTA_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468711555073
+    m_Key: UI_CHAR_UNLOCKED_SANTA_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468715749376
+    m_Key: UI_CHAR_NIDHI_NIRMAL_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468715749377
+    m_Key: UI_CHAR_UNLOCKED_NIDHI_NIRMAL_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468719943680
+    m_Key: UI_CHAR_RAHL_RAJA_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468724137984
+    m_Key: UI_CHAR_UNLOCKED_RAHL_RAJA_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468724137985
+    m_Key: UI_CHAR_SARA_BANYAN_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468728332288
+    m_Key: UI_CHAR_UNLOCKED_SARA_BANYAN_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468732526592
+    m_Key: UI_CHAR_DR_ZENOBIOS_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468732526593
+    m_Key: UI_CHAR_UNLOCKED_DR_ZENOBIOS_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468736720896
+    m_Key: UI_kPlayer_Tamatoa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468740915200
+    m_Key: UI_kPlayer_SimoneDaviesPirateCove
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468740915201
+    m_Key: UI_kPlayer_SigurFrostbeardLumberjack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468745109504
+    m_Key: UI_kPlayer_GoldenGuyDangerous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468745109505
+    m_Key: UI_kPlayer_SeleneAstronaut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468749303808
+    m_Key: UI_kPlayer_Skeleton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468753498112
+    m_Key: UI_kPlayer_QueenAstrid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468753498113
+    m_Key: UI_kPlayer_Santa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468757692416
+    m_Key: UI_kPlayer_NidhiNirmalLostJungle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468761886720
+    m_Key: UI_kPlayer_RahlRajaLostJungle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468761886721
+    m_Key: UI_kPlayer_SaraBanyanHerbalist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468766081024
+    m_Key: UI_kPlayer_DrZenobios
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496035999744
+    m_Key: LevelLoadingTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496400904192
+    m_Key: RewardAlertTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496409292800
+    m_Key: RewardAlertMessage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496409292801
+    m_Key: RAD_StoreItemCoinsWatchTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496413487104
+    m_Key: RAD_StoreItemCoinsWatchMessage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496417681408
+    m_Key: RAD_StoreItemCoinsTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496421875712
+    m_Key: RAD_StoreItemCoinsMessage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496421875713
+    m_Key:
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496426070016
+    m_Key: RAD_StoreItemWingsWatchTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496430264320
+    m_Key: RAD_StoreItemWingsWatchMessage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496430264321
+    m_Key: RAD_StoreItemWingsMessage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496434458624
+    m_Key: RAD_EndGameDoubleWatchTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496438652928
+    m_Key: RAD_EndGameDoubleWatchMessage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496438652929
+    m_Key: RAD_EndGameDoubleMessage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496442847232
+    m_Key: StoreAlertErrorTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496447041536
+    m_Key: StoreAlertErrorUnknownText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496447041537
+    m_Key: StoreVideoAdsDesc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496451235840
+    m_Key: UI_LIKE_TEMPLERUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496455430144
+    m_Key: StoreFullScreenAdsDesc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496459624448
+    m_Key: StoreEnableAdsAlertTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496459624449
+    m_Key: StoreEnableAdsAlertText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496463818752
+    m_Key: StoreEnableAdsAlertNo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496468013056
+    m_Key: StoreEnableAdsAlertYes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496468013057
+    m_Key: StoreFacebookLikeAlertTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496472207360
+    m_Key: StoreFacebookLikeAlertText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496476401664
+    m_Key: StoreTwitterFollowAlertTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496480595968
+    m_Key: StoreTwitterFollowAlertText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496484790272
+    m_Key: StoreAlertErrorNoVideoTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496488984576
+    m_Key: StoreAlertErrorNoVideoMessage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496488984577
+    m_Key: StoreNagTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496501567488
+    m_Key: StoreNagDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496505761792
+    m_Key: StoreNagCancelButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496509956096
+    m_Key: StoreNagActionButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496514150400
+    m_Key: UI_WALLPAPERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496514150401
+    m_Key: StoreItemDownloadContentDownloading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496518344704
+    m_Key: StoreItemDownloadContentSaving
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496522539008
+    m_Key: StoreItemWallpaperSavedTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496522539009
+    m_Key: StoreItemWallpaperSavedDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496526733312
+    m_Key: StoreItemDownloadContentFailedTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496530927616
+    m_Key: StoreItemDownloadContentFailedDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496530927617
+    m_Key: StoreItemWallpaperALevel0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496535121920
+    m_Key: StoreItemWallpaperALevel1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496539316224
+    m_Key: StoreItemWallpaperBLevel0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496539316225
+    m_Key: StoreItemWallpaperBLevel1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496543510528
+    m_Key: StoreItemWallpaperCLevel0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496547704832
+    m_Key: StoreItemWallpaperCLevel1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496547704833
+    m_Key: StoreItemWallpaperDLevel0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496551899136
+    m_Key: StoreItemWallpaperDLevel1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496556093440
+    m_Key: StoreItemDisableAdsLevel0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496560287744
+    m_Key: StoreItemDisableAdsLevel1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496560287745
+    m_Key: StoreItemDownload
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496564482048
+    m_Key: CoinStoreNagTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496568676352
+    m_Key: CoinStoreNagDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496568676353
+    m_Key: CoinStoreNagActionButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496572870656
+    m_Key: StoreIapViewNoInternetErrorTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496577064960
+    m_Key: StoreIapViewNoInternetErrorMessage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496577064961
+    m_Key: StoreIapViewContactingStore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496581259264
+    m_Key: StoreIapViewLoadingProducts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496585453568
+    m_Key: StoreIapViewFreeCoins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496585453569
+    m_Key: StoreIapViewFreeOffers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496589647872
+    m_Key: ReviewRequestReviewButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496593842176
+    m_Key: ReviewRequestRemindButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496593842177
+    m_Key: ReviewRequestDontAskButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496598036480
+    m_Key: TwitterUsernamePlaceholder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496602230784
+    m_Key: TwitterPasswordPlaceholder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496602230785
+    m_Key: TwitterMessage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496606425088
+    m_Key: TwitterStatusUpdateFail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496610619392
+    m_Key: OptionsFriendMarkersLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496610619393
+    m_Key: GC_FTUE_PromoText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496614813696
+    m_Key: UI_CLOSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496619008000
+    m_Key: UI_GLOBAL_CHALLENGES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496619008001
+    m_Key: GC_CumulativeDistance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496623202304
+    m_Key: GC_ScorePerRun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496627396608
+    m_Key: GC_CoinsPerRun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496627396609
+    m_Key: GC_CoinsOverTime
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496631590912
+    m_Key: GC_CumulativeScore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496635785216
+    m_Key: GC_DistancePerRun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496635785217
+    m_Key: UI_GET_MORE_COINS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496639979520
+    m_Key: UI_MORE_COMING_SOON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496644173824
+    m_Key: UI_CHARACTERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496644173825
+    m_Key: UI_WATCH_AD_TO_REVIVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496648368128
+    m_Key: UI_UNLOCKED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496652562432
+    m_Key: UI_SHOP_HEADER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496656756736
+    m_Key: UI_RESTORE_PURCHASES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496656756737
+    m_Key: UI_NO_ADS_BUTTON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496660951040
+    m_Key: UI_PRIVACY_SETTINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496665145344
+    m_Key: UI_SHARE_TEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496665145345
+    m_Key: StoreItemPlayerGuyLevel0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496669339648
+    m_Key: StoreItemPlayerGuyLevel1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496673533952
+    m_Key: StoreItemPlayerGirlLevel0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496673533953
+    m_Key: StoreItemPlayerGirlLevel1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496677728256
+    m_Key: StoreItemPlayerBigBLevel0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496681922560
+    m_Key: StoreItemPlayerBigBLevel1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496681922561
+    m_Key: StoreItemPlayerChinaLevel0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496686116864
+    m_Key: StoreItemPlayerChinaLevel1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496690311168
+    m_Key: StoreItemPlayerIndiLevel0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496690311169
+    m_Key: StoreItemPlayerIndiLevel1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496694505472
+    m_Key: StoreItemPlayerConquistadorLevel0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496698699776
+    m_Key: StoreItemPlayerConquistadorLevel1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496698699777
+    m_Key: StoreItemPlayerFootballLevel0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496702894080
+    m_Key: StoreItemPlayerFootballLevel1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496707088384
+    m_Key: StoreItemPlayerSimoneDaviesLevel0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496707088385
+    m_Key: StoreItemPlayerSimoneDaviesLevel1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496723865600
+    m_Key: StoreItemPlayerSkeletonLevel0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496723865601
+    m_Key: StoreItemPlayerSkeletonLevel1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496728059904
+    m_Key: StoreItemPlayerKaiXiangDragonLevel0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496732254208
+    m_Key: StoreItemPlayerKaiXiangDragonLevel1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496736448512
+    m_Key: StoreItemPlayerCarnifexLevel0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496736448513
+    m_Key: StoreItemPlayerCarnifexLevel1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496740642816
+    m_Key: StoreItemPlayerFrostPirateLevel0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496744837120
+    m_Key: StoreItemPlayerFrostPirateLevel1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496744837121
+    m_Key: StoreItemPlayerWallyNutLevel0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496749031424
+    m_Key: StoreItemPlayerWallyNutLevel1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496753225728
+    m_Key: StoreItemPlayerQueenAstridLevel0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496757420032
+    m_Key: StoreItemPlayerQueenAstridLevel1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496757420033
+    m_Key: StoreItemPlayerChronosTimebeardLevel0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496761614336
+    m_Key: StoreItemPlayerChronosTimebeardLevel1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16968939731935232
+    m_Key: RAD_StoreItemCoinsButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406555136000
+    m_Key: RemainingScoreForNextRewardV1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406815182848
+    m_Key: GetHigherScoreToProgress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406823571456
+    m_Key: RemainingScoreForNextReward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406823571457
+    m_Key: UI_POINTS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406827765760
+    m_Key: UI_CLAIM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406827765761
+    m_Key: UI_CLAIMED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406831960064
+    m_Key: UI_ON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406836154368
+    m_Key: UI_OFF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406836154369
+    m_Key: UI_GLOBAL_CHALLENGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406840348672
+    m_Key: UI_Angel_Wings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406844542976
+    m_Key: ACH_NAME_WALLPAPER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406844542977
+    m_Key: ACH_PRE_WALLPAPER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406848737280
+    m_Key: ACH_POST_WALLPAPER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406848737281
+    m_Key: UI_START
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406852931584
+    m_Key: UI_WATCH_AD_TO_CONTINUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406857125888
+    m_Key: UI_POPUP_SHARE__DESCRIPTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406857125889
+    m_Key: UI_POPUP_RESTORE_COMPLETED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406861320192
+    m_Key: UI_POPUP_SUCCESS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406865514496
+    m_Key: GC_NOTIFICATION_START_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406869708800
+    m_Key: GC_NOTIFICATION_START_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406869708801
+    m_Key: GC_NOTIFICATION_MID_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406873903104
+    m_Key: GC_NOTIFICATION_MID_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406878097408
+    m_Key: GC_NOTIFICATION_END_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406878097409
+    m_Key: GC_NOTIFICATION_END_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406882291712
+    m_Key: NOTIFICATION_DAILY_LOGIN_HEADER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406882291713
+    m_Key: NOTIFICATION_REACTIVATION_HEADER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406886486016
+    m_Key: UI_POPUP_NOADS_PURCHASE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406890680320
+    m_Key: UI_POPUP_COINS_PURCHASE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406890680321
+    m_Key: UI_POPUP_NOADS_PURCHASE_FAILED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406894874624
+    m_Key: UI_POPUP_COINS_PURCHASE_FAILED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406899068928
+    m_Key: UI_POPUP_PURCHASE_CANCELED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406899068929
+    m_Key: UI_POPUP_CANNOT_SHARE_DESCRIPTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406903263232
+    m_Key: UI_TRY_AGAIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406903263233
+    m_Key: UI_POPUP_CANNOT_SHARE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406907457536
+    m_Key: UI_FAILED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406911651840
+    m_Key: UI_VIDEO_AD_FAILED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406911651841
+    m_Key: UI_REWARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406915846144
+    m_Key: UI_POPUP_STORE_UNAVAILABLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406920040448
+    m_Key: UI_POPUP_STORE_UNAVAILABLE_DESCRIPTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406920040449
+    m_Key: TOAST_X_COINS_ADDED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406924234752
+    m_Key: UI_POPUP_UPDATE_REQUIRED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406924234753
+    m_Key: UI_POPUP_UPDATE_REQUIRED_DESCRIPTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406928429056
+    m_Key: UI_POPUP_FREE_CHARACTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406932623360
+    m_Key: UI_POPUP_NEW_CHARACTERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406932623361
+    m_Key: UI_POPUP_NEW_ADVENTURE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406936817664
+    m_Key: UI_JOIN_US
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406936817665
+    m_Key: UI_POPUP_SHARE_CANCELLED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406941011968
+    m_Key: UI_POPUP_SHARE_FAILED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406945206272
+    m_Key: UI_POPUP_SHARE_SUCCESSFUL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406945206273
+    m_Key: UI_MILESTONE_COMPLETED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23200394329972736
+    m_Key: UI_POPUP_THANKS_FOR_UPDATING_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23200394455801856
+    m_Key: UI_POPUP_THANKS_FOR_UPDATING_DESCRIPTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23204094888894464
+    m_Key: UI_POPUP_THANKS_FOR_UPDATING_ACTION_BUTTON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23204095056666624
+    m_Key: UI_NO_THANKS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55828746446299136
+    m_Key: UI_POPUP_THANKS_FOR_UPDATING_DESCRIPTION_NEW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355477262336
+    m_Key: UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_1_FRANCISCO_MONTOYA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355628257280
+    m_Key: UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_2_FRANCISCO_MONTOYA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355636645888
+    m_Key: UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_3_FRANCISCO_MONTOYA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929317220352
+    m_Key: UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_3_FOR_FREE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929606627328
+    m_Key: UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_1_KARMA_LEE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929619210240
+    m_Key: UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_2_KARMA_LEE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929623404544
+    m_Key: UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_1_ZACK_WONDER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929627598848
+    m_Key: UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_2_ZACK_WONDER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929635987456
+    m_Key: UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_1_CARNIFEX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929640181760
+    m_Key: UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_2_CARNIFEX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929644376064
+    m_Key: UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_1_QUEEN_ASTRID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929652764672
+    m_Key: UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_2_QUEEN_ASTRID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929656958976
+    m_Key: UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_1_WALLY_NUTT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929661153280
+    m_Key: UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_2_WALLY_NUTT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773763731456
+    m_Key: UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_1_KARMA_LEE2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773776314368
+    m_Key: UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_2_KARMA_LEE2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773780508672
+    m_Key: UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_3_KARMA_LEE2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126122979169918976
+    m_Key: UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_1_ZACK_WONDER2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126463690687897600
+    m_Key: UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_1_ZACK_WONDER_NEW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126497313759682560
+    m_Key: UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_2_ZACK_WONDER2_NEW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126497313763876864
+    m_Key: UI_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_3_ZACK_WONDER2_NEW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126481317888
+    m_Key: UI_POPUP_GC_TITLE_GOLD_RUSH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126485512192
+    m_Key: UI_POPUP_GC_TITLE_RUNNING_WILD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126485512193
+    m_Key: UI_POPUP_GC_TITLE_NEW_BEGINNINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027824455680
+    m_Key: UI_POPUP_GC_TITLE_GRAB_THE_KEY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027824455681
+    m_Key: UI_POPUP_GC_TITLE_TEMPLE_RAID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649984
+    m_Key: UI_POPUP_GC_TITLE_THE_LONGEST_MILE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649985
+    m_Key: UI_POPUP_GC_TITLE_INTO_THE_RUINS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649986
+    m_Key: UI_POPUP_GC_TITLE_FREEDOM_RUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649987
+    m_Key: UI_POPUP_GC_TITLE_HOLIDAY_DREAMS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844288
+    m_Key: UI_POPUP_GC_TITLE_SUMMER_MARATHON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844289
+    m_Key: UI_POPUP_GC_TITLE_TRICK_OR_TREAT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844290
+    m_Key: UI_POPUP_GC_TITLE_COLD_AS_IT_GETS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038592
+    m_Key: UI_POPUP_GC_TEXT_GOLD_RUSH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038593
+    m_Key: UI_POPUP_GC_TEXT_RUNNING_WILD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038594
+    m_Key: UI_POPUP_GC_TEXT_NEW_BEGINNINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232896
+    m_Key: UI_POPUP_GC_TEXT_GRAB_THE_KEY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232897
+    m_Key: UI_POPUP_GC_TEXT_TEMPLE_RAID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232898
+    m_Key: UI_POPUP_GC_TEXT_THE_LONGEST_MILE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232899
+    m_Key: UI_POPUP_GC_TEXT_INTO_THE_RUINS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427200
+    m_Key: UI_POPUP_GC_TEXT_FREEDOM_RUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427201
+    m_Key: UI_POPUP_GC_TEXT_HOLIDAY_DREAMS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427202
+    m_Key: UI_POPUP_GC_TEXT_SUMMER_MARATHON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027849621504
+    m_Key: UI_POPUP_GC_TEXT_TRICK_OR_TREAT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027849621505
+    m_Key: UI_POPUP_GC_TEXT_COLD_AS_IT_GETS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477794344960
+    m_Key: UI_TEXT_RESET_PROGRESS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477811122176
+    m_Key: UI_TEXT_IMPROVED_AD_EXPERIENCE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316480
+    m_Key: UI_TEXT_OPT_IN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316481
+    m_Key: UI_TEXT_OPT_OUT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316482
+    m_Key: UI_TEXT_WITHDRAW_CONSENT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316483
+    m_Key: UI_POPUP_TEXT_WITHDRAW_CONSENT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510784
+    m_Key: UI_TEXT_IMPROVE_AD_EXPERIENCE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510785
+    m_Key: UI_POPUP_TEXT_IMPROVE_AD_EXPERIENCE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510786
+    m_Key: UI_NEW_POPUP_FREE_CHARACTER_IMAGE_DESCRIPTION_1_QUEEN_ASTRID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649416769536
+    m_Key: UI_POPUP_FREE_CHARACTER_SCARLETT_FOX_TEXT1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649437741056
+    m_Key: UI_POPUP_FREE_CHARACTER_SCARLETT_FOX_TEXT2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649437741057
+    m_Key: UI_POPUP_FREE_CHARACTER_SCARLETT_FOX_TEXT3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202893421137879040
+    m_Key: UI_POPUP_FREE_CHARACTER_KAIXIANG_FOX_TEXT1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574259658752
+    m_Key: UI_POPUP_FREE_CHARACTER_KAI_XIANG_TEXT1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574322573312
+    m_Key: UI_POPUP_FREE_CHARACTER_KAI_XIANG_TEXT2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574322573313
+    m_Key: UI_POPUP_FREE_CHARACTER_KAI_XIANG_TEXT3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105925562368
+    m_Key: UI_POPUP_FREE_CHARACTER_BARRY_BONES_TEXT1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105938145280
+    m_Key: UI_POPUP_FREE_CHARACTER_BARRY_BONES_TEXT2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105938145281
+    m_Key: UI_POPUP_FREE_CHARACTER_BARRY_BONES_TEXT3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438307418112
+    m_Key: UI_kPlayer_NidhiNirmal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438332583936
+    m_Key: StoreItemPlayerNidhiNirmalLevel0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438332583937
+    m_Key: StoreItemPlayerNidhiNirmalLevel1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984695754752
+    m_Key: UI_POPUP_FREE_CHARACTER_NIDHI_NIRMAL_TEXT1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984729309184
+    m_Key: UI_POPUP_FREE_CHARACTER_NIDHI_NIRMAL_TEXT2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984729309185
+    m_Key: UI_POPUP_FREE_CHARACTER_NIDHI_NIRMAL_TEXT3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096434597888
+    m_Key: UI_TEXT_DEEP_LINKING_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096451375104
+    m_Key: UI_TEXT_DEEP_LINKING_TEXT_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096455569408
+    m_Key: UI_TEXT_DEEP_LINKING_TEXT_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096455569409
+    m_Key: UI_TEXT_DEEP_LINKING_TEXT_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228703228063113216
+    m_Key: UI_TEXT_DEEP_LINKING_CTA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075348025344
+    m_Key: UI_POPUP_GC_TITLE_FIFTEEN_YEARS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075381579776
+    m_Key: UI_POPUP_GC_TEXT_FIFTEEN_YEARS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774080
+    m_Key: UI_POPUP_GC_TITLE_BIRTHDAY_LOOT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774081
+    m_Key: UI_POPUP_GC_TEXT_BIRTHDAY_LOOT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774082
+    m_Key: UI_POPUP_GC_TITLE_ONE_MORE_RUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774083
+    m_Key: UI_POPUP_GC_TEXT_ONE_MORE_RUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412179812352
+    m_Key: UI_POPUP_FREE_CHARACTER_FRANCISO_MONTOYA_TEXT1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412196589568
+    m_Key: UI_POPUP_FREE_CHARACTER_FRANCISO_MONTOYA_TEXT2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412196589569
+    m_Key: UI_POPUP_FREE_CHARACTER_FRANCISO_MONTOYA_TEXT3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243860789221384192
+    m_Key: UI_POPUP_GC_TEXT_FRIDAY_NIGHT_RUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243860789229772800
+    m_Key: UI_POPUP_GC_TITLE_FRIDAY_NIGHT_RUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252909526883229696
+    m_Key: UI_POPUP_FREE_CHARACTER_ZACK_WONDER2026_TEXT1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252909526900006912
+    m_Key: UI_POPUP_FREE_CHARACTER_ZACK_WONDER2026_TEXT2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260263528729927680
+    m_Key: UI_POPUP_FREE_CHARACTER_EDGAR_TWIGGENBOTTOM2026_TEXT1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260263528746704896
+    m_Key: UI_POPUP_FREE_CHARACTER_EDGAR_TWIGGENBOTTOM2026_TEXT2
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 5068804913973952537
+  references:
+    version: 2
+    RefIds:
+    - rid: 5068804913973952537
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1728551177626

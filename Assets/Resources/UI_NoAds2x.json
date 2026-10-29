@@ -1,0 +1,52 @@
+{"frames": {
+
+"endGameNoAdsButton-Left@2x.png":
+{
+	"frame": {"x":242,"y":5,"w":138,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":21,"w":138,"h":139},
+	"sourceSize": {"w":140,"h":160}
+},
+"endGameNoAdsButton-Right@2x.png":
+{
+	"frame": {"x":5,"y":147,"w":138,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":21,"w":138,"h":139},
+	"sourceSize": {"w":140,"h":160}
+},
+"mainMenuNoAdsButton@2x.png":
+{
+	"frame": {"x":153,"y":154,"w":158,"h":158},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":158},
+	"sourceSize": {"w":158,"h":158}
+},
+"storeNoAdsButton@2x.png":
+{
+	"frame": {"x":100,"y":5,"w":132,"h":132},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":132},
+	"sourceSize": {"w":132,"h":132}
+},
+"storeNoAdsButton_Alt_Brown.png":
+{
+	"frame": {"x":5,"y":5,"w":85,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":86},
+	"sourceSize": {"w":86,"h":86}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "/Users/lillianmatuszek/Dev/TR2_ArtSource/TempleRun1/TR1 Textures/TR1NoAds2x.png/UI_NoAds2x.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:b1a0db569d29974e80cb3a5a4dab3372:5d3999597a047cdb6eb4d9b669e737dd:8e6da64e1bb77b3b48c55cf22138582a$"
+}
+}

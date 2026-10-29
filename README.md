@@ -10,9 +10,9 @@ Project Temple Run 1.43.0 từ bộ APK đã cung cấp, đang phục hồi asse
 ## Tiến độ
 
 - [x] Kiểm kê XAPK, APK chính và split ARM64; xác định Unity/IL2CPP.
-- [ ] Trích xuất assets và cấu trúc project Unity.
+- [x] Trích xuất assets và cấu trúc project Unity.
 - [ ] Ánh xạ metadata → địa chỉ native và dịch ngược các hàm gameplay.
 - [ ] Phục hồi luồng C# và kiểm thử player.
 
-Commit đầu tiên chứa dữ liệu kiểm kê; chưa phải project Unity có thể chơi.
+Assets và scene gốc đã xuất vào `Assets/`. Các script hiện còn thân hàm stub; chưa phải project có thể chơi.
 Không đưa APK, thư viện native gốc, cache editor, credentials hoặc tool binaries vào repository.

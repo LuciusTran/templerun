@@ -1,0 +1,4003 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: TempleRunLocTable_es
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 0071ada7e6fa56344b4d42c06e5e2bd7, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 306466174001152
+    m_Localized: ¡Llévate el ídolo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466660540416
+    m_Localized: si te atreves!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466681511936
+    m_Localized: ¡Jugar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466685706240
+    m_Localized: Objetivos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466702483456
+    m_Localized: Estadísticas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466706677760
+    m_Localized: Mejoras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466710872064
+    m_Localized: Opciones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466710872065
+    m_Localized: Elegir ranura de guardado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466715066368
+    m_Localized: Resurrecciones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466719260672
+    m_Localized: Desafío semanal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466723454976
+    m_Localized: Opciones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466723454977
+    m_Localized: Sensibilidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466727649280
+    m_Localized: Música
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466731843584
+    m_Localized: Sonido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466731843585
+    m_Localized: Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466736037888
+    m_Localized: 'Idioma: Español'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466740232192
+    m_Localized: Borrar datos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466740232193
+    m_Localized: Política de privacidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466744426496
+    m_Localized: VOLVER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466748620800
+    m_Localized: Idioma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466752815104
+    m_Localized: Pausa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466752815105
+    m_Localized: 'Puntos:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466757009408
+    m_Localized: 'Distancia:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466761203712
+    m_Localized: 'Monedas:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466765398016
+    m_Localized: 'Multiplicador:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466765398017
+    m_Localized: 'Siguiente objetivo:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466769592320
+    m_Localized: 'Siguiente rango:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466773786624
+    m_Localized: Menú principal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466773786625
+    m_Localized: Partida nueva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466777980928
+    m_Localized: Reanudar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466782175232
+    m_Localized: Partida nueva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466782175233
+    m_Localized: Perderás todo el progreso. ¿Seguro que quieres empezar una partida nueva?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466786369536
+    m_Localized: Salir de la partida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466790563840
+    m_Localized: Perderás todo el progreso. ¿Seguro que quieres salir?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466790563841
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466794758144
+    m_Localized: Sí
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466798952448
+    m_Localized: ¿Continuar?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466803146752
+    m_Localized: Resurrección en <color=#F6D600>{0} min {1} s</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466803146753
+    m_Localized: Resucitar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466807341056
+    m_Localized: Salir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466811535360
+    m_Localized: AL MÁX.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466815729664
+    m_Localized: Estadísticas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466815729665
+    m_Localized: 'Multiplicador:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466819923968
+    m_Localized: x {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466824118272
+    m_Localized: Mejor carrera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466824118273
+    m_Localized: 'Mejor puntuación:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466828312576
+    m_Localized: 'Mayor distancia:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466832506880
+    m_Localized: '{0} m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466832506881
+    m_Localized: 'Más monedas:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466836701184
+    m_Localized: con resurrección
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466840895488
+    m_Localized: Total
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466840895489
+    m_Localized: 'Partidas jugadas:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466845089792
+    m_Localized: 'Distancia recorrida:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466849284096
+    m_Localized: 'Monedas conseguidas:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466853478400
+    m_Localized: Mejoras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466853478401
+    m_Localized: POTENCIADORES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466857672704
+    m_Localized: Sin determinar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466861867008
+    m_Localized: Activa la megamoneda de 50.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466861867009
+    m_Localized: Mejora la megamoneda a 75.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466866061312
+    m_Localized: Mejora la megamoneda a 100.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466870255616
+    m_Localized: Mejora la megamoneda a 125.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466870255617
+    m_Localized: Mejora la megamoneda a 150.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466874449920
+    m_Localized: Permite desactivar la megamoneda.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466878644224
+    m_Localized: ¡Megamoneda al máximo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466878644225
+    m_Localized: Megamoneda desactivada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466882838528
+    m_Localized: MEJORAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466887032832
+    m_Localized: GRATIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466887032833
+    m_Localized: ACTIVAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466891227136
+    m_Localized: DESACTIVAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466895421440
+    m_Localized: Activa el imán de monedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466895421441
+    m_Localized: El imán dura más tiempo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466899615744
+    m_Localized: El imán duplica el valor de las monedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466899615745
+    m_Localized: El imán dura más tiempo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466903810048
+    m_Localized: El imán triplica el valor de las monedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466908004352
+    m_Localized: Permite desactivar el imán.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466912198656
+    m_Localized: ¡Imán al máximo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466912198657
+    m_Localized: Imán desactivado.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466916392960
+    m_Localized: Activa el potenciador de invisibilidad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466920587264
+    m_Localized: La invisibilidad dura más tiempo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466920587265
+    m_Localized: Permite desactivar la invisibilidad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466924781568
+    m_Localized: ¡Invisibilidad al máximo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466928975872
+    m_Localized: Permite desactivar la invisibilidad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466928975873
+    m_Localized: Activa el acelerón durante 250 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466933170176
+    m_Localized: Aumenta la distancia a 375 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466937364480
+    m_Localized: Aumenta la distancia a 500 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466937364481
+    m_Localized: Aumenta la distancia a 625 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466941558784
+    m_Localized: Aumenta la distancia a 750 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466945753088
+    m_Localized: Permite desactivar el acelerón.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466949947392
+    m_Localized: ¡Acelerón al máximo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466949947393
+    m_Localized: Acelerón desactivado.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466954141696
+    m_Localized: Duplica el valor de las monedas tras {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466958336000
+    m_Localized: Duplica el valor de las monedas tras {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466958336001
+    m_Localized: Duplica el valor de las monedas tras {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466962530304
+    m_Localized: Triplica el valor de las monedas tras {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466966724608
+    m_Localized: Triplica el valor de las monedas tras {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466966724609
+    m_Localized: Triplica el valor de las monedas tras {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466970918912
+    m_Localized: MEJORA AL MÁXIMO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466975113216
+    m_Localized: ARTEFACTOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466975113217
+    m_Localized: Al activarlas, resucitarás inmediatamente si mueres.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466979307520
+    m_Localized: UN SOLO USO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466983501824
+    m_Localized: Alas del renacer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466983501825
+    m_Localized: 'Se activan al tocar la pantalla dos veces o al pausar el juego y seleccionar el artefacto de las alas del renacer. Permanecerán activas durante 30 segundos. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466987696128
+    m_Localized: 'Se activan al mantener pulsado el botón central durante 1 segundo o al pausar el juego y seleccionar el artefacto de las alas del renacer. Permanecerán activas durante 30 segundos. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466987696129
+    m_Localized: 'Se activan al pulsar el botón Y/△ del mando o al pausar el juego y seleccionar el artefacto de las alas del renacer. Permanecerán activas durante 30 segundos. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466991890432
+    m_Localized: 'Se activan al pulsar la tecla R o al pausar el juego y seleccionar el artefacto de las alas del renacer. Permanecerán activas durante 30 segundos. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466996084736
+    m_Localized: Vale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466996084737
+    m_Localized: Vale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467000279040
+    m_Localized: Alas del renacer que están activas de forma permanente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467004473344
+    m_Localized: Alas eternas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467004473345
+    m_Localized: Pausa el juego y selecciona el artefacto de las alas eternas al principio de la partida para activarlas. Resucitarás automáticamente en cuanto mueras.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467008667648
+    m_Localized: Da un acelerón de 1000 m al inicio de la partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467012861952
+    m_Localized: Ventaja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467012861953
+    m_Localized: Pausa el juego y selecciona el artefacto de la ventaja al principio de la partida para recorrer 1000 metros.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467017056256
+    m_Localized: Da un superacelerón de 2500 m al inicio de la partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467021250560
+    m_Localized: Superventaja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467025444864
+    m_Localized: Pausa el juego y selecciona el artefacto de la superventaja al principio de la partida para recorrer 2500 metros.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467025444865
+    m_Localized: PERSONAJES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467029639168
+    m_Localized: EN USO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467033833472
+    m_Localized: SELECCIONAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467033833473
+    m_Localized: DESBLOQUEAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467038027776
+    m_Localized: Desbloquea a Guy Dangerous, un explorador normal y corriente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467042222080
+    m_Localized: Desbloquea a Scarlett Fox, una ingeniosa escapista.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467042222081
+    m_Localized: Desbloquea Barry Bones, un policía con mucho carácter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467046416384
+    m_Localized: Desbloquea a Karma Lee, la más rápida del Lejano Oriente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467050610688
+    m_Localized: Desbloquea a Montana Smith, el segundo mejor explorador del mundo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467050610689
+    m_Localized: Desbloquea a Francisco Montoya, el conquistador.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467054804992
+    m_Localized: Desbloquea a Zack Wonder, la estrella del fútbol americano.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467058999296
+    m_Localized: Guy Dangerous, un explorador normal y corriente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467058999297
+    m_Localized: Scarlett Fox, una ingeniosa escapista.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467063193600
+    m_Localized: Barry Bones, un policía con mucho carácter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467067387904
+    m_Localized: Karma Lee, la más rápida del Lejano Oriente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467067387905
+    m_Localized: Montana Smith, el segundo mejor explorador del mundo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467071582208
+    m_Localized: Francisco Montoya, el conquistador.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467075776512
+    m_Localized: Zack Wonder, la estrella del fútbol americano.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467075776513
+    m_Localized: MONEDAS INSUFICIENTES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467079970816
+    m_Localized: ¡Recoge monedas mientras corres y gástatelas aquí!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467084165120
+    m_Localized: Error de solicitud
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467084165121
+    m_Localized: No se ha podido llevar a cabo la solicitud. Inténtalo en otro momento.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467088359424
+    m_Localized: ¡Nuevo récord!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467092553728
+    m_Localized: Desliza para girar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467092553729
+    m_Localized: Desliza para girar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467096748032
+    m_Localized: Desliza para girar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467100942336
+    m_Localized: Desliza para saltar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467100942337
+    m_Localized: Desliza para deslizarte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467105136640
+    m_Localized: Inclina para recoger monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467105136641
+    m_Localized: Inclina para recoger monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467113525248
+    m_Localized: Inclina para recoger monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467113525249
+    m_Localized: Desliza para girar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467117719552
+    m_Localized: Desliza para girar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467121913856
+    m_Localized: Desliza para girar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467121913857
+    m_Localized: Desliza hacia arriba para saltar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467126108160
+    m_Localized: Desliza hacia abajo para deslizarte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467130302464
+    m_Localized: Desliza para recoger monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467130302465
+    m_Localized: Desliza para recoger monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467134496768
+    m_Localized: Desliza para recoger monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467138691072
+    m_Localized: Cruceta izquierda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467138691073
+    m_Localized: Cruceta derecha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467142885376
+    m_Localized: Cruceta izquierda/derecha para girar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467142885377
+    m_Localized: Arriba para saltar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467147079680
+    m_Localized: Abajo para deslizarte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467151273984
+    m_Localized: Izquierda para recoger monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467155468288
+    m_Localized: Derecha para recoger monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467155468289
+    m_Localized: Izquierda/Derecha para recoger monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467159662592
+    m_Localized: Flecha izquierda para girar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467163856896
+    m_Localized: Flecha derecha para girar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467163856897
+    m_Localized: Izquierda/Derecha para girar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467168051200
+    m_Localized: Arriba para saltar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467172245504
+    m_Localized: Abajo para deslizarte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467172245505
+    m_Localized: Izquierda para recoger monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467176439808
+    m_Localized: Derecha para recoger monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467180634112
+    m_Localized: Izquierda/Derecha para recoger monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467180634113
+    m_Localized: ¡Llena el medidor y consigue más puntos!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467184828416
+    m_Localized: ¡Muy bien!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467189022720
+    m_Localized: ¡Y ya está! ¡Buena suerte!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467189022721
+    m_Localized: Se ha conectado un mando.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467193217024
+    m_Localized: Se ha desconectado un mando.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467197411328
+    m_Localized: Activa los artefactos desde el menú de pausa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467197411329
+    m_Localized: Controles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467201605632
+    m_Localized: Táctil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467205799936
+    m_Localized: Siri Remote
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467205799937
+    m_Localized: Mando 2.ª gen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467209994240
+    m_Localized: Mando
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467209994241
+    m_Localized: Teclado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467214188544
+    m_Localized: 'Girar a la izquierda:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467218382848
+    m_Localized: 'Girar a la derecha:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467218382849
+    m_Localized: 'Izquierda para recoger monedas:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467222577152
+    m_Localized: 'Derecha para recoger monedas:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467226771456
+    m_Localized: 'Saltar:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467226771457
+    m_Localized: 'Deslizarse:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467230965760
+    m_Localized: 'Menú de pausa:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467235160064
+    m_Localized: Artefactos en partida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467235160065
+    m_Localized: 'Alas del renacer de 30 s:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467239354368
+    m_Localized: Artefactos de inicio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467243548672
+    m_Localized: 'Ventaja:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467243548673
+    m_Localized: 'Superventaja:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467247742976
+    m_Localized: 'Alas eternas:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467251937280
+    m_Localized: Desliza a la izquierda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467251937281
+    m_Localized: Desliza a la derecha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467256131584
+    m_Localized: Desliza hacia arriba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467260325888
+    m_Localized: Desliza hacia abajo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467264520192
+    m_Localized: Inclina a la izquierda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467264520193
+    m_Localized: Inclina a la derecha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467268714496
+    m_Localized: Toca el icono de pausa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467272908800
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467272908801
+    m_Localized: Toca la pantalla dos veces durante la partida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467277103104
+    m_Localized: o pausa y elige las alas del renacer en el menú.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467281297408
+    m_Localized: Pausa tras empezar la cuenta atrás
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467281297409
+    m_Localized: y elige la ventaja en el menú.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467285491712
+    m_Localized: Pausa tras empezar la cuenta atrás
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467289686016
+    m_Localized: y elige la superventaja en el menú.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467289686017
+    m_Localized: Pausa tras empezar la cuenta atrás
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467293880320
+    m_Localized: y elige las alas eternas en el menú.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467298074624
+    m_Localized: Desliza a la izquierda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467298074625
+    m_Localized: Desliza a la derecha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467302268928
+    m_Localized: Desliza hacia arriba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467302268929
+    m_Localized: Desliza hacia abajo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467306463232
+    m_Localized: Desliza a la izquierda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467310657536
+    m_Localized: Desliza a la derecha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467310657537
+    m_Localized: Pausa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467314851840
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467319046144
+    m_Localized: Pulsa y mantén el botón central
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467323240448
+    m_Localized: o pausa y elige las alas del renacer en el menú.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467323240449
+    m_Localized: Pausa tras empezar la cuenta atrás
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467327434752
+    m_Localized: y elige la ventaja en el menú.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467331629056
+    m_Localized: Pausa tras empezar la cuenta atrás
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467331629057
+    m_Localized: y elige la superventaja en el menú.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467335823360
+    m_Localized: Pausa tras empezar la cuenta atrás
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467335823361
+    m_Localized: y elige las alas eternas en el menú.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467340017664
+    m_Localized: Cruceta/Stick ←/L1(LB)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467344211968
+    m_Localized: Cruceta/Stick →/R1(RB)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467344211969
+    m_Localized: Cruceta/Stick ↑ o A/×
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467348406272
+    m_Localized: Cruceta/Stick ↓ o X/□
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467352600576
+    m_Localized: Cruceta/Stick ←
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467352600577
+    m_Localized: Cruceta/Stick →
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467356794880
+    m_Localized: Botón Inicio/Menú/Opciones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467360989184
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467360989185
+    m_Localized: Pulsa Y/△ o pausa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467365183488
+    m_Localized: y elige las alas del renacer en el menú.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467365183489
+    m_Localized: Pausa tras empezar la cuenta atrás
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467369377792
+    m_Localized: y elige la ventaja en el menú.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467373572096
+    m_Localized: Pausa tras empezar la cuenta atrás
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467373572097
+    m_Localized: y elige la superventaja en el menú.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467377766400
+    m_Localized: Pausa tras empezar la cuenta atrás
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467381960704
+    m_Localized: y elige las alas eternas en el menú.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467381960705
+    m_Localized: Tecla ← o A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467386155008
+    m_Localized: Tecla → o D
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467390349312
+    m_Localized: Tecla ↑ o W
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467390349313
+    m_Localized: Tecla ↓ o S
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467394543616
+    m_Localized: Tecla ← o A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467394543617
+    m_Localized: Tecla → o D
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467398737920
+    m_Localized: Tecla ESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467402932224
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467407126528
+    m_Localized: Pulsa la tecla R o pausa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467407126529
+    m_Localized: y elige las alas del renacer en el menú.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467411320832
+    m_Localized: Pausa tras empezar la cuenta atrás
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467415515136
+    m_Localized: y elige la ventaja en el menú.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467415515137
+    m_Localized: Pausa tras empezar la cuenta atrás
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467419709440
+    m_Localized: y elige la superventaja en el menú.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467423903744
+    m_Localized: Pausa tras empezar la cuenta atrás
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467423903745
+    m_Localized: y elige las alas eternas en el menú.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467428098048
+    m_Localized: Objetivos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467428098049
+    m_Localized: Trofeo de participación
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467432292352
+    m_Localized: Juega en 1 desafío semanal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467436486656
+    m_Localized: Jugaste en 1 desafío semanal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467436486657
+    m_Localized: Joven promesa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467440680960
+    m_Localized: Juega en 5 desafíos semanales.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467444875264
+    m_Localized: Jugaste en 5 desafíos semanales.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467444875265
+    m_Localized: Estrella
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467449069568
+    m_Localized: Juega en 10 desafíos semanales.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467453263872
+    m_Localized: Jugaste en 10 desafíos semanales.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467453263873
+    m_Localized: Diligente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467457458176
+    m_Localized: Alcanza el rango de leyenda en 1 desafío semanal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467457458177
+    m_Localized: Alcanzaste el rango de leyenda en 1 desafío semanal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467461652480
+    m_Localized: 'Buena racha '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467465846784
+    m_Localized: Alcanza el rango de leyenda en 2 desafíos semanales.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467465846785
+    m_Localized: Alcanzaste el rango de leyenda en 2 desafíos semanales.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467470041088
+    m_Localized: Contrincante mundial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467474235392
+    m_Localized: Alcanza el rango de leyenda en 3 desafíos semanales.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467478429696
+    m_Localized: Alcanzaste el rango de leyenda en 3 desafíos semanales.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467478429697
+    m_Localized: Celebridad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467482624000
+    m_Localized: Alcanza el rango de leyenda en 4 desafíos semanales.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467486818304
+    m_Localized: Alcanzaste el rango de leyenda en 4 desafíos semanales.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467486818305
+    m_Localized: 'Completista   '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467491012608
+    m_Localized: Alcanza el rango de leyenda en 5 desafíos semanales.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467499401216
+    m_Localized: Alcanzaste el rango de leyenda en 5 desafíos semanales.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467503595520
+    m_Localized: ¡Sigue así!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467507789824
+    m_Localized: Usa 1 resurrección en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467507789825
+    m_Localized: Usaste 1 resurrección en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467511984128
+    m_Localized: ¡Un poco más!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467516178432
+    m_Localized: Usa 2 resurrecciones en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467516178433
+    m_Localized: Usaste 2 resurrecciones en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467520372736
+    m_Localized: ¡Ya casi estás!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467524567040
+    m_Localized: Usa 3 resurrecciones en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467524567041
+    m_Localized: Usaste 3 resurrecciones en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467528761344
+    m_Localized: Gran hito
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467532955648
+    m_Localized: Clasifícate entre los 10 mejores.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467532955649
+    m_Localized: Te clasificaste entre los 10 mejores.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467537149952
+    m_Localized: En la cima del mundo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467541344256
+    m_Localized: Clasifícate entre los 5 mejores.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467541344257
+    m_Localized: Te clasificaste entre los 5 mejores.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467545538560
+    m_Localized: Principiante
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467549732864
+    m_Localized: Corre 500 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467549732865
+    m_Localized: Corriste 500 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467553927168
+    m_Localized: Calderilla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467553927169
+    m_Localized: Consigue 100 monedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467558121472
+    m_Localized: Conseguiste 100 monedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467562315776
+    m_Localized: Trotamundos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467562315777
+    m_Localized: Consigue 25 000 puntos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467566510080
+    m_Localized: Conseguiste 25 000 puntos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467570704384
+    m_Localized: Velocista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467570704385
+    m_Localized: Corre 1000 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467574898688
+    m_Localized: Corriste 1000 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467579092992
+    m_Localized: Penurias
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467583287296
+    m_Localized: Corre 500 m sin conseguir monedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467583287297
+    m_Localized: Corriste 500 m sin conseguir monedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467587481600
+    m_Localized: Hucha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467591675904
+    m_Localized: Consigue 250 monedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467591675905
+    m_Localized: Conseguiste 250 monedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467595870208
+    m_Localized: Cazatesoros
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467600064512
+    m_Localized: Consigue 50 000 puntos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467600064513
+    m_Localized: Conseguiste 50 000 puntos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467604258816
+    m_Localized: Superbonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467604258817
+    m_Localized: Llena el medidor de bonus a x 4.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467608453120
+    m_Localized: Llenaste el medidor de bonus a x 4.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467612647424
+    m_Localized: Atleta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467612647425
+    m_Localized: Corre 2500 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467616841728
+    m_Localized: Corriste 2500 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467621036032
+    m_Localized: Pago único
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467621036033
+    m_Localized: Consigue 500 monedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467625230336
+    m_Localized: Conseguiste 500 monedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467629424640
+    m_Localized: Resurrección
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467629424641
+    m_Localized: Usa las alas del renacer en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467633618944
+    m_Localized: Usaste las alas del renacer en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467637813248
+    m_Localized: Poderes básicos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467642007552
+    m_Localized: Mejora todos los potenciadores al nv. 1.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467642007553
+    m_Localized: Mejoraste todos los potenciadores al nv. 1.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467646201856
+    m_Localized: Pisando fuerte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467646201857
+    m_Localized: Consigue 100 000 puntos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467650396160
+    m_Localized: Conseguiste 100 000 puntos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467654590464
+    m_Localized: Día de pago
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467654590465
+    m_Localized: Consigue 750 monedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467658784768
+    m_Localized: Conseguiste 750 monedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467662979072
+    m_Localized: Ventaja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467662979073
+    m_Localized: Usa la ventaja una vez.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467667173376
+    m_Localized: Usaste la ventaja una vez.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467671367680
+    m_Localized: Pies firmes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467671367681
+    m_Localized: Corre 2500 m sin tropezar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467675561984
+    m_Localized: Corriste 2500 m sin tropezar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467679756288
+    m_Localized: Alergia al oro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467683950592
+    m_Localized: Corre 1000 m sin conseguir monedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467683950593
+    m_Localized: Corriste 1000 m sin conseguir monedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467688144896
+    m_Localized: Gran atleta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467692339200
+    m_Localized: Corre 5000 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467692339201
+    m_Localized: Corriste 5000 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467696533504
+    m_Localized: Pies de plomo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467700727808
+    m_Localized: Corre 5000 m sin tropezar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467700727809
+    m_Localized: Corriste 5000 m sin tropezar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467704922112
+    m_Localized: Club del cuarto de millón
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467709116416
+    m_Localized: Consigue 250 000 puntos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467709116417
+    m_Localized: Conseguiste 250 000 puntos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467713310720
+    m_Localized: Resurrección doble
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467717505024
+    m_Localized: Usa las alas del renacer 2 veces en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467717505025
+    m_Localized: Usaste las alas del renacer 2 veces en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467721699328
+    m_Localized: Saco de dinero
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467721699329
+    m_Localized: Consigue 1000 monedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467725893632
+    m_Localized: Conseguiste 1000 monedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467730087936
+    m_Localized: Club del medio millón
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467730087937
+    m_Localized: Consigue 500 000 puntos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467734282240
+    m_Localized: Conseguiste 500 000 puntos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467738476544
+    m_Localized: Superpoderes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467738476545
+    m_Localized: Mejora todos los potenciadores al nv. 5.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467742670848
+    m_Localized: Mejoraste todos los potenciadores al nv. 5.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467746865152
+    m_Localized: Dúo dinámico
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467751059456
+    m_Localized: Desbloquea 2 personajes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467751059457
+    m_Localized: Desbloqueaste 2 personajes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467755253760
+    m_Localized: Club del millón
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467759448064
+    m_Localized: Consigue 1 000 000 de puntos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467759448065
+    m_Localized: Conseguiste 1 000 000 de puntos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467763642368
+    m_Localized: Depósito
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467763642369
+    m_Localized: Consigue 2500 monedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467767836672
+    m_Localized: Conseguiste 2500 monedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467772030976
+    m_Localized: Cuatro fantásticos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467772030977
+    m_Localized: Desbloquea 4 personajes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467776225280
+    m_Localized: Desbloqueaste 4 personajes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467780419584
+    m_Localized: Seis estrellas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467784613888
+    m_Localized: Desbloquea 6 personajes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467784613889
+    m_Localized: Desbloqueaste 6 personajes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467788808192
+    m_Localized: Superatleta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467793002496
+    m_Localized: Corre 10 000 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467793002497
+    m_Localized: Corriste 10 000 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467797196800
+    m_Localized: Cámara acorazada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467797196801
+    m_Localized: Consigue 5000 monedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467801391104
+    m_Localized: Conseguiste 5000 monedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467805585408
+    m_Localized: Club de los 2,5 millones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467805585409
+    m_Localized: Consigue 2 500 000 puntos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467809779712
+    m_Localized: Conseguiste 2 500 000 puntos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467813974016
+    m_Localized: Club de los 5 millones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467818168320
+    m_Localized: Consigue 5 000 000 de puntos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467818168321
+    m_Localized: Conseguiste 5 000 000 de puntos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467822362624
+    m_Localized: Esparta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467826556928
+    m_Localized: Consigue 1 000 000 de puntos sin potenciadores.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467826556929
+    m_Localized: Conseguiste 1 000 000 de puntos sin potenciadores.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467830751232
+    m_Localized: Club de los 10 millones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467834945536
+    m_Localized: Consigue 10 000 000 de puntos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467834945537
+    m_Localized: Conseguiste 10 000 000 de puntos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467839139840
+    m_Localized: Trotatemplos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467843334144
+    m_Localized: Juega más de 1000 partidas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467843334145
+    m_Localized: Jugaste más de 1000 partidas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467847528448
+    m_Localized: Minería
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467851722752
+    m_Localized: Consigue 100 000 monedas en total.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467851722753
+    m_Localized: Conseguiste 100 000 monedas en total.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467855917056
+    m_Localized: Maratonista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467860111360
+    m_Localized: Corre 100 000 m en total.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467860111361
+    m_Localized: Corriste 100 000 m en total.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467864305664
+    m_Localized: Gran trotatemplos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467864305665
+    m_Localized: Juega más de 5000 partidas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467868499968
+    m_Localized: Jugaste más de 5000 partidas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467872694272
+    m_Localized: Pasión por el oro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467876888576
+    m_Localized: Consigue 500 000 monedas en total.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467881082880
+    m_Localized: Conseguiste 500 000 monedas en total.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467881082881
+    m_Localized: Circunnavegante
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467885277184
+    m_Localized: Corre 1 000 000 m en total.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467885277185
+    m_Localized: Corriste 1 000 000 m en total.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467889471488
+    m_Localized: Afán por el imán
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467893665792
+    m_Localized: Consigue 5 imanes en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467893665793
+    m_Localized: Conseguiste 5 imanes en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467897860096
+    m_Localized: Pasión monetaria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467902054400
+    m_Localized: Consigue 5 megamonedas en un partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467902054401
+    m_Localized: Conseguiste 5 megamonedas en un partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467906248704
+    m_Localized: Invisible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467906248705
+    m_Localized: Vuélvete invisible 5 veces en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467910443008
+    m_Localized: Te volviste invisible 5 veces en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467914637312
+    m_Localized: Dosis de acelerones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467914637313
+    m_Localized: Da 5 acelerones en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467918831616
+    m_Localized: Diste 5 acelerones en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467923025920
+    m_Localized: Personalidad magnética
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467923025921
+    m_Localized: Consigue 10 imanes en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467927220224
+    m_Localized: Conseguiste 10 imanes en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467931414528
+    m_Localized: Explosión de oro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467931414529
+    m_Localized: Consigue 10 megamonedas en un partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467935608832
+    m_Localized: Conseguiste 10 megamonedas en un partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467939803136
+    m_Localized: Indestructible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467939803137
+    m_Localized: Vuélvete invisible 10 veces en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467943997440
+    m_Localized: Te volviste invisible 10 veces en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467943997441
+    m_Localized: Demonio veloz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467948191744
+    m_Localized: Da 10 acelerones en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467952386048
+    m_Localized: Diste 10 acelerones en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467952386049
+    m_Localized: Atracción fatal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467956580352
+    m_Localized: Consigue 20 imanes en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467960774656
+    m_Localized: Conseguiste 20 imanes en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467960774657
+    m_Localized: Deidad del oro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467964968960
+    m_Localized: Consigue 20 megamonedas en un partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467969163264
+    m_Localized: Conseguiste 20 megamonedas en un partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467969163265
+    m_Localized: Invencible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467973357568
+    m_Localized: Vuélvete invisible 20 veces en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467973357569
+    m_Localized: Te volviste invisible 20 veces en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467977551872
+    m_Localized: El cohete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467981746176
+    m_Localized: Da 20 acelerones en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467985940480
+    m_Localized: Diste 20 acelerones en una partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467985940481
+    m_Localized: Supertrotatemplos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467990134784
+    m_Localized: Juega más de 10 000 partidas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467994329088
+    m_Localized: Jugaste más de 10 000 partidas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467994329089
+    m_Localized: Toque de Midas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467998523392
+    m_Localized: Consigue 1 000 000 monedas en total.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467998523393
+    m_Localized: Conseguiste 1 000 000 monedas en total.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468002717696
+    m_Localized: Carrera sin fin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468006912000
+    m_Localized: Corre 10 000 000 m en total.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468006912001
+    m_Localized: Corriste 10 000 000 m en total.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468011106304
+    m_Localized: Reintentar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468015300608
+    m_Localized: Mejoras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468019494912
+    m_Localized: ¡Tu récord!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468019494913
+    m_Localized: ¡Qué cosa tan mística!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468023689216
+    m_Localized: Es para quedarse de piedra.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468027883520
+    m_Localized: Sufriste una caída mortal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468027883521
+    m_Localized: ¡Aaaaaaaah!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468032077824
+    m_Localized: Sufriste una caída mortal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468036272128
+    m_Localized: ¡Me dan miedo las alturas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468036272129
+    m_Localized: Se acabó el camino...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468040466432
+    m_Localized: Cuidado con el agujero.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468044660736
+    m_Localized: Te ha faltado bastante...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468044660737
+    m_Localized: ¡Otra vez no!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468048855040
+    m_Localized: ¡Denunciaré esta infracción de seguridad!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468053049344
+    m_Localized: ¡Tendría que haber aprendido a volar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468053049345
+    m_Localized: Sayonara.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468057243648
+    m_Localized: ¡Menos mal que llevaba casco!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468061437952
+    m_Localized: ¡Qué buen aperitivo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468061437953
+    m_Localized: ¡Hora de comer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468065632256
+    m_Localized: Lo que el agua se llevó...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468065632257
+    m_Localized: ¡¿Serpientes?! ¡Las odio!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468069826560
+    m_Localized: Burbujas y más burbujas...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468074020864
+    m_Localized: ¿Dónde te has ido?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468074020865
+    m_Localized: ¿Quién ha sacado a Barney de la jaula?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468078215168
+    m_Localized: Por qué poco...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468082409472
+    m_Localized: ¿Me están vigilando?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468082409473
+    m_Localized: ¡Hombre al agua!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468086603776
+    m_Localized: ¡Abraza-árboles!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468090798080
+    m_Localized: Los árboles hacen pupa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468090798081
+    m_Localized: ¿Qué bicho te ha picado?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468094992384
+    m_Localized: ¿Por qué tenía que haber hormigas?...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468099186688
+    m_Localized: Yo siempre causo una buena impresión.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468099186689
+    m_Localized: Al menos he dejado huella.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468103380992
+    m_Localized: ¿Quién ha puesto aquí este árbol?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468107575296
+    m_Localized: El mundo se acordará de mí.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468107575297
+    m_Localized: Bueno, al menos no he perdido el sombrero.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468111769600
+    m_Localized: ¡Tiempo muerto!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468111769601
+    m_Localized: Dos tortolitos...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468115963904
+    m_Localized: ¿Te importa si me quedo por aquí?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468120158208
+    m_Localized: No lo había visto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468120158209
+    m_Localized: Le ha dolido más al árbol que a mí.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468124352512
+    m_Localized: ¡No! ¡El sombrero no!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468128546816
+    m_Localized: ¡No soy nada sin mi sombrero!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468132741120
+    m_Localized: Es más duro de lo que parece...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468132741121
+    m_Localized: ¡Menos mal que tengo la cabeza dura!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468136935424
+    m_Localized: No me ha servido de nada el casco...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468141129728
+    m_Localized: Igual es difícil correr sin cabeza...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468141129729
+    m_Localized: ¡No te olvides de agacharte!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468145324032
+    m_Localized: ¡Menudo desliz!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468149518336
+    m_Localized: Creo que no puedo salir de aquí...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468149518337
+    m_Localized: ¡No me mires las piernas! ¡Tengo pelos!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468153712640
+    m_Localized: Si llevara los calcetines bonitos...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468157906944
+    m_Localized: Hora de volver a las clases de limbo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468157906945
+    m_Localized: Mira por dónde vas...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468162101248
+    m_Localized: ¡No pierdas el temple!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468166295552
+    m_Localized: Mmm... Trotamundos a la brasa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468166295553
+    m_Localized: Cómo huele a frito.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468170489856
+    m_Localized: Qué pelo más rebelde tienes hoy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468174684160
+    m_Localized: ¡Que lo había llevado a la tintorería!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468174684161
+    m_Localized: 'Aviso: La armadura no es ignífuga.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468178878464
+    m_Localized: ¡Qué buen aperitivo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468178878465
+    m_Localized: Desayuno exploradores como tú.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468183072768
+    m_Localized: Ñam, ñam... ¡Sabe a cuero!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468187267072
+    m_Localized: ¡Te han pillado casi al final!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468187267073
+    m_Localized: ¡Pero si tiene caparazón!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468191461376
+    m_Localized: ¡Fuera de juego!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468195655680
+    m_Localized: Menudo lío...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468195655681
+    m_Localized: ¡Te pillé!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468199849984
+    m_Localized: Llevar los cordones sin atar es peligroso.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468199849985
+    m_Localized: Tenía un mal presentimiento...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468204044288
+    m_Localized: Si tuviera un mechero...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468208238592
+    m_Localized: No imaginaba así mi jubilación.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468208238593
+    m_Localized: ¿De dónde habrán salido estas calaveras?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468212432896
+    m_Localized: ¡Eso es antihigiénico!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468216627200
+    m_Localized: ¡Se parece al tío Hernán!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468220821504
+    m_Localized: Desafío\nsemanal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468220821505
+    m_Localized: Clasificación
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468225015808
+    m_Localized: Progreso del desafío semanal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468229210112
+    m_Localized: Rango alcanzado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468229210113
+    m_Localized: Temporada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468233404416
+    m_Localized: Siguiente desafío
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468233404417
+    m_Localized: ¿Te gusta Temple Run?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468237598720
+    m_Localized: ¡Pues déjanos una valoración!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468241793024
+    m_Localized: SIGUIENTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468241793025
+    m_Localized: COMPLETADO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468245987328
+    m_Localized: Ranuras de guardado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468250181632
+    m_Localized: Elige una ranura para guardar el progreso del desafío semanal, las mejoras y las estadísticas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468250181633
+    m_Localized: '[{0}] (ranura actual)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468254375936
+    m_Localized: '[{0}] (nueva)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468258570240
+    m_Localized: '[{0}] (elige para cargar)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468262764544
+    m_Localized: 'Distancia recorrida: {0} m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468262764545
+    m_Localized: 'Monedas conseguidas: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468266958848
+    m_Localized: 'Último guardado: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468271153152
+    m_Localized: ¿Quieres borrar de forma permanente el progreso del desafío semanal, las mejoras y las estadísticas de la ranura [{0}]?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468271153153
+    m_Localized: Borrar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468275347456
+    m_Localized: Cancelar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468275347457
+    m_Localized: ¿Borrar ranura?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468279541760
+    m_Localized: 'Tiempo restante:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468283736064
+    m_Localized: Desafío de distancia individual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468287930368
+    m_Localized: Desafío de distancia acumulativo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468287930369
+    m_Localized: Desafío de puntuación individual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468292124672
+    m_Localized: Desafío de puntuación acumulativo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468296318976
+    m_Localized: Desafío de monedas individual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468296318977
+    m_Localized: Desafío de monedas acumulativo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468300513280
+    m_Localized: Desafío de potenciadores individual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468304707584
+    m_Localized: Alcanza la distancia indicada en una sola partida para completar este desafío.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468304707585
+    m_Localized: Alcanza la distancia indicada en varias partidas para completar este desafío.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468308901888
+    m_Localized: Consigue la puntuación indicada en una sola partida para completar este desafío.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468313096192
+    m_Localized: Consigue la puntuación indicada en varias partidas para completar este desafío.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468313096193
+    m_Localized: 'Consigue la cantidad de monedas indicada en una sola partida para completar este desafío. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468317290496
+    m_Localized: 'Consigue la cantidad de monedas indicada en varias partidas para completar este desafío. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468321484800
+    m_Localized: 'Consigue la cantidad de potenciadores indicada en una sola partida para completar este desafío. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468321484801
+    m_Localized: Principiante
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468334067712
+    m_Localized: Promesa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468342456320
+    m_Localized: Aprendiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468346650624
+    m_Localized: Guía
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468350844928
+    m_Localized: Especialista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468355039232
+    m_Localized: Leyenda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468355039233
+    m_Localized: El desafío ha terminado.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468359233536
+    m_Localized: ¡Desafío semanal nuevo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468359233537
+    m_Localized: ¡Rango de {0} completado!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468363427840
+    m_Localized: Se han añadido a tu inventario las recompensas que has conseguido.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468367622144
+    m_Localized: No disponible. Recoge monedas durante la partida y compra el artefacto desde la pantalla de mejoras del menú principal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468371816448
+    m_Localized: No disponible durante el tutorial.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468376010752
+    m_Localized: No disponible durante el inicio o cuenta atrás de la partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468380205056
+    m_Localized: Solo puedes usar unas alas eternas, una ventaja y una superventaja durante la partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468384399360
+    m_Localized: Este artefacto solo funciona al principio de la partida, entre los {0} y los {1} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468384399361
+    m_Localized: Las alas del renacer se están recargando. Espera {0} s más.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468388593664
+    m_Localized: Ya hay unas alas eternas o del renacer en uso. Solo se podrán volver a activar cuando se acabe el efecto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468392787968
+    m_Localized: Alas renacer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468396982272
+    m_Localized: Alas eternas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468396982273
+    m_Localized: Ventaja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468401176576
+    m_Localized: Superventaja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468405370880
+    m_Localized: ARTEFACTO NO DISPONIBLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468409565184
+    m_Localized: Este dispositivo no tiene conexión. Los guardados en la nube no estarán disponibles y es posible que no se guarde el progreso del juego. Para guardar en iCloud, asegúrate de que está activado y que has iniciado sesión.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468413759488
+    m_Localized: Los guardados en la nube no estarán disponibles y el progreso del juego se guardará de forma local. Para guardar en iCloud, asegúrate de que está activado y que has iniciado sesión.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468417953792
+    m_Localized: Guardado en la nube no disponible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468426342400
+    m_Localized: ¡Rangos completados!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468426342401
+    m_Localized: RANGO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468430536704
+    m_Localized: RECOMPENSAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468430536705
+    m_Localized: 'Siguiente desafío:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468434731008
+    m_Localized: 'Tu progreso:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468438925312
+    m_Localized: Distancia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468438925313
+    m_Localized: Monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468443119616
+    m_Localized: Puntos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468447313920
+    m_Localized: Potenciadores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468447313921
+    m_Localized: Necesitas un mando para continuar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468451508224
+    m_Localized: Récord semanal (se reinicia los lunes a las 12:00 UTC)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468455702528
+    m_Localized: 'Multiplicador base:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468455702529
+    m_Localized: 'Objetivos conseguidos:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468459896832
+    m_Localized: 'Tu multiplicador:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468459896833
+    m_Localized: POTENCIADO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468464091136
+    m_Localized: Resurrección en <color=#F6D600>{0} s</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468468285440
+    m_Localized: MONEDAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468468285441
+    m_Localized: ALAS\nRENACER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468472479744
+    m_Localized: ALAS\nETERNAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468476674048
+    m_Localized: VENTAJA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468476674049
+    m_Localized: SUPER-\nVENTAJA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468480868352
+    m_Localized: RESURRE.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468480868353
+    m_Localized: RECARGA\nRÁPIDA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468485062656
+    m_Localized: '{3} d {2} h {1} min {0} s'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468489256960
+    m_Localized: '{2} d {1} h {0} min'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468489256961
+    m_Localized: '{1} h {0} min'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468493451264
+    m_Localized: '{0} min'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468497645568
+    m_Localized: '{1} min {0} s'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468497645569
+    m_Localized: '{0} s'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468501839872
+    m_Localized: RESURRECCIONES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468501839873
+    m_Localized: Consigue 1 resurrección que te permite resucitar y continuar la partida tras morir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468506034176
+    m_Localized: Resurrección
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468510228480
+    m_Localized: Se ha añadido 1 resurrección a tu inventario.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468510228481
+    m_Localized: Reduce en 5 minutos el tiempo necesario para conseguir la siguiente resurrección.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468514422784
+    m_Localized: Recarga rápida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468518617088
+    m_Localized: El tiempo necesario para conseguir la siguiente resurrección se ha reducido en 5 minutos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468518617089
+    m_Localized: No disponible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468522811392
+    m_Localized: La recarga rápida no está disponible si tienes {0} o más resurrecciones.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468527005696
+    m_Localized: N/D
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468527005697
+    m_Localized: Sin conexión
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468531200000
+    m_Localized: Pasito a pasito
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468535394304
+    m_Localized: Participa en un desafío semanal individual.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468539588608
+    m_Localized: Participaste en un desafío semanal individual.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468539588609
+    m_Localized: Paso a paso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468543782912
+    m_Localized: Participa en un desafío semanal acumulativo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468547977216
+    m_Localized: Participaste en un desafío semanal acumulativo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468547977217
+    m_Localized: 'RECARGA RÁPIDA: {0} por'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468552171520
+    m_Localized: se reinicia a {1} en {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468552171521
+    m_Localized: Ayuda de controles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468556365824
+    m_Localized: Ayuda de recompensas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468560560128
+    m_Localized: PUNTOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468560560129
+    m_Localized: MONEDAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468564754432
+    m_Localized: Añade más monedas a tu inventario. Gástalas en la pantalla de mejoras.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468568948736
+    m_Localized: ALAS DEL RENACER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468573143040
+    m_Localized: Actívalas en cualquier momento de la partida y te protegerán de la muerte durante 30 segundos. Revivirás automáticamente si mueres mientras las llevas. Descubre cómo activarlas en Opciones > Ayuda de controles.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468573143041
+    m_Localized: ALAS ETERNAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468577337344
+    m_Localized: Equípate con estas alas especiales para revivir automáticamente la primera vez que mueras en una partida. Actívalas desde el menú de pausa durante los 100 primeros metros de la partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468581531648
+    m_Localized: VENTAJA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468581531649
+    m_Localized: Vuélvete invencible y recorre 1000 metros al principio la partida. Actívala desde el menú de pausa durante los 100 primeros metros de la partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468585725952
+    m_Localized: SUPERVENTAJA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468585725953
+    m_Localized: Vuélvete invencible y recorre 2500 metros al principio la partida. Actívala desde el menú de pausa durante los 100 primeros metros de la partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468589920256
+    m_Localized: RESURRECCIÓN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468594114560
+    m_Localized: Añade 1 resurrección a tu inventario. Se pueden acumular y gastarse una tras otra para intentar subir en la clasificación.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468594114561
+    m_Localized: RECARGA RÁPIDA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468598308864
+    m_Localized: Reduce de forma temporal y en la cantidad indicada bajo la recompensa el tiempo necesario para recargar la resurrección. Consíguela para recargarla más rápido hasta tener un máximo de 3 resurrecciones para jugar partidas más largas. Los efectos caducan cada 4 semanas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468602503168
+    m_Localized: Recompensas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468602503169
+    m_Localized: 'Siguiente rango:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468606697472
+    m_Localized: 'Progreso final:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468610891776
+    m_Localized: Resurrecciones restantes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468610891777
+    m_Localized: ¡Valor de las monedas al máximo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468615086080
+    m_Localized: '{0} h'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468615086081
+    m_Localized: Nada derrocha más "determinación" que estamparte contra un árbol 20 veces seguidas. Así son los 🏆 campeones 🏆. (Guy Dangerous, asesor motivacional profesional)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468619280384
+    m_Localized: ¿Te apetece salir a correr? Hace ⌛ horas ⌛ que no me estampo contra un árbol. (Guy Dangerous)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468623474688
+    m_Localized: ¡Vamos a por el oro maldito! (✨ Está de moda esta temporada. ✨)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468623474689
+    m_Localized: 'Gandhi dijo: "Se tú el cambio que quieres ver". Pues yo digo que te aferres bien al 💰 cambio 💰, que lo tienes ahí delante. (Guy Dangerous, filósofo famoso en el mundo entero)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468627668992
+    m_Localized: No preguntes por quién dobla la 🔔 campana 🔔, ¡pregunta lo que vale y qué te perseguirá si intentas llevártela! 🏃 💰 (Guy Dangerous, economista profesional)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468631863296
+    m_Localized: ⌛ La vida es corta ⌛... Vamos a por un montón de oro maldito y caigámonos por un barranco sin querer. (Guy Dangerous, premio nobel)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468631863297
+    m_Localized: 💪 ¡Vamos a enseñarle al ídolo dorado quién manda aquí! O... estampémonos contra algún árbol. (Guy Dangerous)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468636057600
+    m_Localized: ¿Cuándo fue la última vez que te chocaste contra un árbol a 70 kilómetros por hora? Vamos a ponerle remedio. 🌳 💥
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468640251904
+    m_Localized: 😈 🐒 tEcHaMoS dE MeNoS 🐒 😈 VeN a Ke tE CoMaN. uN AbRaSo, LoS MoNoS deMONíacOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468640251905
+    m_Localized: Al tanto de todo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468644446208
+    m_Localized: Completa el tutorial.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468644446209
+    m_Localized: Completaste el tutorial.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468648640512
+    m_Localized: https://www.imangistudios.com/privacy/eng/ES/privacy-policy-plus.html
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468652834816
+    m_Localized: Política de privacidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468657029120
+    m_Localized: Desafío de potenciadores acumulativo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468657029121
+    m_Localized: 'Consigue la cantidad de potenciadores indicada en varias partidas para completar este desafío. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468661223424
+    m_Localized: El almacenamiento de iCloud está lleno. Los datos guardados en la nube no estarán disponibles y es posible que no se guarde el progreso del juego. Para guardar en la nube, accede a los ajustes de iCloud y amplía o libera algo de espacio.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468665417728
+    m_Localized: El almacenamiento de iCloud está lleno. El progreso del juego se guardará de forma local. Para guardar en la nube, accede a los ajustes de iCloud y amplía o libera algo de espacio.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468665417729
+    m_Localized: Almacenamiento en la nube lleno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468669612032
+    m_Localized: iPhone/iPad:\nCompatibilidad con mando/teclado por bluetooth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468673806336
+    m_Localized: Desbloquea a Tamatoa, el guerrero más valiente de Samoa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468673806337
+    m_Localized: Tamatoa, el guerrero más valiente de Samoa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468678000640
+    m_Localized: Desbloquea a Simone Davies, la cazapiratas incansable.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468682194944
+    m_Localized: Simone Davies, la cazapiratas incansable.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468682194945
+    m_Localized: Desbloquea a Sigur Frostbeard, el leñador con más vigor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468686389248
+    m_Localized: Sigur Frostbeard, el leñador con más vigor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468686389249
+    m_Localized: Desbloquea a Guy Dangerous «Golden», el hombre de oro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468690583552
+    m_Localized: ' Guy Dangerous «Golden», el hombre de oro.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468694777856
+    m_Localized: Desbloquea a Selene Celeste, la astronauta estrellada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468694777857
+    m_Localized: Selene Celeste, la astronauta estrellada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468698972160
+    m_Localized: Desbloquea a Edgar Twiggenbottom, el esqueleto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468703166464
+    m_Localized: Edgar Twiggenbottom, el esqueleto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468703166465
+    m_Localized: Desbloquea a Queen Astrid, reina de los páramos helados.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468707360768
+    m_Localized: Queen Astrid, reina de los páramos helados.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468711555072
+    m_Localized: Desbloquea a Santa, señor del Polo Norte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468711555073
+    m_Localized: Santa, señor del Polo Norte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468715749376
+    m_Localized: Desbloquea a Nidhi Nirmal, la superestrella de Bollywood.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468715749377
+    m_Localized: Nidhi Nirmal, la superestrella de Bollywood.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468719943680
+    m_Localized: Desbloquea a Rahi Raja, el mejor doble de acción de India.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468724137984
+    m_Localized: Rahl Raja, el mejor doble de acción de India.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468724137985
+    m_Localized: Desbloquea a Sara Banyan, la traviesa herborista persa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468728332288
+    m_Localized: Sara Banyan, la traviesa herborista persa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468732526592
+    m_Localized: Desbloquea al Dr. Zenobios, el brillante científico loco.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468732526593
+    m_Localized: Dr. Zenobios, el brillante científico loco.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468736720896
+    m_Localized: TAMATOA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468740915200
+    m_Localized: SIMONE\nDAVIES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468740915201
+    m_Localized: SIGUR\nBARBASCARCHA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468745109504
+    m_Localized: GUY\nDORADO\n
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468745109505
+    m_Localized: SELENE\nCELESTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468749303808
+    m_Localized: EDGAR\nTWIGGENBOTTOM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468753498112
+    m_Localized: QUEEN\nASTRID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468753498113
+    m_Localized: SANTA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468757692416
+    m_Localized: NIDHI\nNIRMAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468761886720
+    m_Localized: RAHI\nRAJA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468761886721
+    m_Localized: SARA\nBANYAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468766081024
+    m_Localized: DOCTOR\nZENOBIOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496035999744
+    m_Localized: Cargando...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496400904192
+    m_Localized: ¡Has conseguido monedas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496409292800
+    m_Localized: ¡Has conseguido {0} monedas por instalar aplicaciones gratuitas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496409292801
+    m_Localized: Monedas gratis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496413487104
+    m_Localized: ¿Quieres ver un breve anuncio para llevarte {0} monedas?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496417681408
+    m_Localized: ¡Gracias por verlo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496421875712
+    m_Localized: ¡Has recibido {0} monedas! ¡Vuelve en 12 horas para llevarte otra recompensa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496421875713
+    m_Localized: '[] m para la siguiente recompensa'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496426070016
+    m_Localized: Alas del renacer gratis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496430264320
+    m_Localized: ¿Quieres ver un breve anuncio para llevarte un par de alas eternas?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496430264321
+    m_Localized: ¡Usa las alas del renacer mientras corres! ¡Vuelve en 12 horas para llevarte otra recompensa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496434458624
+    m_Localized: ¡Llévate el doble!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496438652928
+    m_Localized: ¿Quieres ver un breve anuncio para duplicar tus monedas?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496438652929
+    m_Localized: ¡Has duplicado tus ganancias!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496442847232
+    m_Localized: Error de compra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496447041536
+    m_Localized: No se puede conectar con el iTunes Store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496447041537
+    m_Localized: Ver un vídeo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496451235840
+    m_Localized: ¡Dale "Me gusta" a Temple Run!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496455430144
+    m_Localized: Activar anuncios
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496459624448
+    m_Localized: Anuncios en partidas GRATIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496459624449
+    m_Localized: ¿Quieres activar los anuncios de pantalla completa al final de cada partida y recibir {0} monedas?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496463818752
+    m_Localized: No, gracias
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496468013056
+    m_Localized: ¡Activar anuncios!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496468013057
+    m_Localized: Dale "Me gusta" en Facebook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496472207360
+    m_Localized: ¡Dale "Me gusta" a Temple Run en Facebook y llévate {0} monedas gratis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496476401664
+    m_Localized: Síguenos en X
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496480595968
+    m_Localized: ¡Sigue a Temple Run en X y llévate {0} monedas GRATIS!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496484790272
+    m_Localized: Oferta no disponible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496488984576
+    m_Localized: Esta oferta no está disponible en este momento. ¡Inténtalo de nuevo más tarde!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496488984577
+    m_Localized: Mejorar en la tienda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496501567488
+    m_Localized: 'Has recogido unas monedas: ¡ya puedes mejorar a tu personaje en la tienda para ayudarte a conseguir una mayor puntuación!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496505761792
+    m_Localized: Ahora no
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496509956096
+    m_Localized: Ir a la tienda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496514150400
+    m_Localized: FONDOS DE PANTALLA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496514150401
+    m_Localized: Descargando...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496518344704
+    m_Localized: Guardando...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496522539008
+    m_Localized: Fondo de pantalla guardado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496522539009
+    m_Localized: Se ha guardado el fondo de pantalla en tu galería de imágenes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496526733312
+    m_Localized: Error de descarga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496530927616
+    m_Localized: No se puede descargar este elemento. Asegúrate de que tienes conexión a internet e inténtalo de nuevo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496530927617
+    m_Localized: Desbloquea el fondo de pantalla "Muro del templo".
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496535121920
+    m_Localized: Descarga el fondo de pantalla "Muro del templo".
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496539316224
+    m_Localized: Desbloquea el fondo de pantalla "Guy Dangerous".
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496539316225
+    m_Localized: Descarga el fondo de pantalla "Guy Dangerous".
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496543510528
+    m_Localized: Desbloquea el fondo de pantalla "Monos demoníacos malvados".
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496547704832
+    m_Localized: Descarga el fondo de pantalla "Monos demoníacos malvados".
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496547704833
+    m_Localized: Desbloquea el fondo de pantalla "Muro del templo".
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496551899136
+    m_Localized: Descarga el fondo de pantalla "Muro del templo".
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496556093440
+    m_Localized: Elimina los anuncios al final de la partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496560287744
+    m_Localized: Se han eliminado los anuncios al final de la partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496560287745
+    m_Localized: DESCARGAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496564482048
+    m_Localized: ¿Quieres monedas gratis?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496568676352
+    m_Localized: ¡Mira vídeos o completa otras ofertas para obtener monedas en la sección de ofertas gratis de la tienda de monedas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496568676353
+    m_Localized: ¡Monedas GRATIS!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496572870656
+    m_Localized: Sin conexión a internet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496577064960
+    m_Localized: No se puede conectar a la tienda. Asegúrate de que tienes conexión a internet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496577064961
+    m_Localized: Contactando con la tienda...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496581259264
+    m_Localized: Cargando productos...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496585453568
+    m_Localized: '{0} monedas gratis'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496585453569
+    m_Localized: OFERTAS GRATIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496589647872
+    m_Localized: ¡Puntúanos en el App Store!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496593842176
+    m_Localized: Recordármelo más tarde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496593842177
+    m_Localized: No volver a preguntarme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496598036480
+    m_Localized: Nombre de usuario
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496602230784
+    m_Localized: Contraseña
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496602230785
+    m_Localized: 'He conseguido %@ puntos mientras escapaba de los monos demoníacos en Temple Run. ¡Supera eso! http://bit.ly/TempleRunGame'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496606425088
+    m_Localized: 'Error de publicación: comprueba que has iniciado sesión o inténtalo de nuevo más tarde'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496610619392
+    m_Localized: Marcadores de amigos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496610619393
+    m_Localized: ¡Completa hitos de desafío para conseguir recompensas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496614813696
+    m_Localized: Cerrar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496619008000
+    m_Localized: Desafíos globales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496619008001
+    m_Localized: Distancia acumulativa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496623202304
+    m_Localized: Puntuación por carrera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496627396608
+    m_Localized: Monedas por carrera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496627396609
+    m_Localized: Monedas desde inicio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496631590912
+    m_Localized: Puntuación acumulativa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496635785216
+    m_Localized: Distancia por carrera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496635785217
+    m_Localized: GANA MÁS MONEDAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496639979520
+    m_Localized: Más contenido muy pronto...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496644173824
+    m_Localized: Personajes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496644173825
+    m_Localized: ¿Quieres ver un anuncio para resucitar?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496648368128
+    m_Localized: DESBLOQUEADO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496652562432
+    m_Localized: Tienda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496656756736
+    m_Localized: RESTAURAR COMPRAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496656756737
+    m_Localized: SIN ANUNCIOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496660951040
+    m_Localized: AJUSTES DE PRIVACIDAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496665145344
+    m_Localized: Compartir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496665145345
+    m_Localized: Desbloquea a Guy Dangerous, un piloto aventurero muy intrépido de 1940
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496669339648
+    m_Localized: Guy Dangerous, un piloto aventurero muy intrépido de 1940
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496673533952
+    m_Localized: Desbloquea a Scarlett Fox, una ladrona profesional y muy ingeniosa de 1930
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496673533953
+    m_Localized: Scarlett Fox, una ladrona profesional y muy ingeniosa de 1930
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496677728256
+    m_Localized: Desbloquea a Barry Bones, un policía fabuloso de los años ochenta con una misión
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496681922560
+    m_Localized: Barry Bones, un policía fabuloso de los años ochenta con una misión
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496681922561
+    m_Localized: Desbloquea a Karma Lee, una princesa justiciera y nómada del año 500 a. de C.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496686116864
+    m_Localized: Karma Lee, una princesa justiciera y nómada del año 500 a. de C.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496690311168
+    m_Localized: Desbloquea a Montana Smith, un bandido del salvaje Oeste que huye del año 1800
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496690311169
+    m_Localized: Montana Smith, un bandido del salvaje Oeste que huye del año 1800
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496694505472
+    m_Localized: Desbloquea a Francisco Montoya, un monje español chiflado de 1500
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496698699776
+    m_Localized: Francisco Montoya, un monje español chiflado de 1500
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496698699777
+    m_Localized: Desbloquea a Zack Wonder, la superestrella del fútbol americano de 2004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496702894080
+    m_Localized: Zack Wonder, la superestrella del fútbol americano de 2004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496707088384
+    m_Localized: Desbloquea a Simone Davies, la comodora del Caribe de 1600
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496707088385
+    m_Localized: Simone Davies, la comodora del Caribe de 1600
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496723865600
+    m_Localized: Desbloquea a Edgar Twiggenbottom, el guardián de los campos eterno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496723865601
+    m_Localized: Edgar Twiggenbottom, el guardián de los campos eterno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496728059904
+    m_Localized: Desbloquea a Kai Xiang, un monje saolín del 500 a. de C. que busca la redención
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496732254208
+    m_Localized: Kai Xiang, un monje saolín del 500 a. de C. que busca la redención
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496736448512
+    m_Localized: Desbloquea a Carnifex, la malévola maestra del caos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496736448513
+    m_Localized: Carnifex, la malévola maestra del caos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496740642816
+    m_Localized: Desbloquea a Frost Pirate, el capitán de 1690 que aterrorizaba los mares
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496744837120
+    m_Localized: Frost Pirate, el capitán de 1690 que aterrorizaba los mares
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496744837121
+    m_Localized: Desbloquea a Wally Nut, el cascanueces de Navidad que reparte alegría
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496749031424
+    m_Localized: Wally Nut, el cascanueces de Navidad que reparte alegría
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496753225728
+    m_Localized: Desbloquea a Queen Astrid, una vikinga saqueadora de la realeza desde 930 a. de C.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496757420032
+    m_Localized: Queen Astrid, una vikinga saqueadora de la realeza desde 930 a. de C.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496757420033
+    m_Localized: Desbloquea a Chronos Timebeard, un semidiós atemporal que propaga el caos eternamente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496761614336
+    m_Localized: Chronos Timebeard, un semidiós atemporal que propaga el caos eternamente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16968939731935232
+    m_Localized: ¡Gracias!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406555136000
+    m_Localized: '{0} para la siguiente recompensa'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406815182848
+    m_Localized: Consigue puntuaciones más altas para avanzar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406823571456
+    m_Localized: '{0} {1} para la siguiente recompensa'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406823571457
+    m_Localized: puntos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406827765760
+    m_Localized: Obtener
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406827765761
+    m_Localized: Obtenido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406831960064
+    m_Localized: SÍ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406836154368
+    m_Localized: NO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406836154369
+    m_Localized: DESAFÍO GLOBAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406840348672
+    m_Localized: Alas de ángel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406844542976
+    m_Localized: Interiorista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406844542977
+    m_Localized: Desbloquea 3 fondos de pantalla.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406848737280
+    m_Localized: Desbloqueaste 3 fondos de pantalla.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406848737281
+    m_Localized: Comenzar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406852931584
+    m_Localized: ¿Quieres ver un anuncio para continuar?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406857125888
+    m_Localized: He conseguido {0} puntos mientras escapaba de los monos demoníacos. ¡Supéralo! {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406857125889
+    m_Localized: ¡Compra restaurada!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406861320192
+    m_Localized: ¡Completado!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406865514496
+    m_Localized: ¿Qué es esto? ¡¿UN DESAFÍO GLOBAL?! ¡Prepárate para {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406869708800
+    m_Localized: ¡Temed, mortales! ¡{0} YA ESTÁ AQUÍ! ¡Prepárate para un nuevo DESAFÍO GLOBAL!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406869708801
+    m_Localized: ¡No te rindas! ¡{0} aún tiene premios que esperan que los recojan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406873903104
+    m_Localized: ¡No te olvides de {0}! DE TI NO SE HA OLVIDADO.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406878097408
+    m_Localized: ¡Date prisa! ¡Solo queda {0} para que {1} desaparezca!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406878097409
+    m_Localized: ¡Sigue corriendo! ¡Tienes {0} para hacerte con las recompensas gloriosas de {1}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406882291712
+    m_Localized: ¡Hora de correr!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406882291713
+    m_Localized: ¡Te echamos de menos!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406886486016
+    m_Localized: Compra para quitar anuncios
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406890680320
+    m_Localized: Compra de monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406890680321
+    m_Localized: No se ha hecho la compra para quitar anuncios. Comprueba la conexión a internet e inténtalo de nuevo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406894874624
+    m_Localized: No se ha hecho la compra de monedas. Comprueba la conexión a internet e inténtalo de nuevo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406899068928
+    m_Localized: Compra cancelada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406899068929
+    m_Localized: El mensaje \"{0}\" no se puede enviar porque se ha producido un error de conexión.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406903263232
+    m_Localized: Intentarlo de nuevo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406903263233
+    m_Localized: No se puede compartir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406907457536
+    m_Localized: Error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406911651840
+    m_Localized: Lo siento, se ha producido un error al reproducir el vídeo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406911651841
+    m_Localized: Recompensa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406915846144
+    m_Localized: Vuelve a aceptar las compras dentro de la aplicación para aplicar la tienda de monedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406920040448
+    m_Localized: La tienda de monedas no está disponible. Contacta con support@imangistudios.com para obtener más información.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406920040449
+    m_Localized: '{0} monedas añadidas'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406924234752
+    m_Localized: Actualización necesaria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406924234753
+    m_Localized: Tienes que actualizar para seguir jugando a Temple Run.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406928429056
+    m_Localized: Personajes gratis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406932623360
+    m_Localized: Personajes nuevos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406932623361
+    m_Localized: Aventura nueva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406936817664
+    m_Localized: Unirme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406936817665
+    m_Localized: ¡Elemento compartido cancelado!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406941011968
+    m_Localized: ¡Error al compartir!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406945206272
+    m_Localized: ¡Se ha compartido!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406945206273
+    m_Localized: Hito {0} completado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23200394329972736
+    m_Localized: Gracias por actualizar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23200394455801856
+    m_Localized: ¡Gracias por seguir actualizando Temple Run! ¡Acepta estas 500 monedas como regalo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23204094888894464
+    m_Localized: 500 monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23204095056666624
+    m_Localized: No, gracias
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55828746446299136
+    m_Localized: ¡Gracias por descargar Temple Run!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355477262336
+    m_Localized: "EXPLORA LO \\n DESCONOCIDO CON\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355628257280
+    m_Localized: "FRANCISCO \\n MONTOYA\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355636645888
+    m_Localized: "\nDisponible GRATIS al elegir corredor."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929317220352
+    m_Localized: Disponible GRATIS al elegir corredor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929606627328
+    m_Localized: VIVE\nLA LEYENDA CON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929619210240
+    m_Localized: KARMA LEE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929623404544
+    m_Localized: "PREPÁRATE\\nCON\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929627598848
+    m_Localized: "ZACK WONDER\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929635987456
+    m_Localized: EL CAMINO  OSCURO\nTE ESPERA CON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929640181760
+    m_Localized: CARNIFEX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929644376064
+    m_Localized: LA REINA\nVA DELANTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929652764672
+    m_Localized: QUEEN ASTRID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929656958976
+    m_Localized: SABOREA\nLA AVENTURA CON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929661153280
+    m_Localized: WALLY NUTT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773763731456
+    m_Localized: VIVE\nLA LEYENDA CON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773776314368
+    m_Localized: KARMA LEE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773780508672
+    m_Localized: Disponible GRATIS al elegir corredor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126122979169918976
+    m_Localized: "PREPÁRATE\\nCON\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126463690687897600
+    m_Localized: "PREPÁRATE\\nCON\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126497313759682560
+    m_Localized: "ZACK WONDER\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126497313763876864
+    m_Localized: Disponible GRATIS al elegir corredor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126481317888
+    m_Localized: FIEBRE \nDEL ORO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126485512192
+    m_Localized: CARRERA \nSALVAJE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126485512193
+    m_Localized: NUEVOS \nCOMIENZOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027824455680
+    m_Localized: ATRAPA \nAL PAVO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027824455681
+    m_Localized: ASALTO \nAL TEMPLO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649984
+    m_Localized: ¡LA MILLA \nMÁS LARGA!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649985
+    m_Localized: HACIA LAS \nRUINAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649986
+    m_Localized: CARRERA POR \nLA LIBERTAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649987
+    m_Localized: SUEÑOS \nFESTIVOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844288
+    m_Localized: MARATÓN \nESTIVAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844289
+    m_Localized: TRUCO O \nTRATO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844290
+    m_Localized: ¡FRÍO COMO \nEL TÉMPANO!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038592
+    m_Localized: CONSIGUE EL \nTESORO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038593
+    m_Localized: ¿PODRÁS SOBREVIVIR?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038594
+    m_Localized: DESCUBRE \nLA TEMPORADA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232896
+    m_Localized: ¡ÚNETE A LA DIVERSIÓN \nFESTIVA!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232897
+    m_Localized: ENCUENTRA EL \nÍDOLO PERDIDO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232898
+    m_Localized: ¿PODRÁS AGUANTAR?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232899
+    m_Localized: EXPLORA LO \nDESCONOCIDO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427200
+    m_Localized: DIME, ¿LO PUEDES \nVER?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427201
+    m_Localized: LLEGA LA \nÉPOCA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427202
+    m_Localized: LUCHA CONTRA \nEL CALOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027849621504
+    m_Localized: PILLA \nCARAMELOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027849621505
+    m_Localized: SOBREVIVE AL \nFRÍO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477794344960
+    m_Localized: Reiniciar progreso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477811122176
+    m_Localized: Experiencia publicitaria mejorada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316480
+    m_Localized: Aceptar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316481
+    m_Localized: Rechazar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316482
+    m_Localized: RETIRAR CONSENTIMIENTO?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316483
+    m_Localized: "Actualmente has dado tu consentimiento a Imangi para la divulgación del ID de publicidad de tu dispositivo a redes publicitarias con fines de marketing en el juego.\n\nEstas seguro de que deseas retirar el consentimiento?\n\n(Al tocar SI se cerrará el juego; inícialo de nuevo para que los cambios tengan efecto)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510784
+    m_Localized: MEJORAR LA EXPERIENCIA PUBLICITARIA?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510785
+    m_Localized: "Temple Run se financia con publicidad. Para que los anuncios sean lo mas relevantes posible, nos gustaria recopilar y compartir datos con nuestros socios publicitarios. Ten en cuenta que elegir No gracias no eliminara los anuncios; es posible que veas anuncios no relacionados con tus intereses. Puedes actualizar tu eleccion en Configuracion en cualquier momento.\n\n(Al tocar SI se cerrara el juego; inícialo de nuevo para que los cambios tengan efecto)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510786
+    m_Localized: CONQUISTA \nEL INVIERNO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649416769536
+    m_Localized: HUYE DEL PELIGRO \n CON...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649437741056
+    m_Localized: SCARLETT FOX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649437741057
+    m_Localized: Disponible GRATIS en Runner Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202893421137879040
+    m_Localized: Disponible GRATIS en Selección de corredores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574259658752
+    m_Localized: DOMINA TU \n VELOCIDAD CON...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574322573312
+    m_Localized: KAI XIANG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574322573313
+    m_Localized: Disponible GRATIS en Selección de corredores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105925562368
+    m_Localized: DOMINA TU \n VELOCIDAD CON...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105938145280
+    m_Localized: BARRY BONES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105938145281
+    m_Localized: Disponible GRATIS en Selección de corredores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438307418112
+    m_Localized: NIDHI\nNIRMAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438332583936
+    m_Localized: Desbloquea a Nidhi Nirmal, la superestrella de Bollywood.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438332583937
+    m_Localized: Nidhi Nirmal, la superestrella de Bollywood.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984695754752
+    m_Localized: CELEBRA 15 \n AÑOS CON...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984729309184
+    m_Localized: NIDHI NIRMAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984729309185
+    m_Localized: Disponible GRATIS en Selección de corredores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096434597888
+    m_Localized: ¡BIENVENIDO DE NUEVO!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096451375104
+    m_Localized: ¡CELEBRA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096455569408
+    m_Localized: 15 AÑOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096455569409
+    m_Localized: CON 15.000 MONEDAS GRATIS!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228703228063113216
+    m_Localized: Reclamar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075348025344
+    m_Localized: SEGUIMOS CORRIENDO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075381579776
+    m_Localized: 15 AÑOS DESPUÉS...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774080
+    m_Localized: BOTÍN DE CUMPLEAÑOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774081
+    m_Localized: ¡CELEBRA CON CADA MONEDA!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774082
+    m_Localized: UNA CARRERA MÁS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774083
+    m_Localized: ¿QUÉ TAN LEJOS LLEGARÁS?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412179812352
+    m_Localized: EL TESORO TE ESPERA \n CON...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412196589568
+    m_Localized: FRANCISCO MONTOYA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412196589569
+    m_Localized: Disponible GRATIS en Selección de corredores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243860789221384192
+    m_Localized: SALTA AL \n CAMPO EN...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243860789229772800
+    m_Localized: CARRERA DEL VIERNES NOCHE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252909526883229696
+    m_Localized: AVANZA A TODA VELOCIDAD CON…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252909526900006912
+    m_Localized: ZACK WONDER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260263528729927680
+    m_Localized: PÁSALO DE MIEDO \n CON...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260263528746704896
+    m_Localized: EDGAR TWIGGENBOTTOM
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

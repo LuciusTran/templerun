@@ -1,0 +1,98 @@
+// default
+0: An error has occurred. <1>
+1: If this problem persists, please contact Imangi Support at support@imangistudios.com
+2: Please restart the game and try again.
+3: Some features may be disabled or not work as expected.
+4: Please try again later.
+
+// titles
+10: Configuration File Error
+11: Configuration Data Error
+12: Configuration Parse Error
+20: Download Content Error
+21: Download Region Error
+22: Updating Content Error
+30: Game Services Error
+31: Friends Error
+32: Achievements Error
+33: Leaderboard Error
+40: Global Challenge Error
+50: Network Error
+60: Store Error
+70: Demo Error
+80: Support Error
+90: Sharing Error
+
+// promo file errors
+1001: There is not enough free space on the device to write configuration data. Please close the game and free some space.
+1002: No configuration data found. <2>
+1003: Failed to write configuration data. <2>
+1004: Failed to read configuration data. <2>
+
+// promo data errors
+1100: Configuration data is invalid. <2>
+1104: Downloaded configuration data is invalid. <3>
+1105: Cached configuration data is invalid. <3>
+
+// promo line parse errors
+1200: Configuration data is invalid. <3>
+
+// generic bundle errors
+2001: There is not enough free space on the device to download content. <3>
+2002: The content could not be loaded. <2>
+2003: The downloaded content could not be loaded. <4>
+
+// region bundle download errors
+2100: Could not download the region at this time. <4>
+2104: Lost connection to network while downloading. <4>
+2105: The connection to the server timed out while downloading.
+2106: Could not download the region at this time.  Ensure you are logged in if connected to Wi-Fi. <4>
+2107: {0} cannot download due to unavailable internet connection. Make sure your internet connection is available, and try again.
+2108: Unable to connect to server. <4>
+2109: Unable to connect to address. <1>
+2110: Domain error. <1>
+
+// content update errors
+2200: Some content was unable to be downloaded. <3>
+
+// generic game services errors
+3001: Networked features not supported.
+3002: You are not signed in. Please sign in through GameCenter and try again.
+3003: Re-apply consent for game services to enable this feature.
+
+// game services friends errors
+3101: Challenges are not supported.
+3102: Re-apply consent for game services to enable Challenges.
+
+// game services achievements errors
+3201: Achievements are not supported.
+3202: Re-apply consent for game services to enable Achievements.
+
+// game services leaderboard errors
+3301: Leaderboard feature not supported.
+3302: Re-apply consent for game services to enable Leaderboards.
+
+// generic region challenge errors
+4001: Sorry, this Global Challenge is in a region your device doesn't support.
+4002: You must unlock {0} in order to play.
+4003: There are no active Global Challenges at this time. <4>
+4004: The active Global Challenge count not be found. <4>
+
+// generic network errors
+5001: There is no network connection. Make sure your internet connection is available, and try again.
+
+// generic store errors
+6001: Store Connection Lost, please try again.
+6002: There was an issue while attempting to purchase, please try again later.
+
+// generic demo errors
+7001: Feature not enabled for this demo.
+
+// generic support errors
+8001: Invalid support code entered.
+8002: Unable to connect to reimbursement server. <4>
+
+// generic sharing errors
+
+9001: Sharing not supported.
+9002: Re-apply consent for sharing to enable this feature.

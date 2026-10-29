@@ -1,0 +1,459 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: Promo_Alerts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 328337173ca190b41950c91465104b97, type: 2}
+  sprites:
+  - name: KaiXiang_InGame_Ad_510x314
+    outer:
+      serializedVersion: 2
+      x: 1887
+      y: 1423
+      width: 510
+      height: 311
+    inner:
+      serializedVersion: 2
+      x: 1887
+      y: 1423
+      width: 510
+      height: 311
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.009646302
+    paddingBottom: 0
+  - name: Legends_TR1_510x314_v3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1108
+      width: 510
+      height: 314
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1108
+      width: 510
+      height: 314
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Scarlet_Popup_New
+    outer:
+      serializedVersion: 2
+      x: 511
+      y: 1108
+      width: 510
+      height: 314
+    inner:
+      serializedVersion: 2
+      x: 511
+      y: 1108
+      width: 510
+      height: 314
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3Characters_InGame_Ad_510x314
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 793
+      width: 510
+      height: 314
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 793
+      width: 510
+      height: 314
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Francisco_InGame_Ad_510x314_noText
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 478
+      width: 510
+      height: 314
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 478
+      width: 510
+      height: 314
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TR2_GC_550x250_TRPLUS_v2_8_2025
+    outer:
+      serializedVersion: 2
+      x: 2398
+      y: 1484
+      width: 550
+      height: 250
+    inner:
+      serializedVersion: 2
+      x: 2398
+      y: 1484
+      width: 550
+      height: 250
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Legends_TR1_510x314_v4
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 163
+      width: 510
+      height: 314
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 163
+      width: 510
+      height: 314
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: KarmaLee_InGame_Ad_510x314_8_2025
+    outer:
+      serializedVersion: 2
+      x: 511
+      y: 793
+      width: 510
+      height: 314
+    inner:
+      serializedVersion: 2
+      x: 511
+      y: 793
+      width: 510
+      height: 314
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: LEG_TR2_v2_8_2025
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1423
+      width: 1375
+      height: 625
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1423
+      width: 1375
+      height: 625
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BetaSignup_InGame_Ad2_510x314
+    outer:
+      serializedVersion: 2
+      x: 511
+      y: 478
+      width: 510
+      height: 314
+    inner:
+      serializedVersion: 2
+      x: 511
+      y: 478
+      width: 510
+      height: 314
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TR1_Scarlet_Popup_New_22May
+    outer:
+      serializedVersion: 2
+      x: 511
+      y: 163
+      width: 510
+      height: 314
+    inner:
+      serializedVersion: 2
+      x: 511
+      y: 163
+      width: 510
+      height: 314
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TR1_GC_Scarlett_v3
+    outer:
+      serializedVersion: 2
+      x: 1376
+      y: 1734
+      width: 510
+      height: 314
+    inner:
+      serializedVersion: 2
+      x: 1376
+      y: 1734
+      width: 510
+      height: 314
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Montana_InGame_Ad_510x314
+    outer:
+      serializedVersion: 2
+      x: 1887
+      y: 1111
+      width: 510
+      height: 311
+    inner:
+      serializedVersion: 2
+      x: 1887
+      y: 1111
+      width: 510
+      height: 311
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.009646302
+    paddingBottom: 0
+  - name: TR1_GC_Scarlett_v4
+    outer:
+      serializedVersion: 2
+      x: 1376
+      y: 1419
+      width: 510
+      height: 314
+    inner:
+      serializedVersion: 2
+      x: 1376
+      y: 1419
+      width: 510
+      height: 314
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Edgar_InGame_Ad_510x314
+    outer:
+      serializedVersion: 2
+      x: 1376
+      y: 1104
+      width: 510
+      height: 314
+    inner:
+      serializedVersion: 2
+      x: 1376
+      y: 1104
+      width: 510
+      height: 314
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: WallyNutt_InGame_Ad_510x314
+    outer:
+      serializedVersion: 2
+      x: 1376
+      y: 789
+      width: 510
+      height: 314
+    inner:
+      serializedVersion: 2
+      x: 1376
+      y: 789
+      width: 510
+      height: 314
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: QueenAstrid_InGame_Ad_510x314
+    outer:
+      serializedVersion: 2
+      x: 1376
+      y: 474
+      width: 510
+      height: 314
+    inner:
+      serializedVersion: 2
+      x: 1376
+      y: 474
+      width: 510
+      height: 314
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ScarlettFox_InGame_Ad_510x314
+    outer:
+      serializedVersion: 2
+      x: 1887
+      y: 1735
+      width: 510
+      height: 313
+    inner:
+      serializedVersion: 2
+      x: 1887
+      y: 1735
+      width: 510
+      height: 313
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.0031948881
+    paddingBottom: 0
+  - name: Barry-Bones_InGame_Ad_510x314
+    outer:
+      serializedVersion: 2
+      x: 2398
+      y: 1736
+      width: 510
+      height: 312
+    inner:
+      serializedVersion: 2
+      x: 2398
+      y: 1736
+      width: 510
+      height: 312
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.0064102565
+    paddingBottom: 0
+  - name: NidhiNirmal_InGame_Ad_510x314
+    outer:
+      serializedVersion: 2
+      x: 2909
+      y: 1736
+      width: 510
+      height: 312
+    inner:
+      serializedVersion: 2
+      x: 2909
+      y: 1736
+      width: 510
+      height: 312
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.0064102565
+    paddingBottom: 0
+  - name: DeeplinkingPopup_InGame_Ad_510x314
+    outer:
+      serializedVersion: 2
+      x: 1887
+      y: 799
+      width: 510
+      height: 311
+    inner:
+      serializedVersion: 2
+      x: 1887
+      y: 799
+      width: 510
+      height: 311
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.009646302
+    paddingBottom: 0
+  - name: Fransisco_InGame_Ad_510x314
+    outer:
+      serializedVersion: 2
+      x: 1887
+      y: 487
+      width: 510
+      height: 311
+    inner:
+      serializedVersion: 2
+      x: 1887
+      y: 487
+      width: 510
+      height: 311
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.009646302
+    paddingBottom: 0
+  - name: ZackWonder_InGame_Ad_510x314
+    outer:
+      serializedVersion: 2
+      x: 3420
+      y: 1736
+      width: 510
+      height: 312
+    inner:
+      serializedVersion: 2
+      x: 3420
+      y: 1736
+      width: 510
+      height: 312
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.0064102565
+    paddingBottom: 0
+  - name: EdgarTwiggenbottom_InGame_Ad_510x314
+    outer:
+      serializedVersion: 2
+      x: 1376
+      y: 160
+      width: 510
+      height: 313
+    inner:
+      serializedVersion: 2
+      x: 1376
+      y: 160
+      width: 510
+      height: 313
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.0031948881
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

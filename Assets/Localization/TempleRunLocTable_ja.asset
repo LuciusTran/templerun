@@ -1,0 +1,4003 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: TempleRunLocTable_ja
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: 0071ada7e6fa56344b4d42c06e5e2bd7, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 306466174001152
+    m_Localized: 偶像を手に
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466660540416
+    m_Localized: 走り抜けろ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466681511936
+    m_Localized: PLAY！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466685706240
+    m_Localized: 目標
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466702483456
+    m_Localized: 成績
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466706677760
+    m_Localized: アップグレード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466710872064
+    m_Localized: オプション
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466710872065
+    m_Localized: セーブスロット選択
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466715066368
+    m_Localized: 復活数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466719260672
+    m_Localized: ウィークリーチャレンジ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466723454976
+    m_Localized: オプション
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466723454977
+    m_Localized: 感度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466727649280
+    m_Localized: 音楽
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466731843584
+    m_Localized: サウンド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466731843585
+    m_Localized: チュートリアル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466736037888
+    m_Localized: 言語：日本語
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466740232192
+    m_Localized: セーブデータを削除
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466740232193
+    m_Localized: プライバシーポリシー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466744426496
+    m_Localized: 戻る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466748620800
+    m_Localized: 言語
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466752815104
+    m_Localized: 一時停止
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466752815105
+    m_Localized: スコア：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466757009408
+    m_Localized: 距離：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466761203712
+    m_Localized: コイン：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466765398016
+    m_Localized: 倍率：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466765398017
+    m_Localized: 次の目標：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466769592320
+    m_Localized: 次のティア：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466773786624
+    m_Localized: メインメニュー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466773786625
+    m_Localized: NEW GAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466777980928
+    m_Localized: 再開
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466782175232
+    m_Localized: NEW GAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466782175233
+    m_Localized: ゲームの進行状況が失われますが、NEW GAMEを開始しますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466786369536
+    m_Localized: ゲームを終了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466790563840
+    m_Localized: ゲームの進行状況が失われますが、ゲームを終了しますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466790563841
+    m_Localized: いいえ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466794758144
+    m_Localized: はい
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466798952448
+    m_Localized: 「ラン」を続けますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466803146752
+    m_Localized: 次の復活まであと<color=#F6D600>{0}分{1}秒</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466803146753
+    m_Localized: 「復活」を使う
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466807341056
+    m_Localized: ランを終了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466811535360
+    m_Localized: 最大
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466815729664
+    m_Localized: 成績
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466815729665
+    m_Localized: 倍率：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466819923968
+    m_Localized: '{0}倍'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466824118272
+    m_Localized: シングルラン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466824118273
+    m_Localized: 最高スコア：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466828312576
+    m_Localized: 最長距離：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466832506880
+    m_Localized: '{0}ｍ'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466832506881
+    m_Localized: 最大獲得コイン数：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466836701184
+    m_Localized: 復活あり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466840895488
+    m_Localized: 通算
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466840895489
+    m_Localized: 通算ゲーム数：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466845089792
+    m_Localized: 通算距離：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466849284096
+    m_Localized: 通算獲得コイン：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466853478400
+    m_Localized: アップグレード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466853478401
+    m_Localized: パワーアップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466857672704
+    m_Localized: 不明
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466861867008
+    m_Localized: 50コインパワーアップが有効になる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466861867009
+    m_Localized: メガコインがコイン75枚に増える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466866061312
+    m_Localized: メガコインがコイン100枚に増える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466870255616
+    m_Localized: メガコインがコイン125枚に増える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466870255617
+    m_Localized: メガコインがコイン150枚に増える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466874449920
+    m_Localized: メガコインを無効化する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466878644224
+    m_Localized: メガコインがフルアップグレードしました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466878644225
+    m_Localized: メガコインが無効になりました。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466882838528
+    m_Localized: アップグレード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466887032832
+    m_Localized: フリー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466887032833
+    m_Localized: 有効
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466891227136
+    m_Localized: 無効
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466895421440
+    m_Localized: コインマグネット・パワーアップが有効になる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466895421441
+    m_Localized: コインマグネットが長持ちする。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466899615744
+    m_Localized: コインマグネットの価値が2倍になる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466899615745
+    m_Localized: コインマグネットが長持ちする。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466903810048
+    m_Localized: コインマグネットの価値が3倍になる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466908004352
+    m_Localized: コインマグネットを無効化する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466912198656
+    m_Localized: コインマグネットがフルアップグレードしました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466912198657
+    m_Localized: コインマグネットが無効になりました。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466916392960
+    m_Localized: 透明化パワーアップが有効になる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466920587264
+    m_Localized: 透明化が長持ちする。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466920587265
+    m_Localized: 透明化を無効化する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466924781568
+    m_Localized: 透明化がフルアップグレードしました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466928975872
+    m_Localized: 透明化を無効化する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466928975873
+    m_Localized: 250mブースト・パワーアップを有効にする。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466933170176
+    m_Localized: ブーストが375mに増える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466937364480
+    m_Localized: ブーストが500mに増える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466937364481
+    m_Localized: ブーストが625mに増える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466941558784
+    m_Localized: ブーストが750mに増える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466945753088
+    m_Localized: ブーストを無効化する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466949947392
+    m_Localized: ブーストがフルアップグレードしました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466949947393
+    m_Localized: ブーストが無効になりました。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466954141696
+    m_Localized: '{0}ｍ後にダブルコインが出現する。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466958336000
+    m_Localized: '{0}ｍ後にダブルコインが出現する。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466958336001
+    m_Localized: '{0}ｍ後にダブルコインが出現する。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466962530304
+    m_Localized: '{0}ｍ後にトリプルコインが出現する。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466966724608
+    m_Localized: '{0}ｍ後にトリプルコインが出現する。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466966724609
+    m_Localized: '{0}ｍ後にトリプルコインが出現する。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466970918912
+    m_Localized: フルアップグレード完了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466975113216
+    m_Localized: アイテム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466975113217
+    m_Localized: 有効化すると、死亡直後に復活できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466979307520
+    m_Localized: 1回使用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466983501824
+    m_Localized: 復活の翼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466983501825
+    m_Localized: '走行中にダブルタップするか、一時停止して「復活の翼」アイテムを選択すると有効になる。翼の効果は有効になってから30秒続く。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466987696128
+    m_Localized: '走行中に中央のボタンを1秒長押しするか、一時停止して「復活の翼」アイテムを選択すると有効になる。翼の効果は有効になってから30秒続く。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466987696129
+    m_Localized: '走行中にゲームパッドの一番上（Y/△）のボタンを押すか、一時停止して「復活の翼」アイテムを選択すると有効になる。翼の効果は有効になってから30秒続く。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466991890432
+    m_Localized: '走行中に「R」ボタンを押すか、一時停止して「復活の翼」アイテムを選択すると有効になる。翼の効果は有効になってから30秒続く。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466996084736
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466996084737
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467000279040
+    m_Localized: 常に有効な「復活の翼」。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467004473344
+    m_Localized: 永遠の翼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467004473345
+    m_Localized: ゲーム開始時に、一時停止して「永遠の翼」アイテムを選択すると有効になる。死亡すると自動で復活できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467008667648
+    m_Localized: ゲーム開始時に1000m先までブーストする。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467012861952
+    m_Localized: スタートダッシュ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467012861953
+    m_Localized: ゲーム開始時に、一時停止して「スタートダッシュ」アイテムを選択すると1000m先までブーストできる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467017056256
+    m_Localized: ゲーム開始時に2500m先までメガブーストする。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467021250560
+    m_Localized: メガスタートダッシュ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467025444864
+    m_Localized: ゲーム開始時に、一時停止して「メガスタートダッシュ」アイテムを選択すると2500m先までブーストできる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467025444865
+    m_Localized: キャラクター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467029639168
+    m_Localized: 選択中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467033833472
+    m_Localized: 選択
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467033833473
+    m_Localized: アンロック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467038027776
+    m_Localized: 典型的な探検家 「ガイ・デンジャラス」 をアンロックする。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467042222080
+    m_Localized: スマートな逃亡のプロ 「スカーレット・フォックス」 をアンロックする。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467042222081
+    m_Localized: 骨太な警官 「バリー・ボーンズ」 をアンロックする。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467046416384
+    m_Localized: 極東最速の脚を持つ 「カルマ・リー」 をアンロックする。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467050610688
+    m_Localized: 史上2番目に偉大な探検家 「モンタナ・スミス」 をアンロックする。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467050610689
+    m_Localized: 征服者 「フランシスコ・モントーヤ」 をアンロックする。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467054804992
+    m_Localized: アメフトのスター選手 「ザック・ワンダー」 をアンロックする。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467058999296
+    m_Localized: ガイ・デンジャラス：典型的な探検家 。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467058999297
+    m_Localized: スカーレット・フォックス：スマートな逃亡のプロ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467063193600
+    m_Localized: バリー・ボーンズ：骨太な警官 。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467067387904
+    m_Localized: カルマ・リー：極東最速の脚を持つ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467067387905
+    m_Localized: モンタナ・スミス：史上2番目に偉大な探検家。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467071582208
+    m_Localized: フランシスコ・モントーヤ：征服者。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467075776512
+    m_Localized: アメフトのスター 「ザック・ワンダー」。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467075776513
+    m_Localized: コインが足りません
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467079970816
+    m_Localized: 走行中にコインを集めてここで使おう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467084165120
+    m_Localized: リクエストに失敗しました
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467084165121
+    m_Localized: リクエストを実行できません。後でもう一度お試しください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467088359424
+    m_Localized: ハイスコア！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467092553728
+    m_Localized: スワイプで曲がる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467092553729
+    m_Localized: スワイプで曲がる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467096748032
+    m_Localized: スワイプして曲がる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467100942336
+    m_Localized: スワイプでジャンプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467100942337
+    m_Localized: スワイプでスライディング
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467105136640
+    m_Localized: 傾けてコイン収集
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467105136641
+    m_Localized: 傾けてコイン収集
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467113525248
+    m_Localized: 傾けてコイン収集
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467113525249
+    m_Localized: スワイプして曲がる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467117719552
+    m_Localized: スワイプして曲がる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467121913856
+    m_Localized: スワイプして曲がる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467121913857
+    m_Localized: 上にスワイプしてジャンプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467126108160
+    m_Localized: 下にスワイプしてスライディング
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467130302464
+    m_Localized: スワイプでコイン収集
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467130302465
+    m_Localized: スワイプでコイン収集
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467134496768
+    m_Localized: スワイプしてコイン収集
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467138691072
+    m_Localized: 左方向キー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467138691073
+    m_Localized: 右方向キー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467142885376
+    m_Localized: 左/右方向キーで曲がる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467142885377
+    m_Localized: 上ボタンでジャンプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467147079680
+    m_Localized: 下ボタンでスライディング
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467151273984
+    m_Localized: 左ボタンでコイン収集
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467155468288
+    m_Localized: 右ボタンでコイン収集
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467155468289
+    m_Localized: 左/右でコイン収集
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467159662592
+    m_Localized: 左矢印キーで曲がる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467163856896
+    m_Localized: 右矢印キーで曲がる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467163856897
+    m_Localized: 左/右キーで曲がる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467168051200
+    m_Localized: 上ボタンでジャンプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467172245504
+    m_Localized: 下ボタンでスライディング
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467172245505
+    m_Localized: 左ボタンでコイン収集
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467176439808
+    m_Localized: 右ボタンでコイン収集
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467180634112
+    m_Localized: 左/右でコイン収集
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467180634113
+    m_Localized: メーターをいっぱいにしてボーナスポイント獲得！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467184828416
+    m_Localized: ナイスジョブ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467189022720
+    m_Localized: これで準備万端！グッドラック！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467189022721
+    m_Localized: コントローラーが接続されました
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467193217024
+    m_Localized: コントローラーが切断されました
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467197411328
+    m_Localized: 一時停止してアイテムを有効にする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467197411329
+    m_Localized: 操作
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467201605632
+    m_Localized: タッチ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467205799936
+    m_Localized: Siri Remote
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467205799937
+    m_Localized: リモコン（第2世代）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467209994240
+    m_Localized: ゲームパッド/コントローラー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467209994241
+    m_Localized: キーボード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467214188544
+    m_Localized: 左に曲がる：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467218382848
+    m_Localized: 右に曲がる：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467218382849
+    m_Localized: 左に移動してコイン収集：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467222577152
+    m_Localized: 右に移動してコイン収集：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467226771456
+    m_Localized: ジャンプ：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467226771457
+    m_Localized: スライディング：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467230965760
+    m_Localized: 一時停止メニュー：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467235160064
+    m_Localized: ゲーム内アイテム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467235160065
+    m_Localized: 復活の翼（30秒）：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467239354368
+    m_Localized: ゲーム開始時のアイテム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467243548672
+    m_Localized: スタートダッシュ：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467243548673
+    m_Localized: メガスタートダッシュ：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467247742976
+    m_Localized: 永遠の翼：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467251937280
+    m_Localized: 左にスワイプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467251937281
+    m_Localized: 右にスワイプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467256131584
+    m_Localized: 上にスワイプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467260325888
+    m_Localized: 下にスワイプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467264520192
+    m_Localized: 左に傾ける
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467264520193
+    m_Localized: 右に傾ける
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467268714496
+    m_Localized: 一時停止アイコンをタッチ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467272908800
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467272908801
+    m_Localized: ゲーム中に画面をダブルタップするか、
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467277103104
+    m_Localized: 一時停止して、メニューから「復活の翼」を選択してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467281297408
+    m_Localized: カウントダウン開始後に一時停止して、
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467281297409
+    m_Localized: メニューから「スタートダッシュ」を選択してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467285491712
+    m_Localized: カウントダウン開始後に一時停止して、
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467289686016
+    m_Localized: メニューから「メガスタートダッシュ」を選択してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467289686017
+    m_Localized: カウントダウン開始後に一時停止して、
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467293880320
+    m_Localized: メニューから「永遠の翼」を選択してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467298074624
+    m_Localized: 左にスワイプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467298074625
+    m_Localized: 右にスワイプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467302268928
+    m_Localized: 上にスワイプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467302268929
+    m_Localized: 下にスワイプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467306463232
+    m_Localized: 左にスワイプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467310657536
+    m_Localized: 右にスワイプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467310657537
+    m_Localized: 一時停止ボタン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467314851840
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467319046144
+    m_Localized: 中央のボタンを長押しするか、
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467323240448
+    m_Localized: 一時停止して、メニューから「復活の翼」を選択してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467323240449
+    m_Localized: カウントダウン開始後に一時停止して、
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467327434752
+    m_Localized: メニューから「スタートダッシュ」を選択してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467331629056
+    m_Localized: カウントダウン開始後に一時停止して、
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467331629057
+    m_Localized: メニューから「メガスタートダッシュ」を選択してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467335823360
+    m_Localized: カウントダウン開始後に一時停止して、
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467335823361
+    m_Localized: メニューから「永遠の翼」を選択してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467340017664
+    m_Localized: 左方向キー/左スティック/L1 (左ボタン)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467344211968
+    m_Localized: 右方向キー/右スティック/R1 (右ボタン)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467344211969
+    m_Localized: 上方向キー/上スティックまたはA/×
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467348406272
+    m_Localized: 下方向キー/下スティックまたはX/□
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467352600576
+    m_Localized: 左方向キー/左スティック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467352600577
+    m_Localized: 右方向キー/右スティック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467356794880
+    m_Localized: スタート/メニュー/オプションボタン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467360989184
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467360989185
+    m_Localized: Y/△、または一時停止して、
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467365183488
+    m_Localized: メニューから「復活の翼」を選択してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467365183489
+    m_Localized: カウントダウン開始後に一時停止して、
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467369377792
+    m_Localized: メニューから「スタートダッシュ」を選択してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467373572096
+    m_Localized: カウントダウン開始後に一時停止して、
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467373572097
+    m_Localized: メニューから「メガスタートダッシュ」を選択してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467377766400
+    m_Localized: カウントダウン開始後に一時停止して、
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467381960704
+    m_Localized: メニューから「永遠の翼」を選択してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467381960705
+    m_Localized: '[←]または[A]キー'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467386155008
+    m_Localized: '[→]または[D]キー'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467390349312
+    m_Localized: '[↑]または[W]キー'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467390349313
+    m_Localized: '[↓]または[S]キー'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467394543616
+    m_Localized: '[←]または[A]キー'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467394543617
+    m_Localized: '[→]または[D]キー'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467398737920
+    m_Localized: '[ESC]キー'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467402932224
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467407126528
+    m_Localized: '[R]キー、または一時停止して、'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467407126529
+    m_Localized: メニューから「復活の翼」を選択してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467411320832
+    m_Localized: カウントダウン開始後に一時停止して、
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467415515136
+    m_Localized: メニューから「スタートダッシュ」を選択してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467415515137
+    m_Localized: カウントダウン開始後に一時停止して、
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467419709440
+    m_Localized: メニューから「メガスタートダッシュ」を選択してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467423903744
+    m_Localized: カウントダウン開始後に一時停止して、
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467423903745
+    m_Localized: メニューから「永遠の翼」を選択してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467428098048
+    m_Localized: 目標
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467428098049
+    m_Localized: 参加トロフィー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467432292352
+    m_Localized: ウィークリーチャレンジを1回プレイする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467436486656
+    m_Localized: ウィークリーチャレンジを1回プレイした
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467436486657
+    m_Localized: 期待の新人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467440680960
+    m_Localized: ウィークリーチャレンジを5回プレイする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467444875264
+    m_Localized: ウィークリーチャレンジを5回プレイした
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467444875265
+    m_Localized: オールスター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467449069568
+    m_Localized: ウィークリーチャレンジを10回プレイする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467453263872
+    m_Localized: ウィークリーチャレンジを10回プレイした
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467453263873
+    m_Localized: 努力家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467457458176
+    m_Localized: 1つのウィークリーチャレンジで「レジェンド」ティアを達成する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467457458177
+    m_Localized: 1つのウィークリーチャレンジで「レジェンド」ティアを達成した
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467461652480
+    m_Localized: '走り屋 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467465846784
+    m_Localized: 2つのウィークリーチャレンジで「レジェンド」ティアを達成する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467465846785
+    m_Localized: 2つのウィークリーチャレンジで「レジェンド」ティアを達成した
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467470041088
+    m_Localized: ワールドチャレンジャー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467474235392
+    m_Localized: 3つのウィークリーチャレンジで「レジェンド」ティアを達成する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467478429696
+    m_Localized: 3つのウィークリーチャレンジで「レジェンド」ティアを達成した
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467478429697
+    m_Localized: 有名人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467482624000
+    m_Localized: 4つのウィークリーチャレンジで「レジェンド」ティアを達成する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467486818304
+    m_Localized: 4つのウィークリーチャレンジで「レジェンド」ティアを達成した
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467486818305
+    m_Localized: '完走マニア   '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467491012608
+    m_Localized: 5つのウィークリーチャレンジで「レジェンド」ティアを達成する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467499401216
+    m_Localized: 5つのウィークリーチャレンジで「レジェンド」ティアを達成した
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467503595520
+    m_Localized: 継続は力なり！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467507789824
+    m_Localized: シングルランで「復活」を1度使用する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467507789825
+    m_Localized: シングルランで「復活」を1度使用した
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467511984128
+    m_Localized: まだまだ進め！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467516178432
+    m_Localized: シングルランで「復活」を2度使用する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467516178433
+    m_Localized: シングルランで「復活」を2度使用した
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467520372736
+    m_Localized: ゴール目前！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467524567040
+    m_Localized: シングルランで「復活」を3度使用する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467524567041
+    m_Localized: シングルランで「復活」を3度使用した
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467528761344
+    m_Localized: ブーム到来
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467532955648
+    m_Localized: ランキングでトップ10に食い込む
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467532955649
+    m_Localized: ランキングでトップ10に食い込んだ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467537149952
+    m_Localized: 世界最速
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467541344256
+    m_Localized: ランキングでトップ5に食い込む
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467541344257
+    m_Localized: ランキングでトップ5に食い込んだ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467545538560
+    m_Localized: 初級ランナー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467549732864
+    m_Localized: 500ｍ走る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467549732865
+    m_Localized: 500ｍ走った
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467553927168
+    m_Localized: 小銭集め
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467553927169
+    m_Localized: コインを100枚集める
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467558121472
+    m_Localized: コインを100枚集めた
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467562315776
+    m_Localized: 冒険家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467562315777
+    m_Localized: 25,000ポイント稼ぐ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467566510080
+    m_Localized: 25,000ポイント稼いだ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467570704384
+    m_Localized: 短距離ランナー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467570704385
+    m_Localized: 1,000ｍ走る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467574898688
+    m_Localized: 1,000ｍ走った
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467579092992
+    m_Localized: 貧乏ランナー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467583287296
+    m_Localized: コインを獲得せずに500ｍ走る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467583287297
+    m_Localized: コインを獲得せずに500ｍ走る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467587481600
+    m_Localized: 貯金箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467591675904
+    m_Localized: コインを250枚集める
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467591675905
+    m_Localized: コインを250枚集めた
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467595870208
+    m_Localized: トレジャーハンター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467600064512
+    m_Localized: 50,000ポイント稼ぐ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467600064513
+    m_Localized: 50,000ポイント稼いだ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467604258816
+    m_Localized: メガボーナス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467604258817
+    m_Localized: ボーナスメーターを4回満たす
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467608453120
+    m_Localized: ボーナスメーターを4回満たした
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467612647424
+    m_Localized: アスリート
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467612647425
+    m_Localized: 2,500ｍ走る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467616841728
+    m_Localized: 2,500ｍ走る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467621036032
+    m_Localized: 一括払い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467621036033
+    m_Localized: コインを500枚集める
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467625230336
+    m_Localized: コインを500枚集めた
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467629424640
+    m_Localized: 復活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467629424641
+    m_Localized: 1回のゲームで「復活の翼」アイテムを使用する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467633618944
+    m_Localized: 1回のゲームで「復活の翼」アイテムを使用した。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467637813248
+    m_Localized: 基礎体力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467642007552
+    m_Localized: パワーアップをすべてレベル1にする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467642007553
+    m_Localized: パワーアップをすべてレベル1にした
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467646201856
+    m_Localized: 大富豪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467646201857
+    m_Localized: 100,000ポイント稼ぐ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467650396160
+    m_Localized: 100,000ポイント稼いだ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467654590464
+    m_Localized: 給料日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467654590465
+    m_Localized: コインを750枚集める
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467658784768
+    m_Localized: コインを750枚集めた
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467662979072
+    m_Localized: スタートダッシュ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467662979073
+    m_Localized: スタートダッシュを使う
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467667173376
+    m_Localized: スタートダッシュを使った
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467671367680
+    m_Localized: 確かな足取り
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467671367681
+    m_Localized: 転ばずに2,500m走る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467675561984
+    m_Localized: 転ばずに2,500m走った
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467679756288
+    m_Localized: 金属アレルギー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467683950592
+    m_Localized: コインを獲得せずに1,000ｍ走る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467683950593
+    m_Localized: コインを獲得せずに1,000ｍ走る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467688144896
+    m_Localized: 五千ランナー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467692339200
+    m_Localized: 5,000ｍ走る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467692339201
+    m_Localized: 5,000ｍ走った
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467696533504
+    m_Localized: 転倒知らず
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467700727808
+    m_Localized: 転ばずに5,000ｍ走る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467700727809
+    m_Localized: 転ばずに5,000ｍ走った
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467704922112
+    m_Localized: 25万クラブ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467709116416
+    m_Localized: 250,000ポイント稼ぐ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467709116417
+    m_Localized: 250,000ポイント稼いだ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467713310720
+    m_Localized: ダブル復活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467717505024
+    m_Localized: 1回のランで「復活の翼」を2度使用する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467717505025
+    m_Localized: 1回のランで「復活の翼」を2度使用済み。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467721699328
+    m_Localized: 金持ち
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467721699329
+    m_Localized: コインを1,000枚集める
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467725893632
+    m_Localized: コインを1,000枚集めた
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467730087936
+    m_Localized: 50万クラブ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467730087937
+    m_Localized: 500,000ポイント稼ぐ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467734282240
+    m_Localized: 500,000ポイント稼いだ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467738476544
+    m_Localized: スーパーパワー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467738476545
+    m_Localized: パワーアップをすべてレベル5にする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467742670848
+    m_Localized: パワーアップをすべてレベル5にする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467746865152
+    m_Localized: ダイナミックデュオ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467751059456
+    m_Localized: キャラクターを2人アンロックする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467751059457
+    m_Localized: キャラクターを2人アンロック済み
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467755253760
+    m_Localized: ミリオンクラブ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467759448064
+    m_Localized: 1,000,000ポイント稼ぐ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467759448065
+    m_Localized: 1,000,000ポイント稼いだ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467763642368
+    m_Localized: 大金持ち
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467763642369
+    m_Localized: コインを2,500枚集める
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467767836672
+    m_Localized: コインを2,500枚集めた
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467772030976
+    m_Localized: ファンタスティックフォー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467772030977
+    m_Localized: キャラクターを4人アンロックする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467776225280
+    m_Localized: キャラクターを4人アンロックした
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467780419584
+    m_Localized: セクシーシックス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467784613888
+    m_Localized: キャラクターを6人アンロックする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467784613889
+    m_Localized: キャラクターを6人アンロックした
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467788808192
+    m_Localized: 1万ランナー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467793002496
+    m_Localized: 10,000ｍ走る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467793002497
+    m_Localized: 10,000ｍ走った
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467797196800
+    m_Localized: 超大金持ち
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467797196801
+    m_Localized: コインを5,000枚集める
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467801391104
+    m_Localized: コインを5,000枚集めた
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467805585408
+    m_Localized: 250万クラブ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467805585409
+    m_Localized: 2,500,000ポイント稼ぐ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467809779712
+    m_Localized: 2,500,000ポイント稼いだ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467813974016
+    m_Localized: 500万クラブ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467818168320
+    m_Localized: 5,000,000ポイント稼ぐ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467818168321
+    m_Localized: 5,000,000ポイント稼いだ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467822362624
+    m_Localized: スパルタランナー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467826556928
+    m_Localized: パワーアップなしで100万ポイント稼ぐ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467826556929
+    m_Localized: パワーアップなしで100万ポイント稼ぐ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467830751232
+    m_Localized: 1千万クラブ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467834945536
+    m_Localized: 10,000,000ポイント稼ぐ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467834945537
+    m_Localized: 10,000,000ポイント稼いだ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467839139840
+    m_Localized: テンプルランナー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467843334144
+    m_Localized: 1,000回以上プレイする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467843334145
+    m_Localized: 1,000回以上プレイ済み
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467847528448
+    m_Localized: 賞金稼ぎ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467851722752
+    m_Localized: コインを通算100,000枚集める
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467851722753
+    m_Localized: コインを通算100,000枚集めた
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467855917056
+    m_Localized: マラソンランナー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467860111360
+    m_Localized: メーターを通算100,000回満たす
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467860111361
+    m_Localized: メーターを通算100,000回満たした
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467864305664
+    m_Localized: テンプルランナーのプロ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467864305665
+    m_Localized: 5,000回以上プレイする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467868499968
+    m_Localized: 5,000回以上プレイ済み
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467872694272
+    m_Localized: 賞金王
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467876888576
+    m_Localized: コインを通算500,000枚集める
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467881082880
+    m_Localized: コインを通算500,000枚集めた
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467881082881
+    m_Localized: 世界一周
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467885277184
+    m_Localized: メーターを通算1,000,000回満たす
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467885277185
+    m_Localized: メーターを通算1,000,000回満たした
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467889471488
+    m_Localized: マグネットマニア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467893665792
+    m_Localized: 1ランでマグネット5個
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467893665793
+    m_Localized: 1ランでマグネット5個
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467897860096
+    m_Localized: コインジャンパー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467902054400
+    m_Localized: 1ランでコイン5枚分のパワーアップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467902054401
+    m_Localized: 1ランでコイン5枚分のパワーアップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467906248704
+    m_Localized: 透明人間
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467906248705
+    m_Localized: 1ランで透明化5回
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467910443008
+    m_Localized: 1ランで透明化5回
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467914637312
+    m_Localized: ブースターショット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467914637313
+    m_Localized: 1ランでブースト5個
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467918831616
+    m_Localized: 1ランでブースト5個
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467923025920
+    m_Localized: 磁石人間
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467923025921
+    m_Localized: 1ランでマグネット10個
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467927220224
+    m_Localized: 1ランでマグネット10個
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467931414528
+    m_Localized: 金塊堀り当て
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467931414529
+    m_Localized: 1ランでコイン10枚分のパワーアップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467935608832
+    m_Localized: 1ランでコイン10枚分のパワーアップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467939803136
+    m_Localized: 鉄壁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467939803137
+    m_Localized: 1ランで透明化10回
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467943997440
+    m_Localized: 1ランで透明化10回
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467943997441
+    m_Localized: スピード狂
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467948191744
+    m_Localized: 1ランでブースト10個
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467952386048
+    m_Localized: 1ランでブースト10個
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467952386049
+    m_Localized: アトラクター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467956580352
+    m_Localized: 1ランでマグネット20個
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467960774656
+    m_Localized: 1ランでマグネット20個
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467960774657
+    m_Localized: 黄金の神
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467964968960
+    m_Localized: 1ランでコイン20枚分のパワーアップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467969163264
+    m_Localized: 1ランでコイン20枚分のパワーアップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467969163265
+    m_Localized: 無敵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467973357568
+    m_Localized: 1ランで透明化20回
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467973357569
+    m_Localized: 1ランで透明化20回
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467977551872
+    m_Localized: ロケット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467981746176
+    m_Localized: 1ランでブースト20個
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467985940480
+    m_Localized: 1ランでブースト20個
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467985940481
+    m_Localized: メガランナー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467990134784
+    m_Localized: 10,000回以上プレイする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467994329088
+    m_Localized: 10,000回以上プレイ済み
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467994329089
+    m_Localized: 黄金の指先
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467998523392
+    m_Localized: コインを通算1,000,000枚集める
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467998523393
+    m_Localized: コインを通算1,000,000枚集める
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468002717696
+    m_Localized: 無限ランナー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468006912000
+    m_Localized: メーターを通算10,000,000回満たす
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468006912001
+    m_Localized: メーターを通算10,000,000回満たす
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468011106304
+    m_Localized: 再挑戦
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468015300608
+    m_Localized: アップグレード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468019494912
+    m_Localized: 最高スコア達成！！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468019494913
+    m_Localized: なんて神秘的！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468023689216
+    m_Localized: 古くから伝わる踊りみたい。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468027883520
+    m_Localized: 落下して死亡しました。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468027883521
+    m_Localized: あーれー！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468032077824
+    m_Localized: 落下して死亡しました。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468036272128
+    m_Localized: 実は高所恐怖症！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468036272129
+    m_Localized: 旅の終わりはあっけない...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468040466432
+    m_Localized: すき間に注意。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468044660736
+    m_Localized: なんて派手な落ち方。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468044660737
+    m_Localized: またひっかかった！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468048855040
+    m_Localized: そろそろ舗装してもらわないと！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468053049344
+    m_Localized: 空の飛び方を習っておくんだった！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468053049345
+    m_Localized: バイバイ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468057243648
+    m_Localized: ヘルメットを付けててよかった！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468061437952
+    m_Localized: おいしいおやつに早変わり。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468061437953
+    m_Localized: エサの時間だ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468065632256
+    m_Localized: お魚と泳ごう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468065632257
+    m_Localized: ヘビ？ヘビは苦手！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468069826560
+    m_Localized: ブクブクブク...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468074020864
+    m_Localized: あれ？どこいった？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468074020865
+    m_Localized: 怪物を檻から出した犯人は誰だ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468078215168
+    m_Localized: おしい！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468082409472
+    m_Localized: 誰かに見られてる？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468082409473
+    m_Localized: スターがやられた！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468086603776
+    m_Localized: 木が大好き！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468090798080
+    m_Localized: 木が痛そうにしてる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468090798081
+    m_Localized: お邪魔します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468094992384
+    m_Localized: アリ...もうなんでもアリ？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468099186688
+    m_Localized: 木にも良い印象を与えたくて。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468099186689
+    m_Localized: ここに置いておくとしよう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468103380992
+    m_Localized: 誰だ！こんな所に木を置いたのは！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468107575296
+    m_Localized: 地球に痕跡を刻む
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468107575297
+    m_Localized: 帽子が無事なら問題なし。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468111769600
+    m_Localized: ちょっと休憩しよう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468111769601
+    m_Localized: 2人はラブラブ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468115963904
+    m_Localized: 仲間にいれてもらえる？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468120158208
+    m_Localized: あんなものがあそこにあるとは...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468120158209
+    m_Localized: 木がかわいそう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468124352512
+    m_Localized: 帽子は渡さない！！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468128546816
+    m_Localized: トレードマークの帽子が！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468132741120
+    m_Localized: なんだって見かけより難しい...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468132741121
+    m_Localized: 石頭で助かった！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468136935424
+    m_Localized: ヘルメット被ってたのに...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468141129728
+    m_Localized: 頭無しじゃ走れっこない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468141129729
+    m_Localized: かがんで避けよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468145324032
+    m_Localized: 靴下脱げちゃった！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468149518336
+    m_Localized: ハマって出られない...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468149518337
+    m_Localized: 足もお手入れしておくんだった！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468153712640
+    m_Localized: キレイな靴下を履いてくるんだった！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468157906944
+    m_Localized: リンボーダンスから出直しだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468157906945
+    m_Localized: 足元には気をつけないと...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468162101248
+    m_Localized: テンプルは濡れると滑りやすくなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468166295552
+    m_Localized: 冒険家は食感が最高。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468166295553
+    m_Localized: トーストみたいなニオイ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468170489856
+    m_Localized: 髪型がなかなか決まらないって？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468174684160
+    m_Localized: クリーニングに入れたばっかりなのに！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468174684161
+    m_Localized: 注：そのアーマーは火に弱い。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468178878464
+    m_Localized: おいしいおやつに早変わり。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468178878465
+    m_Localized: 冒険家は朝ごはんにぴったり。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468183072768
+    m_Localized: むしゃむしゃ...美味！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468187267072
+    m_Localized: ゴール手前でタックルを決められた！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468187267073
+    m_Localized: このエサは頭に殻があるぞ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468191461376
+    m_Localized: タックルを決められた！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468195655680
+    m_Localized: からまっちゃった...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468195655681
+    m_Localized: 捕まえた！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468199849984
+    m_Localized: 靴ひもはちゃんと結んでおかないと。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468199849985
+    m_Localized: 嫌な予感しかしない...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468204044288
+    m_Localized: ライターを持ってくればよかった...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468208238592
+    m_Localized: こんな引退になるとは...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468208238593
+    m_Localized: このガイコツは誰の骨だろう...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468212432896
+    m_Localized: 不潔！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468216627200
+    m_Localized: 叔父さんの幻が見えた！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468220821504
+    m_Localized: ウィークリー\nチャレンジ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468220821505
+    m_Localized: ランキング
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468225015808
+    m_Localized: ウィークリーチャレンジの進行状況
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468229210112
+    m_Localized: 達成ティア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468229210113
+    m_Localized: シーズン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468233404416
+    m_Localized: 次のチャレンジ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468233404417
+    m_Localized: テンプルランはいかがですか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468237598720
+    m_Localized: ご意見をお聞かせください！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468241793024
+    m_Localized: 次へ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468241793025
+    m_Localized: 完了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468245987328
+    m_Localized: セーブスロット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468250181632
+    m_Localized: ウィークリーチャレンジの進行状況、アップグレード、成績をセーブするスロットを選択してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468250181633
+    m_Localized: '[{0}]（現在のスロット）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468254375936
+    m_Localized: '[{0}]（新規）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468258570240
+    m_Localized: '[{0}]（選択してロード）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468262764544
+    m_Localized: 通算距離：{0}m
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468262764545
+    m_Localized: 通算獲得コイン：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468266958848
+    m_Localized: 最終セーブ日時：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468271153152
+    m_Localized: '[{0}]のウィークリーチャレンジの進行状況、アップグレード、成績を永久に削除しますか？'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468271153153
+    m_Localized: 削除
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468275347456
+    m_Localized: キャンセル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468275347457
+    m_Localized: スロットを削除しますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468279541760
+    m_Localized: 残り時間：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468283736064
+    m_Localized: 距離チャレンジ（シングル）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468287930368
+    m_Localized: 距離チャレンジ（複数回）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468287930369
+    m_Localized: スコアチャレンジ（シングル）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468292124672
+    m_Localized: スコアチャレンジ（複数回）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468296318976
+    m_Localized: コインチャレンジ（シングル）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468296318977
+    m_Localized: コインチャレンジ（複数回）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468300513280
+    m_Localized: パワーアップチャレンジ（シングル）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468304707584
+    m_Localized: シングルランで指定の距離に到達できればチャレンジクリアです！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468304707585
+    m_Localized: 複数回のランで指定の距離に到達できればチャレンジクリアです！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468308901888
+    m_Localized: 'シングルランで指定のスコアに到達できればチャレンジクリアです！ '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468313096192
+    m_Localized: 複数回のランで指定のスコアに到達できればチャレンジクリアです！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468313096193
+    m_Localized: 'シングルランで指定数のコインを収集できればチャレンジクリアです！ '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468317290496
+    m_Localized: '複数回のランで指定数のコインを収集できればチャレンジクリアです！ '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468321484800
+    m_Localized: 'シングルランで指定数のパワーアップを収集できればチャレンジクリアです！ '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468321484801
+    m_Localized: 新米
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468334067712
+    m_Localized: アマチュア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468342456320
+    m_Localized: 見習い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468346650624
+    m_Localized: リーダー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468350844928
+    m_Localized: 師範
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468355039232
+    m_Localized: レジェンド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468355039233
+    m_Localized: チャレンジは終了しました。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468359233536
+    m_Localized: 新しいウィークリーチャレンジ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468359233537
+    m_Localized: 「{0}」ティアをクリア！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468363427840
+    m_Localized: 獲得した報酬はインベントリに追加されます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468367622144
+    m_Localized: インベントリには何もありません。ランでコインを集めて、メインメニューの「アップグレード」画面で購入してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468371816448
+    m_Localized: チュートリアルでは使えません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468376010752
+    m_Localized: カウントダウン/イントロ中は使えません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468380205056
+    m_Localized: 「永遠の翼」、「スタートダッシュ」、「メガスタートダッシュ」は、1回のランで1つしか使えません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468384399360
+    m_Localized: このアイテムは、ラン開始時の{0}～{1}mでしか効果を発揮しません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468384399361
+    m_Localized: 「復活の翼」は再チャージ中です。チャージされるまであと{0}秒です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468388593664
+    m_Localized: 「復活の翼」または「永遠の翼」の効果が有効です。効果が切れてから、再び有効にできます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468392787968
+    m_Localized: 復活の翼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468396982272
+    m_Localized: 永遠の翼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468396982273
+    m_Localized: スタートダッシュ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468401176576
+    m_Localized: メガスタートダッシュ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468405370880
+    m_Localized: このアイテムは使用できません
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468409565184
+    m_Localized: デバイスがオフラインのため、既存のクラウドセーブを使用することはできません。ゲームの進行状況は保存されない場合があります。iCloudセーブの場合、iCloudが有効になっており、サインインしていることを確認してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468413759488
+    m_Localized: 既存のクラウドセーブを使用することはできません。ゲームの進行状況はすべてローカルに保存されます。iCloudセーブの場合、iCloudが有効になっており、サインインしていることを確認してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468417953792
+    m_Localized: クラウドセーブは使用できません
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468426342400
+    m_Localized: ティアをクリア！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468426342401
+    m_Localized: ティア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468430536704
+    m_Localized: 報酬
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468430536705
+    m_Localized: 次のチャレンジまで：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468434731008
+    m_Localized: 進行状況：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468438925312
+    m_Localized: 距離
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468438925313
+    m_Localized: コイン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468443119616
+    m_Localized: スコア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468447313920
+    m_Localized: パワーアップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468447313921
+    m_Localized: 続けるにはコントローラーかリモコンが必要です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468451508224
+    m_Localized: ウィークリーハイスコア（毎週月曜日の正午（協定世界時）にリセット）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468455702528
+    m_Localized: 基本倍率：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468455702529
+    m_Localized: 達成した目標：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468459896832
+    m_Localized: 現在の倍率：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468459896833
+    m_Localized: ブースト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468464091136
+    m_Localized: 次の復活まであと<color=#F6D600>{0}秒</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468468285440
+    m_Localized: コイン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468468285441
+    m_Localized: 復活の\n翼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468472479744
+    m_Localized: 永遠の\n翼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468476674048
+    m_Localized: スタート\nダッシュ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468476674049
+    m_Localized: メガ\nスタート
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468480868352
+    m_Localized: 復活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468480868353
+    m_Localized: クイック\nチャージ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468485062656
+    m_Localized: '{3}日{2}時間{1}分{0}秒'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468489256960
+    m_Localized: '{2}日{1}時間{0}分'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468489256961
+    m_Localized: '{1}時間{0}分'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468493451264
+    m_Localized: '{0}分'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468497645568
+    m_Localized: '{1}分{0}秒'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468497645569
+    m_Localized: '{0}秒'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468501839872
+    m_Localized: 復活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468501839873
+    m_Localized: 「復活」を1つ追加する。使用すると死亡後も復活して走り続けることができる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468506034176
+    m_Localized: 復活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468510228480
+    m_Localized: インベントリに「復活」が１つ追加されました。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468510228481
+    m_Localized: 「次の復活までの時間」を瞬時に5分減らす。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468514422784
+    m_Localized: スーパークイックチャージ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468518617088
+    m_Localized: 「次の復活までの時間」が5分短縮。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468518617089
+    m_Localized: 使用不可
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468522811392
+    m_Localized: 「復活」を{0}個以上所有している場合、「スーパークイックチャージ」は使用不可。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468527005696
+    m_Localized: 該当なし
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468527005697
+    m_Localized: ネットワーク接続がありません
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468531200000
+    m_Localized: 新たな挑戦
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468535394304
+    m_Localized: ウィークリーチャレンジ（シングル）に1回参加する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468539588608
+    m_Localized: ウィークリーチャレンジ（シングル）に1回参加した
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468539588609
+    m_Localized: 更なる挑戦
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468543782912
+    m_Localized: ウィークリーチャレンジ（合計）に1回参加する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468547977216
+    m_Localized: ウィークリーチャレンジ（合計）に1回参加した
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468547977217
+    m_Localized: クイックチャージ：{0}ごと
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468552171520
+    m_Localized: '{1}にリセットされるまで{0}分'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468552171521
+    m_Localized: 操作ヘルプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468556365824
+    m_Localized: 報酬ヘルプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468560560128
+    m_Localized: スコア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468560560129
+    m_Localized: コイン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468564754432
+    m_Localized: インベントリにコインが追加されます。「アップグレード」画面で使いましょう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468568948736
+    m_Localized: 復活の翼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468573143040
+    m_Localized: 走行中にいつでも有効にすることができ、30秒死亡しなくなる。装着中に死亡した場合、自動で復活する。有効化の方法は「オプション」 ＞ 「操作ヘルプ」を参照してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468573143041
+    m_Localized: 永遠の翼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468577337344
+    m_Localized: この特別な翼を装着していると、走行中の最初の死亡時に瞬時に復活することができる。最初の100メートルまでの間に一時停止メニューから有効にしてください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468581531648
+    m_Localized: スタートダッシュ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468581531649
+    m_Localized: 走行開始時に瞬時に1000メートル先まで無敵で進むことができる。最初の100メートルまでの間に一時停止メニューから有効にしてください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468585725952
+    m_Localized: メガスタートダッシュ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468585725953
+    m_Localized: 走行開始時に瞬時に2500メートル先まで無敵で進むことができる。最初の100メートルまでの間に一時停止メニューから有効にしてください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468589920256
+    m_Localized: 復活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468594114560
+    m_Localized: インベントリに「復活」が１つ追加される。「復活」はストックして連続使用することで、長時間ランキングで有利な走りができる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468594114561
+    m_Localized: クイックチャージ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468598308864
+    m_Localized: 報酬の下に表示されている時間だけ、半永久的に「復活」の再チャージ時間を短縮できる。これらを集めることで最大3つまで「復活」をすばやくチャージでき、長時間走ることが可能になる。クイックチャージ報酬は4週間に1回失効する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468602503168
+    m_Localized: 報酬情報
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468602503169
+    m_Localized: 次のティアまで：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468606697472
+    m_Localized: 最終進行状況：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468610891776
+    m_Localized: このランの残りの復活数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468610891777
+    m_Localized: コインの価値がフルアップグレードされました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468615086080
+    m_Localized: '{0}時間'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468615086081
+    m_Localized: 20回連続で木に顔面から突っ込むことほど"d決意"を語るものはない。🏆チャンピオンになれ 🏆 - ガイ・デンジャラス、プロのライフコーチ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468619280384
+    m_Localized: ちょっと走ってみようか？木に頭突き食らわせてから、⌛時間⌛が経ったから。- ガイ・デンジャラス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468623474688
+    m_Localized: 呪いの金塊を手に入れろ！(✨ この季節ならでは。✨)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468623474689
+    m_Localized: ガンジーの言葉"「世の中を変えたければ、自分がその変化になりなさい。」"俺の言葉\u「d83d\udcb0を変えたければ、💰。それはまさにそこにある。」- ガイ・デンジャラス、世界的に尊敬される哲学者。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468627668992
+    m_Localized: 🔔誰が為に鐘は鳴ると問うべきじゃない。その鐘がどれほどの価値があるのか、それを手に入れたら何が追いかけてくるのかを問え！🏃 💰 - ガイ・デンジャラス（プロの経済学者）。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468631863296
+    m_Localized: ⌛ 人生は短い⌛ ...呪われた金塊をポケットに詰め込んで、誤って崖から疾走しちゃえ。- ガイ・デンジャラス、ノーベル賞受賞者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468631863297
+    m_Localized: 💪あの金の偶像に誰がボスが知らしめよう！(または、何度か木に突っ込んでみる) - ガイ・デンジャラス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468636057600
+    m_Localized: 最後に時速72kmで木に激突したのはいつだっけ？それを変えよう。🌳 💥
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468640251904
+    m_Localized: 😈 🐒 つれないぜ🐒 😈 エサになりにやって来い - デーモンモンキーより
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468640251905
+    m_Localized: 上ボタンでスピード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468644446208
+    m_Localized: チュートリアルを完了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468644446209
+    m_Localized: チュートリアルを完了済み
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468648640512
+    m_Localized: https://www.imangistudios.com/privacy/eng/JA/privacy-policy-plus.html
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468652834816
+    m_Localized: プライバシーポリシー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468657029120
+    m_Localized: パワーアップチャレンジ（複数回）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468657029121
+    m_Localized: '複数回のランで指定数のパワーアップを収集できればチャレンジクリアです！ '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468661223424
+    m_Localized: iCloudストレージが一杯なため、既存のクラウドセーブを使用することはできません。ゲームの進行状況は保存されない場合があります。iCloudセーブの場合、iCloudが有効になっており、サインインしていることを確認してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468665417728
+    m_Localized: iCloudストレージが一杯なため、ゲームの進行状況はすべてローカルに保存されます。iCloudセーブの場合、iCloudが有効になっており、サインインしていることを確認してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468665417729
+    m_Localized: クラウドストレージが一杯です
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468669612032
+    m_Localized: iPhone/iPad：\nBluetoothコントローラー/キーボードに対応
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468673806336
+    m_Localized: サモア最強の戦士、タマトアをアンロック！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468673806337
+    m_Localized: サモア最強の戦士、タマトア！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468678000640
+    m_Localized: 容赦ない海賊ハンター、シモーヌ・デイビスをアンロック！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468682194944
+    m_Localized: 容赦ない海賊ハンター、シモーヌ・デイビス！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468682194945
+    m_Localized: 木こりチャンピオン、シガー・フロストベアードをアンロック！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468686389248
+    m_Localized: 木こりチャンピオン、シガー・フロストベアード！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468686389249
+    m_Localized: 金メッキの男、「黄金」のガイ・デンジャラスをアンロック！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468690583552
+    m_Localized: ' 金メッキの男、「黄金」のガイ・デンジャラス！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468694777856
+    m_Localized: 好奇心旺盛な墜落した宇宙飛行士、セレーネ・セレステをアンロック！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468694777857
+    m_Localized: 好奇心旺盛な墜落した宇宙飛行士、セレーネ・セレステ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468698972160
+    m_Localized: ガイコツのモンタギュー卿をアンロック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468703166464
+    m_Localized: ガイコツのモンタギュー卿
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468703166465
+    m_Localized: 凍てつく荒野の支配者、アストリッド王女をアンロック！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468707360768
+    m_Localized: 凍てつく荒野の支配者、アストリッド王女！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468711555072
+    m_Localized: 北極の王、サンタをアンロック！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468711555073
+    m_Localized: 北極の王、サンタ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468715749376
+    m_Localized: ボリウッドのスーパースター、ニディ・ニルマルをアンロック！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468715749377
+    m_Localized: ボリウッドのスーパースター、ニディ・ニルマル！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468719943680
+    m_Localized: インド最高のスタントマン、ラヒィ・ラジャをアンロック！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468724137984
+    m_Localized: インド最高のスタントマン、ラヒィ・ラジャ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468724137985
+    m_Localized: ペルシャのやんちゃなハーバリスト、サラ・バニヤンをアンロック！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468728332288
+    m_Localized: ペルシャのやんちゃなハーバリスト、サラ・バニヤン！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468732526592
+    m_Localized: 才気あふれる狂科学者、ゼノビオス博士をアンロック！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468732526593
+    m_Localized: 才気あふれる狂科学者、ゼノビオス博士！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468736720896
+    m_Localized: タマトア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468740915200
+    m_Localized: シモーヌ\nデイビス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468740915201
+    m_Localized: シガー\nフロストベアード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468745109504
+    m_Localized: 黄金\nガイ\n
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468745109505
+    m_Localized: セレーネ\nセレステ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468749303808
+    m_Localized: エドガー\nツイゲンボトム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468753498112
+    m_Localized: アストリッド\n王女
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468753498113
+    m_Localized: サンタ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468757692416
+    m_Localized: ニディ\nニルマル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468761886720
+    m_Localized: ラヒィ\nラジャ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468761886721
+    m_Localized: サラ\nバニヤン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468766081024
+    m_Localized: ゼノビオス\n博士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496035999744
+    m_Localized: 読み込み中…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496400904192
+    m_Localized: コインを獲得しました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496409292800
+    m_Localized: 無料アプリをインストールして、コイン{0}枚を獲得しました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496409292801
+    m_Localized: 無料コイン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496413487104
+    m_Localized: 短い広告を視聴して、コイン{0}枚を手に入れますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496417681408
+    m_Localized: 視聴していただき、ありがとうございます！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496421875712
+    m_Localized: コイン{0}枚を進呈しました！12時間後に戻ってきて、新たな報酬を手に入れよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496421875713
+    m_Localized: 次の報酬まで[]m
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496426070016
+    m_Localized: 無料の復活の翼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496430264320
+    m_Localized: 短い広告を視聴して、永遠の翼を手に入れたい？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496430264321
+    m_Localized: 走っている時に復活の翼を使おう！12時間後に戻ってきて、新たな報酬を手に入れよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496434458624
+    m_Localized: ダブルアップ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496438652928
+    m_Localized: 短い広告を視聴して、倍のコインを獲得しよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496438652929
+    m_Localized: 獲得コインが二倍になりました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496442847232
+    m_Localized: 購入失敗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496447041536
+    m_Localized: iTunes Storeに接続できません
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496447041537
+    m_Localized: 動画を見る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496451235840
+    m_Localized: Temple Run\nをいいねしよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496455430144
+    m_Localized: 広告を有効にする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496459624448
+    m_Localized: 無料ゲームの広告
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496459624449
+    m_Localized: ゲームの最後に出てくる全画面広告を有効にして、コイン{0}枚を受け取りますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496463818752
+    m_Localized: いいえ、結構です
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496468013056
+    m_Localized: 広告を有効にして！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496468013057
+    m_Localized: Facebookでいいね
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496472207360
+    m_Localized: FacebookでTemple Runをいいねして、無料コイン{0}枚をゲット！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496476401664
+    m_Localized: X（旧Twitter）\nでフォロー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496480595968
+    m_Localized: X（旧Twitter）でTemple Runをフォローして、無料コイン{0}枚をゲット！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496484790272
+    m_Localized: オファーを利用できません
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496488984576
+    m_Localized: このオファーは現在利用できません。後でもう一度お試しください！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496488984577
+    m_Localized: アップグレードストア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496501567488
+    m_Localized: コインを手に入れました。これでキャラクターをストアでアップグレードできるようになりました。さらなるハイスコアを目指しましょう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496505761792
+    m_Localized: 今はいい
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496509956096
+    m_Localized: ストアを見る！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496514150400
+    m_Localized: 壁紙
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496514150401
+    m_Localized: ダウンロード中…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496518344704
+    m_Localized: 保存中…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496522539008
+    m_Localized: 壁紙を保存しました
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496522539009
+    m_Localized: 壁紙をイメージギャラリーに保存しました。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496526733312
+    m_Localized: ダウンロード失敗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496530927616
+    m_Localized: このアイテムをダウンロードできません。インターネット接続を確認して、もう一度お試しください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496530927617
+    m_Localized: テンプルウォールの壁紙をアンロック。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496535121920
+    m_Localized: テンプルウォールの壁紙をダウンロード。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496539316224
+    m_Localized: ガイ・デンジャラスの壁紙をアンロック。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496539316225
+    m_Localized: ガイ・デンジャラスの壁紙をダウンロード。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496543510528
+    m_Localized: 邪悪なる悪魔の猿の壁紙をアンロック。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496547704832
+    m_Localized: 邪悪なる悪魔の猿の壁紙をダウンロード。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496547704833
+    m_Localized: テンプルウォールの壁紙をアンロック。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496551899136
+    m_Localized: テンプルウォールの壁紙をダウンロード。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496556093440
+    m_Localized: ゲーム終了時の広告を削除。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496560287744
+    m_Localized: ゲーム終了時の広告を削除しました。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496560287745
+    m_Localized: ダウンロード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496564482048
+    m_Localized: 無料コイン、欲しくない？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496568676352
+    m_Localized: 動画を視聴または他のオファーをクリアして、コインストアにある無料オファーセクションでコインをゲット！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496568676353
+    m_Localized: 無料コイン！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496572870656
+    m_Localized: インターネット接続がありません
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496577064960
+    m_Localized: ストアに接続できません。インターネット接続をお確かめください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496577064961
+    m_Localized: ストアに接続しています…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496581259264
+    m_Localized: 製品の読み込み中…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496585453568
+    m_Localized: 無料コイン{0}枚
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496585453569
+    m_Localized: 無料オファー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496589647872
+    m_Localized: App Storeでゲームを評価してください！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496593842176
+    m_Localized: 後から知らせる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496593842177
+    m_Localized: 次からは聞かない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496598036480
+    m_Localized: ユーザー名
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496602230784
+    m_Localized: パスワード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496602230785
+    m_Localized: Temple Runで悪魔の猿から逃げ切りながら、%@ポイントを獲得したよ。挑戦してみてね！ http://bit.ly/TempleRunGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496606425088
+    m_Localized: 投稿に失敗：ログイン情報を確かめるか、後ほどもう一度お試しください
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496610619392
+    m_Localized: フレンドメーカー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496610619393
+    m_Localized: チャレンジマイルストーンをクリアして、報酬をゲット！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496614813696
+    m_Localized: 閉じる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496619008000
+    m_Localized: 世界試練
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496619008001
+    m_Localized: 累積距離
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496623202304
+    m_Localized: ランごとのスコア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496627396608
+    m_Localized: ランごとのコイン数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496627396609
+    m_Localized: 経時コイン数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496631590912
+    m_Localized: 累計スコア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496635785216
+    m_Localized: ランごとの距離
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496635785217
+    m_Localized: もっとコインをゲット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496639979520
+    m_Localized: 続々登場…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496644173824
+    m_Localized: キャラクター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496644173825
+    m_Localized: 広告を視聴して受け取りますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496648368128
+    m_Localized: アンロック済み
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496652562432
+    m_Localized: ショップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496656756736
+    m_Localized: 購入を復元
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496656756737
+    m_Localized: 広告なし
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496660951040
+    m_Localized: プライバシー設定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496665145344
+    m_Localized: シェア！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496665145345
+    m_Localized: 1940年代の勇敢なパイロット冒険家、ガイ・デンジャラスをアンロック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496669339648
+    m_Localized: 1940年代の勇敢なパイロット冒険家、ガイ・デンジャラス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496673533952
+    m_Localized: 1930年代のスマートな盗賊、スカーレット・フォックスをアンロック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496673533953
+    m_Localized: 1930年代のスマートな盗賊、スカーレット・フォックス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496677728256
+    m_Localized: 80年代を代表する敏腕刑事、バリー・ボーンズをアンロック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496681922560
+    m_Localized: 80年代を代表する敏腕刑事、バリー・ボーンズ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496681922561
+    m_Localized: 紀元前500年の放浪の王女自警団、カルマ・リーをアンロック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496686116864
+    m_Localized: 紀元前500年の放浪の王女自警団、カルマ・リー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496690311168
+    m_Localized: 1800年代、追っ手から逃げおおせた西部開拓時代の盗賊、モンタナ・スミスをアンロック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496690311169
+    m_Localized: 1800年代、追っ手から逃げおおせた西部開拓時代の盗賊、モンタナ・スミス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496694505472
+    m_Localized: 1500年代を生きたスペインの破戒僧、フランシスコ・モントーヤ をアンロック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496698699776
+    m_Localized: 1500年代を生きたスペインの破戒僧、フランシスコ・モントーヤ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496698699777
+    m_Localized: 2004年の輝かしいアメフトのスター選手、ザック・ワンダーをアンロック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496702894080
+    m_Localized: 2004年の輝かしいアメフトのスター選手、ザック・ワンダー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496707088384
+    m_Localized: 1600年代のカリブ海の提督、シモーヌ・デイヴィスをアンロック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496707088385
+    m_Localized: 1600年代のカリブ海の提督、シモーヌ・デイヴィス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496723865600
+    m_Localized: 時代を超えた畑の守り神、エドガー・ツイッゲンボトムをアンロック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496723865601
+    m_Localized: 時代を超えた畑の守り神、エドガー・ツイッゲンボトム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496728059904
+    m_Localized: 贖罪を求める西暦500年の少林寺の僧、カイ・シァンをアンロック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496732254208
+    m_Localized: 贖罪を求める西暦500年の少林寺の僧、カイ・シァン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496736448512
+    m_Localized: 悪意ある混沌の愛人、カーニフェックスをアンロック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496736448513
+    m_Localized: 悪意ある混沌の愛人、カーニフェックス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496740642816
+    m_Localized: 1690年の海を恐怖に陥れた船長、海賊フロストをアンロック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496744837120
+    m_Localized: 1690年の海を恐怖に陥れた船長、海賊フロスト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496744837121
+    m_Localized: 喜びの輪を広げるクリスマスのクルミ割り人形、ウォーリーナッツをアンロック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496749031424
+    m_Localized: 喜びの輪を広げるクリスマスのクルミ割り人形、ウォーリーナッツ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496753225728
+    m_Localized: 西暦930年以来、ヴァイキングの王族から略奪を繰り返してきた、アストリッド王女をアンロック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496757420032
+    m_Localized: 西暦930年以来、ヴァイキングの王族から略奪を繰り返してきた、アストリッド王女
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496757420033
+    m_Localized: 無限の破壊をもたらす不朽の半神、クロノス・タイムビアードをアンロック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496761614336
+    m_Localized: 無限の破壊をもたらす不朽の半神、クロノス・タイムビアード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16968939731935232
+    m_Localized: ありがとう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406555136000
+    m_Localized: 次の報酬まで {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406815182848
+    m_Localized: より高いスコアを獲得して、先に進もう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406823571456
+    m_Localized: 次の報酬まで{0} {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406823571457
+    m_Localized: ポイント
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406827765760
+    m_Localized: 受け取る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406827765761
+    m_Localized: 受け取り済み
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406831960064
+    m_Localized: オン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406836154368
+    m_Localized: オフ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406836154369
+    m_Localized: グロチャレ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406840348672
+    m_Localized: 天使の翼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406844542976
+    m_Localized: インテリアデコレーター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406844542977
+    m_Localized: 壁紙3つをアンロック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406848737280
+    m_Localized: 壁紙3つをアンロックしました
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406848737281
+    m_Localized: スタート
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406852931584
+    m_Localized: 広告を視聴して続けますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406857125888
+    m_Localized: 悪魔の猿から逃げ切りながら{0}ポイントを獲得したよ。挑戦してみてね！{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406857125889
+    m_Localized: 復元しました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406861320192
+    m_Localized: 成功！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406865514496
+    m_Localized: これは？グローバルチャレンジ？！{0}に向けて準備しよう！！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406869708800
+    m_Localized: 人間どもよ、怖じ気付け！ {0}だ！新しいグローバルチャレンジの準備はいいか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406869708801
+    m_Localized: あきらめるな！{0}にはまだ、賞品が待っている！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406873903104
+    m_Localized: '{0}をお忘れなく！{0}はあなたのことを待ってます。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406878097408
+    m_Localized: 頑張れ！ {1}がいなくなるまで、残り{0}だけです！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406878097409
+    m_Localized: 止まらず走り続けろ！{1}の豪華報酬獲得まで、あと{0}！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406882291712
+    m_Localized: 今こそ走る時だ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406882291713
+    m_Localized: 待ってましたよ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406886486016
+    m_Localized: 広告なし購入
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406890680320
+    m_Localized: コイン購入
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406890680321
+    m_Localized: 広告なし購入に失敗しました。インターネット接続を確認して、もう一度お試しください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406894874624
+    m_Localized: コイン購入に失敗しました。インターネット接続を確認して、もう一度お試しください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406899068928
+    m_Localized: 購入をキャンセルしました
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406899068929
+    m_Localized: 接続に失敗したため、メッセージ\"{0}\"を送信できませんでした。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406903263232
+    m_Localized: もう一度お試しください
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406903263233
+    m_Localized: 共有できません
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406907457536
+    m_Localized: 失敗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406911651840
+    m_Localized: 動画を再生できませんでした。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406911651841
+    m_Localized: 報酬
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406915846144
+    m_Localized: コインストアを有効にするために、IAPの同意を再度適用してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406920040448
+    m_Localized: 現在、コインストアをご利用いただけません。詳細は、support@imangistudios.com までお問い合わせください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406920040449
+    m_Localized: '{0}コインを追加しました'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406924234752
+    m_Localized: アップデートが必要です
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406924234753
+    m_Localized: 引き続きTemple Runをプレイするには、アップデートが必要です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406928429056
+    m_Localized: 無料キャラクター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406932623360
+    m_Localized: 新しいキャラクター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406932623361
+    m_Localized: 新しい冒険
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406936817664
+    m_Localized: 参加する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406936817665
+    m_Localized: 共有をキャンセルしました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406941011968
+    m_Localized: 共有失敗！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406945206272
+    m_Localized: 共有しました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406945206273
+    m_Localized: マイルストーン{0}完了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23200394329972736
+    m_Localized: アップデートしていただき、ありがとうございます
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23200394455801856
+    m_Localized: Temple Runを最新版にしてくれてありがとう！\nお礼としてコイン500枚を受け取ってね！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23204094888894464
+    m_Localized: コイン500枚
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23204095056666624
+    m_Localized: いいえ、結構です
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55828746446299136
+    m_Localized: 『Temple Run』をダウンロードしていただき、ありがとうございます！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355477262336
+    m_Localized: 未知の世界を\n共に探索する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355628257280
+    m_Localized: フランシスコ・\nモントーヤ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355636645888
+    m_Localized: ランナーセレクトから無料で選べる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929317220352
+    m_Localized: ランナーセレクトから無料で選べる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929606627328
+    m_Localized: 伝説へと共に\n踏み込もう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929619210240
+    m_Localized: カルマ・リー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929623404544
+    m_Localized: 冒険に\n備えるんだ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929627598848
+    m_Localized: ザック・ワンダー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929635987456
+    m_Localized: 待ち受ける\n暗黒への道
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929640181760
+    m_Localized: カーニフェックス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929644376064
+    m_Localized: 先頭を切って\n駆け抜ける
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929652764672
+    m_Localized: アストリッド王女
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929656958976
+    m_Localized: 神秘に包まれた\n冒険を確かめよう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929661153280
+    m_Localized: ウォーリーナッツ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773763731456
+    m_Localized: 伝説へと共に\n踏み込もう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773776314368
+    m_Localized: カルマ・リー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773780508672
+    m_Localized: ランナーセレクトから無料で選べる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126122979169918976
+    m_Localized: 冒険に\n備えるんだ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126463690687897600
+    m_Localized: 冒険に\n備えるんだ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126497313759682560
+    m_Localized: ザック・ワンダー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126497313763876864
+    m_Localized: ランナーセレクトから無料で選べる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126481317888
+    m_Localized: ゴールド\nラッシュ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126485512192
+    m_Localized: 走り\nまわるぞ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126485512193
+    m_Localized: 新たな\n始まり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027824455680
+    m_Localized: ターキーを\nつかめ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027824455681
+    m_Localized: テンプル\n奇襲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649984
+    m_Localized: 最後が最も\n苦しい！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649985
+    m_Localized: いざ\n遺跡へ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649986
+    m_Localized: 解放への\nラン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649987
+    m_Localized: 祝星の\nドリーム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844288
+    m_Localized: サマー\nマラソン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844289
+    m_Localized: おかしなきゃ\nイタズラ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844290
+    m_Localized: 極寒の\n極み！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038592
+    m_Localized: お宝を\n手に入れろ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038593
+    m_Localized: 生き残れるかな？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038594
+    m_Localized: 季節を\n感じよう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232896
+    m_Localized: 祝星シーズンを楽しもう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232897
+    m_Localized: 失われた偶像を\n見つけ出せ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232898
+    m_Localized: 持てるか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232899
+    m_Localized: 未知の世界を探索せよ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427200
+    m_Localized: おお、あれが\n見えるか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427201
+    m_Localized: さあ、この季節が\nやってきた
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427202
+    m_Localized: 熱気に\nまけるな
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027849621504
+    m_Localized: キャンディー\nゲット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027849621505
+    m_Localized: 凍てつく寒さを\n乗りこえろ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477794344960
+    m_Localized: 進行状況をリセット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477811122176
+    m_Localized: 広告表示の向上
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316480
+    m_Localized: 許可する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316481
+    m_Localized: 許可しない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316482
+    m_Localized: 許可を取り消しますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316483
+    m_Localized: "現在、Imangi はゲーム内の広告目的で、あなたのデバイスの広告 ID を広告ネットワークへ提供しています。\n許可を取り消してもよろしいですか？\n（はい をタップするとゲームが終了します。再起動すると変更が有効になります）"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510784
+    m_Localized: 広告表示を向上させますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510785
+    m_Localized: "Temple Run は広告で支えられています。広告を表示するため、広告パートナーとデータを収集し共有します。\n いいえ を選択しても広告は表示されます。内容が合わない広告が表示される場合があります。\n 設定 でいつでも選択を変更できます。\n（はい をタップするとゲームが終了します。再起動すると変更が有効になります）"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510786
+    m_Localized: 季節に\n挑め
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649416769536
+    m_Localized: 危険から逃げろ \n と...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649437741056
+    m_Localized: SCARLETT FOX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649437741057
+    m_Localized: Runner Selectで無料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202893421137879040
+    m_Localized: ランナー選択で無料入手可能
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574259658752
+    m_Localized: 極める \n スピード...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574322573312
+    m_Localized: KAI XIANG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574322573313
+    m_Localized: ランナー選択で無料入手可能
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105925562368
+    m_Localized: 極める \n スピード...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105938145280
+    m_Localized: バリー・ボーンズ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105938145281
+    m_Localized: ランナー選択で無料入手可能
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438307418112
+    m_Localized: ニディ\nニルマル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438332583936
+    m_Localized: ボリウッドのスーパースター、ニディ・ニルマルをアンロック！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438332583937
+    m_Localized: ボリウッドのスーパースター、ニディ・ニルマル！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984695754752
+    m_Localized: 15周年を \n 祝おう…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984729309184
+    m_Localized: ニディ・ニルマル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984729309185
+    m_Localized: ランナー選択で無料入手可能
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096434597888
+    m_Localized: おかえりなさい！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096451375104
+    m_Localized: 祝う
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096455569408
+    m_Localized: 15周年
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096455569409
+    m_Localized: 15,000枚無料コイン！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228703228063113216
+    m_Localized: 今すぐ受け取る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075348025344
+    m_Localized: まだ走り続ける
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075381579776
+    m_Localized: 15年後も…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774080
+    m_Localized: バースデーのお宝
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774081
+    m_Localized: コインごとにお祝いだ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774082
+    m_Localized: もう1回走ろう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774083
+    m_Localized: どこまで走れる？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412179812352
+    m_Localized: お宝が待っている \n …とともに
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412196589568
+    m_Localized: フランシスコ・モントーヤ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412196589569
+    m_Localized: ランナー選択で無料入手可能
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243860789221384192
+    m_Localized: フィールドを \n 走り抜けろ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243860789229772800
+    m_Localized: フライデーナイトラン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252909526883229696
+    m_Localized: 一気に走り抜けよう…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252909526900006912
+    m_Localized: ZACK WONDER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260263528729927680
+    m_Localized: 共に怖く \n なろう...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260263528746704896
+    m_Localized: EDGAR TWIGGENBOTTOM
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

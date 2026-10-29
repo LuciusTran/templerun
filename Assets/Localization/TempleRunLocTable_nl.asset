@@ -1,0 +1,4003 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: TempleRunLocTable_nl
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: nl
+  m_SharedData: {fileID: 11400000, guid: 0071ada7e6fa56344b4d42c06e5e2bd7, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 306466174001152
+    m_Localized: Pak het afgodsbeeld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466660540416
+    m_Localized: Als je durft!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466681511936
+    m_Localized: Speel!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466685706240
+    m_Localized: Missies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466702483456
+    m_Localized: Statistieken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466706677760
+    m_Localized: Upgrades
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466710872064
+    m_Localized: Opties
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466710872065
+    m_Localized: Selectie Opslaglocatie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466715066368
+    m_Localized: Levens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466719260672
+    m_Localized: Wekelijkse uitdaging
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466723454976
+    m_Localized: Opties
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466723454977
+    m_Localized: Reactiviteit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466727649280
+    m_Localized: Muziek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466731843584
+    m_Localized: Geluid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466731843585
+    m_Localized: Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466736037888
+    m_Localized: 'Taal: Nederlands'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466740232192
+    m_Localized: Spelgegevens verwijderen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466740232193
+    m_Localized: Privacybeleid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466744426496
+    m_Localized: TERUG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466748620800
+    m_Localized: Taal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466752815104
+    m_Localized: Gepauzeerd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466752815105
+    m_Localized: 'Score:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466757009408
+    m_Localized: 'Afstand:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466761203712
+    m_Localized: 'Munten:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466765398016
+    m_Localized: 'Factor:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466765398017
+    m_Localized: 'Volgende missie:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466769592320
+    m_Localized: 'Volgend niveau:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466773786624
+    m_Localized: Hoofdmenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466773786625
+    m_Localized: Nieuw spel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466777980928
+    m_Localized: Hervatten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466782175232
+    m_Localized: Nieuw spel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466782175233
+    m_Localized: Je vorderingen gaan verloren! Weet je zeker dat je een nieuw spel wilt starten?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466786369536
+    m_Localized: Spel afsluiten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466790563840
+    m_Localized: Je vorderingen gaan verloren! Weet je zeker dat je wilt stoppen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466790563841
+    m_Localized: Nee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466794758144
+    m_Localized: Ja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466798952448
+    m_Localized: Run voortzetten?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466803146752
+    m_Localized: Volgend leven over <color=#F6D600>{0}m {1}s</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466803146753
+    m_Localized: Gebruik een leven
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466807341056
+    m_Localized: Run beëindigen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466811535360
+    m_Localized: VOL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466815729664
+    m_Localized: Statistieken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466815729665
+    m_Localized: 'Factor:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466819923968
+    m_Localized: '{0}x'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466824118272
+    m_Localized: Eén run
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466824118273
+    m_Localized: 'Hoogste score:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466828312576
+    m_Localized: 'Langste run:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466832506880
+    m_Localized: '{0} m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466832506881
+    m_Localized: 'Meeste munten:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466836701184
+    m_Localized: met leven
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466840895488
+    m_Localized: Levensduur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466840895489
+    m_Localized: 'Totaal aantal sessies:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466845089792
+    m_Localized: 'Totale afstand:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466849284096
+    m_Localized: 'Totaal aantal munten:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466853478400
+    m_Localized: Upgrades
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466853478401
+    m_Localized: POWER-UPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466857672704
+    m_Localized: Onbekend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466861867008
+    m_Localized: Schakel de power-up van 50 munten in.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466861867009
+    m_Localized: Verhoog Megamunt naar 75 munten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466866061312
+    m_Localized: Verhoog Megamunt naar 100 munten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466870255616
+    m_Localized: Verhoog Megamunt naar 125 munten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466870255617
+    m_Localized: Verhoog Megamunt naar 150 munten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466874449920
+    m_Localized: Megamunt uitschakelen toestaan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466878644224
+    m_Localized: Megamunt volledig geüpgraded!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466878644225
+    m_Localized: Megamunt is uitgeschakeld.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466882838528
+    m_Localized: UPGRADE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466887032832
+    m_Localized: GRATIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466887032833
+    m_Localized: INSCHAKELEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466891227136
+    m_Localized: UITSCHAKELEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466895421440
+    m_Localized: Schakel de power-up Muntmagneet in.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466895421441
+    m_Localized: Zorg ervoor dat de Muntmagneet langer meegaat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466899615744
+    m_Localized: Muntmagneet verdubbelt muntwaarde.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466899615745
+    m_Localized: Zorg ervoor dat de Muntmagneet langer meegaat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466903810048
+    m_Localized: Muntmagneet verdrievoudigt muntwaarde.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466908004352
+    m_Localized: Muntmagneet uitschakelen toestaan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466912198656
+    m_Localized: Muntmagneet volledig geüpgraded!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466912198657
+    m_Localized: Muntmagneet is uitgeschakeld.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466916392960
+    m_Localized: Schakel de Onzichtbaarheid power-up in.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466920587264
+    m_Localized: Zorg ervoor dat Onzichtbaarheid langer meegaat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466920587265
+    m_Localized: Onzichtbaarheid uitschakelen toestaan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466924781568
+    m_Localized: Onzichtbaarheid volledig geüpgraded!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466928975872
+    m_Localized: Onzichtbaarheid uitschakelen toestaan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466928975873
+    m_Localized: Schakel de power-up boost van 250 m in.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466933170176
+    m_Localized: Verhoog de boost naar 375 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466937364480
+    m_Localized: Verhoog de boost naar 500 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466937364481
+    m_Localized: Verhoog de boost naar 625 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466941558784
+    m_Localized: Verhoog de boost naar 750 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466945753088
+    m_Localized: Boost uitschakelen toestaan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466949947392
+    m_Localized: Boost volledig geüpgraded!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466949947393
+    m_Localized: Boost is uitgeschakeld.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466954141696
+    m_Localized: Dubbele waarde munten na {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466958336000
+    m_Localized: Dubbele waarde munten na {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466958336001
+    m_Localized: Dubbele waarde munten na {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466962530304
+    m_Localized: Driedubbele waarde munten na {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466966724608
+    m_Localized: Driedubbele waarde munten na {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466966724609
+    m_Localized: Driedubbele waarde munten na {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466970918912
+    m_Localized: VOLLEDIG GEÜPGRADED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466975113216
+    m_Localized: HULPMIDDELEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466975113217
+    m_Localized: Wanneer dit actief is, kom je na je dood meteen weer tot leven.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466979307520
+    m_Localized: EENMALIG GEBRUIK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466983501824
+    m_Localized: Opstandingsvleugels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466983501825
+    m_Localized: 'Activeer tijdens de tocht door dubbel op het scherm te tikken, of het spel te pauzeren en het hulpmiddel Opstandingsvleugels te selecteren. Na activering 30 seconden actief. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466987696128
+    m_Localized: 'Activeer tijdens de tocht door de middelste knop 1 seconde vast te houden, of het spel te pauzeren en het hulpmiddel Opstandingsvleugels te selecteren. Na activering 30 seconden actief. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466987696129
+    m_Localized: 'Activeer tijdens de tocht door op de bovenste (Y/△) gamepad-knop te drukken, of het spel te pauzeren en het hulpmiddel Opstandingsvleugels te selecteren. Na activering 30 seconden actief. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466991890432
+    m_Localized: 'Activeer tijdens de tocht door op de [R]-toets te drukken, of het spel te pauzeren en het hulpmiddel Opstandingsvleugels te selecteren. Na activering 30 seconden actief. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466996084736
+    m_Localized: Oké
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466996084737
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467000279040
+    m_Localized: Opstandingsvleugels die permanent actief zijn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467004473344
+    m_Localized: Perma-vleugels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467004473345
+    m_Localized: Pauzeer het spel en selecteer het hulpmiddel Perma-vleugels aan het begin van het spel om te activeren. Je wordt automatisch weer tot leven gebracht als je doodgaat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467008667648
+    m_Localized: Boost van 1000 m aan het begin van de game.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467012861952
+    m_Localized: Voorsprong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467012861953
+    m_Localized: Pauzeer het spel en selecteer het hulpmiddel Voorsprong aan het begin van het spel om 1000 meter vooruit te gaan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467017056256
+    m_Localized: Megaboost van 2500 m aan het begin van de game.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467021250560
+    m_Localized: Mega-voorsprong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467025444864
+    m_Localized: Pauzeer het spel en selecteer het hulpmiddel Mega-voorsprong aan het begin van het spel om 2500 meter vooruit te gaan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467025444865
+    m_Localized: PERSONAGES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467029639168
+    m_Localized: MOMENTEEL ACTIEF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467033833472
+    m_Localized: ACTIVEREN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467033833473
+    m_Localized: TOEGANG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467038027776
+    m_Localized: Krijg toegang tot Guy Dangerous, een doorsnee ontdekkingsreiziger.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467042222080
+    m_Localized: Krijg toegang tot Scarlett Fox, de sluwe boeienkoningin.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467042222081
+    m_Localized: Krijg toegang tot Barry Bones, een stadsagent met een attitude.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467046416384
+    m_Localized: Krijg toegang tot Karma Lee, de snelste benen in het Verre Oosten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467050610688
+    m_Localized: Krijg toegang tot Montana Smith, de op een na beste ontdekkingsreiziger ooit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467050610689
+    m_Localized: Krijg toegang tot Francisco Montoya, de veroveraar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467054804992
+    m_Localized: Krijg toegang tot Zack Wonder, football-ster.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467058999296
+    m_Localized: Guy Dangerous, een doorsnee ontdekkingsreiziger.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467058999297
+    m_Localized: Scarlett Fox, de sluwe boeienkoningin.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467063193600
+    m_Localized: Barry Bones, een stadsagent met een attitude.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467067387904
+    m_Localized: Karma Lee, de snelste benen in het Verre Oosten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467067387905
+    m_Localized: Montana Smith, de op een na beste ontdekkingsreiziger ooit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467071582208
+    m_Localized: Francisco Montoya, de veroveraar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467075776512
+    m_Localized: Zack Wonder, football-ster.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467075776513
+    m_Localized: NIET GENOEG MUNTEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467079970816
+    m_Localized: Verzamel munten terwijl je rent, zodat je ze hier kunt uitgeven!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467084165120
+    m_Localized: Verzoek mislukt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467084165121
+    m_Localized: Het verzoek kan momenteel niet worden uitgevoerd. Probeer het later nog eens.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467088359424
+    m_Localized: Hoogste score!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467092553728
+    m_Localized: Veeg om te draaien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467092553729
+    m_Localized: Veeg om te draaien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467096748032
+    m_Localized: Veeg om te draaien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467100942336
+    m_Localized: Veeg om te springen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467100942337
+    m_Localized: Veeg om te glijden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467105136640
+    m_Localized: Kantel om munten te pakken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467105136641
+    m_Localized: Kantel om munten te pakken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467113525248
+    m_Localized: Kantel om munten te verzamelen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467113525249
+    m_Localized: Veeg om te draaien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467117719552
+    m_Localized: Veeg om te draaien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467121913856
+    m_Localized: Veeg om te draaien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467121913857
+    m_Localized: Veeg omhoog om te springen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467126108160
+    m_Localized: Veeg omlaag om te glijden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467130302464
+    m_Localized: Veeg om munten te pakken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467130302465
+    m_Localized: Veeg om munten te pakken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467134496768
+    m_Localized: Veeg om munten te verzamelen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467138691072
+    m_Localized: Navigatiepad links
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467138691073
+    m_Localized: Navigatiepad rechts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467142885376
+    m_Localized: Navigatiepad links/rechts om te draaien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467142885377
+    m_Localized: Omhoog om te springen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467147079680
+    m_Localized: Omlaag om te glijden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467151273984
+    m_Localized: Links om munten te pakken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467155468288
+    m_Localized: Rechts om munten te pakken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467155468289
+    m_Localized: Links/rechts om munten te verzamelen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467159662592
+    m_Localized: Pijl links om te draaien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467163856896
+    m_Localized: Pijl rechts om te draaien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467163856897
+    m_Localized: Links/rechts om te draaien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467168051200
+    m_Localized: Omhoog om te springen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467172245504
+    m_Localized: Omlaag om te glijden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467172245505
+    m_Localized: Links om munten te pakken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467176439808
+    m_Localized: Rechts om munten te pakken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467180634112
+    m_Localized: Links/rechts om munten te pakken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467180634113
+    m_Localized: Vul de meter voor bonuspunten!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467184828416
+    m_Localized: Goed gedaan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467189022720
+    m_Localized: Je bent klaar! Veel succes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467189022721
+    m_Localized: Er is een controller aangesloten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467193217024
+    m_Localized: Controller is losgekoppeld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467197411328
+    m_Localized: Activeer hulpmiddelen in het pauzemenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467197411329
+    m_Localized: Besturing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467201605632
+    m_Localized: Aanraken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467205799936
+    m_Localized: Siri Remote
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467205799937
+    m_Localized: Afstandsbediening gen 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467209994240
+    m_Localized: Gamepad / controller
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467209994241
+    m_Localized: Toetsenbord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467214188544
+    m_Localized: 'Naar links:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467218382848
+    m_Localized: 'Naar rechts:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467218382849
+    m_Localized: 'Ga naar links om munten te pakken:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467222577152
+    m_Localized: 'Ga naar rechts om munten te pakken:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467226771456
+    m_Localized: 'Springen:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467226771457
+    m_Localized: 'Glijden:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467230965760
+    m_Localized: 'Pauzemenu:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467235160064
+    m_Localized: In-game hulpmiddelen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467235160065
+    m_Localized: 'Opstandingsvleugels 30 s:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467239354368
+    m_Localized: Starthulpmiddelen spel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467243548672
+    m_Localized: 'Voorsprong:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467243548673
+    m_Localized: 'Mega-start:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467247742976
+    m_Localized: 'Perma-vleugels:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467251937280
+    m_Localized: Naar links vegen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467251937281
+    m_Localized: Naar rechts vegen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467256131584
+    m_Localized: Omhoog vegen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467260325888
+    m_Localized: Omlaag vegen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467264520192
+    m_Localized: Naar links kantelen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467264520193
+    m_Localized: Naar rechts kantelen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467268714496
+    m_Localized: Raak het pauze-icoon aan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467272908800
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467272908801
+    m_Localized: Tik twee keer op het scherm tijdens het spel,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467277103104
+    m_Localized: of pauzeer en kies daarna "Opstandingsvleugels" in het menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467281297408
+    m_Localized: Pauzeer nadat het aftellen is begonnen,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467281297409
+    m_Localized: en kies daarna "Voorsprong" in het menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467285491712
+    m_Localized: Pauzeer nadat het aftellen is begonnen,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467289686016
+    m_Localized: en kies daarna "Mega-voorsprong" in het menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467289686017
+    m_Localized: Pauzeer nadat het aftellen is begonnen,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467293880320
+    m_Localized: en kies daarna "Perma-vleugels" in het menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467298074624
+    m_Localized: Naar links vegen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467298074625
+    m_Localized: Naar rechts vegen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467302268928
+    m_Localized: Omhoog vegen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467302268929
+    m_Localized: Omlaag vegen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467306463232
+    m_Localized: Naar links vegen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467310657536
+    m_Localized: Naar rechts vegen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467310657537
+    m_Localized: Pauzeknop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467314851840
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467319046144
+    m_Localized: Houd de middelste knop ingedrukt,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467323240448
+    m_Localized: of pauzeer en kies daarna "Opstandingsvleugels" in het menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467323240449
+    m_Localized: Pauzeer nadat het aftellen is begonnen,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467327434752
+    m_Localized: en kies daarna "Voorsprong" in het menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467331629056
+    m_Localized: Pauzeer nadat het aftellen is begonnen,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467331629057
+    m_Localized: en kies daarna "Mega-voorsprong" in het menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467335823360
+    m_Localized: Pauzeer nadat het aftellen is begonnen,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467335823361
+    m_Localized: en kies daarna "Perma-vleugels" in het menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467340017664
+    m_Localized: Navigatiepad/stick ←/L1(LB)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467344211968
+    m_Localized: Navigatiepad/stick →/R1(RB)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467344211969
+    m_Localized: Navigatiepad/stick ↑ of A/×
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467348406272
+    m_Localized: Navigatiepad/stick ↓ of X/□
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467352600576
+    m_Localized: Navigatiepad/stick ←
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467352600577
+    m_Localized: Navigatiepad/stick →
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467356794880
+    m_Localized: Start/menu/options-toets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467360989184
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467360989185
+    m_Localized: Y/△, of pauzeer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467365183488
+    m_Localized: en kies daarna "Opstandingsvleugels" in het menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467365183489
+    m_Localized: Pauzeer nadat het aftellen is begonnen,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467369377792
+    m_Localized: en kies daarna "Voorsprong" in het menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467373572096
+    m_Localized: Pauzeer nadat het aftellen is begonnen,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467373572097
+    m_Localized: en kies daarna "Mega-voorsprong" in het menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467377766400
+    m_Localized: Pauzeer nadat het aftellen is begonnen,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467381960704
+    m_Localized: en kies daarna "Perma-vleugels" in het menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467381960705
+    m_Localized: '[←] of [A]-toets'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467386155008
+    m_Localized: '[→] of [D]-toets'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467390349312
+    m_Localized: '[↑] of [W]-toets'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467390349313
+    m_Localized: '[↓] of [S]-toets'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467394543616
+    m_Localized: '[←] of [A]-toets'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467394543617
+    m_Localized: '[→] of [D]-toets'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467398737920
+    m_Localized: '[ESC]-toets'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467402932224
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467407126528
+    m_Localized: '[R]-toets, of pauzeer'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467407126529
+    m_Localized: en kies daarna "Opstandingsvleugels" in het menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467411320832
+    m_Localized: Pauzeer nadat het aftellen is begonnen,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467415515136
+    m_Localized: en kies daarna "Voorsprong" in het menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467415515137
+    m_Localized: Pauzeer nadat het aftellen is begonnen,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467419709440
+    m_Localized: en kies daarna "Mega-voorsprong" in het menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467423903744
+    m_Localized: Pauzeer nadat het aftellen is begonnen,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467423903745
+    m_Localized: en kies daarna "Perma-vleugels" in het menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467428098048
+    m_Localized: Missies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467428098049
+    m_Localized: Deelnametrofee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467432292352
+    m_Localized: Speel in 1 wekelijkse uitdaging
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467436486656
+    m_Localized: Gespeeld in 1 wekelijkse uitdaging
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467436486657
+    m_Localized: Veelbelovend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467440680960
+    m_Localized: Speel in 5 wekelijkse uitdagingen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467444875264
+    m_Localized: Gespeeld in 5 wekelijkse uitdagingen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467444875265
+    m_Localized: All Star
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467449069568
+    m_Localized: Speel in 10 wekelijkse uitdagingen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467453263872
+    m_Localized: Gespeeld in 10 wekelijkse uitdagingen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467453263873
+    m_Localized: Harde werker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467457458176
+    m_Localized: Bereik niveau Legende in 1 wekelijkse uitdaging
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467457458177
+    m_Localized: Niveau Legende bereikt in 1 wekelijkse uitdaging
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467461652480
+    m_Localized: 'Lekker bezig '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467465846784
+    m_Localized: Bereik niveau Legende in 2 wekelijkse uitdagingen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467465846785
+    m_Localized: Niveau Legende bereikt in 2 wekelijkse uitdagingen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467470041088
+    m_Localized: Wereldwijde uitdager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467474235392
+    m_Localized: Bereik niveau Legende in 3 wekelijkse uitdagingen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467478429696
+    m_Localized: Niveau Legende bereikt in 3 wekelijkse uitdagingen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467478429697
+    m_Localized: Beroemd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467482624000
+    m_Localized: Bereik niveau Legende in 4 wekelijkse uitdagingen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467486818304
+    m_Localized: Niveau Legende bereikt in 4 wekelijkse uitdagingen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467486818305
+    m_Localized: 'De completionist   '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467491012608
+    m_Localized: Bereik niveau Legende in 5 wekelijkse uitdagingen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467499401216
+    m_Localized: Niveau Legende bereikt in 5 wekelijkse uitdagingen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467503595520
+    m_Localized: Blijf doorgaan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467507789824
+    m_Localized: Gebruik 1 "Leven" op één tocht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467507789825
+    m_Localized: 1 "Leven" op één tocht gebruikt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467511984128
+    m_Localized: Iets verder!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467516178432
+    m_Localized: Gebruik 2 "Levens" op één tocht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467516178433
+    m_Localized: 2 "Levens" op één tocht gebruikt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467520372736
+    m_Localized: Ik ben er bijna!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467524567040
+    m_Localized: Gebruik 3 "Levens" op één tocht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467524567041
+    m_Localized: 3 "Levens" op één tocht gebruikt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467528761344
+    m_Localized: Maakt reuring
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467532955648
+    m_Localized: Staat in de top 10 van een klassement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467532955649
+    m_Localized: Heeft de top 10 van een klassement gehaald
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467537149952
+    m_Localized: Top van de wereld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467541344256
+    m_Localized: Staat in de top 5 van een klassement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467541344257
+    m_Localized: Heeft de top 5 van een klassement gehaald
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467545538560
+    m_Localized: Beginnende renner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467549732864
+    m_Localized: Ren 500 meter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467549732865
+    m_Localized: 500 meter gerend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467553927168
+    m_Localized: Wisselgeld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467553927169
+    m_Localized: Verzamel 100 munten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467558121472
+    m_Localized: 100 munten verzameld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467562315776
+    m_Localized: Avonturier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467562315777
+    m_Localized: Scoor 25.000 punten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467566510080
+    m_Localized: 25.000 punten gescoord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467570704384
+    m_Localized: Sprinter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467570704385
+    m_Localized: Ren 1000 meter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467574898688
+    m_Localized: 1000 meter gerend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467579092992
+    m_Localized: Vrek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467583287296
+    m_Localized: 500 m zonder munten te pakken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467583287297
+    m_Localized: 500 m zonder munten te pakken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467587481600
+    m_Localized: Spaarvarken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467591675904
+    m_Localized: Verzamel 250 munten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467591675905
+    m_Localized: 250 munten verzameld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467595870208
+    m_Localized: Schattenjager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467600064512
+    m_Localized: Scoor 50.000 punten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467600064513
+    m_Localized: 50.000 punten gescoord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467604258816
+    m_Localized: Megabonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467604258817
+    m_Localized: Vul de bonusmeter 4x
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467608453120
+    m_Localized: De bonusmeter 4x gevuld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467612647424
+    m_Localized: Atleet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467612647425
+    m_Localized: Ren 2500 meter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467616841728
+    m_Localized: 2500 meter gerend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467621036032
+    m_Localized: In één keer betaald
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467621036033
+    m_Localized: Verzamel 500 munten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467625230336
+    m_Localized: 500 munten verzameld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467629424640
+    m_Localized: Herrijzenis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467629424641
+    m_Localized: Gebruik het hulpmiddel Opstandingsvleugels tijdens een sessie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467633618944
+    m_Localized: Hulpmiddel Opstandingsvleugels gebruikt tijdens een sessie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467637813248
+    m_Localized: Basiskrachten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467642007552
+    m_Localized: Alle power-ups van niveau 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467642007553
+    m_Localized: Alle power-ups van niveau 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467646201856
+    m_Localized: Patser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467646201857
+    m_Localized: Scoor 100.000 punten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467650396160
+    m_Localized: 100.000 punten gescoord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467654590464
+    m_Localized: Betaaldag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467654590465
+    m_Localized: Verzamel 750 munten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467658784768
+    m_Localized: 750 munten verzameld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467662979072
+    m_Localized: Voorsprong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467662979073
+    m_Localized: Gebruik een voorsprong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467667173376
+    m_Localized: Een voorsprong gebruikt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467671367680
+    m_Localized: Stabiele voeten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467671367681
+    m_Localized: Ren 2500 m zonder te struikelen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467675561984
+    m_Localized: 2500 m gerend zonder te struikelen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467679756288
+    m_Localized: Allergisch voor goud
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467683950592
+    m_Localized: 1000 m zonder munten te pakken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467683950593
+    m_Localized: 1000 m zonder munten te pakken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467688144896
+    m_Localized: 5 km-renner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467692339200
+    m_Localized: Ren 5000 meter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467692339201
+    m_Localized: 5000 meter gerend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467696533504
+    m_Localized: No.Trip.Runner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467700727808
+    m_Localized: Ren 5000 meter zonder te struikelen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467700727809
+    m_Localized: 5000 meter gerend zonder te struikelen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467704922112
+    m_Localized: Club van 1/4 miljoen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467709116416
+    m_Localized: Scoor 250.000 punten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467709116417
+    m_Localized: 250.000 punten gescoord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467713310720
+    m_Localized: Dubbele herrijzenis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467717505024
+    m_Localized: Gebruik Opstandingsvleugels twee keer tijdens één tocht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467717505025
+    m_Localized: Opstandingsvleugels twee keer gebruikt tijdens één tocht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467721699328
+    m_Localized: Geldzakken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467721699329
+    m_Localized: Verzamel 1000 munten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467725893632
+    m_Localized: 1000 munten verzameld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467730087936
+    m_Localized: Club van 1/2 miljoen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467730087937
+    m_Localized: Scoor 500.000 punten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467734282240
+    m_Localized: 500.000 punten gescoord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467738476544
+    m_Localized: Superkrachten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467738476545
+    m_Localized: Alle power-ups van niveau 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467742670848
+    m_Localized: Alle power-ups van niveau 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467746865152
+    m_Localized: Dynamisch duo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467751059456
+    m_Localized: Krijg toegang tot twee personages
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467751059457
+    m_Localized: Toegang tot twee personages gekregen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467755253760
+    m_Localized: Club van 1 miljoen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467759448064
+    m_Localized: Scoor 1.000.000 punten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467759448065
+    m_Localized: 1.000.000 punten gescoord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467763642368
+    m_Localized: Geldbak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467763642369
+    m_Localized: Verzamel 2500 munten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467767836672
+    m_Localized: 2500 munten verzameld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467772030976
+    m_Localized: Fantastic Four
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467772030977
+    m_Localized: Krijg toegang tot vier personages
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467776225280
+    m_Localized: Toegang tot vier personages gekregen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467780419584
+    m_Localized: Sexy zes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467784613888
+    m_Localized: Krijg toegang tot 6 personages
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467784613889
+    m_Localized: Toegang tot 6 personages gekregen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467788808192
+    m_Localized: 10 km-renner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467793002496
+    m_Localized: Ren 10.000 meter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467793002497
+    m_Localized: 10.000 meter gerend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467797196800
+    m_Localized: Fort Knox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467797196801
+    m_Localized: Verzamel 5000 munten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467801391104
+    m_Localized: 5000 munten verzameld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467805585408
+    m_Localized: Club van 2,5 miljoen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467805585409
+    m_Localized: Scoor 2.500.000 punten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467809779712
+    m_Localized: 2.500.000 punten gescoord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467813974016
+    m_Localized: Club van 5 miljoen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467818168320
+    m_Localized: Scoor 5.000.000 punten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467818168321
+    m_Localized: 5.000.000 punten gescoord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467822362624
+    m_Localized: De Spartaan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467826556928
+    m_Localized: 1 miljoen zonder power-ups
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467826556929
+    m_Localized: 1 miljoen zonder power-ups
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467830751232
+    m_Localized: Club van 10 miljoen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467834945536
+    m_Localized: Scoor 10.000.000 punten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467834945537
+    m_Localized: 10.000.000 punten gescoord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467839139840
+    m_Localized: Tempelrenner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467843334144
+    m_Localized: Speel meer dan 1000 games
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467843334145
+    m_Localized: Meer dan 1000 games gespeeld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467847528448
+    m_Localized: Wint weinig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467851722752
+    m_Localized: 100.000 munten in totaal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467851722753
+    m_Localized: 100.000 munten in totaal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467855917056
+    m_Localized: Marathonloper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467860111360
+    m_Localized: 100.000 meters in totaal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467860111361
+    m_Localized: 100.000 meters in totaal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467864305664
+    m_Localized: Beroeps-tempelrenner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467864305665
+    m_Localized: Speel meer dan 5000 games
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467868499968
+    m_Localized: Meer dan 5000 games gespeeld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467872694272
+    m_Localized: Goud Mijner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467876888576
+    m_Localized: 500.000 munten in totaal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467881082880
+    m_Localized: 500.000 munten in totaal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467881082881
+    m_Localized: Wereldvaarder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467885277184
+    m_Localized: 1.000.000 meters in totaal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467885277185
+    m_Localized: 1.000.000 meters in totaal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467889471488
+    m_Localized: Magnetenpakker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467893665792
+    m_Localized: 5 magneten in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467893665793
+    m_Localized: 5 magneten in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467897860096
+    m_Localized: Muntspringer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467902054400
+    m_Localized: 5 muntpower-ups in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467902054401
+    m_Localized: 5 muntpower-ups in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467906248704
+    m_Localized: Onzichtbaar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467906248705
+    m_Localized: 5 keer onzichtbaar in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467910443008
+    m_Localized: 5 keer onzichtbaar in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467914637312
+    m_Localized: Booster-shot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467914637313
+    m_Localized: 5 boosts in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467918831616
+    m_Localized: 5 boosts in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467923025920
+    m_Localized: Magnetische persoonlijkheid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467923025921
+    m_Localized: 10 magneten in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467927220224
+    m_Localized: 10 magneten in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467931414528
+    m_Localized: Goudexplosie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467931414529
+    m_Localized: 10 muntpower-ups in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467935608832
+    m_Localized: 10 muntpower-ups in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467939803136
+    m_Localized: Onbreekbaar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467939803137
+    m_Localized: 10 keer onzichtbaar in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467943997440
+    m_Localized: 10 keer onzichtbaar in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467943997441
+    m_Localized: Snelheidsduivel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467948191744
+    m_Localized: 10 boosts in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467952386048
+    m_Localized: 10 boosts in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467952386049
+    m_Localized: De aantrekker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467956580352
+    m_Localized: 20 magneten in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467960774656
+    m_Localized: 20 magneten in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467960774657
+    m_Localized: Goudgod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467964968960
+    m_Localized: 20 muntpower-ups in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467969163264
+    m_Localized: 20 muntpower-ups in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467969163265
+    m_Localized: Onoverwinnelijk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467973357568
+    m_Localized: 20 keer onzichtbaar in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467973357569
+    m_Localized: 20 keer onzichtbaar in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467977551872
+    m_Localized: De raket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467981746176
+    m_Localized: 20 boosts in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467985940480
+    m_Localized: 20 boosts in een game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467985940481
+    m_Localized: Megarenner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467990134784
+    m_Localized: Speel meer dan 10.000 games
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467994329088
+    m_Localized: Meer dan 10.000 games gespeeld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467994329089
+    m_Localized: De gouden aanraking
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467998523392
+    m_Localized: 1.000.000 munten in totaal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467998523393
+    m_Localized: 1.000.000 munten in totaal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468002717696
+    m_Localized: Oneindige renner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468006912000
+    m_Localized: 10.000.000 meters in totaal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468006912001
+    m_Localized: 10.000.000 meters in totaal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468011106304
+    m_Localized: Opnieuw rennen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468015300608
+    m_Localized: Upgrades
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468019494912
+    m_Localized: Je beste score!!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468019494913
+    m_Localized: Gewoon verbijsterend!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468023689216
+    m_Localized: Een oude hokey pokey-dans.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468027883520
+    m_Localized: Je hebt de val niet overleefd.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468027883521
+    m_Localized: Aaaaaaaah!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468032077824
+    m_Localized: Je hebt de val niet overleefd.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468036272128
+    m_Localized: Maar ik heb hoogtevrees!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468036272129
+    m_Localized: Einde van de weg...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468040466432
+    m_Localized: Let op het afstapje.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468044660736
+    m_Localized: Ik miste het maar *net*.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468044660737
+    m_Localized: Niet weer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468048855040
+    m_Localized: Ik meld deze veiligheidsovertreding!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468053049344
+    m_Localized: Ik wist dat ik had moeten leren vliegen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468053049345
+    m_Localized: Adios!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468057243648
+    m_Localized: Gelukkig droeg ik mijn helm!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468061437952
+    m_Localized: Je was een smakelijk hapje.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468061437953
+    m_Localized: Voedertijd!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468065632256
+    m_Localized: Zwemmen met de visjes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468065632257
+    m_Localized: Slangen!? Ik haat slangen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468069826560
+    m_Localized: Blub, blub, blub...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468074020864
+    m_Localized: Waar ben je naartoe gegaan?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468074020865
+    m_Localized: Wie heeft Barney uit zijn kooi gelaten?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468078215168
+    m_Localized: Dat scheelde niks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468082409472
+    m_Localized: Houdt iemand me in de gaten?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468082409473
+    m_Localized: We hebben een gewonde!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468086603776
+    m_Localized: Boomknuffelaar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468090798080
+    m_Localized: Bomen doen pijn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468090798081
+    m_Localized: Insect dat je er bent!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468094992384
+    m_Localized: Mieren. Waarom mieren?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468099186688
+    m_Localized: Ik maak altijd een verpletterende indruk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468099186689
+    m_Localized: Ik leg mezelf hier wel neer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468103380992
+    m_Localized: Wie heeft deze boom hier achtergelaten?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468107575296
+    m_Localized: Ik liet mijn stempel achter op de wereld.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468107575297
+    m_Localized: Mijn hoed is tenminste veilig.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468111769600
+    m_Localized: Ik heb een time-out nodig.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468111769601
+    m_Localized: Twee tortelduifjes...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468115963904
+    m_Localized: Vind je het erg als ik wat rondhang?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468120158208
+    m_Localized: Die zag ik niet aankomen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468120158209
+    m_Localized: Het doet de boom meer pijn dan mij.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468124352512
+    m_Localized: Niet mijn hoed!!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468128546816
+    m_Localized: Ik ben mezelf niet zonder mijn hoed!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468132741120
+    m_Localized: Moeilijker dan het lijkt...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468132741121
+    m_Localized: Gelukkig heb ik een hard hoofd!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468136935424
+    m_Localized: Mijn helm hielp niet eens...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468141129728
+    m_Localized: Het is moeilijk rennen zonder hoofd.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468141129729
+    m_Localized: Vergeet niet te bukken!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468145324032
+    m_Localized: Ongelooflijk!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468149518336
+    m_Localized: Het lijkt erop dat ik hier een tijdje vastzit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468149518337
+    m_Localized: Kijk niet naar mijn harige benen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468153712640
+    m_Localized: Ik had mijn mooie sokken aan moeten doen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468157906944
+    m_Localized: Tijd om terug te gaan naar limbo voor beginners.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468157906945
+    m_Localized: Kijk uit waar je loopt...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468162101248
+    m_Localized: Tempel glibberig bij natheid.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468166295552
+    m_Localized: Mmmm, knapperige ontdekkingsreiziger.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468166295553
+    m_Localized: Ruikt naar toast.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468170489856
+    m_Localized: Zit je haar niet goed vandaag?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468174684160
+    m_Localized: Die komt net van de stomerij!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468174684161
+    m_Localized: 'Waarschuwing: pantser niet vuurvast.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468178878464
+    m_Localized: Je was een smakelijk hapje.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468178878465
+    m_Localized: Ik eet ontdekkingsreizigers als jij voor ontbijt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468183072768
+    m_Localized: Nom nom... smaakt naar leer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468187267072
+    m_Localized: Net voor de endzone getackeld!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468187267073
+    m_Localized: Deze heeft een schelp!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468191461376
+    m_Localized: Getackeld!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468195655680
+    m_Localized: Helemaal in de war...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468195655681
+    m_Localized: Hebbes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468199849984
+    m_Localized: Niet-gestrikte veters veroorzaken ongelukken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468199849985
+    m_Localized: Ik heb hier een slecht gevoel over...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468204044288
+    m_Localized: Had ik mijn aansteker maar bij me...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468208238592
+    m_Localized: Dit is niet hoe ik me mijn pensioen had voorgesteld.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468208238593
+    m_Localized: Ik vraag me af waar deze schedels vandaan komen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468212432896
+    m_Localized: Dat is gewoon niet fris!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468216627200
+    m_Localized: Dat lijkt op oom Hernan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468220821504
+    m_Localized: Wekelijkse\nuitdaging
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468220821505
+    m_Localized: Klassement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468225015808
+    m_Localized: Voortgang wekelijkse uitdaging
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468229210112
+    m_Localized: Niveau bereikt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468229210113
+    m_Localized: Seizoensgebonden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468233404416
+    m_Localized: Volgende uitdaging
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468233404417
+    m_Localized: Geniet je van Temple Run?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468237598720
+    m_Localized: Laat een recensie achter!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468241793024
+    m_Localized: VOLGENDE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468241793025
+    m_Localized: VOLTOOID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468245987328
+    m_Localized: Opslaglocaties
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468250181632
+    m_Localized: Selecteer een opslaglocatie voor het opslaan van de voortgang, upgrades en statistieken van de wekelijkse uitdaging.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468250181633
+    m_Localized: '[{0}] (Huidige opslaglocatie)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468254375936
+    m_Localized: '[{0}] (Nieuw)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468258570240
+    m_Localized: '[{0}] (Selecteer om te laden)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468262764544
+    m_Localized: 'Totale afstand: {0}m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468262764545
+    m_Localized: 'Totaal aantal munten: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468266958848
+    m_Localized: 'Laatste opslag: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468271153152
+    m_Localized: De voortgang, upgrades en statistieken van de wekelijkse uitdaging in opslaglocatie [{0}] permanent VERWIJDEREN?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468271153153
+    m_Localized: Verwijderen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468275347456
+    m_Localized: Annuleren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468275347457
+    m_Localized: Opslaglocatie VERWIJDEREN?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468279541760
+    m_Localized: 'Resterende tijd:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468283736064
+    m_Localized: 'Uitdaging: Enkelvoudige afstand'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468287930368
+    m_Localized: 'Uitdaging: Collectieve afstand'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468287930369
+    m_Localized: 'Uitdaging: Enkelvoudige score'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468292124672
+    m_Localized: 'Uitdaging: Collectieve score'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468296318976
+    m_Localized: 'Uitdaging: Enkelvoudige munten'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468296318977
+    m_Localized: 'Uitdaging: Collectieve munten'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468300513280
+    m_Localized: 'Uitdaging: Enkelvoudige power-up'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468304707584
+    m_Localized: Haal de vereiste afstand in één tocht om deze uitdaging te voltooien!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468304707585
+    m_Localized: Haal de vereiste afstand via meerdere tochten om deze uitdaging te voltooien!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468308901888
+    m_Localized: Haal de vereiste score in één tocht om deze uitdaging te voltooien!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468313096192
+    m_Localized: Haal de vereiste score via meerdere tochten om deze uitdaging te voltooien!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468313096193
+    m_Localized: 'Verzamel de vereiste hoeveelheid munten in één tocht om deze uitdaging te voltooien! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468317290496
+    m_Localized: 'Verzamel de vereiste hoeveelheid munten via meerdere tochten om deze uitdaging te voltooien! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468321484800
+    m_Localized: 'Verzamel de vereiste hoeveelheid power-ups in één tocht om deze uitdaging te voltooien! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468321484801
+    m_Localized: Beginner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468334067712
+    m_Localized: Vechter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468342456320
+    m_Localized: Leerling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468346650624
+    m_Localized: Pionier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468350844928
+    m_Localized: Professor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468355039232
+    m_Localized: Legende
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468355039233
+    m_Localized: Uitdaging is afgelopen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468359233536
+    m_Localized: Nieuwe wekelijkse uitdaging!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468359233537
+    m_Localized: Niveau "{0}" voltooid!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468363427840
+    m_Localized: De hierboven verdiende beloningen worden toegevoegd aan je inventaris.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468367622144
+    m_Localized: 'Niets in voorraad: verzamel munten tijdens je tocht en koop daarna via het scherm "Upgrades" in het hoofdmenu.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468371816448
+    m_Localized: Niet beschikbaar tijdens tutorial.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468376010752
+    m_Localized: Niet beschikbaar tijdens het aftellen/de intro van je tocht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468380205056
+    m_Localized: Tijdens een tocht moet je kiezen tussen óf Perma-vleugels, óf Voorsprong óf Mega-voorsprong.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468384399360
+    m_Localized: Dit hulpmiddel werkt alleen aan het begin van je tocht, tussen {0} en {1}m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468384399361
+    m_Localized: Opstandingsvleugels worden opnieuw opgeladen. Opladen duurt nog {0}s.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468388593664
+    m_Localized: 'Opstandings- of Perma-vleugels zijn al van kracht: je kunt ze pas opnieuw activeren als de vleugels zijn uitgewerkt.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468392787968
+    m_Localized: Opstandingsvleugels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468396982272
+    m_Localized: Perma-vleugels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468396982273
+    m_Localized: Voorsprong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468401176576
+    m_Localized: Mega-start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468405370880
+    m_Localized: DIT HULPMIDDEL IS NIET BESCHIKBAAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468409565184
+    m_Localized: Dit apparaat is momenteel offline. Bestaande cloudbestanden zijn niet beschikbaar. Vorderingen in het spel worden mogelijk niet opgeslagen. Als je in iCloud wilt opslaan, moet je ervoor zorgen dat iCloud is ingeschakeld en dat je bij iCloud bent aangemeld.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468413759488
+    m_Localized: Bestaande cloudbestanden zijn niet beschikbaar. De voortgang van het spel wordt lokaal opgeslagen. Als je in iCloud wilt opslaan, moet je ervoor zorgen dat iCloud is ingeschakeld en dat je bij iCloud bent aangemeld.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468417953792
+    m_Localized: Cloudbestand niet beschikbaar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468426342400
+    m_Localized: Niveaus voltooid!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468426342401
+    m_Localized: NIVEAU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468430536704
+    m_Localized: BELONINGEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468430536705
+    m_Localized: 'Volgende uitdaging over:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468434731008
+    m_Localized: 'Je voortgang:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468438925312
+    m_Localized: Afstand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468438925313
+    m_Localized: Munten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468443119616
+    m_Localized: Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468447313920
+    m_Localized: Power-ups
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468447313921
+    m_Localized: Je hebt een controller of afstandsbediening nodig om verder te gaan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468451508224
+    m_Localized: Wekelijkse hoogste score (wordt elke maandag om 12.00 UTC gereset)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468455702528
+    m_Localized: 'Basisfactor:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468455702529
+    m_Localized: 'Geslaagde missies:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468459896832
+    m_Localized: 'Jouw factor:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468459896833
+    m_Localized: GEBOOST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468464091136
+    m_Localized: Volgend Leven over <color=#F6D600>{0}s</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468468285440
+    m_Localized: MUNTEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468468285441
+    m_Localized: OPST.-\nVLEUGELS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468472479744
+    m_Localized: PERMA-\nVLEUGELS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468476674048
+    m_Localized: VOOR-\nSPRONG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468476674049
+    m_Localized: MEGA-\nSPRONG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468480868352
+    m_Localized: LEVEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468480868353
+    m_Localized: SNELLE\nAANVUL.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468485062656
+    m_Localized: '{3}d {2}u {1}m {0}s'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468489256960
+    m_Localized: '{2}d {1}u {0}m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468489256961
+    m_Localized: '{1}u {0}m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468493451264
+    m_Localized: '{0} min'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468497645568
+    m_Localized: '{1}m {0}s'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468497645569
+    m_Localized: '{0}s'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468501839872
+    m_Localized: LEVENS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468501839873
+    m_Localized: Voeg 1 Leven toe, dat wordt gebruikt om jezelf tot leven te wekken en na de dood te blijven doorrennen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468506034176
+    m_Localized: Leven
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468510228480
+    m_Localized: 1 Leven is toegevoegd aan je inventaris.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468510228481
+    m_Localized: Verkort onmiddellijk je "Tijd tot volgende Leven" met 5 minuten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468514422784
+    m_Localized: Direct snel aanvullen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468518617088
+    m_Localized: Er zijn 5 minuten afgetrokken van je "Tijd tot volgende Leven".
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468518617089
+    m_Localized: Niet beschikbaar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468522811392
+    m_Localized: '"Direct snel aanvullen" is niet beschikbaar wanneer je {0} of meer Levens hebt.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468527005696
+    m_Localized: n.v.t.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468527005697
+    m_Localized: Geen netwerkverbinding
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468531200000
+    m_Localized: Teen in het water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468535394304
+    m_Localized: Doe mee aan één wekelijkse uitdaging op basis van "één tocht"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468539588608
+    m_Localized: Meegedaan aan één wekelijkse uitdaging op basis van "één tocht"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468539588609
+    m_Localized: Voet in het water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468543782912
+    m_Localized: Doe mee aan één "cumulatieve" wekelijkse uitdaging
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468547977216
+    m_Localized: Meegedaan aan één "cumulatieve" wekelijkse uitdaging
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468547977217
+    m_Localized: 'SNEL AANVULLEN: {0} per'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468552171520
+    m_Localized: wordt gereset op {1} over {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468552171521
+    m_Localized: Help voor besturing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468556365824
+    m_Localized: Help voor beloningen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468560560128
+    m_Localized: SCORE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468560560129
+    m_Localized: MUNTEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468564754432
+    m_Localized: Voegt extra munten toe aan je inventaris. Besteed ze in het scherm UPGRADES.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468568948736
+    m_Localized: OPSTANDINGSVLEUGELS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468573143040
+    m_Localized: Activeer op elk moment tijdens je tocht om 30 seconden tegen de dood beschermd te zijn. Als je deze vleugels draagt, word je automatisch tot leven gewekt wanneer je doodgaat. Zie OPTIES → "Help voor besturing" voor meer informatie over het activeren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468573143041
+    m_Localized: PERMA-VLEUGELS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468577337344
+    m_Localized: Draag deze speciale vleugels om onmiddellijk tot leven te worden gewekt wanneer je tijdens je tocht voor het eerst doodgaat. Activeer in het pauzemenu tijdens de eerste 100 meter van je tocht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468581531648
+    m_Localized: VOORSPRONG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468581531649
+    m_Localized: Ga onoverwinnelijk 1000 meter vooruit aan het begin van je tocht. Activeer in het pauzemenu tijdens de eerste 100 meter van je tocht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468585725952
+    m_Localized: MEGA-VOORSPRONG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468585725953
+    m_Localized: Ga onoverwinnelijk 2500 meter vooruit aan het begin van je tocht. Activeer in het pauzemenu tijdens de eerste 100 meter van je tocht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468589920256
+    m_Localized: LEVEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468594114560
+    m_Localized: Voegt 1 leven toe aan je inventaris. Je kunt levens opsparen en daarna achter elkaar gebruiken voor een superlange aanval op het klassement!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468594114561
+    m_Localized: SNEL AANVULLEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468598308864
+    m_Localized: Verlaagt de aanvultijd van Levens semi-permanent met de hoeveelheid die onder de beloning wordt weergegeven. Verzamel deze om sneller bij te vullen tot 3 levens, waardoor je vaker langer kunt spelen. Snel Aanvullen-beloningen verlopen elke 4 weken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468602503168
+    m_Localized: Info beloning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468602503169
+    m_Localized: 'Drempel volgend niveau:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468606697472
+    m_Localized: 'Uiteindelijke voortgang:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468610891776
+    m_Localized: Resterende levens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468610891777
+    m_Localized: Muntwaardes volledig geüpgraded!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468615086080
+    m_Localized: '{0}u'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468615086081
+    m_Localized: Ware "dvolharding"betekent 20 keer achter elkaar met je gezicht tegen een boom rennen. Wees een 🏆 kampioen 🏆 – Guy Dangerous, professionele levenscoach.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468619280384
+    m_Localized: Even snel een stukje rennen? Het is ⌛ uren ⌛ sinds ik met mijn gezicht tegen een boom rende. – Guy Dangerous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468623474688
+    m_Localized: Grijp het vervloekte goud! (✨ Het is echt een ding dit seizoen. ✨)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468623474689
+    m_Localized: Gandhi zei "Wees de verandering die je zou willen zien." Ik zeg grijp voor de verandering eens💰💰. Het ligt daar toch maar wat te liggen. – Guy Dangerous, wereldwijd gerespecteerd filosoof.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468627668992
+    m_Localized: Vraag niet hoe het 🔔 klokje 🔔 thuis tikt, vraag hoeveel het klokje waard is en wat je achterna komt als je het pakt! 🏃 💰 – Guy Dangerous, professioneel econoom.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468631863296
+    m_Localized: ⌛ Het leven is kort ⌛ ...Dus prop je zakken vol vervloekt goud en sprint van een klif. – Guy Dangerous, beroemd adviseur.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468631863297
+    m_Localized: 💪 Laat dat gouden afgodsbeeld maar even zien wie de baas is! (Of sprint op zijn minst een paar keer tegen een boom.) – Guy Dangerous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468636057600
+    m_Localized: Wanneer rende jij voor het laatst met topsnelheid tegen een boom? Het wordt weer eens tijd. 🌳 💥
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468640251904
+    m_Localized: 😈 🐒 wE MIsSn Ju 🐒 😈 wOr sNEL WERus GEGEETen – GROEtsELs, DUh DEMOnAAPiEs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468640251905
+    m_Localized: Op snelheid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468644446208
+    m_Localized: Voltooi de tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468644446209
+    m_Localized: Tutorial voltooid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468648640512
+    m_Localized: https://www.imangistudios.com/privacy/eng/NL/privacy-policy-plus.html
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468652834816
+    m_Localized: Privacybeleid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468657029120
+    m_Localized: 'Uitdaging: Collectieve power-ups'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468657029121
+    m_Localized: 'Verzamel de vereiste hoeveelheid power-ups via meerdere tochten om deze uitdaging te voltooien! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468661223424
+    m_Localized: Je iCloud-opslag is vol. Bestaande cloudbestanden zijn niet beschikbaar. Vorderingen in het spel worden mogelijk niet opgeslagen. Als je in iCloud wilt opslaan, moet je iCloud upgraden bij de instellingen of ruimte vrijmaken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468665417728
+    m_Localized: Je iCloud-opslag is vol. Vorderingen in het spel worden lokaal opgeslagen. Als je in iCloud wilt opslaan, moet je iCloud upgraden of ruimte vrijmaken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468665417729
+    m_Localized: Cloud-opslag vol.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468669612032
+    m_Localized: iPhone/iPad:\nOndersteuning voor Bluetooth-controller/toetsenbord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468673806336
+    m_Localized: Krijg toegang tot Tamatoa, de machtigste krijger van heel Samoa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468673806337
+    m_Localized: Tamatoa, de machtigste krijger van heel Samoa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468678000640
+    m_Localized: Krijg toegang tot Simone Davies, de meedogenloze piratenjager!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468682194944
+    m_Localized: Simone Davies, de meedogenloze piratenjager!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468682194945
+    m_Localized: Krijg toegang tot Sigur Frostbeard, de boswachterkampioen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468686389248
+    m_Localized: Sigur Frostbeard, de boswachterkampioen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468686389249
+    m_Localized: Krijg toegang tot "Golden" Guy Dangerous, de vergulde man!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468690583552
+    m_Localized: ' "Golden" Guy Dangerous, de vergulde man!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468694777856
+    m_Localized: Krijg toegang tot Selene Celeste, de curieuze gecrashte astronaut!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468694777857
+    m_Localized: Selene Celeste, de curieuze gecrashte astronaut!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468698972160
+    m_Localized: Krijg toegang tot Edgar Twiggenbottom, skelet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468703166464
+    m_Localized: Edgar Twiggenbottom, skelet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468703166465
+    m_Localized: Krijg toegang tot Queen Astrid, de heerseres van de bevroren woestenij!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468707360768
+    m_Localized: Queen Astrid, de heerseres van de bevroren woestenij!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468711555072
+    m_Localized: Krijg toegang tot Santa, de meester van de Noordpool!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468711555073
+    m_Localized: Santa, de meester van de Noordpool!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468715749376
+    m_Localized: Krijg toegang tot Nidhi Nirmal, Bollywood-superster!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468715749377
+    m_Localized: Nidhi Nirmal, Bollywood-superster!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468719943680
+    m_Localized: Krijg toegang tot Rahi Raja, de beste stuntman van India!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468724137984
+    m_Localized: Rahi Raja, de beste stuntman van India!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468724137985
+    m_Localized: Krijg toegang tot Sara Banyan, de ondeugende Perzische kruidenkenner!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468728332288
+    m_Localized: Sara Banyan, de ondeugende Perzische kruidenkenner!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468732526592
+    m_Localized: Krijg toegang tot Dr. Zenobios, de briljante krankzinnige wetenschapper!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468732526593
+    m_Localized: Dr. Zenobios, de briljante krankzinnige wetenschapper!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468736720896
+    m_Localized: TAMATOA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468740915200
+    m_Localized: SIMONE\nDAVIES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468740915201
+    m_Localized: SIGUR\nVRIESBAARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468745109504
+    m_Localized: GOLDEN\nGUY\n
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468745109505
+    m_Localized: SELENE\nCELESTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468749303808
+    m_Localized: EDGAR\nTWIGGENBOTTOM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468753498112
+    m_Localized: QUEEN\nASTRID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468753498113
+    m_Localized: SANTA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468757692416
+    m_Localized: NIDHI\nNIRMAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468761886720
+    m_Localized: RAHI\nRAJA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468761886721
+    m_Localized: SARA\nBANYAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468766081024
+    m_Localized: DOCTOR\nZENOBIOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496035999744
+    m_Localized: Laden...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496400904192
+    m_Localized: Je hebt munten verdiend!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496409292800
+    m_Localized: Je hebt {0} munten verdiend voor het installeren van gratis apps!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496409292801
+    m_Localized: Gratis munten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496413487104
+    m_Localized: Een korte advertentie bekijken voor {0} munten?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496417681408
+    m_Localized: Bedankt voor het kijken!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496421875712
+    m_Localized: Er zijn {0} munten toegekend! Kom over 12 uur terug voor een nieuwe beloning!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496421875713
+    m_Localized: '[] m tot volgende beloning'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496426070016
+    m_Localized: Gratis opstandingsvleugels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496430264320
+    m_Localized: Een korte advertentie bekijken voor een paar permavleugels?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496430264321
+    m_Localized: Gebruik je opstandingsvleugels tijdens het rennen! Kom over 12 uur terug voor een nieuwe beloning!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496434458624
+    m_Localized: Verdubbel!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496438652928
+    m_Localized: Een korte advertentie bekijken om je munten te verdubbelen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496438652929
+    m_Localized: Je hebt je inkomsten verdubbeld!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496442847232
+    m_Localized: Aankoop mislukt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496447041536
+    m_Localized: Kan geen verbinding maken met iTunes Store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496447041537
+    m_Localized: Een video bekijken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496451235840
+    m_Localized: Vind Temple Run leuk!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496455430144
+    m_Localized: Advertenties inschakelen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496459624448
+    m_Localized: GRATIS speladvertenties
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496459624449
+    m_Localized: Wil je volledig-schermadvertenties inschakelen aan het einde van elk spel en {0} munten ontvangen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496463818752
+    m_Localized: Nee, bedankt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496468013056
+    m_Localized: Schakel advertenties in!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496468013057
+    m_Localized: Vind leuk op Facebook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496472207360
+    m_Localized: Vind Temple Run leuk op Facebook voor {0} GRATIS Munten!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496476401664
+    m_Localized: Volgen op X
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496480595968
+    m_Localized: Volg Temple Run op Twitter voor {0} GRATIS Munten!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496484790272
+    m_Localized: Aanbieding niet beschikbaar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496488984576
+    m_Localized: Deze aanbieding is momenteel niet beschikbaar. Probeer het later nog eens!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496488984577
+    m_Localized: Upgrade-winkel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496501567488
+    m_Localized: Je hebt wat munten verzameld. Je kunt nu je personage in de winkel upgraden om nog hogere scores te halen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496505761792
+    m_Localized: Niet nu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496509956096
+    m_Localized: Bekijk winkel!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496514150400
+    m_Localized: WALLPAPERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496514150401
+    m_Localized: Downloaden...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496518344704
+    m_Localized: Opslaan...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496522539008
+    m_Localized: Wallpaper opgeslagen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496522539009
+    m_Localized: Je wallpaper is opgeslagen in je Afbeeldingengalerij.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496526733312
+    m_Localized: Downloaden mislukt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496530927616
+    m_Localized: Kan dit item niet downloaden. Controleer of je internetverbinding beschikbaar is en probeer het nog eens.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496530927617
+    m_Localized: Krijg toegang tot de Tempelmuur-wallpaper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496535121920
+    m_Localized: Download de Tempelmuur-wallpaper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496539316224
+    m_Localized: Krijg toegang tot de Guy Dangerous-wallpaper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496539316225
+    m_Localized: Download de Guy Dangerous-wallpaper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496543510528
+    m_Localized: Krijg toegang tot de Boosaardige Demoonapen-wallpaper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496547704832
+    m_Localized: Download de Boosaardige Demoonapen-wallpaper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496547704833
+    m_Localized: Krijg toegang tot de Tempelmuur-wallpaper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496551899136
+    m_Localized: Download de Tempelmuur-wallpaper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496556093440
+    m_Localized: Verwijder eindspeladvertenties.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496560287744
+    m_Localized: Eindspeladvertenties verwijderd.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496560287745
+    m_Localized: DOWNLOAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496564482048
+    m_Localized: Wil je GRATIS Munten?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496568676352
+    m_Localized: Bekijk video's of voltooi andere aanbiedingen voor munten in de GRATIS Aanbiedingen-sectie van de Muntenwinkel!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496568676353
+    m_Localized: GRATIS Munten!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496572870656
+    m_Localized: Geen internetverbinding
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496577064960
+    m_Localized: Kan geen verbinding maken met winkel. Controleer of je internetverbinding beschikbaar is.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496577064961
+    m_Localized: Contact leggen met winkel...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496581259264
+    m_Localized: Producten laden...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496585453568
+    m_Localized: '{0} gratis Munten'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496585453569
+    m_Localized: GRATIS AANBIEDINGEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496589647872
+    m_Localized: Geef het een cijfer in de App Store!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496593842176
+    m_Localized: Herinner me er later aan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496593842177
+    m_Localized: Niet meer vragen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496598036480
+    m_Localized: Gebruikersnaam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496602230784
+    m_Localized: Wachtwoord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496602230785
+    m_Localized: 'Ik heb %@ punten gehaald terwijl ik ontsnapte aan demonische apen in Temple Run. Probeer dat maar eens te overtreffen! http://bit.ly/TempleRunGame'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496606425088
+    m_Localized: 'Tweet is mislukt: Controleer je aanmelding of probeer het later opnieuw'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496610619392
+    m_Localized: Vriendmarkeringen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496610619393
+    m_Localized: Voltooi uitdagingsmijlpalen om beloningen te verdienen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496614813696
+    m_Localized: Sluiten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496619008000
+    m_Localized: Globale Uitdaging
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496619008001
+    m_Localized: Cumulatieve afstand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496623202304
+    m_Localized: Score per tocht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496627396608
+    m_Localized: Munten per tocht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496627396609
+    m_Localized: Munten in de tijd gemeten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496631590912
+    m_Localized: Cumulatieve score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496635785216
+    m_Localized: Afstand per tocht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496635785217
+    m_Localized: VERDIEN MEER MUNTEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496639979520
+    m_Localized: Binnenkort meer info...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496644173824
+    m_Localized: Personages
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496644173825
+    m_Localized: Een advertentie bekijken om opnieuw tot leven te komen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496648368128
+    m_Localized: TOEGANKELIJK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496652562432
+    m_Localized: Winkel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496656756736
+    m_Localized: AANKOPEN HERSTELLEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496656756737
+    m_Localized: GEEN ADVERTENTIES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496660951040
+    m_Localized: PRIVACY-INSTELLINGEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496665145344
+    m_Localized: Deel!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496665145345
+    m_Localized: Krijg toegang tot Guy Dangerous, de moedige piloot-avonturier uit de jaren 40
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496669339648
+    m_Localized: Guy Dangerous, de moedige piloot-avonturier uit de jaren 40
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496673533952
+    m_Localized: Krijg toegang tot Scarlett Fox, de sluwe meesterdief uit de jaren 30
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496673533953
+    m_Localized: Scarlett Fox, de sluwe meesterdief uit de jaren 30
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496677728256
+    m_Localized: Krijg toegang tot Barry Bones, de vermetele politieman uit de jaren 80 met een missie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496681922560
+    m_Localized: Barry Bones, de vermetele politieman uit de jaren 80 met een missie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496681922561
+    m_Localized: Krijg toegang tot Karma Lee, een rondreizende prinses en vrijheidsstrijder uit 500 v.Chr.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496686116864
+    m_Localized: Karma Lee, een rondreizende prinses en vrijheidsstrijder uit 500 v. Chr.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496690311168
+    m_Localized: Krijg toegang tot Montana Smith, een bandiet uit het Wilde Westen die uit de jaren 1800 is ontsnapt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496690311169
+    m_Localized: Montana Smith, een bandiet uit het Wilde Westen die uit de jaren 1800 is ontsnapt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496694505472
+    m_Localized: Krijg toegang tot Francisco Montoya, de krankzinnige Spaanse monnik uit de jaren 1500
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496698699776
+    m_Localized: Francisco Montoya, de krankzinnige Spaanse monnik uit de jaren 1500
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496698699777
+    m_Localized: Krijg toegang tot Zack Wonder, voetbalsuperster uit 2004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496702894080
+    m_Localized: Zack Wonder, voetbalsuperster uit 2004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496707088384
+    m_Localized: Krijg toegang tot Simone Davies, Caribische Commodore uit de jaren 1600
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496707088385
+    m_Localized: Simone Davies, Caribische Commodore uit de jaren 1600
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496723865600
+    m_Localized: Krijg toegang tot Edgar Twiggenbottom, de tijdloze hoeder van de velden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496723865601
+    m_Localized: Edgar Twiggenbottom, de tijdloze hoeder van de velden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496728059904
+    m_Localized: Krijg toegang tot Kai Xiang, Shaolin-monnik uit het jaar 500 die op zoek is naar verlossing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496732254208
+    m_Localized: Kai Xiang, Shaolin-monnik uit het jaar 500 die op zoek is naar verlossing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496736448512
+    m_Localized: Krijg toegang tot Carnifex, de boosaardige meesteres van chaos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496736448513
+    m_Localized: Carnifex, de boosaardige meesteres van chaos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496740642816
+    m_Localized: Krijg toegang tot Frost Pirate, de kapitein die de zeeën van 1690 terroriseerde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496744837120
+    m_Localized: Frost Pirate, de kapitein die de zeeën van 1690 terroriseerde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496744837121
+    m_Localized: Krijg toegang tot Wally Nu, de kerstnotenkraker die vreugde verspreidt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496749031424
+    m_Localized: Wally Nu, de kerstnotenkraker die vreugde verspreidt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496753225728
+    m_Localized: Krijg toegang tot Queen Astrid, de plunderende Viking-royalty sinds het jaar 930
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496757420032
+    m_Localized: Queen Astrid, de plunderende Viking-royalty sinds het jaar 930
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496757420033
+    m_Localized: Krijg toegang tot Chronos Timebeard, de tijdloze halfgod die eindeloze verwoestingen aanricht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496761614336
+    m_Localized: Chronos Timebeard, de tijdloze halfgod die eindeloze verwoestingen aanricht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16968939731935232
+    m_Localized: Bedankt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406555136000
+    m_Localized: '{0} tot volgende beloning'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406815182848
+    m_Localized: Haal hogere scores om verder te komen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406823571456
+    m_Localized: '{0} {1} tot volgende beloning'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406823571457
+    m_Localized: punten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406827765760
+    m_Localized: Verzilveren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406827765761
+    m_Localized: Verzilverd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406831960064
+    m_Localized: AAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406836154368
+    m_Localized: UIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406836154369
+    m_Localized: INTERNATIONALE UITDAGING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406840348672
+    m_Localized: Engelenvleugels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406844542976
+    m_Localized: Binnenhuisarchitect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406844542977
+    m_Localized: Krijg toegang tot 3 wallpapers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406848737280
+    m_Localized: Toegang gekregen tot 3 wallpapers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406848737281
+    m_Localized: Starten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406852931584
+    m_Localized: Een advertentie bekijken om verder te gaan?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406857125888
+    m_Localized: Ik heb {0} punten gehaald terwijl ik ontsnapte aan Demoonapen. Verbeter dat maar! {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406857125889
+    m_Localized: Herstel voltooid!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406861320192
+    m_Localized: Gelukt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406865514496
+    m_Localized: Wat is dit? EEN INTERNATIONALE UITDAGING?! Bereid je voor op {0}!!!,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406869708800
+    m_Localized: Beef, stervelingen! {0} IS HIER! Bereid je voor op een nieuwe INTERNATIONALE UITDAGING!!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406869708801
+    m_Localized: Geef niet op! {0} heeft nog steeds prijzen die verzilverd moeten worden!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406873903104
+    m_Localized: Vergeet {0} niet! HET IS JOU NIET VERGETEN.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406878097408
+    m_Localized: We moeten snel zijn! Nog maar {0} voordat {1} verdwijnt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406878097409
+    m_Localized: Blijf rennen! Je hebt {0} om de glorieuze beloningen van {1} te bemachtigen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406882291712
+    m_Localized: Tijd voor een tocht!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406882291713
+    m_Localized: We missen je!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406886486016
+    m_Localized: Aankoop van advertentievrije versie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406890680320
+    m_Localized: Muntaankoop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406890680321
+    m_Localized: Aankoop van advertentievrije versie mislukt. Controleer de internetverbinding en probeer het nog eens.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406894874624
+    m_Localized: Muntaankoop mislukt. Controleer de internetverbinding en probeer het nog eens.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406899068928
+    m_Localized: Aankoop geannuleerd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406899068929
+    m_Localized: Het bericht \"{0}\" kan niet worden verzonden, omdat de verbinding is mislukt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406903263232
+    m_Localized: Opnieuw proberen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406903263233
+    m_Localized: Kan niet delen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406907457536
+    m_Localized: Mislukt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406911651840
+    m_Localized: Sorry, de video kan niet worden afgespeeld.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406911651841
+    m_Localized: Beloning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406915846144
+    m_Localized: Geef opnieuw toestemming voor IAP om de muntenwinkel in te schakelen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406920040448
+    m_Localized: De muntenwinkel is momenteel niet beschikbaar. Neem contact op met support@imangistudios.com voor meer informatie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406920040449
+    m_Localized: '{0} munten toegevoegd'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406924234752
+    m_Localized: Update vereist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406924234753
+    m_Localized: Er is een update nodig om Temple Run te blijven spelen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406928429056
+    m_Localized: Gratis personage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406932623360
+    m_Localized: Nieuwe personages
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406932623361
+    m_Localized: Nieuw avontuur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406936817664
+    m_Localized: Meedoen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406936817665
+    m_Localized: Delen geannuleerd!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406941011968
+    m_Localized: Delen mislukt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406945206272
+    m_Localized: Delen gelukt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406945206273
+    m_Localized: Mijlpaal {0} voltooid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23200394329972736
+    m_Localized: Bedankt voor het bijwerken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23200394455801856
+    m_Localized: 'Bedankt voor het bijwerken van Temple Run! Alsjeblieft: 500 munten cadeau!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23204094888894464
+    m_Localized: 500 Munten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23204095056666624
+    m_Localized: Nee, bedankt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55828746446299136
+    m_Localized: Bedankt voor het downloaden van Temple Run!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355477262336
+    m_Localized: VERKEN HET \n ONBEKENDE MET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355628257280
+    m_Localized: FRANCISCO \n MONTOYA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355636645888
+    m_Localized: GRATIS beschikbaar in Rennerselectie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929317220352
+    m_Localized: Gratis beschikbaar in Rennerselectie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929606627328
+    m_Localized: WORD EEN \n LEGENDE MET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929619210240
+    m_Localized: KARMA LEE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929623404544
+    m_Localized: BEREID JE VOOR \n MET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929627598848
+    m_Localized: ZACK WONDER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929635987456
+    m_Localized: HET DUISTERE PAD \n WACHT MET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929640181760
+    m_Localized: CARNIFEX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929644376064
+    m_Localized: DE KONINGIN \n RENT ALS EERSTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929652764672
+    m_Localized: QUEEN ASTRID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929656958976
+    m_Localized: KRAAK HET \n AVONTUUR \n OPEN MET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929661153280
+    m_Localized: WALLY NUTT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773763731456
+    m_Localized: WORD EEN \n LEGENDE MET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773776314368
+    m_Localized: KARMA LEE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773780508672
+    m_Localized: Gratis beschikbaar in Rennerselectie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126122979169918976
+    m_Localized: BEREID JE VOOR \n MET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126463690687897600
+    m_Localized: BEREID JE VOOR \n MET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126497313759682560
+    m_Localized: ZACK WONDER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126497313763876864
+    m_Localized: Gratis beschikbaar in Rennerselectie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126481317888
+    m_Localized: GOUDKOORTS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126485512192
+    m_Localized: HELEMAAL \nLOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126485512193
+    m_Localized: EEN NIEUW \nBEGIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027824455680
+    m_Localized: PAK DE \nKALKOEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027824455681
+    m_Localized: TEMPELROOF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649984
+    m_Localized: DE LANGSTE \nMIJL!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649985
+    m_Localized: DE RUÏNES \nIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649986
+    m_Localized: VRIJHEIDSTOCHT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649987
+    m_Localized: ZIN IN \nVAKANTIE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844288
+    m_Localized: ZOMERSE \nMARATHON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844289
+    m_Localized: TRICK OR \nTREAT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844290
+    m_Localized: KOUDER DAN \nKOUD!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038592
+    m_Localized: VIND DE \nSCHAT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038593
+    m_Localized: KUN JIJ OVERLEVEN?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038594
+    m_Localized: ERVAAR \nHET SEIZOEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232896
+    m_Localized: GENIET VAN DE \nVAKANTIEPRET!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232897
+    m_Localized: VIND HET \nVERLOREN BEELD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232898
+    m_Localized: KUN JIJ HET VOLHOUDEN?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232899
+    m_Localized: VERKEN HET \nONBEKENDE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427200
+    m_Localized: OH SAY CAN \nYOU SEE?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427201
+    m_Localized: HET IS WEER \nKERST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427202
+    m_Localized: TROTSEER DE \nHITTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027849621504
+    m_Localized: PAK WAT \nSNOEP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027849621505
+    m_Localized: OVERLEEF DE \nVRIESKOU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477794344960
+    m_Localized: Voortgang resetten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477811122176
+    m_Localized: Verbeterde advertentie-ervaring
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316480
+    m_Localized: Toestaan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316481
+    m_Localized: Weigeren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316482
+    m_Localized: Toestemming intrekken?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316483
+    m_Localized: "Je hebt momenteel toestemming gegeven aan Imangi om de advertentie ID van je apparaat te delen met advertentienetwerken voor marketingdoeleinden in het spel.\n\nWeet je zeker dat je de toestemming wilt intrekken?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510784
+    m_Localized: Advertentie-ervaring verbeteren?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510785
+    m_Localized: "Temple Run wordt ondersteund door advertenties. Om deze zo relevant mogelijk te maken, willen we gegevens verzamelen en delen met onze advertentiepartners. Let op dat het kiezen van Nee bedankt de advertenties niet verwijdert; je kunt advertenties zien die niet bij je interesses passen. Je kunt je keuze op elk moment aanpassen in Instellingen.\n\n(Door op JA te tikken wordt het spel gesloten; start opnieuw om de wijzigingen toe te passen)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510786
+    m_Localized: VEROVER DE \nWINTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649416769536
+    m_Localized: ONTSNAP AAN GEVAAR \n MET...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649437741056
+    m_Localized: SCARLETT FOX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649437741057
+    m_Localized: GRATIS in Runner Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202893421137879040
+    m_Localized: GRATIS beschikbaar in de loper-selectie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574259658752
+    m_Localized: BEHEERS JE \n SNELHEID MET...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574322573312
+    m_Localized: KAI XIANG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574322573313
+    m_Localized: GRATIS beschikbaar in de loper-selectie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105925562368
+    m_Localized: BEHEERS JE \n SNELHEID MET...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105938145280
+    m_Localized: BARRY BONES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105938145281
+    m_Localized: GRATIS beschikbaar in de loper-selectie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438307418112
+    m_Localized: NIDHI\nNIRMAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438332583936
+    m_Localized: Krijg toegang tot Nidhi Nirmal, Bollywood-superster!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438332583937
+    m_Localized: Nidhi Nirmal, Bollywood-superster!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984695754752
+    m_Localized: VIER 15 \n JAAR MET...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984729309184
+    m_Localized: NIDHI NIRMAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984729309185
+    m_Localized: GRATIS beschikbaar in de loper-selectie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096434597888
+    m_Localized: WELKOM TERUG!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096451375104
+    m_Localized: VIER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096455569408
+    m_Localized: 15 JAAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096455569409
+    m_Localized: MET 15.000 GRATIS MUNTEN!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228703228063113216
+    m_Localized: Nu claimen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075348025344
+    m_Localized: NOG RENNEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075381579776
+    m_Localized: 15 JAAR LATER...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774080
+    m_Localized: VERJAARDAGSBUIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774081
+    m_Localized: VIER ELKE MUNT!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774082
+    m_Localized: NOG ÉÉN KEER RENNEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774083
+    m_Localized: HOE VER KUN JIJ KOMEN?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412179812352
+    m_Localized: SCHATTEN WACHTEN \n MET...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412196589568
+    m_Localized: FRANCISCO MONTOYA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412196589569
+    m_Localized: GRATIS beschikbaar in de loper-selectie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243860789221384192
+    m_Localized: REN HET \n VELD OP MET...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243860789229772800
+    m_Localized: VRIJDAGAVONDRUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252909526883229696
+    m_Localized: STORM VOORUIT MET…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252909526900006912
+    m_Localized: ZACK WONDER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260263528729927680
+    m_Localized: LEKKER GRIEZELEN \n MET...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260263528746704896
+    m_Localized: EDGAR TWIGGENBOTTOM
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

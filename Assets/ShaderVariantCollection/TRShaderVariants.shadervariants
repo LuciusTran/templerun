@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TRShaderVariants
+  m_Shaders:
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: c313700526776444983f2cb61b5b9cba, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 7a51910fcb310124b8425ec5dcc09cc8, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: 53fa1212a69e6394e8009d09c5d47f2e, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: ddbf32931aab8c542afcc25914f977b2, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 1d84a45bad62620418a58facb879ae62, type: 3}
+    second:
+      variants:
+      - keywords: IMANGI_VERTEXFOG_ON LIGHTMAP_OFF
+        passType: 0
+  - first: {fileID: 4800000, guid: b52e023678dd7d5459a4949dd2b93d8d, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 7a2852f707730da40ac5e302659d9f67, type: 3}
+    second:
+      variants:
+      - keywords: IMANGI_VERTEXFOG_ON
+        passType: 0
+  - first: {fileID: 4800000, guid: e148244608a26ee4da340810e7451a51, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: d1a7cff0171e8c34a96742a3c73d2cea, type: 3}
+    second:
+      variants:
+      - keywords: IMANGI_LIGHTMAP_OFF IMANGI_VERTEXFOG_ON
+        passType: 0

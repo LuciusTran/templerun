@@ -1,0 +1,4003 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: TempleRunLocTable_de
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 0071ada7e6fa56344b4d42c06e5e2bd7, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 306466174001152
+    m_Localized: Nimm das Idol,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466660540416
+    m_Localized: wenn du dich traust!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466681511936
+    m_Localized: Spiel!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466685706240
+    m_Localized: Missionen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466702483456
+    m_Localized: Werte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466706677760
+    m_Localized: Verbesserungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466710872064
+    m_Localized: Optionen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466710872065
+    m_Localized: Speicherplatz wählen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466715066368
+    m_Localized: Wiederbelebungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466719260672
+    m_Localized: Wöchentl. Herausforder.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466723454976
+    m_Localized: Optionen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466723454977
+    m_Localized: Empfind-\nlichkeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466727649280
+    m_Localized: Musik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466731843584
+    m_Localized: Ton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466731843585
+    m_Localized: Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466736037888
+    m_Localized: 'Sprache: Deutsch'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466740232192
+    m_Localized: Speicherstand löschen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466740232193
+    m_Localized: Datenschutzerklärung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466744426496
+    m_Localized: ZURÜCK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466748620800
+    m_Localized: Sprache
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466752815104
+    m_Localized: Pausiert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466752815105
+    m_Localized: 'Punkte:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466757009408
+    m_Localized: 'Distanz:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466761203712
+    m_Localized: 'Münzen:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466765398016
+    m_Localized: 'Multiplikator:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466765398017
+    m_Localized: 'Nächste Mission:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466769592320
+    m_Localized: 'Nächster Rang:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466773786624
+    m_Localized: Hauptmenü
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466773786625
+    m_Localized: Neuer Durchlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466777980928
+    m_Localized: Fortfahren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466782175232
+    m_Localized: Neuer Durchlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466782175233
+    m_Localized: Du verlierst deinen Fortschritt! Möchtest du wirklich einen neuen Durchlauf starten?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466786369536
+    m_Localized: Durchlauf beenden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466790563840
+    m_Localized: Du verlierst deinen Fortschritt! Möchtest du den Durchlauf wirklich beenden?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466790563841
+    m_Localized: Nein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466794758144
+    m_Localized: Ja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466798952448
+    m_Localized: Durchlauf fortsetzen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466803146752
+    m_Localized: Nächste Wiederbelebung in <color=#F6D600>{0} m {1} s</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466803146753
+    m_Localized: Wiederbelebung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466807341056
+    m_Localized: Durchlauf beenden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466811535360
+    m_Localized: VOLL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466815729664
+    m_Localized: Werte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466815729665
+    m_Localized: 'Multiplikator:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466819923968
+    m_Localized: '{0}x'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466824118272
+    m_Localized: Einzelner Durchlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466824118273
+    m_Localized: 'Höchste Punktezahl:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466828312576
+    m_Localized: 'Längster Durchlauf:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466832506880
+    m_Localized: '{0} m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466832506881
+    m_Localized: 'Die meisten Münzen:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466836701184
+    m_Localized: mit Wiederbelebung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466840895488
+    m_Localized: Insgesamt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466840895489
+    m_Localized: 'Durchläufe insg.:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466845089792
+    m_Localized: 'Distanz insg.:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466849284096
+    m_Localized: 'Münzen insg.:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466853478400
+    m_Localized: Verbesserungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466853478401
+    m_Localized: POWER-UPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466857672704
+    m_Localized: Unbekannt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466861867008
+    m_Localized: Aktiviert das Power-up „50 Münzen“.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466861867009
+    m_Localized: Erhöht Megamünzen auf 75 Münzen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466866061312
+    m_Localized: Erhöht Megamünzen auf 100 Münzen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466870255616
+    m_Localized: Erhöht Megamünzen auf 125 Münzen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466870255617
+    m_Localized: Erhöht Megamünzen auf 150 Münzen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466874449920
+    m_Localized: Ermöglicht die Deaktivierung von Megamünzen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466878644224
+    m_Localized: Megamünzen maximal verbessert!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466878644225
+    m_Localized: Megamünzen sind deaktiviert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466882838528
+    m_Localized: VERBESSERN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466887032832
+    m_Localized: GRATIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466887032833
+    m_Localized: AKTIVIEREN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466891227136
+    m_Localized: DEAKTIVIEREN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466895421440
+    m_Localized: Aktiviert das Power-up „Münzmagnet“.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466895421441
+    m_Localized: Sorgt dafür, dass Münzmagnet länger dauert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466899615744
+    m_Localized: Münzmagnet verdoppelt den Münzwert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466899615745
+    m_Localized: Sorgt dafür, dass Münzmagnet länger dauert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466903810048
+    m_Localized: Münzmagnet verdreifacht den Münzwert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466908004352
+    m_Localized: Ermöglicht die Deaktivierung von Münzmagnet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466912198656
+    m_Localized: Münzmagnet maximal verbessert!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466912198657
+    m_Localized: Münzmagnet ist deaktiviert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466916392960
+    m_Localized: Aktiviert das Power-up „Unsichtbarkeit“.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466920587264
+    m_Localized: Sorgt dafür, dass Unsichtbarkeit länger dauert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466920587265
+    m_Localized: Ermöglicht die Deaktivierung von Unsichtbarkeit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466924781568
+    m_Localized: Unsichtbarkeit maximal verbessert!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466928975872
+    m_Localized: Ermöglicht die Deaktivierung von Unsichtbarkeit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466928975873
+    m_Localized: Aktiviert das Power-up „250-m-Boost“.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466933170176
+    m_Localized: Erweitert den Boost auf 375 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466937364480
+    m_Localized: Erweitert den Boost auf 500 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466937364481
+    m_Localized: Erweitert den Boost auf 625 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466941558784
+    m_Localized: Erweitert den Boost auf 750 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466945753088
+    m_Localized: Ermöglicht die Deaktivierung des Boosts.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466949947392
+    m_Localized: Boost maximal verbessert!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466949947393
+    m_Localized: Boost ist deaktiviert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466954141696
+    m_Localized: Doppelter Münzwert nach {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466958336000
+    m_Localized: Doppelter Münzwert nach {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466958336001
+    m_Localized: Doppelter Münzwert nach {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466962530304
+    m_Localized: Dreifacher Münzwert nach {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466966724608
+    m_Localized: Dreifacher Münzwert nach {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466966724609
+    m_Localized: Dreifacher Münzwert nach {0} m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466970918912
+    m_Localized: MAXIMAL VERBESSERT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466975113216
+    m_Localized: NÜTZLICHES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466975113217
+    m_Localized: Bei Aktivierung wirst du nach dem Tod sofort wiederbelebt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466979307520
+    m_Localized: EINMALIGE BENUTZUNG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466983501824
+    m_Localized: Wiederauferstehung flügel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466983501825
+    m_Localized: 'Tippe bei einem Durchlauf zweimal auf den Bildschirm, um die Wiederauf.-Flügel zu aktivieren, oder wähle sie über das Pausenmenü. Sie halten 30 Sek. lang an. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466987696128
+    m_Localized: 'Halte bei einem Durchlauf die Touch-Oberfläche 1 Sek. lang gedrückt, um die Wiederauf.-Flügel zu aktivieren, oder wähle sie über das Pausenmenü. Sie halten 30 Sek. lang an. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466987696129
+    m_Localized: 'Drücke bei einem Durchlauf die obere Taste (Y/△) auf dem Controller, um die Wiederauf.-Flügel zu aktivieren, oder wähle sie über das Pausenmenü. Sie halten 30 Sek. lang an. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466991890432
+    m_Localized: 'Drücke bei einem Durchlauf die [R]-Taste, um die Wiederauf.-Flügel zu aktivieren, oder wähle sie über das Pausenmenü. Sie halten 30 Sek. lang an. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466996084736
+    m_Localized: Okay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466996084737
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467000279040
+    m_Localized: Wiederauferstehungs-\nflügel, die permanent aktiv sind.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467004473344
+    m_Localized: Permaflügel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467004473345
+    m_Localized: Pausiere das Spiel und wähle vor einem Durchlauf die Permaflügel aus, um sie zu aktivieren. Wenn du stirbst, wirst du automatisch wiederbelebt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467008667648
+    m_Localized: Genieße zu Beginn des Spiels einen Vorsprung von 1.000 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467012861952
+    m_Localized: Vorsprung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467012861953
+    m_Localized: Pausiere das Spiel und wähle vor einem Durchlauf den Vorsprung aus, um sofort 1.000 m voranzukommen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467017056256
+    m_Localized: Genieße zu Beginn des Spiels einen Mega-Boost von 2.500 m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467021250560
+    m_Localized: Mega-Vorsprung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467025444864
+    m_Localized: Pausiere das Spiel und wähle vor einem Durchlauf den Mega-Vorsprung aus, um sofort 2.500 m voranzukommen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467025444865
+    m_Localized: CHARAKTERE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467029639168
+    m_Localized: MOMENTAN AKTIV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467033833472
+    m_Localized: AKTIVIEREN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467033833473
+    m_Localized: FREISCHALTEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467038027776
+    m_Localized: Schaltet Guy Dangerous frei – einen ganz normalen Entdecker.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467042222080
+    m_Localized: Schaltet Scarlett Fox frei – die clevere Entfesslungskünstlerin.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467042222081
+    m_Localized: Schaltet Barry Bones frei – einen arroganten Stadtpolizisten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467046416384
+    m_Localized: Schaltet Karma Lee frei – die schnellsten Beine im fernen Osten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467050610688
+    m_Localized: Schaltet Montana Smith frei – den zweitberühmtesten Entdecker.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467050610689
+    m_Localized: Schaltet Francisco Montoya frei – den Konquistador.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467054804992
+    m_Localized: Schaltet Zack Wonder frei – den Football-Star.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467058999296
+    m_Localized: Guy Dangerous, ein ganz normaler Entdecker.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467058999297
+    m_Localized: Scarlett Fox, die clevere Entfesslungskünstlerin.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467063193600
+    m_Localized: Barry Bones, ein arroganter Polizist aus der Stadt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467067387904
+    m_Localized: Karma Lee, die schnellsten Beine im fernen Osten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467067387905
+    m_Localized: Montana Smith, der zweitberühmteste Entdecker.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467071582208
+    m_Localized: Francisco Montoya, der Konquistador.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467075776512
+    m_Localized: Zack Wonder, der Football-Star.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467075776513
+    m_Localized: NICHT GENUG MÜNZEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467079970816
+    m_Localized: Sammle bei Durchläufen Münzen und gib sie hier aus!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467084165120
+    m_Localized: Anfrage fehlgeschlagen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467084165121
+    m_Localized: Die Anfrage konnte nicht ausgeführt werden. Bitte versuche es später erneut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467088359424
+    m_Localized: Rekord!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467092553728
+    m_Localized: Wische, um dich zu drehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467092553729
+    m_Localized: Wische, um dich zu drehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467096748032
+    m_Localized: Wische, um dich zu drehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467100942336
+    m_Localized: Wische, um zu springen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467100942337
+    m_Localized: Wische, um zu rutschen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467105136640
+    m_Localized: Kippe, um Münzen zu sammeln
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467105136641
+    m_Localized: Kippe, um Münzen zu sammeln
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467113525248
+    m_Localized: Kippe, um Münzen zu sammeln
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467113525249
+    m_Localized: Wische, um dich zu drehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467117719552
+    m_Localized: Wische, um dich zu drehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467121913856
+    m_Localized: Wische, um dich zu drehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467121913857
+    m_Localized: Wische aufwärts, um zu springen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467126108160
+    m_Localized: Wische abwärts, um zu rutschen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467130302464
+    m_Localized: Wische, um Münzen zu sammeln
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467130302465
+    m_Localized: Wische, um Münzen zu sammeln
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467134496768
+    m_Localized: Wische, um Münzen zu sammeln
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467138691072
+    m_Localized: Steuerkreuz links
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467138691073
+    m_Localized: Steuerkreuz rechts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467142885376
+    m_Localized: Steuerkreuz links/rechts, um dich zu drehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467142885377
+    m_Localized: Aufwärts, um zu springen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467147079680
+    m_Localized: Abwärts, um zu rutschen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467151273984
+    m_Localized: Links, um Münzen zu sammeln
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467155468288
+    m_Localized: Rechts, um Münzen zu sammeln
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467155468289
+    m_Localized: Links/Rechts, um Münzen zu sammeln
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467159662592
+    m_Localized: Linker Pfeil, um dich zu drehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467163856896
+    m_Localized: Rechter Pfeil, um dich zu drehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467163856897
+    m_Localized: Linker/rechter Pfeil, um dich zu drehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467168051200
+    m_Localized: Aufwärts, um zu springen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467172245504
+    m_Localized: Abwärts, um zu rutschen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467172245505
+    m_Localized: Links, um Münzen zu sammeln
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467176439808
+    m_Localized: Rechts, um Münzen zu sammeln
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467180634112
+    m_Localized: Links/Rechts, um Münzen zu sammeln
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467180634113
+    m_Localized: Füll die Anzeige und erhalte Bonuspunkte!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467184828416
+    m_Localized: Gut gemacht!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467189022720
+    m_Localized: Du bist bereit! Viel Glück!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467189022721
+    m_Localized: Verbindung zu einem Controller hergestellt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467193217024
+    m_Localized: Verbindung zu einem Controller getrennt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467197411328
+    m_Localized: Aktiviere nützliche Objekte über das Pausenmenü.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467197411329
+    m_Localized: Steuerung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467201605632
+    m_Localized: Berühren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467205799936
+    m_Localized: Siri Remote
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467205799937
+    m_Localized: Fernbedienung (Gen. 2)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467209994240
+    m_Localized: Controller
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467209994241
+    m_Localized: Tastatur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467214188544
+    m_Localized: 'Nach links drehen:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467218382848
+    m_Localized: 'Nach rechts drehen:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467218382849
+    m_Localized: 'Nach links bewegen, um Münzen zu nehmen:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467222577152
+    m_Localized: 'Nach rechts bewegen, um Münzen zu nehmen:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467226771456
+    m_Localized: 'Springen:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467226771457
+    m_Localized: 'Rutschen:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467230965760
+    m_Localized: 'Pausenmenü:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467235160064
+    m_Localized: Nützliches fürs Spiel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467235160065
+    m_Localized: 'Wiederauferstehungs-\nflügel (30 s):'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467239354368
+    m_Localized: Nützliches beim Spielbeginn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467243548672
+    m_Localized: 'Vorsprung:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467243548673
+    m_Localized: 'Mega-Vorsprung:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467247742976
+    m_Localized: 'Permaflügel:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467251937280
+    m_Localized: Nach links wischen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467251937281
+    m_Localized: Nach rechts wischen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467256131584
+    m_Localized: Aufwärts wischen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467260325888
+    m_Localized: Abwärts wischen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467264520192
+    m_Localized: Nach links kippen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467264520193
+    m_Localized: Nach rechts kippen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467268714496
+    m_Localized: Auf Pausesymbol tippen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467272908800
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467272908801
+    m_Localized: Während Durchlauf zweimal auf Bildschirm tippen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467277103104
+    m_Localized: oder pausieren und „Wiederauf.-Flügel“ im Menü auswählen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467281297408
+    m_Localized: Nach Beginn des Countdowns pausieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467281297409
+    m_Localized: und „Vorsprung“ im Menü auswählen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467285491712
+    m_Localized: Nach Beginn des Countdowns pausieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467289686016
+    m_Localized: und „Mega-Vorsprung“ im Menü auswählen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467289686017
+    m_Localized: Nach Beginn des Countdowns pausieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467293880320
+    m_Localized: und „Permaflügel“ im Menü auswählen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467298074624
+    m_Localized: Nach links wischen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467298074625
+    m_Localized: Nach rechts wischen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467302268928
+    m_Localized: Aufwärts wischen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467302268929
+    m_Localized: Abwärts wischen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467306463232
+    m_Localized: Nach links wischen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467310657536
+    m_Localized: Nach rechts wischen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467310657537
+    m_Localized: Pause-Schaltfläche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467314851840
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467319046144
+    m_Localized: Touch-Oberfläche gedrückt halten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467323240448
+    m_Localized: oder pausieren und „Wiederauf.-Flügel“ im Menü auswählen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467323240449
+    m_Localized: Nach Beginn des Countdowns pausieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467327434752
+    m_Localized: und „Vorsprung“ im Menü auswählen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467331629056
+    m_Localized: Nach Beginn des Countdowns pausieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467331629057
+    m_Localized: und „Mega-Vorsprung“ im Menü auswählen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467335823360
+    m_Localized: Nach Beginn des Countdowns pausieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467335823361
+    m_Localized: und „Permaflügel“ im Menü auswählen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467340017664
+    m_Localized: D-Pad/Stick ←/L1(LB)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467344211968
+    m_Localized: D-Pad/Stick →/R1(RB)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467344211969
+    m_Localized: Steuerkreuz/Stick ↑ oder A/×
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467348406272
+    m_Localized: Steuerkreuz/Stick ↓ oder X/□
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467352600576
+    m_Localized: Steuerkreuz/Stick ←
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467352600577
+    m_Localized: Steuerkreuz/Stick →
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467356794880
+    m_Localized: Start-/Menü-/Options-Taste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467360989184
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467360989185
+    m_Localized: Y/△ oder pausieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467365183488
+    m_Localized: und „Wiederauf.-Flügel“ im Menü auswählen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467365183489
+    m_Localized: Nach Beginn des Countdowns pausieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467369377792
+    m_Localized: und „Vorsprung“ im Menü auswählen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467373572096
+    m_Localized: Nach Beginn des Countdowns pausieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467373572097
+    m_Localized: und „Mega-Vorsprung“ im Menü auswählen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467377766400
+    m_Localized: Nach Beginn des Countdowns pausieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467381960704
+    m_Localized: und „Permaflügel“ im Menü auswählen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467381960705
+    m_Localized: '[←] oder [A]-Taste'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467386155008
+    m_Localized: '[→] oder [D]-Taste'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467390349312
+    m_Localized: '[↑] oder [W]-Taste'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467390349313
+    m_Localized: '[↓] oder [S]-Taste'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467394543616
+    m_Localized: '[←] oder [A]-Taste'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467394543617
+    m_Localized: '[→] oder [D]-Taste'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467398737920
+    m_Localized: '[ESC]-Taste'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467402932224
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467407126528
+    m_Localized: '[R]-Taste oder pausieren'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467407126529
+    m_Localized: und „Wiederauf.-Flügel“ im Menü auswählen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467411320832
+    m_Localized: Nach Beginn des Countdowns pausieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467415515136
+    m_Localized: und „Vorsprung“ im Menü auswählen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467415515137
+    m_Localized: Nach Beginn des Countdowns pausieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467419709440
+    m_Localized: und „Mega-Vorsprung“ im Menü auswählen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467423903744
+    m_Localized: Nach Beginn des Countdowns pausieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467423903745
+    m_Localized: und „Permaflügel“ im Menü auswählen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467428098048
+    m_Localized: Missionen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467428098049
+    m_Localized: Teilnahmetrophäe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467432292352
+    m_Localized: Nimm an 1 wöchentlichen Herausforderung teil.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467436486656
+    m_Localized: Du hast an 1 wöchentlichen Herausforderung teilgenommen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467436486657
+    m_Localized: Nachwuchstalent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467440680960
+    m_Localized: Nimm an 5 wöchentlichen Herausforderungen teil.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467444875264
+    m_Localized: Du hast an 5 wöchentlichen Herausforderungen teilgenommen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467444875265
+    m_Localized: Startalent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467449069568
+    m_Localized: Nimm an 10 wöchentlichen Herausforderungen teil.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467453263872
+    m_Localized: Du hast an 10 wöchentlichen Herausforderungen teilgenommen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467453263873
+    m_Localized: Fleißiger Teilnehmer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467457458176
+    m_Localized: Erreiche bei 1 wöchentlichen Herausforderung den Rang „Legende“.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467457458177
+    m_Localized: Du hast bei 1 wöchentlichen Herausforderung den Rang „Legende“ erreicht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467461652480
+    m_Localized: 'Im Element '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467465846784
+    m_Localized: Erreiche bei 2 wöchentlichen Herausforderungen den Rang „Legende“.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467465846785
+    m_Localized: Du hast bei 2 wöchentlichen Herausforderungen den Rang „Legende“ erreicht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467470041088
+    m_Localized: Weltweiter Herausforderer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467474235392
+    m_Localized: Erreiche bei 3 wöchentlichen Herausforderungen den Rang „Legende“.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467478429696
+    m_Localized: Du hast bei 3 wöchentlichen Herausforderungen den Rang „Legende“ erreicht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467478429697
+    m_Localized: Berühmtheit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467482624000
+    m_Localized: Erreiche bei 4 wöchentlichen Herausforderungen den Rang „Legende“.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467486818304
+    m_Localized: Du hast bei 4 wöchentlichen Herausforderungen den Rang „Legende“ erreicht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467486818305
+    m_Localized: 'Komplettist   '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467491012608
+    m_Localized: Erreiche bei 5 wöchentlichen Herausforderungen den Rang „Legende“.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467499401216
+    m_Localized: Du hast bei 5 wöchentlichen Herausforderungen den Rang „Legende“ erreicht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467503595520
+    m_Localized: Weiter so!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467507789824
+    m_Localized: Benutze 1 „Wiederbelebung“ in einem einzelnen Durchlauf.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467507789825
+    m_Localized: Du hast 1 „Wiederbelebung“ in einem einzelnen Durchlauf benutzt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467511984128
+    m_Localized: Noch ein kleines Stück!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467516178432
+    m_Localized: Benutze 2 „Wiederbelebungen“ in einem einzelnen Durchlauf.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467516178433
+    m_Localized: Du hast 2 „Wiederbelebungen“ in einem einzelnen Durchlauf benutzt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467520372736
+    m_Localized: Fast geschafft!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467524567040
+    m_Localized: Benutze 3 „Wiederbelebungen“ in einem einzelnen Durchlauf.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467524567041
+    m_Localized: Du hast 3 „Wiederbelebungen“ in einem einzelnen Durchlauf benutzt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467528761344
+    m_Localized: Aufsteiger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467532955648
+    m_Localized: Komme unter die besten 10 auf der Bestenliste.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467532955649
+    m_Localized: Du bist unter die besten 10 auf der Bestenliste gekommen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467537149952
+    m_Localized: Ganz oben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467541344256
+    m_Localized: Komme unter die besten 5 auf der Bestenliste.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467541344257
+    m_Localized: Du bist unter die besten 5 auf der Bestenliste gekommen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467545538560
+    m_Localized: Einsteiger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467549732864
+    m_Localized: Laufe 500 Meter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467549732865
+    m_Localized: Du bist 500 Meter gelaufen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467553927168
+    m_Localized: Taschengeld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467553927169
+    m_Localized: Sammle 100 Münzen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467558121472
+    m_Localized: Du hast 100 Münzen gesammelt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467562315776
+    m_Localized: Abenteurer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467562315777
+    m_Localized: Erziele 25.000 Punkte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467566510080
+    m_Localized: Du hast 25.000 Punkte erzielt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467570704384
+    m_Localized: Sprinter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467570704385
+    m_Localized: Laufe 1.000 Meter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467574898688
+    m_Localized: Du bist 1.000 Meter gelaufen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467579092992
+    m_Localized: Keine Kohle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467583287296
+    m_Localized: Laufe 500 Meter, ohne Münzen zu sammeln.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467583287297
+    m_Localized: Du bist 500 Meter gelaufen, ohne Münzen zu sammeln.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467587481600
+    m_Localized: Sparschwein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467591675904
+    m_Localized: Sammle 250 Münzen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467591675905
+    m_Localized: Du hast 250 Münzen gesammelt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467595870208
+    m_Localized: Schatzjäger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467600064512
+    m_Localized: Erziele 50.000 Punkte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467600064513
+    m_Localized: Du hast 50.000 Punkte erzielt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467604258816
+    m_Localized: Mega-Bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467604258817
+    m_Localized: Fülle die Bonus-Anzeige 4-mal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467608453120
+    m_Localized: Du hast die Bonus-Anzeige 4-mal gefüllt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467612647424
+    m_Localized: Athlet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467612647425
+    m_Localized: Laufe 2.500 Meter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467616841728
+    m_Localized: Du bist 2.500 Meter gelaufen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467621036032
+    m_Localized: Pauschalsumme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467621036033
+    m_Localized: Sammle 500 Münzen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467625230336
+    m_Localized: Du hast 500 Münzen gesammelt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467629424640
+    m_Localized: Wiederauferstehung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467629424641
+    m_Localized: Benutze die Wiederauferstehung flügel in einem Spiel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467633618944
+    m_Localized: Du hast die Wiederauferstehung flügel in einem Spiel benutzt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467637813248
+    m_Localized: Grundlegende Kräfte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467642007552
+    m_Localized: Alle Power-ups der Stufe 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467642007553
+    m_Localized: Alle Power-ups der Stufe 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467646201856
+    m_Localized: Überflieger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467646201857
+    m_Localized: Erziele 100.000 Punkte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467650396160
+    m_Localized: Du hast 100.000 Punkte erzielt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467654590464
+    m_Localized: Zahltag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467654590465
+    m_Localized: Sammle 750 Münzen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467658784768
+    m_Localized: Du hast 750 Münzen gesammelt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467662979072
+    m_Localized: Vorsprung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467662979073
+    m_Localized: Nutze einen Vorsprung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467667173376
+    m_Localized: Du hast einen Vorsprung genutzt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467671367680
+    m_Localized: Gut auf den Füßen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467671367681
+    m_Localized: Laufe 2.500 Meter, ohne zu fallen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467675561984
+    m_Localized: Du bist 2.500 Meter gelaufen, ohne zu fallen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467679756288
+    m_Localized: Goldallergie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467683950592
+    m_Localized: Laufe 1.000 Meter, ohne Münzen zu sammeln.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467683950593
+    m_Localized: Du bist 1.000 Meter gelaufen, ohne Münzen zu sammeln.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467688144896
+    m_Localized: 5.000-Meter-Läufer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467692339200
+    m_Localized: Laufe 5.000 Meter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467692339201
+    m_Localized: Du bist 5.000 Meter gelaufen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467696533504
+    m_Localized: Auf keinen Fall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467700727808
+    m_Localized: Laufe 5.000 Meter, ohne zu fallen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467700727809
+    m_Localized: Du bist 5.000 Meter gelaufen, ohne zu fallen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467704922112
+    m_Localized: Viertelmillion-Club
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467709116416
+    m_Localized: Erziele 250.000 Punkte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467709116417
+    m_Localized: Du hast 250.000 Punkte erzielt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467713310720
+    m_Localized: Doppelte Wiederaufer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467717505024
+    m_Localized: Benutze die Wiederauferstehung flügel zweimal in einem Durchlauf.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467717505025
+    m_Localized: Du hast die Wiederauferstehung flügel zweimal in einem Durchlauf benutzt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467721699328
+    m_Localized: Geldsack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467721699329
+    m_Localized: Sammle 1.000 Münzen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467725893632
+    m_Localized: Du hast 1.000 Münzen gesammelt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467730087936
+    m_Localized: Halbe-Million-Club
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467730087937
+    m_Localized: Erziele 500.000 Punkte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467734282240
+    m_Localized: Du hast 500.000 Punkte erzielt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467738476544
+    m_Localized: Mächtig gewaltig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467738476545
+    m_Localized: Alle Power-ups der Stufe 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467742670848
+    m_Localized: Alle Power-ups der Stufe 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467746865152
+    m_Localized: Dynamisches Duo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467751059456
+    m_Localized: Schalte zwei Charaktere frei.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467751059457
+    m_Localized: Du hast zwei Charaktere freigeschaltet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467755253760
+    m_Localized: Million-Club
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467759448064
+    m_Localized: Erziele 1.000.000 Punkte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467759448065
+    m_Localized: Du hast 1.000.000 Punkte erzielt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467763642368
+    m_Localized: Geldspeicher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467763642369
+    m_Localized: Sammle 2.500 Münzen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467767836672
+    m_Localized: Du hast 2.500 Münzen gesammelt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467772030976
+    m_Localized: Fantastische Vier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467772030977
+    m_Localized: Schalte vier Charaktere frei.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467776225280
+    m_Localized: Du hast vier Charaktere freigeschaltet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467780419584
+    m_Localized: Sagenhafte Sechs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467784613888
+    m_Localized: Schalte sechs Charaktere frei.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467784613889
+    m_Localized: Du hast sechs Charaktere freigeschaltet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467788808192
+    m_Localized: 10.000-Meter-Läufer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467793002496
+    m_Localized: Laufe 10.000 Meter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467793002497
+    m_Localized: Du bist 10.000 Meter gelaufen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467797196800
+    m_Localized: Fort Knox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467797196801
+    m_Localized: Sammle 5.000 Münzen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467801391104
+    m_Localized: Du hast 5.000 Münzen gesammelt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467805585408
+    m_Localized: 2.500.000-Club
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467805585409
+    m_Localized: Erziele 2.500.000 Punkte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467809779712
+    m_Localized: Du hast 2.500.000 Punkte erzielt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467813974016
+    m_Localized: Fünf-Millionen-Club
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467818168320
+    m_Localized: Erziele 5.000.000 Punkte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467818168321
+    m_Localized: Du hast 5.000.000 Punkte erzielt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467822362624
+    m_Localized: Spartaner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467826556928
+    m_Localized: Schaffe 1 Million ohne Power-ups.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467826556929
+    m_Localized: Du hast 1 Million ohne Power-ups geschafft.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467830751232
+    m_Localized: Zehn-Millionen-Club
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467834945536
+    m_Localized: Erziele 10.000.000 Punkte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467834945537
+    m_Localized: Du hast 10.000.000 Punkte erzielt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467839139840
+    m_Localized: Tempelläufer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467843334144
+    m_Localized: Spiele mehr als 1.000 Durchläufe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467843334145
+    m_Localized: Du hast mehr als 1.000 Durchläufe gespielt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467847528448
+    m_Localized: Nachwuchs-Gräber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467851722752
+    m_Localized: 100.000 Münzen insgesamt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467851722753
+    m_Localized: 100.000 Münzen insgesamt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467855917056
+    m_Localized: Marathonläufer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467860111360
+    m_Localized: 100.000 Meter insgesamt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467860111361
+    m_Localized: 100.000 Meter insgesamt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467864305664
+    m_Localized: Profi-Tempelläufer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467864305665
+    m_Localized: Spiele mehr als 5.000 Durchläufe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467868499968
+    m_Localized: Du hast mehr als 5.000 Durchläufe gespielt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467872694272
+    m_Localized: Goldgräber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467876888576
+    m_Localized: 500.000 Münzen insgesamt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467881082880
+    m_Localized: 500.000 Münzen insgesamt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467881082881
+    m_Localized: Weltumläufer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467885277184
+    m_Localized: 1.000.000 Meter insgesamt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467885277185
+    m_Localized: 1.000.000 Meter insgesamt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467889471488
+    m_Localized: Magnetgräber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467893665792
+    m_Localized: 5 Magneten in einem Durchlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467893665793
+    m_Localized: 5 Magneten in einem Durchlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467897860096
+    m_Localized: Münzenspringer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467902054400
+    m_Localized: 5 Münz-Power-ups in einem Durchlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467902054401
+    m_Localized: 5 Münz-Power-ups in einem Durchlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467906248704
+    m_Localized: Unsichtbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467906248705
+    m_Localized: 5-mal in einem Durchlauf unsichtbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467910443008
+    m_Localized: 5-mal in einem Durchlauf unsichtbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467914637312
+    m_Localized: Boosterserie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467914637313
+    m_Localized: 5 Boosts in einem Durchlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467918831616
+    m_Localized: 5 Boosts in einem Durchlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467923025920
+    m_Localized: Magnetische Persönlichkeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467923025921
+    m_Localized: 10 Magneten in einem Spiel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467927220224
+    m_Localized: 10 Magneten in einem Spiel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467931414528
+    m_Localized: Goldexplosion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467931414529
+    m_Localized: 10 Münz-Power-ups in einem Durchlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467935608832
+    m_Localized: 10 Münz-Power-ups in einem Durchlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467939803136
+    m_Localized: Unschlagbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467939803137
+    m_Localized: 10-mal in einem Durchlauf unsichtbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467943997440
+    m_Localized: 10-mal in einem Durchlauf unsichtbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467943997441
+    m_Localized: Geschwindig.-dämon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467948191744
+    m_Localized: 10 Boosts in einem Durchlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467952386048
+    m_Localized: 10 Boosts in einem Durchlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467952386049
+    m_Localized: Anziehungskraft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467956580352
+    m_Localized: 20 Magneten in einem Durchlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467960774656
+    m_Localized: 20 Magneten in einem Durchlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467960774657
+    m_Localized: Goldener Gott
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467964968960
+    m_Localized: 20 Münz-Power-ups in einem Durchlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467969163264
+    m_Localized: 20 Münz-Power-ups in einem Durchlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467969163265
+    m_Localized: Unbesiegbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467973357568
+    m_Localized: 20-mal in einem Durchlauf unsichtbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467973357569
+    m_Localized: 20-mal in einem Durchlauf unsichtbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467977551872
+    m_Localized: Raketentempo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467981746176
+    m_Localized: 20 Boosts in einem Durchlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467985940480
+    m_Localized: 20 Boosts in einem Durchlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467985940481
+    m_Localized: Megaläufer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467990134784
+    m_Localized: Spiele mehr als 10.000 Durchläufe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467994329088
+    m_Localized: Du hast mehr als 10.000 Durchläufe gespielt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467994329089
+    m_Localized: Die Gabe des Midas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467998523392
+    m_Localized: 1.000.000 Münzen insgesamt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467998523393
+    m_Localized: 1.000.000 Münzen insgesamt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468002717696
+    m_Localized: Unendlichläufer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468006912000
+    m_Localized: 10.000.000 Meter insgesamt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468006912001
+    m_Localized: 10.000.000 Meter insgesamt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468011106304
+    m_Localized: Erneut laufen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468015300608
+    m_Localized: Verbesserungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468019494912
+    m_Localized: Deine beste Punktezahl!!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468019494913
+    m_Localized: Einfach unerklärlich!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468023689216
+    m_Localized: Der uralte Tanz des Todes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468027883520
+    m_Localized: Du bist tödlich gestürzt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468027883521
+    m_Localized: Aaaaaaaah!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468032077824
+    m_Localized: Du bist tödlich gestürzt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468036272128
+    m_Localized: Aber ich habe Höhenangst!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468036272129
+    m_Localized: Ende Gelände ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468040466432
+    m_Localized: Vorsicht an der Kante.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468044660736
+    m_Localized: KNAPP daneben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468044660737
+    m_Localized: Nicht schon wieder!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468048855040
+    m_Localized: Diesen Sicherheitsverstoß melde ich!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468053049344
+    m_Localized: Ich hätte fliegen lernen sollen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468053049345
+    m_Localized: Und tschüs!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468057243648
+    m_Localized: Wie gut, dass ich den Helm aufhabe!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468061437952
+    m_Localized: Du warst ein leckerer Happen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468061437953
+    m_Localized: Mahlzeit!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468065632256
+    m_Localized: Du schwimmst mit den Fischen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468065632257
+    m_Localized: Schlangen?! Ich hasse Schlangen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468069826560
+    m_Localized: Blubb, blubb, blubb ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468074020864
+    m_Localized: Wo bist du hin?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468074020865
+    m_Localized: Wer hat Barney aus dem Käfig gelassen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468078215168
+    m_Localized: Das war knapp.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468082409472
+    m_Localized: Sieht mir jemand zu?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468082409473
+    m_Localized: Mann am Boden!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468086603776
+    m_Localized: Du umarmst Bäume!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468090798080
+    m_Localized: Bäume tun weh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468090798081
+    m_Localized: Das Au in Baum sagt schon alles.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468094992384
+    m_Localized: Ameisen. Warum ausgerechnet Ameisen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468099186688
+    m_Localized: Ich mache immer einen guten Eindruck.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468099186689
+    m_Localized: Das lasse ich einfach mal hier.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468103380992
+    m_Localized: Was macht dieser Baum hier?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468107575296
+    m_Localized: Ich habe eine Spur in der Welt hinterlassen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468107575297
+    m_Localized: Wenigstens ist meinem Hut nichts passiert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468111769600
+    m_Localized: Ich brauche ein Timeout.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468111769601
+    m_Localized: Zwei Turteltauben ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468115963904
+    m_Localized: Ich werde hier ein bisschen abhängen ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468120158208
+    m_Localized: Den hab ich gar nicht gesehen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468120158209
+    m_Localized: Dem Baum tut es mehr weh als mir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468124352512
+    m_Localized: Nicht mein Hut!!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468128546816
+    m_Localized: Ohne meinen Hut bin ich nicht ich!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468132741120
+    m_Localized: Schwieriger, als man denkt ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468132741121
+    m_Localized: Wie gut, dass ich eine harte Birne habe!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468136935424
+    m_Localized: Mein Helm hat gar nicht geholfen ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468141129728
+    m_Localized: Ohne Kopf kann man schlecht laufen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468141129729
+    m_Localized: Ducken nicht vergessen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468145324032
+    m_Localized: Du bist aus den Latschen gekippt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468149518336
+    m_Localized: Hier werde ich wohl ’ne Weile bleiben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468149518337
+    m_Localized: Schau nicht meine haarigen Beine an!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468153712640
+    m_Localized: Ich hätte die guten Socken anziehen sollen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468157906944
+    m_Localized: Das mit dem Limbo sollte ich noch mal üben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468157906945
+    m_Localized: Vorsicht ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468162101248
+    m_Localized: Rutschgefahr bei Nässe im Tempel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468166295552
+    m_Localized: Mmh, knusprig.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468166295553
+    m_Localized: Riecht nach Toast.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468170489856
+    m_Localized: Da stehen dir die Haare zu Berge, was?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468174684160
+    m_Localized: Die Klamotten waren gerade in der Reinigung!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468174684161
+    m_Localized: 'Achtung: Rüstung ist nicht feuerbeständig.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468178878464
+    m_Localized: Du warst ein leckerer Happen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468178878465
+    m_Localized: Erforscher wie dich esse ich zum Frühstück.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468183072768
+    m_Localized: Mampf mampf ... Leder!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468187267072
+    m_Localized: Kurz vor der Endphase erwischt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468187267073
+    m_Localized: Hat sogar eine Schale!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468191461376
+    m_Localized: Mit einem Tackle erwischt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468195655680
+    m_Localized: Völlig verheddert ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468195655681
+    m_Localized: Hab ich dich!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468199849984
+    m_Localized: Immer schon die Schnürsenkel zubinden!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468199849985
+    m_Localized: Ich hab da ein ungutes Gefühl ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468204044288
+    m_Localized: Jetzt könnte ich mein Feuerzeug gebrauchen ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468208238592
+    m_Localized: So habe ich mir den Ruhestand nicht vorgestellt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468208238593
+    m_Localized: Wo kamen bloß die Schädel her?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468212432896
+    m_Localized: Das ist total unhygienisch!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468216627200
+    m_Localized: Sieht aus wie Onkel Hernan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468220821504
+    m_Localized: Wöchentl.\nHerausforder.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468220821505
+    m_Localized: Bestenliste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468225015808
+    m_Localized: Fortschritt bei wöchentl. Herausforder.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468229210112
+    m_Localized: Erreichter Rang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468229210113
+    m_Localized: Saisonal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468233404416
+    m_Localized: Nächste Herausforderung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468233404417
+    m_Localized: Macht Temple Run dir Spaß?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468237598720
+    m_Localized: Bitte hinterlasse uns eine Bewertung!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468241793024
+    m_Localized: WEITER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468241793025
+    m_Localized: ABGESCHLOSSEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468245987328
+    m_Localized: Speicherplätze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468250181632
+    m_Localized: Wähle einen Platz, um den Fortschritt bei Herausforderungen sowie Verbesserungen und Werte zu speichern.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468250181633
+    m_Localized: '[{0}] (Aktueller Platz)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468254375936
+    m_Localized: '[{0}] (Neu)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468258570240
+    m_Localized: '[{0}] (Zum Laden wählen)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468262764544
+    m_Localized: 'Distanz insg.: {0} m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468262764545
+    m_Localized: 'Münzen insg.: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468266958848
+    m_Localized: 'Speicherdatum: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468271153152
+    m_Localized: Fortschritt bei wöchentlichen Herausforderungen sowie Verbesserungen und Werte auf Platz [{0}] unwiederbringlich LÖSCHEN?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468271153153
+    m_Localized: Löschen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468275347456
+    m_Localized: Abbrechen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468275347457
+    m_Localized: Platz LÖSCHEN?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468279541760
+    m_Localized: 'Übrige Zeit:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468283736064
+    m_Localized: Einzeldistanz-Herausforderung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468287930368
+    m_Localized: Gesamtdistanz-Herausforderung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468287930369
+    m_Localized: Einzelpunktzahl-Herausforderung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468292124672
+    m_Localized: Gesamtpunktzahl-Herausforderung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468296318976
+    m_Localized: Einzelmünzen-Herausforderung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468296318977
+    m_Localized: Gesamtmünzen-Herausforderung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468300513280
+    m_Localized: Einzel-Power-up-Herausforderung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468304707584
+    m_Localized: Erreiche die erforderliche Distanz in einem einzigen Durchlauf, um die Herausforderung abzuschließen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468304707585
+    m_Localized: Erreiche die erforderliche Distanz über mehrere Durchläufe, um die Herausforderung abzuschließen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468308901888
+    m_Localized: Erziele die erforderliche Punktzahl in einem einzigen Durchlauf, um die Herausforderung abzuschließen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468313096192
+    m_Localized: Erziele die erforderliche Punktzahl über mehrere Durchläufe, um die Herausforderung abzuschließen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468313096193
+    m_Localized: 'Sammle die erforderliche Münzenanzahl in einem einzigen Durchlauf, um die Herausforderung abzuschließen! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468317290496
+    m_Localized: 'Sammle die erforderliche Münzenanzahl über mehrere Durchläufe, um die Herausforderung abzuschließen! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468321484800
+    m_Localized: 'Sammle die erforderliche Anzahl an Power-ups in einem einzigen Durchlauf, um die Herausforderung abzuschließen! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468321484801
+    m_Localized: Grünschnabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468334067712
+    m_Localized: Anfänger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468342456320
+    m_Localized: Lehrling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468346650624
+    m_Localized: Pfadfinder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468350844928
+    m_Localized: Professor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468355039232
+    m_Localized: Legende
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468355039233
+    m_Localized: Herausforderung vorbei.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468359233536
+    m_Localized: Neue wöchentl. Herausforderung!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468359233537
+    m_Localized: Rang „{0}“ abgeschlossen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468363427840
+    m_Localized: Die oben verdienten Belohnungen werden in deinem Inventar abgelegt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468367622144
+    m_Localized: 'Nicht im Inventar: Sammle Münzen bei Durchläufen und geh dann im Hauptmenü unter „Verbesserungen“ einkaufen.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468371816448
+    m_Localized: Im Tutorial nicht verfügbar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468376010752
+    m_Localized: Während des Countdowns/Intros deines Durchlaufs nicht verfügbar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468380205056
+    m_Localized: Pro Durchlauf kannst du die Permaflügel, den Vorsprung und den Mega-Vorsprung nur je einmal benutzen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468384399360
+    m_Localized: Dieses Objekt funktioniert nur zu Beginn deines Durchlaufs (zwischen {0} und {1} m).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468384399361
+    m_Localized: 'Wiederauferstehung flügel werden wieder aufgeladen. Dauer: {0} Sek.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468388593664
+    m_Localized: 'Wiederauferstehungs- oder Permaflügel bereits aktiv: Erneute Aktivierung erst nach Ablauf verfügbar.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468392787968
+    m_Localized: Wiederauf.-Flügel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468396982272
+    m_Localized: Permaflügel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468396982273
+    m_Localized: Vorsprung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468401176576
+    m_Localized: Mega-Vorsprung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468405370880
+    m_Localized: OBJEKT IST NICHT VERFÜGBAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468409565184
+    m_Localized: Dieses Gerät ist derzeit offline. Bestehende Cloud-Speicherstände sind nicht verfügbar. Spielfortschritt kann nicht gespeichert werden. Für die iCloud-Speicherfunktion musst du iCloud aktivieren und dich dort anmelden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468413759488
+    m_Localized: Bestehende Cloud-Speicherstände sind nicht verfügbar. Spielfortschritt wird lokal gespeichert. Für die iCloud-Speicherfunktion musst du iCloud aktivieren und dich dort anmelden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468417953792
+    m_Localized: Cloud-Speicherfunktion nicht verfügbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468426342400
+    m_Localized: Ränge abgeschlossen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468426342401
+    m_Localized: RANG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468430536704
+    m_Localized: BELOHNUNGEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468430536705
+    m_Localized: 'Nächste Herausforderung in:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468434731008
+    m_Localized: 'Dein Fortschritt:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468438925312
+    m_Localized: Distanz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468438925313
+    m_Localized: Münzen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468443119616
+    m_Localized: Punkte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468447313920
+    m_Localized: Power-ups
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468447313921
+    m_Localized: Zum Fortfahren wird ein Controller oder eine Fernbedienung benötigt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468451508224
+    m_Localized: Wöchentlicher Rekord (wird montags um 12:00 Uhr UTC zurückgesetzt)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468455702528
+    m_Localized: 'Grundmultiplikator:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468455702529
+    m_Localized: 'Erfüllte Missionen:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468459896832
+    m_Localized: 'Dein Multiplikator:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468459896833
+    m_Localized: VERSTÄRKT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468464091136
+    m_Localized: Nächste Wiederbelebung in <color=#F6D600>{0} s</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468468285440
+    m_Localized: MÜNZEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468468285441
+    m_Localized: WIEDERAUF.-\nFL.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468472479744
+    m_Localized: PERMA-\nFLÜGEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468476674048
+    m_Localized: VOR-\nSPRUNG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468476674049
+    m_Localized: MEGA-\nVORSPR.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468480868352
+    m_Localized: WIEDERBEL.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468480868353
+    m_Localized: SCHNELL-\nAUFFÜLL.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468485062656
+    m_Localized: '{3} d {2} h {1} m {0} s'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468489256960
+    m_Localized: '{2} d {1} h {0} m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468489256961
+    m_Localized: '{1} h {0} m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468493451264
+    m_Localized: '{0} Min.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468497645568
+    m_Localized: '{1} m {0} s'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468497645569
+    m_Localized: '{0} s'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468501839872
+    m_Localized: WIEDERBELEBUNGEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468501839873
+    m_Localized: Füge 1 Wiederbelebung hinzu, um nach einem Tod weiterlaufen zu können.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468506034176
+    m_Localized: Wiederbelebung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468510228480
+    m_Localized: 1 Wiederbelebung zum Inventar hinzugefügt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468510228481
+    m_Localized: Verkürzt die Zeit bis zur nächsten Wiederbelebung sofort um 5 Min.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468514422784
+    m_Localized: Sofort-Schnellauffüllung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468518617088
+    m_Localized: 5 Min. wurden von deiner Zeit bis zur nächsten Wiederbelebung abgezogen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468518617089
+    m_Localized: Nicht verfügbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468522811392
+    m_Localized: „Sofort-Schnellauffüllung“ ist nicht verfügbar, wenn du mind. {0} Wiederbelebungen hast.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468527005696
+    m_Localized: N. z.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468527005697
+    m_Localized: Keine Netzwerkverbindung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468531200000
+    m_Localized: Erste Schritte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468535394304
+    m_Localized: Nimm an einer wöchentlichen „Einzelner Durchlauf“-Herausforderung teil.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468539588608
+    m_Localized: Du hast an einer wöchentlichen „Einzelner Durchlauf“-Herausforderung teilgenommen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468539588609
+    m_Localized: Weitere Schritte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468543782912
+    m_Localized: Nimm an einer wöchentlichen Kumulativ-Herausforderung teil.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468547977216
+    m_Localized: Du hast an einer wöchentlichen Kumulativ-Herausforderung teilgenommen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468547977217
+    m_Localized: 'SCHNELLAUFFÜLLUNG: {0} pro'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468552171520
+    m_Localized: wird in {0} auf {1} zurückgesetzt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468552171521
+    m_Localized: Hilfe zur Steuerung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468556365824
+    m_Localized: Hilfe zu Belohnungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468560560128
+    m_Localized: PUNKTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468560560129
+    m_Localized: MÜNZEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468564754432
+    m_Localized: Fügt deinem Inventar zusätzliche Münzen hinzu, die du im VERBESSERUNGEN-Menü ausgeben kannst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468568948736
+    m_Localized: Wiederauferstehung flügel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468573143040
+    m_Localized: Aktiviere sie während eines Durchlaufs, um 30 Sek. lang unsterblich zu werden. Solange du diese Flügel trägst, wirst du nach einem Tod autom. wiederbelebt. Unter OPTIONEN → „Hilfe zur Steuerung“ findest du mehr Infos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468573143041
+    m_Localized: PERMAFLÜGEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468577337344
+    m_Localized: Rüste dich mit diesen besonderen Flügeln aus, um bei einem Durchlauf nach dem ersten Tod sofort wiederbelebt zu werden. Aktiviere sie während der ersten 100 Meter eines Durchlaufs über das Pausenmenü.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468581531648
+    m_Localized: VORSPRUNG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468581531649
+    m_Localized: Werde zu Beginn eines Durchlaufs unverwundbar und rase 1.000 Meter vorwärts. Aktiviere ihn während der ersten 100 Meter eines Durchlaufs über das Pausenmenü.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468585725952
+    m_Localized: MEGA-VORSPRUNG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468585725953
+    m_Localized: Werde zu Beginn eines Durchlaufs unverwundbar und rase 2.500 Meter vorwärts. Aktiviere ihn während der ersten 100 Meter eines Durchlaufs über das Pausenmenü.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468589920256
+    m_Localized: WIEDERBEL.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468594114560
+    m_Localized: Fügt deinem Inventar 1 Wiederbelebung hinzu. Wiederbelebungen können aufbewahrt und dann in Folge verwendet werden, um einen superlangen Angriff auf die Bestenliste zu starten!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468594114561
+    m_Localized: SCHNELLAUFFÜLLUNG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468598308864
+    m_Localized: Reduziert die Auffüllzeit deiner Wiederbelebung um den unter der Belohnung angezeigten Wert. Sammle sie, um bis zu 3 Wiederbelebungen schneller wieder aufzufüllen, damit du länger spielen kannst. Schnellauffüllungen laufen alle 4 Wochen ab.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468602503168
+    m_Localized: Belohnungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468602503169
+    m_Localized: 'Nächste Rangschwelle:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468606697472
+    m_Localized: 'Endgültiger Fortschritt:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468610891776
+    m_Localized: Verbleibende Wiederbelebungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468610891777
+    m_Localized: Münzwert maximal verbessert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468615086080
+    m_Localized: '{0} h'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468615086081
+    m_Localized: Nichts zeigt besser "dZielstrebigkeit", als wenn man 20-mal hintereinander Hals über Kopf gegen einen Baum prallt. Sei ein 🏆 Champion 🏆 – Guy Dangerous, professioneller Life Coach.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468619280384
+    m_Localized: Lust auf einen schnellen Lauf? Es sind ⌛ Stunden ⌛ vergangen, seit Ich Hals über Kopf gegen einen Baum prallte. – Guy Dangerous.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468623474688
+    m_Localized: Schnapp dir etwas verfluchtes Gold (✨ Es ist sehr populär in dieser Saison. ✨)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468623474689
+    m_Localized: 'Gandhi sagte: "Sei du selbst die Veränderung, die du dir wünschst für diese Welt." Ich sage: schnapp dir die 💰 Veränderung 💰. Sie liegt einfach da. – Guy Dangerous, weltweit angesehener Philosoph.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468627668992
+    m_Localized: Frage nicht, wem 🔔 die Stunde 🔔 schlägt. Frage, wie viel die Stunde wert ist und was dich verfolgen wird, wenn du die dir schnappst! 🏃 💰 – Guy Dangerous, professioneller Volkswirt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468631863296
+    m_Localized: ⌛ Das Leben ist kurz ⌛ ...Füllen wir unsere Taschen mit verfluchtem Gold und springen wir versehentlich von einer Klippe. – Guy Dangerous, Nobelpreisträger.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468631863297
+    m_Localized: 💪 Zeigen wir dem Gold-Idol, wer der Boss hier ist! (Oder prall wenigstens ein paar Mal gegen einen Baum) – Guy Dangerous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468636057600
+    m_Localized: Wann war das letzte Mal, als du gegen einen Baum bei 45 Meilen pro Stunde pralltest? Lass uns das ändern. 🌳 💥
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468640251904
+    m_Localized: 😈 🐒 wE MIsS YU 🐒 😈 kOmM WerdE bAlD wIEdeR AuFgeFResST – MfG, Die DäMON-AffEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468640251905
+    m_Localized: Schnell genug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468644446208
+    m_Localized: Tutorial abgeschlossen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468644446209
+    m_Localized: Tutorial abgeschlossen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468648640512
+    m_Localized: https://www.imangistudios.com/privacy/eng/DE/privacy-policy-plus.html
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468652834816
+    m_Localized: Datenschutzerklärung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468657029120
+    m_Localized: Gesamt-Power-up-Herausforderung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468657029121
+    m_Localized: 'Sammle die erforderliche Anzahl an Power-ups in mehreren Durchläufen, um die Herausforderung abzuschließen! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468661223424
+    m_Localized: Dein iCloud-Speicher ist voll. Bestehende Cloud-Speicherstände sind nicht verfügbar. Spielfortschritt kann nicht gespeichert werden. Für die iCloud-Speicherfunktion musst du zu den iCloud-Einstellungen gehen, um die Funktion zu aktualisieren oder mehr Speicherplatz aufzuräumen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468665417728
+    m_Localized: Dein iCloud-Speicher ist voll. Spielfortschritt wird lokal gespeichert. Für die iCloud-Speicherfunktion musst du zu den iCloud-Einstellungen gehen, um die Funktion zu aktualisieren oder mehr Speicherplatz aufzuräumen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468665417729
+    m_Localized: Cloud-Speicher voll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468669612032
+    m_Localized: iPhone/iPad:\nUnterstützen Bluetooth-Controller/Tastatur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468673806336
+    m_Localized: Schaltet Tamatoa frei – den mächtigsten Krieger in ganz Samoa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468673806337
+    m_Localized: Tamatoa, der mächtigste Krieger in ganz Samoa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468678000640
+    m_Localized: Schaltet Simone Davies frei – die unerbittliche Piratenjägerin!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468682194944
+    m_Localized: Simone Davies, die unerbittliche Piratenjägerin!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468682194945
+    m_Localized: Schaltet Sigur Frostbeard frei – den Meisterholzfäller!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468686389248
+    m_Localized: Sigur Frostbeard, der Meisterholzfäller!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468686389249
+    m_Localized: Schaltet „Golden Guy“ Dangerous frei – den vergoldeten Mann!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468690583552
+    m_Localized: ' „Golden Guy“ Dangerous, der vergoldete Mann!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468694777856
+    m_Localized: Schaltet Selene Celeste frei – die neugierige, abgestürzte Astronautin!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468694777857
+    m_Localized: Selene Celeste, die neugierige, abgestürzte Astronautin!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468698972160
+    m_Localized: Schalte Edgar Twiggenbottom frei, Skelett
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468703166464
+    m_Localized: Edgar Twiggenbottom, Skelett
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468703166465
+    m_Localized: Schaltet Queen Astrid frei – die Herrscherin der eisigen Einöde!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468707360768
+    m_Localized: Queen Astrid, die Herrscherin der eisigen Einöde!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468711555072
+    m_Localized: Schaltet Santa frei – den Herrn des Nordpols!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468711555073
+    m_Localized: Santa, der Herr des Nordpols!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468715749376
+    m_Localized: Schaltet Nidhi Nirmal frei – die Bollywood-Starschauspielerin!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468715749377
+    m_Localized: Nidhi Nirmal, die Bollywood-Starschauspielerin!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468719943680
+    m_Localized: Schaltet Rahi Raja frei – Indiens besten Stuntman!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468724137984
+    m_Localized: Rahi Raja, Indiens bester Stuntman!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468724137985
+    m_Localized: Schaltet Sara Banyan frei – die schelmische persische Herbalistin!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468728332288
+    m_Localized: Sara Banyan, die schelmische persische Herbalistin!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468732526592
+    m_Localized: Schaltet Dr. Zenobios frei – den genialen, verrückten Wissenschaftler!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468732526593
+    m_Localized: Dr. Zenobios, der geniale, verrückte Wissenschaftler!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468736720896
+    m_Localized: TAMATOA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468740915200
+    m_Localized: SIMONE\nDAVIES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468740915201
+    m_Localized: SIGUR\nFROSTBEARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468745109504
+    m_Localized: GOLDEN\nGUY\n
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468745109505
+    m_Localized: SELENE\nCELESTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468749303808
+    m_Localized: EDGAR\nTWIGGENBOTTOM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468753498112
+    m_Localized: QUEEN\nASTRID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468753498113
+    m_Localized: SANTA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468757692416
+    m_Localized: NIDHI\nNIRMAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468761886720
+    m_Localized: RAHI\nRAJA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468761886721
+    m_Localized: SARA\nBANYAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468766081024
+    m_Localized: DOKTOR\nZENOBIOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496035999744
+    m_Localized: Lädt …
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496400904192
+    m_Localized: Du hast Münzen verdient!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496409292800
+    m_Localized: Du hast kostenlose Apps installiert und {0} Münzen verdient!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496409292801
+    m_Localized: Gratismünzen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496413487104
+    m_Localized: Kurze Werbung für {0} Münzen ansehen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496417681408
+    m_Localized: Danke fürs Ansehen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496421875712
+    m_Localized: '{0} Münzen erhalten! In 12 Stunden kannst du eine neue Belohnung abholen!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496421875713
+    m_Localized: '[] m bis zur nächsten Belohnung'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496426070016
+    m_Localized: Gratis-Wiederauferstehung flügel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496430264320
+    m_Localized: Kurze Werbung für ein Paar Dauer-Wiederauferstehung flügel ansehen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496430264321
+    m_Localized: Nutze deine Wiederauferstehung flügel beim Laufen! In 12 Stunden kannst du eine neue Belohnung abholen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496434458624
+    m_Localized: Verdoppler!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496438652928
+    m_Localized: Kurze Werbung ansehen, um deine Münzen zu verdoppeln?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496438652929
+    m_Localized: Du hast deine Einnahmen verdoppelt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496442847232
+    m_Localized: Kauf fehlgeschlagen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496447041536
+    m_Localized: Keine Verbindung zum iTunes Store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496447041537
+    m_Localized: Video ansehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496451235840
+    m_Localized: Gib Temple Run ein ,,Gefällt mir“!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496455430144
+    m_Localized: Werbung aktivieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496459624448
+    m_Localized: GRATIS-Spielwerbung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496459624449
+    m_Localized: Möchtest du Vollbildwerbung am Ende jedes Durchlaufs aktivieren, um {0} Münzen zu erhalten?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496463818752
+    m_Localized: Nein danke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496468013056
+    m_Localized: Werbung aktivieren!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496468013057
+    m_Localized: Gefällt mir auf Facebook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496472207360
+    m_Localized: Gib Temple Run auf Facebook ein „Gefällt mir“ für {0} GRATIS-Münzen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496476401664
+    m_Localized: Auf X folgen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496480595968
+    m_Localized: Folge Temple Run auf X für {0} GRATIS-Münzen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496484790272
+    m_Localized: Angebot noch nicht verfügbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496488984576
+    m_Localized: Dieses Angebot ist derzeit nicht verfügbar. Bitte versuche es später erneut!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496488984577
+    m_Localized: Im Shop verbessern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496501567488
+    m_Localized: Du hast ein paar Münzen gesammelt und kannst nun deinen Charakter im Shop verbessern, um noch besser abzuschneiden!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496505761792
+    m_Localized: Nicht jetzt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496509956096
+    m_Localized: Zum Shop!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496514150400
+    m_Localized: HINTERGRÜNDE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496514150401
+    m_Localized: Lädt herunter …
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496518344704
+    m_Localized: Speichert …
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496522539008
+    m_Localized: Hintergrund gespeichert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496522539009
+    m_Localized: Dein Hintergrund wurde in deiner Bildergalerie gespeichert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496526733312
+    m_Localized: Download fehlgeschlagen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496530927616
+    m_Localized: Objekt kann nicht heruntergeladen werden. Überprüfe deine Internetverbindung und versuche es erneut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496530927617
+    m_Localized: Schalte den Tempelmauer-Hintergrund frei.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496535121920
+    m_Localized: Lade den Tempelmauer-Hintergrund herunter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496539316224
+    m_Localized: Schalten den „Guy Dangerous“-Hintergrund frei.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496539316225
+    m_Localized: Lade den „Guy Dangerous“-Hintergrund herunter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496543510528
+    m_Localized: Schalte den „Böse Dämonenaffen“-Hintergrund frei.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496547704832
+    m_Localized: Lade den „Böse Dämonenaffen“-Hintergrund herunter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496547704833
+    m_Localized: Schalte den Tempelmauer-Hintergrund frei.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496551899136
+    m_Localized: Lade den Tempelmauer-Hintergrund herunter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496556093440
+    m_Localized: Entferne Werbung am Ende von Durchläufen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496560287744
+    m_Localized: Werbung am Ende von Durchläufen entfernt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496560287745
+    m_Localized: HERUNTERLADEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496564482048
+    m_Localized: Lust auf GRATIS-Münzen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496568676352
+    m_Localized: Sieh dir Videos an oder schließe andere Angebote im „GRATIS-Angebote“-Bereich des Münzshops ab, um Münzen zu erhalten!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496568676353
+    m_Localized: GRATIS-Münzen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496572870656
+    m_Localized: Keine Internetverbindung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496577064960
+    m_Localized: Keine Verbindung zum Shop. Bitte überprüfe deine Internetverbindung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496577064961
+    m_Localized: Kontaktiere Shop …
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496581259264
+    m_Localized: Lade Produkte …
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496585453568
+    m_Localized: '{0} Gratismünzen'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496585453569
+    m_Localized: GRATIS-ANGEBOTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496589647872
+    m_Localized: Bewerte das Spiel im App Store!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496593842176
+    m_Localized: Später erinnern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496593842177
+    m_Localized: Nicht mehr fragen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496598036480
+    m_Localized: Benutzername
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496602230784
+    m_Localized: Passwort
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496602230785
+    m_Localized: 'Auf der Flucht vor den Dämonenaffen in Temple Run habe ich %@ Punkte erzielt. Kannst du es besser? http://bit.ly/TempleRunGame'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496606425088
+    m_Localized: 'Post fehlgeschlagen: Überprüfe, ob du angemeldet bist, oder versuche es später erneut.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496610619392
+    m_Localized: Freundmarkierungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496610619393
+    m_Localized: Schließe Herausforderungsmeilensteine ab und erhalte Belohnungen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496614813696
+    m_Localized: Schließen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496619008000
+    m_Localized: Globale Herausforderungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496619008001
+    m_Localized: Kumulative Distanz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496623202304
+    m_Localized: Punkte pro Durchlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496627396608
+    m_Localized: Münzen pro Durchlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496627396609
+    m_Localized: Münzen über Zeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496631590912
+    m_Localized: Kumulative Punkte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496635785216
+    m_Localized: Distanz pro Durchlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496635785217
+    m_Localized: HOL DIR MEHR MÜNZEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496639979520
+    m_Localized: Bald kommt mehr ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496644173824
+    m_Localized: Charaktere
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496644173825
+    m_Localized: Zum Wiederbeleben Werbung anschauen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496648368128
+    m_Localized: FREIGESCHALTET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496652562432
+    m_Localized: Shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496656756736
+    m_Localized: KÄUFE WIEDERHERSTELLEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496656756737
+    m_Localized: KEINE WERBUNG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496660951040
+    m_Localized: DATENSCHUTZ-EINSTELLUNGEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496665145344
+    m_Localized: Teilen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496665145345
+    m_Localized: Schalte Guy Dangerous frei, den beherzten Piloten und Abenteurer aus den 1940ern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496669339648
+    m_Localized: Guy Dangerous, beherzter Pilot und Abenteurer aus den 1940ern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496673533952
+    m_Localized: Schalte Scarlett Fox frei, die clevere Meisterdiebin aus den 1930ern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496673533953
+    m_Localized: Scarlett Fox, die clevere Meisterdiebin aus den 1930ern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496677728256
+    m_Localized: Schalte Barry Bones frei, den großartigen Cop der 80er auf einer Mission
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496681922560
+    m_Localized: Barry Bones, großartiger Cop der 80er auf einer Mission
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496681922561
+    m_Localized: Schalte Karma Lee frei, eine umherstreifende Prinzessin und Kriegerin aus 500 v. Chr.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496686116864
+    m_Localized: Karma Lee, umherstreifende Prinzessin und Kriegerin aus 500 v. Chr.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496690311168
+    m_Localized: Schalte Montana Smith frei, einen Banditen aus dem Wilden Westen auf der Flucht aus dem 19. Jahrhundert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496690311169
+    m_Localized: Montana Smith, ein Bandit aus dem Wilden Westen auf der Flucht aus dem 19. Jahrhundert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496694505472
+    m_Localized: Schalte Francisco Montoya frei, den verrückten spanischen Mönch aus dem 16. Jahrhundert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496698699776
+    m_Localized: Francisco Montoya, der verrückte spanische Mönch aus dem 16. Jahrhundert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496698699777
+    m_Localized: Schalte Zack Wonder frei, den Football-Star aus dem Jahr 2004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496702894080
+    m_Localized: Zack Wonder, Football-Star aus dem Jahr 2004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496707088384
+    m_Localized: Schalte Simone Davies frei, Kommodore in der Karibik aus dem 17. Jahrhundert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496707088385
+    m_Localized: Simone Davies, Kommodore in der Karibik aus dem 17. Jahrhundert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496723865600
+    m_Localized: Schalte Edward Twiggenbottom frei, den zeitlosen Wächter der Felder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496723865601
+    m_Localized: Edward Twiggenbottom, der zeitlose Wächter der Felder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496728059904
+    m_Localized: Schalte Kai Xiang frei, einen Shaolin-Mönch aus dem Jahr 500 n. Chr., der Erlösung sucht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496732254208
+    m_Localized: Kai Xiang, Shaolin-Mönch aus dem Jahr 500 n. Chr., der Erlösung sucht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496736448512
+    m_Localized: Schalte Carnifex frei, die bösartige Herrscherin über das Chaos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496736448513
+    m_Localized: Carnifex, die bösartige Herrscherin über das Chaos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496740642816
+    m_Localized: Schalte Frost Pirate frei, den Captain, der 1690 die Meere terrorisierte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496744837120
+    m_Localized: Frost Pirate, der Captain, der 1690 die Meere terrorisierte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496744837121
+    m_Localized: Schalte Wally Nut frei, den Nussknacker, der überall Freude verbreitet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496749031424
+    m_Localized: Wally Nut, der Nussknacker, der überall Freude verbreitet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496753225728
+    m_Localized: Schalte Queen Astrid frei, die seit 930 v. Chr. plündernde Wikingerherrscherin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496757420032
+    m_Localized: Queen Astrid, seit 930 v. Chr. plündernde Wikingerherrscherin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496757420033
+    m_Localized: Schalte Chronos Timebeard frei, den zeitlosen Halbgott, der für endloses Chaos sorgt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496761614336
+    m_Localized: Chronos Timebeard, zeitloser Halbgott, der für endloses Chaos sorgt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16968939731935232
+    m_Localized: Danke!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406555136000
+    m_Localized: '{0} bis zur nächsten Belohnung'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406815182848
+    m_Localized: Erziele höhere Punktzahlen zum Vorankommen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406823571456
+    m_Localized: '{0} {1} bis zur nächsten Belohnung'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406823571457
+    m_Localized: Punkte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406827765760
+    m_Localized: Abholen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406827765761
+    m_Localized: Abgeholt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406831960064
+    m_Localized: EIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406836154368
+    m_Localized: AUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406836154369
+    m_Localized: GLOBALE HERAUSFORDERUNG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406840348672
+    m_Localized: Engelsflügel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406844542976
+    m_Localized: Innenausstatter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406844542977
+    m_Localized: Schalte drei Hintergründe frei
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406848737280
+    m_Localized: Du hast drei Hintergründe freigeschaltet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406848737281
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406852931584
+    m_Localized: Zum Fortfahren Werbung anschauen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406857125888
+    m_Localized: Auf der Flucht vor den Dämonenaffen in Temple Run habe ich {0} Punkte erzielt. Kannst du es besser? {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406857125889
+    m_Localized: Wiederherstellung abgeschlossen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406861320192
+    m_Localized: Erfolg!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406865514496
+    m_Localized: Was ist das? EINE GLOBALE HERAUSFORDERUNG?! Bereitmachen für {0}!!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406869708800
+    m_Localized: Erzittert, Sterbliche! {0} IST HIER! Mach dich bereit für eine neue GLOBALE HERAUSFORDERUNG!!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406869708801
+    m_Localized: Gib nicht auf! {0} hat noch verfügbare Preise, die eingefordert werden wollen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406873903104
+    m_Localized: Vergiss {0} nicht! DU WURDEST AUCH NICHT VERGESSEN.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406878097408
+    m_Localized: Jetzt aber schnell! Nur noch {0} übrig, bevor {1} verschwindet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406878097409
+    m_Localized: Lauf weiter! Du hast {0}, um die glorreichen Belohnungen von {1} zu sichern!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406882291712
+    m_Localized: Zeit für einen Lauf!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406882291713
+    m_Localized: Wir vermissen dich!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406886486016
+    m_Localized: Keine-Werbung-Kauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406890680320
+    m_Localized: Münzkauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406890680321
+    m_Localized: Keine-Werbung-Kauf fehlgeschlagen. Überprüfe deine Internetverbindung und versuche es erneut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406894874624
+    m_Localized: Münzkauf fehlgeschlagen. Überprüfe deine Internetverbindung und versuche es erneut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406899068928
+    m_Localized: Kauf storniert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406899068929
+    m_Localized: Die Nachricht \"{0}\" kann nicht gesendet werden, weil die Verbindung fehlgeschlagen ist.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406903263232
+    m_Localized: Erneut versuchen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406903263233
+    m_Localized: Teilen nicht möglich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406907457536
+    m_Localized: Fehlgeschlagen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406911651840
+    m_Localized: Das Video konnte leider nicht abgespielt werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406911651841
+    m_Localized: Belohnung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406915846144
+    m_Localized: Erteile IAP erneut deine Zustimmung, um den Münzshop zu aktivieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406920040448
+    m_Localized: Der Münzshop ist im Augenblick nicht verfügbar. Bitte kontaktiere support@imangistudios.com für weitere Informationen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406920040449
+    m_Localized: '{0} Münzen hinzugefügt'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406924234752
+    m_Localized: Update erforderlich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406924234753
+    m_Localized: Um weiterhin Temple Run zu spielen, ist ein Update erforderlich.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406928429056
+    m_Localized: Kostenloser Charakter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406932623360
+    m_Localized: Neue Charaktere
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406932623361
+    m_Localized: Neues Abenteuer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406936817664
+    m_Localized: Mitmachen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406936817665
+    m_Localized: Teilen abgebrochen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406941011968
+    m_Localized: Teilen fehlgeschlagen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406945206272
+    m_Localized: Teilen erfolgreich!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406945206273
+    m_Localized: Meilenstein {0} abgeschlossen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23200394329972736
+    m_Localized: Danke fürs Aktualisieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23200394455801856
+    m_Localized: Danke, dass du Temple Run aktualisiert hast! Dafür schenken wir dir 500 Münzen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23204094888894464
+    m_Localized: 500 Münzen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23204095056666624
+    m_Localized: Nein danke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55828746446299136
+    m_Localized: Danke, dass du Temple Run heruntergeladen hast!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355477262336
+    m_Localized: ERKUNDE DAS\nUNBEKANNTE MIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355628257280
+    m_Localized: FRANCISCO\nMONTOYA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355636645888
+    m_Localized: "\nGRATIS in der Läuferauswahl"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929317220352
+    m_Localized: GRATIS in der Läuferauswahl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929606627328
+    m_Localized: BETRITT DIE\nLEGENDE MIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929619210240
+    m_Localized: KARMA LEE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929623404544
+    m_Localized: SCHLÜPF INS\nTRIKOT MIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929627598848
+    m_Localized: ZACK WONDER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929635987456
+    m_Localized: DER DÜSTERE\nPFAD LOCKT MIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929640181760
+    m_Localized: CARNIFEX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929644376064
+    m_Localized: DIE KÖNIGIN\nLÄUFT ZUERST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929652764672
+    m_Localized: QUEEN ASTRID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929656958976
+    m_Localized: KNACKE DAS\nABENTEUER MIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929661153280
+    m_Localized: WALLY NUTT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773763731456
+    m_Localized: BETRITT DIE\nLEGENDE MIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773776314368
+    m_Localized: KARMA LEE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773780508672
+    m_Localized: GRATIS in der Läuferauswahl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126122979169918976
+    m_Localized: SCHLÜPF INS\nTRIKOT MIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126463690687897600
+    m_Localized: SCHLÜPF INS\nTRIKOT MIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126497313759682560
+    m_Localized: ZACK WONDER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126497313763876864
+    m_Localized: GRATIS in der Läuferauswahl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126481317888
+    m_Localized: GOLD-\nRAUSCH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126485512192
+    m_Localized: WILDER\nLAUF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126485512193
+    m_Localized: NEUER\nANFANG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027824455680
+    m_Localized: SCHNAPP DEN\nTRUTHAHN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027824455681
+    m_Localized: TEMPEL-\nPLÜNDEREI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649984
+    m_Localized: DIE LÄNGSTE\nMEILE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649985
+    m_Localized: IN DIE\nRUINEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649986
+    m_Localized: LAUF DER\nFREIHEIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649987
+    m_Localized: FERIEN-\nTRAUM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844288
+    m_Localized: SOMMER-\nMARATHON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844289
+    m_Localized: SÜßES ODER\nSAURES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844290
+    m_Localized: KÄLTER\nWIRD'S NICHT!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038592
+    m_Localized: BRINGE DEN\nSCHATZ AN DICH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038593
+    m_Localized: KANNST DU ÜBERLEBEN?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038594
+    m_Localized: ERLEBE\nDIE SAISON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232896
+    m_Localized: MACH MIT\nBEIM FERIENSPAß
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232897
+    m_Localized: FINDE DAS\nVERLORENE IDOL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232898
+    m_Localized: KANNST DU ÜBERDAUERN?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232899
+    m_Localized: ERKUNDE DAS\nUNBEKANNTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427200
+    m_Localized: OH, SAY, CAN\nYOU SEE?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427201
+    m_Localized: O DU\nFRÖHLICHE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427202
+    m_Localized: RAUS AUS\nDER HITZE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027849621504
+    m_Localized: SCHNAPP DIR\nWAS SÜßES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027849621505
+    m_Localized: ÜBERSTEHE\nDEN FROST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477794344960
+    m_Localized: Fortschritt zurücksetzen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477811122176
+    m_Localized: Verbessertes Werbeerlebnis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316480
+    m_Localized: Zustimmen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316481
+    m_Localized: Ablehnen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316482
+    m_Localized: EINWILLIGUNG ZURÜCKZIEHEN?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316483
+    m_Localized: "Du hast Imangi derzeit deine Zustimmung zur Weitergabe der Werbe-ID deines Geräts an Werbenetzwerke zu Marketingzwecken im Spiel erteilt.\n\nMöchtest du die Einwilligung wirklich zurückziehen?\n\n(Durch Tippen auf  JA wird das Spiel geschlossen; starte es erneut, damit die Änderungen wirksam werden)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510784
+    m_Localized: WERBEERLEBNIS VERBESSERN?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510785
+    m_Localized: "Temple Run wird durch Werbung unterstuetzt. Um diese so relevant wie moeglich zu machen, moechten wir Daten mit unseren Werbepartnern sammeln und teilen. Bitte beachte, dass die Auswahl von Nein Danke die Werbung nicht entfernt; stattdessen siehst du moeglicherweise Anzeigen, die nicht deinen Interessen entsprechen. Du kannst deine Auswahl jederzeit in den Einstellungen aendern.\n\n(Durch Tippen auf JA wird das Spiel geschlossen; starte es erneut, damit die Aenderungen wirksam werden)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510786
+    m_Localized: EROBERE DEN \nWINTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649416769536
+    m_Localized: ENTKOMME DER GEFAHR \n MIT...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649437741056
+    m_Localized: SCARLETT FOX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649437741057
+    m_Localized: KOSTENLOS in Runner Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202893421137879040
+    m_Localized: KOSTENLOS verfügbar in der Läufer-Auswahl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574259658752
+    m_Localized: MEISTERE DEINE \n GESCHWINDIGKEIT \n MIT...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574322573312
+    m_Localized: KAI XIANG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574322573313
+    m_Localized: KOSTENLOS verfügbar in der Läufer-Auswahl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105925562368
+    m_Localized: MEISTERE DEINE \n GESCHWINDIGKEIT MIT...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105938145280
+    m_Localized: BARRY BONES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105938145281
+    m_Localized: KOSTENLOS verfügbar in der Läufer-Auswahl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438307418112
+    m_Localized: NIDHI\nNIRMAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438332583936
+    m_Localized: Schaltet Nidhi Nirmal frei – die Bollywood-Starschauspielerin!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438332583937
+    m_Localized: Nidhi Nirmal, die Bollywood-Starschauspielerin!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984695754752
+    m_Localized: FEIERE 15 \n JAHRE MIT...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984729309184
+    m_Localized: NIDHI NIRMAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984729309185
+    m_Localized: KOSTENLOS verfügbar in der Läufer-Auswahl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096434597888
+    m_Localized: WILLKOMMEN ZURÜCK!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096451375104
+    m_Localized: FEIERE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096455569408
+    m_Localized: 15 JAHRE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096455569409
+    m_Localized: MIT 15.000 GRATIS-MÜNZEN!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228703228063113216
+    m_Localized: Jetzt holen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075348025344
+    m_Localized: IMMER NOCH UNTERWEGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075381579776
+    m_Localized: 15 JAHRE SPÄTER...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774080
+    m_Localized: GEBURTSTAGSBEUTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774081
+    m_Localized: FEIERE MIT JEDER MÜNZE!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774082
+    m_Localized: NOCH EIN LAUF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774083
+    m_Localized: WIE WEIT KOMMST DU?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412179812352
+    m_Localized: DER SCHATZ WARTET \n MIT...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412196589568
+    m_Localized: FRANCISCO MONTOYA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412196589569
+    m_Localized: KOSTENLOS verfügbar in der Läufer-Auswahl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243860789221384192
+    m_Localized: EROBERE DAS \n SPIELFELD BEI...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243860789229772800
+    m_Localized: FREITAGABEND-LAUF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252909526883229696
+    m_Localized: STÜRME VORAN MIT…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252909526900006912
+    m_Localized: ZACK WONDER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260263528729927680
+    m_Localized: GRUSEL DICH \n MIT...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260263528746704896
+    m_Localized: EDGAR TWIGGENBOTTOM
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

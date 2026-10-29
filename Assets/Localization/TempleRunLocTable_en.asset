@@ -1,0 +1,4003 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: TempleRunLocTable_en
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 0071ada7e6fa56344b4d42c06e5e2bd7, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 306466174001152
+    m_Localized: Take the Idol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466660540416
+    m_Localized: If you Dare!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466681511936
+    m_Localized: Play!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466685706240
+    m_Localized: Objectives
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466702483456
+    m_Localized: Stats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466706677760
+    m_Localized: Upgrades
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466710872064
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466710872065
+    m_Localized: Save Slot Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466715066368
+    m_Localized: Revives
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466719260672
+    m_Localized: Weekly Challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466723454976
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466723454977
+    m_Localized: Sensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466727649280
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466731843584
+    m_Localized: Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466731843585
+    m_Localized: Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466736037888
+    m_Localized: 'Language: English'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466740232192
+    m_Localized: Delete Save Data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466740232193
+    m_Localized: Privacy Policy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466744426496
+    m_Localized: BACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466748620800
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466752815104
+    m_Localized: Paused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466752815105
+    m_Localized: 'Score:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466757009408
+    m_Localized: 'Distance:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466761203712
+    m_Localized: 'Coins:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466765398016
+    m_Localized: 'Multiplier:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466765398017
+    m_Localized: 'Next Objective:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466769592320
+    m_Localized: 'Next Tier:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466773786624
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466773786625
+    m_Localized: New Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466777980928
+    m_Localized: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466782175232
+    m_Localized: New Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466782175233
+    m_Localized: Your progress will be lost! Are you sure you want to start a new game?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466786369536
+    m_Localized: Exit Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466790563840
+    m_Localized: Your progress will be lost! Are you sure you want to exit?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466790563841
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466794758144
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466798952448
+    m_Localized: Continue Run?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466803146752
+    m_Localized: Next Revive in <color=#F6D600>{0}m {1}s</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466803146753
+    m_Localized: Use a Revive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466807341056
+    m_Localized: End Run
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466811535360
+    m_Localized: FULL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466815729664
+    m_Localized: Stats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466815729665
+    m_Localized: 'Multiplier:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466819923968
+    m_Localized: '{0}x'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466824118272
+    m_Localized: Single Run
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466824118273
+    m_Localized: 'Highest Score:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466828312576
+    m_Localized: 'Longest Run:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466832506880
+    m_Localized: '{0}m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466832506881
+    m_Localized: 'Most Coins:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466836701184
+    m_Localized: with Revive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466840895488
+    m_Localized: Lifetime
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466840895489
+    m_Localized: 'Lifetime Games:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466845089792
+    m_Localized: 'Lifetime Distance:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466849284096
+    m_Localized: 'Lifetime Coins:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466853478400
+    m_Localized: Upgrades
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466853478401
+    m_Localized: POWERUPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466857672704
+    m_Localized: Unknown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466861867008
+    m_Localized: Enable the 50 Coin powerup.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466861867009
+    m_Localized: Increase Mega Coin to 75 coins.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466866061312
+    m_Localized: Increase Mega Coin to 100 coins.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466870255616
+    m_Localized: Increase Mega Coin to 125 coins.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466870255617
+    m_Localized: Increase Mega Coin to 150 coins.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466874449920
+    m_Localized: Allow disabling Mega Coin.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466878644224
+    m_Localized: Mega Coin fully upgraded!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466878644225
+    m_Localized: Mega Coin is disabled.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466882838528
+    m_Localized: UPGRADE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466887032832
+    m_Localized: FREE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466887032833
+    m_Localized: ENABLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466891227136
+    m_Localized: DISABLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466895421440
+    m_Localized: Enable the Coin Magnet powerup.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466895421441
+    m_Localized: Make Coin Magnet last longer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466899615744
+    m_Localized: Coin Magnet doubles coin value.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466899615745
+    m_Localized: Make Coin Magnet last longer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466903810048
+    m_Localized: Coin Magnet triples coin value.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466908004352
+    m_Localized: Allow disabling Coin Magnet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466912198656
+    m_Localized: Coin Magnet fully upgraded!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466912198657
+    m_Localized: Coin Magnet is disabled.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466916392960
+    m_Localized: Enable the Invisibility powerup.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466920587264
+    m_Localized: Make Invisibility last longer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466920587265
+    m_Localized: Allow disabling Invisibility.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466924781568
+    m_Localized: Invisibility fully upgraded!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466928975872
+    m_Localized: Allow disabling Invisibility.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466928975873
+    m_Localized: Enable the 250m Boost Powerup.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466933170176
+    m_Localized: Increase Boost to 375m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466937364480
+    m_Localized: Increase Boost to 500m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466937364481
+    m_Localized: Increase Boost to 625m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466941558784
+    m_Localized: Increase Boost to 750m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466945753088
+    m_Localized: Allow disabling Boost.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466949947392
+    m_Localized: Boost fully upgraded!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466949947393
+    m_Localized: Boost is disabled.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466954141696
+    m_Localized: Double Value coins after {0}m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466958336000
+    m_Localized: Double Value coins after {0}m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466958336001
+    m_Localized: Double Value coins after {0}m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466962530304
+    m_Localized: Triple Value coins after {0}m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466966724608
+    m_Localized: Triple Value coins after {0}m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466966724609
+    m_Localized: Triple Value coins after {0}m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466970918912
+    m_Localized: FULLY UPGRADED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466975113216
+    m_Localized: UTILITIES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466975113217
+    m_Localized: When active you resurrect immediately after death.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466979307520
+    m_Localized: SINGLE USE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466983501824
+    m_Localized: Resurrection Wings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466983501825
+    m_Localized: 'Activate during your run by double tapping the screen, or pause the game and select the Res-Wings utility. Lasts 30 seconds after activation. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466987696128
+    m_Localized: 'Activate during your run by holding the center button for 1 second, or pause the game and select the Res-Wings utility. Lasts 30 seconds after activation. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466987696129
+    m_Localized: 'Activate during your run by pressing the north (Y/△) gamepad button, or pause the game and select the Res-Wings utility. Lasts 30 seconds after activation. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466991890432
+    m_Localized: 'Activate during your run by pressing the [R] key, or pause the game and select the Res-Wings utility. Lasts 30 seconds after activation. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466996084736
+    m_Localized: Okay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466996084737
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467000279040
+    m_Localized: Resurrection wings that are active permanently.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467004473344
+    m_Localized: Perma-Wings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467004473345
+    m_Localized: Pause the game and select the Perma-wings utility at the beginning of the game to activate. You will auto-resurrect as soon as you die.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467008667648
+    m_Localized: Boost ahead 1000m at the start of the game.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467012861952
+    m_Localized: Head Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467012861953
+    m_Localized: Pause the game and select the Head Start utility at the beginning of the game to boost forward 1000m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467017056256
+    m_Localized: Mega Boost ahead 2500m at the start of the game.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467021250560
+    m_Localized: Mega Head Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467025444864
+    m_Localized: Pause the game and select the Mega Head Start utility at the beginning of the game to boost forward 2,500m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467025444865
+    m_Localized: CHARACTERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467029639168
+    m_Localized: CURRENTLY ACTIVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467033833472
+    m_Localized: ACTIVATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467033833473
+    m_Localized: UNLOCK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467038027776
+    m_Localized: Unlock Guy Dangerous, just your average explorer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467042222080
+    m_Localized: Unlock Scarlett Fox, the cunning escape artist.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467042222081
+    m_Localized: Unlock Barry Bones, a city cop with an attitude.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467046416384
+    m_Localized: Unlock Karma Lee, the fastest legs in the Far East.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467050610688
+    m_Localized: Unlock Montana Smith, the second greatest explorer ever.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467050610689
+    m_Localized: Unlock Francisco Montoya, the conquistador.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467054804992
+    m_Localized: Unlock Zack Wonder, football star.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467058999296
+    m_Localized: Guy Dangerous, just your average explorer,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467058999297
+    m_Localized: Scarlett Fox, the cunning escape artist.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467063193600
+    m_Localized: Barry Bones, a city cop with an attitude.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467067387904
+    m_Localized: Karma Lee, the fastest legs in the Far East.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467067387905
+    m_Localized: Montana Smith, the second greatest explorer ever.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467071582208
+    m_Localized: Francisco Montoya, the conquistador.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467075776512
+    m_Localized: Zack Wonder, football star.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467075776513
+    m_Localized: NOT ENOUGH COINS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467079970816
+    m_Localized: Collect coins while running to spend here!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467084165120
+    m_Localized: Request Failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467084165121
+    m_Localized: Unable to perform request at this time please try again later.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467088359424
+    m_Localized: High Score!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467092553728
+    m_Localized: Swipe to Turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467092553729
+    m_Localized: Swipe to Turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467096748032
+    m_Localized: Swipe to Turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467100942336
+    m_Localized: Swipe to Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467100942337
+    m_Localized: Swipe to Slide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467105136640
+    m_Localized: Tilt to Collect Coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467105136641
+    m_Localized: Tilt to Collect Coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467113525248
+    m_Localized: Tilt to Collect Coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467113525249
+    m_Localized: Swipe to Turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467117719552
+    m_Localized: Swipe to Turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467121913856
+    m_Localized: Swipe to Turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467121913857
+    m_Localized: Swipe Up to Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467126108160
+    m_Localized: Swipe Down to Slide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467130302464
+    m_Localized: Swipe to collect coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467130302465
+    m_Localized: Swipe to collect coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467134496768
+    m_Localized: Swipe to collect coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467138691072
+    m_Localized: Left D-pad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467138691073
+    m_Localized: Right D-pad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467142885376
+    m_Localized: Left/Right D-Pad to turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467142885377
+    m_Localized: Up to Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467147079680
+    m_Localized: Down to Slide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467151273984
+    m_Localized: Left to collect coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467155468288
+    m_Localized: Right to collect coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467155468289
+    m_Localized: Left/Right to collect coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467159662592
+    m_Localized: Left Arrow to Turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467163856896
+    m_Localized: Right Arrow to Turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467163856897
+    m_Localized: Left/Right to Turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467168051200
+    m_Localized: Up to Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467172245504
+    m_Localized: Down to Slide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467172245505
+    m_Localized: Left to collect coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467176439808
+    m_Localized: Right to collect coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467180634112
+    m_Localized: Left/Right to collect coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467180634113
+    m_Localized: Fill up the meter for bonus points!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467184828416
+    m_Localized: Nice Job!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467189022720
+    m_Localized: You're Ready! Good Luck!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467189022721
+    m_Localized: A controller has been connected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467193217024
+    m_Localized: Controller has been Disconnected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467197411328
+    m_Localized: Activate Utilities from Pause Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467197411329
+    m_Localized: Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467201605632
+    m_Localized: Touch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467205799936
+    m_Localized: Siri Remote
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467205799937
+    m_Localized: Remote Gen 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467209994240
+    m_Localized: Gamepad / Controller
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467209994241
+    m_Localized: Keyboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467214188544
+    m_Localized: 'Turn Left:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467218382848
+    m_Localized: 'Turn Right:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467218382849
+    m_Localized: 'Move left to pickup coins:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467222577152
+    m_Localized: 'Move right to pickup coins:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467226771456
+    m_Localized: 'Jump:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467226771457
+    m_Localized: 'Slide:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467230965760
+    m_Localized: 'Pause Menu:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467235160064
+    m_Localized: In-game Utilities
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467235160065
+    m_Localized: '30s Resurrection Wings:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467239354368
+    m_Localized: Game start Utilities
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467243548672
+    m_Localized: 'Head Start:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467243548673
+    m_Localized: 'Mega Start:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467247742976
+    m_Localized: 'Perma-Wings:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467251937280
+    m_Localized: Swipe Left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467251937281
+    m_Localized: Swipe Right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467256131584
+    m_Localized: Swipe Up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467260325888
+    m_Localized: Swipe Down
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467264520192
+    m_Localized: Tilt Left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467264520193
+    m_Localized: Tilt Right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467268714496
+    m_Localized: Touch pause icon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467272908800
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467272908801
+    m_Localized: Double Tap screen during game,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467277103104
+    m_Localized: or pause, then choose "Res-Wings" from menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467281297408
+    m_Localized: Pause after starting countdown,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467281297409
+    m_Localized: then choose "Head Start" from menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467285491712
+    m_Localized: Pause after starting countdown,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467289686016
+    m_Localized: then choose "Mega Start" from menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467289686017
+    m_Localized: Pause after starting countdown,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467293880320
+    m_Localized: then choose "Perma-Wings" from menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467298074624
+    m_Localized: Swipe Left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467298074625
+    m_Localized: Swipe Right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467302268928
+    m_Localized: Swipe Up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467302268929
+    m_Localized: Swipe Down
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467306463232
+    m_Localized: Swipe Left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467310657536
+    m_Localized: Swipe Right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467310657537
+    m_Localized: Pause button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467314851840
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467319046144
+    m_Localized: Press and hold center button,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467323240448
+    m_Localized: or pause, then choose "Res-Wings" from menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467323240449
+    m_Localized: Pause after starting countdown,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467327434752
+    m_Localized: then choose "Head Start" from menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467331629056
+    m_Localized: Pause after starting countdown,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467331629057
+    m_Localized: then choose "Mega Start" from menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467335823360
+    m_Localized: Pause after starting countdown,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467335823361
+    m_Localized: then choose "Perma Wings" from menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467340017664
+    m_Localized: D-pad/Stick ←/L1(LB)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467344211968
+    m_Localized: D-pad/Stick →/R1(RB)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467344211969
+    m_Localized: D-pad/Stick ↑ or A/×
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467348406272
+    m_Localized: D-pad/Stick ↓ or X/□
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467352600576
+    m_Localized: D-pad/Stick ←
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467352600577
+    m_Localized: D-pad/Stick →
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467356794880
+    m_Localized: Start/Menu/Options button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467360989184
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467360989185
+    m_Localized: Y/△, or pause,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467365183488
+    m_Localized: then choose "Res-Wings" from menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467365183489
+    m_Localized: Pause after starting countdown,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467369377792
+    m_Localized: then choose "Head Start" from menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467373572096
+    m_Localized: Pause after starting countdown,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467373572097
+    m_Localized: then choose "Mega Start" from menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467377766400
+    m_Localized: Pause after starting countdown,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467381960704
+    m_Localized: then choose "Perma-Wings" from menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467381960705
+    m_Localized: '[←] or [A] key'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467386155008
+    m_Localized: '[→] or [D] key'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467390349312
+    m_Localized: '[↑] or [W] key'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467390349313
+    m_Localized: '[↓] or [S] key'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467394543616
+    m_Localized: '[←] or [A] key'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467394543617
+    m_Localized: '[→] or [D] key'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467398737920
+    m_Localized: '[ESC] key'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467402932224
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467407126528
+    m_Localized: '[R] key, or pause,'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467407126529
+    m_Localized: then choose "Res-Wings" from menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467411320832
+    m_Localized: Pause after starting countdown,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467415515136
+    m_Localized: then choose "Head Start" from menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467415515137
+    m_Localized: Pause after starting countdown,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467419709440
+    m_Localized: then choose "Mega Start" from menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467423903744
+    m_Localized: Pause after starting countdown,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467423903745
+    m_Localized: then choose "Perma-Wings" from menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467428098048
+    m_Localized: Objectives
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467428098049
+    m_Localized: Participation Trophy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467432292352
+    m_Localized: Play in 1 Weekly Challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467436486656
+    m_Localized: Played in 1 Weekly Challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467436486657
+    m_Localized: Up and comer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467440680960
+    m_Localized: Play in 5 Weekly Challenges
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467444875264
+    m_Localized: Played in 5 Weekly Challenges
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467444875265
+    m_Localized: All Star
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467449069568
+    m_Localized: Play in 10 Weekly Challenges
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467453263872
+    m_Localized: Played in 10 Weekly Challenges
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467453263873
+    m_Localized: Hard Worker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467457458176
+    m_Localized: Reach Legend tier in 1 Weekly Challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467457458177
+    m_Localized: Reached Legend tier in 1 Weekly Challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467461652480
+    m_Localized: 'On a Run '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467465846784
+    m_Localized: Reach Legend tier in 2 Weekly Challenges
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467465846785
+    m_Localized: Reached Legend tier in 2 Weekly Challenges
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467470041088
+    m_Localized: World Wide Challenger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467474235392
+    m_Localized: Reach Legend tier in 3 Weekly Challenges
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467478429696
+    m_Localized: Reached Legend tier in 3 Weekly Challenges
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467478429697
+    m_Localized: Famous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467482624000
+    m_Localized: Reach Legend tier in 4 Weekly Challenges
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467486818304
+    m_Localized: Reached Legend tier in 4 Weekly Challenges
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467486818305
+    m_Localized: 'The Completionist   '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467491012608
+    m_Localized: Reach Legend tier in 5 Weekly Challenges
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467499401216
+    m_Localized: Reached Legend tier in 5 Weekly Challenges
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467503595520
+    m_Localized: Keep on going!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467507789824
+    m_Localized: Use 1 "Revive" in a single run
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467507789825
+    m_Localized: Used 1 "Revive" in a single run
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467511984128
+    m_Localized: A little further!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467516178432
+    m_Localized: Use 2 "Revives" in a single run
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467516178433
+    m_Localized: Used 2 "Revives" in a single run
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467520372736
+    m_Localized: Just about there!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467524567040
+    m_Localized: Use 3 "Revives" in a single run
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467524567041
+    m_Localized: Used 3 "Revives" in a single run
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467528761344
+    m_Localized: Making Waves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467532955648
+    m_Localized: Place in the Top 10 on a leaderboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467532955649
+    m_Localized: Placed in the Top 10 on a leaderboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467537149952
+    m_Localized: Top of the world
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467541344256
+    m_Localized: Place in the top 5 on a leaderboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467541344257
+    m_Localized: Placed in the top 5 on a leaderboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467545538560
+    m_Localized: Novice Runner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467549732864
+    m_Localized: Run 500 meters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467549732865
+    m_Localized: Ran 500 meters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467553927168
+    m_Localized: Pocket Change
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467553927169
+    m_Localized: Collect 100 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467558121472
+    m_Localized: Collected 100 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467562315776
+    m_Localized: Adventurer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467562315777
+    m_Localized: Score 25,000 points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467566510080
+    m_Localized: Scored 25,000 points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467570704384
+    m_Localized: Sprinter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467570704385
+    m_Localized: Run 1,000 meters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467574898688
+    m_Localized: Ran 1,000 meters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467579092992
+    m_Localized: Miser Run
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467583287296
+    m_Localized: 500m collecting no coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467583287297
+    m_Localized: 500m collecting no coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467587481600
+    m_Localized: Piggy Bank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467591675904
+    m_Localized: Collect 250 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467591675905
+    m_Localized: Collected 250 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467595870208
+    m_Localized: Treasure Hunter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467600064512
+    m_Localized: Score 50,000 points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467600064513
+    m_Localized: Scored 50,000 points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467604258816
+    m_Localized: Mega Bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467604258817
+    m_Localized: Fill  the bonus meter 4x
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467608453120
+    m_Localized: Filled the bonus meter 4x
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467612647424
+    m_Localized: Athlete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467612647425
+    m_Localized: Run 2,500 meters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467616841728
+    m_Localized: Ran 2,500 meters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467621036032
+    m_Localized: Lump Sum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467621036033
+    m_Localized: Collect 500 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467625230336
+    m_Localized: Collected 500 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467629424640
+    m_Localized: Resurrection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467629424641
+    m_Localized: Use Resurrection Wings utility in a game.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467633618944
+    m_Localized: Used Resurrection Wings utility in a game.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467637813248
+    m_Localized: Basic Powers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467642007552
+    m_Localized: All Level 1 Powerups
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467642007553
+    m_Localized: All Level 1 Powerups
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467646201856
+    m_Localized: High Roller
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467646201857
+    m_Localized: Score 100,000 points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467650396160
+    m_Localized: Scored 100,000 points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467654590464
+    m_Localized: Payday
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467654590465
+    m_Localized: Collect 750 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467658784768
+    m_Localized: Collected 750 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467662979072
+    m_Localized: Head Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467662979073
+    m_Localized: Use a Head Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467667173376
+    m_Localized: Used a Head Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467671367680
+    m_Localized: Steady Feet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467671367681
+    m_Localized: Run 2,500m without tripping
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467675561984
+    m_Localized: Ran 2,500m without tripping
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467679756288
+    m_Localized: Allergic to Gold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467683950592
+    m_Localized: 1,000m collecting no coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467683950593
+    m_Localized: 1,000m collecting no coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467688144896
+    m_Localized: 5K Runner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467692339200
+    m_Localized: Run 5,000 meters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467692339201
+    m_Localized: Ran 5,000 meters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467696533504
+    m_Localized: No.Trip.Runner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467700727808
+    m_Localized: Run 5,000 meters without tripping
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467700727809
+    m_Localized: Ran 5,000 meters without tripping
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467704922112
+    m_Localized: 1/4 Million Club
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467709116416
+    m_Localized: Score 250,000 points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467709116417
+    m_Localized: Scored 250,000 points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467713310720
+    m_Localized: Double Resurrection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467717505024
+    m_Localized: Use Resurrection Wings twice in one run.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467717505025
+    m_Localized: Used Resurrection Wings twice in one run.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467721699328
+    m_Localized: Money Bags
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467721699329
+    m_Localized: Collect 1,000 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467725893632
+    m_Localized: Collected 1,000 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467730087936
+    m_Localized: 1/2 Million Club
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467730087937
+    m_Localized: Score 500,000 points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467734282240
+    m_Localized: Scored 500,000 points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467738476544
+    m_Localized: Super Powers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467738476545
+    m_Localized: All Level 5 Powerups
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467742670848
+    m_Localized: All Level 5 Powerups
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467746865152
+    m_Localized: Dynamic Duo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467751059456
+    m_Localized: Unlock Two Characters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467751059457
+    m_Localized: Unlocked Two Characters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467755253760
+    m_Localized: Million Club
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467759448064
+    m_Localized: Score 1,000,000 points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467759448065
+    m_Localized: Scored 1,000,000 points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467763642368
+    m_Localized: Money Bin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467763642369
+    m_Localized: Collect 2,500 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467767836672
+    m_Localized: Collected 2,500 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467772030976
+    m_Localized: Fantastic Four
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467772030977
+    m_Localized: Unlock Four Characters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467776225280
+    m_Localized: Unlocked Four Characters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467780419584
+    m_Localized: Sexy Six
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467784613888
+    m_Localized: Unlock 6 characters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467784613889
+    m_Localized: Unlocked 6 characters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467788808192
+    m_Localized: 10K Runner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467793002496
+    m_Localized: Run 10,000 meters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467793002497
+    m_Localized: Ran 10,000 meters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467797196800
+    m_Localized: Fort Knox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467797196801
+    m_Localized: Collect 5,000 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467801391104
+    m_Localized: Collected 5,000 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467805585408
+    m_Localized: 2.5 Million Club
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467805585409
+    m_Localized: Score 2,500,000 points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467809779712
+    m_Localized: Scored 2,500,000 points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467813974016
+    m_Localized: 5 Million Club
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467818168320
+    m_Localized: Score 5,000,000 points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467818168321
+    m_Localized: Scored 5,000,000 points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467822362624
+    m_Localized: The Spartan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467826556928
+    m_Localized: 1 million without powerups
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467826556929
+    m_Localized: 1 million without powerups
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467830751232
+    m_Localized: 10 Million Club
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467834945536
+    m_Localized: Score 10,000,000 points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467834945537
+    m_Localized: Scored 10,000,000 points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467839139840
+    m_Localized: Temple Runner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467843334144
+    m_Localized: Play over 1,000 games
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467843334145
+    m_Localized: Played over 1,000 games
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467847528448
+    m_Localized: Minor Miner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467851722752
+    m_Localized: 100,000 Lifetime Coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467851722753
+    m_Localized: 100,000 Lifetime Coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467855917056
+    m_Localized: Marathoner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467860111360
+    m_Localized: 100,000 Lifetime Meters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467860111361
+    m_Localized: 100,000 Lifetime Meters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467864305664
+    m_Localized: Pro Temple Runner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467864305665
+    m_Localized: Play over 5,000 games
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467868499968
+    m_Localized: Played over 5,000 games
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467872694272
+    m_Localized: Gold Miner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467876888576
+    m_Localized: 500,000 Lifetime Coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467881082880
+    m_Localized: 500,000 Lifetime Coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467881082881
+    m_Localized: Circumnavigator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467885277184
+    m_Localized: 1,000,000 Lifetime Meters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467885277185
+    m_Localized: 1,000,000 Lifetime Meters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467889471488
+    m_Localized: Magnet Miner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467893665792
+    m_Localized: 5 Magnets in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467893665793
+    m_Localized: 5 Magnets in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467897860096
+    m_Localized: Coin Jumper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467902054400
+    m_Localized: 5 Coin Powerups in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467902054401
+    m_Localized: 5 Coin Powerups in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467906248704
+    m_Localized: Invisible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467906248705
+    m_Localized: 5 Invisibilities in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467910443008
+    m_Localized: 5 Invisibilities in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467914637312
+    m_Localized: Booster Shot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467914637313
+    m_Localized: 5 Boosts in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467918831616
+    m_Localized: 5 Boosts in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467923025920
+    m_Localized: Magnetic Personality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467923025921
+    m_Localized: 10 Magnets in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467927220224
+    m_Localized: 10 Magnets in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467931414528
+    m_Localized: Gold Explosion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467931414529
+    m_Localized: 10 Coin Powerups in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467935608832
+    m_Localized: 10 Coin Powerups in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467939803136
+    m_Localized: Unbreakable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467939803137
+    m_Localized: 10 Invisibilities in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467943997440
+    m_Localized: 10 Invisibilities in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467943997441
+    m_Localized: Speed Demon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467948191744
+    m_Localized: 10 Boosts in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467952386048
+    m_Localized: 10 Boosts in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467952386049
+    m_Localized: The Attractor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467956580352
+    m_Localized: 20 Magnets in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467960774656
+    m_Localized: 20 Magnets in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467960774657
+    m_Localized: Golden God
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467964968960
+    m_Localized: 20 Coin Powerups in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467969163264
+    m_Localized: 20 Coin Powerups in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467969163265
+    m_Localized: Invincible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467973357568
+    m_Localized: 20 Invisibilities in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467973357569
+    m_Localized: 20 Invisibilities in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467977551872
+    m_Localized: The Rocket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467981746176
+    m_Localized: 20 Boosts in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467985940480
+    m_Localized: 20 Boosts in a game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467985940481
+    m_Localized: Mega Runner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467990134784
+    m_Localized: Play over 10,000 games
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467994329088
+    m_Localized: Played over 10,000 games
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467994329089
+    m_Localized: Midas Touch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467998523392
+    m_Localized: 1,000,000 Lifetime Coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467998523393
+    m_Localized: 1,000,000 Lifetime Coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468002717696
+    m_Localized: Infinirunner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468006912000
+    m_Localized: 10,000,000 Lifetime Meters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468006912001
+    m_Localized: 10,000,000 Lifetime Meters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468011106304
+    m_Localized: Run Again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468015300608
+    m_Localized: Upgrades
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468019494912
+    m_Localized: Your Best Score!!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468019494913
+    m_Localized: Simply mystifying!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468023689216
+    m_Localized: An ancient dance of hokey pokey.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468027883520
+    m_Localized: You fell to your death.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468027883521
+    m_Localized: Aaaaaaaah!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468032077824
+    m_Localized: You fell to your death.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468036272128
+    m_Localized: But I'm scared of heights!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468036272129
+    m_Localized: End of the road...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468040466432
+    m_Localized: Mind the gap.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468044660736
+    m_Localized: Missed it by *that* much.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468044660737
+    m_Localized: Not again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468048855040
+    m_Localized: I'm reporting this safety violation!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468053049344
+    m_Localized: I knew I should have learned how to fly!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468053049345
+    m_Localized: Adios!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468057243648
+    m_Localized: Good thing I wore my helmet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468061437952
+    m_Localized: You made a tasty snack.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468061437953
+    m_Localized: Feeding time!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468065632256
+    m_Localized: Swimming with the fishes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468065632257
+    m_Localized: Snakes!? I hate snakes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468069826560
+    m_Localized: Bubble, bubble, bubble...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468074020864
+    m_Localized: Where did you go?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468074020865
+    m_Localized: Who let Barney out of his cage?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468078215168
+    m_Localized: So close.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468082409472
+    m_Localized: Is someone watching me?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468082409473
+    m_Localized: Man down!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468086603776
+    m_Localized: Tree Hugger!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468090798080
+    m_Localized: Trees hurt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468090798081
+    m_Localized: Are we bugging you?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468094992384
+    m_Localized: Ants. Why did it have to be ants?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468099186688
+    m_Localized: I always make a good impression.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468099186689
+    m_Localized: I'll just leave that here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468103380992
+    m_Localized: Who left this tree here?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468107575296
+    m_Localized: I left my mark on the world.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468107575297
+    m_Localized: At least my hat is safe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468111769600
+    m_Localized: I need a time out.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468111769601
+    m_Localized: Two lovebirds...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468115963904
+    m_Localized: Mind if I hang out?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468120158208
+    m_Localized: I didn't see that there.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468120158209
+    m_Localized: It hurts the tree more than me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468124352512
+    m_Localized: Not my hat!!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468128546816
+    m_Localized: I'm not the same without my hat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468132741120
+    m_Localized: Harder than it looks...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468132741121
+    m_Localized: Good thing I have a hard head!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468136935424
+    m_Localized: My helmet didn't even help...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468141129728
+    m_Localized: Hard to run without a head.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468141129729
+    m_Localized: Don't forget to duck!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468145324032
+    m_Localized: Knocked your socks off!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468149518336
+    m_Localized: Looks like I'm stuck here a while.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468149518337
+    m_Localized: Don't look at my hairy legs!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468153712640
+    m_Localized: Should have worn my nice socks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468157906944
+    m_Localized: Time to go back to Limbo 101.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468157906945
+    m_Localized: Watch your step...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468162101248
+    m_Localized: Temple slippery when wet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468166295552
+    m_Localized: Mmmm, crispy explorer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468166295553
+    m_Localized: Smells like toast.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468170489856
+    m_Localized: Having a bad hair day?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468174684160
+    m_Localized: I just had that dry cleaned!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468174684161
+    m_Localized: 'Warning: Armor Not Fireproof.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468178878464
+    m_Localized: You made a tasty snack.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468178878465
+    m_Localized: I eat explorers like you for breakfast.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468183072768
+    m_Localized: Nom nom... leathery!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468187267072
+    m_Localized: Tackled just before the endzone!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468187267073
+    m_Localized: This one has a shell!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468191461376
+    m_Localized: Tackled!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468195655680
+    m_Localized: All tangled up...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468195655681
+    m_Localized: Caught you!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468199849984
+    m_Localized: Untied laces cause accidents.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468199849985
+    m_Localized: I've gotta bad feeling about this...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468204044288
+    m_Localized: If only I had my lighter...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468208238592
+    m_Localized: This is not how I imagined my retirement.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468208238593
+    m_Localized: Wonder where these skulls came from?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468212432896
+    m_Localized: That's just unsanitary!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468216627200
+    m_Localized: That looks like Uncle Hernan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468220821504
+    m_Localized: Weekly\nChallenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468220821505
+    m_Localized: Leaderboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468225015808
+    m_Localized: Weekly Challenge Progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468229210112
+    m_Localized: Tier Achieved
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468229210113
+    m_Localized: Seasonals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468233404416
+    m_Localized: Next Challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468233404417
+    m_Localized: Enjoying Temple Run?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468237598720
+    m_Localized: Please leave us a review!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468241793024
+    m_Localized: NEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468241793025
+    m_Localized: COMPLETED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468245987328
+    m_Localized: Save Slots
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468250181632
+    m_Localized: Select a slot for saving Weekly Challenge Progress, Upgrades, and Stats.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468250181633
+    m_Localized: '[{0}] (Current Slot)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468254375936
+    m_Localized: '[{0}] (New)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468258570240
+    m_Localized: '[{0}] (Select to Load)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468262764544
+    m_Localized: 'Lifetime Distance: {0}m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468262764545
+    m_Localized: 'Lifetime Coins: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468266958848
+    m_Localized: 'Last Save: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468271153152
+    m_Localized: Permanantly DELETE Slot [{0}]'s Weekly Challenge Progress, Upgrades and Stats?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468271153153
+    m_Localized: Delete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468275347456
+    m_Localized: Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468275347457
+    m_Localized: DELETE Slot?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468279541760
+    m_Localized: 'Time Left:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468283736064
+    m_Localized: Single Distance Challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468287930368
+    m_Localized: Collective Distance Challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468287930369
+    m_Localized: Single Score Challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468292124672
+    m_Localized: Collective Score Challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468296318976
+    m_Localized: Single Coins Challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468296318977
+    m_Localized: Collective Coins Challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468300513280
+    m_Localized: Single Power-Up Challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468304707584
+    m_Localized: Reach the required distance in a single run to complete this challenge!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468304707585
+    m_Localized: Reach the required distance over multiple runs to complete this challenge!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468308901888
+    m_Localized: Achieve the required score in a single run to complete this challenge!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468313096192
+    m_Localized: Achieve the required score over multiple runs to complete this challenge!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468313096193
+    m_Localized: 'Gather required amount of coins in a single run to complete this challenge! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468317290496
+    m_Localized: 'Gather required amount of coins over multiple runs to complete this challenge! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468321484800
+    m_Localized: 'Gather required amount of power-ups in a single run to complete this challenge! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468321484801
+    m_Localized: Novice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468334067712
+    m_Localized: Scrapper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468342456320
+    m_Localized: Apprentice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468346650624
+    m_Localized: Pathfinder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468350844928
+    m_Localized: Professor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468355039232
+    m_Localized: Legend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468355039233
+    m_Localized: Challenge has ended.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468359233536
+    m_Localized: New Weekly Challenge!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468359233537
+    m_Localized: '"{0}" Tier Complete!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468363427840
+    m_Localized: The rewards earned above will be added to your inventory.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468367622144
+    m_Localized: 'None in Inventory: pick up coins during your run, then buy from the Main Menu "Upgrades" screen.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468371816448
+    m_Localized: Not available during tutorial.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468376010752
+    m_Localized: Not available during your run's countdown/intro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468380205056
+    m_Localized: Only one of Perma-Wings, Head Start, and Mega Head Start can be used in a run.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468384399360
+    m_Localized: This utility only works at the beginning of your run, between {0} and {1}m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468384399361
+    m_Localized: Resurrection wings are re-charging. {0}s left to charge.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468388593664
+    m_Localized: 'Resurrection or Perma-wings are already in effect: can only be re-activated after wings have worn off.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468392787968
+    m_Localized: Res-Wings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468396982272
+    m_Localized: Perma-Wings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468396982273
+    m_Localized: Head Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468401176576
+    m_Localized: Mega Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468405370880
+    m_Localized: THIS UTILITY NOT AVAILABLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468409565184
+    m_Localized: This device is currently offline. Any existing cloud saves will not be available. Any game progress made may not be saved. For iCloud save, ensure iCloud is enabled and signed-into.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468413759488
+    m_Localized: Any existing cloud saves will not be available. Any game progress made will be saved locally. For iCloud save, ensure iCloud is enabled and signed-into.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468417953792
+    m_Localized: Cloud Save Unavailable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468426342400
+    m_Localized: Tiers Complete!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468426342401
+    m_Localized: TIER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468430536704
+    m_Localized: REWARDS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468430536705
+    m_Localized: 'Next Challenge in:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468434731008
+    m_Localized: 'Your Progress:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468438925312
+    m_Localized: Distance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468438925313
+    m_Localized: Coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468443119616
+    m_Localized: Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468447313920
+    m_Localized: Powerups
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468447313921
+    m_Localized: A controller or remote is needed to continue.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468451508224
+    m_Localized: Weekly High Score (resets Mondays at noon UTC)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468455702528
+    m_Localized: 'Base Multiplier:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468455702529
+    m_Localized: 'Objectives Achieved:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468459896832
+    m_Localized: 'Your Multiplier:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468459896833
+    m_Localized: BOOSTED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468464091136
+    m_Localized: Next Revive in <color=#F6D600>{0}s</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468468285440
+    m_Localized: COINS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468468285441
+    m_Localized: RES\nWINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468472479744
+    m_Localized: PERMA\nWINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468476674048
+    m_Localized: HEAD\nSTART
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468476674049
+    m_Localized: MEGA\nSTART
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468480868352
+    m_Localized: REVIVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468480868353
+    m_Localized: QUICK\nFILL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468485062656
+    m_Localized: '{3}d {2}h {1}m {0}s'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468489256960
+    m_Localized: '{2}d {1}h {0}m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468489256961
+    m_Localized: '{1}h {0}m'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468493451264
+    m_Localized: '{0} min'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468497645568
+    m_Localized: '{1}m {0}s'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468497645569
+    m_Localized: '{0}s'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468501839872
+    m_Localized: REVIVES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468501839873
+    m_Localized: Add 1 Revive, used to resurrect and continue running after death.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468506034176
+    m_Localized: Revive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468510228480
+    m_Localized: 1 Revive has been added to your inventory.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468510228481
+    m_Localized: Instantly reduces your "Time to Next Revive" by 5 minutes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468514422784
+    m_Localized: Instant Quick Fill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468518617088
+    m_Localized: 5 minutes has been deducted from your "Time to Next Revive".
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468518617089
+    m_Localized: Unavailable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468522811392
+    m_Localized: '"Instant Quick Fill" is unavailable when you have {0} or more Revives.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468527005696
+    m_Localized: n/a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468527005697
+    m_Localized: No Network Connection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468531200000
+    m_Localized: Toe in the Water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468535394304
+    m_Localized: Participate in one "Single Run" Weekly Challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468539588608
+    m_Localized: Participated in one "Single Run" Weekly Challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468539588609
+    m_Localized: Foot in the Water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468543782912
+    m_Localized: Participate in one "Cumulative" Weekly Challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468547977216
+    m_Localized: Participated in one "Cumulative" Weekly Challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468547977217
+    m_Localized: 'QUICK FILL: {0} per'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468552171520
+    m_Localized: resets to {1} in {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468552171521
+    m_Localized: Controls Help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468556365824
+    m_Localized: Rewards Help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468560560128
+    m_Localized: SCORE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468560560129
+    m_Localized: COINS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468564754432
+    m_Localized: Adds extra coins to your inventory. Spend at the UPGRADES screen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468568948736
+    m_Localized: RESURRECTION WINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468573143040
+    m_Localized: Activate anytime during your run to provide 30 seconds of protection against death. You'll revive automatically if you die while wearing these wings. See OPTIONS → "Controls Help" to learn how to activate.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468573143041
+    m_Localized: PERMA-WINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468577337344
+    m_Localized: Don these special wings to instantly revive after the first death during your run. Activate from the pause menu during the first 100 meters of your run.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468581531648
+    m_Localized: HEAD START
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468581531649
+    m_Localized: Invincibly proceed 1000 meters at the start of your run. Activate from the pause menu during the first 100 meters of your run.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468585725952
+    m_Localized: MEGA START
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468585725953
+    m_Localized: Invincibly proceed 2500 meters at the start of your run. Activate from the pause menu during the first 100 meters of your run.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468589920256
+    m_Localized: REVIVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468594114560
+    m_Localized: Adds 1 revive to your inventory. Revives can be stockpiled then spent in succession for one super-long leaderboard attack!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468594114561
+    m_Localized: QUICK FILL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468598308864
+    m_Localized: Semi-permanantly reduces your Revive refill time by the amount shown under the reward. Collect these to more quickly refill up to 3 revives, enabling more frequent long-plays. Quickfill rewards expire once every 4 weeks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468602503168
+    m_Localized: Reward Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468602503169
+    m_Localized: 'Next Tier Threshold:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468606697472
+    m_Localized: 'Final Progress:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468610891776
+    m_Localized: Revives remaining this run
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468610891777
+    m_Localized: Coin Values fully upgraded!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468615086080
+    m_Localized: '{0}h'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468615086081
+    m_Localized: Nothing says "determination" like running face first into a tree 20 times in a row. Be a 🏆 champion 🏆 – Guy Dangerous, professional life coach.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468619280384
+    m_Localized: Fancy a quick run? It's been ⌛ hours ⌛ since I sprinted headfirst into a tree. – Guy Dangerous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468623474688
+    m_Localized: Grab some cursed gold! (✨ It's very in this season. ✨)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468623474689
+    m_Localized: Gandhi said "Be the change you want to see." I say grab the 💰 change 💰. It's just laying there. – Guy Dangerous, globally respected philosopher.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468627668992
+    m_Localized: Ask not for whom the 🔔 bell 🔔 tolls, ask how much the bell is worth and what will chase you if you grab it! 🏃 💰 – Guy Dangerous, professional economist.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468631863296
+    m_Localized: ⌛ Life is short ⌛ ...Let's stuff our pockets full of cursed gold and accidentally sprint off a cliff. – Guy Dangerous, Nobel laureate.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468631863297
+    m_Localized: 💪 Let's show that Golden Idol who's boss! (Or at least sprint into a tree a few times.) – Guy Dangerous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468636057600
+    m_Localized: When's the last time you sprinted into a tree at 45 miles an hour? Let's change that. 🌳 💥
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468640251904
+    m_Localized: 😈 🐒 wE MIsS YU 🐒 😈 cOmE GEt EaTEd aGIn sOoN – SINsEREly, TEh dEMoN mONkEYS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468640251905
+    m_Localized: Up to Speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468644446208
+    m_Localized: Complete the tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468644446209
+    m_Localized: Completed the tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468648640512
+    m_Localized: https://www.imangistudios.com/privacy/eng/USA/privacy-policy-plus.html
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468652834816
+    m_Localized: Privacy Policy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468657029120
+    m_Localized: Collective Power-Up Challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468657029121
+    m_Localized: 'Gather required amount of power-ups over multiple runs to complete this challenge! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468661223424
+    m_Localized: Your iCloud Storage is Full. Any existing cloud saves will not be available. Any game progress made may not be saved. For iCloud save, go to iCloud Settings to upgrade or clean out some more space.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468665417728
+    m_Localized: Your iCloud Storage is Full. Any game progress made will be saved locally. For iCloud save, go to iCloud Settings to upgrade or clean out some more space.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468665417729
+    m_Localized: Cloud Storage Full
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468669612032
+    m_Localized: iPhone/iPad:\nSupport Bluetooth Controller/Keyboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468673806336
+    m_Localized: Unlock Tamatoa, the mightiest warrior in all Samoa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468673806337
+    m_Localized: Tamatoa, the mightiest warrior in all Samoa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468678000640
+    m_Localized: Unlock Simone Davies, the relentless pirate hunter!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468682194944
+    m_Localized: Simone Davies, the relentless pirate hunter!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468682194945
+    m_Localized: Unlock Sigur Frostbeard, the champion woodsman!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468686389248
+    m_Localized: Sigur Frostbeard, the champion woodsman!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468686389249
+    m_Localized: Unlock "Golden" Guy Dangerous, the gilded man!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468690583552
+    m_Localized: ' "Golden" Guy Dangerous, the gilded man!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468694777856
+    m_Localized: Unlock Selene Celeste, the curious crashed astronaut!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468694777857
+    m_Localized: Selene Celeste, the curious crashed astronaut!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468698972160
+    m_Localized: Unlock Edgar Twiggenbottom, the pumpkin-headed scarecrow!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468703166464
+    m_Localized: Edgar Twiggenbottom, the pumpkin-headed scarecrow!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468703166465
+    m_Localized: Unlock Queen Astrid, the ruler of the frozen wastes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468707360768
+    m_Localized: Queen Astrid, the ruler of the frozen wastes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468711555072
+    m_Localized: Unlock Santa, the master of the North Pole!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468711555073
+    m_Localized: Santa, the master of the North Pole!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468715749376
+    m_Localized: Unlock Nidhi Nirmal, Bollywood superstar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468715749377
+    m_Localized: Nidhi Nirmal, Bollywood superstar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468719943680
+    m_Localized: Unlock Rahi Raja, India's best stuntman!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468724137984
+    m_Localized: Rahi Raja, India's best stuntman!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468724137985
+    m_Localized: Unlock Sara Banyan, the mischievous Persian herbalist!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468728332288
+    m_Localized: Sara Banyan, the mischievous Persian herbalist!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468732526592
+    m_Localized: Unlock Dr. Zenobios, the brilliant mad scientist!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468732526593
+    m_Localized: Dr. Zenobios, the brilliant mad scientist!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468736720896
+    m_Localized: TAMATOA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468740915200
+    m_Localized: SIMONE\nDAVIES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468740915201
+    m_Localized: SIGUR\nFROSTBEARD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468745109504
+    m_Localized: GOLDEN\nGUY\n
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468745109505
+    m_Localized: SELENE\nCELESTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468749303808
+    m_Localized: EDGAR\nTWIGGENBOTTOM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468753498112
+    m_Localized: QUEEN\nASTRID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468753498113
+    m_Localized: SANTA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468757692416
+    m_Localized: NIDHI\nNIRMAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468761886720
+    m_Localized: RAHI\nRAJA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468761886721
+    m_Localized: SARA\nBANYAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468766081024
+    m_Localized: DOCTOR\nZENOBIOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496035999744
+    m_Localized: Loading...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496400904192
+    m_Localized: You earned coins!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496409292800
+    m_Localized: You earned {0} coins for installing free apps!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496409292801
+    m_Localized: Free Coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496413487104
+    m_Localized: Watch a short ad for {0} coins?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496417681408
+    m_Localized: Thank you for watching!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496421875712
+    m_Localized: '{0} coins have been granted! Come back in 12 hours for another reward!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496421875713
+    m_Localized: '[]m to next reward'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496426070016
+    m_Localized: Free Resurrection Wings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496430264320
+    m_Localized: Watch a short ad for a pair of perma wings?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496430264321
+    m_Localized: Use your resurrection wings while running! Come back in 12 hours for another reward!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496434458624
+    m_Localized: Double Up!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496438652928
+    m_Localized: Watch a short ad to double your coins?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496438652929
+    m_Localized: You've doubled your earnings!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496442847232
+    m_Localized: Purchase Failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496447041536
+    m_Localized: Cannot connect to iTunes Store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496447041537
+    m_Localized: Watch a Video
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496451235840
+    m_Localized: Like Temple Run!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496455430144
+    m_Localized: Enable Ads
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496459624448
+    m_Localized: FREE Games Ads
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496459624449
+    m_Localized: Would you like to enable full-screen ads at the end of each game and receive {0} coins?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496463818752
+    m_Localized: No Thanks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496468013056
+    m_Localized: Enable Ads!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496468013057
+    m_Localized: Like on Facebook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496472207360
+    m_Localized: Like Temple Run on Facebook for {0} FREE Coins!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496476401664
+    m_Localized: Follow on X
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496480595968
+    m_Localized: Follow Temple Run on X for {0} FREE Coins!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496484790272
+    m_Localized: Offer Not Available
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496488984576
+    m_Localized: This offer is not available at this time. Please try again later!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496488984577
+    m_Localized: Upgrade Store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496501567488
+    m_Localized: You've collected some coins - you can now upgrade your character at the store to help you score even higher!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496505761792
+    m_Localized: Not Now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496509956096
+    m_Localized: View Store!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496514150400
+    m_Localized: WALLPAPERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496514150401
+    m_Localized: Downloading...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496518344704
+    m_Localized: Saving...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496522539008
+    m_Localized: Wallpaper Saved
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496522539009
+    m_Localized: Your wallpaper has been saved to your Image Gallery.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496526733312
+    m_Localized: Download Failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496530927616
+    m_Localized: Unable to download this item. Make sure your internet connection is available, and try again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496530927617
+    m_Localized: Unlock the Temple Wall wallpaper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496535121920
+    m_Localized: Download the Temple Wall wallpaper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496539316224
+    m_Localized: Unlock the Guy Dangerous wallpaper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496539316225
+    m_Localized: Download the Guy Dangerous wallpaper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496543510528
+    m_Localized: Unlock the Evil Demon Monkeys wallpaper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496547704832
+    m_Localized: Download the Evil Demon Monkeys wallpaper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496547704833
+    m_Localized: Unlock the Temple Wall wallpaper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496551899136
+    m_Localized: Download the Temple Wall wallpaper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496556093440
+    m_Localized: Remove end-game ads.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496560287744
+    m_Localized: End-game ads removed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496560287745
+    m_Localized: DOWNLOAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496564482048
+    m_Localized: Want FREE Coins?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496568676352
+    m_Localized: Watch videos or complete other offers for coins in the FREE Offers section of the Coin Store!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496568676353
+    m_Localized: FREE Coins!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496572870656
+    m_Localized: No Internet Connection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496577064960
+    m_Localized: Cannot connect to store. Make sure your internet connection is available.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496577064961
+    m_Localized: Contacting Store...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496581259264
+    m_Localized: Loading Products...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496585453568
+    m_Localized: '{0} Free Coins'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496585453569
+    m_Localized: FREE OFFERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496589647872
+    m_Localized: Rate it on the App Store!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496593842176
+    m_Localized: Remind me later
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496593842177
+    m_Localized: Don't ask again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496598036480
+    m_Localized: Username
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496602230784
+    m_Localized: Password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496602230785
+    m_Localized: 'I got %@ points while escaping from demon monkeys in Temple Run. Beat that! http://bit.ly/TempleRunGame'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496606425088
+    m_Localized: 'Tweet Failed: Check your login or try again later'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496610619392
+    m_Localized: Friend Markers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496610619393
+    m_Localized: Complete challenge milestones to get rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496614813696
+    m_Localized: Close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496619008000
+    m_Localized: Global Challenges
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496619008001
+    m_Localized: Cumulative Distance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496623202304
+    m_Localized: Score Per Run
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496627396608
+    m_Localized: Coins Per Run
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496627396609
+    m_Localized: Coins Over Time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496631590912
+    m_Localized: Cumulative Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496635785216
+    m_Localized: Distance Per Run
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496635785217
+    m_Localized: GET MORE COINS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496639979520
+    m_Localized: More Coming Soon...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496644173824
+    m_Localized: Characters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496644173825
+    m_Localized: Watch an Ad to Revive?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496648368128
+    m_Localized: UNLOCKED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496652562432
+    m_Localized: Shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496656756736
+    m_Localized: RESTORE PURCHASES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496656756737
+    m_Localized: NO ADS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496660951040
+    m_Localized: PRIVACY SETTINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496665145344
+    m_Localized: Share!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496665145345
+    m_Localized: Unlock Guy Dangerous, 1940s plucky pilot adventurer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496669339648
+    m_Localized: Guy Dangerous, 1940s plucky pilot adventurer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496673533952
+    m_Localized: Unlock Scarlett Fox, the cunning master thief of 1930s
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496673533953
+    m_Localized: Scarlett Fox, the cunning master thief of 1930s
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496677728256
+    m_Localized: Unlock Barry Bones, bodacious 80s cop on a mission
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496681922560
+    m_Localized: Barry Bones, bodacious 80s cop on a mission
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496681922561
+    m_Localized: Unlock Karma Lee, a wandering princess vigilante from 500 BC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496686116864
+    m_Localized: Karma Lee, a wandering princess vigilante from 500 BC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496690311168
+    m_Localized: Unlock Montana Smith, a wild west bandit escaping the 1800s
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496690311169
+    m_Localized: Montana Smith, a wild west bandit escaping the 1800s
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496694505472
+    m_Localized: Unlock Francisco Montoya, the crazy spanish monk from 1500s
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496698699776
+    m_Localized: Francisco Montoya, the crazy spanish monk from 1500s
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496698699777
+    m_Localized: Unlock Zack Wonder, football superstar from 2004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496702894080
+    m_Localized: Zack Wonder, football superstar from 2004
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496707088384
+    m_Localized: Unlock Simone Davies, Carribean Commodore from the 1600s
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496707088385
+    m_Localized: Simone Davies, Carribean Commodore from the 1600s
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496723865600
+    m_Localized: Unlock Edgar Twiggenbottom, the timeless guardian of the fields
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496723865601
+    m_Localized: Edgar Twiggenbottom, the timeless guardian of the fields
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496728059904
+    m_Localized: Unlock Kai Xiang, 500 AD Shaolin Monk seeking redemption
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496732254208
+    m_Localized: Kai Xiang, 500 AD Shaolin Monk seeking redemption
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496736448512
+    m_Localized: Unlock Carnifex, the malevolent mistress of chaos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496736448513
+    m_Localized: Carnifex, the malevolent mistress of chaos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496740642816
+    m_Localized: Unlock Frost Pirate, the captain that terrorized the seas of 1690
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496744837120
+    m_Localized: Frost Pirate, the captain that terrorized the seas of 1690
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496744837121
+    m_Localized: Unlock Wally Nut, the christmas nutcracker who spreads joy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496749031424
+    m_Localized: Wally Nut, the christmas nutcracker who spreads joy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496753225728
+    m_Localized: Unlock Queen Astrid, plundering viking royalty since 930 AD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496757420032
+    m_Localized: Queen Astrid, plundering viking royalty since 930 AD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496757420033
+    m_Localized: Unlock Chronos Timebeard, timeless demigod wreaking endless havoc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496761614336
+    m_Localized: Chronos Timebeard, timeless demigod wreaking endless havoc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16968939731935232
+    m_Localized: Thanks!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406555136000
+    m_Localized: '{0} to next reward'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406815182848
+    m_Localized: Get higher scores to progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406823571456
+    m_Localized: '{0} {1} to next reward'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406823571457
+    m_Localized: points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406827765760
+    m_Localized: Claim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406827765761
+    m_Localized: Claimed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406831960064
+    m_Localized: ON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406836154368
+    m_Localized: OFF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406836154369
+    m_Localized: GLOBAL CHALLENGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406840348672
+    m_Localized: Angel Wings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406844542976
+    m_Localized: Interior Decorator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406844542977
+    m_Localized: Unlock 3 wallpapers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406848737280
+    m_Localized: Unlocked 3 wallpapers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406848737281
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406852931584
+    m_Localized: Watch an Ad to Continue?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406857125888
+    m_Localized: I got {0} points while escaping from demon monkeys. Beat that! {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406857125889
+    m_Localized: Restore Completed!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406861320192
+    m_Localized: Success!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406865514496
+    m_Localized: What's this? A GLOBAL CHALLENGE?! Brace yourself for {0}!!!,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406869708800
+    m_Localized: Cower, mortals! {0} IS HERE! Prepare for a new GLOBAL CHALLENGE!!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406869708801
+    m_Localized: Don't give up! {0} still has prizes waiting to be claimed!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406873903104
+    m_Localized: Don't forget {0}! IT HASN'T FORGOTTEN YOU.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406878097408
+    m_Localized: Let's hustle! Only {0} left before {1} disappears!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406878097409
+    m_Localized: Keep running! You have {0} to seize {1}'s glorious rewards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406882291712
+    m_Localized: Time For A Run!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406882291713
+    m_Localized: We Miss You!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406886486016
+    m_Localized: No Ads Purchase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406890680320
+    m_Localized: Coin Purchase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406890680321
+    m_Localized: No Ads Purchase failed.  Check internet connection and try again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406894874624
+    m_Localized: Coin Purchase failed.  Check internet connection and try again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406899068928
+    m_Localized: Purchase Canceled
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406899068929
+    m_Localized: The message \"{0}\" cannot be sent because the connection failed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406903263232
+    m_Localized: Try Again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406903263233
+    m_Localized: Cannot Share
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406907457536
+    m_Localized: Failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406911651840
+    m_Localized: Sorry, the video failed to play.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406911651841
+    m_Localized: Reward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406915846144
+    m_Localized: Re-apply consent for IAP to enable the coin store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406920040448
+    m_Localized: The coin store is currently unavailable. Please contact support@imangistudios.com for more information.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406920040449
+    m_Localized: '{0} coins added'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406924234752
+    m_Localized: Update Required
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406924234753
+    m_Localized: An update is required to continue to play Temple Run.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406928429056
+    m_Localized: Free Character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406932623360
+    m_Localized: New Characters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406932623361
+    m_Localized: New Adventure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406936817664
+    m_Localized: Join Us
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406936817665
+    m_Localized: Share cancelled!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406941011968
+    m_Localized: Share failed!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406945206272
+    m_Localized: Share successful!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406945206273
+    m_Localized: Milestone {0} Completed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23200394329972736
+    m_Localized: Thanks for Updating
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23200394455801856
+    m_Localized: Thank you for keeping Temple Run Up-to-date! Please accept this gift of 500 coins!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23204094888894464
+    m_Localized: 500 Coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23204095056666624
+    m_Localized: No Thanks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55828746446299136
+    m_Localized: Thank you for downloading Temple Run!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355477262336
+    m_Localized: EXPLORE THE \n UNKNOWN WITH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355628257280
+    m_Localized: FRANCISCO \n MONTOYA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355636645888
+    m_Localized: "\nAvailable For FREE in Runner Select"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929317220352
+    m_Localized: Available For FREE in Runner Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929606627328
+    m_Localized: STEP INTO \n LEGEND WITH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929619210240
+    m_Localized: KARMA LEE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929623404544
+    m_Localized: GEAR UP \n WITH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929627598848
+    m_Localized: ZACK WONDER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929635987456
+    m_Localized: THE DARK PATH \n AWAITS WITH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929640181760
+    m_Localized: CARNIFEX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929644376064
+    m_Localized: THE QUEEN \n RUNS FIRST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929652764672
+    m_Localized: QUEEN ASTRID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929656958976
+    m_Localized: CRACK OPEN \n ADVENTURE WITH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929661153280
+    m_Localized: WALLY NUTT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773763731456
+    m_Localized: STEP INTO \n LEGEND WITH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773776314368
+    m_Localized: KARMA LEE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773780508672
+    m_Localized: Available for FREE in Runner Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126122979169918976
+    m_Localized: GEAR UP \n WITH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126463690687897600
+    m_Localized: GEAR UP \n WITH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126497313759682560
+    m_Localized: ZACK WONDER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126497313763876864
+    m_Localized: Available for FREE in Runner Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126481317888
+    m_Localized: GOLD \nRUSH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126485512192
+    m_Localized: RUNNIN' \nWILD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126485512193
+    m_Localized: NEW \nBEGINNINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027824455680
+    m_Localized: GRAB THE \nTURKEY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027824455681
+    m_Localized: TEMPLE \nRAID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649984
+    m_Localized: THE LONGEST \nMILE!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649985
+    m_Localized: INTO THE \nRUINS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649986
+    m_Localized: FREEDOM \nRUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649987
+    m_Localized: HOLIDAY \nDREAMS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844288
+    m_Localized: SUMMER \nMARATHON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844289
+    m_Localized: TRICK OR \nTREAT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844290
+    m_Localized: COLD AS IT \nGETS!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038592
+    m_Localized: ACQUIRE THE \nTREASURE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038593
+    m_Localized: CAN YOU SURVIVE?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038594
+    m_Localized: EXPERIENCE THE SEASON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232896
+    m_Localized: JOIN THE HOLIDAY FUN!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232897
+    m_Localized: FIND THE LOST IDOL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232898
+    m_Localized: CAN YOU LAST?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232899
+    m_Localized: EXPLORE THE UNKNOWN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427200
+    m_Localized: OH SAY CAN \nYOU SEE?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427201
+    m_Localized: TIS THE \nSEASON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427202
+    m_Localized: BEAT THE \nHEAT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027849621504
+    m_Localized: GRAB SOME \nCANDY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027849621505
+    m_Localized: OUTLAST THE \nFREEZE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477794344960
+    m_Localized: Reset Progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477811122176
+    m_Localized: Improved Ad Experience
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316480
+    m_Localized: Opt In
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316481
+    m_Localized: Opt Out
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316482
+    m_Localized: WITHDRAW CONSENT?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316483
+    m_Localized: "You have currently given your consent to Imangi's disclosure of the advertising ID of your device to advertising network companies for marketing purposes in the game.\n\nAre you sure you want to withdraw consent?\n\n(Tapping YES will close the game; launch again for changes to take effect)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510784
+    m_Localized: IMPROVE AD EXPERIENCE?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510785
+    m_Localized: "Temple Run is supported by ads. To make these as relevant to you as possible, we would like to collect and share data with our ad partners. Please note that choosing No Thanks will not remove ads - instead, you may see ads that may be unrelated to your interests and therefore may not appeal to you. You can update your choice in Settings at any time.\n\n(Tapping YES will close the game; launch again for changes to take effect)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510786
+    m_Localized: CONQUER THE \nWINTER WITH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649416769536
+    m_Localized: OUTRUN DANGER \n WITH...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649437741056
+    m_Localized: SCARLETT FOX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649437741057
+    m_Localized: Available for FREE in Runner Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202893421137879040
+    m_Localized: Available for FREE in Runner Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574259658752
+    m_Localized: MASTER YOUR \n SPEED WITH...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574322573312
+    m_Localized: KAI XIANG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574322573313
+    m_Localized: Available for FREE in Runner Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105925562368
+    m_Localized: MASTER YOUR \n SPEED WITH...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105938145280
+    m_Localized: BARRY BONES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105938145281
+    m_Localized: Available for FREE in Runner Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438307418112
+    m_Localized: NIDHI\nNIRMAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438332583936
+    m_Localized: Unlock Nidhi Nirmal, Bollywood superstar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438332583937
+    m_Localized: Nidhi Nirmal, Bollywood superstar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984695754752
+    m_Localized: CELEBRATE 15 \n YEARS WITH...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984729309184
+    m_Localized: NIDHI NIRMAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984729309185
+    m_Localized: Available for FREE in Runner Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096434597888
+    m_Localized: WELCOME BACK!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096451375104
+    m_Localized: CELEBRATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096455569408
+    m_Localized: 15 YEARS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096455569409
+    m_Localized: WITH 15,000 FREE COINS!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228703228063113216
+    m_Localized: Claim Now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075348025344
+    m_Localized: STILL RUNNING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075381579776
+    m_Localized: 15 YEARS LATER...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774080
+    m_Localized: BIRTHDAY LOOT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774081
+    m_Localized: CELEBRATE WITH EVERY COIN!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774082
+    m_Localized: ONE MORE RUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774083
+    m_Localized: HOW FAR CAN YOU GO?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412179812352
+    m_Localized: TREASURE AWAITS \n WITH...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412196589568
+    m_Localized: FRANCISCO MONTOYA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412196589569
+    m_Localized: Available for FREE in Runner Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243860789221384192
+    m_Localized: RUN THE FIELD IN...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243860789229772800
+    m_Localized: FRIDAY NIGHT RUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252909526883229696
+    m_Localized: RUSH AHEAD WITH…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252909526900006912
+    m_Localized: ZACK WONDER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260263528729927680
+    m_Localized: GET SPOOKY \n WITH...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260263528746704896
+    m_Localized: EDGAR TWIGGENBOTTOM
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

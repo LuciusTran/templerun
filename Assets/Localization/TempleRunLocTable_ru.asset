@@ -1,0 +1,4003 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: TempleRunLocTable_ru
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ru
+  m_SharedData: {fileID: 11400000, guid: 0071ada7e6fa56344b4d42c06e5e2bd7, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 306466174001152
+    m_Localized: Схватите идола,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466660540416
+    m_Localized: если сможете!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466681511936
+    m_Localized: Играть!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466685706240
+    m_Localized: Цели
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466702483456
+    m_Localized: Статистика
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466706677760
+    m_Localized: Улучшения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466710872064
+    m_Localized: Настройки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466710872065
+    m_Localized: Ячейки сохранения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466715066368
+    m_Localized: Оживления
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466719260672
+    m_Localized: Еженедельное испытание
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466723454976
+    m_Localized: Настройки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466723454977
+    m_Localized: Чувств.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466727649280
+    m_Localized: Музыка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466731843584
+    m_Localized: Звук
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466731843585
+    m_Localized: Обучение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466736037888
+    m_Localized: 'Язык: русский'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466740232192
+    m_Localized: Удалить данные сохранения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466740232193
+    m_Localized: Политика конфиденциальности
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466744426496
+    m_Localized: НАЗАД
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466748620800
+    m_Localized: Язык
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466752815104
+    m_Localized: Пауза
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466752815105
+    m_Localized: 'Очки:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466757009408
+    m_Localized: 'Расстояние:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466761203712
+    m_Localized: 'Монеты:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466765398016
+    m_Localized: 'Множитель:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466765398017
+    m_Localized: 'Следующая цель:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466769592320
+    m_Localized: 'Следующий уровень:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466773786624
+    m_Localized: Главное меню
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466773786625
+    m_Localized: Новая игра
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466777980928
+    m_Localized: Продолжить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466782175232
+    m_Localized: Новая игра
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466782175233
+    m_Localized: Ваш прогресс будет потерян! Вы уверены, что хотите начать новую игру?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466786369536
+    m_Localized: Выйти из игры
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466790563840
+    m_Localized: Ваш прогресс будет потерян! Вы уверены, что хотите выйти?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466790563841
+    m_Localized: Нет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466794758144
+    m_Localized: Да
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466798952448
+    m_Localized: Продолжить забег?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466803146752
+    m_Localized: 'До следующего оживления: <color=#F6D600>{0} мин. {1} сек.</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466803146753
+    m_Localized: Оживить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466807341056
+    m_Localized: Закончить забег
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466811535360
+    m_Localized: МАКСИМУМ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466815729664
+    m_Localized: Статистика
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466815729665
+    m_Localized: 'Множитель:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466819923968
+    m_Localized: x{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466824118272
+    m_Localized: Одиночный забег
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466824118273
+    m_Localized: 'Максимум очков:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466828312576
+    m_Localized: 'Самый длинный забег:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466832506880
+    m_Localized: '{0}м'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466832506881
+    m_Localized: 'Максимум монет:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466836701184
+    m_Localized: с оживлением
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466840895488
+    m_Localized: За все время
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466840895489
+    m_Localized: 'Игр за все время:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466845089792
+    m_Localized: 'Расстояние за все время:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466849284096
+    m_Localized: 'Монет за все время:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466853478400
+    m_Localized: Улучшения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466853478401
+    m_Localized: УСИЛЕНИЯ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466857672704
+    m_Localized: Неизвестно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466861867008
+    m_Localized: Активирует усиление «Мегаклад» на 50 монет.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466861867009
+    m_Localized: Увеличивает количество монет «Мегаклада» до 75.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466866061312
+    m_Localized: Увеличивает количество монет «Мегаклада» до 100.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466870255616
+    m_Localized: Увеличивает количество монет «Мегаклада» до 125.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466870255617
+    m_Localized: Увеличивает количество монет «Мегаклада» до 150.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466874449920
+    m_Localized: Разрешает отключение «Мегаклада».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466878644224
+    m_Localized: «Мегаклад» максимально улучшен!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466878644225
+    m_Localized: «Мегаклад» отключен.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466882838528
+    m_Localized: УЛУЧШИТЬ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466887032832
+    m_Localized: БЕСПЛАТНО
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466887032833
+    m_Localized: ВКЛЮЧИТЬ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466891227136
+    m_Localized: ОТКЛЮЧИТЬ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466895421440
+    m_Localized: Активирует усиление «Магнит для монет».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466895421441
+    m_Localized: Увеличивает длительность «Магнита для монет».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466899615744
+    m_Localized: «Магнит для монет» удваивает монеты.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466899615745
+    m_Localized: Увеличивает длительность «Магнита для монет».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466903810048
+    m_Localized: «Магнит для монет» утраивает монеты.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466908004352
+    m_Localized: Разрешает отключение «Магнита для монет».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466912198656
+    m_Localized: «Магнит для монет» максимально улучшен!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466912198657
+    m_Localized: «Магнит для монет» отключен.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466916392960
+    m_Localized: Активирует усиление «Невидимость».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466920587264
+    m_Localized: Увеличивает длительность «Невидимости».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466920587265
+    m_Localized: Разрешает отключение «Невидимости».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466924781568
+    m_Localized: «Невидимость» максимально улучшена!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466928975872
+    m_Localized: '"Невидимость" отключена.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466928975873
+    m_Localized: Активирует усиление «Рывок» на 250 м.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466933170176
+    m_Localized: Увеличивает «Рывок» до 375 м.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466937364480
+    m_Localized: Увеличивает «Рывок» до 500 м.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466937364481
+    m_Localized: Увеличивает «Рывок» до 625 м.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466941558784
+    m_Localized: Увеличивает «Рывок» до 750 м.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466945753088
+    m_Localized: Разрешает отключение «Рывка».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466949947392
+    m_Localized: «Рывок» максимально улучшен!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466949947393
+    m_Localized: «Рывок» отключен.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466954141696
+    m_Localized: Удваивает монеты после {0} м.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466958336000
+    m_Localized: Удваивает монеты после {0} м.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466958336001
+    m_Localized: Удваивает монеты после {0} м.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466962530304
+    m_Localized: Утраивает монеты после {0} м.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466966724608
+    m_Localized: Утраивает монеты после {0} м.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466966724609
+    m_Localized: Утраивает монеты после {0} м.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466970918912
+    m_Localized: МАКС. УЛУЧШЕНИЕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466975113216
+    m_Localized: ПРЕДМЕТЫ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466975113217
+    m_Localized: Активировав их, вы воскресаете сразу после смерти.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466979307520
+    m_Localized: НА ОДИН РАЗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466983501824
+    m_Localized: Крылья воскрешения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466983501825
+    m_Localized: 'Используйте во время забега, дважды коснувшись экрана, или приостановите игру и выберите предмет «Крылья воскрешения». Эффект длится 30 секунд. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466987696128
+    m_Localized: 'Используйте во время забега, нажав и удерживая кнопку в центре экрана в течение 1 секунды, или приостановите игру и выберите предмет «Крылья воскрешения». Эффект длится 30 секунд. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466987696129
+    m_Localized: 'Используйте во время забега, нажав кнопку (Y/△) на геймпаде, или приостановите игру и выберите предмет «Крылья воскрешения». Эффект длится 30 секунд. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466991890432
+    m_Localized: 'Используйте во время забега, нажав клавишу [R], или приостановите игру и выберите предмет «Крылья воскрешения». Эффект длится 30 секунд. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466996084736
+    m_Localized: Хорошо
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306466996084737
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467000279040
+    m_Localized: Крылья воскрешения, которые действуют постоянно.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467004473344
+    m_Localized: Постоянные крылья
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467004473345
+    m_Localized: Чтобы использовать, выберите предмет «Крылья воскрешения» в меню паузы в начале игры. Если вы погибнете, то сразу же возродитесь.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467008667648
+    m_Localized: В начале игры дает «Рывок» на 1000 м.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467012861952
+    m_Localized: Фора на старте
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467012861953
+    m_Localized: Нажмите кнопку «Фора на старте» в меню паузы в начале игры, чтобы рвануть на 1000 м. вперед.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467017056256
+    m_Localized: В начале игры дает «Мегарывок» на 2500 м.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467021250560
+    m_Localized: Мегафора на старте
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467025444864
+    m_Localized: Нажмите кнопку «Мегафора на старте» в меню паузы в начале игры, чтобы рвануть на 2500 м. вперед.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467025444865
+    m_Localized: ПЕРСОНАЖИ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467029639168
+    m_Localized: ИСПОЛЬЗУЕТСЯ СЕЙЧАС
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467033833472
+    m_Localized: АКТИВИРОВАТЬ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467033833473
+    m_Localized: ОТКРЫТЬ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467038027776
+    m_Localized: Открывает Гая Опасного, обычного путешественника.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467042222080
+    m_Localized: Открывает Скарлетт Фокс, хитрого мастера побегов.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467042222081
+    m_Localized: Открывает Барри Бонса, городского полицейского с характером.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467046416384
+    m_Localized: Открывает Карму Ли, самую быстроногую девушку на Дальнем Востоке.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467050610688
+    m_Localized: Открывает Монтану Смита, второго величайшего путешественника в истории.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467050610689
+    m_Localized: Открывает Франсиско Монтойю, конкистадора.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467054804992
+    m_Localized: Открывает Зака Уандера, звезду американского футбола.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467058999296
+    m_Localized: Гай Опасный, обычный путешественник.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467058999297
+    m_Localized: Скарлетт Фокс, хитрый мастер побегов.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467063193600
+    m_Localized: Барри Бонс, городской полицейский с характером.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467067387904
+    m_Localized: Карма Ли, самая быстроногая девушка на Дальнем Востоке.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467067387905
+    m_Localized: Монтана Смит, второй величайший путешественник в истории.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467071582208
+    m_Localized: Франсиско Монтойя, конкистадор.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467075776512
+    m_Localized: Зак Уандер, звезда американского футбола.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467075776513
+    m_Localized: НЕДОСТАТОЧНО МОНЕТ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467079970816
+    m_Localized: Mонеты, заработанные в забеге, можно потратить здесь.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467084165120
+    m_Localized: Запрос не выполнен
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467084165121
+    m_Localized: Невозможно выполнить запрос в данный момент. Повторите попытку позже.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467088359424
+    m_Localized: Рекорд!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467092553728
+    m_Localized: Смахните для поворота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467092553729
+    m_Localized: Смахните для поворота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467096748032
+    m_Localized: Смахните для поворота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467100942336
+    m_Localized: Смахните для прыжка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467100942337
+    m_Localized: Смахните для скольжения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467105136640
+    m_Localized: Наклоните для сбора монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467105136641
+    m_Localized: Наклоните для сбора монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467113525248
+    m_Localized: Наклоните для сбора монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467113525249
+    m_Localized: Смахните для поворота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467117719552
+    m_Localized: Смахните для поворота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467121913856
+    m_Localized: Смахните для поворота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467121913857
+    m_Localized: Смахните вверх для прыжка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467126108160
+    m_Localized: Смахните вниз для скольжения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467130302464
+    m_Localized: Смахните для сбора монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467130302465
+    m_Localized: Смахните для сбора монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467134496768
+    m_Localized: Смахните для сбора монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467138691072
+    m_Localized: Крестовина влево
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467138691073
+    m_Localized: Крестовина вправо
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467142885376
+    m_Localized: Крестовина влево/вправо для поворота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467142885377
+    m_Localized: Нажмите вверх для прыжка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467147079680
+    m_Localized: Нажмите вниз для скольжения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467151273984
+    m_Localized: Нажмите влево для сбора монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467155468288
+    m_Localized: Нажмите вправо для сбора монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467155468289
+    m_Localized: Влево/вправо для сбора монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467159662592
+    m_Localized: Стрелка влево для поворота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467163856896
+    m_Localized: Стрелка влево для поворота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467163856897
+    m_Localized: Влево/вправо для поворота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467168051200
+    m_Localized: Нажмите вверх для прыжка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467172245504
+    m_Localized: Вниз для скольжения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467172245505
+    m_Localized: Нажмите влево для сбора монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467176439808
+    m_Localized: Нажмите вправо для сбора монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467180634112
+    m_Localized: Влево/вправо для сбора монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467180634113
+    m_Localized: Заполните счетчик, чтобы получить бонусные очки.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467184828416
+    m_Localized: Отлично!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467189022720
+    m_Localized: Вы готовы. Удачи!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467189022721
+    m_Localized: Контроллер подключен
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467193217024
+    m_Localized: Контроллер отключен
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467197411328
+    m_Localized: Включить предметы в меню паузы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467197411329
+    m_Localized: Управление
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467201605632
+    m_Localized: Сенсорное
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467205799936
+    m_Localized: Управление через Siri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467205799937
+    m_Localized: Remote Gen 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467209994240
+    m_Localized: Геймпад/контроллер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467209994241
+    m_Localized: Клавиатура
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467214188544
+    m_Localized: 'Поворот влево:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467218382848
+    m_Localized: 'Поворот вправо:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467218382849
+    m_Localized: 'Переместитесь влево для сбора монет:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467222577152
+    m_Localized: 'Переместитесь вправо для сбора монет:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467226771456
+    m_Localized: 'Прыжок:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467226771457
+    m_Localized: 'Скольжение:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467230965760
+    m_Localized: 'Меню паузы:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467235160064
+    m_Localized: Предметы в игре
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467235160065
+    m_Localized: 'Крылья воскрешения на 30 сек.:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467239354368
+    m_Localized: Предметы в начале игры
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467243548672
+    m_Localized: 'Фора на старте:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467243548673
+    m_Localized: 'Мегастарт:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467247742976
+    m_Localized: 'Постоянные крылья:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467251937280
+    m_Localized: Смахните влево
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467251937281
+    m_Localized: Смахните вправо
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467256131584
+    m_Localized: Смахните вверх
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467260325888
+    m_Localized: Смахните вниз
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467264520192
+    m_Localized: Наклонитесь влево
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467264520193
+    m_Localized: Наклонитесь вправо
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467268714496
+    m_Localized: Коснитесь значка паузы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467272908800
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467272908801
+    m_Localized: Дважды коснитесь экрана во время игры
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467277103104
+    m_Localized: или нажмите паузу, затем выберите в меню «Крылья воскрешения».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467281297408
+    m_Localized: После начала отсчета нажмите на паузу,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467281297409
+    m_Localized: затем выберите в меню «Фора на старте».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467285491712
+    m_Localized: После начала отсчета нажмите на паузу,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467289686016
+    m_Localized: затем выберите в меню «Мегастарт».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467289686017
+    m_Localized: После начала отсчета нажмите на паузу,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467293880320
+    m_Localized: затем выберите в меню «Постоянные крылья».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467298074624
+    m_Localized: Смахните влево
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467298074625
+    m_Localized: Смахните вправо
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467302268928
+    m_Localized: Смахните вверх
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467302268929
+    m_Localized: Смахните вниз
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467306463232
+    m_Localized: Смахните влево
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467310657536
+    m_Localized: Смахните вправо
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467310657537
+    m_Localized: Кнопка паузы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467314851840
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467319046144
+    m_Localized: Нажмите кнопку в центре и удерживайте
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467323240448
+    m_Localized: или нажмите паузу, затем выберите в меню «Крылья воскрешения».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467323240449
+    m_Localized: После начала отсчета нажмите на паузу,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467327434752
+    m_Localized: затем выберите в меню «Фора на старте».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467331629056
+    m_Localized: После начала отсчета нажмите на паузу,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467331629057
+    m_Localized: затем выберите в меню «Мегастарт».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467335823360
+    m_Localized: После начала отсчета нажмите на паузу,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467335823361
+    m_Localized: затем выберите в меню «Постоянные крылья».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467340017664
+    m_Localized: D-pad/Джойстик ←/L1(LB)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467344211968
+    m_Localized: D-pad/Джойстик →/R1(RB)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467344211969
+    m_Localized: Крестовина/джойстик ↑ или A/×
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467348406272
+    m_Localized: Крестовина/джойстик ↓ или A/×
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467352600576
+    m_Localized: Крестовина/джойстик ←
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467352600577
+    m_Localized: Крестовина/джойстик →
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467356794880
+    m_Localized: Кнопка Старт/Меню/Настройки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467360989184
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467360989185
+    m_Localized: Y/△, или паузу,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467365183488
+    m_Localized: затем выберите в меню «Крылья воскрешения».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467365183489
+    m_Localized: После начала отсчета нажмите на паузу,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467369377792
+    m_Localized: затем выберите в меню «Фора на старте».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467373572096
+    m_Localized: После начала отсчета нажмите на паузу,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467373572097
+    m_Localized: затем выберите в меню «Мегастарт».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467377766400
+    m_Localized: После начала отсчета нажмите на паузу,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467381960704
+    m_Localized: затем выберите в меню «Постоянные крылья».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467381960705
+    m_Localized: '[←] или клавиша [A]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467386155008
+    m_Localized: '[→] или клавиша [D]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467390349312
+    m_Localized: '[↑] или клавиша [W]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467390349313
+    m_Localized: '[↓] или клавиша [S]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467394543616
+    m_Localized: '[←] или клавиша [A]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467394543617
+    m_Localized: '[→] или клавиша [D]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467398737920
+    m_Localized: Клавиша [ESC]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467402932224
+    m_Localized: '""'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467407126528
+    m_Localized: Клавиша [R] или пауза,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467407126529
+    m_Localized: затем выберите в меню «Крылья воскрешения».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467411320832
+    m_Localized: После начала отсчета нажмите на паузу,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467415515136
+    m_Localized: затем выберите в меню «Фора на старте».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467415515137
+    m_Localized: После начала отсчета нажмите на паузу,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467419709440
+    m_Localized: затем выберите в меню «Мегастарт».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467423903744
+    m_Localized: После начала отсчета нажмите на паузу,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467423903745
+    m_Localized: затем выберите в меню «Постоянные крылья».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467428098048
+    m_Localized: Цели
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467428098049
+    m_Localized: Приз за участие
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467432292352
+    m_Localized: Сыграйте в еженедельном испытании 1 раз
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467436486656
+    m_Localized: Вы сыграли в еженедельном испытании 1 раз
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467436486657
+    m_Localized: Большие надежды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467440680960
+    m_Localized: Сыграйте в 5 еженедельных испытаниях
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467444875264
+    m_Localized: Вы сыграли в 5 еженедельных испытаниях
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467444875265
+    m_Localized: Настоящая звезда
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467449069568
+    m_Localized: Сыграйте в 10 еженедельных испытаниях
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467453263872
+    m_Localized: Вы сыграли в 10 еженедельных испытаниях
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467453263873
+    m_Localized: Трудолюбивый работник
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467457458176
+    m_Localized: Достигните уровня «Легенды» в 1 еженедельном испытании
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467457458177
+    m_Localized: Вы достигли уровня «Легенды» в 1 еженедельном испытании
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467461652480
+    m_Localized: 'В бегах '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467465846784
+    m_Localized: Достигните уровня «Легенды» в 2 еженедельных испытаниях
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467465846785
+    m_Localized: Вы достигли уровня «Легенды» в 2 еженедельных испытаниях
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467470041088
+    m_Localized: Вызов всему миру
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467474235392
+    m_Localized: Достигните уровня «Легенды» в 3 еженедельных испытаниях
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467478429696
+    m_Localized: Вы достигли уровня «Легенды» в 3 еженедельных испытаниях
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467478429697
+    m_Localized: Знаменитость
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467482624000
+    m_Localized: Достигните уровня «Легенды» в 4 еженедельных испытаниях
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467486818304
+    m_Localized: Вы достигли уровня «Легенды» в 4 еженедельных испытаниях
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467486818305
+    m_Localized: 'Перфекционист   '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467491012608
+    m_Localized: Достигните уровня «Легенды» в 5 еженедельных испытаниях
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467499401216
+    m_Localized: Вы достигли уровня «Легенды» в 5 еженедельных испытаниях
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467503595520
+    m_Localized: Не останавливайтесь!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467507789824
+    m_Localized: Используйте 1 «Оживление» в одном забеге
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467507789825
+    m_Localized: Вы использовали 1 «Оживление» в одном забеге
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467511984128
+    m_Localized: Еще немного!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467516178432
+    m_Localized: Используйте 2 «Оживления» в одном забеге
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467516178433
+    m_Localized: Вы использовали 2 «Оживления» в одном забеге
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467520372736
+    m_Localized: Уже близко!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467524567040
+    m_Localized: Используйте 3 «Оживления» в одном забеге
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467524567041
+    m_Localized: Вы использовали 3 «Оживления» в одном забеге
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467528761344
+    m_Localized: Шумиха
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467532955648
+    m_Localized: Займите место в десятке лучших в таблице лидеров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467532955649
+    m_Localized: Вы заняли место в десятке лучших в таблице лидеров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467537149952
+    m_Localized: Вершина мира
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467541344256
+    m_Localized: Займите место в пятерке лучших в таблице лидеров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467541344257
+    m_Localized: Вы заняли место в пятерке лучших в таблице лидеров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467545538560
+    m_Localized: Бегун-новичок
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467549732864
+    m_Localized: Пробегите 500 метров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467549732865
+    m_Localized: Вы пробежали 500 метров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467553927168
+    m_Localized: Карманная мелочь
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467553927169
+    m_Localized: Соберите 100 монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467558121472
+    m_Localized: Вы собрали 100 монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467562315776
+    m_Localized: Авантюрист
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467562315777
+    m_Localized: Наберите 25 000 очков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467566510080
+    m_Localized: Вы набрали 25 000 очков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467570704384
+    m_Localized: Спринтер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467570704385
+    m_Localized: Пробегите 1000 метров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467574898688
+    m_Localized: Вы пробежали 1000 метров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467579092992
+    m_Localized: Забег скряги
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467583287296
+    m_Localized: Пробегите 500 м., не собирая монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467583287297
+    m_Localized: Вы пробежали 500 метров, не собирая монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467587481600
+    m_Localized: Копилка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467591675904
+    m_Localized: Соберите 250 монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467591675905
+    m_Localized: Вы собрали 250 монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467595870208
+    m_Localized: Охотник за сокровищами
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467600064512
+    m_Localized: Наберите 50 000 очков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467600064513
+    m_Localized: Вы набрали 50 000 очков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467604258816
+    m_Localized: Мегабонус
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467604258817
+    m_Localized: Бонусный счетчик до x4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467608453120
+    m_Localized: Вы заполнили бонусный счетчик до x4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467612647424
+    m_Localized: Спортсмен
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467612647425
+    m_Localized: Пробегите 2500 метров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467616841728
+    m_Localized: Вы пробежали 2500 метров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467621036032
+    m_Localized: Крупная сумма
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467621036033
+    m_Localized: Соберите 500 монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467625230336
+    m_Localized: Вы собрали 500 монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467629424640
+    m_Localized: Воскрешение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467629424641
+    m_Localized: Используйте предмет «Крылья воскрешения».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467633618944
+    m_Localized: Вы использовали предмет «Крылья воскрешения».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467637813248
+    m_Localized: Основные силы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467642007552
+    m_Localized: Все усиления 1 уровня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467642007553
+    m_Localized: Вы получили все усиления 1 уровня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467646201856
+    m_Localized: Крупный игрок
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467646201857
+    m_Localized: Наберите 100 000 очков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467650396160
+    m_Localized: Вы набрали 100 000 очков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467654590464
+    m_Localized: Зарплата
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467654590465
+    m_Localized: Соберите 750 монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467658784768
+    m_Localized: Вы собрали 750 монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467662979072
+    m_Localized: Фора на старте
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467662979073
+    m_Localized: Используйте «Фору на старте»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467667173376
+    m_Localized: Вы использовали «Фору на старте»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467671367680
+    m_Localized: На крепких ногах
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467671367681
+    m_Localized: Пробегите 2500 м., не споткнувшись
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467675561984
+    m_Localized: Вы пробежали 2500 метров, не споткнувшись
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467679756288
+    m_Localized: Аллергия на золото
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467683950592
+    m_Localized: Пробегите 1000 м., не собирая монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467683950593
+    m_Localized: Вы пробежали 1000 метров, не собирая монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467688144896
+    m_Localized: Бегун на 5000 м
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467692339200
+    m_Localized: Пробегите 5000 метров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467692339201
+    m_Localized: Вы пробежали 5000 метров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467696533504
+    m_Localized: Бег без запинки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467700727808
+    m_Localized: Пробегите 5000 метров, не споткнувшись
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467700727809
+    m_Localized: Вы пробежали 5000 метров, не споткнувшись
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467704922112
+    m_Localized: Четверть миллиона
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467709116416
+    m_Localized: Наберите 250 000 очков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467709116417
+    m_Localized: Вы набрали 250 000 очков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467713310720
+    m_Localized: Двойное воскрешение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467717505024
+    m_Localized: Используйте «Крылья воскрешения» дважды за забег.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467717505025
+    m_Localized: Вы использовали «Крылья воскрешения» дважды за забег.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467721699328
+    m_Localized: Денежный мешок
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467721699329
+    m_Localized: Соберите 1000 монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467725893632
+    m_Localized: Вы собрали 1000 монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467730087936
+    m_Localized: Полмиллиона
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467730087937
+    m_Localized: Наберите 500 000 очков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467734282240
+    m_Localized: Вы набрали 500 000 очков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467738476544
+    m_Localized: Суперсилы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467738476545
+    m_Localized: Получите все усиления 5 ур.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467742670848
+    m_Localized: Получены все усиления 5 ур.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467746865152
+    m_Localized: Динамический дуэт
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467751059456
+    m_Localized: Откройте 2 персонажей
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467751059457
+    m_Localized: Вы открыли 2 персонажей
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467755253760
+    m_Localized: Целый миллион
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467759448064
+    m_Localized: Наберите 1 000 000 очков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467759448065
+    m_Localized: Вы набрали 1 000 000 очков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467763642368
+    m_Localized: Денежное хранилище
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467763642369
+    m_Localized: Соберите 2500 монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467767836672
+    m_Localized: Вы собрали 2500 монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467772030976
+    m_Localized: Фантастическая четверка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467772030977
+    m_Localized: Откройте 4 персонажей
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467776225280
+    m_Localized: Вы открыли 4 персонажей
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467780419584
+    m_Localized: Шикарная шестерка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467784613888
+    m_Localized: Откройте 6 персонажей
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467784613889
+    m_Localized: Вы открыли 6 персонажей
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467788808192
+    m_Localized: Бегун на 10 000 м.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467793002496
+    m_Localized: Пробегите 10 000 метров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467793002497
+    m_Localized: Вы пробежали 10 000 метров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467797196800
+    m_Localized: Форт-Нокс
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467797196801
+    m_Localized: Соберите 5000 монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467801391104
+    m_Localized: Вы собрали 5000 монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467805585408
+    m_Localized: 2,5 миллиона
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467805585409
+    m_Localized: Наберите 2 500 000 очков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467809779712
+    m_Localized: Вы набрали 2 500 000 очков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467813974016
+    m_Localized: 5 миллионов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467818168320
+    m_Localized: Наберите 5 000 000 очков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467818168321
+    m_Localized: Вы набрали 5 000 000 очков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467822362624
+    m_Localized: Спартанец
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467826556928
+    m_Localized: Наберите 1 млн. без усилений
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467826556929
+    m_Localized: Вы набрали 1 миллион без усилений
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467830751232
+    m_Localized: 10 миллионов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467834945536
+    m_Localized: Наберите 10 000 000 очков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467834945537
+    m_Localized: Вы набрали 10 000 000 очков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467839139840
+    m_Localized: Храмовый бегун
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467843334144
+    m_Localized: Сыграйте в более чем 1000 игр
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467843334145
+    m_Localized: Вы сыграли в более чем 1000 игр
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467847528448
+    m_Localized: Мелкий добытчик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467851722752
+    m_Localized: 100 000 монет за все время
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467851722753
+    m_Localized: Вы собрали 100 000 монет за все время
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467855917056
+    m_Localized: Марафонец
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467860111360
+    m_Localized: 100 000 м. за все время
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467860111361
+    m_Localized: Вы пробежали 100 000 метров за все время
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467864305664
+    m_Localized: Храмовый профи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467864305665
+    m_Localized: Сыграйте в более чем 5000 игр
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467868499968
+    m_Localized: Вы сыграли в более чем 5000 игр
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467872694272
+    m_Localized: Золотодобытчик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467876888576
+    m_Localized: 500 000 монет за все время
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467881082880
+    m_Localized: Вы собрали 500 000 монет за все время
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467881082881
+    m_Localized: Кругосветчик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467885277184
+    m_Localized: Пробегите 1 000 000 м. за все время
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467885277185
+    m_Localized: Вы пробежали 1 000 000 метров за все время
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467889471488
+    m_Localized: Магнитодобытчик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467893665792
+    m_Localized: Используйте «Магнит» в игре 5 р.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467893665793
+    m_Localized: Вы использовали «Магнит» в игре 5 раз
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467897860096
+    m_Localized: Прыгун за монетами
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467902054400
+    m_Localized: «Усиление монет» 5 р. за игру
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467902054401
+    m_Localized: Вы использовали «Усиление монет» 5 р. за игру
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467906248704
+    m_Localized: Невидимка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467906248705
+    m_Localized: Используйте «Невидимость» 5 р. за игру
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467910443008
+    m_Localized: Вы использовали «Невидимость» в игре 5 раз
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467914637312
+    m_Localized: Хороший рывок
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467914637313
+    m_Localized: Используйте «Рывок» в игре 5 раз
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467918831616
+    m_Localized: Вы использовали «Рывок» в игре 5 раз
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467923025920
+    m_Localized: Притягательная личность
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467923025921
+    m_Localized: Используйте «Магнит» в игре 10 раз
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467927220224
+    m_Localized: Вы использовали «Магнит» в игре 10 раз
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467931414528
+    m_Localized: Золотой взрыв
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467931414529
+    m_Localized: «Усиление монет» 10 р. за игру
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467935608832
+    m_Localized: Вы использовали усиление монет в игре 10 раз
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467939803136
+    m_Localized: Неуязвимый
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467939803137
+    m_Localized: ' «Неуязвимость» 10 р. за игру'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467943997440
+    m_Localized: Вы использовали «Неуязвимость» в игре 10 раз
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467943997441
+    m_Localized: Лихач
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467948191744
+    m_Localized: Используйте «Рывок» в игре 10 раз
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467952386048
+    m_Localized: Вы использовали «Рывок» в игре 10 раз
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467952386049
+    m_Localized: Приманка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467956580352
+    m_Localized: Используйте «Магнит» в игре 20 раз
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467960774656
+    m_Localized: Вы использовали «Магнит» в игре 20 раз
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467960774657
+    m_Localized: Золотой бог
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467964968960
+    m_Localized: «Усиление монет» 10 р. за игру
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467969163264
+    m_Localized: Вы использовали «Усиление монет» 10 р. за игру
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467969163265
+    m_Localized: Непобедимый
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467973357568
+    m_Localized: «Непобедимость» 20 р. за игру
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467973357569
+    m_Localized: Вы использовали «Непобедимость» в игре 20 раз
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467977551872
+    m_Localized: Ракета
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467981746176
+    m_Localized: Используйте «Рывок» в игре 20 раз
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467985940480
+    m_Localized: Вы использовали «Рывок» в игре 20 раз
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467985940481
+    m_Localized: Мегабегун
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467990134784
+    m_Localized: Сыграйте в более чем 10 000 игр
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467994329088
+    m_Localized: Вы сыграли в более чем 10 000 игр
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467994329089
+    m_Localized: Прикосновение Мидаса
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467998523392
+    m_Localized: 1 000 000 монет за все время
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306467998523393
+    m_Localized: Вы собрали 1 000 000 монет за все время
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468002717696
+    m_Localized: Неустанный бегун
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468006912000
+    m_Localized: Пробегите 10 000 000 м. за все время
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468006912001
+    m_Localized: Вы пробежали 10 000 000 метров за все время
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468011106304
+    m_Localized: Бежать снова
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468015300608
+    m_Localized: Улучшения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468019494912
+    m_Localized: Ваш лучший результат!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468019494913
+    m_Localized: Завораживает!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468023689216
+    m_Localized: Древний танец штучки-дрючки.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468027883520
+    m_Localized: Вы разбились насмерть.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468027883521
+    m_Localized: А-а-а-а-а-а-а-а!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468032077824
+    m_Localized: Вы разбились насмерть.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468036272128
+    m_Localized: Но я боюсь высоты!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468036272129
+    m_Localized: Конец пути...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468040466432
+    m_Localized: Внимание, провал!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468044660736
+    m_Localized: Это надо же так промахнуться.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468044660737
+    m_Localized: Неужели опять?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468048855040
+    m_Localized: Сообщаю о нарушении техники безопасности!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468053049344
+    m_Localized: Надо было научиться летать!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468053049345
+    m_Localized: Адьос!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468057243648
+    m_Localized: Хорошо, что на мне шлем!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468061437952
+    m_Localized: Из вас вышла вкусная закуска.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468061437953
+    m_Localized: Время кормежки!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468065632256
+    m_Localized: Вы стали кормом для рыб.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468065632257
+    m_Localized: Змеи?! Ненавижу змей!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468069826560
+    m_Localized: Буль-буль-буль...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468074020864
+    m_Localized: Куда вы делись?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468074020865
+    m_Localized: Кто выпустил Барни из клетки?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468078215168
+    m_Localized: Еще бы чуть-чуть.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468082409472
+    m_Localized: За мной кто-то следит?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468082409473
+    m_Localized: Человек тонет!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468086603776
+    m_Localized: Любитель объятий!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468090798080
+    m_Localized: Только ствол поцарапали.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468090798081
+    m_Localized: Мы вас прижучили?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468094992384
+    m_Localized: Муравьи. Почему это должны быть муравьи?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468099186688
+    m_Localized: Я всегда оставляю хорошее впечатление.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468099186689
+    m_Localized: Я просто оставлю это здесь.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468103380992
+    m_Localized: Откуда здесь дерево?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468107575296
+    m_Localized: Мой след остался в этом мире.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468107575297
+    m_Localized: Хотя бы моему шлему ничего не грозит.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468111769600
+    m_Localized: Мне нужен тайм-аут.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468111769601
+    m_Localized: Два голубка...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468115963904
+    m_Localized: Можно мне здесь зависнуть?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468120158208
+    m_Localized: Как можно было это не увидеть?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468120158209
+    m_Localized: Дереву больнее, чем мне.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468124352512
+    m_Localized: Только не моя шляпа!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468128546816
+    m_Localized: Я не могу без шляпы!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468132741120
+    m_Localized: Тверже, чем кажется...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468132741121
+    m_Localized: Хорошо, что у меня твердая голова!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468136935424
+    m_Localized: Даже мой шлем не помог...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468141129728
+    m_Localized: Трудно бежать без головы.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468141129729
+    m_Localized: Не забывайте пригибаться!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468145324032
+    m_Localized: Сногсшибательно!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468149518336
+    m_Localized: Похоже, я здесь надолго.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468149518337
+    m_Localized: Не смотри на мои волосатые ноги!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468153712640
+    m_Localized: Надо было надеть хорошие носки.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468157906944
+    m_Localized: Пора освежить знания о лимбе.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468157906945
+    m_Localized: Смотрите, куда идете...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468162101248
+    m_Localized: Осторожно, в храме скользкий пол.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468166295552
+    m_Localized: М-м-м, хрустящий путешественник.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468166295553
+    m_Localized: Запахло тостом.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468170489856
+    m_Localized: Все идет наперекосяк?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468174684160
+    m_Localized: Только ведь из химчистки!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468174684161
+    m_Localized: Внимание! Доспехи не являются огнеупорными.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468178878464
+    m_Localized: Из вас вышла вкусная закуска.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468178878465
+    m_Localized: Я ем таких путешественников, как ты, на завтрак.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468183072768
+    m_Localized: Ням-ням... кожа!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468187267072
+    m_Localized: Перехвачен прямо перед конечной зоной!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468187267073
+    m_Localized: А у этого есть панцирь!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468191461376
+    m_Localized: Перехвачен!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468195655680
+    m_Localized: Как все запутано...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468195655681
+    m_Localized: Поймали!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468199849984
+    m_Localized: Развязанные шнурки приводят к несчастным случаям.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468199849985
+    m_Localized: У меня плохое предчувствие...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468204044288
+    m_Localized: Эх, нет при себе зажигалки...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468208238592
+    m_Localized: Не так мне представлялся мой выход на пенсию.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468208238593
+    m_Localized: Интересно, откуда взялись эти черепа?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468212432896
+    m_Localized: Какая антисанитария!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468216627200
+    m_Localized: Похоже на дядю Эрнана!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468220821504
+    m_Localized: Еженедельное\nиспытание
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468220821505
+    m_Localized: Список лидеров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468225015808
+    m_Localized: Прогресс в еженедельном испытании
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468229210112
+    m_Localized: Достигнутый уровень
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468229210113
+    m_Localized: Сезонные испытания
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468233404416
+    m_Localized: Следующее испытание
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468233404417
+    m_Localized: Вам нравится Temple Run?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468237598720
+    m_Localized: Оставьте отзыв!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468241793024
+    m_Localized: ДАЛЬШЕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468241793025
+    m_Localized: ЗАВЕРШЕНО
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468245987328
+    m_Localized: Ячейки сохранения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468250181632
+    m_Localized: Выберите слот для сохранения прогресса в еженедельных испытаниях, улучшений и статистики.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468250181633
+    m_Localized: '[{0}] (Текущий слот)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468254375936
+    m_Localized: '[{0}] (Новый)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468258570240
+    m_Localized: '[{0}] (Выберите для загрузки)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468262764544
+    m_Localized: 'Расстояние за все время: {0} м.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468262764545
+    m_Localized: 'Монет за все время: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468266958848
+    m_Localized: 'Последнее сохранение: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468271153152
+    m_Localized: УДАЛИТЬ слот [{0}] с прогрессом в еженедельных испытаниях, улучшениями и статистикой навсегда?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468271153153
+    m_Localized: Удалить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468275347456
+    m_Localized: Отмена
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468275347457
+    m_Localized: УДАЛИТЬ слот?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468279541760
+    m_Localized: 'Осталось времени:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468283736064
+    m_Localized: Одиночное испытание расстояния
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468287930368
+    m_Localized: Совместное испытание расстояния
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468287930369
+    m_Localized: Одиночное испытание очков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468292124672
+    m_Localized: Совместное испытание очков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468296318976
+    m_Localized: Одиночное испытание монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468296318977
+    m_Localized: Совместное испытание монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468300513280
+    m_Localized: Одиночное испытание усиления
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468304707584
+    m_Localized: Достигните нужного расстояния за один забег, чтобы пройти испытание.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468304707585
+    m_Localized: Достигните нужного расстояния за несколько забегов, чтобы пройти испытание.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468308901888
+    m_Localized: Соберите нужное количество очков за один забег, чтобы пройти испытание.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468313096192
+    m_Localized: Соберите нужное количество очков за несколько забегов, чтобы пройти испытание.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468313096193
+    m_Localized: 'Соберите нужное количество монет за один забег, чтобы пройти испытание. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468317290496
+    m_Localized: 'Соберите нужное количество монет за несколько забегов, чтобы пройти испытание. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468321484800
+    m_Localized: 'Получите нужное количество усилений за один забег, чтобы пройти испытание. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468321484801
+    m_Localized: Новичок
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468334067712
+    m_Localized: Гроза
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468342456320
+    m_Localized: Подмастерье
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468346650624
+    m_Localized: Первопроходец
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468350844928
+    m_Localized: Наставник
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468355039232
+    m_Localized: Легенда
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468355039233
+    m_Localized: Испытание закончилось.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468359233536
+    m_Localized: Новое еженедельное испытание!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468359233537
+    m_Localized: Уровень «{0}» завершен!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468363427840
+    m_Localized: Полученные награды будут добавлены в инвентарь.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468367622144
+    m_Localized: Нет в инвентаре. Собрав достаточно монет в забегах, вы можете докупить усиления на вкладке «Улучшения» в главном меню.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468371816448
+    m_Localized: Недоступно во время обучения.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468376010752
+    m_Localized: Недоступно во время отсчета или вступления.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468380205056
+    m_Localized: 'Только один из следующих предметов можно использовать во время забега: «Постоянные крылья», «Фора на старте» и «Мегафора на старте».'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468384399360
+    m_Localized: Этот предмет действует только в начале забега, между {0} и {1} м.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468384399361
+    m_Localized: '«Крылья воскрешения» восстанавливаются через некоторое время сами. До восстановления: {0}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468388593664
+    m_Localized: Предметы «Воскрешение» и «Постоянные крылья» уже используются. По истечению срока их можно использовать повторно.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468392787968
+    m_Localized: Крылья воскрешения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468396982272
+    m_Localized: Постоянные крылья
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468396982273
+    m_Localized: Фора на старте
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468401176576
+    m_Localized: Мегастарт
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468405370880
+    m_Localized: ЭТОТ ПРЕДМЕТ НЕДОСТУПЕН
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468409565184
+    m_Localized: Это устройство не подключено к сети, в следствии чего облачные сохранения недоступны, а игровой прогресс не будет сохранен. Для сохранения в iCloud убедитесь, что вы подключились и авторизировались в iCloud.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468413759488
+    m_Localized: Облачные сохранения недоступны, а игровой прогресс будет сохраняться только на данном устройстве. Для сохранения в iCloud убедитесь, что вы подключились и авторизировались в iCloud.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468417953792
+    m_Localized: Облачное сохранение недоступно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468426342400
+    m_Localized: Уровни пройдены!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468426342401
+    m_Localized: УРОВЕНЬ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468430536704
+    m_Localized: НАГРАДЫ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468430536705
+    m_Localized: 'Следующее испытание через:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468434731008
+    m_Localized: 'Ваш прогресс:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468438925312
+    m_Localized: Расстояние
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468438925313
+    m_Localized: Монеты
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468443119616
+    m_Localized: Очки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468447313920
+    m_Localized: Усиления
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468447313921
+    m_Localized: Чтобы продолжить, требуется контроллер или пульт управления.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468451508224
+    m_Localized: Рекорд очков за неделю (сбрасывается каждый понедельник в полдень по UTC)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468455702528
+    m_Localized: 'Базовый множитель:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468455702529
+    m_Localized: 'Достигнутые цели:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468459896832
+    m_Localized: 'Ваш множитель:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468459896833
+    m_Localized: С РЫВКОМ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468464091136
+    m_Localized: 'До следующего оживления: <color=#F6D600>{0} сек.</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468468285440
+    m_Localized: МОНЕТЫ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468468285441
+    m_Localized: КРЫЛЬЯ\nВОСКРЕШ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468472479744
+    m_Localized: ПОСТО.\nКРЫЛЬЯ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468476674048
+    m_Localized: ФОРА\nНА СТАРТЕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468476674049
+    m_Localized: МЕГА\nСТАРТ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468480868352
+    m_Localized: ОЖИВЛЕ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468480868353
+    m_Localized: БЫСТРОЕ\nЗАПОЛ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468485062656
+    m_Localized: '{3} дн. {2} ч. {1} мин. {0} сек.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468489256960
+    m_Localized: '{2} дн. {1} ч. {0} мин.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468489256961
+    m_Localized: '{1} ч. {0} мин.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468493451264
+    m_Localized: '{0} мин.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468497645568
+    m_Localized: '{1} мин. {0} сек.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468497645569
+    m_Localized: '{0} сек.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468501839872
+    m_Localized: ОЖИВЛЕНИЯ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468501839873
+    m_Localized: Добавляет 1 оживление, которое позволяет воскреснуть и продолжить забег.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468506034176
+    m_Localized: Оживление
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468510228480
+    m_Localized: 1 оживление добавлено в инвентарь.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468510228481
+    m_Localized: Мгновенно снижает «Время до следующего оживления» на 5 минут.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468514422784
+    m_Localized: Мгновенное «Быстрое заполнение»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468518617088
+    m_Localized: «Время до следующего оживления» сокращено на 5 минут.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468518617089
+    m_Localized: Недоступно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468522811392
+    m_Localized: Мгновенное «Быстрое заполнение» недоступно, если у вас есть {0} или больше оживлений.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468527005696
+    m_Localized: Н/д
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468527005697
+    m_Localized: Нет соединения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468531200000
+    m_Localized: Окуните в воду палец
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468535394304
+    m_Localized: Участвуйте в еженедельном испытании «Одиночный забег»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468539588608
+    m_Localized: Вы участвовали в еженедельном испытании «Одиночный забег»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468539588609
+    m_Localized: Окуните в воду ногу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468543782912
+    m_Localized: Участвуйте в «Накопительном» еженедельном испытании
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468547977216
+    m_Localized: Вы участвовали в «Накопительном» еженедельном испытании
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468547977217
+    m_Localized: 'БЫСТРОЕ ЗАПОЛНЕНИЕ: за {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468552171520
+    m_Localized: Сбрасывается до {1} через {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468552171521
+    m_Localized: Справка по управлению
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468556365824
+    m_Localized: Справка по наградам
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468560560128
+    m_Localized: ОЧКИ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468560560129
+    m_Localized: МОНЕТЫ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468564754432
+    m_Localized: Добавляет больше монет в инвентарь, которые потом можно потратить на вкладке «УЛУЧШЕНИЯ».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468568948736
+    m_Localized: КРЫЛЬЯ ВОСКРЕШЕНИЯ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468573143040
+    m_Localized: Дает защиту от смерти на 30 секунд после использования во время забега. Если умрете, неся эти крылья, то сразу воскресните. См. раздел ПАРАМЕТРЫ → «Справка по управлению».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468573143041
+    m_Localized: ПОСТОЯННЫЕ КРЫЛЬЯ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468577337344
+    m_Localized: Наденьте эти замечательные крылья, чтобы мгновенно возродиться после первой смерти во время забега. Их нужно использовать в меню паузы во время первых 100 метров забега.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468581531648
+    m_Localized: ФОРА НА СТАРТЕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468581531649
+    m_Localized: Дает беспрепятственный пробег на первые 1000 метров. Используется в меню паузы во время первых 100 метров забега.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468585725952
+    m_Localized: МЕГАСТАРТ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468585725953
+    m_Localized: Дает беспрепятственный пробег на первые 2500 метров. Используется в меню паузы во время первых 100 метров забега.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468589920256
+    m_Localized: ОЖИВЛЕНИЕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468594114560
+    m_Localized: Добавляет в инвентарь 1 оживление. Оживления можно накапливать, затем использовать сразу в одном длинном забеге, чтобы продвинуться в списке лидеров.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468594114561
+    m_Localized: БЫСТРОЕ ЗАПОЛНЕНИЕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468598308864
+    m_Localized: Временно сокращает перезарядку оживлений на время, указанное в награде. Эти предметы позволят вам ускорять до 3 возрождений, чтобы совершать более длительные забеги. Эффект действия этих наград обновляется каждые 4 недели.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468602503168
+    m_Localized: Информация о награде
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468602503169
+    m_Localized: 'Порог следующего уровня:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468606697472
+    m_Localized: Итоговый прогресс
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468610891776
+    m_Localized: Осталось оживлений
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468610891777
+    m_Localized: Стоимость монет полностью обновлена!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468615086080
+    m_Localized: '{0} ч.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468615086081
+    m_Localized: Ничего не говорит о "решимости" лучше, чем врезаться лицом в дерево 20 раз подряд. Станьте🏆 чемпионом🏆 – Гай Опасный, профессиональный лайф-коуч.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468619280384
+    m_Localized: Не хотите немного пробежаться? Прошло уже⌛ ч.⌛ с тех пор, как я врезался головой в дерево. – Гай Опасный
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468623474688
+    m_Localized: Заберите немного проклятого золота! (✨ Сейчас это очень модно. ✨)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468623474689
+    m_Localized: Ганди сказал "Мы сами должны стать теми переменами, которые хотим увидеть." Я говорю, что надо забрать 💰 перемены💰. Они просто тут лежат. – Гай Опасный, всемирно уважаемый философ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468627668992
+    m_Localized: Не спрашивайте по ком звонит 🔔 колокол 🔔, спрашивайте сколько он стоит, и что погонится за вами, если вы его возьмете! 🏃 💰 – Гай Опасный, профессиональный экономист.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468631863296
+    m_Localized: ⌛ Жизнь коротка ⌛ ... Давайте набьем свои карманы проклятым золотом и нечаянно сбросимся со скалы. – Гай Опасный, нобелевский лауреат.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468631863297
+    m_Localized: 💪 Давайте покажем этому Золотому идолу кто тут босс! (Или врежьтесь в дерево хотя бы несколько раз.) – Гай Опасный
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468636057600
+    m_Localized: Когда последний раз вы врезались в дерево на скорости в 45 миль в час? Давайте это исправим. 🌳 💥
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468640251904
+    m_Localized: 😈 🐒 мЫ ПО ТебЕ СкуЧаеМ 🐒 😈 ПрИхОДи СКоРО бЫтЬ сЪедЕнЫМ ОпЯТь – ИсКРенНЕ, ОбЕЗьЯНкИ-ДеМонЫ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468640251905
+    m_Localized: Нажмите вверх для скорости
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468644446208
+    m_Localized: Закончите обучение!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468644446209
+    m_Localized: Обучение закончено!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468648640512
+    m_Localized: https://www.imangistudios.com/privacy/eng/RU/privacy-policy-plus.html
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468652834816
+    m_Localized: Политика конфиденциальности
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468657029120
+    m_Localized: Коллективное испытание усиления
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468657029121
+    m_Localized: 'Соберите нужное количество усилений за несколько забегов, чтобы завершить это испытание! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468661223424
+    m_Localized: Ваше хранилище iCloud заполнено. Любые облачные сохранения будут недоступны. Любой прогресс может не быть сохранен. Для сохранения iCloud, зайдите в настройки iCloud, чтобы сменить план хранилища или освободить больше места.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468665417728
+    m_Localized: Ваше хранилище iCloud заполнено. Любой прогресс будет храниться локально. Для сохранения iCloud, зайдите в настройки iCloud, чтобы сменить план хранилища или освободить больше места.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468665417729
+    m_Localized: Облачное хранилище заполнено
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468669612032
+    m_Localized: iPhone/iPad:\nПоддержка Bluetooth геймпада/клавиатуры
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468673806336
+    m_Localized: Открой Таматоа, самого сильного воина во всем Самоа!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468673806337
+    m_Localized: Таматоа, самый сильный воин во всем Самоа!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468678000640
+    m_Localized: Открой Симона Дэвиса — безжалостного охотника на пиратов!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468682194944
+    m_Localized: Симон Дэвис — безжалостный охотник на пиратов!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468682194945
+    m_Localized: Открой Сигура Фростбирда, лесника-чемпиона!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468686389248
+    m_Localized: Сигур Фростбирд, лесник-чемпион!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468686389249
+    m_Localized: Открой «Золотого» Гая Опасного, позолоченного человека!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468690583552
+    m_Localized: ' «Золотой» Гай Опасный, позолоченный человек!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468694777856
+    m_Localized: Открой Селен Селест, любопытного космонавта, потерпевшего крушение!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468694777857
+    m_Localized: Селен Селест, любопытный космонавт, потерпевший крушение!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468698972160
+    m_Localized: Открывает Сэра Монтагю, скелета
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468703166464
+    m_Localized: Сэр Монтагю, скелет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468703166465
+    m_Localized: Открой Королеву Астрид, правительницу ледяных пустошей!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468707360768
+    m_Localized: Королева Астрид, правительница ледяных пустошей!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468711555072
+    m_Localized: Открой Санту, хозяина Северного полюса!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468711555073
+    m_Localized: Санта, хозяин Северного полюса!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468715749376
+    m_Localized: Открой Нидхи Нирмала, звезду Болливуда!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468715749377
+    m_Localized: Нидхи Нирмал, звезда Болливуда!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468719943680
+    m_Localized: Открой Рахи Раджу, лучшего каскадера Индии!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468724137984
+    m_Localized: Рахи Раджа, лучший каскадер Индии!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468724137985
+    m_Localized: Открой Сару Баньян, озорную персидскую травницу!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468728332288
+    m_Localized: Сара Баньян, озорная персидская травница!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468732526592
+    m_Localized: Открой Доктора Зенобиуса, гениального сумасшедшего ученого!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468732526593
+    m_Localized: Доктор Зенобиус, гениальный сумасшедший ученый!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468736720896
+    m_Localized: ТАМАТОА
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468740915200
+    m_Localized: СИМОН\nДЭВИС
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468740915201
+    m_Localized: СИГУР\nФРОСТБИРД
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468745109504
+    m_Localized: ЗОЛОТОЙ\nГАЙ\n
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468745109505
+    m_Localized: СЕЛЕН\nСЕЛЕСТ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468749303808
+    m_Localized: СЭР\nМОНТАГЮ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468753498112
+    m_Localized: КОРОЛЕВА\nАСТРИД
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468753498113
+    m_Localized: САНТА
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468757692416
+    m_Localized: НИДХИ\nНИРМАЛ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468761886720
+    m_Localized: РАЛЬ\nРАДЖА
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468761886721
+    m_Localized: САРА\nБАНЬЯН
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306468766081024
+    m_Localized: ДОКТОР\nЗЕНОБИУС
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496035999744
+    m_Localized: Загрузка...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496400904192
+    m_Localized: Вы получили монеты!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496409292800
+    m_Localized: Вы получили монеты за установку приложений. Вот столько – {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496409292801
+    m_Localized: Бесплатные монеты
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496413487104
+    m_Localized: Посмотреть рекламу? Вы получите монеты в награду. Вот столько – {0}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496417681408
+    m_Localized: Спасибо за просмотр!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496421875712
+    m_Localized: 'Выдано монет: {0}! Через 12 часов можно получить ещё!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496421875713
+    m_Localized: '[] м до награды'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496426070016
+    m_Localized: Бесплатные крылья
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496430264320
+    m_Localized: Посмотреть рекламу? Вы получите пару вечнокрыльев в награду.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496430264321
+    m_Localized: Крылья позволяют возвращаться в забег. Через 12 часов можно получить ещё!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496434458624
+    m_Localized: Вдвое больше!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496438652928
+    m_Localized: Посмотреть рекламу? Число монет удвоится.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496438652929
+    m_Localized: Вы удвоили свою награду!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496442847232
+    m_Localized: Ошибка покупки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496447041536
+    m_Localized: Невозможно подключиться к iTunes Store.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496447041537
+    m_Localized: Посмотреть видео
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496451235840
+    m_Localized: Поставить «Нравится»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496455430144
+    m_Localized: Включить рекламу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496459624448
+    m_Localized: Реклама после игры
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496459624449
+    m_Localized: Смотреть рекламу после каждой игры? Вы будете получать монеты в награду. Вот столько – {0}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496463818752
+    m_Localized: Нет, спасибо
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496468013056
+    m_Localized: Включить рекламу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496468013057
+    m_Localized: Поставьте «Нравится»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496472207360
+    m_Localized: Поставьте нам «Нравится» на Facebook и получите монеты. Вот столько – {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496476401664
+    m_Localized: Подпишитесь на нас
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496480595968
+    m_Localized: Подпишитесь на нас в Х и получите монеты. Вот столько – {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496484790272
+    m_Localized: Предложение недоступно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496488984576
+    m_Localized: Сейчас предложение недоступно. Повторите попытку позже.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496488984577
+    m_Localized: Магазин с улучшениями
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496501567488
+    m_Localized: Вы подкопили монет и теперь можете улучшить своего персонажа в магазине. Так вы будете набирать ещё больше очков!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496505761792
+    m_Localized: Не сейчас
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496509956096
+    m_Localized: В магазин
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496514150400
+    m_Localized: ОБОИ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496514150401
+    m_Localized: Скачивание...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496518344704
+    m_Localized: Сохранение...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496522539008
+    m_Localized: Обои сохранены
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496522539009
+    m_Localized: Обои сохранены у вас на устройстве.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496526733312
+    m_Localized: Ошибка скачивания
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496530927616
+    m_Localized: Не удалось скачать этот объект. Проверьте подключение и повторите попытку.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496530927617
+    m_Localized: Откройте обои «Стена».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496535121920
+    m_Localized: Скачайте обои «Стена».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496539316224
+    m_Localized: Откройте обои «Гай Опасный».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496539316225
+    m_Localized: Скачайте обои «Гай Опасный».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496543510528
+    m_Localized: Откройте обои «Злозьяны».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496547704832
+    m_Localized: Скачайте обои «Злозьяны».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496547704833
+    m_Localized: Откройте обои «Стена».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496551899136
+    m_Localized: Скачайте обои «Стена».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496556093440
+    m_Localized: Уберите рекламу после игры.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496560287744
+    m_Localized: Реклама после игры больше не показывается.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496560287745
+    m_Localized: СКАЧАТЬ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496564482048
+    m_Localized: Хотите получить монеты?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496568676352
+    m_Localized: Посмотрите рекламу или выполните задания магазина в разделе «Бесплатные предложения»!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496568676353
+    m_Localized: Бесплатные монеты
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496572870656
+    m_Localized: Нет подключения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496577064960
+    m_Localized: Не удалось зайти в магазин. Проверьте подключение и повторите попытку.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496577064961
+    m_Localized: Подключение к магазину...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496581259264
+    m_Localized: Загрузка товаров...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496585453568
+    m_Localized: 'Бесплатные монеты: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496585453569
+    m_Localized: БЕСПЛАТНЫЕ ПРЕДЛОЖЕНИЯ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496589647872
+    m_Localized: Оцените нашу игру в App Store!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496593842176
+    m_Localized: Напомнить позже
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496593842177
+    m_Localized: Больше не спрашивать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496598036480
+    m_Localized: Имя пользователя
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496602230784
+    m_Localized: Пароль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496602230785
+    m_Localized: 'Я играю в Temple Run. Мой рекорд: %@. Хотите его побить? http://bit.ly/TempleRunGame'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496606425088
+    m_Localized: Ошибка публикации. Проверьте данные для входа или повторите попытку позже.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496610619392
+    m_Localized: Метки друзей
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496610619393
+    m_Localized: Проходите испытания по этапам и получайте награды!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496614813696
+    m_Localized: Закрыть
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496619008000
+    m_Localized: Глобальные испытания
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496619008001
+    m_Localized: Общее расстояние
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496623202304
+    m_Localized: Счёт за забег
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496627396608
+    m_Localized: Монеты за забег
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496627396609
+    m_Localized: Монеты за всё время
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496631590912
+    m_Localized: Общий счёт
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496635785216
+    m_Localized: Пройдено за забег
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496635785217
+    m_Localized: ПОЛУЧИТЬ ЕЩЁ МОНЕТЫ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496639979520
+    m_Localized: Скоро будет ещё...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496644173824
+    m_Localized: Персонажи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496644173825
+    m_Localized: Посмотреть рекламу и возродиться?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496648368128
+    m_Localized: ОТКРЫТО
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496652562432
+    m_Localized: Магазин
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496656756736
+    m_Localized: ВОССТАНОВИТЬ ПОКУПКИ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496656756737
+    m_Localized: БЕЗ РЕКЛАМЫ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496660951040
+    m_Localized: НАСТРОЙКИ КОНФИДЕНЦИАЛЬНОСТИ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496665145344
+    m_Localized: Поделитесь!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496665145345
+    m_Localized: Откройте Гая Опасного, отважного авантюриста 1940-х
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496669339648
+    m_Localized: Гай Опасный, отважный авантюрист 1940-х
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496673533952
+    m_Localized: Откройте Скарлетт Фокс, искусную воровку 1930-х
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496673533953
+    m_Localized: Скарлетт Фокс, искусная воровка 1930-х
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496677728256
+    m_Localized: Откройте Барри Бонса, бравого полицейского 1980-х
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496681922560
+    m_Localized: Барри Бонс, бравый полицейский 1980-х
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496681922561
+    m_Localized: Откройте Карму Ли, странствующую принцессу из 500 года до н. э.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496686116864
+    m_Localized: Карма Ли, странствующая принцесса из 500 года до н. э.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496690311168
+    m_Localized: Откройте Монтану Смита, бандита с Дикого Запада из 1800-х
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496690311169
+    m_Localized: Монтана Смит, бандит с Дикого Запада из 1800-х
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496694505472
+    m_Localized: Откройте Франсиско Монтойю, безумного монаха из 1500-х
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496698699776
+    m_Localized: Франсиско Монтойя, безумный монах из 1500-х
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496698699777
+    m_Localized: Откройте Зака Уандера, спортивную суперзвезду из 2004 года
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496702894080
+    m_Localized: Зак Уандер, спортивная суперзвезда из 2004 года
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496707088384
+    m_Localized: Откройте Симону Дейвис, карибского коммодора из 1600-х
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496707088385
+    m_Localized: Симона Дейвис, карибский коммодор из 1600-х
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496723865600
+    m_Localized: Откройте Эдгара Твиггенботтома, вечного стража полей
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496723865601
+    m_Localized: Эдгар Твиггенботтом, вечный страж полей
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496728059904
+    m_Localized: Откройте Кай Сяна, шаолиньского монаха из 500 года
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496732254208
+    m_Localized: Кай Сян, шаолиньский монах из 500 года
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496736448512
+    m_Localized: Откройте Карнифекс, злобную властительницу Хаоса
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496736448513
+    m_Localized: Карнифекс, злобная властительница Хаоса
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496740642816
+    m_Localized: Откройте Морозного Пирата, капитана семи морей из 1690-х
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496744837120
+    m_Localized: Морозный Пират, капитан семи морей из 1690-х
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496744837121
+    m_Localized: Откройте Щелкунчика, весёлую игрушку к зимнему празднику
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496749031424
+    m_Localized: Щелкунчик, весёлая игрушка к зимнему празднику
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496753225728
+    m_Localized: Откройте Королеву Астрид, бесстрашную викингшу из 930 года
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496757420032
+    m_Localized: Королева Астрид, бесстрашная викингша из 930 года
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496757420033
+    m_Localized: Откройте Хроноса Времебородого, грозного полубога из древних времён
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14147496761614336
+    m_Localized: Хронос Времебородый, грозный полубог из древних времён
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16968939731935232
+    m_Localized: Спасибо!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406555136000
+    m_Localized: '{0} до награды'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406815182848
+    m_Localized: Обновляйте рекорды и открывайте больше
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406823571456
+    m_Localized: '{0} {1} до следующей награды'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406823571457
+    m_Localized: очков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406827765760
+    m_Localized: Получить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406827765761
+    m_Localized: Получено
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406831960064
+    m_Localized: ВКЛ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406836154368
+    m_Localized: ВЫКЛ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406836154369
+    m_Localized: ГЛОБАЛЬНОЕ ИСПЫТАНИЕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406840348672
+    m_Localized: Ангельские крылья
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406844542976
+    m_Localized: Дизайнер интерьера
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406844542977
+    m_Localized: Откройте обои 3 раза
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406848737280
+    m_Localized: Вы открыли обои 3 раза
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406848737281
+    m_Localized: Старт
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406852931584
+    m_Localized: Посмотреть рекламу и продолжить?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406857125888
+    m_Localized: 'Я убегаю от злозьян. Мой рекорд: {0}. Хотите его побить! {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406857125889
+    m_Localized: Восстановление выполнено!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406861320192
+    m_Localized: Готово!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406865514496
+    m_Localized: Что это? ГЛОБАЛЬНОЕ ИСПЫТАНИЕ?! Крепитесь, это {0}!!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406869708800
+    m_Localized: Внемлите! {0} ЗДЕСЬ! Приготовьтесь к новому ГЛОБАЛЬНОМУ ИСПЫТАНИЮ!!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406869708801
+    m_Localized: Не сдавайтесь! {0} и призы всё ещё ждут вас!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406873903104
+    m_Localized: Не забывайте, здесь {0}! ВЕДЬ О ВАС НИКТО НЕ ЗАБЫВАЕТ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406878097408
+    m_Localized: 'Поторопитесь, это {1}! Осталось всего ничего: {0}!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406878097409
+    m_Localized: 'Продолжайте бежать, это {1}! У вас есть ещё немного времени: {0}!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406882291712
+    m_Localized: Пора на пробежку!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406882291713
+    m_Localized: Мы скучаем!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406886486016
+    m_Localized: Покупка версии без рекламы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406890680320
+    m_Localized: Покупка монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406890680321
+    m_Localized: Покупка версии без рекламы не удалась. Проверьте подключение и повторите попытку.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406894874624
+    m_Localized: Покупка монет не удалась. Проверьте подключение и повторите попытку.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406899068928
+    m_Localized: Покупка отменена
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406899068929
+    m_Localized: Сообщение «{0}» невозможно отправить из-за ошибки подключения.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406903263232
+    m_Localized: Повторить попытку
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406903263233
+    m_Localized: Невозможно поделиться
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406907457536
+    m_Localized: Ошибка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406911651840
+    m_Localized: К сожалению, видео не удалось воспроизвести.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406911651841
+    m_Localized: Награда
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406915846144
+    m_Localized: Повторно согласитесь на внутриигровые покупки, чтобы включить магазин монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406920040448
+    m_Localized: Магазин монет сейчас недоступен. За дополнительной информацией обратитесь по адресу support@imangistudios.com.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406920040449
+    m_Localized: Добавлено {0} монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406924234752
+    m_Localized: Требуется обновление
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406924234753
+    m_Localized: Для игры в Temple Run требуется обновление.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406928429056
+    m_Localized: Бесплатные персонажи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406932623360
+    m_Localized: Новые персонажи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406932623361
+    m_Localized: Новое приключение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406936817664
+    m_Localized: Присоединяйтесь
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406936817665
+    m_Localized: Публикация отменена!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406941011968
+    m_Localized: Ошибка публикации!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406945206272
+    m_Localized: Опубликовано!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20669406945206273
+    m_Localized: Пройден этап {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23200394329972736
+    m_Localized: Спасибо за обновление
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23200394455801856
+    m_Localized: У вас установлена последняя версия игры. Получите от нас 500 монет в подарок!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23204094888894464
+    m_Localized: 500 монет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23204095056666624
+    m_Localized: Нет, спасибо
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55828746446299136
+    m_Localized: Спасибо, что скачали Temple Run!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355477262336
+    m_Localized: ПОЗНАЙТЕ\nНЕИЗВЕДАННОЕ С
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355628257280
+    m_Localized: ФРАНСИСКО\nМОНТОЙЕЙ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93157355636645888
+    m_Localized: БЕСПЛАТНО при выборе персонажа
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929317220352
+    m_Localized: БЕСПЛАТНО при выборе персонажа
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929606627328
+    m_Localized: "ПРИМЕРЬТЕ ОБРАЗ\\nЛЕГЕНДЫ С\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929619210240
+    m_Localized: "КАРМОЙ ЛИ\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929623404544
+    m_Localized: "ПРИГОТОВЬТЕСЬ\\nПОБЕЖАТЬ С\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929627598848
+    m_Localized: "ЗАКОМ УАНДЕРОМ\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929635987456
+    m_Localized: "ИЗУЧИТЕ ТЁМНЫЙ\\nПУТЬ С\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929640181760
+    m_Localized: "КАРНИФЕКС\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929644376064
+    m_Localized: "РАССТУПИТЕСЬ ПРЕД\\nБЛАГОРОДНОЙ\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929652764672
+    m_Localized: "КОРОЛЕВОЙ АСТРИД\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929656958976
+    m_Localized: ЩЁЛКАЙТЕ ЗАБЕГИ\nКАК ОРЕШКИ С
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94167929661153280
+    m_Localized: "ЩЕЛКУНЧИКОМ\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773763731456
+    m_Localized: "ПРИМЕРЬТЕ ОБРАЗ\\nЛЕГЕНДЫ С\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773776314368
+    m_Localized: "КАРМОЙ ЛИ\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111573773780508672
+    m_Localized: БЕСПЛАТНО при выборе персонажа
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126122979169918976
+    m_Localized: "ПРИГОТОВЬТЕСЬ\\nПОБЕЖАТЬ С\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126463690687897600
+    m_Localized: "ПРИГОТОВЬТЕСЬ\\nПОБЕЖАТЬ С\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126497313759682560
+    m_Localized: "ЗАКОМ УАНДЕРОМ\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126497313763876864
+    m_Localized: БЕСПЛАТНО при выборе персонажа
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126481317888
+    m_Localized: ЗОЛОТАЯ \nЛИХОРАДКА
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126485512192
+    m_Localized: ДИКАЯ \nГОНКА
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146018126485512193
+    m_Localized: НОВОЕ \nНАЧАЛО
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027824455680
+    m_Localized: ОХОТА \nНА ИНДЕЙКУ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027824455681
+    m_Localized: НАБЕГ \nНА ХРАМ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649984
+    m_Localized: ДЛИННАЯ \nМИЛЯ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649985
+    m_Localized: ВПЕРЁД, \nВ РУИНЫ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649986
+    m_Localized: ЗАБЕГ \nК СВОБОДЕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027828649987
+    m_Localized: МЕЧТЫ О\n ПРАЗДНИКЕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844288
+    m_Localized: ЛЕТНИЙ \nМАРАФОН
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844289
+    m_Localized: ШАЛОСТЬ \n ИЛИ СЛАДКОЕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027832844290
+    m_Localized: ХОЛОДНАЯ \nПОРА
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038592
+    m_Localized: НАЙДИТЕ \nСОКРОВИЩЕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038593
+    m_Localized: КОМУ УДАСТСЯ ВЫЖИТЬ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027837038594
+    m_Localized: ПРОЧУВСТВУЙТЕ \nЭТОТ СЕЗОН
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232896
+    m_Localized: ПРИСОЕДИНЯЙТЕСЬ \nК ВЕСЕЛЬЮ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232897
+    m_Localized: НАЙДИТЕ \nЗАТЕРЯННОГО ИДОЛА
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232898
+    m_Localized: КТО ПРОДЕРЖИТСЯ ДОЛЬШЕ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027841232899
+    m_Localized: ИССЛЕДУЙТЕ \nНЕИЗВЕСТНОЕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427200
+    m_Localized: ЗНАМЯ, \nУСЫПАННОЕ ЗВЁЗДАМИ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427201
+    m_Localized: ВОТ И НАСТАЛО \nЭТО ВРЕМЯ ГОДА
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027845427202
+    m_Localized: ПОСТАРАЙТЕСЬ \nНЕ ПЕРЕГРЕТЬСЯ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027849621504
+    m_Localized: РАЗДОБУДЬТЕ \nКОНФЕТ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146342027849621505
+    m_Localized: ПЕРЕНЕСИТЕ \nХОЛОДА
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477794344960
+    m_Localized: Сброс прогресса
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477811122176
+    m_Localized: Улучшенный рекламный опыт
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316480
+    m_Localized: Согласиться
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316481
+    m_Localized: Отказаться
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316482
+    m_Localized: Отозвать согласие?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477815316483
+    m_Localized: "В настоящее время вы дали согласие Imangi на передачу рекламного идентификатора вашего устройства рекламным сетям в маркетинговых целях в игре.\n\nВы уверены, что хотите отозвать согласие?\n\n(Нажатие ДА закроет игру; запустите ее снова, чтобы изменения вступили в силу)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510784
+    m_Localized: Улучшить рекламный опыт?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510785
+    m_Localized: "Temple Run podderzhivaetsya reklamoy. Chtoby sdelat ee maksimalno relevantnoy, my hotim sobirat i peredavat dannye nashim reklamným partneram. Obratite vnimanie, chto vybor Net spasibo ne udalит reklamu; vy mozhete videt obyavleniya, ne sootvetstvuyushchie vashim interesam. Vy mozhete izmenit vybor v Nastroykakh v lyuboe vremya.\n\n(Nazhatie DA zakroet igru; zapustite ee snova, chtoby izmeneniya vstupili v silu)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166668477819510786
+    m_Localized: ПОКОРИ \nЗИМУ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649416769536
+    m_Localized: УБЕГАЙ ОТ ОПАСНОСТИ \n С...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649437741056
+    m_Localized: SCARLETT FOX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191750649437741057
+    m_Localized: БЕСПЛАТНО в Runner Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202893421137879040
+    m_Localized: Доступно БЕСПЛАТНО в меню выбора бегуна
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574259658752
+    m_Localized: УПРАВЛЯЙ СВОЕЙ \n СКОРОСТЬЮ С...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574322573312
+    m_Localized: KAI XIANG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205806574322573313
+    m_Localized: Доступно БЕСПЛАТНО в меню выбора бегуна
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105925562368
+    m_Localized: УПРАВЛЯЙ СВОЕЙ \n СКОРОСТЬЮ С...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105938145280
+    m_Localized: БАРРИ БОНС
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214833105938145281
+    m_Localized: Доступно БЕСПЛАТНО в меню выбора бегуна
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438307418112
+    m_Localized: НИДХИ\nНИРМАЛ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438332583936
+    m_Localized: Открой Нидхи Нирмала, звезду Болливуда!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218596438332583937
+    m_Localized: Нидхи Нирмал, звезда Болливуда!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984695754752
+    m_Localized: ОТМЕТЬТЕ 15 \n ЛЕТ С...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984729309184
+    m_Localized: НИДХИ НИРМАЛ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 227233984729309185
+    m_Localized: Доступно БЕСПЛАТНО в меню выбора бегуна
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096434597888
+    m_Localized: С ВОЗВРАЩЕНИЕМ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096451375104
+    m_Localized: ОТПРАЗДНУЙТЕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096455569408
+    m_Localized: 15-ЛЕТИЕ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228699096455569409
+    m_Localized: И ПОЛУЧИТЕ 15 000 БЕСПЛАТНЫХ МОНЕТ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228703228063113216
+    m_Localized: Получить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075348025344
+    m_Localized: ВСЁ БЕЖИМ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075381579776
+    m_Localized: 15 ЛЕТ СПУСТЯ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774080
+    m_Localized: ПРАЗДНИЧНАЯ ДОБЫЧА
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774081
+    m_Localized: ПРАЗДНУЙ С КАЖДОЙ МОНЕТОЙ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774082
+    m_Localized: ЕЩЁ ОДИН ЗАБЕГ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230468075385774083
+    m_Localized: КАК ДАЛЕКО ТЫ СМОЖЕШЬ УБЕЖАТЬ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412179812352
+    m_Localized: СОКРОВИЩА ЖДУТ \n ВМЕСТЕ С...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412196589568
+    m_Localized: ФРАНСИСКО МОНТОЙЯ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235873412196589569
+    m_Localized: Доступно БЕСПЛАТНО в меню выбора бегуна
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243860789221384192
+    m_Localized: ВЫХОДИ НА \n ПОЛЕ В...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 243860789229772800
+    m_Localized: ПЯТНИЧНЫЙ ВЕЧЕРНИЙ ЗАБЕГ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252909526883229696
+    m_Localized: РВИСЬ ВПЕРЁД С…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252909526900006912
+    m_Localized: ZACK WONDER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260263528729927680
+    m_Localized: ДОБАВЬ ЖУТИ С...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260263528746704896
+    m_Localized: EDGAR TWIGGENBOTTOM
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

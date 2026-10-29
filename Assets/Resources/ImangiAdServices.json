@@ -1,0 +1,32 @@
+{
+  "Chartboost": {
+    "Service": "Chartboost",
+    "PrivacyCompliant": true,
+    "SupportsVideoAds": true,
+    "SupportsCardAds": true
+  },
+  "UnityAds": {
+    "Service": "UnityAds",
+    "PrivacyCompliant": true,
+    "SupportsVideoAds": true,
+    "SupportsCardAds": true
+  },
+  "AdMob": {
+    "Service": "AdMob",
+    "PrivacyCompliant": true,
+    "SupportsVideoAds": true,
+    "SupportsCardAds": true
+  },
+  "AppLovin": {
+    "Service": "AppLovin",
+    "PrivacyCompliant": true,
+    "SupportsVideoAds": true,
+    "SupportsCardAds": true
+  },
+  "Facebook": {
+    "Service": "Facebook",
+    "PrivacyCompliant": true,
+    "SupportsVideoAds": true,
+    "SupportsCardAds": true
+  }
+}

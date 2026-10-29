@@ -1,0 +1,2125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: End Game Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2082.241, y: -148.24289, z: 84.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 5e1ce7ae0a0853e4499ea8f89b427a3f, type: 2}
+  sprites:
+  - name: achievementCheckboxEmpty@2x.png
+    outer:
+      serializedVersion: 2
+      x: 396
+      y: 688
+      width: 80
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 396
+      y: 688
+      width: 80
+      height: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: achievementCheckboxFull@2x.png
+    outer:
+      serializedVersion: 2
+      x: 396
+      y: 608
+      width: 80
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 396
+      y: 608
+      width: 80
+      height: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: achievementsHeader@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1015
+      y: 1618
+      width: 440
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1015
+      y: 1618
+      width: 440
+      height: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: achievementsPlusOne@2x.png
+    outer:
+      serializedVersion: 2
+      x: 420
+      y: 339
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 420
+      y: 339
+      width: 64
+      height: 64
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: achivments
+    outer:
+      serializedVersion: 2
+      x: 256
+      y: 681
+      width: 140
+      height: 177
+    inner:
+      serializedVersion: 2
+      x: 256
+      y: 681
+      width: 140
+      height: 177
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BlackSquare
+    outer:
+      serializedVersion: 2
+      x: 420
+      y: 403
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 420
+      y: 403
+      width: 64
+      height: 64
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: check_box
+    outer:
+      serializedVersion: 2
+      x: 396
+      y: 768
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 396
+      y: 768
+      width: 90
+      height: 90
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: check_mark
+    outer:
+      serializedVersion: 2
+      x: 1325
+      y: 640
+      width: 96
+      height: 101
+    inner:
+      serializedVersion: 2
+      x: 1325
+      y: 640
+      width: 96
+      height: 101
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinLarge@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1516
+      y: 1638
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 1516
+      y: 1638
+      width: 60
+      height: 60
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinSmall@2x.png
+    outer:
+      serializedVersion: 2
+      x: 2002
+      y: 1278
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 2002
+      y: 1278
+      width: 40
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinStoreButton@2x.png
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 206
+      width: 412
+      height: 124
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 206
+      width: 412
+      height: 124
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinStoreIconFacebook@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 838
+      width: 180
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 838
+      width: 180
+      height: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinStoreIconFreeLargePile@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1745
+      y: 938
+      width: 180
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 1745
+      y: 938
+      width: 180
+      height: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinStoreIconFreeSmallPile@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1565
+      y: 938
+      width: 180
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 1565
+      y: 938
+      width: 180
+      height: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinStoreIconFullScreenAds@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1385
+      y: 938
+      width: 180
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 1385
+      y: 938
+      width: 180
+      height: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinStoreIconTwitter@2x
+    outer:
+      serializedVersion: 2
+      x: 1205
+      y: 938
+      width: 180
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 1205
+      y: 938
+      width: 180
+      height: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinStoreSizeA@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 938
+      width: 180
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 938
+      width: 180
+      height: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinStoreSizeAA@2x.png
+    outer:
+      serializedVersion: 2
+      x: 670
+      y: 46
+      width: 180
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 670
+      y: 46
+      width: 180
+      height: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinStoreSizeB@2x.png
+    outer:
+      serializedVersion: 2
+      x: 670
+      y: 146
+      width: 180
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 670
+      y: 146
+      width: 180
+      height: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinStoreSizeC@2x.png
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 46
+      width: 180
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 490
+      y: 46
+      width: 180
+      height: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinStoreSizeD@2x.png
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 146
+      width: 180
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 490
+      y: 146
+      width: 180
+      height: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinStoreSizeE@2x.png
+    outer:
+      serializedVersion: 2
+      x: 770
+      y: 659
+      width: 180
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 770
+      y: 659
+      width: 180
+      height: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinStoreSizeF@2x.png
+    outer:
+      serializedVersion: 2
+      x: 240
+      y: 367
+      width: 180
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 240
+      y: 367
+      width: 180
+      height: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Divider
+    outer:
+      serializedVersion: 2
+      x: 1643
+      y: 1652
+      width: 250
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 1643
+      y: 1652
+      width: 250
+      height: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: endGameBackground@2x.png
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1514
+      width: 490
+      height: 534
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1514
+      width: 490
+      height: 68
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: endGameBackground_tile
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1114
+      width: 490
+      height: 400
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1114
+      width: 490
+      height: 400
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: endGameFreeCoinsButton@2x.png
+    outer:
+      serializedVersion: 2
+      x: 630
+      y: 599
+      width: 140
+      height: 160
+    inner:
+      serializedVersion: 2
+      x: 630
+      y: 599
+      width: 140
+      height: 160
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: endGameScore@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1643
+      y: 1770
+      width: 400
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1643
+      y: 1770
+      width: 400
+      height: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: endGameStatsButton@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1768
+      y: 1457
+      width: 140
+      height: 160
+    inner:
+      serializedVersion: 2
+      x: 1768
+      y: 1457
+      width: 140
+      height: 160
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: endGameStoreButton@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1908
+      y: 1457
+      width: 140
+      height: 160
+    inner:
+      serializedVersion: 2
+      x: 1908
+      y: 1457
+      width: 140
+      height: 160
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: endGameTweetButton@2x.png
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 599
+      width: 140
+      height: 160
+    inner:
+      serializedVersion: 2
+      x: 490
+      y: 599
+      width: 140
+      height: 160
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: freeCoins
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 759
+      width: 288
+      height: 81
+    inner:
+      serializedVersion: 2
+      x: 490
+      y: 759
+      width: 288
+      height: 81
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: freecoins_button
+    outer:
+      serializedVersion: 2
+      x: 256
+      y: 610
+      width: 68
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 256
+      y: 610
+      width: 68
+      height: 71
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: freecoins_cell
+    outer:
+      serializedVersion: 2
+      x: 1562
+      y: 1162
+      width: 440
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 1562
+      y: 1162
+      width: 440
+      height: 96
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: head1
+    outer:
+      serializedVersion: 2
+      x: 324
+      y: 615
+      width: 66
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 324
+      y: 615
+      width: 66
+      height: 66
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: head2
+    outer:
+      serializedVersion: 2
+      x: 1455
+      y: 1638
+      width: 61
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 1455
+      y: 1638
+      width: 61
+      height: 60
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_doublecoins
+    outer:
+      serializedVersion: 2
+      x: 1899
+      y: 1644
+      width: 126
+      height: 126
+    inner:
+      serializedVersion: 2
+      x: 1899
+      y: 1644
+      width: 126
+      height: 126
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Imangi_logo
+    outer:
+      serializedVersion: 2
+      x: 1050
+      y: 1065
+      width: 512
+      height: 293
+    inner:
+      serializedVersion: 2
+      x: 1050
+      y: 1065
+      width: 512
+      height: 293
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: imangiAlertViewBg@2x.png
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 1038
+      width: 560
+      height: 320
+    inner:
+      serializedVersion: 2
+      x: 490
+      y: 1038
+      width: 560
+      height: 320
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: imangiAlertViewButton@2x.png
+    outer:
+      serializedVersion: 2
+      x: 748
+      y: 388
+      width: 256
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 748
+      y: 388
+      width: 256
+      height: 72
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: language-button
+    outer:
+      serializedVersion: 2
+      x: 256
+      y: 929
+      width: 196
+      height: 185
+    inner:
+      serializedVersion: 2
+      x: 256
+      y: 929
+      width: 196
+      height: 185
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: LoadingBar_back
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 335
+      width: 387
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 490
+      y: 335
+      width: 387
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: LoadingBar_Front
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 286
+      width: 387
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 490
+      y: 286
+      width: 387
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: M
+    outer:
+      serializedVersion: 2
+      x: 1978
+      y: 1945
+      width: 67
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 1978
+      y: 1945
+      width: 67
+      height: 46
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mainMenuAchievements@2x
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 460
+      width: 356
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 490
+      y: 460
+      width: 356
+      height: 60
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mainMenuIdol@2x
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 330
+      width: 240
+      height: 272
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 330
+      width: 240
+      height: 272
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mainMenuLeaderboards@2x
+    outer:
+      serializedVersion: 2
+      x: 786
+      y: 850
+      width: 222
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 786
+      y: 850
+      width: 222
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mainMenuLogo@2x
+    outer:
+      serializedVersion: 2
+      x: 1015
+      y: 1698
+      width: 628
+      height: 350
+    inner:
+      serializedVersion: 2
+      x: 1015
+      y: 1698
+      width: 628
+      height: 350
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mainMenuMoreGames@2x
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 840
+      width: 296
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 490
+      y: 840
+      width: 296
+      height: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mainMenuOptions@2x
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 384
+      width: 258
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 490
+      y: 384
+      width: 258
+      height: 76
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mainMenuStore@2x
+    outer:
+      serializedVersion: 2
+      x: 256
+      y: 859
+      width: 230
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 256
+      y: 859
+      width: 230
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: moreCoins
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 520
+      width: 282
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 490
+      y: 520
+      width: 282
+      height: 79
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MoreInfo_Background
+    outer:
+      serializedVersion: 2
+      x: 440
+      y: 156
+      width: 50
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 457
+      y: 173
+      width: 16
+      height: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MoreInfo_QuestionMark
+    outer:
+      serializedVersion: 2
+      x: 440
+      y: 106
+      width: 50
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 440
+      y: 106
+      width: 50
+      height: 50
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: number_arrow
+    outer:
+      serializedVersion: 2
+      x: 1768
+      y: 1418
+      width: 78
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 1768
+      y: 1418
+      width: 78
+      height: 39
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: off
+    outer:
+      serializedVersion: 2
+      x: 1643
+      y: 1626
+      width: 52
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 1643
+      y: 1626
+      width: 52
+      height: 26
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: off_btn
+    outer:
+      serializedVersion: 2
+      x: 1846
+      y: 1374
+      width: 43
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 1846
+      y: 1374
+      width: 43
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: on
+    outer:
+      serializedVersion: 2
+      x: 1695
+      y: 1625
+      width: 42
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1695
+      y: 1625
+      width: 42
+      height: 27
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: on_btn
+    outer:
+      serializedVersion: 2
+      x: 2002
+      y: 1219
+      width: 39
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 2002
+      y: 1219
+      width: 39
+      height: 39
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: optionsHeader@2x.png
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 13
+      width: 440
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 13
+      width: 440
+      height: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PaidAd_Button
+    outer:
+      serializedVersion: 2
+      x: 850
+      y: 149
+      width: 160
+      height: 97
+    inner:
+      serializedVersion: 2
+      x: 850
+      y: 149
+      width: 160
+      height: 97
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pausedHeader@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1258
+      y: 1374
+      width: 440
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 1258
+      y: 1374
+      width: 440
+      height: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: resurrection_cell
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 93
+      width: 440
+      height: 113
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 93
+      width: 440
+      height: 113
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: revive_icon
+    outer:
+      serializedVersion: 2
+      x: 240
+      y: 467
+      width: 241
+      height: 135
+    inner:
+      serializedVersion: 2
+      x: 240
+      y: 467
+      width: 241
+      height: 135
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ribbon_button_short
+    outer:
+      serializedVersion: 2
+      x: 1643
+      y: 1930
+      width: 335
+      height: 118
+    inner:
+      serializedVersion: 2
+      x: 1643
+      y: 1930
+      width: 335
+      height: 118
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ribbon_button_wide
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 920
+      width: 535
+      height: 118
+    inner:
+      serializedVersion: 2
+      x: 490
+      y: 920
+      width: 535
+      height: 118
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: saveme_timer_background
+    outer:
+      serializedVersion: 2
+      x: 1205
+      y: 901
+      width: 425
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 1205
+      y: 901
+      width: 425
+      height: 37
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: saveme_timer_foreground
+    outer:
+      serializedVersion: 2
+      x: 1562
+      y: 1045
+      width: 425
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 1562
+      y: 1045
+      width: 425
+      height: 37
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: saveme-camerabutton
+    outer:
+      serializedVersion: 2
+      x: 412
+      y: 206
+      width: 77
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 412
+      y: 206
+      width: 77
+      height: 62
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: saveme-playbutton
+    outer:
+      serializedVersion: 2
+      x: 1978
+      y: 1991
+      width: 57
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 1978
+      y: 1991
+      width: 57
+      height: 57
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: saveme-reelbutton
+    outer:
+      serializedVersion: 2
+      x: 412
+      y: 268
+      width: 77
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 412
+      y: 268
+      width: 77
+      height: 62
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: saveme-xbutton
+    outer:
+      serializedVersion: 2
+      x: 1576
+      y: 1641
+      width: 57
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 1576
+      y: 1641
+      width: 57
+      height: 57
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Scarlett_gdpr_age_gate
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 1617
+      width: 525
+      height: 431
+    inner:
+      serializedVersion: 2
+      x: 490
+      y: 1617
+      width: 525
+      height: 431
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shine_a
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 602
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 602
+      width: 256
+      height: 256
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shine_b
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 858
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 858
+      width: 256
+      height: 256
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SplashScreen_PortraitBottom_iPad
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 1358
+      width: 768
+      height: 259
+    inner:
+      serializedVersion: 2
+      x: 490
+      y: 1358
+      width: 768
+      height: 259
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: statsHeader@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1562
+      y: 1082
+      width: 440
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1562
+      y: 1082
+      width: 440
+      height: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeHeader@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1643
+      y: 1850
+      width: 400
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1643
+      y: 1850
+      width: 400
+      height: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemAngelWings@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1805
+      y: 781
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 1805
+      y: 781
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemBigB@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1925
+      y: 781
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 1925
+      y: 781
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemBonusDuration@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1205
+      y: 661
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 1205
+      y: 661
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemBoost@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1205
+      y: 541
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 1205
+      y: 541
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemChina@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1205
+      y: 421
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 1205
+      y: 421
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemClear@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1562
+      y: 1258
+      width: 440
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 1562
+      y: 1258
+      width: 440
+      height: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemCoinBonus@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1205
+      y: 181
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 1205
+      y: 181
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemCoinValue@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1205
+      y: 61
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 1205
+      y: 61
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemConq@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1205
+      y: 301
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 1205
+      y: 301
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemCounter@2x.png
+    outer:
+      serializedVersion: 2
+      x: 2002
+      y: 1318
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 2002
+      y: 1318
+      width: 40
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemFootball@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1685
+      y: 781
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 1685
+      y: 781
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemGirl@2x.png
+    outer:
+      serializedVersion: 2
+      x: 850
+      y: 29
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 850
+      y: 29
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemGuy@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1565
+      y: 781
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 1565
+      y: 781
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemHeader@2x.png
+    outer:
+      serializedVersion: 2
+      x: 490
+      y: 246
+      width: 452
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 490
+      y: 246
+      width: 452
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemHeadStart@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1445
+      y: 781
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 1445
+      y: 781
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemHeadStartMega@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1325
+      y: 781
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 1325
+      y: 781
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemIndi@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1205
+      y: 781
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 1205
+      y: 781
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemInvincibility@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 18
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 18
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemMultiplier@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 138
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 138
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemNoAds@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 258
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 258
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemPermaWings@2x
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 378
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 378
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemSeparator@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1050
+      y: 1045
+      width: 440
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 1050
+      y: 1045
+      width: 440
+      height: 20
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemVacuum@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 498
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 498
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeItemWallpaper@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 618
+      width: 120
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 618
+      width: 120
+      height: 120
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeNewItemIndicator@2x.png
+    outer:
+      serializedVersion: 2
+      x: 440
+      y: 49
+      width: 44
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 440
+      y: 49
+      width: 44
+      height: 44
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeScrollDown@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1643
+      y: 1670
+      width: 256
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 1643
+      y: 1670
+      width: 256
+      height: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeUpgradeBarDisabled1@2x
+    outer:
+      serializedVersion: 2
+      x: 1698
+      y: 1434
+      width: 68
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 1698
+      y: 1434
+      width: 68
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeUpgradeBarDisabled2@2x
+    outer:
+      serializedVersion: 2
+      x: 1698
+      y: 1394
+      width: 68
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 1698
+      y: 1394
+      width: 68
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeUpgradeBarDisabled3@2x
+    outer:
+      serializedVersion: 2
+      x: 1768
+      y: 1378
+      width: 68
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 1768
+      y: 1378
+      width: 68
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeUpgradeBarDisabled4@2x
+    outer:
+      serializedVersion: 2
+      x: 1908
+      y: 1417
+      width: 68
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 1908
+      y: 1417
+      width: 68
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeUpgradeBarDisabled5@2x
+    outer:
+      serializedVersion: 2
+      x: 1908
+      y: 1377
+      width: 68
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 1908
+      y: 1377
+      width: 68
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeUpgradeBarEmpty@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1645
+      y: 741
+      width: 320
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 1645
+      y: 741
+      width: 320
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeUpgradeBarFull1@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1976
+      y: 1417
+      width: 68
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 1976
+      y: 1417
+      width: 68
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeUpgradeBarFull2@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1976
+      y: 1377
+      width: 68
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 1976
+      y: 1377
+      width: 68
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeUpgradeBarFull3@2x.png
+    outer:
+      serializedVersion: 2
+      x: 778
+      y: 800
+      width: 68
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 778
+      y: 800
+      width: 68
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeUpgradeBarFull4@2x.png
+    outer:
+      serializedVersion: 2
+      x: 778
+      y: 760
+      width: 68
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 778
+      y: 760
+      width: 68
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeUpgradeBarFull5@2x.png
+    outer:
+      serializedVersion: 2
+      x: 846
+      y: 800
+      width: 68
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 846
+      y: 800
+      width: 68
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeUpgradeButton@2x.png
+    outer:
+      serializedVersion: 2
+      x: 1325
+      y: 741
+      width: 320
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 1325
+      y: 741
+      width: 320
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeUpgradeButton_9slice
+    outer:
+      serializedVersion: 2
+      x: 1846
+      y: 1417
+      width: 48
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 1865
+      y: 1432
+      width: 10
+      height: 10
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: storeUpgradeButton_9slice_fill
+    outer:
+      serializedVersion: 2
+      x: 440
+      y: 9
+      width: 48
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 459
+      y: 24
+      width: 10
+      height: 10
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TweetBox
+    outer:
+      serializedVersion: 2
+      x: 1258
+      y: 1474
+      width: 510
+      height: 143
+    inner:
+      serializedVersion: 2
+      x: 1258
+      y: 1474
+      width: 510
+      height: 143
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: twitterLogo@2x
+    outer:
+      serializedVersion: 2
+      x: 240
+      y: 331
+      width: 156
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 240
+      y: 331
+      width: 156
+      height: 36
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: vol_bar
+    outer:
+      serializedVersion: 2
+      x: 1258
+      y: 1358
+      width: 320
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 1258
+      y: 1358
+      width: 320
+      height: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Xlogo
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 738
+      width: 180
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 738
+      width: 180
+      height: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

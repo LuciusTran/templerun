@@ -1,0 +1,76 @@
+{
+  "AdSpaceNames":[
+    "SaveMe",
+    "PostGameMenu",
+    "Banner",
+    "NetworkTest",
+    "NetworkTest_Video"
+  ],
+  "iOS":{
+    "ServicePlatform":"iOS",
+    "AppLovin":{
+      "Service":"AppLovin",
+      "PrefetchVideo":true,
+      "PrefetchCard":true,
+      "PrefetchBanner":false,
+      "InitializationInfo":{
+        "SDKKey":"3lMF79qeVVyx9xB7Q9RZTRFqrAxUbPif94vGDkwkDtfMorUC-wnWM1LCBGgngOQrSK5g2_PGs3ceu5rs0cNNdi",
+        "SaveMe":"807f1211db8b9d9d",
+        "PostGameMenu":"2d912980b20ac96d",
+        "Banner":"0510844b06d8c059",
+        "AdMob_AppID":"ca-app-pub-7254114956156095~8175483247"
+      }
+
+    },
+    "DMonkeyAds":null,
+    "AdMob":{
+      "Service":"AdMob",
+      "PrefetchVideo":true,
+      "PrefetchCard":true,
+      "PrefetchBanner":false,
+      "InitializationInfo":{
+        "SDKKey":"3lMF79qeVVyx9xB7Q9RZTRFqrAxUbPif94vGDkwkDtfMorUC-wnWM1LCBGgngOQrSK5g2_PGs3ceu5rs0cNNdi",
+        "AdMob_AppID":"ca-app-pub-7254114956156095~8175483247",
+        "SaveMe":"ca-app-pub-7254114956156095/3738131738",
+        "PostGameMenu":"ca-app-pub-7254114956156095/9261118824",
+        "Banner":"ca-app-pub-7254114956156095/7116233416"
+      }
+
+    }
+
+  },
+  "Android":{
+    "ServicePlatform":"Android",
+    "AppLovin":{
+      "Service":"AppLovin",
+      "PrefetchVideo":true,
+      "PrefetchCard":true,
+      "PrefetchBanner":false,
+      "InitializationInfo":{
+        "SDKKey":"3lMF79qeVVyx9xB7Q9RZTRFqrAxUbPif94vGDkwkDtfMorUC-wnWM1LCBGgngOQrSK5g2_PGs3ceu5rs0cNNdi",
+        "SaveMe":"379252935684c30d",
+        "PostGameMenu":"9ef8802affa6a99c",
+        "Banner":"7607e53a571993e4",
+        "AdMob_AppID":"ca-app-pub-7254114956156095~4589892843"
+      }
+
+    },
+    "DMonkeyAds":null,
+    "AdMob":{
+      "Service":"AdMob",
+      "PrefetchVideo":true,
+      "PrefetchCard":true,
+      "PrefetchBanner":false,
+      "InitializationInfo":{
+        "SDKKey":"3lMF79qeVVyx9xB7Q9RZTRFqrAxUbPif94vGDkwkDtfMorUC-wnWM1LCBGgngOQrSK5g2_PGs3ceu5rs0cNNdi",
+        "AdMob_AppID":"ca-app-pub-7254114956156095~4589892843",
+        "SaveMe":"ca-app-pub-7254114956156095/8237743395",
+        "PostGameMenu":"ca-app-pub-7254114956156095/9550825064",
+        "Banner":"ca-app-pub-7254114956156095/6634955488"
+      }
+
+    }
+
+  }
+
+}

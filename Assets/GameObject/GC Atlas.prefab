@@ -1,0 +1,340 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: GC Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 5a479c00fe7ff254ebb00596d5cb1a52, type: 2}
+  sprites:
+  - name: GC_Title
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 306
+      width: 688
+      height: 206
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 306
+      width: 688
+      height: 206
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.04368932
+  - name: Icon_Runner
+    outer:
+      serializedVersion: 2
+      x: 257
+      y: 138
+      width: 176
+      height: 167
+    inner:
+      serializedVersion: 2
+      x: 257
+      y: 138
+      width: 176
+      height: 167
+    paddingLeft: 0
+    paddingRight: 0.0056818184
+    paddingTop: 0
+    paddingBottom: 0.023952097
+  - name: GC_Progress_05
+    outer:
+      serializedVersion: 2
+      x: 257
+      y: 88
+      width: 103
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 257
+      y: 88
+      width: 103
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GC_Progress_01
+    outer:
+      serializedVersion: 2
+      x: 257
+      y: 38
+      width: 103
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 257
+      y: 38
+      width: 103
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GC_Progress_B04
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 7
+      width: 96
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 7
+      width: 96
+      height: 41
+    paddingLeft: 0.041666668
+    paddingRight: 0.03125
+    paddingTop: 0.09756097
+    paddingBottom: 0.09756097
+  - name: GC_Progress_B02
+    outer:
+      serializedVersion: 2
+      x: 97
+      y: 7
+      width: 96
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 97
+      y: 7
+      width: 96
+      height: 41
+    paddingLeft: 0.041666668
+    paddingRight: 0.03125
+    paddingTop: 0.09756097
+    paddingBottom: 0.09756097
+  - name: GC_Progress_B03
+    outer:
+      serializedVersion: 2
+      x: 880
+      y: 471
+      width: 92
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 880
+      y: 471
+      width: 92
+      height: 41
+    paddingLeft: 0.06521739
+    paddingRight: 0.054347824
+    paddingTop: 0.09756097
+    paddingBottom: 0.09756097
+  - name: GC_Progress_04
+    outer:
+      serializedVersion: 2
+      x: 571
+      y: 256
+      width: 103
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 571
+      y: 256
+      width: 103
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GC_EndGameButton
+    outer:
+      serializedVersion: 2
+      x: 434
+      y: 26
+      width: 136
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 434
+      y: 26
+      width: 136
+      height: 139
+    paddingLeft: 0.073529415
+    paddingRight: 0.073529415
+    paddingTop: 0.15827338
+    paddingBottom: 0.043165468
+  - name: GC_Progress_B06
+    outer:
+      serializedVersion: 2
+      x: 689
+      y: 471
+      width: 95
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 689
+      y: 471
+      width: 95
+      height: 41
+    paddingLeft: 0.05263158
+    paddingRight: 0.031578947
+    paddingTop: 0.09756097
+    paddingBottom: 0.09756097
+  - name: GC_Progress_B01
+    outer:
+      serializedVersion: 2
+      x: 571
+      y: 24
+      width: 96
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 571
+      y: 24
+      width: 96
+      height: 41
+    paddingLeft: 0.041666668
+    paddingRight: 0.03125
+    paddingTop: 0.09756097
+    paddingBottom: 0.09756097
+  - name: GC_Progress_B05
+    outer:
+      serializedVersion: 2
+      x: 785
+      y: 471
+      width: 94
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 785
+      y: 471
+      width: 94
+      height: 41
+    paddingLeft: 0.06382979
+    paddingRight: 0.031914894
+    paddingTop: 0.09756097
+    paddingBottom: 0.09756097
+  - name: GC_Progress_02
+    outer:
+      serializedVersion: 2
+      x: 571
+      y: 206
+      width: 103
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 571
+      y: 206
+      width: 103
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_GCrunner2_256
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 49
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 49
+      width: 256
+      height: 256
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GC_Progress_03
+    outer:
+      serializedVersion: 2
+      x: 571
+      y: 66
+      width: 100
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 571
+      y: 66
+      width: 100
+      height: 49
+    paddingLeft: 0.01
+    paddingRight: 0.02
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GC_Progress_06
+    outer:
+      serializedVersion: 2
+      x: 571
+      y: 116
+      width: 103
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 571
+      y: 116
+      width: 103
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GC_GameEnd_Button_Updated
+    outer:
+      serializedVersion: 2
+      x: 434
+      y: 166
+      width: 136
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 434
+      y: 166
+      width: 136
+      height: 139
+    paddingLeft: 0.073529415
+    paddingRight: 0.073529415
+    paddingTop: 0.15827338
+    paddingBottom: 0.043165468
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
