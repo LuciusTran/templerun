@@ -10,11 +10,13 @@ public class Obstacle : MonoBehaviour
 
 	public bool DoesLineSegementIntersect(Vector2 p1, Vector2 p2)
 	{
-		return false;
+        // Native evidence: DecompiledNative/Obstacle/Obstacle_DoesLineSegementIntersect_1309c0c.cpp
+        Region2D region = GetComponent<Region2D>(); return region && region.DoesLineSegementIntersect(p1, p2);
 	}
 
 	public bool IsPointInRegion(Vector2 p)
 	{
-		return false;
+        // Native evidence: DecompiledNative/Obstacle/Obstacle_IsPointInRegion_1309cf4.cpp
+        Region2D region = GetComponent<Region2D>(); return region && region.IsPointInside(p);
 	}
 }

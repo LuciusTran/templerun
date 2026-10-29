@@ -1,0 +1,5 @@
+{
+  "input": "assets/Promo/shippedPromo.txt",
+  "operation": "Copy only the Runner, Controls, CoinSpawn and Store JSON records without changing their values.",
+  "output": "Assets/Resources/TempleRunNativeConfig.json"
+}

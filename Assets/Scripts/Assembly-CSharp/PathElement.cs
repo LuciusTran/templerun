@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PathElement : DynamicElement
+public partial class PathElement : DynamicElement
 {
 	public enum PathType
 	{
@@ -273,37 +273,60 @@ public class PathElement : DynamicElement
 
 	public bool IsTurn()
 	{
-		return false;
+        // Native evidence: DecompiledNative/PathElement/PathElement_IsTurn_130b174.cpp
+        return IsPathTypeTurn(Type);
 	}
 
 	public bool IsStraight()
 	{
-		return false;
+        // Native evidence: DecompiledNative/PathElement/PathElement_IsStraight_130b574.cpp
+        return ISsPathTypeStraight(Type);
 	}
 
 	public bool IsStraightVert()
 	{
-		return false;
+        // Native evidence: DecompiledNative/PathElement/PathElement_IsStraightVert_130b59c.cpp
+        return IsPathTypeStraightVert(Type);
 	}
 
 	public bool IsStraightHorz()
 	{
-		return false;
+        // Native evidence: DecompiledNative/PathElement/PathElement_IsStraightHorz_130b618.cpp
+        return IsPathTypeStraightHorz(Type);
 	}
 
 	public bool IsNarrow()
 	{
-		return false;
+        // Native evidence: DecompiledNative/PathElement/PathElement_IsNarrow_130b6ec.cpp
+        return IsPathTypeNarrow(Type);
 	}
 
 	public bool CanTurnLeft(PathDirection origin)
 	{
-		return false;
+        // Native evidence: DecompiledNative/PathElement/PathElement_CanTurnLeft_130b74c.cpp
+        int t = (int)Type;
+        switch ((int)origin)
+        {
+            case 1: return t == 6 || t == 8 || t == 9;
+            case 2: return t == 4 || t == 8 || t == 10;
+            case 3: return t == 3 || t == 7 || t == 10;
+            case 4: return t == 5 || t == 7 || t == 9;
+            default: return false;
+        }
 	}
 
 	public bool CanTurnRight(PathDirection origin)
 	{
-		return false;
+        // Native evidence: DecompiledNative/PathElement/PathElement_CanTurnRight_130b808.cpp
+        int t = (int)Type;
+        switch ((int)origin)
+        {
+            case 1: return t == 5 || t == 7 || t == 9;
+            case 2: return t == 6 || t == 8 || t == 9;
+            case 3: return t == 4 || t == 8 || t == 10;
+            case 4: return t == 3 || t == 7 || t == 10;
+            default: return false;
+        }
 	}
 
 	public bool DoesSidePathHaveObstacles()
@@ -318,42 +341,50 @@ public class PathElement : DynamicElement
 
 	public static bool IsPathTypeTurn(PathType type)
 	{
-		return false;
+        // Native evidence: DecompiledNative/PathElement/PathElement_IsPathTypeTurn_130b564.cpp
+        return unchecked((uint)((int)type - 3)) < 8u;
 	}
 
 	public static bool ISsPathTypeStraight(PathType type)
 	{
-		return false;
+        // Native evidence: DecompiledNative/PathElement/PathElement_ISsPathTypeStraight_130ba0c.cpp
+        return IsPathTypeStraightVert(type) || IsPathTypeStraightHorz(type);
 	}
 
 	public static bool IsPathTypeStraightVert(PathType type)
 	{
-		return false;
+        // Native evidence: DecompiledNative/PathElement/PathElement_IsPathTypeStraightVert_130b694.cpp
+        uint n = unchecked((uint)((int)type - 1)); return n < 37u && ((0x1c80fd1c01UL >> (int)n) & 1UL) != 0;
 	}
 
 	public static bool IsPathTypeStraightHorz(PathType type)
 	{
-		return false;
+        // Native evidence: DecompiledNative/PathElement/PathElement_IsPathTypeStraightHorz_130b6c0.cpp
+        uint n = unchecked((uint)((int)type - 2)); return n < 33u && ((0x1bf817001UL >> (int)n) & 1UL) != 0;
 	}
 
 	public static bool IsPathTypeObstacle(PathType type)
 	{
-		return false;
+        // Native evidence: DecompiledNative/PathElement/PathElement_IsPathTypeObstacle_130b134.cpp
+        return unchecked((uint)((int)type - 11)) < 26u;
 	}
 
 	public static bool IsPathTypeHole(PathType type)
 	{
-		return false;
+        // Native evidence: DecompiledNative/PathElement/PathElement_IsPathTypeHole_130b144.cpp
+        return unchecked((uint)((int)type - 11)) < 6u;
 	}
 
 	public static bool IsPathTypeNarrow(PathType type)
 	{
-		return false;
+        // Native evidence: DecompiledNative/PathElement/PathElement_IsPathTypeNarrow_130b154.cpp
+        return unchecked((uint)((int)type - 17)) < 14u;
 	}
 
 	public static bool IsPathTypeLevelChange(PathType type)
 	{
-		return false;
+        // Native evidence: DecompiledNative/PathElement/PathElement_IsPathTypeLevelChange_130b164.cpp
+        return unchecked((uint)((int)type - 33)) < 4u;
 	}
 
 	public static bool IsPathTypeStepDown(PathType type)
@@ -372,37 +403,44 @@ public class PathElement : DynamicElement
 
 	public float GetPathHeight()
 	{
-		return 0f;
+        // Native evidence: DecompiledNative/PathElement/PathElement_GetPathHeight_130bd10.cpp
+        return Level == PathLevel.kPathLevelPlank ? -15f : Level == PathLevel.kPathLevelCliff ? 15f : 0f;
 	}
 
 	public PathElement GetPath(PathDirection direction)
 	{
-		return null;
+        // Native evidence: DecompiledNative/PathElement/PathElement_GetPath_130bd38.cpp
+        switch (direction) { case PathDirection.kPathDirectionNorth: return PathNorth; case PathDirection.kPathDirectionEast: return PathEast; case PathDirection.kPathDirectionSouth: return PathSouth; case PathDirection.kPathDirectionWest: return PathWest; default: return null; }
 	}
 
 	public PathElement GetPathForward(PathDirection origin)
 	{
-		return null;
+        // Native evidence: DecompiledNative/PathElement/PathElement_GetPathForward_130bd88.cpp
+        return GetPath(GetOpposite(origin));
 	}
 
 	public PathElement GetPathBackward(PathDirection origin)
 	{
-		return null;
+        // Native evidence: DecompiledNative/PathElement/PathElement_GetPathBackward_130bdd8.cpp
+        return GetPath(origin);
 	}
 
 	public PathElement GetPathLeft(PathDirection origin)
 	{
-		return null;
+        // Native evidence: DecompiledNative/PathElement/PathElement_GetPathLeft_130be28.cpp
+        return CanTurnLeft(origin) ? GetPath((PathDirection)(((int)origin % 4) + 1)) : null;
 	}
 
 	public PathElement GetPathRight(PathDirection origin)
 	{
-		return null;
+        // Native evidence: DecompiledNative/PathElement/PathElement_GetPathRight_130bf24.cpp
+        return CanTurnRight(origin) ? GetPath((PathDirection)(((int)origin + 2) % 4 + 1)) : null;
 	}
 
 	public static PathDirection GetOpposite(PathDirection direction)
 	{
-		return PathDirection.kPathDirectionNone;
+        // Native evidence: DecompiledNative/PathElement/PathElement_GetOpposite_130c020.cpp
+        return (PathDirection)(direction == PathDirection.kPathDirectionNorth ? 3 : direction == PathDirection.kPathDirectionEast ? 4 : direction == PathDirection.kPathDirectionSouth ? 1 : direction == PathDirection.kPathDirectionWest ? 2 : 0);
 	}
 
 	private bool DoesPieceTypeFitOnSide(PathType type, PathDirection direction, bool checkPieceTypes = true)
@@ -530,7 +568,8 @@ public class PathElement : DynamicElement
 
 	public bool IsPointInsideAnyRegion2D(Vector3 point)
 	{
-		return false;
+        // Native evidence: DecompiledNative/PathElement/PathElement_IsPointInsideAnyRegion2D_13113e4.cpp
+        foreach (Region2D region in GetComponentsInChildren<Region2D>()) if (region.IsPointInside(point)) return true; return false;
 	}
 
 	private bool SideHasCoins(PathDirection direciton)

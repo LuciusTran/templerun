@@ -1,0 +1,11 @@
+{
+  "originalUnityVersion": "2022.3.62f2",
+  "developmentUnityVersion": "6000.4.12f1",
+  "initialImportPassed": true,
+  "coreCompilationPassed": true,
+  "notes": [
+    "Unity regenerated editor/package settings and reference-scene lighting data during import.",
+    "Existing serialized script/asset GUIDs were retained.",
+    "The original exported project remains separately preserved in the local analysis workspace."
+  ]
+}

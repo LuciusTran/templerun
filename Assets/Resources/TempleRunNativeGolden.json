@@ -1,0 +1,8807 @@
+{
+  "passed": true,
+  "binarySha256": "40d634295843ceee9c019e6c862bed7fb2c3636d2b297f1d1eb6cc5818188d3d",
+  "emulator": "Unicorn ARM64",
+  "caseCount": 876,
+  "coverage": [
+    {
+      "class": "CharacterPlayer",
+      "method": "AddScore",
+      "cases": 48,
+      "fileOffset": 19654240,
+      "elfVirtualAddress": 19670624
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "AddCoins",
+      "cases": 20,
+      "fileOffset": 19654268,
+      "elfVirtualAddress": 19670652
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "GetMaxRunVelocity",
+      "cases": 12,
+      "fileOffset": 19652368,
+      "elfVirtualAddress": 19668752
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "SlamDown",
+      "cases": 4,
+      "fileOffset": 19653664,
+      "elfVirtualAddress": 19670048
+    },
+    {
+      "class": "BonusItem",
+      "method": "IsACoin",
+      "cases": 16,
+      "fileOffset": 19643460
+    },
+    {
+      "class": "PathElement",
+      "method": "IsPathTypeHole",
+      "cases": 44,
+      "fileOffset": 19968324
+    },
+    {
+      "class": "PathElement",
+      "method": "IsPathTypeLevelChange",
+      "cases": 44,
+      "fileOffset": 19968356
+    },
+    {
+      "class": "PathElement",
+      "method": "IsPathTypeNarrow",
+      "cases": 44,
+      "fileOffset": 19968340
+    },
+    {
+      "class": "PathElement",
+      "method": "IsPathTypeObstacle",
+      "cases": 44,
+      "fileOffset": 19968308
+    },
+    {
+      "class": "PathElement",
+      "method": "IsPathTypeTurn",
+      "cases": 44,
+      "fileOffset": 19969380
+    },
+    {
+      "class": "PathElement",
+      "method": "IsPathTypeStraightVert",
+      "cases": 44,
+      "fileOffset": 19969684
+    },
+    {
+      "class": "PathElement",
+      "method": "IsPathTypeStraightHorz",
+      "cases": 44,
+      "fileOffset": 19969728
+    },
+    {
+      "class": "PathElement",
+      "method": "CanTurnLeft",
+      "cases": 234,
+      "fileOffset": 19969868
+    },
+    {
+      "class": "PathElement",
+      "method": "CanTurnRight",
+      "cases": 234,
+      "fileOffset": 19970056
+    }
+  ],
+  "vectors": [
+    {
+      "name": "AddScore",
+      "before": [
+        -1,
+        1,
+        -10
+      ],
+      "after": [
+        -1
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        -1,
+        1,
+        0
+      ],
+      "after": [
+        -1
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        -1,
+        1,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        -1,
+        1,
+        500
+      ],
+      "after": [
+        499
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        -1,
+        10,
+        -10
+      ],
+      "after": [
+        -1
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        -1,
+        10,
+        0
+      ],
+      "after": [
+        -1
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        -1,
+        10,
+        1
+      ],
+      "after": [
+        9
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        -1,
+        10,
+        500
+      ],
+      "after": [
+        4999
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        -1,
+        25,
+        -10
+      ],
+      "after": [
+        -1
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        -1,
+        25,
+        0
+      ],
+      "after": [
+        -1
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        -1,
+        25,
+        1
+      ],
+      "after": [
+        24
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        -1,
+        25,
+        500
+      ],
+      "after": [
+        12499
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        0,
+        1,
+        -10
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        0,
+        1,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        0,
+        1,
+        1
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        0,
+        1,
+        500
+      ],
+      "after": [
+        500
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        0,
+        10,
+        -10
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        0,
+        10,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        0,
+        10,
+        1
+      ],
+      "after": [
+        10
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        0,
+        10,
+        500
+      ],
+      "after": [
+        5000
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        0,
+        25,
+        -10
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        0,
+        25,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        0,
+        25,
+        1
+      ],
+      "after": [
+        25
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        0,
+        25,
+        500
+      ],
+      "after": [
+        12500
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        100,
+        1,
+        -10
+      ],
+      "after": [
+        100
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        100,
+        1,
+        0
+      ],
+      "after": [
+        100
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        100,
+        1,
+        1
+      ],
+      "after": [
+        101
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        100,
+        1,
+        500
+      ],
+      "after": [
+        600
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        100,
+        10,
+        -10
+      ],
+      "after": [
+        100
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        100,
+        10,
+        0
+      ],
+      "after": [
+        100
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        100,
+        10,
+        1
+      ],
+      "after": [
+        110
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        100,
+        10,
+        500
+      ],
+      "after": [
+        5100
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        100,
+        25,
+        -10
+      ],
+      "after": [
+        100
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        100,
+        25,
+        0
+      ],
+      "after": [
+        100
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        100,
+        25,
+        1
+      ],
+      "after": [
+        125
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        100,
+        25,
+        500
+      ],
+      "after": [
+        12600
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        2147483600,
+        1,
+        -10
+      ],
+      "after": [
+        2147483600
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        2147483600,
+        1,
+        0
+      ],
+      "after": [
+        2147483600
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        2147483600,
+        1,
+        1
+      ],
+      "after": [
+        2147483601
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        2147483600,
+        1,
+        500
+      ],
+      "after": [
+        -2147483196
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        2147483600,
+        10,
+        -10
+      ],
+      "after": [
+        2147483600
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        2147483600,
+        10,
+        0
+      ],
+      "after": [
+        2147483600
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        2147483600,
+        10,
+        1
+      ],
+      "after": [
+        2147483610
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        2147483600,
+        10,
+        500
+      ],
+      "after": [
+        -2147478696
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        2147483600,
+        25,
+        -10
+      ],
+      "after": [
+        2147483600
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        2147483600,
+        25,
+        0
+      ],
+      "after": [
+        2147483600
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        2147483600,
+        25,
+        1
+      ],
+      "after": [
+        2147483625
+      ]
+    },
+    {
+      "name": "AddScore",
+      "before": [
+        2147483600,
+        25,
+        500
+      ],
+      "after": [
+        -2147471196
+      ]
+    },
+    {
+      "name": "AddCoins",
+      "before": [
+        10,
+        0,
+        100,
+        2,
+        3,
+        10,
+        100,
+        -1
+      ],
+      "after": [
+        10,
+        0,
+        2,
+        3,
+        100
+      ]
+    },
+    {
+      "name": "AddCoins",
+      "before": [
+        10,
+        0,
+        100,
+        2,
+        3,
+        10,
+        100,
+        0
+      ],
+      "after": [
+        10,
+        0,
+        2,
+        3,
+        100
+      ]
+    },
+    {
+      "name": "AddCoins",
+      "before": [
+        10,
+        0,
+        100,
+        2,
+        3,
+        10,
+        100,
+        1
+      ],
+      "after": [
+        11,
+        1,
+        2,
+        3,
+        100
+      ]
+    },
+    {
+      "name": "AddCoins",
+      "before": [
+        10,
+        0,
+        100,
+        2,
+        3,
+        10,
+        100,
+        3
+      ],
+      "after": [
+        13,
+        3,
+        2,
+        3,
+        100
+      ]
+    },
+    {
+      "name": "AddCoins",
+      "before": [
+        10,
+        0,
+        100,
+        2,
+        3,
+        10,
+        100,
+        250
+      ],
+      "after": [
+        260,
+        150,
+        3,
+        3,
+        5100
+      ]
+    },
+    {
+      "name": "AddCoins",
+      "before": [
+        10,
+        99,
+        100,
+        2,
+        3,
+        10,
+        100,
+        -1
+      ],
+      "after": [
+        10,
+        99,
+        2,
+        3,
+        100
+      ]
+    },
+    {
+      "name": "AddCoins",
+      "before": [
+        10,
+        99,
+        100,
+        2,
+        3,
+        10,
+        100,
+        0
+      ],
+      "after": [
+        10,
+        99,
+        2,
+        3,
+        100
+      ]
+    },
+    {
+      "name": "AddCoins",
+      "before": [
+        10,
+        99,
+        100,
+        2,
+        3,
+        10,
+        100,
+        1
+      ],
+      "after": [
+        11,
+        0,
+        3,
+        3,
+        5100
+      ]
+    },
+    {
+      "name": "AddCoins",
+      "before": [
+        10,
+        99,
+        100,
+        2,
+        3,
+        10,
+        100,
+        3
+      ],
+      "after": [
+        13,
+        2,
+        3,
+        3,
+        5100
+      ]
+    },
+    {
+      "name": "AddCoins",
+      "before": [
+        10,
+        99,
+        100,
+        2,
+        3,
+        10,
+        100,
+        250
+      ],
+      "after": [
+        260,
+        249,
+        3,
+        3,
+        5100
+      ]
+    },
+    {
+      "name": "AddCoins",
+      "before": [
+        10,
+        100,
+        100,
+        2,
+        3,
+        10,
+        100,
+        -1
+      ],
+      "after": [
+        10,
+        100,
+        2,
+        3,
+        100
+      ]
+    },
+    {
+      "name": "AddCoins",
+      "before": [
+        10,
+        100,
+        100,
+        2,
+        3,
+        10,
+        100,
+        0
+      ],
+      "after": [
+        10,
+        100,
+        2,
+        3,
+        100
+      ]
+    },
+    {
+      "name": "AddCoins",
+      "before": [
+        10,
+        100,
+        100,
+        2,
+        3,
+        10,
+        100,
+        1
+      ],
+      "after": [
+        11,
+        1,
+        3,
+        3,
+        5100
+      ]
+    },
+    {
+      "name": "AddCoins",
+      "before": [
+        10,
+        100,
+        100,
+        2,
+        3,
+        10,
+        100,
+        3
+      ],
+      "after": [
+        13,
+        3,
+        3,
+        3,
+        5100
+      ]
+    },
+    {
+      "name": "AddCoins",
+      "before": [
+        10,
+        100,
+        100,
+        2,
+        3,
+        10,
+        100,
+        250
+      ],
+      "after": [
+        260,
+        250,
+        3,
+        3,
+        5100
+      ]
+    },
+    {
+      "name": "AddCoins",
+      "before": [
+        10,
+        198,
+        100,
+        2,
+        3,
+        10,
+        100,
+        -1
+      ],
+      "after": [
+        10,
+        198,
+        2,
+        3,
+        100
+      ]
+    },
+    {
+      "name": "AddCoins",
+      "before": [
+        10,
+        198,
+        100,
+        2,
+        3,
+        10,
+        100,
+        0
+      ],
+      "after": [
+        10,
+        198,
+        2,
+        3,
+        100
+      ]
+    },
+    {
+      "name": "AddCoins",
+      "before": [
+        10,
+        198,
+        100,
+        2,
+        3,
+        10,
+        100,
+        1
+      ],
+      "after": [
+        11,
+        99,
+        3,
+        3,
+        5100
+      ]
+    },
+    {
+      "name": "AddCoins",
+      "before": [
+        10,
+        198,
+        100,
+        2,
+        3,
+        10,
+        100,
+        3
+      ],
+      "after": [
+        13,
+        101,
+        3,
+        3,
+        5100
+      ]
+    },
+    {
+      "name": "AddCoins",
+      "before": [
+        10,
+        198,
+        100,
+        2,
+        3,
+        10,
+        100,
+        250
+      ],
+      "after": [
+        260,
+        348,
+        3,
+        3,
+        5100
+      ]
+    },
+    {
+      "name": "GetMaxRunVelocity",
+      "before": [
+        0,
+        0,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "GetMaxRunVelocity",
+      "before": [
+        0,
+        0,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "GetMaxRunVelocity",
+      "before": [
+        0,
+        1,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "GetMaxRunVelocity",
+      "before": [
+        0,
+        1,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "GetMaxRunVelocity",
+      "before": [
+        100,
+        0,
+        0
+      ],
+      "after": [
+        100
+      ]
+    },
+    {
+      "name": "GetMaxRunVelocity",
+      "before": [
+        100,
+        0,
+        1
+      ],
+      "after": [
+        100
+      ]
+    },
+    {
+      "name": "GetMaxRunVelocity",
+      "before": [
+        100,
+        1,
+        0
+      ],
+      "after": [
+        200
+      ]
+    },
+    {
+      "name": "GetMaxRunVelocity",
+      "before": [
+        100,
+        1,
+        1
+      ],
+      "after": [
+        250
+      ]
+    },
+    {
+      "name": "GetMaxRunVelocity",
+      "before": [
+        210,
+        0,
+        0
+      ],
+      "after": [
+        210
+      ]
+    },
+    {
+      "name": "GetMaxRunVelocity",
+      "before": [
+        210,
+        0,
+        1
+      ],
+      "after": [
+        210
+      ]
+    },
+    {
+      "name": "GetMaxRunVelocity",
+      "before": [
+        210,
+        1,
+        0
+      ],
+      "after": [
+        420
+      ]
+    },
+    {
+      "name": "GetMaxRunVelocity",
+      "before": [
+        210,
+        1,
+        1
+      ],
+      "after": [
+        525
+      ]
+    },
+    {
+      "name": "SlamDown",
+      "before": [
+        0,
+        0,
+        40
+      ],
+      "after": [
+        0,
+        40
+      ]
+    },
+    {
+      "name": "SlamDown",
+      "before": [
+        0,
+        1,
+        40
+      ],
+      "after": [
+        0,
+        40
+      ]
+    },
+    {
+      "name": "SlamDown",
+      "before": [
+        1,
+        0,
+        40
+      ],
+      "after": [
+        1,
+        -60
+      ]
+    },
+    {
+      "name": "SlamDown",
+      "before": [
+        1,
+        1,
+        40
+      ],
+      "after": [
+        0,
+        40
+      ]
+    },
+    {
+      "name": "IsACoin",
+      "before": [
+        -3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsACoin",
+      "before": [
+        -2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsACoin",
+      "before": [
+        -1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsACoin",
+      "before": [
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsACoin",
+      "before": [
+        1
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsACoin",
+      "before": [
+        2
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsACoin",
+      "before": [
+        3
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsACoin",
+      "before": [
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsACoin",
+      "before": [
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsACoin",
+      "before": [
+        6
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsACoin",
+      "before": [
+        7
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsACoin",
+      "before": [
+        8
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsACoin",
+      "before": [
+        9
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsACoin",
+      "before": [
+        10
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsACoin",
+      "before": [
+        11
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsACoin",
+      "before": [
+        12
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        -2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        -1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        6
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        7
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        8
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        9
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        10
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        11
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        12
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        13
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        14
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        15
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        16
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        17
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        18
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        19
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        20
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        21
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        22
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        23
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        24
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        25
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        26
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        27
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        28
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        29
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        30
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        31
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        32
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        33
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        34
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        35
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        36
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        37
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        38
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        39
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        40
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeHole",
+      "before": [
+        41
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        -2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        -1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        6
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        7
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        8
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        9
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        10
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        11
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        12
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        13
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        14
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        15
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        16
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        17
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        18
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        19
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        20
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        21
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        22
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        23
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        24
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        25
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        26
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        27
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        28
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        29
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        30
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        31
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        32
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        33
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        34
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        35
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        36
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        37
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        38
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        39
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        40
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeLevelChange",
+      "before": [
+        41
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        -2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        -1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        6
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        7
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        8
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        9
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        10
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        11
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        12
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        13
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        14
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        15
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        16
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        17
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        18
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        19
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        20
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        21
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        22
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        23
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        24
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        25
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        26
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        27
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        28
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        29
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        30
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        31
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        32
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        33
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        34
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        35
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        36
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        37
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        38
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        39
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        40
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeNarrow",
+      "before": [
+        41
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        -2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        -1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        6
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        7
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        8
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        9
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        10
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        11
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        12
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        13
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        14
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        15
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        16
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        17
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        18
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        19
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        20
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        21
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        22
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        23
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        24
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        25
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        26
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        27
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        28
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        29
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        30
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        31
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        32
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        33
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        34
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        35
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        36
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        37
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        38
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        39
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        40
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeObstacle",
+      "before": [
+        41
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        -2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        -1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        3
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        4
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        5
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        6
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        7
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        8
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        9
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        10
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        11
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        12
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        13
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        14
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        15
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        16
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        17
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        18
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        19
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        20
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        21
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        22
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        23
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        24
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        25
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        26
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        27
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        28
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        29
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        30
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        31
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        32
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        33
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        34
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        35
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        36
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        37
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        38
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        39
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        40
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeTurn",
+      "before": [
+        41
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        -2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        -1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        1
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        6
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        7
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        8
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        9
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        10
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        11
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        12
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        13
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        14
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        15
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        16
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        17
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        18
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        19
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        20
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        21
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        22
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        23
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        24
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        25
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        26
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        27
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        28
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        29
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        30
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        31
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        32
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        33
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        34
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        35
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        36
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        37
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        38
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        39
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        40
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightVert",
+      "before": [
+        41
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        -2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        -1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        2
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        6
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        7
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        8
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        9
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        10
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        11
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        12
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        13
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        14
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        15
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        16
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        17
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        18
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        19
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        20
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        21
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        22
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        23
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        24
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        25
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        26
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        27
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        28
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        29
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        30
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        31
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        32
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        33
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        34
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        35
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        36
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        37
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        38
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        39
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        40
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "IsPathTypeStraightHorz",
+      "before": [
+        41
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        0,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        0,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        0,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        0,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        0,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        0,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        1,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        1,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        1,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        1,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        1,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        1,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        2,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        2,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        2,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        2,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        2,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        2,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        3,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        3,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        3,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        3,
+        3
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        3,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        3,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        4,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        4,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        4,
+        2
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        4,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        4,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        4,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        5,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        5,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        5,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        5,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        5,
+        4
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        5,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        6,
+        1
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        6,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        6,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        6,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        6,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        7,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        7,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        7,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        7,
+        3
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        7,
+        4
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        7,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        8,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        8,
+        1
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        8,
+        2
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        8,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        8,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        8,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        9,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        9,
+        1
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        9,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        9,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        9,
+        4
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        9,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        10,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        10,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        10,
+        2
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        10,
+        3
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        10,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        10,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        11,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        11,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        11,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        11,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        11,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        11,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        12,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        12,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        12,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        12,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        12,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        12,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        13,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        13,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        13,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        13,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        13,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        13,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        14,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        14,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        14,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        14,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        14,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        14,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        15,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        15,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        15,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        15,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        15,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        15,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        16,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        16,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        16,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        16,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        16,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        16,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        17,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        17,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        17,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        17,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        17,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        17,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        18,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        18,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        18,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        18,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        18,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        18,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        19,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        19,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        19,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        19,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        19,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        19,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        20,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        20,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        20,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        20,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        20,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        20,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        21,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        21,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        21,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        21,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        21,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        21,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        22,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        22,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        22,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        22,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        22,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        22,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        23,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        23,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        23,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        23,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        23,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        23,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        24,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        24,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        24,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        24,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        24,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        24,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        25,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        25,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        25,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        25,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        25,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        25,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        26,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        26,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        26,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        26,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        26,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        26,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        27,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        27,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        27,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        27,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        27,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        27,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        28,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        28,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        28,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        28,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        28,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        28,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        29,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        29,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        29,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        29,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        29,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        29,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        30,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        30,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        30,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        30,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        30,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        30,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        31,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        31,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        31,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        31,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        31,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        31,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        32,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        32,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        32,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        32,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        32,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        32,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        33,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        33,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        33,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        33,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        33,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        33,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        34,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        34,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        34,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        34,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        34,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        34,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        35,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        35,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        35,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        35,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        35,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        35,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        36,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        36,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        36,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        36,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        36,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        36,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        37,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        37,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        37,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        37,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        37,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        37,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        38,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        38,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        38,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        38,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        38,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnLeft",
+      "before": [
+        38,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        0,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        0,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        0,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        0,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        0,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        0,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        1,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        1,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        1,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        1,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        1,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        1,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        2,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        2,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        2,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        2,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        2,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        2,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        3,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        3,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        3,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        3,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        3,
+        4
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        3,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        4,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        4,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        4,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        4,
+        3
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        4,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        4,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        5,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        5,
+        1
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        5,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        5,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        5,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        5,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        6,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        6,
+        2
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        6,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        6,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        6,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        7,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        7,
+        1
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        7,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        7,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        7,
+        4
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        7,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        8,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        8,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        8,
+        2
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        8,
+        3
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        8,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        8,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        9,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        9,
+        1
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        9,
+        2
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        9,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        9,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        9,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        10,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        10,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        10,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        10,
+        3
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        10,
+        4
+      ],
+      "after": [
+        1
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        10,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        11,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        11,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        11,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        11,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        11,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        11,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        12,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        12,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        12,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        12,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        12,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        12,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        13,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        13,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        13,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        13,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        13,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        13,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        14,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        14,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        14,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        14,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        14,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        14,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        15,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        15,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        15,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        15,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        15,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        15,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        16,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        16,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        16,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        16,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        16,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        16,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        17,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        17,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        17,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        17,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        17,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        17,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        18,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        18,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        18,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        18,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        18,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        18,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        19,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        19,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        19,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        19,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        19,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        19,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        20,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        20,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        20,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        20,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        20,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        20,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        21,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        21,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        21,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        21,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        21,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        21,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        22,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        22,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        22,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        22,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        22,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        22,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        23,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        23,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        23,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        23,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        23,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        23,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        24,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        24,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        24,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        24,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        24,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        24,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        25,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        25,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        25,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        25,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        25,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        25,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        26,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        26,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        26,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        26,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        26,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        26,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        27,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        27,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        27,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        27,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        27,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        27,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        28,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        28,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        28,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        28,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        28,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        28,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        29,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        29,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        29,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        29,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        29,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        29,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        30,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        30,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        30,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        30,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        30,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        30,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        31,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        31,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        31,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        31,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        31,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        31,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        32,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        32,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        32,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        32,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        32,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        32,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        33,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        33,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        33,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        33,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        33,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        33,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        34,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        34,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        34,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        34,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        34,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        34,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        35,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        35,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        35,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        35,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        35,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        35,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        36,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        36,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        36,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        36,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        36,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        36,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        37,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        37,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        37,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        37,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        37,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        37,
+        5
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        38,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        38,
+        1
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        38,
+        2
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        38,
+        3
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        38,
+        4
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "CanTurnRight",
+      "before": [
+        38,
+        5
+      ],
+      "after": [
+        0
+      ]
+    }
+  ],
+  "limitations": [
+    "Executes selected original methods only; not the complete APK, Unity runtime, graphics or Android integrations.",
+    "Turn checks cover metadata enum values 0..38 and origins 0..5; other integer inputs are not claimed.",
+    "IsTurn receives an initialized IL2CPP type-cache fixture; metadata resolution and class initialization are not executed."
+  ]
+}

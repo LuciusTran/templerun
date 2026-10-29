@@ -1,0 +1,718 @@
+{
+  "methods": [
+    {
+      "class": "CharacterPlayer",
+      "method": "GetRunVelocity",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_GetRunVelocity_12bdeac.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "GetMaxRunVelocity",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_GetMaxRunVelocity_12bdf10.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "AddScore",
+      "parameters": "int score",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_AddScore_12be660.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "AddCoins",
+      "parameters": "int count",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_AddCoins_12be67c.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "Jump",
+      "parameters": "float delay = 0f",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_Jump_12bd754.cpp"
+      ],
+      "nature": "native guards/impulse/state; audio and animation use local adapters"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "Slide",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_Slide_12be33c.cpp"
+      ],
+      "nature": "native guards/timing/state; animation adapter"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "SlamDown",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_SlamDown_12be420.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "StrafeLeft",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_StrafeLeft_12be448.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "StrafeRight",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_StrafeRight_12be4dc.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "TurnLeft",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_TurnLeft_12be570.cpp"
+      ],
+      "nature": "native transform/velocity rotation; audio omitted"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "TurnRight",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_TurnRight_12be5e8.cpp"
+      ],
+      "nature": "native transform/velocity rotation; audio omitted"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "StartVacuum",
+      "parameters": "float duration",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_StartVacuum_12be870.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "StartInvcibility",
+      "parameters": "float duration",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_StartInvcibility_12be7f8.cpp"
+      ],
+      "nature": "native flags/timer; original shader/audio integration omitted"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "StartAngelWings",
+      "parameters": "float duration, bool isPermanent = false",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_StartAngelWings_12be840.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "StartCoinBonus",
+      "parameters": "int value",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_StartCoinBonus_12be884.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "StartBoost",
+      "parameters": "float distance, bool isMega",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_StartBoost_12be89c.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "Stumble",
+      "parameters": "float delay = 0f",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_Stumble_12bd5ac.cpp"
+      ],
+      "nature": "native state/speed/timing/death threshold; audio/UI adapters omitted"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "Start",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_Start_12bc9dc.cpp"
+      ],
+      "nature": "native initialization subset; reset is explicitly scheduled by the local host"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "Reset",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_Reset_12bdf40.cpp"
+      ],
+      "nature": "native reset fields; local baseline multiplier replaces unavailable record-manager initialization"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "Kill",
+      "parameters": "DeathTypes deathType",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_Kill_12bda84.cpp"
+      ],
+      "nature": "native death state; authored host replaces original end-game UI/platform integration"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "PlayAnimation",
+      "parameters": "string anim, bool queued = false",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_PlayAnimation_12bda58.cpp"
+      ],
+      "nature": "animation integration adapter for recovered legacy clips"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "StopAllAnimation",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_StopAllAnimation_12be918.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "PauseAnimation",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_PauseAnimation_12bebbc.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "UnpauseAnimation",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_UnpauseAnimation_12bee84.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "AdjustAnimationSpeed",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_AdjustAnimationSpeed_12bdb3c.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "GetPreviousPosition2D",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_GetPreviousPosition2D_12be330.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "SetGroundHeight",
+      "parameters": "float groundHeight",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_SetGroundHeight_12bde90.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "Resurrect",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_Resurrect_12be934.cpp"
+      ],
+      "nature": "native resurrection fields; local animation/material adapter"
+    },
+    {
+      "class": "MovingObject",
+      "method": "ApplyForce",
+      "parameters": "Vector3 force",
+      "source": "Assets/Scripts/Assembly-CSharp/MovingObject.cs",
+      "nativeFiles": [
+        "DecompiledNative/MovingObject/MovingObject_ApplyForce_13091b0.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "MovingObject",
+      "method": "ResetForce",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/MovingObject.cs",
+      "nativeFiles": [
+        "DecompiledNative/MovingObject/MovingObject_ResetForce_13091d8.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "MovingObject",
+      "method": "ResetSimulation",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/MovingObject.cs",
+      "nativeFiles": [
+        "DecompiledNative/MovingObject/MovingObject_ResetSimulation_13091e8.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "MovingObject",
+      "method": "GetPosition2D",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/MovingObject.cs",
+      "nativeFiles": [
+        "DecompiledNative/MovingObject/MovingObject_GetPosition2D_1309760.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "MovingObject",
+      "method": "IsMoving",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/MovingObject.cs",
+      "nativeFiles": [
+        "DecompiledNative/MovingObject/MovingObject_IsMoving_1308f04.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "MovingObject",
+      "method": "Simulate",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/MovingObject.cs",
+      "nativeFiles": [
+        "DecompiledNative/MovingObject/MovingObject_Simulate_1308918.cpp"
+      ],
+      "nature": "native free-motion branch via RecoveredIntegrate; scripted following-path branch is not restored"
+    },
+    {
+      "class": "MovingObject",
+      "method": "SetX",
+      "parameters": "float x",
+      "source": "Assets/Scripts/Assembly-CSharp/MovingObject.cs",
+      "nativeFiles": [
+        "DecompiledNative/MovingObject/MovingObject_SetX_1309320.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "MovingObject",
+      "method": "SetLocalX",
+      "parameters": "float x",
+      "source": "Assets/Scripts/Assembly-CSharp/MovingObject.cs",
+      "nativeFiles": [
+        "DecompiledNative/MovingObject/MovingObject_SetLocalX_1309494.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "MovingObject",
+      "method": "SetY",
+      "parameters": "float y",
+      "source": "Assets/Scripts/Assembly-CSharp/MovingObject.cs",
+      "nativeFiles": [
+        "DecompiledNative/MovingObject/MovingObject_SetY_130939c.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "MovingObject",
+      "method": "SetLocalY",
+      "parameters": "float y",
+      "source": "Assets/Scripts/Assembly-CSharp/MovingObject.cs",
+      "nativeFiles": [
+        "DecompiledNative/MovingObject/MovingObject_SetLocalY_1309510.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "MovingObject",
+      "method": "SetZ",
+      "parameters": "float z",
+      "source": "Assets/Scripts/Assembly-CSharp/MovingObject.cs",
+      "nativeFiles": [
+        "DecompiledNative/MovingObject/MovingObject_SetZ_1309418.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "MovingObject",
+      "method": "SetLocalZ",
+      "parameters": "float z",
+      "source": "Assets/Scripts/Assembly-CSharp/MovingObject.cs",
+      "nativeFiles": [
+        "DecompiledNative/MovingObject/MovingObject_SetLocalZ_130958c.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "CommonPlayer",
+      "method": "Teleport",
+      "parameters": "Vector3 pos",
+      "source": "Assets/Scripts/Assembly-CSharp/CommonPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CommonPlayer/CommonPlayer_Teleport_12bf738.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "CommonPlayer",
+      "method": "TravelingDirection",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/CommonPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CommonPlayer/CommonPlayer_TravelingDirection_12bf6d0.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "BonusItem",
+      "method": "IsACoin",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/BonusItem.cs",
+      "nativeFiles": [
+        "DecompiledNative/BonusItem/BonusItem_IsACoin_12bbc44.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "PathElement",
+      "method": "IsPathTypeHole",
+      "parameters": "PathType type",
+      "source": "Assets/Scripts/Assembly-CSharp/PathElement.cs",
+      "nativeFiles": [
+        "DecompiledNative/PathElement/PathElement_IsPathTypeHole_130b144.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "PathElement",
+      "method": "IsPathTypeNarrow",
+      "parameters": "PathType type",
+      "source": "Assets/Scripts/Assembly-CSharp/PathElement.cs",
+      "nativeFiles": [
+        "DecompiledNative/PathElement/PathElement_IsPathTypeNarrow_130b154.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "PathElement",
+      "method": "IsPathTypeLevelChange",
+      "parameters": "PathType type",
+      "source": "Assets/Scripts/Assembly-CSharp/PathElement.cs",
+      "nativeFiles": [
+        "DecompiledNative/PathElement/PathElement_IsPathTypeLevelChange_130b164.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "PathElement",
+      "method": "IsPathTypeObstacle",
+      "parameters": "PathType type",
+      "source": "Assets/Scripts/Assembly-CSharp/PathElement.cs",
+      "nativeFiles": [
+        "DecompiledNative/PathElement/PathElement_IsPathTypeObstacle_130b134.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "PathElement",
+      "method": "IsPathTypeTurn",
+      "parameters": "PathType type",
+      "source": "Assets/Scripts/Assembly-CSharp/PathElement.cs",
+      "nativeFiles": [
+        "DecompiledNative/PathElement/PathElement_IsPathTypeTurn_130b564.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "PathElement",
+      "method": "IsPathTypeStraightVert",
+      "parameters": "PathType type",
+      "source": "Assets/Scripts/Assembly-CSharp/PathElement.cs",
+      "nativeFiles": [
+        "DecompiledNative/PathElement/PathElement_IsPathTypeStraightVert_130b694.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "PathElement",
+      "method": "IsPathTypeStraightHorz",
+      "parameters": "PathType type",
+      "source": "Assets/Scripts/Assembly-CSharp/PathElement.cs",
+      "nativeFiles": [
+        "DecompiledNative/PathElement/PathElement_IsPathTypeStraightHorz_130b6c0.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "PathElement",
+      "method": "ISsPathTypeStraight",
+      "parameters": "PathType type",
+      "source": "Assets/Scripts/Assembly-CSharp/PathElement.cs",
+      "nativeFiles": [
+        "DecompiledNative/PathElement/PathElement_ISsPathTypeStraight_130ba0c.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "PathElement",
+      "method": "IsTurn",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/PathElement.cs",
+      "nativeFiles": [
+        "DecompiledNative/PathElement/PathElement_IsTurn_130b174.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "PathElement",
+      "method": "IsStraight",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/PathElement.cs",
+      "nativeFiles": [
+        "DecompiledNative/PathElement/PathElement_IsStraight_130b574.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "PathElement",
+      "method": "IsNarrow",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/PathElement.cs",
+      "nativeFiles": [
+        "DecompiledNative/PathElement/PathElement_IsNarrow_130b6ec.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "PathElement",
+      "method": "IsStraightVert",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/PathElement.cs",
+      "nativeFiles": [
+        "DecompiledNative/PathElement/PathElement_IsStraightVert_130b59c.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "PathElement",
+      "method": "IsStraightHorz",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/PathElement.cs",
+      "nativeFiles": [
+        "DecompiledNative/PathElement/PathElement_IsStraightHorz_130b618.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "PathElement",
+      "method": "GetPathHeight",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/PathElement.cs",
+      "nativeFiles": [
+        "DecompiledNative/PathElement/PathElement_GetPathHeight_130bd10.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "PathElement",
+      "method": "GetOpposite",
+      "parameters": "PathDirection direction",
+      "source": "Assets/Scripts/Assembly-CSharp/PathElement.cs",
+      "nativeFiles": [
+        "DecompiledNative/PathElement/PathElement_GetOpposite_130c020.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "PathElement",
+      "method": "GetPath",
+      "parameters": "PathDirection direction",
+      "source": "Assets/Scripts/Assembly-CSharp/PathElement.cs",
+      "nativeFiles": [
+        "DecompiledNative/PathElement/PathElement_GetPath_130bd38.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "PathElement",
+      "method": "GetPathBackward",
+      "parameters": "PathDirection origin",
+      "source": "Assets/Scripts/Assembly-CSharp/PathElement.cs",
+      "nativeFiles": [
+        "DecompiledNative/PathElement/PathElement_GetPathBackward_130bdd8.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "PathElement",
+      "method": "GetPathForward",
+      "parameters": "PathDirection origin",
+      "source": "Assets/Scripts/Assembly-CSharp/PathElement.cs",
+      "nativeFiles": [
+        "DecompiledNative/PathElement/PathElement_GetPathForward_130bd88.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "PathElement",
+      "method": "CanTurnLeft",
+      "parameters": "PathDirection origin",
+      "source": "Assets/Scripts/Assembly-CSharp/PathElement.cs",
+      "nativeFiles": [
+        "DecompiledNative/PathElement/PathElement_CanTurnLeft_130b74c.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "PathElement",
+      "method": "CanTurnRight",
+      "parameters": "PathDirection origin",
+      "source": "Assets/Scripts/Assembly-CSharp/PathElement.cs",
+      "nativeFiles": [
+        "DecompiledNative/PathElement/PathElement_CanTurnRight_130b808.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "PathElement",
+      "method": "GetPathLeft",
+      "parameters": "PathDirection origin",
+      "source": "Assets/Scripts/Assembly-CSharp/PathElement.cs",
+      "nativeFiles": [
+        "DecompiledNative/PathElement/PathElement_GetPathLeft_130be28.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "PathElement",
+      "method": "GetPathRight",
+      "parameters": "PathDirection origin",
+      "source": "Assets/Scripts/Assembly-CSharp/PathElement.cs",
+      "nativeFiles": [
+        "DecompiledNative/PathElement/PathElement_GetPathRight_130bf24.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "PathElement",
+      "method": "IsPointInsideAnyRegion2D",
+      "parameters": "Vector3 point",
+      "source": "Assets/Scripts/Assembly-CSharp/PathElement.cs",
+      "nativeFiles": [
+        "DecompiledNative/PathElement/PathElement_IsPointInsideAnyRegion2D_13113e4.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "Region2D",
+      "method": "IsPointInside",
+      "parameters": "Vector3 point",
+      "source": "Assets/Scripts/Assembly-CSharp/Region2D.cs",
+      "nativeFiles": [
+        "DecompiledNative/Region2D/Region2D_IsPointInside_131eb60.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "Region2D",
+      "method": "IsPointInside",
+      "parameters": "Vector2 worldPoint",
+      "source": "Assets/Scripts/Assembly-CSharp/Region2D.cs",
+      "nativeFiles": [
+        "DecompiledNative/Region2D/Region2D_IsPointInside_131eb68.cpp"
+      ],
+      "nature": "native XZ projection and polygon crossing translation; degenerate boundaries are not independently ARM64-verified"
+    },
+    {
+      "class": "Region2D",
+      "method": "DoesLineSegementIntersect",
+      "parameters": "Vector2 p1, Vector2 p2",
+      "source": "Assets/Scripts/Assembly-CSharp/Region2D.cs",
+      "nativeFiles": [
+        "DecompiledNative/Region2D/Region2D_DoesLineSegementIntersect_131ed58.cpp"
+      ],
+      "nature": "native local projection; explicit segment intersection replaces unresolved Geometry helper, with collinear boundaries unverified"
+    },
+    {
+      "class": "Obstacle",
+      "method": "IsPointInRegion",
+      "parameters": "Vector2 p",
+      "source": "Assets/Scripts/Assembly-CSharp/Obstacle.cs",
+      "nativeFiles": [
+        "DecompiledNative/Obstacle/Obstacle_IsPointInRegion_1309cf4.cpp"
+      ],
+      "nature": "native-derived translation"
+    },
+    {
+      "class": "Obstacle",
+      "method": "DoesLineSegementIntersect",
+      "parameters": "Vector2 p1, Vector2 p2",
+      "source": "Assets/Scripts/Assembly-CSharp/Obstacle.cs",
+      "nativeFiles": [
+        "DecompiledNative/Obstacle/Obstacle_DoesLineSegementIntersect_1309c0c.cpp"
+      ],
+      "nature": "native-derived translation"
+    }
+  ],
+  "limitations": [
+    "These are reviewed C# translations and explicit integration adapters, not recovered original C# text.",
+    "Exported methods absent from this map remain stubs; the playable host must not depend on their implementations."
+  ]
+}

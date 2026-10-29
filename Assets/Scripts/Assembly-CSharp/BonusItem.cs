@@ -35,7 +35,8 @@ public class BonusItem : MovingObject
 
 	public bool IsACoin()
 	{
-		return false;
+        // Native evidence: DecompiledNative/BonusItem/BonusItem_IsACoin_12bbc44.cpp
+        return unchecked((uint)((int)BonusType - 1)) < 3u;
 	}
 
 	public static BonusItem Instantiate(BonusItemType type)

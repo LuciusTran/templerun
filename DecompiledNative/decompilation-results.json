@@ -1,6 +1,6 @@
 [
   {
-    "className": "AudioManager.\u003cDebugInternal_PlayAllSounds\u003ed__31",
+    "className": "AudioManager.<DebugInternal_PlayAllSounds>d__31",
     "signature": "private override bool MoveNext() { }",
     "label": "AudioManager__DebugInternal_PlayAllSounds_d__31_MoveNext_12bb930",
     "producerRva": 19642672,
@@ -281,7 +281,7 @@
   },
   {
     "className": "AudioManager",
-    "signature": "public void PlayFX(Effects effect, float volumeScale \u003d 1) { }",
+    "signature": "public void PlayFX(Effects effect, float volumeScale = 1) { }",
     "label": "AudioManager_PlayFX_12bb190",
     "producerRva": 19640720,
     "fileOffset": 19640720,
@@ -291,7 +291,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/AudioManager.cs",
     "metadataRepresentations": [
       {
-        "signature": "public void PlayFX(Effects effect, float volumeScale \u003d 1) { }",
+        "signature": "public void PlayFX(Effects effect, float volumeScale = 1) { }",
         "label": "AudioManager_PlayFX_12bb190"
       }
     ],
@@ -875,7 +875,7 @@
   },
   {
     "className": "CharacterPlayer",
-    "signature": "public bool Jump(float delay \u003d 0) { }",
+    "signature": "public bool Jump(float delay = 0) { }",
     "label": "CharacterPlayer_Jump_12bd754",
     "producerRva": 19650388,
     "fileOffset": 19650388,
@@ -885,7 +885,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/CharacterPlayer.cs",
     "metadataRepresentations": [
       {
-        "signature": "public bool Jump(float delay \u003d 0) { }",
+        "signature": "public bool Jump(float delay = 0) { }",
         "label": "CharacterPlayer_Jump_12bd754"
       }
     ],
@@ -963,7 +963,7 @@
   },
   {
     "className": "CharacterPlayer",
-    "signature": "public void PlayAnimation(string anim, bool queued \u003d false) { }",
+    "signature": "public void PlayAnimation(string anim, bool queued = false) { }",
     "label": "CharacterPlayer_PlayAnimation_12bda58",
     "producerRva": 19651160,
     "fileOffset": 19651160,
@@ -973,7 +973,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/CharacterPlayer.cs",
     "metadataRepresentations": [
       {
-        "signature": "public void PlayAnimation(string anim, bool queued \u003d false) { }",
+        "signature": "public void PlayAnimation(string anim, bool queued = false) { }",
         "label": "CharacterPlayer_PlayAnimation_12bda58"
       }
     ],
@@ -1205,7 +1205,7 @@
   },
   {
     "className": "CharacterPlayer",
-    "signature": "public void StartAngelWings(float duration, bool isPermanent \u003d false) { }",
+    "signature": "public void StartAngelWings(float duration, bool isPermanent = false) { }",
     "label": "CharacterPlayer_StartAngelWings_12be840",
     "producerRva": 19654720,
     "fileOffset": 19654720,
@@ -1215,7 +1215,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/CharacterPlayer.cs",
     "metadataRepresentations": [
       {
-        "signature": "public void StartAngelWings(float duration, bool isPermanent \u003d false) { }",
+        "signature": "public void StartAngelWings(float duration, bool isPermanent = false) { }",
         "label": "CharacterPlayer_StartAngelWings_12be840"
       }
     ],
@@ -1381,7 +1381,7 @@
   },
   {
     "className": "CharacterPlayer",
-    "signature": "public void Stumble(float delay \u003d 0) { }",
+    "signature": "public void Stumble(float delay = 0) { }",
     "label": "CharacterPlayer_Stumble_12bd5ac",
     "producerRva": 19649964,
     "fileOffset": 19649964,
@@ -1391,7 +1391,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/CharacterPlayer.cs",
     "metadataRepresentations": [
       {
-        "signature": "public void Stumble(float delay \u003d 0) { }",
+        "signature": "public void Stumble(float delay = 0) { }",
         "label": "CharacterPlayer_Stumble_12bd5ac"
       }
     ],
@@ -1591,7 +1591,7 @@
   },
   {
     "className": "CoinSpawnConfigData",
-    "signature": "public virtual bool FromDict(Dictionary\u003cString, Object\u003e inDict) { }",
+    "signature": "public virtual bool FromDict(Dictionary<String, Object> inDict) { }",
     "label": "CoinSpawnConfigData_FromDict_12c39bc",
     "producerRva": 19675580,
     "fileOffset": 19675580,
@@ -1601,7 +1601,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/CoinSpawnConfigData.cs",
     "metadataRepresentations": [
       {
-        "signature": "public virtual bool FromDict(Dictionary\u003cString, Object\u003e inDict) { }",
+        "signature": "public virtual bool FromDict(Dictionary<String, Object> inDict) { }",
         "label": "CoinSpawnConfigData_FromDict_12c39bc"
       }
     ],
@@ -1613,7 +1613,7 @@
   },
   {
     "className": "CoinSpawnConfigData",
-    "signature": "public virtual Dictionary\u003cString, Object\u003e ToDict() { }",
+    "signature": "public virtual Dictionary<String, Object> ToDict() { }",
     "label": "CoinSpawnConfigData_ToDict_12c38c4",
     "producerRva": 19675332,
     "fileOffset": 19675332,
@@ -1623,7 +1623,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/CoinSpawnConfigData.cs",
     "metadataRepresentations": [
       {
-        "signature": "public virtual Dictionary\u003cString, Object\u003e ToDict() { }",
+        "signature": "public virtual Dictionary<String, Object> ToDict() { }",
         "label": "CoinSpawnConfigData_ToDict_12c38c4"
       }
     ],
@@ -1855,7 +1855,7 @@
   },
   {
     "className": "DynamicElement",
-    "signature": "public GameObject SetDataModelReference(string prefabName, string poolName \u003d null) { }",
+    "signature": "public GameObject SetDataModelReference(string prefabName, string poolName = null) { }",
     "label": "DynamicElement_SetDataModelReference_12d54e4",
     "producerRva": 19748068,
     "fileOffset": 19748068,
@@ -1865,7 +1865,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/DynamicElement.cs",
     "metadataRepresentations": [
       {
-        "signature": "public GameObject SetDataModelReference(string prefabName, string poolName \u003d null) { }",
+        "signature": "public GameObject SetDataModelReference(string prefabName, string poolName = null) { }",
         "label": "DynamicElement_SetDataModelReference_12d54e4"
       }
     ],
@@ -1876,7 +1876,7 @@
     "output": "DynamicElement/DynamicElement_SetDataModelReference_12d54e4.cpp"
   },
   {
-    "className": "EndGameUI.\u003cLoopDoubleCoinsButtonVibrate\u003ed__63",
+    "className": "EndGameUI.<LoopDoubleCoinsButtonVibrate>d__63",
     "signature": "private override bool MoveNext() { }",
     "label": "EndGameUI__LoopDoubleCoinsButtonVibrate_d__63_MoveNext_12e67dc",
     "producerRva": 19818460,
@@ -1898,7 +1898,7 @@
     "output": "EndGameUI__LoopDoubleCoinsButtonVibrate_d__63/EndGameUI__LoopDoubleCoinsButtonVibrate_d__63_MoveNext_12e67dc.cpp"
   },
   {
-    "className": "EndGameUI.\u003cSlideInAnimation\u003ed__61",
+    "className": "EndGameUI.<SlideInAnimation>d__61",
     "signature": "private override bool MoveNext() { }",
     "label": "EndGameUI__SlideInAnimation_d__61_MoveNext_12e6910",
     "producerRva": 19818768,
@@ -2827,7 +2827,7 @@
   },
   {
     "className": "Enemy",
-    "signature": "public void Jump(float delay \u003d 0) { }",
+    "signature": "public void Jump(float delay = 0) { }",
     "label": "Enemy_Jump_12d5f40",
     "producerRva": 19750720,
     "fileOffset": 19750720,
@@ -2837,7 +2837,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/Enemy.cs",
     "metadataRepresentations": [
       {
-        "signature": "public void Jump(float delay \u003d 0) { }",
+        "signature": "public void Jump(float delay = 0) { }",
         "label": "Enemy_Jump_12d5f40"
       }
     ],
@@ -3069,7 +3069,7 @@
   },
   {
     "className": "GameCamera",
-    "signature": "public void SetMainMenuAniatmion(bool SnapToEnd \u003d false) { }",
+    "signature": "public void SetMainMenuAniatmion(bool SnapToEnd = false) { }",
     "label": "GameCamera_SetMainMenuAniatmion_12d7f20",
     "producerRva": 19758880,
     "fileOffset": 19758880,
@@ -3079,7 +3079,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameCamera.cs",
     "metadataRepresentations": [
       {
-        "signature": "public void SetMainMenuAniatmion(bool SnapToEnd \u003d false) { }",
+        "signature": "public void SetMainMenuAniatmion(bool SnapToEnd = false) { }",
         "label": "GameCamera_SetMainMenuAniatmion_12d7f20"
       }
     ],
@@ -3091,7 +3091,7 @@
   },
   {
     "className": "GameCamera",
-    "signature": "public void Shake(float magnitude, float duration, float freqMult, float delay \u003d 0) { }",
+    "signature": "public void Shake(float magnitude, float duration, float freqMult, float delay = 0) { }",
     "label": "GameCamera_Shake_12d364c",
     "producerRva": 19740236,
     "fileOffset": 19740236,
@@ -3101,7 +3101,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameCamera.cs",
     "metadataRepresentations": [
       {
-        "signature": "public void Shake(float magnitude, float duration, float freqMult, float delay \u003d 0) { }",
+        "signature": "public void Shake(float magnitude, float duration, float freqMult, float delay = 0) { }",
         "label": "GameCamera_Shake_12d364c"
       }
     ],
@@ -3200,8 +3200,8 @@
     "output": "GameCamera/GameCamera_UpdateWater_12d8070.cpp"
   },
   {
-    "className": "GameController.\u003c\u003ec",
-    "signature": "private static \u003c\u003ec() { }",
+    "className": "GameController.<>c",
+    "signature": "private static <>c() { }",
     "label": "GameController___c___c_12ac4d4",
     "producerRva": 19580116,
     "fileOffset": 19580116,
@@ -3211,7 +3211,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameController.cs",
     "metadataRepresentations": [
       {
-        "signature": "private static \u003c\u003ec() { }",
+        "signature": "private static <>c() { }",
         "label": "GameController___c___c_12ac4d4"
       }
     ],
@@ -3222,8 +3222,8 @@
     "output": "GameController___c/GameController___c___c_12ac4d4.cpp"
   },
   {
-    "className": "GameController.\u003c\u003ec",
-    "signature": "public \u003c\u003ec() { }",
+    "className": "GameController.<>c",
+    "signature": "public <>c() { }",
     "label": "GameController___c___c_12ac530",
     "producerRva": 19580208,
     "fileOffset": 19580208,
@@ -3233,7 +3233,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameController.cs",
     "metadataRepresentations": [
       {
-        "signature": "public \u003c\u003ec() { }",
+        "signature": "public <>c() { }",
         "label": "GameController___c___c_12ac530"
       }
     ],
@@ -3244,8 +3244,8 @@
     "output": "GameController___c/GameController___c___c_12ac530.cpp"
   },
   {
-    "className": "GameController.\u003c\u003ec",
-    "signature": "internal bool \u003cInitalizeAdjust\u003eb__236_0() { }",
+    "className": "GameController.<>c",
+    "signature": "internal bool <InitalizeAdjust>b__236_0() { }",
     "label": "GameController___c__InitalizeAdjust_b__236_0_12ac53c",
     "producerRva": 19580220,
     "fileOffset": 19580220,
@@ -3255,7 +3255,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameController.cs",
     "metadataRepresentations": [
       {
-        "signature": "internal bool \u003cInitalizeAdjust\u003eb__236_0() { }",
+        "signature": "internal bool <InitalizeAdjust>b__236_0() { }",
         "label": "GameController___c__InitalizeAdjust_b__236_0_12ac53c"
       }
     ],
@@ -3266,8 +3266,8 @@
     "output": "GameController___c/GameController___c__InitalizeAdjust_b__236_0_12ac53c.cpp"
   },
   {
-    "className": "GameController.\u003c\u003ec",
-    "signature": "internal bool \u003cInitalizeAdjust\u003eb__236_1() { }",
+    "className": "GameController.<>c",
+    "signature": "internal bool <InitalizeAdjust>b__236_1() { }",
     "label": "GameController___c__InitalizeAdjust_b__236_1_12ac5b8",
     "producerRva": 19580344,
     "fileOffset": 19580344,
@@ -3277,7 +3277,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameController.cs",
     "metadataRepresentations": [
       {
-        "signature": "internal bool \u003cInitalizeAdjust\u003eb__236_1() { }",
+        "signature": "internal bool <InitalizeAdjust>b__236_1() { }",
         "label": "GameController___c__InitalizeAdjust_b__236_1_12ac5b8"
       }
     ],
@@ -3288,8 +3288,8 @@
     "output": "GameController___c/GameController___c__InitalizeAdjust_b__236_1_12ac5b8.cpp"
   },
   {
-    "className": "GameController.\u003c\u003ec",
-    "signature": "internal void \u003cRefreshRcReachability\u003eb__43_0(bool success) { }",
+    "className": "GameController.<>c",
+    "signature": "internal void <RefreshRcReachability>b__43_0(bool success) { }",
     "label": "GameController___c__RefreshRcReachability_b__43_0_12ac538",
     "producerRva": 19580216,
     "fileOffset": 19580216,
@@ -3299,7 +3299,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameController.cs",
     "metadataRepresentations": [
       {
-        "signature": "internal void \u003cRefreshRcReachability\u003eb__43_0(bool success) { }",
+        "signature": "internal void <RefreshRcReachability>b__43_0(bool success) { }",
         "label": "GameController___c__RefreshRcReachability_b__43_0_12ac538"
       }
     ],
@@ -3310,8 +3310,8 @@
     "output": "GameController___c/GameController___c__RefreshRcReachability_b__43_0_12ac538.cpp"
   },
   {
-    "className": "GameController.\u003c\u003ec__DisplayClass46_0",
-    "signature": "public \u003c\u003ec__DisplayClass46_0() { }",
+    "className": "GameController.<>c__DisplayClass46_0",
+    "signature": "public <>c__DisplayClass46_0() { }",
     "label": "GameController___c__DisplayClass46_0___c__DisplayClass46_0_12ac63c",
     "producerRva": 19580476,
     "fileOffset": 19580476,
@@ -3321,7 +3321,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameController.cs",
     "metadataRepresentations": [
       {
-        "signature": "public \u003c\u003ec__DisplayClass46_0() { }",
+        "signature": "public <>c__DisplayClass46_0() { }",
         "label": "GameController___c__DisplayClass46_0___c__DisplayClass46_0_12ac63c"
       }
     ],
@@ -3332,8 +3332,8 @@
     "output": "GameController___c__DisplayClass46_0/GameController___c__DisplayClass46_0___c__DisplayClass46_0_12ac63c.cpp"
   },
   {
-    "className": "GameController.\u003c\u003ec__DisplayClass46_0",
-    "signature": "internal void \u003cPostGamePrivacyFlow\u003eb__0() { }",
+    "className": "GameController.<>c__DisplayClass46_0",
+    "signature": "internal void <PostGamePrivacyFlow>b__0() { }",
     "label": "GameController___c__DisplayClass46_0__PostGamePrivacyFlow_b__0_12ac644",
     "producerRva": 19580484,
     "fileOffset": 19580484,
@@ -3343,7 +3343,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameController.cs",
     "metadataRepresentations": [
       {
-        "signature": "internal void \u003cPostGamePrivacyFlow\u003eb__0() { }",
+        "signature": "internal void <PostGamePrivacyFlow>b__0() { }",
         "label": "GameController___c__DisplayClass46_0__PostGamePrivacyFlow_b__0_12ac644"
       }
     ],
@@ -3354,7 +3354,7 @@
     "output": "GameController___c__DisplayClass46_0/GameController___c__DisplayClass46_0__PostGamePrivacyFlow_b__0_12ac644.cpp"
   },
   {
-    "className": "GameController.\u003cInitalizeAdjust\u003ed__236",
+    "className": "GameController.<InitalizeAdjust>d__236",
     "signature": "private override bool MoveNext() { }",
     "label": "GameController__InitalizeAdjust_d__236_MoveNext_12ac738",
     "producerRva": 19580728,
@@ -3376,7 +3376,7 @@
     "output": "GameController__InitalizeAdjust_d__236/GameController__InitalizeAdjust_d__236_MoveNext_12ac738.cpp"
   },
   {
-    "className": "GameController.\u003cLogAdInitOutcome\u003ed__55",
+    "className": "GameController.<LogAdInitOutcome>d__55",
     "signature": "private override bool MoveNext() { }",
     "label": "GameController__LogAdInitOutcome_d__55_MoveNext_12acb4c",
     "producerRva": 19581772,
@@ -3398,7 +3398,7 @@
     "output": "GameController__LogAdInitOutcome_d__55/GameController__LogAdInitOutcome_d__55_MoveNext_12acb4c.cpp"
   },
   {
-    "className": "GameController.\u003cLogRetryResult\u003ed__227",
+    "className": "GameController.<LogRetryResult>d__227",
     "signature": "private override bool MoveNext() { }",
     "label": "GameController__LogRetryResult_d__227_MoveNext_12accac",
     "producerRva": 19582124,
@@ -3420,7 +3420,7 @@
     "output": "GameController__LogRetryResult_d__227/GameController__LogRetryResult_d__227_MoveNext_12accac.cpp"
   },
   {
-    "className": "GameController.\u003cLogStartupAdInitAttemptDeferred\u003ed__53",
+    "className": "GameController.<LogStartupAdInitAttemptDeferred>d__53",
     "signature": "private override bool MoveNext() { }",
     "label": "GameController__LogStartupAdInitAttemptDeferred_d__53_MoveNext_12ad224",
     "producerRva": 19583524,
@@ -3442,7 +3442,7 @@
     "output": "GameController__LogStartupAdInitAttemptDeferred_d__53/GameController__LogStartupAdInitAttemptDeferred_d__53_MoveNext_12ad224.cpp"
   },
   {
-    "className": "GameController.\u003cWaitAndWarmResources\u003ed__240",
+    "className": "GameController.<WaitAndWarmResources>d__240",
     "signature": "private override bool MoveNext() { }",
     "label": "GameController__WaitAndWarmResources_d__240_MoveNext_12ad7dc",
     "producerRva": 19584988,
@@ -4109,7 +4109,7 @@
   },
   {
     "className": "GameController",
-    "signature": "public void BoostPlayer(float distance, bool isMega \u003d false) { }",
+    "signature": "public void BoostPlayer(float distance, bool isMega = false) { }",
     "label": "GameController_BoostPlayer_1296e48",
     "producerRva": 19492424,
     "fileOffset": 19492424,
@@ -4119,7 +4119,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameController.cs",
     "metadataRepresentations": [
       {
-        "signature": "public void BoostPlayer(float distance, bool isMega \u003d false) { }",
+        "signature": "public void BoostPlayer(float distance, bool isMega = false) { }",
         "label": "GameController_BoostPlayer_1296e48"
       }
     ],
@@ -4747,7 +4747,7 @@
   },
   {
     "className": "GameController",
-    "signature": "private List\u003cImangiGameCenterScore\u003e GetFriendScoresInRange(float inMin, float inMax) { }",
+    "signature": "private List<ImangiGameCenterScore> GetFriendScoresInRange(float inMin, float inMax) { }",
     "label": "GameController_GetFriendScoresInRange_1296a90",
     "producerRva": 19491472,
     "fileOffset": 19491472,
@@ -4757,7 +4757,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameController.cs",
     "metadataRepresentations": [
       {
-        "signature": "private List\u003cImangiGameCenterScore\u003e GetFriendScoresInRange(float inMin, float inMax) { }",
+        "signature": "private List<ImangiGameCenterScore> GetFriendScoresInRange(float inMin, float inMax) { }",
         "label": "GameController_GetFriendScoresInRange_1296a90"
       }
     ],
@@ -4813,7 +4813,7 @@
   },
   {
     "className": "GameController",
-    "signature": "public void HandleBonusItemPickup(PathElement pathElement, PathDirection origin, bool isRootNode, int bailOut \u003d 3) { }",
+    "signature": "public void HandleBonusItemPickup(PathElement pathElement, PathDirection origin, bool isRootNode, int bailOut = 3) { }",
     "label": "GameController_HandleBonusItemPickup_1295388",
     "producerRva": 19485576,
     "fileOffset": 19485576,
@@ -4823,7 +4823,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameController.cs",
     "metadataRepresentations": [
       {
-        "signature": "public void HandleBonusItemPickup(PathElement pathElement, PathDirection origin, bool isRootNode, int bailOut \u003d 3) { }",
+        "signature": "public void HandleBonusItemPickup(PathElement pathElement, PathDirection origin, bool isRootNode, int bailOut = 3) { }",
         "label": "GameController_HandleBonusItemPickup_1295388"
       }
     ],
@@ -5121,7 +5121,7 @@
   },
   {
     "className": "GameController",
-    "signature": "private GUIParticle HintSprite(string name, Vector3 start, Vector3 motion, bool startAnimation \u003d true, bool ContainsText \u003d false, string text \u003d null) { }",
+    "signature": "private GUIParticle HintSprite(string name, Vector3 start, Vector3 motion, bool startAnimation = true, bool ContainsText = false, string text = null) { }",
     "label": "GameController_HintSprite_12971f8",
     "producerRva": 19493368,
     "fileOffset": 19493368,
@@ -5131,7 +5131,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameController.cs",
     "metadataRepresentations": [
       {
-        "signature": "private GUIParticle HintSprite(string name, Vector3 start, Vector3 motion, bool startAnimation \u003d true, bool ContainsText \u003d false, string text \u003d null) { }",
+        "signature": "private GUIParticle HintSprite(string name, Vector3 start, Vector3 motion, bool startAnimation = true, bool ContainsText = false, string text = null) { }",
         "label": "GameController_HintSprite_12971f8"
       }
     ],
@@ -5275,7 +5275,7 @@
   },
   {
     "className": "GameController",
-    "signature": "private void LoadedAchievements(List\u003cImangiGameCenterAchievement\u003e inAchievements) { }",
+    "signature": "private void LoadedAchievements(List<ImangiGameCenterAchievement> inAchievements) { }",
     "label": "GameController_LoadedAchievements_1287d8c",
     "producerRva": 19430796,
     "fileOffset": 19430796,
@@ -5285,7 +5285,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameController.cs",
     "metadataRepresentations": [
       {
-        "signature": "private void LoadedAchievements(List\u003cImangiGameCenterAchievement\u003e inAchievements) { }",
+        "signature": "private void LoadedAchievements(List<ImangiGameCenterAchievement> inAchievements) { }",
         "label": "GameController_LoadedAchievements_1287d8c"
       }
     ],
@@ -5539,7 +5539,7 @@
   },
   {
     "className": "GameController",
-    "signature": "public void OnDeeplinkFound(string url, string source \u003d \"unknown\") { }",
+    "signature": "public void OnDeeplinkFound(string url, string source = \"unknown\") { }",
     "label": "GameController_OnDeeplinkFound_129c3bc",
     "producerRva": 19514300,
     "fileOffset": 19514300,
@@ -5549,7 +5549,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameController.cs",
     "metadataRepresentations": [
       {
-        "signature": "public void OnDeeplinkFound(string url, string source \u003d \"unknown\") { }",
+        "signature": "public void OnDeeplinkFound(string url, string source = \"unknown\") { }",
         "label": "GameController_OnDeeplinkFound_129c3bc"
       }
     ],
@@ -6001,7 +6001,7 @@
   },
   {
     "className": "GameController",
-    "signature": "private bool ResurrectPlayer(bool isSaveMe \u003d false) { }",
+    "signature": "private bool ResurrectPlayer(bool isSaveMe = false) { }",
     "label": "GameController_ResurrectPlayer_1291adc",
     "producerRva": 19471068,
     "fileOffset": 19471068,
@@ -6011,7 +6011,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameController.cs",
     "metadataRepresentations": [
       {
-        "signature": "private bool ResurrectPlayer(bool isSaveMe \u003d false) { }",
+        "signature": "private bool ResurrectPlayer(bool isSaveMe = false) { }",
         "label": "GameController_ResurrectPlayer_1291adc"
       }
     ],
@@ -6023,7 +6023,7 @@
   },
   {
     "className": "GameController",
-    "signature": "private void RetrievedScoresFromGameCenter(List\u003cImangiGameCenterScore\u003e inScores) { }",
+    "signature": "private void RetrievedScoresFromGameCenter(List<ImangiGameCenterScore> inScores) { }",
     "label": "GameController_RetrievedScoresFromGameCenter_1287f3c",
     "producerRva": 19431228,
     "fileOffset": 19431228,
@@ -6033,7 +6033,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameController.cs",
     "metadataRepresentations": [
       {
-        "signature": "private void RetrievedScoresFromGameCenter(List\u003cImangiGameCenterScore\u003e inScores) { }",
+        "signature": "private void RetrievedScoresFromGameCenter(List<ImangiGameCenterScore> inScores) { }",
         "label": "GameController_RetrievedScoresFromGameCenter_1287f3c"
       }
     ],
@@ -7057,7 +7057,7 @@
   },
   {
     "className": "GameGUI",
-    "signature": "public GUIParticle NextFreeParticle(string name \u003d null) { }",
+    "signature": "public GUIParticle NextFreeParticle(string name = null) { }",
     "label": "GameGUI_NextFreeParticle_12e7f50",
     "producerRva": 19824464,
     "fileOffset": 19824464,
@@ -7067,7 +7067,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/GameGUI.cs",
     "metadataRepresentations": [
       {
-        "signature": "public GUIParticle NextFreeParticle(string name \u003d null) { }",
+        "signature": "public GUIParticle NextFreeParticle(string name = null) { }",
         "label": "GameGUI_NextFreeParticle_12e7f50"
       }
     ],
@@ -8641,7 +8641,7 @@
   },
   {
     "className": "PathElement",
-    "signature": "private bool DoesPieceTypeFitOnSide(PathType type, PathDirection direction, bool checkPieceTypes \u003d true) { }",
+    "signature": "private bool DoesPieceTypeFitOnSide(PathType type, PathDirection direction, bool checkPieceTypes = true) { }",
     "label": "PathElement_DoesPieceTypeFitOnSide_130c044",
     "producerRva": 19972164,
     "fileOffset": 19972164,
@@ -8651,7 +8651,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/PathElement.cs",
     "metadataRepresentations": [
       {
-        "signature": "private bool DoesPieceTypeFitOnSide(PathType type, PathDirection direction, bool checkPieceTypes \u003d true) { }",
+        "signature": "private bool DoesPieceTypeFitOnSide(PathType type, PathDirection direction, bool checkPieceTypes = true) { }",
         "label": "PathElement_DoesPieceTypeFitOnSide_130c044"
       }
     ],
@@ -8729,7 +8729,7 @@
   },
   {
     "className": "PathElement",
-    "signature": "public PathElement GetNearestPathElement(Vector2 point, PathDirection origin, bool isRootNode, int maxTurns \u003d 3) { }",
+    "signature": "public PathElement GetNearestPathElement(Vector2 point, PathDirection origin, bool isRootNode, int maxTurns = 3) { }",
     "label": "PathElement_GetNearestPathElement_1310488",
     "producerRva": 19989640,
     "fileOffset": 19989640,
@@ -8739,7 +8739,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/PathElement.cs",
     "metadataRepresentations": [
       {
-        "signature": "public PathElement GetNearestPathElement(Vector2 point, PathDirection origin, bool isRootNode, int maxTurns \u003d 3) { }",
+        "signature": "public PathElement GetNearestPathElement(Vector2 point, PathDirection origin, bool isRootNode, int maxTurns = 3) { }",
         "label": "PathElement_GetNearestPathElement_1310488"
       }
     ],
@@ -8817,7 +8817,7 @@
   },
   {
     "className": "PathElement",
-    "signature": "public PathElement GetPathElementIfPointOverTurn(Vector3 point, float radius, PathDirection origin, bool isRootNode, int bailOut \u003d 3) { }",
+    "signature": "public PathElement GetPathElementIfPointOverTurn(Vector3 point, float radius, PathDirection origin, bool isRootNode, int bailOut = 3) { }",
     "label": "PathElement_GetPathElementIfPointOverTurn_131075c",
     "producerRva": 19990364,
     "fileOffset": 19990364,
@@ -8827,7 +8827,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/PathElement.cs",
     "metadataRepresentations": [
       {
-        "signature": "public PathElement GetPathElementIfPointOverTurn(Vector3 point, float radius, PathDirection origin, bool isRootNode, int bailOut \u003d 3) { }",
+        "signature": "public PathElement GetPathElementIfPointOverTurn(Vector3 point, float radius, PathDirection origin, bool isRootNode, int bailOut = 3) { }",
         "label": "PathElement_GetPathElementIfPointOverTurn_131075c"
       }
     ],
@@ -8839,7 +8839,7 @@
   },
   {
     "className": "PathElement",
-    "signature": "public PathElement GetPathElementIfPointOverTurn2D(Vector2 point, float radius, PathDirection origin, bool isRootNode, int bailOut \u003d 3) { }",
+    "signature": "public PathElement GetPathElementIfPointOverTurn2D(Vector2 point, float radius, PathDirection origin, bool isRootNode, int bailOut = 3) { }",
     "label": "PathElement_GetPathElementIfPointOverTurn2D_131076c",
     "producerRva": 19990380,
     "fileOffset": 19990380,
@@ -8849,7 +8849,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/PathElement.cs",
     "metadataRepresentations": [
       {
-        "signature": "public PathElement GetPathElementIfPointOverTurn2D(Vector2 point, float radius, PathDirection origin, bool isRootNode, int bailOut \u003d 3) { }",
+        "signature": "public PathElement GetPathElementIfPointOverTurn2D(Vector2 point, float radius, PathDirection origin, bool isRootNode, int bailOut = 3) { }",
         "label": "PathElement_GetPathElementIfPointOverTurn2D_131076c"
       }
     ],
@@ -9081,7 +9081,7 @@
   },
   {
     "className": "PathElement",
-    "signature": "public static GameObject Instantiate(PathType type, PathLevel level \u003d 2) { }",
+    "signature": "public static GameObject Instantiate(PathType type, PathLevel level = 2) { }",
     "label": "PathElement_Instantiate_130a21c",
     "producerRva": 19964444,
     "fileOffset": 19964444,
@@ -9091,7 +9091,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/PathElement.cs",
     "metadataRepresentations": [
       {
-        "signature": "public static GameObject Instantiate(PathType type, PathLevel level \u003d 2) { }",
+        "signature": "public static GameObject Instantiate(PathType type, PathLevel level = 2) { }",
         "label": "PathElement_Instantiate_130a21c"
       }
     ],
@@ -9103,7 +9103,7 @@
   },
   {
     "className": "PathElement",
-    "signature": "public static PathElement InstantiatePathElement(PathType type, PathLevel level \u003d 2) { }",
+    "signature": "public static PathElement InstantiatePathElement(PathType type, PathLevel level = 2) { }",
     "label": "PathElement_InstantiatePathElement_130a194",
     "producerRva": 19964308,
     "fileOffset": 19964308,
@@ -9113,7 +9113,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/PathElement.cs",
     "metadataRepresentations": [
       {
-        "signature": "public static PathElement InstantiatePathElement(PathType type, PathLevel level \u003d 2) { }",
+        "signature": "public static PathElement InstantiatePathElement(PathType type, PathLevel level = 2) { }",
         "label": "PathElement_InstantiatePathElement_130a194"
       }
     ],
@@ -9609,7 +9609,7 @@
   },
   {
     "className": "PathElement",
-    "signature": "public void RecursiveVisibility(bool activeFlag, PathDirection origin, bool isRootNode, int turnCount \u003d 0) { }",
+    "signature": "public void RecursiveVisibility(bool activeFlag, PathDirection origin, bool isRootNode, int turnCount = 0) { }",
     "label": "PathElement_RecursiveVisibility_1311120",
     "producerRva": 19992864,
     "fileOffset": 19992864,
@@ -9619,7 +9619,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/PathElement.cs",
     "metadataRepresentations": [
       {
-        "signature": "public void RecursiveVisibility(bool activeFlag, PathDirection origin, bool isRootNode, int turnCount \u003d 0) { }",
+        "signature": "public void RecursiveVisibility(bool activeFlag, PathDirection origin, bool isRootNode, int turnCount = 0) { }",
         "label": "PathElement_RecursiveVisibility_1311120"
       }
     ],
@@ -9973,7 +9973,7 @@
   },
   {
     "className": "PlayerConfigData",
-    "signature": "public virtual bool FromDict(Dictionary\u003cString, Object\u003e inDict) { }",
+    "signature": "public virtual bool FromDict(Dictionary<String, Object> inDict) { }",
     "label": "PlayerConfigData_FromDict_12c8254",
     "producerRva": 19694164,
     "fileOffset": 19694164,
@@ -9983,7 +9983,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/PlayerConfigData.cs",
     "metadataRepresentations": [
       {
-        "signature": "public virtual bool FromDict(Dictionary\u003cString, Object\u003e inDict) { }",
+        "signature": "public virtual bool FromDict(Dictionary<String, Object> inDict) { }",
         "label": "PlayerConfigData_FromDict_12c8254"
       }
     ],
@@ -9995,7 +9995,7 @@
   },
   {
     "className": "PlayerConfigData",
-    "signature": "public virtual Dictionary\u003cString, Object\u003e ToDict() { }",
+    "signature": "public virtual Dictionary<String, Object> ToDict() { }",
     "label": "PlayerConfigData_ToDict_12c803c",
     "producerRva": 19693628,
     "fileOffset": 19693628,
@@ -10005,7 +10005,7 @@
     "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/PlayerConfigData.cs",
     "metadataRepresentations": [
       {
-        "signature": "public virtual Dictionary\u003cString, Object\u003e ToDict() { }",
+        "signature": "public virtual Dictionary<String, Object> ToDict() { }",
         "label": "PlayerConfigData_ToDict_12c803c"
       }
     ],
@@ -10510,5 +10510,203 @@
     "allMethodBytesVerified": true,
     "decompiled": true,
     "output": "TouchInput/TouchInput_Update_12d3998.cpp"
+  },
+  {
+    "className": "Region2D",
+    "signature": "public Region2D() { }",
+    "label": "Region2D_Region2D_131ee68",
+    "producerRva": 20049512,
+    "fileOffset": 20049512,
+    "virtualAddress": 20065896,
+    "length": 124,
+    "coreGameplay": true,
+    "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/Region2D.cs",
+    "metadataRepresentations": [
+      {
+        "signature": "public Region2D() { }",
+        "label": "Region2D_Region2D_131ee68"
+      }
+    ],
+    "ghidraAddress": "01422e68",
+    "instructionPrefixVerified": true,
+    "allMethodBytesVerified": true,
+    "decompiled": true,
+    "output": "Region2D/Region2D_Region2D_131ee68.cpp"
+  },
+  {
+    "className": "Region2D",
+    "signature": "public void AddPoint(float x, float y) { }",
+    "label": "Region2D_AddPoint_131e754",
+    "producerRva": 20047700,
+    "fileOffset": 20047700,
+    "virtualAddress": 20064084,
+    "length": 4,
+    "coreGameplay": true,
+    "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/Region2D.cs",
+    "metadataRepresentations": [
+      {
+        "signature": "public void AddPoint(float x, float y) { }",
+        "label": "Region2D_AddPoint_131e754"
+      }
+    ],
+    "ghidraAddress": "01422754",
+    "instructionPrefixVerified": true,
+    "allMethodBytesVerified": true,
+    "decompiled": true,
+    "output": "Region2D/Region2D_AddPoint_131e754.cpp"
+  },
+  {
+    "className": "Region2D",
+    "signature": "public void AddPoint(Vector2 p) { }",
+    "label": "Region2D_AddPoint_131e758",
+    "producerRva": 20047704,
+    "fileOffset": 20047704,
+    "virtualAddress": 20064088,
+    "length": 184,
+    "coreGameplay": true,
+    "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/Region2D.cs",
+    "metadataRepresentations": [
+      {
+        "signature": "public void AddPoint(Vector2 p) { }",
+        "label": "Region2D_AddPoint_131e758"
+      }
+    ],
+    "ghidraAddress": "01422758",
+    "instructionPrefixVerified": true,
+    "allMethodBytesVerified": true,
+    "decompiled": true,
+    "output": "Region2D/Region2D_AddPoint_131e758.cpp"
+  },
+  {
+    "className": "Region2D",
+    "signature": "public void Clear() { }",
+    "label": "Region2D_Clear_131e810",
+    "producerRva": 20047888,
+    "fileOffset": 20047888,
+    "virtualAddress": 20064272,
+    "length": 80,
+    "coreGameplay": true,
+    "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/Region2D.cs",
+    "metadataRepresentations": [
+      {
+        "signature": "public void Clear() { }",
+        "label": "Region2D_Clear_131e810"
+      }
+    ],
+    "ghidraAddress": "01422810",
+    "instructionPrefixVerified": true,
+    "allMethodBytesVerified": true,
+    "decompiled": true,
+    "output": "Region2D/Region2D_Clear_131e810.cpp"
+  },
+  {
+    "className": "Region2D",
+    "signature": "public bool DoesLineSegementIntersect(Vector2 p1, Vector2 p2) { }",
+    "label": "Region2D_DoesLineSegementIntersect_131ed58",
+    "producerRva": 20049240,
+    "fileOffset": 20049240,
+    "virtualAddress": 20065624,
+    "length": 272,
+    "coreGameplay": true,
+    "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/Region2D.cs",
+    "metadataRepresentations": [
+      {
+        "signature": "public bool DoesLineSegementIntersect(Vector2 p1, Vector2 p2) { }",
+        "label": "Region2D_DoesLineSegementIntersect_131ed58"
+      }
+    ],
+    "ghidraAddress": "01422d58",
+    "instructionPrefixVerified": true,
+    "allMethodBytesVerified": true,
+    "decompiled": true,
+    "output": "Region2D/Region2D_DoesLineSegementIntersect_131ed58.cpp"
+  },
+  {
+    "className": "Region2D",
+    "signature": "private void DrawLine(Vector2 lastPoint, Vector2 nextPoint) { }",
+    "label": "Region2D_DrawLine_131e860",
+    "producerRva": 20047968,
+    "fileOffset": 20047968,
+    "virtualAddress": 20064352,
+    "length": 168,
+    "coreGameplay": true,
+    "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/Region2D.cs",
+    "metadataRepresentations": [
+      {
+        "signature": "private void DrawLine(Vector2 lastPoint, Vector2 nextPoint) { }",
+        "label": "Region2D_DrawLine_131e860"
+      }
+    ],
+    "ghidraAddress": "01422860",
+    "instructionPrefixVerified": true,
+    "allMethodBytesVerified": true,
+    "decompiled": true,
+    "output": "Region2D/Region2D_DrawLine_131e860.cpp"
+  },
+  {
+    "className": "Region2D",
+    "signature": "public bool IsPointInside(Vector3 point) { }",
+    "label": "Region2D_IsPointInside_131eb60",
+    "producerRva": 20048736,
+    "fileOffset": 20048736,
+    "virtualAddress": 20065120,
+    "length": 8,
+    "coreGameplay": true,
+    "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/Region2D.cs",
+    "metadataRepresentations": [
+      {
+        "signature": "public bool IsPointInside(Vector3 point) { }",
+        "label": "Region2D_IsPointInside_131eb60"
+      }
+    ],
+    "ghidraAddress": "01422b60",
+    "instructionPrefixVerified": true,
+    "allMethodBytesVerified": true,
+    "decompiled": true,
+    "output": "Region2D/Region2D_IsPointInside_131eb60.cpp"
+  },
+  {
+    "className": "Region2D",
+    "signature": "public bool IsPointInside(Vector2 worldPoint) { }",
+    "label": "Region2D_IsPointInside_131eb68",
+    "producerRva": 20048744,
+    "fileOffset": 20048744,
+    "virtualAddress": 20065128,
+    "length": 496,
+    "coreGameplay": true,
+    "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/Region2D.cs",
+    "metadataRepresentations": [
+      {
+        "signature": "public bool IsPointInside(Vector2 worldPoint) { }",
+        "label": "Region2D_IsPointInside_131eb68"
+      }
+    ],
+    "ghidraAddress": "01422b68",
+    "instructionPrefixVerified": true,
+    "allMethodBytesVerified": true,
+    "decompiled": true,
+    "output": "Region2D/Region2D_IsPointInside_131eb68.cpp"
+  },
+  {
+    "className": "Region2D",
+    "signature": "private void OnDrawGizmos() { }",
+    "label": "Region2D_OnDrawGizmos_131e908",
+    "producerRva": 20048136,
+    "fileOffset": 20048136,
+    "virtualAddress": 20064520,
+    "length": 600,
+    "coreGameplay": true,
+    "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/Region2D.cs",
+    "metadataRepresentations": [
+      {
+        "signature": "private void OnDrawGizmos() { }",
+        "label": "Region2D_OnDrawGizmos_131e908"
+      }
+    ],
+    "ghidraAddress": "01422908",
+    "instructionPrefixVerified": true,
+    "allMethodBytesVerified": true,
+    "decompiled": true,
+    "output": "Region2D/Region2D_OnDrawGizmos_131e908.cpp"
   }
 ]

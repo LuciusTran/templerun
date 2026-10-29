@@ -1,0 +1,132 @@
+{
+  "loaderAddressDelta": 1048576,
+  "policy": "Ghidra address is converted using the delta independently observed for every metadata-bound method; ELF VA is mapped through PT_LOAD before file access.",
+  "records": [
+    {
+      "ghidraAddress": "0x7a3bb4",
+      "elfVirtualAddress": "0x6a3bb4",
+      "fileOffset": 6962100,
+      "bytesHex": "4260e53b3333b33eacc527b71f852b3f",
+      "float32": [
+        0.007000000216066837,
+        0.3499999940395355,
+        -9.999999747378752e-06,
+        0.6700000166893005
+      ],
+      "int32": [
+        1004888130,
+        1051931443,
+        -1222130260,
+        1059816735
+      ]
+    },
+    {
+      "ghidraAddress": "0x7a3d3c",
+      "elfVirtualAddress": "0x6a3d3c",
+      "fileOffset": 6962492,
+      "bytesHex": "0ad7a33b8988883c8096184acdcccccc",
+      "float32": [
+        0.004999999888241291,
+        0.01666666753590107,
+        2500000.0,
+        -107374184.0
+      ],
+      "int32": [
+        1000593162,
+        1015580809,
+        1243125376,
+        -858993459
+      ]
+    },
+    {
+      "ghidraAddress": "0x7a3d40",
+      "elfVirtualAddress": "0x6a3d40",
+      "fileOffset": 6962496,
+      "bytesHex": "8988883c8096184acdcccccc9ec9ff7e",
+      "float32": [
+        0.01666666753590107,
+        2500000.0,
+        -107374184.0,
+        1.6999999760721821e+38
+      ],
+      "int32": [
+        1015580809,
+        1243125376,
+        -858993459,
+        2130692510
+      ]
+    },
+    {
+      "ghidraAddress": "0x7a3c80",
+      "elfVirtualAddress": "0x6a3c80",
+      "fileOffset": 6962304,
+      "bytesHex": "6666263f8fc2753f0080bb4466666641",
+      "float32": [
+        0.6499999761581421,
+        0.9599999785423279,
+        1500.0,
+        14.399999618530273
+      ],
+      "int32": [
+        1059481190,
+        1064682127,
+        1153138688,
+        1097229926
+      ]
+    },
+    {
+      "ghidraAddress": "0x7a47d0",
+      "elfVirtualAddress": "0x6a47d0",
+      "fileOffset": 6965200,
+      "bytesHex": "03000000040000000100000002000000",
+      "float32": [
+        4.203895392974451e-45,
+        5.605193857299268e-45,
+        1.401298464324817e-45,
+        2.802596928649634e-45
+      ],
+      "int32": [
+        3,
+        4,
+        1,
+        2
+      ]
+    },
+    {
+      "ghidraAddress": "0x7a3a10",
+      "elfVirtualAddress": "0x6a3a10",
+      "fileOffset": 6961680,
+      "bytesHex": "0000e0406666263f6c9adf3feb621941",
+      "float32": [
+        7.0,
+        0.6499999761581421,
+        1.7469000816345215,
+        9.586649894714355
+      ],
+      "int32": [
+        1088421888,
+        1059481190,
+        1071618668,
+        1092182763
+      ]
+    },
+    {
+      "ghidraAddress": "0x7a3cac",
+      "elfVirtualAddress": "0x6a3cac",
+      "fileOffset": 6962348,
+      "bytesHex": "8988883d895ed6be008004449a9984c2",
+      "float32": [
+        0.06666667014360428,
+        -0.4186899960041046,
+        530.0,
+        -66.30000305175781
+      ],
+      "int32": [
+        1032358025,
+        -1093247351,
+        1141145600,
+        -1031497318
+      ]
+    }
+  ]
+}

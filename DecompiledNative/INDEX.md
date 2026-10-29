@@ -1,6 +1,6 @@
-# Temple Run native gameplay references
+# Temple Run native references
 
-Each file is generated from the supplied ARM64 library. Original method bytes were checked against Ghidra loader mappings. See `Evidence/native-decompilation.json` for coverage and limitations.
+Generated native pseudocode with original method bytes checked against the APK library. See `Evidence/native-decompilation.json`.
 
 | Class | Signature | File offset | Decompiled file |
 |---|---|---|---|
@@ -476,3 +476,12 @@ Each file is generated from the supplied ARM64 library. Original method bytes we
 | TouchInput | `public void TouchEnded(Vector2 touchPoint) { }` | `0x12d39f8` | [TouchInput_TouchEnded_12d39f8](TouchInput/TouchInput_TouchEnded_12d39f8.cpp) |
 | TouchInput | `public void TouchMoved(Vector2 touchPoint) { }` | `0x12d3aa0` | [TouchInput_TouchMoved_12d3aa0](TouchInput/TouchInput_TouchMoved_12d3aa0.cpp) |
 | TouchInput | `public virtual void Update() { }` | `0x12d3998` | [TouchInput_Update_12d3998](TouchInput/TouchInput_Update_12d3998.cpp) |
+| Region2D | `public Region2D() { }` | `0x131ee68` | [Region2D_Region2D_131ee68](Region2D/Region2D_Region2D_131ee68.cpp) |
+| Region2D | `public void AddPoint(float x, float y) { }` | `0x131e754` | [Region2D_AddPoint_131e754](Region2D/Region2D_AddPoint_131e754.cpp) |
+| Region2D | `public void AddPoint(Vector2 p) { }` | `0x131e758` | [Region2D_AddPoint_131e758](Region2D/Region2D_AddPoint_131e758.cpp) |
+| Region2D | `public void Clear() { }` | `0x131e810` | [Region2D_Clear_131e810](Region2D/Region2D_Clear_131e810.cpp) |
+| Region2D | `public bool DoesLineSegementIntersect(Vector2 p1, Vector2 p2) { }` | `0x131ed58` | [Region2D_DoesLineSegementIntersect_131ed58](Region2D/Region2D_DoesLineSegementIntersect_131ed58.cpp) |
+| Region2D | `private void DrawLine(Vector2 lastPoint, Vector2 nextPoint) { }` | `0x131e860` | [Region2D_DrawLine_131e860](Region2D/Region2D_DrawLine_131e860.cpp) |
+| Region2D | `public bool IsPointInside(Vector3 point) { }` | `0x131eb60` | [Region2D_IsPointInside_131eb60](Region2D/Region2D_IsPointInside_131eb60.cpp) |
+| Region2D | `public bool IsPointInside(Vector2 worldPoint) { }` | `0x131eb68` | [Region2D_IsPointInside_131eb68](Region2D/Region2D_IsPointInside_131eb68.cpp) |
+| Region2D | `private void OnDrawGizmos() { }` | `0x131e908` | [Region2D_OnDrawGizmos_131e908](Region2D/Region2D_OnDrawGizmos_131e908.cpp) |
