@@ -2,13 +2,14 @@
   "tool": "Ghidra 12.1.4 targeted headless decompilation",
   "automaticWholeProgramAnalysis": false,
   "nativeBinarySha256": "40d634295843ceee9c019e6c862bed7fb2c3636d2b297f1d1eb6cc5818188d3d",
-  "selectedBodies": 481,
-  "decompiledBodies": 481,
+  "selectedBodies": 482,
+  "decompiledBodies": 482,
   "allSelectedMethodBytesVerified": true,
   "limitations": [
     "Native output is C/C++ pseudocode, not original C# source or a compilable C++ application.",
     "Optimized/inlined callees, runtime helpers, indirect calls and string/type registrations may remain unresolved.",
     "Annotation field layouts omit inherited members; unnamed offsets must be checked against metadata.",
     "A decompiled body does not establish gameplay equivalence or a working Unity flow."
-  ]
+  ],
+  "followUp": "RecordManager.GetPriceForUpgradeType was decompiled in a read-only Ghidra pass to verify utility price-list indices."
 }

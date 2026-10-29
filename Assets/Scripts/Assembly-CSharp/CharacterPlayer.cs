@@ -137,7 +137,7 @@ public partial class CharacterPlayer : CommonPlayer
 
 	public float VelocityBeforeBoost;
 
-	public float BoostSlowdownDistance;
+	public float BoostSlowdownDistance = 50f;
 
 	public float TimeSinceLastPowerup;
 
@@ -193,7 +193,7 @@ public partial class CharacterPlayer : CommonPlayer
 	public void SetGroundHeight(float groundHeight)
 	{
         // Native evidence: DecompiledNative/CharacterPlayer/CharacterPlayer_SetGroundHeight_12bde90.cpp
-        IsGroundHeightChangeHigher = groundHeight > GroundHeight; GroundHeight = groundHeight;
+        if (groundHeight > GroundHeight) IsGroundHeightChangeHigher = true; GroundHeight = groundHeight;
 	}
 
 	public float GetRunVelocity()
@@ -264,6 +264,7 @@ public partial class CharacterPlayer : CommonPlayer
         IsSliding = true; TimeSinceSlideStart = 0f;
         SlideDuration = Mathf.Min(GetRunVelocity() * .007f, .75f);
         PlayAnimation("Slide Start");
+        PlayAnimation("Slide Loop", true);
         return true;
 	}
 
@@ -397,7 +398,11 @@ public partial class CharacterPlayer : CommonPlayer
 
 	public override Bounds GetWorldSpaceBounds()
 	{
-		return default;
+        // Native evidence: DecompiledNative/CharacterPlayer/CharacterPlayer_GetWorldSpaceBounds_12bea08.cpp
+        Vector3 position = transform.position;
+        Bounds bounds = new Bounds();
+        bounds.SetMinMax(position + new Vector3(-1.7469f, -.16485f, -1.7469f), position + new Vector3(1.7469f, 9.58665f, 1.7469f));
+        return bounds;
 	}
 
 	public void ApplyPlayerTexture()

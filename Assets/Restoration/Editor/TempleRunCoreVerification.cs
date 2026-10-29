@@ -11,12 +11,14 @@ public static class TempleRunCoreVerification
         public bool passed;
         public string unityVersion;
         public int nativeGoldenCases;
+        public int reviewedLogicChecks;
         public bool originalGroundRegionVerified;
     }
 
     public static void Run()
     {
         int cases = TempleRunGoldenChecks.Run();
+        int reviewed = TempleRunLogicAuditChecks.Run();
         var source = Resources.Load<GameObject>("prefabs/temple/walls/templeStraightVert_prefab");
         if (!source) throw new InvalidOperationException("Missing original temple road prefab.");
         var road = UnityEngine.Object.Instantiate(source, Vector3.zero, Quaternion.identity);
@@ -30,7 +32,7 @@ public static class TempleRunCoreVerification
                 throw new InvalidOperationException("Transformed region containment failed.");
         }
         finally { UnityEngine.Object.DestroyImmediate(road); }
-        var report = new Report { passed = true, unityVersion = Application.unityVersion, nativeGoldenCases = cases, originalGroundRegionVerified = true };
+        var report = new Report { passed = true, unityVersion = Application.unityVersion, nativeGoldenCases = cases, reviewedLogicChecks = reviewed, originalGroundRegionVerified = true };
         Directory.CreateDirectory("Evidence");
         File.WriteAllText("Evidence/unity-native-core-verification.json", JsonUtility.ToJson(report, true));
         Debug.Log("TEMPLE_RUN_NATIVE_CORE_PASS: " + cases + " native golden cases and original transformed ground region.");

@@ -485,3 +485,7 @@ Generated native pseudocode with original method bytes checked against the APK l
 | Region2D | `public bool IsPointInside(Vector3 point) { }` | `0x131eb60` | [Region2D_IsPointInside_131eb60](Region2D/Region2D_IsPointInside_131eb60.cpp) |
 | Region2D | `public bool IsPointInside(Vector2 worldPoint) { }` | `0x131eb68` | [Region2D_IsPointInside_131eb68](Region2D/Region2D_IsPointInside_131eb68.cpp) |
 | Region2D | `private void OnDrawGizmos() { }` | `0x131e908` | [Region2D_OnDrawGizmos_131e908](Region2D/Region2D_OnDrawGizmos_131e908.cpp) |
+
+## Store price audit
+
+- [RecordManager.GetPriceForUpgradeType](RecordManager/RecordManager_GetPriceForUpgradeType_12b3654.cpp): targeted read-only Ghidra follow-up; all method bytes verified.

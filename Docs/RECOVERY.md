@@ -8,8 +8,8 @@ The supplied XAPK contains the base APK and the ARM64 split. The original build 
 |---|---|---|
 | Unity serialized data in the APK | Exported scenes, prefabs, meshes, textures, animation, audio and configuration | AssetRipper's C# declarations initially contain stub bodies. Exporting assets does not restore gameplay. |
 | IL2CPP metadata and ARM64 library | Class layouts, signatures and native method coordinates | Cpp2IL's `diffable-cs` output is metadata, not original C# implementations. |
-| Targeted Ghidra decompilation | 481 native pseudocode bodies with byte verification | Optimized code, runtime helpers, inherited fields and indirect calls can remain unresolved. |
-| Reviewed native bodies and original configuration | 71 restored exported C# method bodies and additional recovered frame helpers | Each restored body has native references and its recovery category in `Evidence/csharp-restoration-map.json`. |
+| Targeted Ghidra decompilation | 482 native pseudocode bodies with byte verification | Optimized code, runtime helpers, inherited fields and indirect calls can remain unresolved. |
+| Reviewed native bodies and original configuration | 73 restored exported C# method bodies and additional recovered frame helpers | Each restored body has native references and its recovery category in `Evidence/csharp-restoration-map.json`. |
 | Original gameplay scene | Character model/texture pairs, character indices and water geometry | Original GUIDs are retained; materials use documented built-in shader replacements. |
 | Authored Unity integration | Playable scene, UI, course scheduler, input and local persistence | This supplies the development flow around the recovered rules; it is not a complete translation of the original game controller. |
 
@@ -19,11 +19,11 @@ The full original AssetRipper export, APKs, ELF library, Cpp2IL outputs for Unit
 
 ## Verified behavior
 
-`Scripts/verify_native_logic.py` executes selected original ARM64 method bytes using Unicorn and produces 876 golden cases across 14 methods. These cover scoring, coin thresholds, boost speed, slam-down, coin classification and path/turn predicates. The initialized IL2CPP metadata cache is supplied by the harness; metadata resolution itself is outside that verification. Original read-only switch tables are loaded from the ELF. The report preserves these limits.
+`Scripts/verify_native_logic.py` executes selected original ARM64 method bytes using Unicorn and produces 927 golden cases across 19 methods. These cover scoring, coin thresholds, boost speed, slam-down, coin classification and path/turn predicates. Boost checks also execute the original invincibility/texture helpers with empty renderer arrays. The initialized IL2CPP metadata cache is supplied by the harness; metadata resolution itself is outside that verification. Original read-only switch tables are loaded from the ELF. The report preserves these limits.
 
 `TempleRunGoldenChecks` compares the same vectors with C# outputs inside Unity. Separate editor checks exercise the extracted polygon ground, including transformed geometry. These comparisons establish the tested rules, not equivalence of every reconstructed function.
 
-The final Linux player passed 57 integration checks both without graphics and with OpenGL on Xvfb/llvmpipe. They exercise normal Unity updates, original character animation, jumping, landing, sliding, pickups, save/continue, purchases, character textures, shared ownership of prefab aliases, stumble/death/revive, bounded course retention and all three biome heights. Corner-check counts can change with the generated route. The graphical capture also checks that a textured character renderer lies in the camera frustum.
+The final Linux player passed 64 headless and 66 graphical integration checks with OpenGL on Xvfb/llvmpipe. They exercise normal Unity updates, original character animation, jumping, landing, sliding, pickups, save/continue, purchases, character textures, shared ownership of prefab aliases, stumble/death/revive, bounded course retention and all three biome heights. Corner-check counts can change with the generated route. The graphical capture also checks that a textured character renderer lies in the camera frustum.
 
 The playable scene has no unresolved MonoScript reference reported by REA. Three unresolved settings references remain in the original exported advertising assets; the playable flow does not load those SDK settings. The original reference scene and many unused exported scripts still contain stubs. The inspector's stub list is heuristic and is not a count of missing gameplay features.
 

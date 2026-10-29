@@ -4,6 +4,11 @@ public partial class TempleRunFlow
 {
     public GameObject WaterSurface => waterPlane;
     public int TotalGeneratedTiles => generatedCount;
+    public void TestSetDistance(float value)
+    {
+        if (!TestMode) throw new System.InvalidOperationException("Distance fixture requires test mode.");
+        Distance = value;
+    }
     public bool TestTurnReady()
     {
         var tile = tiles[tileIndex];

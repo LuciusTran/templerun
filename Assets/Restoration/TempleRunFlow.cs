@@ -154,7 +154,9 @@ public partial class TempleRunFlow : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.E)) RequestTurn(1);
         if (Input.GetKeyDown(KeyCode.F)) UseWings();
         HandleGestures();
-        Tick(Mathf.Min(Time.deltaTime, 1f / 15f));
+        // Native timers/forces use smoothDeltaTime. Only movement displacement
+        // is capped to 1/15 second inside MovingObject.RecoveredIntegrate.
+        Tick(Time.smoothDeltaTime);
     }
 
     private void HandleGestures()

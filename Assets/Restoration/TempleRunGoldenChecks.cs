@@ -4,6 +4,7 @@ using UnityEngine;
 /// <summary>Compare C# behavior against outputs captured from original ARM64 execution.</summary>
 public static class TempleRunGoldenChecks
 {
+    public const int RequiredCaseCount = 927;
     [Serializable] private class Vector { public string name; public int[] before, after; }
     [Serializable] private class Report { public bool passed; public int caseCount; public Vector[] vectors; }
 
@@ -38,6 +39,28 @@ public static class TempleRunGoldenChecks
                     case "SlamDown":
                         player.IsJumping = a[0] != 0; player.IsFalling = a[1] != 0; player.Velocity = new Vector3(0, a[2], 0);
                         bool slammed = player.SlamDown(); actual = new[] { slammed ? 1 : 0, (int)player.Velocity.y }; break;
+                    case "SetGroundHeight":
+                        player.GroundHeight = a[0]; player.IsGroundHeightChangeHigher = a[2] != 0;
+                        player.SetGroundHeight(a[1]);
+                        actual = new[] { (int)player.GroundHeight, player.IsGroundHeightChangeHigher ? 1 : 0 }; break;
+                    case "GetRunVelocity":
+                        player.Velocity = new Vector3(a[0], a[1], a[2]);
+                        actual = new[] { (int)player.GetRunVelocity() }; break;
+                    case "StartAngelWings":
+                        player.AngelWingsCount = a[2]; player.AngelWingsRechargeTimeLeft = a[3];
+                        player.StartAngelWings(a[0], a[1] != 0);
+                        actual = new[] { player.HasAngelWings ? 1 : 0, player.AreWingsPermanent ? 1 : 0,
+                            (int)player.AngelWingsTimeLeft, (int)player.AngelWingsRechargeTimeLeft, player.AngelWingsCount }; break;
+                    case "StartVacuum":
+                        player.TimeSinceLastPowerup = 9; player.StartVacuum(a[0]);
+                        actual = new[] { player.HasVacuum ? 1 : 0, (int)player.VacuumTimeLeft, (int)player.TimeSinceLastPowerup }; break;
+                    case "StartBoost":
+                        player.HasBoost = a[2] != 0; player.HasInvincibility = false; player.InvincibilityTimeLeft = 7;
+                        player.VelocityBeforeBoost = 123; player.MaxRunVelocity = 210;
+                        player.StumbleKillTimer = 3; player.Velocity = new Vector3(0, 20, 100);
+                        player.StartBoost(a[0], a[1] != 0);
+                        actual = new[] { player.HasBoost ? 1 : 0, player.IsMegaBoost ? 1 : 0, (int)player.BoostDistanceLeft,
+                            (int)player.VelocityBeforeBoost, player.HasInvincibility ? 1 : 0, (int)player.InvincibilityTimeLeft, (int)player.StumbleKillTimer }; break;
                     case "IsACoin":
                         bonus.BonusType = (BonusItem.BonusItemType)a[0]; actual = new[] { bonus.IsACoin() ? 1 : 0 }; break;
                     default:

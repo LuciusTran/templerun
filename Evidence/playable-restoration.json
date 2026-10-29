@@ -2,10 +2,10 @@
   "sourceUnityVersion": "2022.3.62f2",
   "developmentUnityVersion": "6000.4.12f1",
   "scene": "Assets/Restoration/Scenes/TempleRun.unity",
-  "restoredExportedMethodBodies": 71,
-  "nativeReferenceBodies": 481,
-  "verifiedNativeGoldenCases": 876,
-  "integrationChecks": 57,
+  "restoredExportedMethodBodies": 73,
+  "nativeReferenceBodies": 482,
+  "verifiedNativeGoldenCases": 927,
+  "integrationChecks": 64,
   "nativeDerivedHelpers": [
     {
       "source": "CharacterPlayer.Recovered.cs",
@@ -45,6 +45,8 @@
     "Original NGUI/intro/online/platform systems and exact course distribution are not fully restored.",
     "Scripted integration checks do not verify physical pointer/touch/accelerometer input or Android builds."
   ],
-  "graphicalIntegrationChecks": 57,
-  "characterBindings": "Assets/Resources/TempleRunCharacterBindings.json: 16 original scene model/texture pairs and indices; duplicate export aliases share ownership."
+  "graphicalIntegrationChecks": 66,
+  "characterBindings": "Assets/Resources/TempleRunCharacterBindings.json: 16 original scene model/texture pairs and indices; duplicate export aliases share ownership.",
+  "reviewedLogicChecks": 52,
+  "latestAudit": "Docs/LOGIC-AUDIT.md"
 }

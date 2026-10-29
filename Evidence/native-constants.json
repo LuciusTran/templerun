@@ -147,6 +147,104 @@
         950.0,
         2350.0
       ]
+    },
+    {
+      "ghidraAddress": "0x7a3590",
+      "elfVirtualAddress": "0x6a3590",
+      "fileOffset": 6960528,
+      "bytesHex": "6c9adfbf70ce28be",
+      "float32": [
+        -1.7469000816345215,
+        -0.16484999656677246
+      ],
+      "int32": [
+        -1075864980,
+        -1104621968
+      ]
+    },
+    {
+      "ghidraAddress": "0x7a3a18",
+      "elfVirtualAddress": "0x6a3a18",
+      "fileOffset": 6961688,
+      "bytesHex": "6c9adf3feb621941",
+      "float32": [
+        1.7469000816345215,
+        9.586649894714355
+      ],
+      "int32": [
+        1071618668,
+        1092182763
+      ]
+    },
+    {
+      "ghidraAddress": "0x7a3ce8",
+      "elfVirtualAddress": "0x6a3ce8",
+      "fileOffset": 6962408,
+      "bytesHex": "6c9adfbf",
+      "float32": [
+        -1.7469000816345215
+      ],
+      "int32": [
+        -1075864980
+      ]
+    },
+    {
+      "ghidraAddress": "0x7a3c78",
+      "elfVirtualAddress": "0x6a3c78",
+      "fileOffset": 6962296,
+      "bytesHex": "6c9adf3f",
+      "float32": [
+        1.7469000816345215
+      ],
+      "int32": [
+        1071618668
+      ]
+    },
+    {
+      "ghidraAddress": "0x7c424c",
+      "elfVirtualAddress": "0x6c424c",
+      "fileOffset": 7094860,
+      "bytesHex": "000040400000104000001040000010400000404000004040",
+      "float32": [
+        3.0,
+        2.25,
+        2.25,
+        2.25,
+        3.0,
+        3.0
+      ],
+      "int32": [
+        1077936128,
+        1074790400,
+        1074790400,
+        1074790400,
+        1077936128,
+        1077936128
+      ]
+    },
+    {
+      "ghidraAddress": "0x7a3d20",
+      "elfVirtualAddress": "0x6a3d20",
+      "fileOffset": 6962464,
+      "bytesHex": "0020fd45",
+      "float32": [
+        8100.0
+      ],
+      "int32": [
+        1174216704
+      ]
+    },
+    {
+      "ghidraAddress": "0x7a3bf8",
+      "elfVirtualAddress": "0x6a3bf8",
+      "fileOffset": 6962168,
+      "bytesHex": "8096184b",
+      "float32": [
+        10000000.0
+      ],
+      "int32": [
+        1259902592
+      ]
     }
   ]
 }

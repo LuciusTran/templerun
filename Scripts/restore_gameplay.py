@@ -35,6 +35,8 @@ def main():
     for cls in ["CharacterPlayer", "MovingObject", "PathElement", "CommonPlayer"]:
         path = ROOT / "Assets/Scripts/Assembly-CSharp" / (cls + ".cs")
         text = path.read_text().replace("public class " + cls + " :", "public partial class " + cls + " :")
+        if cls == "CharacterPlayer":
+            text = text.replace("public float BoostSlowdownDistance;", "public float BoostSlowdownDistance = 50f;")
         path.write_text(text)
 
     restore("CharacterPlayer", "GetRunVelocity", "return Mathf.Sqrt(Velocity.x * Velocity.x + Velocity.z * Velocity.z);")
@@ -65,6 +67,7 @@ if (IsSliding || IsJumping || IsFalling) return false;
 IsSliding = true; TimeSinceSlideStart = 0f;
 SlideDuration = Mathf.Min(GetRunVelocity() * .007f, .75f);
 PlayAnimation("Slide Start");
+PlayAnimation("Slide Loop", true);
 return true;
 """, nature="native guards/timing/state; animation adapter")
     restore("CharacterPlayer", "SlamDown", """
@@ -151,8 +154,15 @@ if (queued) AnimateObject.PlayQueued(selected); else if (!AnimateObject.IsPlayin
     restore("CharacterPlayer", "PauseAnimation", "if (AnimateObject) foreach (AnimationState state in AnimateObject) state.speed = 0f;")
     restore("CharacterPlayer", "UnpauseAnimation", "AdjustAnimationSpeed();")
     restore("CharacterPlayer", "AdjustAnimationSpeed", "if (AnimateObject) foreach (AnimationState state in AnimateObject) state.speed = Velocity.magnitude / 100f * .65f;")
+    restore("CharacterPlayer", "GetWorldSpaceBounds", """
+Vector3 position = transform.position;
+Bounds bounds = new Bounds();
+bounds.SetMinMax(position + new Vector3(-1.7469f, -.16485f, -1.7469f), position + new Vector3(1.7469f, 9.58665f, 1.7469f));
+return bounds;
+""", nature="native world-axis bounds; float constants read from original ELF")
+    restore("MovingObject", "DoesSphereIntersectBoundingBox", "return GetWorldSpaceBounds().SqrDistance(point) <= radius * radius;", nature="native virtual bounds query and squared-distance comparison; Unity Bounds API integration")
     restore("CharacterPlayer", "GetPreviousPosition2D", "return new Vector2(PreviousLocation.x, PreviousLocation.z);")
-    restore("CharacterPlayer", "SetGroundHeight", "IsGroundHeightChangeHigher = groundHeight > GroundHeight; GroundHeight = groundHeight;")
+    restore("CharacterPlayer", "SetGroundHeight", "if (groundHeight > GroundHeight) IsGroundHeightChangeHigher = true; GroundHeight = groundHeight;")
     restore("CharacterPlayer", "Resurrect", """
 SetY(GroundHeight); IsDead = false; TimeSinceDeath = 0f; DeathType = DeathTypes.kDeathTypeUnknown;
 IsFalling = false; IsJumping = false; JumpAfterDelay = false; IsSliding = false; TimeSinceSlideStart = 0f;

@@ -34,7 +34,9 @@ def main():
     def machine(selected):
         uc = Uc(UC_ARCH_ARM64, UC_MODE_ARM)
         pages = set()
-        dependencies = [selected, method("PathElement", "IsTurn"), method("PathElement", "IsPathTypeTurn")]
+        dependencies = [selected, method("PathElement", "IsTurn"), method("PathElement", "IsPathTypeTurn"),
+                        method("CharacterPlayer", "GetRunVelocity"), method("CharacterPlayer", "StartInvcibility"),
+                        method("CharacterPlayer", "SetInvincibilityTexture"), method("CharacterPlayer", "SetAlpha")]
         for m in dependencies:
             address = m["virtualAddress"]
             for page in range(address & ~4095, (address + m["length"] + 4095) & ~4095, 4096):
@@ -51,16 +53,24 @@ def main():
         delta = json.loads((args.map.parent / "native-constants.json").read_text())["loaderAddressDelta"]
         cache = 0x2B950E8 - delta
         slot = 0x29BDE80 - delta
-        for address in [cache, slot]:
+        speed_cache = 0x2B945BF - delta
+        speed_slot = 0x29B97C8 - delta
+        for address in [cache, slot, speed_cache, speed_slot]:
             page = address & ~4095
             if page not in pages:
                 uc.mem_map(page, 4096)
                 pages.add(page)
         uc.mem_write(cache, b"\x01")
+        uc.mem_write(speed_cache, b"\x01")
         # The ELF GOT slot points to a managed-type slot, which holds the class.
         uc.mem_write(slot, struct.pack("<Q", obj + 0x3000))
         uc.mem_write(obj + 0x3000, struct.pack("<Q", obj + 0x4000))
         uc.mem_write(obj + 0x4000 + 0xE0, struct.pack("<I", 1))
+        uc.mem_write(speed_slot, struct.pack("<Q", obj + 0x4000))
+        # Empty, valid renderer arrays let the original boost/invincibility
+        # helpers execute fully without calling Unity's material APIs.
+        for name in ["RenderObject", "AttachmentsRenderObjects"]:
+            uc.mem_write(obj + fields["CharacterPlayer"][name], struct.pack("<Q", obj + 0x5000))
         uc.reg_write(UC_ARM64_REG_CPACR_EL1, 3 << 20)
         def unmapped(cpu, access, address, size, value, user):
             # Compiler-generated switch tables remain original ELF evidence.
@@ -86,7 +96,7 @@ def main():
         uc.reg_write(UC_ARM64_REG_X1, second)
         uc.reg_write(UC_ARM64_REG_SP, stack + 0x8000)
         uc.reg_write(UC_ARM64_REG_X30, stop)
-        uc.emu_start(m["virtualAddress"], stop, count=400)
+        uc.emu_start(m["virtualAddress"], stop, count=2000)
         assert uc.reg_read(UC_ARM64_REG_PC) == stop, m["label"]
         return uc.reg_read(UC_ARM64_REG_X0) & 0xFFFFFFFF
 
@@ -102,8 +112,14 @@ def main():
             uc.mem_write(address, struct.pack("<f", value))
         return struct.unpack("<f", uc.mem_read(address, 4))[0]
 
-    def flag(uc, cls, name, value):
-        uc.mem_write(obj + fields[cls][name], bytes([int(value)]))
+    def flag(uc, cls, name, value=None):
+        address = obj + fields[cls][name]
+        if value is not None:
+            uc.mem_write(address, bytes([int(value)]))
+        return int(uc.mem_read(address, 1)[0] != 0)
+
+    def float_argument(uc, value):
+        uc.reg_write(UC_ARM64_REG_S0, struct.unpack("<I", struct.pack("<f", value))[0])
 
     def wrap(value):
         return (value + 2**31) % 2**32 - 2**31
@@ -158,6 +174,52 @@ def main():
                 check(name, [int(jump), int(falling), 40], [int(result), int(velocity)], [int(expected), -60 if expected else 40])
         coverage.append({"class": "CharacterPlayer", "method": name, "cases": len(records) - begin, "fileOffset": m["fileOffset"], "elfVirtualAddress": m["virtualAddress"]})
 
+    for name in ["SetGroundHeight", "GetRunVelocity", "StartAngelWings", "StartVacuum", "StartBoost"]:
+        m = method("CharacterPlayer", name)
+        uc = machine(m)
+        begin = len(records)
+        if name == "SetGroundHeight":
+            for old, new, higher in itertools.product([-15, 0, 15], [-15, 0, 15], [0, 1]):
+                floating(uc, "CharacterPlayer", "GroundHeight", old)
+                flag(uc, "CharacterPlayer", "IsGroundHeightChangeHigher", higher)
+                float_argument(uc, new)
+                execute(uc, m)
+                check(name, [old, new, higher], [int(floating(uc, "CharacterPlayer", "GroundHeight")), flag(uc, "CharacterPlayer", "IsGroundHeightChangeHigher")], [new, int(higher or new > old)])
+        elif name == "GetRunVelocity":
+            for x, y, z in [(0, 100, 0), (3, 99, 4), (-6, -7, 8), (100, 0, 0), (0, -40, -210)]:
+                uc.mem_write(obj + fields["MovingObject"]["Velocity"], struct.pack("<fff", x, y, z))
+                execute(uc, m)
+                value = struct.unpack("<f", struct.pack("<I", uc.reg_read(UC_ARM64_REG_S0)))[0]
+                check(name, [x, y, z], [int(value)], [int((x*x + z*z)**.5)])
+        elif name == "StartAngelWings":
+            for duration, permanent, count in itertools.product([0, 15, 30], [0, 1], [0, 2]):
+                floating(uc, "CharacterPlayer", "AngelWingsRechargeTimeLeft", 9)
+                integer(uc, "CharacterPlayer", "AngelWingsCount", count)
+                float_argument(uc, duration)
+                execute(uc, m, second=permanent)
+                actual = [flag(uc, "CharacterPlayer", "HasAngelWings"), flag(uc, "CharacterPlayer", "AreWingsPermanent"), int(floating(uc, "CharacterPlayer", "AngelWingsTimeLeft")), int(floating(uc, "CharacterPlayer", "AngelWingsRechargeTimeLeft")), integer(uc, "CharacterPlayer", "AngelWingsCount")]
+                check(name, [duration, permanent, count, 9], actual, [1, permanent, duration, 9 if permanent else 45, count if permanent else count-1])
+        elif name == "StartVacuum":
+            for duration in [-1, 0, 15, 25]:
+                floating(uc, "CharacterPlayer", "TimeSinceLastPowerup", 9)
+                float_argument(uc, duration)
+                execute(uc, m)
+                check(name, [duration], [flag(uc, "CharacterPlayer", "HasVacuum"), int(floating(uc, "CharacterPlayer", "VacuumTimeLeft")), int(floating(uc, "CharacterPlayer", "TimeSinceLastPowerup"))], [1, duration, 0])
+        else:
+            for distance, mega, had_boost in itertools.product([0, 250, 950], [0, 1], [0, 1]):
+                flag(uc, "CharacterPlayer", "HasBoost", had_boost)
+                flag(uc, "CharacterPlayer", "HasInvincibility", False)
+                floating(uc, "CharacterPlayer", "InvincibilityTimeLeft", 7)
+                floating(uc, "CharacterPlayer", "VelocityBeforeBoost", 123)
+                floating(uc, "CharacterPlayer", "MaxRunVelocity", 210)
+                floating(uc, "CharacterPlayer", "StumbleKillTimer", 3)
+                uc.mem_write(obj + fields["MovingObject"]["Velocity"], struct.pack("<fff", 0, 20, 100))
+                float_argument(uc, distance)
+                execute(uc, m, second=mega)
+                actual = [flag(uc, "CharacterPlayer", "HasBoost"), flag(uc, "CharacterPlayer", "IsMegaBoost"), int(floating(uc, "CharacterPlayer", "BoostDistanceLeft")), int(floating(uc, "CharacterPlayer", "VelocityBeforeBoost")), flag(uc, "CharacterPlayer", "HasInvincibility"), int(floating(uc, "CharacterPlayer", "InvincibilityTimeLeft")), int(floating(uc, "CharacterPlayer", "StumbleKillTimer"))]
+                check(name, [distance, mega, had_boost], actual, [1, mega, distance+50, 123 if had_boost else 210 if mega else 100, 0 if had_boost else 1, 7 if had_boost else 4, 13])
+        coverage.append({"class": "CharacterPlayer", "method": name, "cases": len(records)-begin, "fileOffset": m["fileOffset"], "elfVirtualAddress": m["virtualAddress"]})
+
     m = method("BonusItem", "IsACoin")
     uc = machine(m)
     for value in range(-3, 13):
@@ -194,7 +256,7 @@ def main():
         coverage.append({"class": "PathElement", "method": name, "cases": 234, "fileOffset": m["fileOffset"]})
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    report = {"passed": True, "binarySha256": mapping["binarySha256"], "emulator": "Unicorn ARM64", "caseCount": len(records), "coverage": coverage, "vectors": records, "limitations": ["Executes selected original methods only; not the complete APK, Unity runtime, graphics or Android integrations.", "Turn checks cover metadata enum values 0..38 and origins 0..5; other integer inputs are not claimed.", "IsTurn receives an initialized IL2CPP type-cache fixture; metadata resolution and class initialization are not executed."]}
+    report = {"passed": True, "binarySha256": mapping["binarySha256"], "emulator": "Unicorn ARM64", "caseCount": len(records), "coverage": coverage, "vectors": records, "limitations": ["Executes selected original methods only; not the complete APK, Unity runtime, graphics or Android integrations.", "Turn checks cover metadata enum values 0..38 and origins 0..5; other integer inputs are not claimed.", "IsTurn and GetRunVelocity receive initialized IL2CPP type-cache fixtures; metadata resolution and class initialization are not executed.", "StartBoost executes original invincibility/texture helpers with empty renderer arrays; Unity material rendering and standalone invincibility audio are not exercised."]}
     args.output.write_text(json.dumps(report, indent=2) + "\n")
     print(f"PASS: {len(records)} original ARM64 cases across {len(coverage)} methods")
 

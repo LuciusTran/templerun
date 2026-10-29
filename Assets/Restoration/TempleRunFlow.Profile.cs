@@ -8,6 +8,7 @@ public partial class TempleRunFlow
     private readonly List<Material> avatarMaterials = new List<Material>();
     [Serializable] public class RunData
     {
+        public int stateVersion;
         public int seed, randomDraws, generatedCount, untilTurn, sinceObstacle, tileIndex, revives, bankedCoins;
         public float distance, elapsed, remainder;
         public Vector3 position, velocity;
@@ -16,6 +17,9 @@ public partial class TempleRunFlow
         public float invincibility, vacuum, boostDistance, velocityBeforeBoost;
         public bool boost, megaBoost, wings;
         public float wingsTime;
+        public float wingsRecharge, timeSincePowerup, timeSinceFall, groundHeight;
+        public int wingsCount, scoreMultiplier, bonusMaximum;
+        public bool permanentWings, onGround, overGround, groundRaised;
         public bool jumping, falling, sliding, stumbling, strafing, jumpAfterDelay, stumbleAfterDelay;
         public float jumpDelay, stumbleDelay, slideTime, slideDuration, stumbleTime, stumbleDuration, stumbleKillTimer, strafeTime, laneOffset;
         public List<TrackTile> tiles;
@@ -60,6 +64,7 @@ public partial class TempleRunFlow
         if (!Runner || Runner.IsDead || tiles.Count == 0) return;
         Profile.hasRun = true;
         Profile.run = new RunData {
+            stateVersion = 2,
             seed = seed, randomDraws = randomDraws, generatedCount = generatedCount,
             untilTurn = untilTurn, sinceObstacle = sinceObstacle, tileIndex = tileIndex,
             revives = reviveCount, bankedCoins = bankedCoins,
@@ -70,6 +75,10 @@ public partial class TempleRunFlow
             vacuum = Runner.HasVacuum ? Runner.VacuumTimeLeft : 0f,
             boost = Runner.HasBoost, megaBoost = Runner.IsMegaBoost, boostDistance = Runner.BoostDistanceLeft,
             velocityBeforeBoost = Runner.VelocityBeforeBoost, wings = Runner.HasAngelWings, wingsTime = Runner.AngelWingsTimeLeft,
+            wingsRecharge = Runner.AngelWingsRechargeTimeLeft, wingsCount = Runner.AngelWingsCount, permanentWings = Runner.AreWingsPermanent,
+            timeSincePowerup = Runner.TimeSinceLastPowerup, timeSinceFall = Runner.TimeSinceFallStart, groundHeight = Runner.GroundHeight,
+            onGround = Runner.IsOnGround, overGround = Runner.IsOverGround, groundRaised = Runner.IsGroundHeightChangeHigher,
+            scoreMultiplier = Runner.ScoreMultiplier, bonusMaximum = Runner.BonusLevelMax,
             jumping = Runner.IsJumping, falling = Runner.IsFalling, sliding = Runner.IsSliding, stumbling = Runner.IsStumbling,
             strafing = Runner.IsStrafing, jumpAfterDelay = Runner.JumpAfterDelay, stumbleAfterDelay = Runner.StumbleAfterDelay,
             jumpDelay = Runner.JumpDelay, stumbleDelay = Runner.StumbleDelay, slideTime = Runner.TimeSinceSlideStart, slideDuration = Runner.SlideDuration,
@@ -97,6 +106,14 @@ public partial class TempleRunFlow
         Runner.HasVacuum = data.vacuum > 0f; Runner.VacuumTimeLeft = data.vacuum;
         Runner.HasBoost = data.boost; Runner.IsMegaBoost = data.megaBoost; Runner.BoostDistanceLeft = data.boostDistance; Runner.VelocityBeforeBoost = data.velocityBeforeBoost;
         Runner.HasAngelWings = data.wings; Runner.AngelWingsTimeLeft = data.wingsTime;
+        Runner.AngelWingsCount = Profile.wings;
+        if (data.stateVersion >= 2)
+        {
+            Runner.AngelWingsRechargeTimeLeft = data.wingsRecharge; Runner.AngelWingsCount = data.wingsCount; Runner.AreWingsPermanent = data.permanentWings;
+            Runner.TimeSinceLastPowerup = data.timeSincePowerup; Runner.TimeSinceFallStart = data.timeSinceFall; Runner.GroundHeight = data.groundHeight;
+            Runner.IsOnGround = data.onGround; Runner.IsOverGround = data.overGround; Runner.IsGroundHeightChangeHigher = data.groundRaised;
+            Runner.ScoreMultiplier = data.scoreMultiplier; Runner.BonusLevelMax = data.bonusMaximum;
+        }
         Runner.IsJumping = data.jumping; Runner.IsFalling = data.falling; Runner.IsSliding = data.sliding; Runner.IsStumbling = data.stumbling;
         Runner.IsStrafing = data.strafing; Runner.JumpAfterDelay = data.jumpAfterDelay; Runner.StumbleAfterDelay = data.stumbleAfterDelay;
         Runner.JumpDelay = data.jumpDelay; Runner.StumbleDelay = data.stumbleDelay;
@@ -154,21 +171,22 @@ public partial class TempleRunFlow
     }
     public bool UseWings()
     {
-        if (!IsPlaying || Runner.HasAngelWings || Runner.AngelWingsRechargeTimeLeft > 0f || (!DeveloperUnlocks && Profile.wings <= 0)) return false;
+        if (!IsPlaying || Runner.IsDead || Runner.IsFalling || Runner.HasAngelWings || Runner.AngelWingsRechargeTimeLeft != 0f || (!DeveloperUnlocks && Profile.wings <= 0)) return false;
         if (!DeveloperUnlocks) Profile.wings--;
         Runner.AngelWingsCount = Profile.wings + 1; Runner.StartAngelWings(30f);
         SaveProfile(); Sound("angelWings"); return true;
     }
     public bool UseHeadStart(bool mega)
     {
-        if (!IsPlaying || Runner.HasBoost || (!DeveloperUnlocks && (Distance < 25f || Distance > 100f))) return false;
+        if (!IsPlaying || Runner.IsDead || Runner.IsFalling || (!DeveloperUnlocks && (Distance <= 25f || Distance >= 100f))) return false;
         if (!DeveloperUnlocks)
         {
             if (mega ? Profile.megaHeadStarts <= 0 : Profile.headStarts <= 0) return false;
             if (mega) Profile.megaHeadStarts--; else Profile.headStarts--;
         }
-        // Native constructor distances: 950/2350; StartBoost adds its 50-unit slowdown tail.
-        Runner.StartBoost(mega ? 2350f : 950f, mega); SaveProfile(); return true;
+        // UseHeadStart{Mega} subtracts distance already traveled and passes
+        // isMega=false for both utility types in this APK. StartBoost adds 50.
+        Runner.StartBoost((mega ? 2350f : 950f) - Distance, false); SaveProfile(); return true;
     }
 
     private void CreatePresentation()

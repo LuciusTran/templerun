@@ -43,7 +43,8 @@ public static class TempleRunPlayerChecks
     private static IEnumerator Checks(TempleRunFlow flow)
     {
         yield return null;
-        Check(TempleRunGoldenChecks.Run() == 876, "876 C# golden cases match original ARM64 outputs");
+        Check(TempleRunGoldenChecks.Run() == TempleRunGoldenChecks.RequiredCaseCount, "927 C# golden cases match original ARM64 outputs");
+        Check(TempleRunLogicAuditChecks.Run() > 0, "Reviewed native frame, acceleration and obstacle boundary regressions pass");
         Check(flow.CurrentPage == TempleRunFlow.Page.Home, "Playable scene starts at the home menu");
         flow.BeginRun();
         Vector3 start = flow.Runner.transform.position;
@@ -58,12 +59,16 @@ public static class TempleRunPlayerChecks
         flow.Tick(.02f);
         Check(runner.IsJumping && runner.transform.position.y > 0f, "Native jump impulse and gravity move the real actor upward");
         Check(!flow.RequestJump(), "Native jump guard prevents a second jump while airborne");
+        runner.AngelWingsRechargeTimeLeft = 37f; runner.TimeSinceLastPowerup = 5f;
+        runner.ScoreMultiplier = 12; runner.BonusLevelMax = 4;
         flow.SaveRun(); int savedScore = runner.Score; Vector3 savedPosition = runner.transform.position;
         flow.Pause(); Check(flow.CurrentPage == TempleRunFlow.Page.Paused && Time.timeScale == 0f, "Pause stops game time and preserves a run");
         flow.GoHome(); runner.Score = 999999;
         flow.ReloadProfile(); flow.BeginRun(true);
         Check(runner.Score == savedScore && Vector3.Distance(runner.transform.position, savedPosition) < .001f && runner.IsJumping,
             "Persisted continue restores position, score and airborne state");
+        Check(runner.AngelWingsRechargeTimeLeft == 37f && runner.TimeSinceLastPowerup == 5f && runner.ScoreMultiplier == 12 && runner.BonusLevelMax == 4,
+            "Continue preserves wings cooldown, power-up timing and score state");
         for (int i = 0; i < 60; i++) flow.Tick(.02f);
         Check(!runner.IsJumping && runner.IsOnGround, "Jump lands on the original ground polygon");
         Check(flow.RequestSlide(), "Native slide starts from running state");
@@ -81,6 +86,9 @@ public static class TempleRunPlayerChecks
         Check(flow.BuyUpgrade(0) && flow.Profile.coins == 750 && flow.Profile.upgrades[0] == 1, "Store charges the original shipped upgrade price");
         flow.Profile.coins = 0;
         Check(!flow.BuyUpgrade(1) && flow.Profile.upgrades[1] == 0, "Store rejects purchases without enough coins");
+        flow.Profile.coins = 20000;
+        Check(flow.BuyUtility(0) && flow.BuyUtility(1) && flow.BuyUtility(2) && flow.Profile.coins == 7000,
+            "Native store utility mapping charges 500 for wings, 2500 for Head Start and 10000 for Mega Head Start");
         flow.Profile.coins = 321; flow.SaveProfile(); flow.Profile.coins = 0; flow.ReloadProfile();
         Check(flow.Profile.coins == 321, "Local profile writes and reloads currency");
         flow.BeginRun(); runner.StumbleKillTimer = 11f; runner.Stumble();
@@ -140,5 +148,18 @@ public static class TempleRunPlayerChecks
         flow.Profile.biome = 2; flow.BeginRun();
         flow.Pause(); flow.Resume(); Check(flow.IsPlaying && Time.timeScale == 1f, "Resume restarts a paused run");
         flow.GoHome(); Check(flow.CurrentPage == TempleRunFlow.Page.Home && flow.Profile.hasRun, "Returning home preserves a continuable run");
+        flow.BeginRun(); flow.Profile.headStarts = flow.Profile.megaHeadStarts = flow.Profile.wings = 2;
+        flow.TestSetDistance(25f);
+        Check(!flow.UseHeadStart(false), "Head Start rejects the exact native lower distance boundary");
+        flow.TestSetDistance(100f);
+        Check(!flow.UseHeadStart(true), "Mega Head Start rejects the exact native upper distance boundary");
+        flow.TestSetDistance(50f); runner = flow.Runner; runner.IsFalling = true;
+        Check(!flow.UseHeadStart(false) && !flow.UseWings() && flow.Profile.headStarts == 2 && flow.Profile.wings == 2,
+            "Falling blocks native utility use without consuming inventory");
+        runner.IsFalling = false;
+        Check(flow.UseHeadStart(false) && Mathf.Abs(runner.BoostDistanceLeft - 950f) < .001f && !runner.IsMegaBoost,
+            "Head Start subtracts the traveled distance before the native slowdown tail");
+        Check(flow.UseHeadStart(true) && Mathf.Abs(runner.BoostDistanceLeft - 2350f) < .001f && !runner.IsMegaBoost,
+            "Mega Head Start replaces an active boost with the longer native endpoint and isMega=false");
     }
 }

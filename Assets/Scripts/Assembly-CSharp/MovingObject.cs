@@ -167,7 +167,8 @@ public partial class MovingObject : MonoBehaviour
 
 	public bool DoesSphereIntersectBoundingBox(Vector3 point, float radius)
 	{
-		return false;
+        // Native evidence: DecompiledNative/MovingObject/MovingObject_DoesSphereIntersectBoundingBox_1309658.cpp
+        return GetWorldSpaceBounds().SqrDistance(point) <= radius * radius;
 	}
 
 	public virtual Bounds GetWorldSpaceBounds()

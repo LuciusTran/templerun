@@ -252,6 +252,26 @@
     },
     {
       "class": "CharacterPlayer",
+      "method": "GetWorldSpaceBounds",
+      "parameters": "",
+      "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
+      "nativeFiles": [
+        "DecompiledNative/CharacterPlayer/CharacterPlayer_GetWorldSpaceBounds_12bea08.cpp"
+      ],
+      "nature": "native world-axis bounds; float constants read from original ELF"
+    },
+    {
+      "class": "MovingObject",
+      "method": "DoesSphereIntersectBoundingBox",
+      "parameters": "Vector3 point, float radius",
+      "source": "Assets/Scripts/Assembly-CSharp/MovingObject.cs",
+      "nativeFiles": [
+        "DecompiledNative/MovingObject/MovingObject_DoesSphereIntersectBoundingBox_1309658.cpp"
+      ],
+      "nature": "native virtual bounds query and squared-distance comparison; Unity Bounds API integration"
+    },
+    {
+      "class": "CharacterPlayer",
       "method": "GetPreviousPosition2D",
       "parameters": "",
       "source": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",

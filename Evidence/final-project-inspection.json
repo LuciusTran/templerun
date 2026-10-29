@@ -1,5 +1,5 @@
 {
-  "evidence_id": "ev_87fdba1553a8031f261b2f88c598dfc2e4bfbf3c05c4c0880d00a09d285708cf",
+  "evidence_id": "ev_2c36643f9ffb6c2b380761f5dfe3559488dd4e28519ac30668e439b34e50e6bd",
   "subject": null,
   "provider": {
     "id": "rea-game-project",
@@ -19,13 +19,13 @@
     "project_path": "/home/dong/Projects/templerun",
     "engine": "unity",
     "editor_version": "6000.4.12f1",
-    "inspection_sha256": "6b68dd63ef48185fcb65def047882cbf66f018b1a4c48769d3dc519c15fe472d",
+    "inspection_sha256": "522481c9440271cfeec870c58f80dbbf8d906e9b96ad606ccb9db17b071a3dee",
     "coverage": {
       "directory_inventory": "complete",
       "selected_text": "partial",
       "csharp_analysis": "heuristic",
-      "inspected_text_bytes": 26488811,
-      "enumerated_entries": 5714,
+      "inspected_text_bytes": 26510116,
+      "enumerated_entries": 5717,
       "skipped": [
         {
           "path": "Assets/Scenes/GamePlay/LightingData.asset",
@@ -62,9 +62,14 @@
           "path": "Assets/Resources/googlemobileads/resources/GoogleMobileAdsSettings.asset",
           "line": 12,
           "guid": "80ff55188f2e4651127747f99e6b46bf"
+        },
+        {
+          "path": "ProjectSettings/PackageManagerSettings.asset",
+          "line": 12,
+          "guid": "0000000000000000e000000000000000"
         }
       ],
-      "csharp_files": 507
+      "csharp_files": 508
     },
     "inferences": {
       "stub_candidates": [
@@ -2248,37 +2253,31 @@
         },
         {
           "path": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
-          "line": 341,
+          "line": 342,
           "name": "SetInvincibilityTexture",
           "body": "empty"
         },
         {
           "path": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
-          "line": 398,
-          "name": "GetWorldSpaceBounds",
-          "body": "default-return"
-        },
-        {
-          "path": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
-          "line": 403,
+          "line": 408,
           "name": "ApplyPlayerTexture",
           "body": "empty"
         },
         {
           "path": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
-          "line": 407,
+          "line": 412,
           "name": "OnDrawGizmos",
           "body": "empty"
         },
         {
           "path": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
-          "line": 411,
+          "line": 416,
           "name": "SetVisibility",
           "body": "empty"
         },
         {
           "path": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
-          "line": 415,
+          "line": 420,
           "name": "SetupCharacter",
           "body": "empty"
         },
@@ -14650,13 +14649,7 @@
         },
         {
           "path": "Assets/Scripts/Assembly-CSharp/MovingObject.cs",
-          "line": 168,
-          "name": "DoesSphereIntersectBoundingBox",
-          "body": "default-return"
-        },
-        {
-          "path": "Assets/Scripts/Assembly-CSharp/MovingObject.cs",
-          "line": 173,
+          "line": 174,
           "name": "GetWorldSpaceBounds",
           "body": "default-return"
         },
@@ -44458,8 +44451,8 @@
       },
       {
         "path": "Assets/Restoration/Editor/TempleRunCoreVerification.cs",
-        "sha256": "dea3b40b81fd8496dd0279c943bae37eb8b5adbaebd6ee9fbdedcdad6c7778ea",
-        "bytes": 1907
+        "sha256": "360ca921ee697aaaadd4a54bd6234f773ff473ce57411e4059a1ec17459fdc14",
+        "bytes": 2035
       },
       {
         "path": "Assets/Restoration/Editor/TempleRunCoreVerification.cs.meta",
@@ -44513,8 +44506,8 @@
       },
       {
         "path": "Assets/Restoration/TempleRunFlow.cs",
-        "sha256": "1256bf07e235603365acb9901f9d386a01e2112a0e82d8fe1456441ace85db3c",
-        "bytes": 12359
+        "sha256": "c12cd7a4158f4c5d3f5df96442e966457805ae7adceccd59c1fed15b574c3086",
+        "bytes": 12500
       },
       {
         "path": "Assets/Restoration/TempleRunFlow.cs.meta",
@@ -44523,8 +44516,8 @@
       },
       {
         "path": "Assets/Restoration/TempleRunFlow.Profile.cs",
-        "sha256": "0ba1e2ec05c117b135abaaeb47e509d4f5a2c0c3ec7e55bffb9e6bd3b47612f4",
-        "bytes": 14773
+        "sha256": "08db644e37ce120662c3bb0835ce238076774e2cad9298d1616b0822798704e2",
+        "bytes": 16345
       },
       {
         "path": "Assets/Restoration/TempleRunFlow.Profile.cs.meta",
@@ -44533,8 +44526,8 @@
       },
       {
         "path": "Assets/Restoration/TempleRunFlow.Track.cs",
-        "sha256": "a3910cf76a0ef1d5794a6955a37f83996fbecf8f74db1db70a588256f2b079aa",
-        "bytes": 15544
+        "sha256": "e48ed01944909686f64cb476696695f3e970d6425beb67437d074cb146683080",
+        "bytes": 16109
       },
       {
         "path": "Assets/Restoration/TempleRunFlow.Track.cs.meta",
@@ -44553,8 +44546,8 @@
       },
       {
         "path": "Assets/Restoration/TempleRunFlow.Verification.cs",
-        "sha256": "479e13541c8a7cff13d157a6121fb5ce3002ec25ac9f8e7c8f2eb538ff08af96",
-        "bytes": 593
+        "sha256": "ced211cd132446664525eddd2eb4b400b3eb821b7e37571d1cf8a4117b4bac57",
+        "bytes": 783
       },
       {
         "path": "Assets/Restoration/TempleRunFlow.Verification.cs.meta",
@@ -44563,8 +44556,8 @@
       },
       {
         "path": "Assets/Restoration/TempleRunGoldenChecks.cs",
-        "sha256": "a8f9bc9195cd1e92537f202c78c7e84019f0c2731ae44731bf0d58cc63c19ad1",
-        "bytes": 4552
+        "sha256": "68d8fd1f969f31b0f8cdcfa65914666e04838cd29e520fb019bbe10454178dfa",
+        "bytes": 6510
       },
       {
         "path": "Assets/Restoration/TempleRunGoldenChecks.cs.meta",
@@ -44572,9 +44565,19 @@
         "bytes": 59
       },
       {
+        "path": "Assets/Restoration/TempleRunLogicAuditChecks.cs",
+        "sha256": "6759687562f4e954054367cb2d2207f728f6d6882298e6d6806150970e8c24ab",
+        "bytes": 10617
+      },
+      {
+        "path": "Assets/Restoration/TempleRunLogicAuditChecks.cs.meta",
+        "sha256": "c161205c3690741fdb2dd80976e41968f77c81fca917ab100ceb60a23a39022f",
+        "bytes": 60
+      },
+      {
         "path": "Assets/Restoration/TempleRunPlayerChecks.cs",
-        "sha256": "d3a8e751ab4f324e1dd1aeb8fc21badb2d8fb84fd5fa05cda473960dec5c554d",
-        "bytes": 9999
+        "sha256": "fbc37b32064a2d0bdadb5301f46600dd120c0487d968a6b823017129379068a6",
+        "bytes": 11945
       },
       {
         "path": "Assets/Restoration/TempleRunPlayerChecks.cs.meta",
@@ -44583,8 +44586,8 @@
       },
       {
         "path": "Assets/Restoration/TempleRunRules.cs",
-        "sha256": "2a7e8519ce33b2f97a249cc600913f046c3344daf3fd1711db5861fd632327dd",
-        "bytes": 2953
+        "sha256": "1f8412bf91396370c7530cea0ed114ddc782cf6879591f5794217d8825a6315a",
+        "bytes": 4799
       },
       {
         "path": "Assets/Restoration/TempleRunRules.cs.meta",
@@ -45018,8 +45021,8 @@
       },
       {
         "path": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs",
-        "sha256": "9de1fb18449ae7e7bf841e5c2583518f0688cab40c2b7618b147cde9f020f3f0",
-        "bytes": 13702
+        "sha256": "e3f865ea4990a9e31ccf7fbe25b8567c9080ae3ff1c891f1e410f2cb9b5c8802",
+        "bytes": 14092
       },
       {
         "path": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.cs.meta",
@@ -45028,8 +45031,8 @@
       },
       {
         "path": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.Recovered.cs",
-        "sha256": "e5c815c22dde003033faa68012c9b5a2aaea5338c44701fc62982f7204939912",
-        "bytes": 2724
+        "sha256": "8029cdf04f2e11e1ad6b46d1fc6ce398f334c88606a554ad0f5cecc4a5de3546",
+        "bytes": 3286
       },
       {
         "path": "Assets/Scripts/Assembly-CSharp/CharacterPlayer.Recovered.cs.meta",
@@ -47808,8 +47811,8 @@
       },
       {
         "path": "Assets/Scripts/Assembly-CSharp/MovingObject.cs",
-        "sha256": "769b69b6288b11b0a54138c41621ef8a0b478f1ac12960fd4eefd7eaae40f39a",
-        "bytes": 3989
+        "sha256": "0caed8905a37cd9db8e190657ff1e77bc260d89eff66b553e2e60f2a8c4c88ea",
+        "bytes": 4163
       },
       {
         "path": "Assets/Scripts/Assembly-CSharp/MovingObject.cs.meta",
@@ -49755,6 +49758,11 @@
         "path": "ProjectSettings/NavMeshAreas.asset",
         "sha256": "1ebd695aff31c9227df1d60ee3a9b8f8a590936fe6ab1bc43e8e52e817991ed3",
         "bytes": 1332
+      },
+      {
+        "path": "ProjectSettings/PackageManagerSettings.asset",
+        "sha256": "65a30e66fb26a6e1122d7c486754d330b5c3aa98a9cc5ac7aa6aefafc9be8547",
+        "bytes": 1156
       },
       {
         "path": "ProjectSettings/Physics2DSettings.asset",

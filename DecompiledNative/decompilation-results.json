@@ -10708,5 +10708,27 @@
     "allMethodBytesVerified": true,
     "decompiled": true,
     "output": "Region2D/Region2D_OnDrawGizmos_131e908.cpp"
+  },
+  {
+    "className": "RecordManager",
+    "signature": "public int GetPriceForUpgradeType(StoreItemType itemType, int currentLevel) { }",
+    "label": "RecordManager_GetPriceForUpgradeType_12b3654",
+    "producerRva": 19609172,
+    "fileOffset": 19609172,
+    "virtualAddress": 19625556,
+    "length": 2580,
+    "coreGameplay": true,
+    "metadataSource": "NativeMapWithAddresses/DiffableCs/Assembly-CSharp/RecordManager.cs",
+    "metadataRepresentations": [
+      {
+        "signature": "public int GetPriceForUpgradeType(StoreItemType itemType, int currentLevel) { }",
+        "label": "RecordManager_GetPriceForUpgradeType_12b3654"
+      }
+    ],
+    "ghidraAddress": "013b7654",
+    "instructionPrefixVerified": true,
+    "allMethodBytesVerified": true,
+    "decompiled": true,
+    "output": "RecordManager/RecordManager_GetPriceForUpgradeType_12b3654.cpp"
   }
 ]

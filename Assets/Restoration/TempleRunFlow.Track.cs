@@ -10,7 +10,8 @@ public partial class TempleRunFlow
     {
         public int type;
         public Vector3 position;
-        public bool collected;
+        public Vector3 velocity;
+        public bool collected, magnetized;
         [NonSerialized] public GameObject visual;
     }
     [Serializable] public class TrackTile
@@ -106,7 +107,7 @@ public partial class TempleRunFlow
             for (int i = 0; i < 6; i++) tile.pickups.Add(new PickupData { type = coinType,
                 position = tile.center + Direction(incoming) * (-24f + i * 9f) + side * lane + Vector3.up * (BaseHeight + 3f) });
         }
-        if (!turn && tile.obstacle == 0 && tile.index > 15 && Next(0, 100) < 10)
+        if (!turn && tile.obstacle == 0 && tile.index > 15 && Runner.TimeSinceLastPowerup >= 15f && Next(0, 100) < 10)
         {
             var available = new List<int>();
             for (int i = 0; i < 4; i++) if (Profile.upgrades[i] > 0 || DeveloperUnlocks) available.Add(i + 4);
@@ -136,6 +137,13 @@ public partial class TempleRunFlow
             var obstacle = SpawnVisual("prefabs/temple/trees/" + hazard + "_prefab", tile.root.transform);
             if (obstacle) obstacle.transform.localPosition = Vector3.up * BaseHeight;
             tile.hazards = obstacle ? obstacle.GetComponentsInChildren<Obstacle>() : Array.Empty<Obstacle>();
+            // The shared temple hazard is placed in another biome by this host.
+            // Region2D.Height is a world threshold, not a local transform offset.
+            foreach (var hazardComponent in tile.hazards)
+            {
+                var region = hazardComponent.GetComponent<Region2D>();
+                if (region) region.Height += BaseHeight;
+            }
         }
         else tile.hazards = Array.Empty<Obstacle>();
         foreach (var pickup in tile.pickups) MaterializePickup(tile, pickup);
@@ -230,17 +238,15 @@ public partial class TempleRunFlow
         for (int i = Mathf.Max(0, tileIndex - 1); i < Mathf.Min(tiles.Count, tileIndex + 3); i++)
         {
             var tile = tiles[i];
-            if (!tile.hit && !Runner.HasInvincibility)
+            if (!Runner.HasInvincibility)
             {
                 foreach (var obstacle in tile.hazards)
                 {
                     var region = obstacle.GetComponent<Region2D>();
                     if (!region) continue;
-                    if (obstacle.MustJumpOver && Runner.transform.position.y >= region.Height + tile.center.y + BaseHeight) continue;
-                    if (obstacle.MustSlideUnder && Runner.IsSliding) continue;
-                    if (!obstacle.IsPointInRegion(point) && !obstacle.DoesLineSegementIntersect(oldPoint, point)) continue;
+                    if (!TempleRunRules.EntersObstacle(obstacle, region, oldPoint, point, Runner.transform.position.y, Runner.IsSliding)) continue;
                     tile.hit = true;
-                    if (obstacle.DoesKill) Runner.Kill(obstacle.MustSlideUnder ? CharacterPlayer.DeathTypes.kDeathTypeSlide : CharacterPlayer.DeathTypes.kDeathTypeTree);
+                    if (obstacle.DoesKill) Runner.Kill(TempleRunRules.ObstacleDeath(obstacle, tile.element.Level));
                     else Runner.Stumble();
                     if (!IsPlaying) return;
                 }
@@ -249,14 +255,22 @@ public partial class TempleRunFlow
             {
                 if (pickup.collected || !pickup.visual) continue;
                 pickup.visual.transform.Rotate(0, 100f * deltaTime, 0, Space.World);
-                float horizontal = Vector2.Distance(new Vector2(pickup.position.x, pickup.position.z), point);
-                if (pickup.type <= 3 && Runner.HasVacuum && horizontal < 35f)
+                float radius = TempleRunRules.PickupRadius(pickup.type);
+                if (pickup.type <= 3 && (Runner.HasVacuum || pickup.magnetized))
                 {
-                    pickup.position = Vector3.MoveTowards(pickup.position, Runner.transform.position + Vector3.up * 3f, deltaTime * 250f);
-                    pickup.visual.transform.position = pickup.position;
-                    horizontal = Vector2.Distance(new Vector2(pickup.position.x, pickup.position.z), point);
+                    Vector3 displacement = Runner.transform.position - pickup.position;
+                    if (displacement.sqrMagnitude > 0f && displacement.sqrMagnitude <= 8100f)
+                    {
+                        pickup.velocity += TempleRunRules.MagnetForce(displacement) * deltaTime;
+                        pickup.magnetized = true; radius = 12f;
+                    }
                 }
-                if (horizontal <= 4f && Mathf.Abs(pickup.position.y - Runner.transform.position.y - 3f) < 8f) Collect(pickup);
+                if (Runner.DoesSphereIntersectBoundingBox(pickup.position, radius)) Collect(pickup);
+                else
+                {
+                    pickup.position += pickup.velocity * Mathf.Min(deltaTime, 1f / 15f);
+                    pickup.visual.transform.position = pickup.position;
+                }
             }
         }
     }
@@ -264,6 +278,8 @@ public partial class TempleRunFlow
     {
         if (pickup.collected) return;
         pickup.collected = true; CollectedPickups++;
+        var source = pickup.visual ? pickup.visual.GetComponent<BonusItem>() : null;
+        if (source) Runner.AddScore(source.Value);
         if (pickup.visual) { pickup.visual.SetActive(false); Destroy(pickup.visual); }
         int level;
         switch (pickup.type)

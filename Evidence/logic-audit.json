@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-29",
+  "baselineCommit": "bd472ddf032a73f9065ca9a4e8238069b3ae6f9c",
+  "inputIdentity": {
+    "xapkSha256": "151eabad999a51ce24593d5a9e7d99421bdf46a5a89f61cab63a226fa67c9760",
+    "packagedNativeSha256": "40d634295843ceee9c019e6c862bed7fb2c3636d2b297f1d1eb6cc5818188d3d",
+    "extractedNativeSha256": "40d634295843ceee9c019e6c862bed7fb2c3636d2b297f1d1eb6cc5818188d3d",
+    "packagedMetadataSha256": "a8c8b4423015a4168de02ef89b14bf62607b3b4d70c4cd0fb8543307e007ae6b",
+    "extractedMetadataSha256": "a8c8b4423015a4168de02ef89b14bf62607b3b4d70c4cd0fb8543307e007ae6b"
+  },
+  "nativeExecution": {
+    "passed": true,
+    "cases": 927,
+    "methods": 19,
+    "report": "Evidence/native-logic-verification.json"
+  },
+  "baselineRegression": {
+    "status": "reproduced",
+    "failure": "Native/C# mismatch: SetGroundHeight [-15,-15,1]",
+    "meaning": "The old C# cleared a raised-ground flag that original ARM64 retained."
+  },
+  "reviewedLogicRegressions": {
+    "passed": true,
+    "cases": 52,
+    "execution": "Unity player; assertions derived from reviewed native branches, not full native frame execution"
+  },
+  "storeUtilityListIndices": {
+    "wings": 0,
+    "permanentWings": 1,
+    "headStart": 2,
+    "megaHeadStart": 3,
+    "evidence": "DecompiledNative/RecordManager/RecordManager_GetPriceForUpgradeType_12b3654.cpp"
+  },
+  "coverageLimits": [
+    "Native execution covers 19 selected methods and explicit fixtures; it does not establish complete APK equivalence.",
+    "Frame, controls, collision and utility integrations have source-reviewed regressions, rather than complete native Unity execution.",
+    "Course generation, steering/input timing, guided invincibility, revive orchestration, camera and local UI remain authored or partial integrations.",
+    "Coin attraction uses native force/range constants; the original ordering of Android/Unity component updates is not established.",
+    "Original score-multiplier progression, native records/achievements, automatic biome transitions and intro choreography are not fully restored.",
+    "Following-path movement and non-default velocity-limit branches are unverified.",
+    "Android builds and physical touch/accelerometer input were not tested."
+  ],
+  "playerChecks": {
+    "headless": 64,
+    "graphical": 66,
+    "passed": true,
+    "cornerCountVariesWithGeneratedRoute": true
+  },
+  "projectInspectionNote": "Three original advertising settings refer to unavailable SDK MonoScripts. An additional inspection entry is a UnityEditor PackageManager built-in reference in locally generated, untracked ProjectSettings/PackageManagerSettings.asset; it is not a restored gameplay MonoScript."
+}

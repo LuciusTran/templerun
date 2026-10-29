@@ -2,7 +2,7 @@
   "passed": true,
   "binarySha256": "40d634295843ceee9c019e6c862bed7fb2c3636d2b297f1d1eb6cc5818188d3d",
   "emulator": "Unicorn ARM64",
-  "caseCount": 876,
+  "caseCount": 927,
   "coverage": [
     {
       "class": "CharacterPlayer",
@@ -31,6 +31,41 @@
       "cases": 4,
       "fileOffset": 19653664,
       "elfVirtualAddress": 19670048
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "SetGroundHeight",
+      "cases": 18,
+      "fileOffset": 19652240,
+      "elfVirtualAddress": 19668624
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "GetRunVelocity",
+      "cases": 5,
+      "fileOffset": 19652268,
+      "elfVirtualAddress": 19668652
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "StartAngelWings",
+      "cases": 12,
+      "fileOffset": 19654720,
+      "elfVirtualAddress": 19671104
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "StartVacuum",
+      "cases": 4,
+      "fileOffset": 19654768,
+      "elfVirtualAddress": 19671152
+    },
+    {
+      "class": "CharacterPlayer",
+      "method": "StartBoost",
+      "cases": 12,
+      "fileOffset": 19654812,
+      "elfVirtualAddress": 19671196
     },
     {
       "class": "BonusItem",
@@ -1200,6 +1235,717 @@
       "after": [
         0,
         40
+      ]
+    },
+    {
+      "name": "SetGroundHeight",
+      "before": [
+        -15,
+        -15,
+        0
+      ],
+      "after": [
+        -15,
+        0
+      ]
+    },
+    {
+      "name": "SetGroundHeight",
+      "before": [
+        -15,
+        -15,
+        1
+      ],
+      "after": [
+        -15,
+        1
+      ]
+    },
+    {
+      "name": "SetGroundHeight",
+      "before": [
+        -15,
+        0,
+        0
+      ],
+      "after": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "SetGroundHeight",
+      "before": [
+        -15,
+        0,
+        1
+      ],
+      "after": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "SetGroundHeight",
+      "before": [
+        -15,
+        15,
+        0
+      ],
+      "after": [
+        15,
+        1
+      ]
+    },
+    {
+      "name": "SetGroundHeight",
+      "before": [
+        -15,
+        15,
+        1
+      ],
+      "after": [
+        15,
+        1
+      ]
+    },
+    {
+      "name": "SetGroundHeight",
+      "before": [
+        0,
+        -15,
+        0
+      ],
+      "after": [
+        -15,
+        0
+      ]
+    },
+    {
+      "name": "SetGroundHeight",
+      "before": [
+        0,
+        -15,
+        1
+      ],
+      "after": [
+        -15,
+        1
+      ]
+    },
+    {
+      "name": "SetGroundHeight",
+      "before": [
+        0,
+        0,
+        0
+      ],
+      "after": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "SetGroundHeight",
+      "before": [
+        0,
+        0,
+        1
+      ],
+      "after": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "SetGroundHeight",
+      "before": [
+        0,
+        15,
+        0
+      ],
+      "after": [
+        15,
+        1
+      ]
+    },
+    {
+      "name": "SetGroundHeight",
+      "before": [
+        0,
+        15,
+        1
+      ],
+      "after": [
+        15,
+        1
+      ]
+    },
+    {
+      "name": "SetGroundHeight",
+      "before": [
+        15,
+        -15,
+        0
+      ],
+      "after": [
+        -15,
+        0
+      ]
+    },
+    {
+      "name": "SetGroundHeight",
+      "before": [
+        15,
+        -15,
+        1
+      ],
+      "after": [
+        -15,
+        1
+      ]
+    },
+    {
+      "name": "SetGroundHeight",
+      "before": [
+        15,
+        0,
+        0
+      ],
+      "after": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "SetGroundHeight",
+      "before": [
+        15,
+        0,
+        1
+      ],
+      "after": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "SetGroundHeight",
+      "before": [
+        15,
+        15,
+        0
+      ],
+      "after": [
+        15,
+        0
+      ]
+    },
+    {
+      "name": "SetGroundHeight",
+      "before": [
+        15,
+        15,
+        1
+      ],
+      "after": [
+        15,
+        1
+      ]
+    },
+    {
+      "name": "GetRunVelocity",
+      "before": [
+        0,
+        100,
+        0
+      ],
+      "after": [
+        0
+      ]
+    },
+    {
+      "name": "GetRunVelocity",
+      "before": [
+        3,
+        99,
+        4
+      ],
+      "after": [
+        5
+      ]
+    },
+    {
+      "name": "GetRunVelocity",
+      "before": [
+        -6,
+        -7,
+        8
+      ],
+      "after": [
+        10
+      ]
+    },
+    {
+      "name": "GetRunVelocity",
+      "before": [
+        100,
+        0,
+        0
+      ],
+      "after": [
+        100
+      ]
+    },
+    {
+      "name": "GetRunVelocity",
+      "before": [
+        0,
+        -40,
+        -210
+      ],
+      "after": [
+        210
+      ]
+    },
+    {
+      "name": "StartAngelWings",
+      "before": [
+        0,
+        0,
+        0,
+        9
+      ],
+      "after": [
+        1,
+        0,
+        0,
+        45,
+        -1
+      ]
+    },
+    {
+      "name": "StartAngelWings",
+      "before": [
+        0,
+        0,
+        2,
+        9
+      ],
+      "after": [
+        1,
+        0,
+        0,
+        45,
+        1
+      ]
+    },
+    {
+      "name": "StartAngelWings",
+      "before": [
+        0,
+        1,
+        0,
+        9
+      ],
+      "after": [
+        1,
+        1,
+        0,
+        9,
+        0
+      ]
+    },
+    {
+      "name": "StartAngelWings",
+      "before": [
+        0,
+        1,
+        2,
+        9
+      ],
+      "after": [
+        1,
+        1,
+        0,
+        9,
+        2
+      ]
+    },
+    {
+      "name": "StartAngelWings",
+      "before": [
+        15,
+        0,
+        0,
+        9
+      ],
+      "after": [
+        1,
+        0,
+        15,
+        45,
+        -1
+      ]
+    },
+    {
+      "name": "StartAngelWings",
+      "before": [
+        15,
+        0,
+        2,
+        9
+      ],
+      "after": [
+        1,
+        0,
+        15,
+        45,
+        1
+      ]
+    },
+    {
+      "name": "StartAngelWings",
+      "before": [
+        15,
+        1,
+        0,
+        9
+      ],
+      "after": [
+        1,
+        1,
+        15,
+        9,
+        0
+      ]
+    },
+    {
+      "name": "StartAngelWings",
+      "before": [
+        15,
+        1,
+        2,
+        9
+      ],
+      "after": [
+        1,
+        1,
+        15,
+        9,
+        2
+      ]
+    },
+    {
+      "name": "StartAngelWings",
+      "before": [
+        30,
+        0,
+        0,
+        9
+      ],
+      "after": [
+        1,
+        0,
+        30,
+        45,
+        -1
+      ]
+    },
+    {
+      "name": "StartAngelWings",
+      "before": [
+        30,
+        0,
+        2,
+        9
+      ],
+      "after": [
+        1,
+        0,
+        30,
+        45,
+        1
+      ]
+    },
+    {
+      "name": "StartAngelWings",
+      "before": [
+        30,
+        1,
+        0,
+        9
+      ],
+      "after": [
+        1,
+        1,
+        30,
+        9,
+        0
+      ]
+    },
+    {
+      "name": "StartAngelWings",
+      "before": [
+        30,
+        1,
+        2,
+        9
+      ],
+      "after": [
+        1,
+        1,
+        30,
+        9,
+        2
+      ]
+    },
+    {
+      "name": "StartVacuum",
+      "before": [
+        -1
+      ],
+      "after": [
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "StartVacuum",
+      "before": [
+        0
+      ],
+      "after": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "StartVacuum",
+      "before": [
+        15
+      ],
+      "after": [
+        1,
+        15,
+        0
+      ]
+    },
+    {
+      "name": "StartVacuum",
+      "before": [
+        25
+      ],
+      "after": [
+        1,
+        25,
+        0
+      ]
+    },
+    {
+      "name": "StartBoost",
+      "before": [
+        0,
+        0,
+        0
+      ],
+      "after": [
+        1,
+        0,
+        50,
+        100,
+        1,
+        4,
+        13
+      ]
+    },
+    {
+      "name": "StartBoost",
+      "before": [
+        0,
+        0,
+        1
+      ],
+      "after": [
+        1,
+        0,
+        50,
+        123,
+        0,
+        7,
+        13
+      ]
+    },
+    {
+      "name": "StartBoost",
+      "before": [
+        0,
+        1,
+        0
+      ],
+      "after": [
+        1,
+        1,
+        50,
+        210,
+        1,
+        4,
+        13
+      ]
+    },
+    {
+      "name": "StartBoost",
+      "before": [
+        0,
+        1,
+        1
+      ],
+      "after": [
+        1,
+        1,
+        50,
+        123,
+        0,
+        7,
+        13
+      ]
+    },
+    {
+      "name": "StartBoost",
+      "before": [
+        250,
+        0,
+        0
+      ],
+      "after": [
+        1,
+        0,
+        300,
+        100,
+        1,
+        4,
+        13
+      ]
+    },
+    {
+      "name": "StartBoost",
+      "before": [
+        250,
+        0,
+        1
+      ],
+      "after": [
+        1,
+        0,
+        300,
+        123,
+        0,
+        7,
+        13
+      ]
+    },
+    {
+      "name": "StartBoost",
+      "before": [
+        250,
+        1,
+        0
+      ],
+      "after": [
+        1,
+        1,
+        300,
+        210,
+        1,
+        4,
+        13
+      ]
+    },
+    {
+      "name": "StartBoost",
+      "before": [
+        250,
+        1,
+        1
+      ],
+      "after": [
+        1,
+        1,
+        300,
+        123,
+        0,
+        7,
+        13
+      ]
+    },
+    {
+      "name": "StartBoost",
+      "before": [
+        950,
+        0,
+        0
+      ],
+      "after": [
+        1,
+        0,
+        1000,
+        100,
+        1,
+        4,
+        13
+      ]
+    },
+    {
+      "name": "StartBoost",
+      "before": [
+        950,
+        0,
+        1
+      ],
+      "after": [
+        1,
+        0,
+        1000,
+        123,
+        0,
+        7,
+        13
+      ]
+    },
+    {
+      "name": "StartBoost",
+      "before": [
+        950,
+        1,
+        0
+      ],
+      "after": [
+        1,
+        1,
+        1000,
+        210,
+        1,
+        4,
+        13
+      ]
+    },
+    {
+      "name": "StartBoost",
+      "before": [
+        950,
+        1,
+        1
+      ],
+      "after": [
+        1,
+        1,
+        1000,
+        123,
+        0,
+        7,
+        13
       ]
     },
     {
@@ -8802,6 +9548,7 @@
   "limitations": [
     "Executes selected original methods only; not the complete APK, Unity runtime, graphics or Android integrations.",
     "Turn checks cover metadata enum values 0..38 and origins 0..5; other integer inputs are not claimed.",
-    "IsTurn receives an initialized IL2CPP type-cache fixture; metadata resolution and class initialization are not executed."
+    "IsTurn and GetRunVelocity receive initialized IL2CPP type-cache fixtures; metadata resolution and class initialization are not executed.",
+    "StartBoost executes original invincibility/texture helpers with empty renderer arrays; Unity material rendering and standalone invincibility audio are not exercised."
   ]
 }
