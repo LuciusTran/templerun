@@ -1,20 +1,25 @@
 # Temple Run
 
-Project Temple Run 1.43.0 từ bộ APK đã cung cấp, đang phục hồi assets và gameplay C# theo bằng chứng IL2CPP.
+A Unity development project reconstructed from the supplied Temple Run 1.43.0 APK package. Extracted assets and native evidence are kept alongside the C# restoration so implementation decisions can be reviewed.
 
-- Engine gốc: Unity **2022.3.62f2**; kiến trúc ARM64.
-- Công cụ phân tích: [Reverse-Engineer-Game](https://github.com/LuciusTran/Reverse-Engineer-Game), Cpp2IL, AssetRipper và Ghidra có sẵn trên máy.
-- `Evidence/input-provenance.json`: định danh gói và SHA-256 các đầu vào.
-- `Evidence/apk-inventory.json`: đường dẫn, kích thước và SHA-256 từng file trong APK.
+## Source and tools
 
-## Tiến độ
+- Original engine: **Unity 2022.3.62f2**, Android ARM64, IL2CPP.
+- Development editor: **Unity 6000.4.12f1**. The exported project has completed an initial import; playable integration is in progress.
+- Analysis toolkit: [Reverse-Engineer-Game](https://github.com/LuciusTran/Reverse-Engineer-Game), with the existing local Cpp2IL, AssetRipper and Ghidra installations.
+- `Evidence/input-provenance.json`: input identities and SHA-256 digests.
+- `Evidence/apk-inventory.json`: package paths, sizes and file digests.
+- [Native method index](DecompiledNative/INDEX.md): 472 decompiled native bodies, with their original method bytes checked against the ARM64 library.
 
-- [x] Kiểm kê XAPK, APK chính và split ARM64; xác định Unity/IL2CPP.
-- [x] Trích xuất assets và cấu trúc project Unity.
-- [x] Ánh xạ 6.930 thân hàm game/Unity; dịch ngược 472 thân hàm được chọn, kiểm tra toàn bộ bytes từng hàm.
-- [ ] Phục hồi luồng C# và kiểm thử player.
+## Progress
 
-Assets và scene gốc đã xuất vào `Assets/`. Các script hiện còn thân hàm stub; chưa phải project có thể chơi.
-Không đưa APK, thư viện native gốc, cache editor, credentials hoặc tool binaries vào repository.
+- [x] Inventory the XAPK, base APK and ARM64 split; identify Unity and IL2CPP.
+- [x] Export assets and the Unity project structure.
+- [x] Map 6,930 game/Unity method bodies and decompile 472 selected native bodies.
+- [ ] Translate gameplay into C# and verify a complete player flow.
 
-Mã giả native: [DecompiledNative/INDEX.md](DecompiledNative/INDEX.md). Metadata thô nằm ngoài `Assets` trong `NativeMapWithAddresses/`; các thân hàm ở đó là stub, không phải C# gameplay đã phục hồi.
+The original exported scene is `Assets/Scenes/GamePlay.unity`. Its scripts still contain metadata stubs; this scene is a reference rather than a verified playable build. Raw metadata declarations are stored outside `Assets` in `NativeMapWithAddresses/`.
+
+Native decompiler output is C/C++ pseudocode, not original C# source or a compilable C++ project. Unresolved runtime helpers and integration differences are recorded in `Evidence/`. Original APKs, native libraries, editor caches, credentials and tool binaries are excluded from Git.
+
+All project documentation and newly authored code comments and UI use English. Original asset identifiers and serialized references are preserved.
