@@ -26,6 +26,7 @@ public partial class TempleRunFlow : MonoBehaviour
     public Camera GameCamera { get; private set; }
     private TempleRunCatalog catalog;
     private GameObject avatar;
+    private GameObject waterPlane;
     private AudioSource music, effects;
     private string profilePath;
     private float distanceRemainder, saveClock, noticeUntil, turnBufferTime;
@@ -39,7 +40,9 @@ public partial class TempleRunFlow : MonoBehaviour
     {
         if (Instance && Instance != this) { Destroy(gameObject); return; }
         Instance = this;
-        TestMode = Array.IndexOf(Environment.GetCommandLineArgs(), "--temple-test") >= 0;
+        string[] arguments = Environment.GetCommandLineArgs();
+        int captureIndex = Array.IndexOf(arguments, "--capture-path");
+        TestMode = Array.IndexOf(arguments, "--temple-test") >= 0 || captureIndex >= 0;
         profilePath = Path.Combine(Application.persistentDataPath, TestMode
             ? "test-profile-" + System.Diagnostics.Process.GetCurrentProcess().Id + ".json" : "profile.json");
         Profile = LoadProfile(profilePath);
@@ -54,7 +57,8 @@ public partial class TempleRunFlow : MonoBehaviour
         Runner.Reset(); Runner.SetY(BaseHeight); Runner.Hold = true; Runner.PlayAnimation("Idle");
         SnapCamera();
         CurrentPage = Page.Home;
-        if (TestMode) StartCoroutine(TempleRunPlayerChecks.Run(this));
+        if (captureIndex >= 0 && captureIndex + 1 < arguments.Length) StartCoroutine(TempleRunCapture.Run(this, arguments[captureIndex + 1]));
+        else if (TestMode) StartCoroutine(TempleRunPlayerChecks.Run(this));
     }
 
     public void BeginRun(bool resume = false)
@@ -203,6 +207,12 @@ public partial class TempleRunFlow : MonoBehaviour
         GameCamera.transform.position = Vector3.Lerp(GameCamera.transform.position, target, 1f - Mathf.Exp(-7f * Time.unscaledDeltaTime));
         Quaternion rotation = Quaternion.LookRotation(new Vector3(position.x, height + 20f, position.z) - GameCamera.transform.position);
         GameCamera.transform.rotation = Quaternion.Slerp(GameCamera.transform.rotation, rotation, 1f - Mathf.Exp(-10f * Time.unscaledDeltaTime));
+        if (waterPlane)
+        {
+            // DecompiledNative/GameCamera/GameCamera_UpdateWater_12d8070.cpp
+            Vector3 camera = GameCamera.transform.position;
+            waterPlane.transform.position = new Vector3((int)(camera.x / 200f) * 200f, -30.5f, (int)(camera.z / 200f) * 200f);
+        }
         for (int i = 0; i < pursuers.Count; i++)
         {
             if (!pursuers[i]) continue;
@@ -227,5 +237,11 @@ public partial class TempleRunFlow : MonoBehaviour
     private void Notice(string message) { notice = message; noticeUntil = Time.unscaledTime + 3f; }
     private void OnApplicationPause(bool paused) { if (paused && IsPlaying) Pause(); }
     private void OnApplicationQuit() { if (Runner && (IsPlaying || CurrentPage == Page.Paused)) SaveRun(); Time.timeScale = 1f; }
-    private void OnDestroy() { TempleRunEvents.Died -= NotifyDeath; if (Instance == this) Instance = null; Time.timeScale = 1f; }
+    private void OnDestroy()
+    {
+        TempleRunEvents.Died -= NotifyDeath;
+        foreach (var material in avatarMaterials) if (material) Destroy(material);
+        if (Instance == this) Instance = null;
+        Time.timeScale = 1f;
+    }
 }

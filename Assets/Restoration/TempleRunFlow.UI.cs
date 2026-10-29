@@ -102,11 +102,19 @@ public partial class TempleRunFlow
         else if (CurrentPage == Page.Characters)
         {
             Panel(65, 835); Label(40, 80, 460, 70, "CHARACTERS", titleStyle);
-            characterScroll = GUI.BeginScrollView(new Rect(40, 180, 460, 590), characterScroll, new Rect(0, 0, 430, catalog.characters.Length * 72));
+            int visibleCount = 0;
+            var distinct = new System.Collections.Generic.HashSet<int>();
+            foreach (int original in catalog.originalCharacterIndices) if (original < 0 || distinct.Add(original)) visibleCount++;
+            characterScroll = GUI.BeginScrollView(new Rect(40, 180, 460, 590), characterScroll, new Rect(0, 0, 430, visibleCount * 72));
+            int row = 0;
+            var shown = new System.Collections.Generic.HashSet<int>();
             for (int i = 0; i < catalog.characters.Length; i++)
             {
-                string selected = i == Profile.character ? "  SELECTED" : Profile.ownedCharacters.Contains(i) ? "  OWNED" : "";
-                if (Button(5, i * 72, 415, 60, catalog.characterNames[i] + selected)) SelectCharacter(i);
+                int original = catalog.originalCharacterIndices[i];
+                if (original >= 0 && !shown.Add(original)) continue;
+                bool active = i == Profile.character || (original >= 0 && original == catalog.originalCharacterIndices[Profile.character]);
+                string selected = active ? "  SELECTED" : CharacterOwned(i) ? "  OWNED" : "";
+                if (Button(5, row++ * 72, 415, 60, catalog.characterNames[i] + selected)) SelectCharacter(i);
             }
             GUI.EndScrollView();
             if (Button(170, 820, 200, 60, "BACK")) CurrentPage = Page.Home;

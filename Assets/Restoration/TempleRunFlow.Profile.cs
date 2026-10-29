@@ -5,6 +5,7 @@ using UnityEngine;
 
 public partial class TempleRunFlow
 {
+    private readonly List<Material> avatarMaterials = new List<Material>();
     [Serializable] public class RunData
     {
         public int seed, randomDraws, generatedCount, untilTurn, sinceObstacle, tileIndex, revives, bankedCoins;
@@ -131,9 +132,9 @@ public partial class TempleRunFlow
     public bool SelectCharacter(int index)
     {
         if (index < 0 || index >= catalog.characters.Length) return false;
-        if (!Profile.ownedCharacters.Contains(index) && !DeveloperUnlocks)
+        if (!CharacterOwned(index) && !DeveloperUnlocks)
         {
-            int priceIndex = index - 1;
+            int priceIndex = catalog.originalCharacterIndices[index] - 1;
             if (priceIndex < 0 || priceIndex >= TempleRunRules.Config.Store.Characters.Length) { Notice("This extracted variant is available in developer mode."); return false; }
             int cost = TempleRunRules.Config.Store.Characters[priceIndex];
             if (Profile.coins < cost) { Notice("Not enough coins."); return false; }
@@ -141,6 +142,15 @@ public partial class TempleRunFlow
         }
         Profile.character = index; CreateRunner(); Runner.Reset(); Runner.SetY(BaseHeight); Runner.Hold = true;
         SnapCamera(); SaveProfile(); return true;
+    }
+    private bool CharacterOwned(int index)
+    {
+        if (Profile.ownedCharacters.Contains(index)) return true;
+        int original = catalog.originalCharacterIndices[index];
+        if (original < 0) return false;
+        foreach (int owned in Profile.ownedCharacters)
+            if (owned >= 0 && owned < catalog.originalCharacterIndices.Length && catalog.originalCharacterIndices[owned] == original) return true;
+        return original == 0;
     }
     public bool UseWings()
     {
@@ -172,6 +182,8 @@ public partial class TempleRunFlow
         RenderSettings.ambientLight = new Color(.75f, .8f, .73f);
         RenderSettings.fog = true; RenderSettings.fogMode = FogMode.Linear; RenderSettings.fogStartDistance = 250f; RenderSettings.fogEndDistance = 700f;
         RenderSettings.fogColor = GameCamera.backgroundColor;
+        var waterPrefab = Resources.Load<GameObject>("TempleRunWater");
+        if (waterPrefab) waterPlane = Instantiate(waterPrefab);
         music = gameObject.AddComponent<AudioSource>(); music.loop = true; music.volume = .25f;
         music.clip = Resources.Load<AudioClip>("music/BackgroundMusic");
         effects = gameObject.AddComponent<AudioSource>();
@@ -185,11 +197,28 @@ public partial class TempleRunFlow
         var actor = new GameObject("Native-derived CharacterPlayer"); actor.transform.SetPositionAndRotation(position, rotation);
         Runner = actor.AddComponent<CharacterPlayer>();
         int index = Mathf.Clamp(Profile.character, 0, catalog.characters.Length - 1);
+        Profile.character = index;
         avatar = Instantiate(catalog.characters[index], actor.transform, false);
         avatar.transform.localPosition = Vector3.zero; avatar.transform.localRotation = Quaternion.identity;
         Runner.CharacterModel = avatar; Runner.AnimateObject = avatar.GetComponentInChildren<Animation>();
         Runner.RenderObject = avatar.GetComponentsInChildren<Renderer>();
         Runner.AttachmentsRenderObjects = Array.Empty<Renderer>();
+        foreach (var material in avatarMaterials) if (material) Destroy(material);
+        avatarMaterials.Clear();
+        if (catalog.characterTextures != null && index < catalog.characterTextures.Length && catalog.characterTextures[index])
+        {
+            foreach (var renderer in Runner.RenderObject)
+            {
+                Material[] materials = renderer.sharedMaterials;
+                for (int i = 0; i < materials.Length; i++)
+                {
+                    if (!materials[i]) continue;
+                    materials[i] = new Material(materials[i]) { mainTexture = catalog.characterTextures[index] };
+                    avatarMaterials.Add(materials[i]);
+                }
+                renderer.sharedMaterials = materials;
+            }
+        }
         foreach (var animation in avatar.GetComponentsInChildren<Animation>()) animation.cullingType = AnimationCullingType.AlwaysAnimate;
         foreach (var monster in pursuers) if (monster) Destroy(monster);
         pursuers.Clear();

@@ -2,6 +2,7 @@ using UnityEngine;
 
 public partial class TempleRunFlow
 {
+    public GameObject WaterSurface => waterPlane;
     public int TotalGeneratedTiles => generatedCount;
     public bool TestTurnReady()
     {

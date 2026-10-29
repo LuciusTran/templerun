@@ -42,25 +42,52 @@ MonoBehaviour:
   - Guy Dangerous
   - Frost Pirate
   - Halloween Werewolf
-  - Joker Clown Girl
-  - Mystic Monk Kai
+  - Carnifex
+  - Kai Xiang
   - Nidhi Nirmal
   - Queen Astrid
   - SeleneAstronaut
-  - Sigur Chronos Timebeard
-  - Simone Davies Commodore
-  - Skeleton
+  - Sigur Chronos
+  - Simone Davies
+  - Edgar Twiggenbottom
   - Wally Nut
-  - XiXueGui
-  - bb Export1
-  - bb Export1
-  - china Export1
-  - china Export1
-  - conquis Export1
-  - conquis Export1
-  - football Export1
-  - football Export1
-  - girl Export1
-  - girl Export1
-  - indi Export1
-  - indi Export1
+  - Vampire
+  - Barry Bones
+  - Barry Bones
+  - Karma Lee
+  - Karma Lee
+  - Francisco Montoya
+  - Francisco Montoya
+  - Zack Wonder
+  - Zack Wonder
+  - Scarlett Fox
+  - Scarlett Fox
+  - Montana Smith
+  - Montana Smith
+  characterTextures:
+  - {fileID: 2800000, guid: 94976c8f5714a6b40b7eee3513f4f457, type: 3}
+  - {fileID: 2800000, guid: 68a3a8ea150dd2b4d926493baabed077, type: 3}
+  - {fileID: 0}
+  - {fileID: 2800000, guid: e41de54844bd4494baa34429008dcca1, type: 3}
+  - {fileID: 2800000, guid: 9c2356746af0791488e99842c3d6a8d5, type: 3}
+  - {fileID: 2800000, guid: 9da77e2c3e6ab854abd617f2c5a6b468, type: 3}
+  - {fileID: 2800000, guid: 46009291f3459c94ab3c79147330a8bb, type: 3}
+  - {fileID: 0}
+  - {fileID: 2800000, guid: 5820659f90c3f8445b67a83f3f1fdaf6, type: 3}
+  - {fileID: 2800000, guid: ea5b2b48545ed3e42be0351eca7a2663, type: 3}
+  - {fileID: 2800000, guid: 2c557c195a2bd9c42b80a1e2a9d5c847, type: 3}
+  - {fileID: 2800000, guid: c5764e812f5145245b6898deb140640a, type: 3}
+  - {fileID: 0}
+  - {fileID: 2800000, guid: 31243c079f31236419ecfeb9edce95a9, type: 3}
+  - {fileID: 2800000, guid: 31243c079f31236419ecfeb9edce95a9, type: 3}
+  - {fileID: 2800000, guid: 088be8a1480f35e4ba3449baddb462f2, type: 3}
+  - {fileID: 2800000, guid: 088be8a1480f35e4ba3449baddb462f2, type: 3}
+  - {fileID: 2800000, guid: 6dfcf2f7fb73e4c4296aafdf0472c53b, type: 3}
+  - {fileID: 2800000, guid: 6dfcf2f7fb73e4c4296aafdf0472c53b, type: 3}
+  - {fileID: 2800000, guid: 24b6b7558fb052e4886770d47935a5e6, type: 3}
+  - {fileID: 2800000, guid: 24b6b7558fb052e4886770d47935a5e6, type: 3}
+  - {fileID: 2800000, guid: 703e59ae14ad5cd4a83f76908f1548a7, type: 3}
+  - {fileID: 2800000, guid: 703e59ae14ad5cd4a83f76908f1548a7, type: 3}
+  - {fileID: 2800000, guid: 0861667080d71754dabaf24141e81813, type: 3}
+  - {fileID: 2800000, guid: 0861667080d71754dabaf24141e81813, type: 3}
+  originalCharacterIndices: 000000000b000000ffffffff0a000000090000000f0000000d000000ffffffff0e00000007000000080000000c000000ffffffff020000000200000003000000030000000500000005000000060000000600000001000000010000000400000004000000

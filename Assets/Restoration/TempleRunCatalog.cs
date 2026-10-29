@@ -5,4 +5,6 @@ public sealed class TempleRunCatalog : ScriptableObject
 {
     public GameObject[] characters;
     public string[] characterNames;
+    public Texture2D[] characterTextures;
+    public int[] originalCharacterIndices;
 }

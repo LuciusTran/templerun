@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "unityVersion": "6000.4.12f1",
+  "graphicsDevice": "llvmpipe (LLVM 21.1.8, 256 bits)",
+  "width": 540,
+  "height": 960,
+  "characterRenderers": 1,
+  "characterRenderersInFrustum": 1,
+  "characterRenderersWithTextures": 1,
+  "images": [
+    "/home/dong/Projects/TempleRun-Reconstruction/Evidence/templerun-home.png",
+    "/home/dong/Projects/TempleRun-Reconstruction/Evidence/templerun-run.png",
+    "/home/dong/Projects/TempleRun-Reconstruction/Evidence/templerun-pause.png",
+    "/home/dong/Projects/TempleRun-Reconstruction/Evidence/templerun-jump.png"
+  ],
+  "repositoryImages": [
+    "Docs/screenshots/home.png",
+    "Docs/screenshots/run.png",
+    "Docs/screenshots/pause.png",
+    "Docs/screenshots/jump.png"
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "source": "Assets/Scenes/GamePlay.unity: CharacterPlayer.Characters and CharacterPlayer.Textures",
+  "characters": [
+    {
+      "originalIndex": 0,
+      "prefabGuid": "73c879a1686f8f04f81ad97ac97972e9",
+      "textureGuid": "94976c8f5714a6b40b7eee3513f4f457",
+      "prefab": "Assets/Resources/prefabs/temple/characters/Jhony_Export3_prefab.prefab",
+      "texture": "Assets/Texture2D/playerTexture.png",
+      "displayName": "Guy Dangerous"
+    },
+    {
+      "originalIndex": 1,
+      "prefabGuid": "9909aeedc0e127b4ba514fb0c0cff7d4",
+      "textureGuid": "703e59ae14ad5cd4a83f76908f1548a7",
+      "prefab": "Assets/Resources/prefabs/temple/characters/extra characters/resources/girl_Export1_prefab.prefab",
+      "texture": "Assets/Resources/textures/playerTexture_grl.png",
+      "displayName": "Scarlett Fox"
+    },
+    {
+      "originalIndex": 2,
+      "prefabGuid": "956b35e88f2cc1f4183a4f3efa6f13d7",
+      "textureGuid": "31243c079f31236419ecfeb9edce95a9",
+      "prefab": "Assets/Resources/prefabs/temple/characters/extra characters/resources/bb_Export1_prefab.prefab",
+      "texture": "Assets/Resources/textures/playerTexture_bb.png",
+      "displayName": "Barry Bones"
+    },
+    {
+      "originalIndex": 3,
+      "prefabGuid": "f5ac0d28fc710d84eb93ccb057b38a9e",
+      "textureGuid": "088be8a1480f35e4ba3449baddb462f2",
+      "prefab": "Assets/Resources/china_Export1_prefab.prefab",
+      "texture": "Assets/Resources/textures/playerTexture_china.png",
+      "displayName": "Karma Lee"
+    },
+    {
+      "originalIndex": 4,
+      "prefabGuid": "9bc48170b630e4d41857b22e2c345b0b",
+      "textureGuid": "0861667080d71754dabaf24141e81813",
+      "prefab": "Assets/Resources/prefabs/temple/characters/extra characters/resources/indi_Export1_prefab.prefab",
+      "texture": "Assets/Resources/textures/playerTexture_indi.png",
+      "displayName": "Montana Smith"
+    },
+    {
+      "originalIndex": 5,
+      "prefabGuid": "4d055935a4b706e4aa7e3cf3b9877192",
+      "textureGuid": "6dfcf2f7fb73e4c4296aafdf0472c53b",
+      "prefab": "Assets/Resources/prefabs/temple/characters/extra characters/resources/conquis_Export1_prefab.prefab",
+      "texture": "Assets/Resources/textures/playerTextureConq.png",
+      "displayName": "Francisco Montoya"
+    },
+    {
+      "originalIndex": 6,
+      "prefabGuid": "65c6036b92d791841aa79d1b981a2b1d",
+      "textureGuid": "24b6b7558fb052e4886770d47935a5e6",
+      "prefab": "Assets/Resources/football_Export1_prefab.prefab",
+      "texture": "Assets/Resources/textures/playerTexture_foot.png",
+      "displayName": "Zack Wonder"
+    },
+    {
+      "originalIndex": 7,
+      "prefabGuid": "b8b21dde31b5e9e40b37d7ea6a123a2b",
+      "textureGuid": "ea5b2b48545ed3e42be0351eca7a2663",
+      "prefab": "Assets/Resources/Simone_Davies_Commodore_prefab.prefab",
+      "texture": "Assets/Resources/textures/Simone_Davies_Commodore.png",
+      "displayName": "Simone Davies"
+    },
+    {
+      "originalIndex": 8,
+      "prefabGuid": "8b240866cdaff804f81aa84c82ba3b09",
+      "textureGuid": "2c557c195a2bd9c42b80a1e2a9d5c847",
+      "prefab": "Assets/Resources/Skeleton_prefab.prefab",
+      "texture": "Assets/Resources/textures/playerTextureSkeleton.png",
+      "displayName": "Edgar Twiggenbottom"
+    },
+    {
+      "originalIndex": 9,
+      "prefabGuid": "a67c0eeaf9e27e943b81eed433022f07",
+      "textureGuid": "9c2356746af0791488e99842c3d6a8d5",
+      "prefab": "Assets/Resources/Mystic_Monk_Kai.prefab",
+      "texture": "Assets/Resources/textures/Mystic_Monk_Skin_Dragon_Flame.png",
+      "displayName": "Kai Xiang"
+    },
+    {
+      "originalIndex": 10,
+      "prefabGuid": "2edff2331df14904eb47439f97bebf53",
+      "textureGuid": "e41de54844bd4494baa34429008dcca1",
+      "prefab": "Assets/Resources/Joker_Clown_Girl_prefab.prefab",
+      "texture": "Assets/Resources/textures/Joker_Clown_Girl.png",
+      "displayName": "Carnifex"
+    },
+    {
+      "originalIndex": 11,
+      "prefabGuid": "656f9ffa1d235a44480a2598698a5707",
+      "textureGuid": "68a3a8ea150dd2b4d926493baabed077",
+      "prefab": "Assets/Resources/Frost_Pirate_prefab.prefab",
+      "texture": "Assets/Resources/textures/Jean_Benitez_Frost_Pirate.png",
+      "displayName": "Frost Pirate"
+    },
+    {
+      "originalIndex": 12,
+      "prefabGuid": "0ac98e6928e70f9409d0035d7c706573",
+      "textureGuid": "c5764e812f5145245b6898deb140640a",
+      "prefab": "Assets/Resources/Wally_Nut_prefab.prefab",
+      "texture": "Assets/Resources/textures/Nutcracker.png",
+      "displayName": "Wally Nut"
+    },
+    {
+      "originalIndex": 13,
+      "prefabGuid": "f7bfe38d495d75c4ab086ea6638b7b45",
+      "textureGuid": "46009291f3459c94ab3c79147330a8bb",
+      "prefab": "Assets/Resources/Queen_Astrid_prefab.prefab",
+      "texture": "Assets/Resources/textures/Dragon_Queen.png",
+      "displayName": "Queen Astrid"
+    },
+    {
+      "originalIndex": 14,
+      "prefabGuid": "5ddc0d52b3fa0b546b411e93ac54aba7",
+      "textureGuid": "5820659f90c3f8445b67a83f3f1fdaf6",
+      "prefab": "Assets/Resources/Sigur_Chronos_Timebeard_prefab.prefab",
+      "texture": "Assets/Resources/textures/Viking_Baldur_Skin_Chronos.png",
+      "displayName": "Sigur Chronos"
+    },
+    {
+      "originalIndex": 15,
+      "prefabGuid": "680c9813ff395754e8dfb1214bb2cccf",
+      "textureGuid": "9da77e2c3e6ab854abd617f2c5a6b468",
+      "prefab": "Assets/Resources/Nidhi_Nirmal_prefab.prefab",
+      "texture": "Assets/Resources/textures/Nidhi_Nirmal.png",
+      "displayName": "Nidhi Nirmal"
+    }
+  ],
+  "nameSources": [
+    "Assets/Resources/Strings.txt",
+    "Original English prefab identifiers for later characters"
+  ]
+}

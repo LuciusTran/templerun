@@ -48,10 +48,16 @@
         "Native 90-degree turn connects original corner geometry 15",
         "Native 90-degree turn connects original corner geometry 16",
         "Native 90-degree turn connects original corner geometry 17",
+        "Native 90-degree turn connects original corner geometry 18",
         "Endless track appends connected tiles and releases old world objects",
         "Original biome ground geometry and height 1",
         "Original biome ground geometry and height 2",
         "Original biome ground geometry and height 3",
+        "Character catalog binds the original scene index, texture and English name",
+        "Character purchase uses its original index and shipped 10000-coin price",
+        "Selected extracted character renders with its original scene texture",
+        "Duplicate extracted prefab aliases share purchased character ownership",
+        "Original water plane mesh and texture are instantiated",
         "Resume restarts a paused run",
         "Returning home preserves a continuable run"
     ]

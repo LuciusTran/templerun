@@ -120,6 +120,23 @@ public static class TempleRunPlayerChecks
             float expectedHeight = biome == 1 ? -15f : biome == 3 ? 15f : 0f;
             Check(runner.IsOnGround && Mathf.Abs(runner.GroundHeight - expectedHeight) < .01f, "Original biome ground geometry and height " + biome);
         }
+        var catalog = Resources.Load<TempleRunCatalog>("TempleRunCatalog");
+        int scarlett = Array.IndexOf(catalog.originalCharacterIndices, 1);
+        Check(scarlett >= 0 && catalog.characterTextures[scarlett] && catalog.characterNames[scarlett] == "Scarlett Fox",
+            "Character catalog binds the original scene index, texture and English name");
+        flow.GoHome(); flow.Profile.coins = 15000;
+        Check(flow.SelectCharacter(scarlett) && flow.Profile.coins == 5000,
+            "Character purchase uses its original index and shipped 10000-coin price");
+        runner = flow.Runner;
+        Check(runner.RenderObject[0].sharedMaterial.mainTexture == catalog.characterTextures[scarlett],
+            "Selected extracted character renders with its original scene texture");
+        int alias = Array.FindLastIndex(catalog.originalCharacterIndices, value => value == 1);
+        if (alias != scarlett)
+            Check(flow.SelectCharacter(alias) && flow.Profile.coins == 5000,
+                "Duplicate extracted prefab aliases share purchased character ownership");
+        runner = flow.Runner;
+        Check(flow.WaterSurface && flow.WaterSurface.GetComponent<MeshFilter>().sharedMesh &&
+            flow.WaterSurface.GetComponent<Renderer>().sharedMaterial.mainTexture, "Original water plane mesh and texture are instantiated");
         flow.Profile.biome = 2; flow.BeginRun();
         flow.Pause(); flow.Resume(); Check(flow.IsPlaying && Time.timeScale == 1f, "Resume restarts a paused run");
         flow.GoHome(); Check(flow.CurrentPage == TempleRunFlow.Page.Home && flow.Profile.hasRun, "Returning home preserves a continuable run");

@@ -11,6 +11,9 @@ public static class TempleRunProjectBuilder
 {
     [Serializable] private class MaterialChange { public string asset, originalShader, replacementShader, texture; }
     [Serializable] private class Changes { public List<MaterialChange> materials = new List<MaterialChange>(); }
+    [Serializable] private class CharacterBinding { public int originalIndex; public string prefab, texture, displayName; }
+    [Serializable] private class CharacterBindings { public CharacterBinding[] characters; }
+    private static string CharacterKey(string path) => Path.GetFileNameWithoutExtension(path).Replace("_prefab", "").ToLowerInvariant();
 
     [InitializeOnLoadMethod]
     private static void OpenPlayableSceneOnFirstStart()
@@ -40,6 +43,21 @@ public static class TempleRunProjectBuilder
         catalog.characters = paths.Distinct().Select(AssetDatabase.LoadAssetAtPath<GameObject>).ToArray();
         catalog.characterNames = paths.Distinct().Select(p => Path.GetFileNameWithoutExtension(p).Replace("_prefab", "").Replace("_", " ")).ToArray();
         catalog.characterNames[0] = "Guy Dangerous";
+        var bindings = JsonUtility.FromJson<CharacterBindings>(Resources.Load<TextAsset>("TempleRunCharacterBindings").text).characters;
+        var selectedPaths = paths.Distinct().ToArray();
+        catalog.characterTextures = new Texture2D[selectedPaths.Length];
+        catalog.originalCharacterIndices = new int[selectedPaths.Length];
+        for (int i = 0; i < selectedPaths.Length; i++)
+        {
+            var binding = bindings.FirstOrDefault(b => CharacterKey(b.prefab) == CharacterKey(selectedPaths[i]));
+            catalog.originalCharacterIndices[i] = binding != null ? binding.originalIndex : -1;
+            if (binding != null)
+            {
+                catalog.characterTextures[i] = AssetDatabase.LoadAssetAtPath<Texture2D>(binding.texture);
+                catalog.characterNames[i] = binding.displayName;
+            }
+            else if (CharacterKey(selectedPaths[i]) == "xixuegui") catalog.characterNames[i] = "Vampire";
+        }
         if (catalog.characters.Any(c => !c)) throw new InvalidOperationException("An extracted character prefab could not be loaded.");
         EditorUtility.SetDirty(catalog);
         AdaptMaterials();

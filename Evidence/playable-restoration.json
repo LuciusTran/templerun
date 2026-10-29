@@ -5,7 +5,7 @@
   "restoredExportedMethodBodies": 71,
   "nativeReferenceBodies": 481,
   "verifiedNativeGoldenCases": 876,
-  "integrationChecks": 51,
+  "integrationChecks": 57,
   "nativeDerivedHelpers": [
     {
       "source": "CharacterPlayer.Recovered.cs",
@@ -26,18 +26,25 @@
       "source": "TempleRunRules.cs",
       "native": "DecompiledNative/GameController/GameController_ComputeDistanceTraveled_129288c.cpp",
       "coverage": "Squared-speed distance equation and fractional-score remainder; tutorial/UI branches omitted."
+    },
+    {
+      "source": "TempleRunFlow.cs:LateUpdate",
+      "native": "DecompiledNative/GameCamera/GameCamera_UpdateWater_12d8070.cpp",
+      "coverage": "Original water mesh/material and quantized X/Z follow; shader adapted for the built-in renderer."
     }
   ],
   "authoredIntegration": [
     "Host/UI and local profile/run snapshots",
     "Course scheduling, object retention and resource binding",
     "Desktop/mobile input adapter",
-    "Local character catalog/shop association",
+    "Local character catalog UI and purchase/profile integration using original character indices",
     "Camera/guardians and guided invincibility bridge",
     "Built-in shader replacements retaining extracted textures"
   ],
   "limitations": [
     "Original NGUI/intro/online/platform systems and exact course distribution are not fully restored.",
     "Scripted integration checks do not verify physical pointer/touch/accelerometer input or Android builds."
-  ]
+  ],
+  "graphicalIntegrationChecks": 57,
+  "characterBindings": "Assets/Resources/TempleRunCharacterBindings.json: 16 original scene model/texture pairs and indices; duplicate export aliases share ownership."
 }

@@ -1,0 +1,16 @@
+{
+  "sourceScene": "Assets/Scenes/GamePlay.unity",
+  "sourceGameObject": "Water Plane",
+  "sourceGameObjectFileId": 13,
+  "copiedComponentFileIds": [
+    "1996",
+    "3969",
+    "3968"
+  ],
+  "output": "Assets/Resources/TempleRunWater.prefab",
+  "meshGuid": "a44b34e8dece23e4a86cc7658956cf31",
+  "materialGuid": "4d8af386e2bee4c44a4146b6bde4d71f",
+  "height": -30.5,
+  "cameraFollowSource": "DecompiledNative/GameCamera/GameCamera_UpdateWater_12d8070.cpp",
+  "cameraFollowRule": "Truncate camera X and Z divided by 200, multiply by 200; retain original water height."
+}
